@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+dist/
+*.egg-info/
+.pytest_cache/
+checkpoints/*.pt
+artifacts/scaler.pkl
+artifacts/best_hparams.json
+features/*.parquet
+predictions/
+.env
