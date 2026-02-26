@@ -19,6 +19,7 @@ numpy = "^1.24"
 matplotlib = "^3.10.8"
 pymysql = "^1.1.2"
 sqlalchemy = "^2.0.47"
+python-dotenv = "^1.2.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.0"
