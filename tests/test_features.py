@@ -1,4 +1,4 @@
-"""Unit tests for feature assembly — verifies 37-column output."""
+"""Unit tests for feature assembly."""
 
 from unittest.mock import patch
 
@@ -35,13 +35,13 @@ class TestBarthag:
 
 
 class TestFeatureAssembly:
-    """Test that build_features produces exactly 37 columns with correct names."""
+    """Test that build_features produces the expected columns."""
 
     @patch("src.features.load_lines")
     @patch("src.features.load_boxscores")
     @patch("src.features.load_efficiency_ratings")
     @patch("src.features.load_games")
-    def test_37_columns(self, mock_games, mock_ratings, mock_box, mock_lines):
+    def test_feature_order_columns(self, mock_games, mock_ratings, mock_box, mock_lines):
         # Mock games
         mock_games.return_value = pd.DataFrame([{
             "gameId": 1,
@@ -91,8 +91,10 @@ class TestFeatureAssembly:
         df = build_features(2025)
         assert not df.empty
 
-        feat = get_feature_matrix(df)
-        assert feat.shape[1] == 37, f"Expected 37 columns, got {feat.shape[1]}"
+        # Feature matrix should match config.FEATURE_ORDER
+        n_features = len(config.FEATURE_ORDER)
+        feat = get_feature_matrix(df, feature_order=config.FEATURE_ORDER)
+        assert feat.shape[1] == n_features, f"Expected {n_features} columns, got {feat.shape[1]}"
         assert list(feat.columns) == config.FEATURE_ORDER
 
     @patch("src.features.load_lines")

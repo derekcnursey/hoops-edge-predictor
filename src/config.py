@@ -31,7 +31,7 @@ EWM_SPAN = 15  # span parameter for pandas ewm (matches ROLLING_WINDOW)
 FEATURE_ORDER: list[str] = json.loads(
     (ARTIFACTS_DIR / "feature_order.json").read_text()
 )
-assert len(FEATURE_ORDER) == 37, f"Expected 37 features, got {len(FEATURE_ORDER)}"
+assert len(FEATURE_ORDER) >= 10, f"Expected >=10 features, got {len(FEATURE_ORDER)}"
 
 # ── Column mappings from S3 Parquet schemas ──────────────────────────
 

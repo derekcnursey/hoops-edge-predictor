@@ -1,8 +1,9 @@
-"""Assemble the 37-feature vector for each game.
+"""Assemble the feature vector for each game.
 
 Combines:
   - Group 1 (11 features): efficiency metrics from gold/team_adjusted_efficiencies + fct_games
   - Group 2 (26 features): rolling four-factor averages from fct_pbp_game_teams_flat
+  - Extra feature groups (optional): rest_days, sos, conf_strength, form_delta, tov_rate, margin_std
 """
 
 from __future__ import annotations
@@ -10,15 +11,30 @@ from __future__ import annotations
 from datetime import timedelta
 from typing import Optional
 
+import numpy as np
 import pandas as pd
 
 from . import config, s3_reader
 from .four_factors import compute_game_four_factors
 from .rolling_averages import (
     AWAY_ROLLING_MAP,
+    AWAY_TOV_MAP,
     HOME_ROLLING_MAP,
+    HOME_TOV_MAP,
+    compute_form_delta,
     compute_rolling_averages,
+    compute_rolling_turnovers,
 )
+
+# All supported extra feature group names
+EXTRA_FEATURE_GROUPS = {
+    "rest_days",       # 3 features: home_rest_days, away_rest_days, rest_advantage
+    "sos",             # 4 features: home_sos_oe, home_sos_de, away_sos_oe, away_sos_de
+    "conf_strength",   # 2 features: home_conf_strength, away_conf_strength
+    "form_delta",      # 2 features: home_form_delta, away_form_delta
+    "tov_rate",        # 4 features: home_tov_rate, home_def_tov_rate, away_tov_rate, away_def_tov_rate
+    "margin_std",      # 2 features: home_margin_std, away_margin_std
+}
 
 
 def load_games(season: int) -> pd.DataFrame:
@@ -109,18 +125,25 @@ def _compute_barthag(adj_oe: float, adj_de: float) -> Optional[float]:
 
 def _build_efficiency_lookup(
     ratings: pd.DataFrame,
+    include_sos: bool = False,
 ) -> dict[int, pd.DataFrame]:
     """Build a per-team lookup table from the gold efficiency ratings.
 
     Returns:
         Dict mapping teamId -> DataFrame sorted by rating_date with columns
-        adj_oe, adj_de, adj_tempo, barthag.
+        adj_oe, adj_de, adj_tempo, barthag (+ optionally sos_oe, sos_de).
     """
     lookup: dict[int, pd.DataFrame] = {}
     if ratings.empty:
         return lookup
+    keep_cols = ["rating_date", "adj_oe", "adj_de", "adj_tempo", "barthag"]
+    if include_sos:
+        for col in ["sos_oe", "sos_de"]:
+            if col in ratings.columns:
+                keep_cols.append(col)
     for tid, group in ratings.groupby("teamId"):
-        lookup[int(tid)] = group[["rating_date", "adj_oe", "adj_de", "adj_tempo", "barthag"]].copy()
+        available = [c for c in keep_cols if c in group.columns]
+        lookup[int(tid)] = group[available].copy()
     return lookup
 
 
@@ -128,6 +151,7 @@ def _get_asof_rating(
     team_lookup: dict[int, pd.DataFrame],
     team_id: int,
     game_date: pd.Timestamp,
+    include_sos: bool = False,
 ) -> dict:
     """Look up a team's efficiency ratings as of the day before game_date.
 
@@ -145,11 +169,167 @@ def _get_asof_rating(
         return {}
     # Last row is most recent (already sorted by rating_date)
     row = eligible.iloc[-1]
-    return {
+    result = {
         "adj_oe": row["adj_oe"],
         "adj_de": row["adj_de"],
         "adj_tempo": row["adj_tempo"],
         "barthag": row["barthag"],
+    }
+    if include_sos:
+        if "sos_oe" in row.index:
+            result["sos_oe"] = row["sos_oe"]
+        if "sos_de" in row.index:
+            result["sos_de"] = row["sos_de"]
+    return result
+
+
+# ── Extra feature helper functions ───────────────────────────────
+
+
+def _compute_rest_days(games: pd.DataFrame) -> dict[tuple[int, int], float]:
+    """Compute days since previous game for each team in each game.
+
+    Anti-leakage: Rest days are computed from schedule dates, not results.
+
+    Args:
+        games: DataFrame with gameId, homeTeamId, awayTeamId, startDate.
+
+    Returns:
+        Dict mapping (gameId, teamId) -> rest_days (float).
+        First game of season -> NaN -> filled with 5.0 (typical preseason rest).
+    """
+    dates = pd.to_datetime(games["startDate"], errors="coerce")
+
+    # Expand to per-team view
+    rows = []
+    for _, g in games.iterrows():
+        dt = dates[g.name]
+        rows.append({"gameId": int(g["gameId"]), "teamId": int(g["homeTeamId"]), "date": dt})
+        rows.append({"gameId": int(g["gameId"]), "teamId": int(g["awayTeamId"]), "date": dt})
+    team_games = pd.DataFrame(rows)
+    team_games = team_games.sort_values(["teamId", "date", "gameId"]).reset_index(drop=True)
+
+    # Compute days since previous game per team
+    team_games["prev_date"] = team_games.groupby("teamId")["date"].shift(1)
+    team_games["rest_days"] = (team_games["date"] - team_games["prev_date"]).dt.total_seconds() / 86400
+    team_games["rest_days"] = team_games["rest_days"].fillna(5.0)  # first game of season
+    # Cap at 30 to avoid outliers from long breaks
+    team_games["rest_days"] = team_games["rest_days"].clip(upper=30.0)
+
+    return {
+        (int(r["gameId"]), int(r["teamId"])): float(r["rest_days"])
+        for _, r in team_games.iterrows()
+    }
+
+
+def _build_conf_strength_lookup(
+    ratings: pd.DataFrame,
+    dates: list[pd.Timestamp],
+) -> dict[tuple[str, str], float]:
+    """Build conference strength lookup from gold layer ratings.
+
+    For each unique game date, computes mean adj_net per conference using
+    ratings from the day before (same cutoff as efficiency lookups).
+
+    Args:
+        ratings: Gold efficiency ratings with teamId, rating_date, adj_oe, adj_de, conference.
+        dates: List of unique game dates to compute conference strengths for.
+
+    Returns:
+        Dict mapping (date_str, conference) -> avg_adj_net.
+    """
+    if ratings.empty or "conference" not in ratings.columns:
+        return {}
+
+    ratings = ratings.copy()
+    ratings["adj_net"] = ratings["adj_oe"] - ratings["adj_de"]
+    ratings["rating_date"] = pd.to_datetime(ratings["rating_date"], errors="coerce")
+
+    lookup: dict[tuple[str, str], float] = {}
+    for game_dt in dates:
+        if pd.isna(game_dt):
+            continue
+        dt = pd.Timestamp(game_dt)
+        if hasattr(dt, 'tz') and dt.tz is not None:
+            dt = dt.tz_localize(None)
+        cutoff = dt.normalize() - timedelta(days=1)
+        # Get latest rating per team before cutoff
+        eligible = ratings[ratings["rating_date"] <= cutoff]
+        if eligible.empty:
+            continue
+        latest = eligible.sort_values("rating_date").groupby("teamId").last()
+        if "conference" not in latest.columns:
+            continue
+        conf_means = latest.groupby("conference")["adj_net"].mean()
+        date_str = cutoff.strftime("%Y-%m-%d")
+        for conf, val in conf_means.items():
+            lookup[(date_str, str(conf))] = float(val)
+
+    return lookup
+
+
+def _compute_scoring_variance(
+    games: pd.DataFrame,
+    window: int = 10,
+) -> dict[tuple[int, int], float]:
+    """Compute rolling standard deviation of scoring margin per team.
+
+    Anti-leakage: .shift(1) excludes the current game. Rolling window only
+    uses prior games.
+
+    Args:
+        games: DataFrame with gameId, homeTeamId, awayTeamId, homeScore,
+            awayScore, startDate.
+        window: Number of prior games for rolling std.
+
+    Returns:
+        Dict mapping (gameId, teamId) -> margin_std (float).
+    """
+    dates = pd.to_datetime(games["startDate"], errors="coerce")
+
+    # Expand to per-team view with margin
+    rows = []
+    for _, g in games.iterrows():
+        dt = dates[g.name]
+        hs = g.get("homeScore")
+        aws = g.get("awayScore")
+        if pd.notna(hs) and pd.notna(aws):
+            home_margin = float(hs) - float(aws)
+        else:
+            home_margin = np.nan
+        rows.append({
+            "gameId": int(g["gameId"]),
+            "teamId": int(g["homeTeamId"]),
+            "date": dt,
+            "margin": home_margin,
+        })
+        rows.append({
+            "gameId": int(g["gameId"]),
+            "teamId": int(g["awayTeamId"]),
+            "date": dt,
+            "margin": -home_margin if not np.isnan(home_margin) else np.nan,
+        })
+
+    team_games = pd.DataFrame(rows)
+    team_games = team_games.sort_values(["teamId", "date", "gameId"]).reset_index(drop=True)
+
+    # Compute rolling std with shift(1) to exclude current game
+    results = []
+    for _tid, group in team_games.groupby("teamId"):
+        g = group.copy()
+        g["margin_std"] = (
+            g["margin"]
+            .rolling(window=window, min_periods=3)
+            .std()
+            .shift(1)
+        )
+        results.append(g)
+
+    out = pd.concat(results, ignore_index=True)
+    return {
+        (int(r["gameId"]), int(r["teamId"])): float(r["margin_std"])
+        for _, r in out.iterrows()
+        if pd.notna(r["margin_std"])
     }
 
 
@@ -157,23 +337,33 @@ def build_features(
     season: int,
     game_date: Optional[str] = None,
     no_garbage: bool = True,
+    extra_features: list[str] | None = None,
 ) -> pd.DataFrame:
-    """Build the full 37-feature matrix for games in a season.
+    """Build the feature matrix for games in a season.
 
     Args:
         season: Season year (e.g. 2026).
         game_date: If provided, only build features for games on this date.
         no_garbage: If True (default), use no-garbage-time efficiency ratings.
+        extra_features: Optional list of extra feature group names to include
+            beyond the base 37. Valid values: rest_days, sos, conf_strength,
+            form_delta, tov_rate, margin_std.
 
     Returns:
         DataFrame with columns: gameId, homeTeamId, awayTeamId, startDate,
-        homeScore, awayScore, + the 37 feature columns in FEATURE_ORDER.
+        homeScore, awayScore, + base 37 features + any requested extra features.
     """
+    extra = set(extra_features or [])
+    unknown = extra - EXTRA_FEATURE_GROUPS
+    if unknown:
+        raise ValueError(f"Unknown extra feature groups: {unknown}")
+
     # Load raw data
     games = load_games(season)
     if games.empty:
         return pd.DataFrame()
 
+    need_sos = "sos" in extra
     eff_ratings = load_efficiency_ratings(season, no_garbage=no_garbage)
     boxscores = load_boxscores(season)
 
@@ -190,6 +380,7 @@ def build_features(
 
     # ── Group 2: Rolling four-factor averages ──────────────────────
     rolling_df = pd.DataFrame()
+    ff = pd.DataFrame()
     if not boxscores.empty:
         ff = compute_game_four_factors(boxscores)
         rolling_df = compute_rolling_averages(ff)
@@ -202,10 +393,45 @@ def build_features(
             rolling_lookup[key] = row.to_dict()
 
     # Build date-aware efficiency lookup: teamId -> DataFrame of dated ratings
-    eff_lookup = _build_efficiency_lookup(eff_ratings)
+    eff_lookup = _build_efficiency_lookup(eff_ratings, include_sos=need_sos)
 
     # Parse game dates once
     games["_game_dt"] = pd.to_datetime(games["startDate"], errors="coerce")
+
+    # ── Extra feature pre-computations ─────────────────────────────
+    rest_lookup: dict[tuple[int, int], float] = {}
+    if "rest_days" in extra:
+        rest_lookup = _compute_rest_days(games)
+
+    tov_lookup: dict[tuple[int, int], dict[str, float]] = {}
+    if "tov_rate" in extra and not boxscores.empty:
+        tov_df = compute_rolling_turnovers(boxscores)
+        if not tov_df.empty:
+            for _, row in tov_df.iterrows():
+                key = (int(row["gameid"]), int(row["teamid"]))
+                tov_lookup[key] = row.to_dict()
+
+    form_lookup: dict[tuple[int, int], float] = {}
+    if "form_delta" in extra and not ff.empty:
+        form_df = compute_form_delta(ff)
+        if not form_df.empty:
+            for _, row in form_df.iterrows():
+                form_lookup[(int(row["gameid"]), int(row["teamid"]))] = float(row["form_delta"])
+
+    conf_lookup: dict[tuple[str, str], float] = {}
+    team_conf: dict[int, str] = {}
+    if "conf_strength" in extra:
+        # Build conference mapping from gold layer ratings (has conference col)
+        if "conference" in eff_ratings.columns:
+            for tid, conf in zip(eff_ratings["teamId"], eff_ratings["conference"]):
+                if pd.notna(conf):
+                    team_conf[int(tid)] = str(conf)
+        unique_dates = games["_game_dt"].dropna().unique()
+        conf_lookup = _build_conf_strength_lookup(eff_ratings, list(unique_dates))
+
+    margin_std_lookup: dict[tuple[int, int], float] = {}
+    if "margin_std" in extra:
+        margin_std_lookup = _compute_scoring_variance(games)
 
     # ── Assemble features per game ─────────────────────────────────
     records = []
@@ -222,11 +448,10 @@ def build_features(
             home_eff = {}
             away_eff = {}
         else:
-            home_eff = _get_asof_rating(eff_lookup, home_tid, game_dt)
-            away_eff = _get_asof_rating(eff_lookup, away_tid, game_dt)
+            home_eff = _get_asof_rating(eff_lookup, home_tid, game_dt, include_sos=need_sos)
+            away_eff = _get_asof_rating(eff_lookup, away_tid, game_dt, include_sos=need_sos)
 
         # Group 1: Efficiency features
-        # Map: adj_oe → adj_oe, adj_de → adj_de, adj_tempo → adj_pace, barthag → BARTHAG
         feat = {
             "neutral_site": int(neutral),
             "away_team_adj_oe": away_eff.get("adj_oe"),
@@ -251,7 +476,51 @@ def build_features(
         for feat_name, rolling_col in HOME_ROLLING_MAP.items():
             feat[feat_name] = home_rolling.get(rolling_col)
 
-        # Metadata (not part of the 37 features)
+        # ── Extra features ─────────────────────────────────────────
+        if "rest_days" in extra:
+            h_rest = rest_lookup.get((gid, home_tid), 5.0)
+            a_rest = rest_lookup.get((gid, away_tid), 5.0)
+            feat["home_rest_days"] = h_rest
+            feat["away_rest_days"] = a_rest
+            feat["rest_advantage"] = h_rest - a_rest
+
+        if "sos" in extra:
+            feat["home_sos_oe"] = home_eff.get("sos_oe")
+            feat["home_sos_de"] = home_eff.get("sos_de")
+            feat["away_sos_oe"] = away_eff.get("sos_oe")
+            feat["away_sos_de"] = away_eff.get("sos_de")
+
+        if "conf_strength" in extra:
+            if not pd.isna(game_dt):
+                dt_norm = pd.Timestamp(game_dt)
+                if hasattr(dt_norm, 'tz') and dt_norm.tz is not None:
+                    dt_norm = dt_norm.tz_localize(None)
+                date_key = (dt_norm.normalize() - timedelta(days=1)).strftime("%Y-%m-%d")
+                h_conf = team_conf.get(home_tid, "")
+                a_conf = team_conf.get(away_tid, "")
+                feat["home_conf_strength"] = conf_lookup.get((date_key, h_conf))
+                feat["away_conf_strength"] = conf_lookup.get((date_key, a_conf))
+            else:
+                feat["home_conf_strength"] = None
+                feat["away_conf_strength"] = None
+
+        if "form_delta" in extra:
+            feat["home_form_delta"] = form_lookup.get((gid, home_tid))
+            feat["away_form_delta"] = form_lookup.get((gid, away_tid))
+
+        if "tov_rate" in extra:
+            away_tov = tov_lookup.get((gid, away_tid), {})
+            home_tov = tov_lookup.get((gid, home_tid), {})
+            for feat_name, tov_col in AWAY_TOV_MAP.items():
+                feat[feat_name] = away_tov.get(tov_col)
+            for feat_name, tov_col in HOME_TOV_MAP.items():
+                feat[feat_name] = home_tov.get(tov_col)
+
+        if "margin_std" in extra:
+            feat["home_margin_std"] = margin_std_lookup.get((gid, home_tid))
+            feat["away_margin_std"] = margin_std_lookup.get((gid, away_tid))
+
+        # Metadata (not part of features)
         feat["gameId"] = gid
         feat["homeTeamId"] = home_tid
         feat["awayTeamId"] = away_tid
@@ -267,7 +536,7 @@ def build_features(
     if result.empty:
         return result
 
-    # Verify we have exactly the 37 features
+    # Verify we have the base 37 features
     missing = [f for f in config.FEATURE_ORDER if f not in result.columns]
     if missing:
         for col in missing:
@@ -276,9 +545,23 @@ def build_features(
     return result
 
 
-def get_feature_matrix(df: pd.DataFrame) -> pd.DataFrame:
-    """Extract just the 37 feature columns in the correct order."""
-    return df[config.FEATURE_ORDER].copy()
+def get_feature_matrix(
+    df: pd.DataFrame,
+    feature_order: list[str] | None = None,
+) -> pd.DataFrame:
+    """Extract feature columns in the correct order.
+
+    Args:
+        df: DataFrame with feature columns + metadata.
+        feature_order: Custom feature order. Defaults to config.FEATURE_ORDER (base 37).
+
+    Returns:
+        DataFrame with only the feature columns in the specified order.
+    """
+    order = feature_order or config.FEATURE_ORDER
+    # Only include columns that exist in df
+    available = [c for c in order if c in df.columns]
+    return df[available].copy()
 
 
 def get_targets(df: pd.DataFrame) -> pd.DataFrame:
@@ -287,3 +570,15 @@ def get_targets(df: pd.DataFrame) -> pd.DataFrame:
     out["spread_home"] = df["homeScore"].astype(float) - df["awayScore"].astype(float)
     out["home_win"] = (out["spread_home"] > 0).astype(float)
     return out
+
+
+# ── Feature names for each extra group ───────────────────────────
+
+EXTRA_FEATURE_NAMES: dict[str, list[str]] = {
+    "rest_days": ["home_rest_days", "away_rest_days", "rest_advantage"],
+    "sos": ["home_sos_oe", "home_sos_de", "away_sos_oe", "away_sos_de"],
+    "conf_strength": ["home_conf_strength", "away_conf_strength"],
+    "form_delta": ["home_form_delta", "away_form_delta"],
+    "tov_rate": ["home_tov_rate", "home_def_tov_rate", "away_tov_rate", "away_def_tov_rate"],
+    "margin_std": ["home_margin_std", "away_margin_std"],
+}

@@ -176,6 +176,7 @@ def save_checkpoint(
     name: str,
     hparams: dict | None = None,
     subdir: str | None = None,
+    feature_order: list[str] | None = None,
 ) -> Path:
     """Save model checkpoint with feature_order and hparams embedded."""
     base = config.CHECKPOINTS_DIR / subdir if subdir else config.CHECKPOINTS_DIR
@@ -184,7 +185,7 @@ def save_checkpoint(
     torch.save(
         {
             "state_dict": model.state_dict(),
-            "feature_order": config.FEATURE_ORDER,
+            "feature_order": feature_order or config.FEATURE_ORDER,
             "hparams": hparams or {},
         },
         path,

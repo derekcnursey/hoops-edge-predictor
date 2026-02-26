@@ -21,8 +21,9 @@ def load_regressor(path: Path | None = None) -> tuple[MLPRegressor, dict]:
         path = config.CHECKPOINTS_DIR / "regressor.pt"
     ckpt = torch.load(path, map_location="cpu", weights_only=False)
     hp = ckpt.get("hparams", {})
+    feature_order = ckpt.get("feature_order", config.FEATURE_ORDER)
     model = MLPRegressor(
-        input_dim=37,
+        input_dim=len(feature_order),
         hidden1=hp.get("hidden1", 256),
         hidden2=hp.get("hidden2", 128),
         dropout=hp.get("dropout", 0.3),
@@ -38,8 +39,9 @@ def load_classifier(path: Path | None = None) -> tuple[MLPClassifier, dict]:
         path = config.CHECKPOINTS_DIR / "classifier.pt"
     ckpt = torch.load(path, map_location="cpu", weights_only=False)
     hp = ckpt.get("hparams", {})
+    feature_order = ckpt.get("feature_order", config.FEATURE_ORDER)
     model = MLPClassifier(
-        input_dim=37,
+        input_dim=len(feature_order),
         hidden1=hp.get("hidden1", 256),
         dropout=hp.get("dropout", 0.3),
     )
