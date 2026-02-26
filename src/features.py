@@ -15,6 +15,7 @@ import numpy as np
 import pandas as pd
 
 from . import config, s3_reader
+from .adjusted_four_factors import adjust_four_factors
 from .four_factors import compute_game_four_factors
 from .rolling_averages import (
     AWAY_ROLLING_MAP,
@@ -338,6 +339,9 @@ def build_features(
     game_date: Optional[str] = None,
     no_garbage: bool = True,
     extra_features: list[str] | None = None,
+    adjust_ff: bool = False,
+    adjust_prior_weight: float = 5.0,
+    adjust_alpha: float = 1.0,
 ) -> pd.DataFrame:
     """Build the feature matrix for games in a season.
 
@@ -348,6 +352,10 @@ def build_features(
         extra_features: Optional list of extra feature group names to include
             beyond the base 37. Valid values: rest_days, sos, conf_strength,
             form_delta, tov_rate, margin_std.
+        adjust_ff: If True, opponent-adjust four-factor stats before rolling
+            averages. Default False for backward compatibility.
+        adjust_prior_weight: Bayesian prior weight for adjustment shrinkage.
+        adjust_alpha: SOS exponent for adjustment factor.
 
     Returns:
         DataFrame with columns: gameId, homeTeamId, awayTeamId, startDate,
@@ -383,6 +391,12 @@ def build_features(
     ff = pd.DataFrame()
     if not boxscores.empty:
         ff = compute_game_four_factors(boxscores)
+        if adjust_ff:
+            ff = adjust_four_factors(
+                ff,
+                prior_weight=adjust_prior_weight,
+                alpha=adjust_alpha,
+            )
         rolling_df = compute_rolling_averages(ff)
 
     # Build rolling lookups: (gameid, teamid) -> {rolling_col: value}

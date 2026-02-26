@@ -82,7 +82,7 @@ def compute_game_four_factors(box: pd.DataFrame) -> pd.DataFrame:
     )
 
     keep_cols = [
-        "gameid", "teamid", "startdate", "ishometeam",
+        "gameid", "teamid", "opponentid", "startdate", "ishometeam",
         # Offense (7)
         "eff_fg_pct", "ft_pct", "ft_rate", "three_pt_rate", "three_p_pct",
         "off_rebound_pct", "def_rebound_pct",

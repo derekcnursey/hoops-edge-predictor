@@ -42,7 +42,7 @@ class TestComputeGameFourFactors:
     def test_basic_output_shape(self):
         box = _make_boxscore()
         result = compute_game_four_factors(box)
-        assert result.shape == (1, 4 + 13)  # 4 id cols + 13 stats
+        assert result.shape == (1, 5 + 13)  # 5 id cols + 13 stats
 
     def test_all_four_factor_columns_present(self):
         box = _make_boxscore()
