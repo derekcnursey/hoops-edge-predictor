@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 import random
 import subprocess
 import sys
@@ -595,6 +596,154 @@ def publish_site(message: str | None):
         cwd=config.PROJECT_ROOT,
     )
     click.echo("Published.")
+
+
+# ── 10. daily-update ─────────────────────────────────────────────
+
+
+def _get_etl_root() -> Path:
+    """Resolve the ETL repo root (sibling dir or CBBD_ETL_ROOT env var)."""
+    etl = Path(os.environ.get(
+        "CBBD_ETL_ROOT",
+        str(config.PROJECT_ROOT.parent / "hoops_edge_database_etl"),
+    ))
+    if not etl.exists():
+        click.echo(f"ETL repo not found at {etl}. Set CBBD_ETL_ROOT env var.", err=True)
+        sys.exit(1)
+    return etl
+
+
+def _run(cmd: list[str], cwd: Path, label: str) -> None:
+    """Run a subprocess, abort on failure."""
+    result = subprocess.run(cmd, cwd=cwd)
+    if result.returncode != 0:
+        click.echo(f"FAILED: {label} (exit {result.returncode})", err=True)
+        sys.exit(result.returncode)
+
+
+@cli.command("daily-update")
+@click.option("--season", required=True, type=int, help="Season year (e.g. 2026)")
+@click.option("--date", "game_date", default=None, help="Date override (YYYY-MM-DD)")
+@click.option("--skip-etl", is_flag=True, help="Skip ETL ingest + transforms (steps 1-3)")
+@click.option("--skip-predict", is_flag=True, help="Skip predictions + publish (steps 4-5)")
+@click.option("--skip-deploy", is_flag=True, help="Skip git commit/push (step 6)")
+def daily_update(season: int, game_date: str | None, skip_etl: bool,
+                 skip_predict: bool, skip_deploy: bool):
+    """Full end-to-end daily pipeline: ETL → silver → gold → predict → publish → deploy."""
+    from .infer import predict, save_predictions
+
+    if game_date is None:
+        game_date = date.today().isoformat()
+
+    etl_root = _get_etl_root()
+    click.echo(f"=== Daily update for {game_date} (season {season}) ===")
+
+    # ── Steps 1-3: ETL ingest + silver + gold ──────────────────────
+    if not skip_etl:
+        # Step 1: Minimal ETL ingest
+        click.echo("\n[1/6] ETL ingest (games, games_teams, lines, ratings_adjusted)...")
+        _run(
+            ["poetry", "run", "python", "-m", "cbbd_etl", "incremental",
+             "--only-endpoints", "games,games_teams,lines,ratings_adjusted"],
+            cwd=etl_root,
+            label="ETL incremental ingest",
+        )
+
+        # Step 2: Silver — fct_games/fct_lines/fct_ratings_adjusted built during ingest.
+        # PBP pipeline: fct_plays → enriched → flat (both variants).
+        click.echo("\n[2/6] Silver transforms (PBP enriched + flat tables)...")
+        _run(
+            ["poetry", "run", "python", "scripts/build_pbp_plays_enriched.py",
+             "--season", str(season), "--purge"],
+            cwd=etl_root,
+            label="build_pbp_plays_enriched",
+        )
+        _run(
+            ["poetry", "run", "python", "scripts/build_pbp_game_teams_flat.py",
+             "--season", str(season), "--purge"],
+            cwd=etl_root,
+            label="build_pbp_game_teams_flat",
+        )
+        _run(
+            ["poetry", "run", "python", "scripts/build_pbp_game_teams_flat.py",
+             "--season", str(season), "--exclude-garbage-time",
+             "--output-table", "fct_pbp_game_teams_flat_garbage_removed", "--purge"],
+            cwd=etl_root,
+            label="build_pbp_game_teams_flat (no garbage)",
+        )
+
+        # Step 3: Gold — team_adjusted_efficiencies_no_garbage
+        click.echo("\n[3/6] Gold transforms (team_adjusted_efficiencies_no_garbage)...")
+        _run(
+            ["poetry", "run", "python", "-m", "cbbd_etl.gold.runner",
+             "--season", str(season),
+             "--table", "team_adjusted_efficiencies_no_garbage"],
+            cwd=etl_root,
+            label="gold team_adjusted_efficiencies_no_garbage",
+        )
+
+    # ── Steps 4-5: Predict + publish ──────────────────────────────
+    if not skip_predict:
+        # Step 4: Predict today's games
+        click.echo(f"\n[4/6] Predictions for {game_date}...")
+        df = build_features(
+            season,
+            game_date=game_date,
+            extra_features=config.EXTRA_FEATURES,
+            adjust_ff=config.ADJUST_FF,
+            adjust_alpha=config.ADJUST_ALPHA,
+            adjust_prior_weight=config.ADJUST_PRIOR,
+        )
+        if df.empty:
+            click.echo(f"  No games found for {game_date}. Skipping predictions.")
+        else:
+            click.echo(f"  Games: {len(df)}")
+            lines = load_lines(season)
+            preds = predict(df, lines_df=lines)
+            json_path, csv_path = save_predictions(preds, game_date=game_date)
+            click.echo(f"  JSON: {json_path}")
+            click.echo(f"  CSV:  {csv_path}")
+
+        # Step 5: Rankings + final scores + site data
+        click.echo(f"\n[5/6] Rankings + publish pipeline...")
+        publish_sh = config.PROJECT_ROOT / "scripts" / "publish_daily.sh"
+        if publish_sh.exists():
+            csv_dir = config.PREDICTIONS_DIR / "csv"
+            latest_csv = sorted(csv_dir.glob("*.csv"), key=lambda p: p.stat().st_mtime)
+            csv_arg = str(latest_csv[-1]) if latest_csv else ""
+            cmd = ["bash", str(publish_sh)]
+            if csv_arg:
+                cmd += [csv_arg, game_date]
+            _run(cmd, cwd=config.PROJECT_ROOT, label="publish_daily.sh")
+        else:
+            # Fallback: run scripts individually
+            for script_name in ["build_rankings_json.py", "s3_finals_to_json.py"]:
+                script = config.PROJECT_ROOT / "scripts" / script_name
+                if script.exists():
+                    _run([sys.executable, str(script)], cwd=config.PROJECT_ROOT,
+                         label=script_name)
+        click.echo("  Publish pipeline complete.")
+
+    # ── Step 6: Deploy ────────────────────────────────────────────
+    if not skip_deploy:
+        click.echo(f"\n[6/6] Deploy (git commit + push)...")
+        subprocess.run(
+            ["git", "add", "site/public/data/", "predictions/"],
+            cwd=config.PROJECT_ROOT,
+        )
+        result = subprocess.run(
+            ["git", "diff", "--cached", "--quiet"],
+            cwd=config.PROJECT_ROOT,
+        )
+        if result.returncode == 0:
+            click.echo("  No changes to commit.")
+        else:
+            msg = f"daily-update {game_date}"
+            _run(["git", "commit", "-m", msg], cwd=config.PROJECT_ROOT, label="git commit")
+            _run(["git", "push", "origin", "main"], cwd=config.PROJECT_ROOT, label="git push")
+            click.echo("  Deployed.")
+
+    click.echo(f"\n=== Daily update complete for {game_date} ===")
 
 
 if __name__ == "__main__":

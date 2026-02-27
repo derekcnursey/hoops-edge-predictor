@@ -2,88 +2,95 @@
   "date": "2026-02-24",
   "games": [
     {
-      "away_score": 0,
+      "away_score": 53,
       "away_team": "Nicholls",
       "game_id": "2026_02_24_nicholls_lamar",
-      "home_score": 0,
+      "home_score": 52,
       "home_team": "Lamar"
     },
     {
-      "away_score": 0,
-      "away_team": "Texas A&M-Corpus Christi",
-      "game_id": "2026_02_24_texas_a_m_corpus_christi_se_louisiana",
-      "home_score": 0,
-      "home_team": "SE Louisiana"
-    },
-    {
-      "away_score": 0,
+      "away_score": 74,
       "away_team": "Louisville",
       "game_id": "2026_02_24_louisville_north_carolina",
-      "home_score": 0,
+      "home_score": 77,
       "home_team": "North Carolina"
     },
     {
-      "away_score": 0,
+      "away_score": 73,
+      "away_team": "Texas A&M-Corpus Christi",
+      "game_id": "2026_02_24_texas_a_m_corpus_christi_se_louisiana",
+      "home_score": 68,
+      "home_team": "SE Louisiana"
+    },
+    {
+      "away_score": 68,
       "away_team": "UT Rio Grande Valley",
       "game_id": "2026_02_24_ut_rio_grande_valley_mcneese",
-      "home_score": 0,
+      "home_score": 75,
       "home_team": "McNeese"
     },
     {
-      "away_score": 0,
-      "away_team": "Houston Christian",
-      "game_id": "2026_02_24_houston_christian_east_texas_a_m",
-      "home_score": 0,
-      "home_team": "East Texas A&M"
-    },
-    {
-      "away_score": 0,
+      "away_score": 77,
       "away_team": "New Orleans",
       "game_id": "2026_02_24_new_orleans_stephen_f_austin",
-      "home_score": 0,
+      "home_score": 73,
       "home_team": "Stephen F. Austin"
     },
     {
-      "away_score": 0,
+      "away_score": 49,
       "away_team": "Incarnate Word",
       "game_id": "2026_02_24_incarnate_word_northwestern_state",
-      "home_score": 0,
+      "home_score": 54,
       "home_team": "Northwestern State"
     },
     {
-      "away_score": 0,
+      "away_score": 69,
+      "away_team": "Houston Christian",
+      "game_id": "2026_02_24_houston_christian_east_texas_a_m",
+      "home_score": 68,
+      "home_team": "East Texas A&M"
+    },
+    {
+      "away_score": 56,
       "away_team": "Houston",
       "game_id": "2026_02_24_houston_kansas",
-      "home_score": 0,
+      "home_score": 69,
       "home_team": "Kansas"
     },
     {
-      "away_score": 0,
+      "away_score": 62,
+      "away_team": "Mississippi Valley State",
+      "game_id": "2026_02_24_mississippi_valley_state_grambling",
+      "home_score": 83,
+      "home_team": "Grambling"
+    },
+    {
+      "away_score": 73,
       "away_team": "St. Francis (PA)",
       "game_id": "2026_02_24_st_francis_pa_new_haven",
-      "home_score": 0,
+      "home_score": 67,
       "home_team": "New Haven"
     },
     {
-      "away_score": 0,
+      "away_score": 104,
+      "away_team": "George Washington",
+      "game_id": "2026_02_24_george_washington_la_salle",
+      "home_score": 77,
+      "home_team": "La Salle"
+    },
+    {
+      "away_score": 79,
       "away_team": "Washington",
       "game_id": "2026_02_24_washington_rutgers",
-      "home_score": 0,
+      "home_score": 72,
       "home_team": "Rutgers"
     },
     {
-      "away_score": 0,
+      "away_score": 74,
       "away_team": "Miami (OH)",
       "game_id": "2026_02_24_miami_oh_eastern_michigan",
-      "home_score": 0,
+      "home_score": 64,
       "home_team": "Eastern Michigan"
-    },
-    {
-      "away_score": 0,
-      "away_team": "George Washington",
-      "game_id": "2026_02_24_george_washington_la_salle",
-      "home_score": 0,
-      "home_team": "La Salle"
     },
     {
       "away_score": 0,
@@ -170,5 +177,5 @@
       "home_team": "La Salle"
     }
   ],
-  "generated_at": "2026-02-26T23:13:02.481465Z"
+  "generated_at": "2026-02-27T18:38:39.963748Z"
 }

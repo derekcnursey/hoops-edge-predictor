@@ -30,6 +30,13 @@
       "home_team": "SMU"
     },
     {
+      "away_score": 68,
+      "away_team": "Fordham",
+      "game_id": "2026_02_11_fordham_saint_joseph_s",
+      "home_score": 64,
+      "home_team": "Saint Joseph's"
+    },
+    {
       "away_score": 80,
       "away_team": "Purdue",
       "game_id": "2026_02_11_purdue_nebraska",
@@ -58,13 +65,6 @@
       "home_team": "Miami"
     },
     {
-      "away_score": 68,
-      "away_team": "Fordham",
-      "game_id": "2026_02_11_fordham_saint_joseph_s",
-      "home_score": 64,
-      "home_team": "Saint Joseph's"
-    },
-    {
       "away_score": 74,
       "away_team": "Marquette",
       "game_id": "2026_02_11_marquette_villanova",
@@ -86,6 +86,13 @@
       "home_team": "Western Illinois"
     },
     {
+      "away_score": 76,
+      "away_team": "Oklahoma State",
+      "game_id": "2026_02_11_oklahoma_state_arizona_state",
+      "home_score": 85,
+      "home_team": "Arizona State"
+    },
+    {
       "away_score": 55,
       "away_team": "Iowa State",
       "game_id": "2026_02_11_iowa_state_tcu",
@@ -98,6 +105,13 @@
       "game_id": "2026_02_11_fresno_state_utah_state",
       "home_score": 91,
       "home_team": "Utah State"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Houston",
+      "game_id": "2026_02_11_houston_utah",
+      "home_score": 52,
+      "home_team": "Utah"
     },
     {
       "away_score": 91,
@@ -114,25 +128,11 @@
       "home_team": "LSU"
     },
     {
-      "away_score": 76,
-      "away_team": "Oklahoma State",
-      "game_id": "2026_02_11_oklahoma_state_arizona_state",
-      "home_score": 85,
-      "home_team": "Arizona State"
-    },
-    {
       "away_score": 70,
       "away_team": "Duke",
       "game_id": "2026_02_11_duke_pittsburgh",
       "home_score": 54,
       "home_team": "Pittsburgh"
-    },
-    {
-      "away_score": 66,
-      "away_team": "Houston",
-      "game_id": "2026_02_11_houston_utah",
-      "home_score": 52,
-      "home_team": "Utah"
     },
     {
       "away_score": 53,
@@ -147,6 +147,13 @@
       "game_id": "2026_02_11_san_jos_state_unlv",
       "home_score": 82,
       "home_team": "UNLV"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Boston University",
+      "game_id": "2026_02_11_boston_university_army",
+      "home_score": 68,
+      "home_team": "Army"
     },
     {
       "away_score": 49,
@@ -170,11 +177,11 @@
       "home_team": "Holy Cross"
     },
     {
-      "away_score": 85,
-      "away_team": "Boston University",
-      "game_id": "2026_02_11_boston_university_army",
-      "home_score": 68,
-      "home_team": "Army"
+      "away_score": 82,
+      "away_team": "USC",
+      "game_id": "2026_02_11_usc_ohio_state",
+      "home_score": 89,
+      "home_team": "Ohio State"
     },
     {
       "away_score": 77,
@@ -182,13 +189,6 @@
       "game_id": "2026_02_11_vcu_la_salle",
       "home_score": 68,
       "home_team": "La Salle"
-    },
-    {
-      "away_score": 82,
-      "away_team": "USC",
-      "game_id": "2026_02_11_usc_ohio_state",
-      "home_score": 89,
-      "home_team": "Ohio State"
     },
     {
       "away_score": 70,
@@ -380,5 +380,5 @@
       "home_team": "Ohio State"
     }
   ],
-  "generated_at": "2026-02-26T23:13:16.842962Z"
+  "generated_at": "2026-02-27T18:38:39.880416Z"
 }

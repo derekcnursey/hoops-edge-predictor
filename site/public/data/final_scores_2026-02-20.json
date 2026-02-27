@@ -212,13 +212,6 @@
       "home_team": "Tennessee State"
     },
     {
-      "away_score": 77,
-      "away_team": "Southern Indiana",
-      "game_id": "2026_02_20_southern_indiana_western_illinois",
-      "home_score": 70,
-      "home_team": "Western Illinois"
-    },
-    {
       "away_score": 73,
       "away_team": "Morehead State",
       "game_id": "2026_02_20_morehead_state_eastern_illinois",
@@ -226,11 +219,11 @@
       "home_team": "Eastern Illinois"
     },
     {
-      "away_score": 52,
-      "away_team": "SIU Edwardsville",
-      "game_id": "2026_02_20_siu_edwardsville_tennessee_tech",
-      "home_score": 62,
-      "home_team": "Tennessee Tech"
+      "away_score": 77,
+      "away_team": "Southern Indiana",
+      "game_id": "2026_02_20_southern_indiana_western_illinois",
+      "home_score": 70,
+      "home_team": "Western Illinois"
     },
     {
       "away_score": 72,
@@ -240,25 +233,11 @@
       "home_team": "Mississippi Valley State"
     },
     {
-      "away_score": 83,
-      "away_team": "Texas Southern",
-      "game_id": "2026_02_20_texas_southern_arkansas_pine_bluff",
-      "home_score": 64,
-      "home_team": "Arkansas-Pine Bluff"
-    },
-    {
-      "away_score": 70,
-      "away_team": "South Dakota",
-      "game_id": "2026_02_20_south_dakota_denver",
-      "home_score": 90,
-      "home_team": "Denver"
-    },
-    {
-      "away_score": 85,
-      "away_team": "Cal State Northridge",
-      "game_id": "2026_02_20_cal_state_northridge_uc_santa_barbara",
-      "home_score": 83,
-      "home_team": "UC Santa Barbara"
+      "away_score": 52,
+      "away_team": "SIU Edwardsville",
+      "game_id": "2026_02_20_siu_edwardsville_tennessee_tech",
+      "home_score": 62,
+      "home_team": "Tennessee Tech"
     },
     {
       "away_score": 67,
@@ -268,11 +247,11 @@
       "home_team": "Portland State"
     },
     {
-      "away_score": 79,
-      "away_team": "Montana State",
-      "game_id": "2026_02_20_montana_state_weber_state",
-      "home_score": 82,
-      "home_team": "Weber State"
+      "away_score": 85,
+      "away_team": "Cal State Northridge",
+      "game_id": "2026_02_20_cal_state_northridge_uc_santa_barbara",
+      "home_score": 83,
+      "home_team": "UC Santa Barbara"
     },
     {
       "away_score": 69,
@@ -280,6 +259,27 @@
       "game_id": "2026_02_20_montana_idaho_state",
       "home_score": 73,
       "home_team": "Idaho State"
+    },
+    {
+      "away_score": 70,
+      "away_team": "South Dakota",
+      "game_id": "2026_02_20_south_dakota_denver",
+      "home_score": 90,
+      "home_team": "Denver"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Montana State",
+      "game_id": "2026_02_20_montana_state_weber_state",
+      "home_score": 82,
+      "home_team": "Weber State"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Texas Southern",
+      "game_id": "2026_02_20_texas_southern_arkansas_pine_bluff",
+      "home_score": 64,
+      "home_team": "Arkansas-Pine Bluff"
     },
     {
       "away_score": 77,
@@ -296,18 +296,18 @@
       "home_team": "Florida A&M"
     },
     {
-      "away_score": 65,
-      "away_team": "Cal State Bakersfield",
-      "game_id": "2026_02_20_cal_state_bakersfield_uc_riverside",
-      "home_score": 93,
-      "home_team": "UC Riverside"
-    },
-    {
       "away_score": 92,
       "away_team": "UC Davis",
       "game_id": "2026_02_20_uc_davis_cal_state_fullerton",
       "home_score": 93,
       "home_team": "Cal State Fullerton"
+    },
+    {
+      "away_score": 69,
+      "away_team": "UC Irvine",
+      "game_id": "2026_02_20_uc_irvine_long_beach_state",
+      "home_score": 58,
+      "home_team": "Long Beach State"
     },
     {
       "away_score": 102,
@@ -317,11 +317,11 @@
       "home_team": "Sacramento State"
     },
     {
-      "away_score": 69,
-      "away_team": "UC Irvine",
-      "game_id": "2026_02_20_uc_irvine_long_beach_state",
-      "home_score": 58,
-      "home_team": "Long Beach State"
+      "away_score": 65,
+      "away_team": "Cal State Bakersfield",
+      "game_id": "2026_02_20_cal_state_bakersfield_uc_riverside",
+      "home_score": 93,
+      "home_team": "UC Riverside"
     },
     {
       "away_score": 86,
@@ -674,5 +674,5 @@
       "home_team": "Ball State"
     }
   ],
-  "generated_at": "2026-02-26T23:13:02.450543Z"
+  "generated_at": "2026-02-27T18:38:39.938022Z"
 }

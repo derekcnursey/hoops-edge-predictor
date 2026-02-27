@@ -128,12 +128,30 @@ def read_silver_table(
     return read_parquet_table(keys)
 
 
-def read_gold_table(table_name: str, season: Optional[int] = None) -> pa.Table:
-    """Read a gold-layer table from S3."""
+def read_gold_table(
+    table_name: str,
+    season: Optional[int] = None,
+    latest_only: bool = True,
+) -> pa.Table:
+    """Read a gold-layer table from S3.
+
+    Args:
+        table_name: e.g. 'team_adjusted_efficiencies_no_garbage'
+        season: Filter to season=YYYY partition if provided.
+        latest_only: If True (default), only read the latest asof= partition.
+    """
     base = f"{config.GOLD_PREFIX}/{table_name}/"
     if season is not None:
         base = f"{config.GOLD_PREFIX}/{table_name}/season={season}/"
-    keys = list_parquet_keys(base)
+
+    if latest_only:
+        latest = _get_latest_asof_prefix(base)
+        if latest is None:
+            return pa.table({})
+        keys = list_parquet_keys(latest)
+    else:
+        keys = list_parquet_keys(base)
+
     if not keys:
         return pa.table({})
     return read_parquet_table(keys)
