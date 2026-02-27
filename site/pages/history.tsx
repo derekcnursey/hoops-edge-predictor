@@ -48,7 +48,8 @@ export const getServerSideProps: GetServerSideProps<HistoryProps> = async (
     typeof context.query.date === "string" ? context.query.date : null;
 
   const finalFiles = listFinalScoreFiles();
-  const availableDates = finalFiles.map((f) => f.date).sort();
+  const today = new Date().toISOString().slice(0, 10);
+  const availableDates = finalFiles.map((f) => f.date).filter((d) => d < today).sort();
 
   if (!availableDates.length) {
     return {
