@@ -1,0 +1,211 @@
+/usr/lib/python3/dist-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator StandardScaler from version 1.8.0 when using version 0.23.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+======================================================================
+  REMAINING TESTS (7, 8, 9, 11, 12)
+======================================================================
+  Date filter (12-01): 5918 → 4345 rows (1573 dropped)
+
+======================================================================
+  TEST 12: PROFITABLE BET CHARACTERIZATION
+======================================================================
+
+  Total bets: 299 (W: 172, L: 127)
+
+                     Metric    Winners     Losers          Δ
+  ------------------------- ---------- ---------- ----------
+         Mean |book_spread|      14.42      12.42      +2.01
+                 Mean sigma      13.38      13.34      +0.04
+             Mean prob_edge       0.18       0.18      -0.00
+
+  Direction: Home=149 (49.8%), Away=150 (50.2%)
+  Win rate: Home=55.0%, Away=60.0%
+
+                  Pick Type   Bets    Win%
+  ------------------------- ------ -------
+           Picking home fav     70   55.7%
+           Picking home dog     79   54.4%
+           Picking away fav      5   40.0%
+           Picking away dog    145   60.7%
+
+  Cover margin (positive = our pick covers):
+    Winners: +8.6 pts avg
+    Losers: -9.9 pts avg
+
+  Monthly breakdown:
+       Month   Bets      W-L    Win%      ROI    Units
+  ---------- ------ -------- ------- -------- --------
+     January     85  51-34     60.0%   +14.5%    +12.4
+    February     43  27-16     62.8%   +19.9%     +8.5
+    December    171  94-77     55.0%    +4.9%     +8.5
+
+  By |book_spread| bucket:
+        Bucket   Bets    Win%      ROI
+  ------------ ------ ------- --------
+           0-5     75   50.7%    -3.3%
+          5-10     69   56.5%    +7.9%
+         10-15     44   56.8%    +8.5%
+           15+    111   63.1%   +20.4%
+
+======================================================================
+  TEST 7: FEATURE ABLATION (permutation importance)
+======================================================================
+
+  Base BS-MAE: 9.1290
+
+  Rank                             Feature  MAE Increase      Std
+  ---- ----------------------------------- ------------- --------
+     1                   away_team_BARTHAG      +0.7511   0.0488
+     2                   home_team_BARTHAG      +0.5062   0.0346
+     3                 away_def_eff_fg_pct      +0.1541   0.0166
+     4                     away_eff_fg_pct      +0.1522   0.0313
+     5                     home_eff_fg_pct      +0.1514   0.0172
+     6                       away_tov_rate      +0.1339   0.0207
+     7                away_off_rebound_pct      +0.1142   0.0154
+     8                 home_def_eff_fg_pct      +0.1021   0.0223
+     9                away_def_rebound_pct      +0.0796   0.0168
+    10                home_off_rebound_pct      +0.0768   0.0203
+    11                  home_conf_strength      +0.0741   0.0172
+    12                   away_def_tov_rate      +0.0713   0.0068
+    13                    home_team_adj_de      +0.0688   0.0153
+    14                  away_conf_strength      +0.0662   0.0111
+    15                    away_team_adj_de      +0.0661   0.0113
+    16                   home_def_tov_rate      +0.0653   0.0083
+    17                         home_3p_pct      +0.0574   0.0113
+    18                       home_tov_rate      +0.0529   0.0138
+    19                home_def_rebound_pct      +0.0502   0.0096
+    20                    away_team_adj_oe      +0.0499   0.0091
+    21                     away_margin_std      +0.0374   0.0065
+    22                     home_def_3p_pct      +0.0328   0.0132
+    23                     away_def_3p_pct      +0.0307   0.0130
+    24                    home_team_adj_oe      +0.0233   0.0075
+    25                       away_3pt_rate      +0.0209   0.0096
+    26                         away_3p_pct      +0.0190   0.0053
+    27                      rest_advantage      +0.0132   0.0129
+    28                     home_margin_std      +0.0124   0.0064
+    29                         home_ft_pct      +0.0122   0.0081
+    30                         away_ft_pct      +0.0121   0.0072
+    31                  away_team_adj_pace      +0.0100   0.0058
+    32                         home_sos_oe      +0.0098   0.0055
+    33                         away_sos_de      +0.0090   0.0038
+    34                     home_form_delta      +0.0089   0.0024
+    35                        away_ft_rate      +0.0088   0.0035
+    36                      home_rest_days      +0.0076   0.0038
+    37                       home_3pt_rate      +0.0068   0.0090
+    38            home_def_off_rebound_pct      +0.0057   0.0059
+    39                   away_def_3pt_rate      +0.0056   0.0067
+    40            away_def_off_rebound_pct      +0.0047   0.0063
+    41                      away_rest_days      +0.0040   0.0092
+    42                         away_sos_oe      +0.0038   0.0027
+    43                        neutral_site      +0.0035   0.0040
+    44                  home_team_adj_pace      +0.0032   0.0034
+    45                         home_sos_de      +0.0024   0.0014
+    46                    away_def_ft_rate      +0.0016   0.0028
+    47                     away_form_delta      +0.0010   0.0018
+    48                    home_opp_ft_rate      +0.0007   0.0024
+    49                        home_ft_rate      -0.0035   0.0028 *
+    50                   home_def_3pt_rate      -0.0125   0.0056 *
+
+  Features with zero/negative importance: 2
+  Names: ['home_ft_rate', 'home_def_3pt_rate']
+  Only 2 zero/negative features — not worth retraining.
+
+======================================================================
+  TEST 8: HYPERPARAMETER STABILITY (8 perturbations)
+======================================================================
+  Date filter (12-01): 66309 → 52801 rows (13508 dropped)
+  Date filter (12-01): 5918 → 4345 rows (1573 dropped)
+
+  Training P1: lr=2e-3...
+    BS-MAE=9.132 dead=0 σ_std=2.08 cal=0.081 ROI=+1.7% (214b) [35s]
+
+  Training P2: lr=4e-3...
+    BS-MAE=9.140 dead=32 σ_std=2.16 cal=0.070 ROI=+2.4% (276b) [34s]
+
+  Training P3: h2=320...
+    BS-MAE=9.147 dead=33 σ_std=2.65 cal=0.079 ROI=+0.7% (220b) [44s]
+
+  Training P4: h2=192...
+    BS-MAE=9.169 dead=1 σ_std=1.99 cal=0.085 ROI=+0.8% (267b) [32s]
+
+  Training P5: d=0.15...
+    BS-MAE=9.182 dead=5 σ_std=2.07 cal=0.078 ROI=-0.7% (271b) [34s]
+
+  Training P6: d=0.25...
+    BS-MAE=9.137 dead=8 σ_std=1.90 cal=0.093 ROI=+8.1% (196b) [34s]
+
+  Training P7: batch=2048...
+    BS-MAE=9.167 dead=5 σ_std=1.97 cal=0.107 ROI=+10.1% (182b) [30s]
+
+  Training P8: batch=8192...
+    BS-MAE=9.147 dead=6 σ_std=2.08 cal=0.071 ROI=+2.1% (260b) [39s]
+
+  ── HP Stability Summary ──
+               Run  BS-MAE  Dead  σ_std    Cal      ROI  Epoch
+  ---------------- ------- ----- ------ ------ -------- ------
+       P1: lr=2e-3   9.132     0   2.08  0.081    +1.7%     24
+       P2: lr=4e-3   9.140    32   2.16  0.070    +2.4%     24
+        P3: h2=320   9.147    33   2.65  0.079    +0.7%     46
+        P4: h2=192   9.169     1   1.99  0.085    +0.8%     20
+        P5: d=0.15   9.182     5   2.07  0.078    -0.7%     25
+        P6: d=0.25   9.137     8   1.90  0.093    +8.1%     24
+    P7: batch=2048   9.167     5   1.97  0.107   +10.1%     14
+    P8: batch=8192   9.147     6   2.08  0.071    +2.1%     32
+
+  BS-MAE range: 0.0495
+  PASS: MAE range < 0.1, optimum is stable
+
+======================================================================
+  TEST 9: CALIBRATION ROBUSTNESS (per-slice)
+======================================================================
+
+                      Slice      N     Q1     Q2     Q3     Q4     Q5    Cal  Flag
+  ------------------------- ------ ------ ------ ------ ------ ------ ------ -----
+                   December   1171   0.98   1.08   1.02   1.10   1.07  0.057
+                    January   1533   1.12   1.00   0.93   0.95   0.86  0.078
+                   February   1056   1.15   0.89   1.01   0.98   0.80  0.097
+           |book|<5 (close)   1414   1.11   0.99   1.00   0.96   0.84  0.066
+                |book| 5-10   1224   1.16   0.87   0.93   0.91   0.85  0.120
+        |book|>10 (blowout)    897   1.03   1.09   0.95   0.78   0.83  0.113
+              Home favorite   2389   1.08   0.96   1.01   0.88   0.83  0.085
+              Away favorite   1146   1.12   1.01   0.92   0.90   0.90  0.083
+            Low σ (bot 25%)    940   1.25   1.11   1.06   1.00   0.88  0.107
+           High σ (top 25%)    940   0.87   0.90   0.98   1.14   1.04  0.085
+
+  PASS: All quintile ratios within 0.70-1.30
+
+======================================================================
+  TEST 11: LINE STALENESS CHECK
+======================================================================
+
+  Lines table columns: ['awayConference', 'awayMoneyline', 'awayScore', 'awayTeam', 'awayTeamId', 'gameId', 'homeConference', 'homeMoneyline', 'homeScore', 'homeTeam', 'homeTeamId', 'overUnder', 'overUnderOpen', 'provider', 'season', 'seasonType', 'spread', 'spreadOpen', 'startDate']
+  Total rows: 18212
+
+  Providers: {'Bovada': 8397, 'Draft Kings': 7303, 'ESPN BET': 2512}
+
+  Sample lines (5 games):
+    awayConference: ['A-10', 'A-10', 'A-10', 'A-10', 'MAC']
+    awayMoneyline: [500.0, nan, 300.0, nan, 290.0]
+    awayScore: [69, 69, 81, 81, 89]
+    awayTeam: ['Richmond', 'Richmond', 'Rhode Island', 'Rhode Island', 'Buffalo']
+    awayTeamId: [242, 242, 240, 240, 33]
+    gameId: [358725, 358725, 358726, 358726, 211155]
+    homeConference: ['A-10', 'A-10', 'A-10', 'A-10', 'MAC']
+    homeMoneyline: [-750.0, nan, -400.0, nan, -380.0]
+    homeScore: [77, 77, 76, 76, 78]
+    homeTeam: ['VCU', 'VCU', 'Dayton', 'Dayton', 'Bowling Green']
+    homeTeamId: [333, 333, 64, 64, 28]
+    overUnder: [155.5, 155.5, 138.5, 138.5, 150.0]
+    overUnderOpen: [155.5, 155.5, 137.5, 135.5, 150.0]
+    provider: ['Bovada', 'Draft Kings', 'Bovada', 'Draft Kings', 'Bovada']
+    season: [2026, 2026, 2026, 2026, 2026]
+    seasonType: ['regular', 'regular', 'regular', 'regular', 'regular']
+    spread: [-12.5, -12.5, -9.0, -8.5, -8.0]
+    spreadOpen: [-11.0, -12.0, -8.0, -7.0, -7.0]
+    startDate: ['2026-01-28T00:00:00.000Z', '2026-01-28T00:00:00.000Z', '2026-01-28T00:00:00.000Z', '2026-01-28T00:00:00.000Z', '2026-01-28T00:00:00.000Z']
+
+  Timestamp columns found: ['startDate']
+    startDate sample: ['2026-01-28T00:00:00.000Z', '2026-01-28T00:00:00.000Z', '2026-01-28T00:00:00.000Z', '2026-01-28T00:00:00.000Z', '2026-01-28T00:00:00.000Z']
+
+======================================================================
+  REMAINING TESTS COMPLETE — 5.5 minutes
+======================================================================

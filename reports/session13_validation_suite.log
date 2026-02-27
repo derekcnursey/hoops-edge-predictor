@@ -1,0 +1,355 @@
+======================================================================
+  SESSION 13: COMPREHENSIVE VALIDATION SUITE (12 TESTS)
+  Model: C2-V2 (384→256, d=0.20, lr=3e-3, batch=4096, Gaussian)
+======================================================================
+
+======================================================================
+  TEST 1: WALK-FORWARD VALIDATION
+======================================================================
+  Training on past only, predicting each year independently.
+
+  --- 2019: train on 2015-2018 (4 seasons) ---
+  Date filter (12-01): 23909 → 19150 rows (4759 dropped)
+  Date filter (12-01): 6066 → 4722 rows (1344 dropped)
+    Games: 4711 total, 4498 with book spreads
+    BS-MAE=9.023 Book=8.664 σ=12.1±3.2 dead=0 cal=0.081 ep@34 [17s]
+                Strategy   Bets    W    Win%      ROI    Units
+  ---------------------- ------ ---- ------- -------- --------
+            a) edge>=10%   1128  602   53.4%    +1.9%    +21.3
+            b) edge>=12%    841  454   54.0%    +3.1%    +25.7
+     c) edge>=12% σ12-16    215  120   55.8%    +6.6%    +14.1
+            d) edge>=15%    499  265   53.1%    +1.4%     +6.9
+        e) edge>=7% σ>14    144   70   48.6%    -7.2%    -10.4
+
+  --- 2020: train on 2015-2019 (5 seasons) ---
+  Date filter (12-01): 29975 → 23872 rows (6103 dropped)
+  Date filter (12-01): 5856 → 4455 rows (1401 dropped)
+    Games: 4367 total, 4193 with book spreads
+    BS-MAE=9.305 Book=8.669 σ=26.8±6.9 dead=0 cal=0.416 ep@32 [29s]
+                Strategy   Bets    W    Win%      ROI    Units
+  ---------------------- ------ ---- ------- -------- --------
+            a) edge>=10%    419  220   52.5%    +0.2%     +1.0
+            b) edge>=12%    310  168   54.2%    +3.5%    +10.7
+     c) edge>=12% σ12-16     84   51   60.7%   +15.9%    +13.4
+            d) edge>=15%    223  123   55.2%    +5.3%    +11.8
+        e) edge>=7% σ>14    299  156   52.2%    -0.4%     -1.2
+
+  --- 2021: train on 2015-2020 (6 seasons) ---
+  Date filter (12-01): 35831 → 28327 rows (7504 dropped)
+  Date filter (12-01): 5282 → 4919 rows (363 dropped)
+    Games: 3998 total, 3700 with book spreads
+    BS-MAE=10.116 Book=9.044 σ=12.5±3.2 dead=0 cal=0.132 ep@16 [15s]
+                Strategy   Bets    W    Win%      ROI    Units
+  ---------------------- ------ ---- ------- -------- --------
+            a) edge>=10%   1617  800   49.5%    -5.5%    -89.7
+            b) edge>=12%   1373  687   50.0%    -4.5%    -61.5
+     c) edge>=12% σ12-16    505  240   47.5%    -9.3%    -46.8
+            d) edge>=15%   1024  521   50.9%    -2.9%    -29.4
+        e) edge>=7% σ>14    271  138   50.9%    -2.8%     -7.5
+     *** FLAG: c < -5% ***
+
+  --- 2022: train on 2015-2021 (7 seasons) ---
+  Date filter (12-01): 41113 → 33246 rows (7867 dropped)
+  Date filter (12-01): 6387 → 5079 rows (1308 dropped)
+    Games: 4676 total, 4414 with book spreads
+    BS-MAE=8.890 Book=8.526 σ=11.8±1.6 dead=6 cal=0.070 ep@20 [31s]
+                Strategy   Bets    W    Win%      ROI    Units
+  ---------------------- ------ ---- ------- -------- --------
+            a) edge>=10%   1400  756   54.0%    +3.1%    +43.3
+            b) edge>=12%   1072  577   53.8%    +2.8%    +29.5
+     c) edge>=12% σ12-16    365  193   52.9%    +0.9%     +3.5
+            d) edge>=15%    708  384   54.2%    +3.5%    +25.1
+        e) edge>=7% σ>14     87   49   56.3%    +7.5%     +6.5
+
+  --- 2023: train on 2015-2022 (8 seasons) ---
+  Date filter (12-01): 47500 → 38325 rows (9175 dropped)
+  Date filter (12-01): 6261 → 4834 rows (1427 dropped)
+    Games: 4807 total, 4605 with book spreads
+    BS-MAE=9.086 Book=8.738 σ=11.4±1.7 dead=10 cal=0.087 ep@26 [38s]
+                Strategy   Bets    W    Win%      ROI    Units
+  ---------------------- ------ ---- ------- -------- --------
+            a) edge>=10%   1250  650   52.0%    -0.7%     -9.1
+            b) edge>=12%    957  500   52.2%    -0.3%     -2.5
+     c) edge>=12% σ12-16    164   86   52.4%    +0.1%     +0.2
+            d) edge>=15%    609  319   52.4%    +0.0%     +0.0
+        e) edge>=7% σ>14     44   23   52.3%    -0.2%     -0.1
+
+  --- 2024: train on 2015-2023 (9 seasons) ---
+  Date filter (12-01): 53761 → 43159 rows (10602 dropped)
+  Date filter (12-01): 6249 → 4856 rows (1393 dropped)
+    Games: 4851 total, 4289 with book spreads
+    BS-MAE=9.165 Book=8.817 σ=11.6±2.3 dead=16 cal=0.092 ep@53 [54s]
+                Strategy   Bets    W    Win%      ROI    Units
+  ---------------------- ------ ---- ------- -------- --------
+            a) edge>=10%   1181  627   53.1%    +1.4%    +16.0
+            b) edge>=12%    863  465   53.9%    +2.9%    +24.7
+     c) edge>=12% σ12-16    239  124   51.9%    -1.0%     -2.3
+            d) edge>=15%    536  293   54.7%    +4.4%    +23.4
+        e) edge>=7% σ>14     97   52   53.6%    +2.3%     +2.3
+
+  --- 2025: train on 2015-2024 (10 seasons) ---
+  Date filter (12-01): 60010 → 48015 rows (11995 dropped)
+  Date filter (12-01): 6299 → 4786 rows (1513 dropped)
+    Games: 4782 total, 4225 with book spreads
+/usr/lib/python3/dist-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator StandardScaler from version 1.8.0 when using version 0.23.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+    BS-MAE=8.977 Book=8.602 σ=12.4±2.7 dead=0 cal=0.034 ep@38 [48s]
+                Strategy   Bets    W    Win%      ROI    Units
+  ---------------------- ------ ---- ------- -------- --------
+            a) edge>=10%    992  520   52.4%    +0.1%     +0.7
+            b) edge>=12%    748  403   53.9%    +2.9%    +21.4
+     c) edge>=12% σ12-16    263  138   52.5%    +0.2%     +0.5
+            d) edge>=15%    458  240   52.4%    +0.0%     +0.2
+        e) edge>=7% σ>14    161   73   45.3%   -13.4%    -21.6
+
+
+  ── Walk-Forward Summary Table ──
+    Year  BS-MAE    Book  σ_std    Cal  Dead  c)Bets    c)ROI    a)ROI    b)ROI
+  ------ ------- ------- ------ ------ ----- ------- -------- -------- --------
+    2019   9.023   8.664   3.24  0.081     0     215    +6.6%    +1.9%    +3.1%
+    2020   9.305   8.669   6.87  0.416     0      84   +15.9%    +0.2%    +3.5%
+    2021  10.116   9.044   3.23  0.132     0     505    -9.3%    -5.5%    -4.5% ***
+    2022   8.890   8.526   1.57  0.070     6     365    +0.9%    +3.1%    +2.8%
+    2023   9.086   8.738   1.71  0.087    10     164    +0.1%    -0.7%    -0.3%
+    2024   9.165   8.817   2.28  0.092    16     239    -1.0%    +1.4%    +2.9%
+    2025   8.977   8.602   2.68  0.034     0     263    +0.2%    +0.1%    +2.9%
+
+  ── Pooled Across All Years ──
+  Total games: 32192, with book: 29924
+  Pooled BS-MAE: 9.202, Book baseline: 8.716
+                Strategy   Bets    W    Win%      ROI    Units
+  ---------------------- ------ ---- ------- -------- --------
+            a) edge>=10%   7987 4175   52.3%    -0.2%    -16.5
+            b) edge>=12%   6164 3254   52.8%    +0.8%    +48.2
+     c) edge>=12% σ12-16   1835  952   51.9%    -1.0%    -17.5
+            d) edge>=15%   4057 2145   52.9%    +0.9%    +38.0
+        e) edge>=7% σ>14   1103  561   50.9%    -2.9%    -32.0
+
+  Loading saved C2-V2 model and val data...
+  Date filter (12-01): 5918 → 4345 rows (1573 dropped)
+
+======================================================================
+  TEST 2: IS SIGMA ACTUALLY USEFUL? (ablation)
+======================================================================
+
+  A) CONSTANT SIGMA BASELINE (σ=12.0 for all games)
+
+                Strategy Real σ ROI  Const σ ROI        Δ
+  ---------------------- ---------- ------------ --------
+            a) edge>=10%      +1.2%        +2.6%    -1.4%
+            b) edge>=12%      +2.7%        +3.2%    -0.5%
+     c) edge>=12% σ12-16      +9.8%        +3.2%    +6.7%
+            d) edge>=15%      +3.9%        +7.6%    -3.7%
+        e) edge>=7% σ>14        N/A          N/A      N/A
+
+  B) SHUFFLED SIGMA BASELINE (100 shuffles)
+
+                Strategy  Real ROI  Shuf Mean  Shuf Std        Δ
+  ---------------------- --------- ---------- --------- --------
+            a) edge>=10%     +1.2%      +1.8%      1.1%    -0.5%
+            b) edge>=12%     +2.7%      +4.0%      1.3%    -1.3%
+     c) edge>=12% σ12-16     +9.8%      +5.4%      4.8%    +4.4%
+            d) edge>=15%     +3.9%      +5.7%      2.1%    -1.8%
+        e) edge>=7% σ>14    +10.9%      +0.2%      6.7%   +10.8%
+
+  C) SIGMA VALUE: MODEL AGREES vs DISAGREES WITH BOOK
+    Model agrees with book: 3128 games
+      edge>=12% unfilt: 476 bets, ROI=+5.1%
+      edge>=12% σ12-16: 230 bets, ROI=+12.9%
+    Model disagrees with book: 407 games
+      edge>=12% unfilt: 184 bets, ROI=-3.5%
+      edge>=12% σ12-16: 69 bets, ROI=-0.4%
+
+======================================================================
+  TEST 4: BOOTSTRAP CONFIDENCE INTERVALS (2000 resamples)
+======================================================================
+
+  a) edge>=10% (928 bets):
+    Mean ROI: +1.3%  Median: +1.4%
+    90% CI: [-4.1%, +6.6%]
+    P(ROI > 0%): 65.8%  P(ROI > 5%): 13.0%
+    P(losing 20+ units in ~300 bets): 7.3%
+
+  b) edge>=12% (660 bets):
+    Mean ROI: +2.6%  Median: +2.7%
+    90% CI: [-3.4%, +8.8%]
+    P(ROI > 0%): 76.0%  P(ROI > 5%): 24.3%
+    P(losing 20+ units in ~300 bets): 4.4%
+
+  c) edge>=12% σ12-16 (299 bets):
+    Mean ROI: +9.8%  Median: +9.8%
+    90% CI: [+0.9%, +18.1%]
+    P(ROI > 0%): 96.2%  P(ROI > 5%): 81.5%
+    P(losing 20+ units in ~300 bets): 0.2%
+
+  d) edge>=15% (408 bets):
+    Mean ROI: +3.9%  Median: +3.9%
+    90% CI: [-3.6%, +11.4%]
+    P(ROI > 0%): 80.3%  P(ROI > 5%): 39.4%
+    P(losing 20+ units in ~300 bets): 2.4%
+
+  e) edge>=7% σ>14 (191 bets):
+    Mean ROI: +11.0%  Median: +10.9%
+    90% CI: [-0.0%, +21.9%]
+    P(ROI > 0%): 93.8%  P(ROI > 5%): 77.9%
+    P(losing 20+ units in ~300 bets): 0.0%
+
+======================================================================
+  TEST 5: DRAWDOWN ANALYSIS (12% edge + σ 12-16)
+======================================================================
+
+  Total bets: 299
+  Final P&L: +29.4 units
+  Max drawdown: 10.7 units (from peak of 19.0)
+  Longest losing streak: 6
+  Longest winning streak: 9
+  Max bets without new high: 109
+
+  P&L Curve (every ~30 bets):
+    Bet#      P&L      W-L    Win%
+  ------ -------- -------- -------
+       1     -1.0   0-1       0.0%
+      30     -1.4  15-15     50.0%
+      59     +7.8  35-24     59.3%
+      88    +11.3  52-36     59.1%
+     117    +10.9  67-50     57.3%
+     146    +16.3  85-61     58.2%
+     175     +8.3  96-79     54.9%
+     204    +15.5 115-89     56.4%
+     233    +15.2 130-103    55.8%
+     262    +18.6 147-115    56.1%
+     291    +24.0 165-126    56.7%
+     299    +29.4 172-127    57.5%
+
+======================================================================
+  TEST 6: BET CORRELATION / CLUSTERING
+======================================================================
+
+  Total bets: 299 across 67 days
+  Bets per day: avg=4.5, min=1, max=16
+  Bets on multi-bet days: 283/299 (94.6%)
+
+  Days with 5+ bets: 23
+    Avg day win rate: 0.568
+    Expected variance (indep): 0.0278
+    Actual variance: 0.0282
+    Overdispersion ratio: 1.01x
+
+  ICC (intraclass correlation): 0.0000
+  Design effect: 1.00
+  Effective independent bets: 299 / 299
+
+  Block Bootstrap (2000 resamples by day):
+    Mean ROI: +9.9%
+    90% CI: [+2.5%, +17.3%]
+    P(ROI > 0%): 98.7%
+    P(ROI > 5%): 85.7%
+
+======================================================================
+  TEST 10: MODEL vs SIMPLE BASELINES
+======================================================================
+
+  A) BOOK SPREAD BASELINE (mu=-book_spread, σ=11.5)
+  BS-MAE: 8.802
+                Strategy   Bets    W    Win%      ROI    Units
+  ---------------------- ------ ---- ------- -------- --------
+            a) edge>=10%      0    -     ---      ---      ---
+            b) edge>=12%      0    -     ---      ---      ---
+     c) edge>=12% σ12-16      0    -     ---      ---      ---
+            d) edge>=15%      0    -     ---      ---      ---
+        e) edge>=7% σ>14      0    -     ---      ---      ---
+
+  B) HOME ADVANTAGE (mu=-book_spread+0.3, σ=11.5)
+  BS-MAE: 8.817
+                Strategy   Bets    W    Win%      ROI    Units
+  ---------------------- ------ ---- ------- -------- --------
+            a) edge>=10%      0    -     ---      ---      ---
+            b) edge>=12%      0    -     ---      ---      ---
+     c) edge>=12% σ12-16      0    -     ---      ---      ---
+            d) edge>=15%      0    -     ---      ---      ---
+        e) edge>=7% σ>14      0    -     ---      ---      ---
+
+  C) REGRESSION TO MEAN (mu=0.8*(-book_spread), σ=11.5)
+  BS-MAE: 8.848
+                Strategy   Bets    W    Win%      ROI    Units
+  ---------------------- ------ ---- ------- -------- --------
+            a) edge>=10%    275  145   52.7%    +0.7%     +1.8
+            b) edge>=12%    176   96   54.5%    +4.1%     +7.3
+     c) edge>=12% σ12-16      0    -     ---      ---      ---
+            d) edge>=15%     95   54   56.8%    +8.5%     +8.1
+        e) edge>=7% σ>14      0    -     ---      ---      ---
+
+  D) C2-V2 MU + CONSTANT SIGMA (σ=12.0)
+  BS-MAE: 9.129 (same mu)
+                Strategy   Bets    W    Win%      ROI    Units
+  ---------------------- ------ ---- ------- -------- --------
+            a) edge>=10%    906  487   53.8%    +2.6%    +23.7
+            b) edge>=12%    681  368   54.0%    +3.2%    +21.5
+     c) edge>=12% σ12-16    681  368   54.0%    +3.2%    +21.5
+            d) edge>=15%    424  239   56.4%    +7.6%    +32.3
+        e) edge>=7% σ>14      0    -     ---      ---      ---
+
+  ── Comparison (12% edge + σ12-16 ROI) ──
+                          Method  BS-MAE      ROI
+  ------------------------------ ------- --------
+              C2-V2 (full model)   9.129    +9.8%
+            Book spread baseline   8.802      N/A
+           Home advantage (+0.3)   8.817      N/A
+       Regression to mean (0.8x)   8.848      N/A
+              C2-V2 mu + const σ   9.129    +3.2%
+
+======================================================================
+  TEST 3: VIG SENSITIVITY
+======================================================================
+
+                Vig  Break-even  |   edge>=12% unfilt |   edge>=12% σ12-16 |   edge>=15% unfilt
+  ----------------- -----------   ------------------  ------------------  ------------------
+     -108 (reduced)       51.9%    721b   +2.0%   324b   +9.4%   433b   +4.5%
+    -110 (standard)       52.4%    660b   +2.7%   299b   +9.8%   408b   +3.9%
+       -112 (worse)       52.8%    616b   +1.4%   281b   +7.1%   380b   +2.1%
+       -115 (worst)       53.5%    552b   -0.1%   252b   +2.4%   338b   +2.3%
+
+======================================================================
+  TEST 12: PROFITABLE BET CHARACTERIZATION
+======================================================================
+
+  Total bets: 299 (W: 172, L: 127)
+
+                     Metric    Winners     Losers          Δ
+  ------------------------- ---------- ---------- ----------
+         Mean |book_spread|      14.42      12.42      +2.01
+                 Mean sigma      13.38      13.34      +0.04
+             Mean prob_edge       0.18       0.18      -0.00
+
+  Direction: Home=149 (49.8%), Away=150 (50.2%)
+  Win rate: Home=55.0%, Away=60.0%
+
+                  Pick Type   Bets    Win%
+  ------------------------- ------ -------
+           Picking home fav     70   55.7%
+           Picking home dog     79   54.4%
+           Picking away fav      5   40.0%
+           Picking away dog    145   60.7%
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pandas/core/indexes/base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'cover_margin'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/hoops-edge-predictor/scripts/session13_validation_suite.py", line 1556, in <module>
+    main()
+  File "/home/ubuntu/hoops-edge-predictor/scripts/session13_validation_suite.py", line 1535, in main
+    test_12_bet_profiling(model, X_val_s, y_val, book, df_val)
+  File "/home/ubuntu/hoops-edge-predictor/scripts/session13_validation_suite.py", line 1456, in test_12_bet_profiling
+    w_margin = winners["cover_margin"].mean()
+  File "/usr/lib/python3/dist-packages/pandas/core/frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/lib/python3/dist-packages/pandas/core/indexes/base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'cover_margin'

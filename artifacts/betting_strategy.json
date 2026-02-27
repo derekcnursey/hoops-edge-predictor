@@ -1,0 +1,9 @@
+{
+  "result": "no_qualifying_strategy",
+  "note": "No strategy met criteria: 5/7 positive years AND pooled ROI > 3%",
+  "best_unfiltered": {
+    "name": "edge>=12% unfiltered",
+    "pooled_roi": -0.01992493859178816,
+    "pooled_bets": 7291
+  }
+}
