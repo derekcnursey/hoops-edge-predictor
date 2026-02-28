@@ -278,7 +278,7 @@ const columns: { key: SortKey; label: string; align: "left" | "center" }[] = [
 
 export default function Home({ date, rows, stats }: HomeProps) {
   const [search, setSearch] = useState("");
-  const [filter, setFilter] = useState<"all" | "edge8">("all");
+  const [filter, setFilter] = useState<"all" | "edge10">("all");
   const [sort, setSort] = useState<SortState>({ key: "edge", dir: "desc" });
 
   const featured = useMemo(() => {
@@ -300,8 +300,8 @@ export default function Home({ date, rows, stats }: HomeProps) {
       });
     }
 
-    if (filter === "edge8") {
-      list = list.filter((r) => hasBook(r) && edge(r) >= 0.08);
+    if (filter === "edge10") {
+      list = list.filter((r) => hasBook(r) && edge(r) >= 0.10);
     }
 
     list.sort((a, b) => {
@@ -534,7 +534,7 @@ export default function Home({ date, rows, stats }: HomeProps) {
             />
 
             <div style={{ display: "flex", gap: 6 }}>
-              {(["all", "edge8"] as const).map((f) => (
+              {(["all", "edge10"] as const).map((f) => (
                 <button
                   key={f}
                   type="button"
@@ -551,7 +551,7 @@ export default function Home({ date, rows, stats }: HomeProps) {
                     cursor: "pointer"
                   }}
                 >
-                  {f === "all" ? "All" : "Edge \u2265 8%"}
+                  {f === "all" ? "All" : "Edge \u2265 10%"}
                 </button>
               ))}
             </div>
