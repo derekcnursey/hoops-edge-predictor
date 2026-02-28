@@ -434,8 +434,22 @@ def daily_run(season: int, game_date: str | None):
     click.echo(f"  JSON: {json_path}")
     click.echo(f"  CSV:  {csv_path}")
 
-    # 4. Build rankings
-    rankings_script = config.PROJECT_ROOT / "scripts" / "build_rankings_json.py"
+    # 4. Publish pipeline: csv_to_json → rankings → final scores
+    script_dir = config.PROJECT_ROOT / "scripts"
+
+    csv_to_json = script_dir / "csv_to_json.py"
+    if csv_to_json.exists():
+        click.echo("Converting CSV to site JSON...")
+        csv_dir = config.PREDICTIONS_DIR / "csv"
+        latest_csv = sorted(csv_dir.glob("*.csv"), key=lambda p: p.stat().st_mtime)
+        csv_arg = str(latest_csv[-1]) if latest_csv else str(csv_path)
+        subprocess.run(
+            [sys.executable, str(csv_to_json), csv_arg, game_date],
+            check=True,
+            cwd=config.PROJECT_ROOT,
+        )
+
+    rankings_script = script_dir / "build_rankings_json.py"
     if rankings_script.exists():
         click.echo("Building rankings...")
         subprocess.run(
@@ -443,22 +457,17 @@ def daily_run(season: int, game_date: str | None):
             check=True,
             cwd=config.PROJECT_ROOT,
         )
-        click.echo("Rankings complete.")
 
-    # 5. Run publish pipeline (csv_to_json + s3_finals_to_json)
-    script_dir = config.PROJECT_ROOT / "scripts"
-    publish_sh = script_dir / "publish_daily.sh"
-    if publish_sh.exists():
-        click.echo("Running publish pipeline...")
-        csv_dir = config.PREDICTIONS_DIR / "csv"
-        latest_csv = sorted(csv_dir.glob("*.csv"), key=lambda p: p.stat().st_mtime)
-        csv_arg = str(latest_csv[-1]) if latest_csv else str(csv_path)
+    s3_finals = script_dir / "s3_finals_to_json.py"
+    if s3_finals.exists():
+        click.echo("Fetching final scores...")
         subprocess.run(
-            ["bash", str(publish_sh), csv_arg, game_date],
+            [sys.executable, str(s3_finals)],
             check=True,
             cwd=config.PROJECT_ROOT,
         )
-        click.echo("Publish pipeline complete.")
+
+    click.echo("Publish pipeline complete.")
 
     # Print summary
     if "pick_side" in preds.columns and "pick_prob_edge" in preds.columns:
@@ -734,24 +743,24 @@ def daily_update(season: int, game_date: str | None, skip_etl: bool,
             click.echo(f"  JSON: {json_path}")
             click.echo(f"  CSV:  {csv_path}")
 
-        # Step 5: Rankings + final scores + site data
-        click.echo(f"\n[5/6] Rankings + publish pipeline...")
-        publish_sh = config.PROJECT_ROOT / "scripts" / "publish_daily.sh"
-        if publish_sh.exists():
+        # Step 5: Publish pipeline — csv_to_json → rankings → final scores
+        click.echo(f"\n[5/6] Publish pipeline...")
+        script_dir = config.PROJECT_ROOT / "scripts"
+
+        csv_to_json = script_dir / "csv_to_json.py"
+        if csv_to_json.exists():
             csv_dir = config.PREDICTIONS_DIR / "csv"
             latest_csv = sorted(csv_dir.glob("*.csv"), key=lambda p: p.stat().st_mtime)
             csv_arg = str(latest_csv[-1]) if latest_csv else ""
-            cmd = ["bash", str(publish_sh)]
             if csv_arg:
-                cmd += [csv_arg, game_date]
-            _run(cmd, cwd=config.PROJECT_ROOT, label="publish_daily.sh")
-        else:
-            # Fallback: run scripts individually
-            for script_name in ["build_rankings_json.py", "s3_finals_to_json.py"]:
-                script = config.PROJECT_ROOT / "scripts" / script_name
-                if script.exists():
-                    _run([sys.executable, str(script)], cwd=config.PROJECT_ROOT,
-                         label=script_name)
+                _run([sys.executable, str(csv_to_json), csv_arg, game_date],
+                     cwd=config.PROJECT_ROOT, label="csv_to_json")
+
+        for script_name in ["build_rankings_json.py", "s3_finals_to_json.py"]:
+            script = script_dir / script_name
+            if script.exists():
+                _run([sys.executable, str(script)], cwd=config.PROJECT_ROOT,
+                     label=script_name)
         click.echo("  Publish pipeline complete.")
 
     # ── Step 6: Deploy ────────────────────────────────────────────

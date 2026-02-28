@@ -22,13 +22,13 @@ fi
 
 echo "=== csv_to_json ==="
 if [[ -n "$DATE_ARG" ]]; then
-  python3 "$SCRIPT_DIR/csv_to_json.py" "$CSV_PATH" "$DATE_ARG"
+  poetry run python3 "$SCRIPT_DIR/csv_to_json.py" "$CSV_PATH" "$DATE_ARG"
 else
-  python3 "$SCRIPT_DIR/csv_to_json.py" "$CSV_PATH"
+  poetry run python3 "$SCRIPT_DIR/csv_to_json.py" "$CSV_PATH"
 fi
 
 echo "=== build_rankings_json ==="
-python3 "$SCRIPT_DIR/build_rankings_json.py"
+poetry run python3 "$SCRIPT_DIR/build_rankings_json.py"
 
 echo "=== s3_finals_to_json ==="
-python3 "$SCRIPT_DIR/s3_finals_to_json.py"
+poetry run python3 "$SCRIPT_DIR/s3_finals_to_json.py"
