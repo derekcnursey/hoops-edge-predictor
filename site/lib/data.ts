@@ -105,7 +105,11 @@ export function normalizeTeam(name?: string): string {
 
 /** Display-name transform applied to all team names on the site. */
 export function displayTeam(name: string): string {
-  return name.replace(/\bDuke\b/g, "dook💩").replace(/\bduke\b/g, "dook💩");
+  return name
+    .replace(/\bDuke\b/g, "dook💩")
+    .replace(/\bduke\b/g, "dook💩")
+    .replace(/\bGeorgia Tech\b/g, "Georgia Tech👑")
+    .replace(/\bUCF\b/g, "UCF👸");
 }
 
 export function getActualMargin(row: PredictionRow): number | null {
