@@ -281,12 +281,6 @@ export default function Home({ date, rows, stats }: HomeProps) {
   const [filter, setFilter] = useState<"all" | "edge10">("all");
   const [sort, setSort] = useState<SortState>({ key: "edge", dir: "desc" });
 
-  const featured = useMemo(() => {
-    return rows
-      .filter((r) => hasBook(r) && edge(r) >= 0.10)
-      .sort((a, b) => edge(b) - edge(a));
-  }, [rows]);
-
   const tableRows = useMemo(() => {
     let list = [...rows];
 
@@ -421,84 +415,6 @@ export default function Home({ date, rows, stats }: HomeProps) {
             </div>
           ))}
         </div>
-
-        {/* -- Featured "BEST VALUE" Cards -- */}
-        {featured.length > 0 && (
-          <div style={{ marginBottom: 28 }}>
-            <div
-              style={{
-                ...mono,
-                fontSize: 11,
-                fontWeight: 500,
-                letterSpacing: "0.08em",
-                color: "#64748b",
-                marginBottom: 10
-              }}
-            >
-              BEST VALUE
-            </div>
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-                gap: 8
-              }}
-            >
-              {featured.map((game, i) => {
-                const pt = getPickTeam(game);
-                const ps = pickSpread(game);
-                const e = edge(game);
-                return (
-                  <div
-                    key={`${str(game.away_team)}-${str(game.home_team)}-${i}`}
-                    style={{
-                      background: "#fff",
-                      border: "1px solid #e2e8f0",
-                      borderRadius: 10,
-                      padding: "14px 20px",
-                      boxShadow: "0 1px 3px rgba(0,0,0,0.04)",
-                      animation: `slideUp 0.4s ease ${i * 0.05}s both`
-                    }}
-                  >
-                    <div
-                      style={{ fontSize: 12, color: "#64748b", marginBottom: 6 }}
-                    >
-                      {displayTeam(str(game.away_team))} @ {displayTeam(str(game.home_team))}
-                      {formatGameTime(game) && (
-                        <span style={{ ...mono, marginLeft: 6, fontSize: 11, color: "#94a3b8" }}>
-                          {formatGameTime(game)}
-                        </span>
-                      )}
-                    </div>
-                    <div
-                      style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        alignItems: "center"
-                      }}
-                    >
-                      <span
-                        style={{ fontSize: 16, fontWeight: 700, color: "#0f172a" }}
-                      >
-                        {pt} {ps !== null ? formatSpread(ps) : ""}
-                      </span>
-                      <span
-                        style={{
-                          ...mono,
-                          fontSize: 18,
-                          fontWeight: 700,
-                          color: "#16a34a"
-                        }}
-                      >
-                        +{(e * 100).toFixed(1)}%
-                      </span>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        )}
 
         {/* -- All Games Table -- */}
         <div>
