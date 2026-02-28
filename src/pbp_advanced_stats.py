@@ -111,49 +111,62 @@ def compute_advanced_stats(pbp: pd.DataFrame) -> pd.DataFrame:
     )
 
     results = []
-    for (game_id, team_id), team_df in df.groupby(["gameId", "teamId"]):
-        opp_id = team_df["opponentId"].dropna().iloc[0] if team_df["opponentId"].notna().any() else None
-        start_date = team_df["gameStartDate"].iloc[0] if "gameStartDate" in team_df.columns else None
 
-        row = {
-            "gameid": int(game_id),
-            "teamid": int(team_id),
-            "opponentid": int(opp_id) if opp_id is not None else None,
-            "startdate": start_date,
-        }
+    # Group by game, then iterate over both teams using offense/defense team IDs
+    # This is necessary because teamId tracks the acting team, while
+    # offense_team_id/defense_team_id track possession assignment.
+    for game_id, game_df in df.groupby("gameId"):
+        # Identify both teams from offense_team_id
+        teams_in_game = game_df["offense_team_id"].dropna().unique()
+        start_date = game_df["gameStartDate"].iloc[0] if "gameStartDate" in game_df.columns else None
 
-        # Split into offensive and defensive plays
-        off_plays = team_df[team_df["offense_team_id"] == team_id]
-        def_plays = team_df[team_df["defense_team_id"] == team_id]
+        for team_id in teams_in_game:
+            team_id = int(team_id)
 
-        # ── Group A: Shot quality & distribution ──────────────────
-        row.update(_compute_shot_quality(off_plays, def_plays))
+            # Get opponent ID
+            other_teams = [t for t in teams_in_game if int(t) != team_id]
+            opp_id = int(other_teams[0]) if other_teams else None
 
-        # ── Group C: Turnover decomposition ───────────────────────
-        row.update(_compute_turnover_decomp(off_plays, def_plays, df, game_id, team_id))
+            row = {
+                "gameid": int(game_id),
+                "teamid": team_id,
+                "opponentid": opp_id,
+                "startdate": start_date,
+            }
 
-        # ── Group D: Possession-level tempo ───────────────────────
-        row.update(_compute_tempo_features(off_plays))
+            # Split ALL game plays into this team's offense and defense
+            # using the possession-level offense/defense team assignment
+            off_plays = game_df[game_df["offense_team_id"] == team_id]
+            def_plays = game_df[game_df["defense_team_id"] == team_id]
 
-        # ── Group G: Putback / second-chance ──────────────────────
-        row.update(_compute_putback_features(off_plays))
+            # ── Group A: Shot quality & distribution ──────────────────
+            row.update(_compute_shot_quality(off_plays, def_plays))
 
-        # ── Group H: Clutch performance splits ────────────────────
-        row.update(_compute_clutch_stats(team_df, team_id))
+            # ── Group C: Turnover decomposition ───────────────────────
+            row.update(_compute_turnover_decomp(off_plays, def_plays, df, game_id, team_id))
 
-        # ── Group I: Scoring drought frequency ────────────────────
-        row.update(_compute_drought_features(off_plays, def_plays, df, game_id, team_id))
+            # ── Group D: Possession-level tempo ───────────────────────
+            row.update(_compute_tempo_features(off_plays))
 
-        # ── Group J: Half / period splits ─────────────────────────
-        row.update(_compute_half_splits(team_df, team_id))
+            # ── Group G: Putback / second-chance ──────────────────────
+            row.update(_compute_putback_features(off_plays))
 
-        # ── Group M: Rotation depth / scoring concentration ───────
-        row.update(_compute_rotation_depth(off_plays))
+            # ── Group H: Clutch performance splits ────────────────────
+            row.update(_compute_clutch_stats(game_df, team_id))
 
-        # ── Group N: Pressure free throws ─────────────────────────
-        row.update(_compute_pressure_ft(team_df, team_id))
+            # ── Group I: Scoring drought frequency ────────────────────
+            row.update(_compute_drought_features(off_plays, def_plays, df, game_id, team_id))
 
-        results.append(row)
+            # ── Group J: Half / period splits ─────────────────────────
+            row.update(_compute_half_splits(game_df, team_id))
+
+            # ── Group M: Rotation depth / scoring concentration ───────
+            row.update(_compute_rotation_depth(off_plays))
+
+            # ── Group N: Pressure free throws ─────────────────────────
+            row.update(_compute_pressure_ft(game_df, team_id))
+
+            results.append(row)
 
     return pd.DataFrame(results)
 
@@ -253,21 +266,25 @@ def _compute_turnover_decomp(
 
     if off_possessions > 0:
         # Live-ball turnovers: possessions where opponent got a steal
-        # A steal appears in the same possession for the defensive team
+        # Steals are recorded under the stealing team's teamId, in the
+        # same possession where offense_team_id is the team losing the ball.
         off_poss_ids = set(off_plays["possession_id"].unique())
 
-        # Find steals in this game by the opponent
+        # Find steals in this game's possessions where our team was on offense
         game_plays = all_game_plays[all_game_plays["gameId"] == game_id]
-        opp_steals = game_plays[
-            (game_plays["teamId"] != team_id) &
-            (game_plays["playType"] == "Steal")
+        steals_in_our_poss = game_plays[
+            (game_plays["playType"] == "Steal") &
+            (game_plays["possession_id"].isin(off_poss_ids))
         ]
-        live_tov_poss = off_poss_ids & set(opp_steals["possession_id"].unique())
+        live_tov_poss = set(steals_in_our_poss["possession_id"].unique())
         stats["live_ball_tov_rate"] = len(live_tov_poss) / off_possessions
 
         # Dead-ball turnovers: turnovers without a steal in that possession
-        off_tovs = off_plays[off_plays["playType"].str.contains("Turnover|Lost Ball", case=False, na=False)]
-        tov_poss = set(off_tovs["possession_id"].unique())
+        tov_plays = game_plays[
+            (game_plays["playType"].str.contains("Turnover|Lost Ball", case=False, na=False)) &
+            (game_plays["possession_id"].isin(off_poss_ids))
+        ]
+        tov_poss = set(tov_plays["possession_id"].unique())
         dead_tov_poss = tov_poss - live_tov_poss
         stats["dead_ball_tov_rate"] = len(dead_tov_poss) / off_possessions
     else:
@@ -277,16 +294,12 @@ def _compute_turnover_decomp(
     # Defensive stats
     def_possessions = def_plays["possession_id"].nunique()
     if def_possessions > 0:
-        # Steals forced
-        team_steals = off_plays[  # steals appear on the stealing team's plays
-            off_plays["playType"] == "Steal"
-        ]
-        # Actually, steals are recorded under the team that made the steal
-        # Let's look at it from a different angle
+        # Steals forced by our team (steals in possessions where we were defending)
         game_plays = all_game_plays[all_game_plays["gameId"] == game_id]
+        def_poss_ids = set(def_plays["possession_id"].unique())
         our_steals = game_plays[
-            (game_plays["teamId"] == team_id) &
-            (game_plays["playType"] == "Steal")
+            (game_plays["playType"] == "Steal") &
+            (game_plays["possession_id"].isin(def_poss_ids))
         ]
         stats["steal_rate_defense"] = len(our_steals) / def_possessions
     else:
