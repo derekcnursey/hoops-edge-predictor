@@ -9,6 +9,7 @@ import subprocess
 import sys
 from datetime import date, datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import click
 import numpy as np
@@ -16,6 +17,13 @@ import pandas as pd
 
 from . import config
 from .features import build_features, get_feature_matrix, get_targets, load_lines
+
+_ET = ZoneInfo("America/New_York")
+
+
+def _today_et() -> str:
+    """Today's date in US Eastern Time as YYYY-MM-DD."""
+    return datetime.now(_ET).strftime("%Y-%m-%d")
 
 
 @click.group()
@@ -237,7 +245,7 @@ def predict_today(season: int, game_date: str | None):
     from .infer import predict, save_predictions
 
     if game_date is None:
-        game_date = date.today().isoformat()
+        game_date = _today_et()
 
     click.echo(f"Building features for {game_date}...")
     df = build_features(
@@ -405,7 +413,7 @@ def daily_run(season: int, game_date: str | None):
     from .infer import predict, save_predictions
 
     if game_date is None:
-        game_date = date.today().isoformat()
+        game_date = _today_et()
 
     click.echo(f"=== Daily run for {game_date} (season {season}) ===")
 
@@ -523,7 +531,7 @@ def backfill_season(season: int, start_date: str, end_date: str | None,
     end = (
         datetime.strptime(end_date, "%Y-%m-%d").date()
         if end_date
-        else date.today() - timedelta(days=1)
+        else datetime.now(_ET).date() - timedelta(days=1)
     )
 
     click.echo(f"=== Backfill season {season}: {start} → {end} ===")
@@ -602,7 +610,7 @@ def publish_site(message: str | None):
     """Git commit and push site/public/data/ to deploy via Vercel."""
     import subprocess
 
-    today_str = date.today().isoformat()
+    today_str = _today_et()
     msg = message or f"Update predictions {today_str}"
 
     click.echo("Staging site data files...")
@@ -672,7 +680,7 @@ def daily_update(season: int, game_date: str | None, skip_etl: bool,
     from .infer import predict, save_predictions
 
     if game_date is None:
-        game_date = date.today().isoformat()
+        game_date = _today_et()
 
     etl_root = _get_etl_root()
     click.echo(f"=== Daily update for {game_date} (season {season}) ===")

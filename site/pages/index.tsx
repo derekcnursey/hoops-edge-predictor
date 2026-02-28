@@ -7,7 +7,8 @@ import {
   getPredictionRowsByFilename,
   listPredictionFiles,
   listFinalScoreFiles,
-  readJsonFile
+  readJsonFile,
+  todayET
 } from "../lib/server-data";
 
 type SeasonStats = {
@@ -106,8 +107,9 @@ function computeSeasonStats(): SeasonStats {
   const roi = totalBets > 0 ? (units / totalBets) * 100 : 0;
 
   // Last 30 days
-  const now = new Date();
-  const thirtyDaysAgo = new Date(now);
+  const todayStr = todayET();
+  const todayDate = new Date(todayStr + "T12:00:00");
+  const thirtyDaysAgo = new Date(todayDate);
   thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
   const cutoff = thirtyDaysAgo.toISOString().slice(0, 10);
 

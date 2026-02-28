@@ -4,8 +4,9 @@ from __future__ import annotations
 
 import json
 import math
-from datetime import date
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import numpy as np
 import pandas as pd
@@ -234,7 +235,7 @@ def save_predictions(preds: pd.DataFrame, game_date: str | None = None) -> tuple
         (json_path, csv_path)
     """
     if game_date is None:
-        game_date = date.today().isoformat()
+        game_date = datetime.now(ZoneInfo("America/New_York")).strftime("%Y-%m-%d")
 
     config.PREDICTIONS_DIR.mkdir(parents=True, exist_ok=True)
     json_dir = config.PREDICTIONS_DIR / "json"

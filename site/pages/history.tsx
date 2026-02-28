@@ -3,7 +3,7 @@ import Link from "next/link";
 import { CSSProperties, useMemo, useState } from "react";
 import Layout from "../components/Layout";
 import { normalizeRows } from "../lib/data";
-import { listFinalScoreFiles, readJsonFile } from "../lib/server-data";
+import { listFinalScoreFiles, readJsonFile, todayET } from "../lib/server-data";
 
 /* -- types -- */
 
@@ -48,7 +48,7 @@ export const getServerSideProps: GetServerSideProps<HistoryProps> = async (
     typeof context.query.date === "string" ? context.query.date : null;
 
   const finalFiles = listFinalScoreFiles();
-  const today = new Date().toISOString().slice(0, 10);
+  const today = todayET();
   const availableDates = finalFiles.map((f) => f.date).filter((d) => d < today).sort();
 
   if (!availableDates.length) {

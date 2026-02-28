@@ -6,6 +6,11 @@ const PREDICTIONS_RE = /^predictions_(\d{4}-\d{2}-\d{2})\.json$/;
 const RESULTS_RE = /^results_(\d{4}-\d{2}-\d{2})\.json$/;
 const FINAL_SCORES_RE = /^final_scores_(\d{4}-\d{2}-\d{2})\.json$/;
 
+/** Today's date in US Eastern Time as YYYY-MM-DD. */
+export function todayET(): string {
+  return new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
+}
+
 export function getDataDir(): string {
   const primary = path.join(process.cwd(), "public", "data");
   if (fs.existsSync(primary)) {
