@@ -87,7 +87,8 @@ export function readJsonFile(filename: string): unknown {
 }
 
 export function getLatestPredictionFile(): DataFile | null {
-  const files = listPredictionFiles();
+  const today = todayET();
+  const files = listPredictionFiles().filter((f) => f.date <= today);
   if (!files.length) {
     return null;
   }
