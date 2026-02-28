@@ -196,16 +196,23 @@ export default function Performance({
   seasonLabel
 }: PerformanceProps) {
   const [edgeMin, setEdgeMin] = useState(0);
+  const [startDate, setStartDate] = useState("");
 
   const maxEdge = useMemo(() => {
     if (!games.length) return 30;
     return Math.ceil(Math.max(...games.map((g) => g.edge)));
   }, [games]);
 
+  const minDate = games.length ? games[0].date : "";
+  const maxDate = games.length ? games[games.length - 1].date : "";
+
   /* filtered games */
   const filtered = useMemo(
-    () => games.filter((g) => g.edge >= edgeMin),
-    [games, edgeMin]
+    () =>
+      games
+        .filter((g) => !startDate || g.date >= startDate)
+        .filter((g) => g.edge >= edgeMin),
+    [games, startDate, edgeMin]
   );
 
   /* stats */
@@ -341,7 +348,7 @@ export default function Performance({
           }}
         >
           <div
-            style={{ display: "flex", alignItems: "baseline", gap: 12 }}
+            style={{ display: "flex", alignItems: "center", gap: 12 }}
           >
             <h1
               style={{
@@ -357,6 +364,38 @@ export default function Performance({
             <span style={{ ...mono, fontSize: 13, color: "#64748b" }}>
               {seasonLabel}
             </span>
+            {minDate && (
+              <div
+                style={{ display: "flex", alignItems: "center", gap: 6 }}
+              >
+                <span
+                  style={{
+                    ...mono,
+                    fontSize: 11,
+                    fontWeight: 600,
+                    color: "#64748b"
+                  }}
+                >
+                  FROM
+                </span>
+                <input
+                  type="date"
+                  min={minDate}
+                  max={maxDate}
+                  value={startDate}
+                  onChange={(e) => setStartDate(e.target.value)}
+                  style={{
+                    ...mono,
+                    fontSize: 13,
+                    padding: "2px 6px",
+                    border: "1px solid #cbd5e1",
+                    borderRadius: 4,
+                    color: "#0f172a",
+                    background: "#fff"
+                  }}
+                />
+              </div>
+            )}
           </div>
 
           <div
