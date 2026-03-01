@@ -160,8 +160,9 @@ function weekLabel(dateStr: string): string {
 }
 
 function monthName(dateStr: string): string {
+  const yr = dateStr.slice(0, 4);
   const mo = Number(dateStr.slice(5, 7));
-  return [
+  const name = [
     "January",
     "February",
     "March",
@@ -175,6 +176,7 @@ function monthName(dateStr: string): string {
     "November",
     "December"
   ][mo - 1];
+  return `${name} ${yr}`;
 }
 
 function monthSortKey(dateStr: string): number {
@@ -277,7 +279,7 @@ export default function Performance({
   const chartData = useMemo(() => {
     const allWeeks: string[] = [];
     const seen = new Set<string>();
-    for (const g of games) {
+    for (const g of filtered) {
       if (!seen.has(g.week)) {
         seen.add(g.week);
         allWeeks.push(g.week);
@@ -293,7 +295,7 @@ export default function Performance({
       }
       return { week: w, units: Math.round(cum * 10) / 10 };
     });
-  }, [games, filtered]);
+  }, [filtered]);
 
   /* monthly breakdown */
   const months = useMemo(() => {
