@@ -129,16 +129,16 @@
     },
     {
       "away_team": "Little Rock",
-      "edge_home_points": -5.7233853,
+      "edge_home_points": -2.7233853000000003,
       "game_id": "2020_01_09_little_rock_troy",
       "home_team": "Troy",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": -4.2233853,
       "neutral_site": null,
-      "pick_cover_prob": 0.7528454879589821,
-      "pick_ev_per_1": 0.4372504770126021,
-      "pick_fair_odds": -304.605196863264,
-      "pick_prob_edge": 0.22903596414945826,
+      "pick_cover_prob": 0.627492486310193,
+      "pick_ev_per_1": 0.19794020113764121,
+      "pick_fair_odds": -168.45096092013762,
+      "pick_prob_edge": 0.10368296250066922,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.03944872,
@@ -1010,5 +1010,5 @@
       "start_time": "2020-01-10T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:13.983705Z"
+  "generated_at": "2026-03-01T02:27:11.480880Z"
 }

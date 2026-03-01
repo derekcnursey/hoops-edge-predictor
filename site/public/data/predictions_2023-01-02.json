@@ -39,17 +39,17 @@
     },
     {
       "away_team": "Boston University",
-      "edge_home_points": -2.7696695,
+      "edge_home_points": 0.2303305,
       "game_id": "2023_01_02_boston_university_bucknell",
       "home_team": "Bucknell",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": -1.2696695,
       "neutral_site": null,
-      "pick_cover_prob": 0.6149714234819961,
-      "pick_ev_per_1": 0.17403635392017425,
-      "pick_fair_odds": -159.72098202254864,
-      "pick_prob_edge": 0.09116189967247224,
-      "pick_side": "AWAY",
+      "pick_cover_prob": 0.5096966075852217,
+      "pick_ev_per_1": -0.0269428400645767,
+      "pick_fair_odds": -103.95534998747011,
+      "pick_prob_edge": -0.014112916224302108,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.039767522,
       "pred_sigma": 9.47543,
@@ -434,5 +434,5 @@
       "start_time": "2023-01-03T01:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:16.726101Z"
+  "generated_at": "2026-03-01T02:27:13.777779Z"
 }

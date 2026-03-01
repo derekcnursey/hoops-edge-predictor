@@ -291,17 +291,17 @@
     },
     {
       "away_team": "Villanova",
-      "edge_home_points": 0.13566140000000004,
+      "edge_home_points": -2.8643386,
       "game_id": "2016_02_24_villanova_xavier",
       "home_team": "Xavier",
-      "market_spread_home": 1.5,
+      "market_spread_home": -1.5,
       "model_mu_home": -1.3643386,
       "neutral_site": null,
-      "pick_cover_prob": 0.5057387086408376,
-      "pick_ev_per_1": -0.03449882895840101,
-      "pick_fair_odds": -102.32213557531757,
-      "pick_prob_edge": -0.01807081516868625,
-      "pick_side": "HOME",
+      "pick_cover_prob": 0.6193330557400627,
+      "pick_ev_per_1": 0.18236310641284692,
+      "pick_fair_odds": -162.69683120086017,
+      "pick_prob_edge": 0.09552353193053886,
+      "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.012697404,
       "pred_sigma": 9.430554,
@@ -740,5 +740,5 @@
       "start_time": "2016-02-25T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:09.120555Z"
+  "generated_at": "2026-03-01T02:27:07.036416Z"
 }

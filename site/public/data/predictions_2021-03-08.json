@@ -147,16 +147,16 @@
     },
     {
       "away_team": "Drexel",
-      "edge_home_points": -3.4150627,
+      "edge_home_points": -1.4150627,
       "game_id": "2021_03_08_drexel_northeastern",
       "home_team": "Northeastern",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": -2.4150627,
       "neutral_site": null,
-      "pick_cover_prob": 0.6364756435068306,
-      "pick_ev_per_1": 0.21508986487667658,
-      "pick_fair_odds": -175.0847315010074,
-      "pick_prob_edge": 0.11266611969730678,
+      "pick_cover_prob": 0.5574999846433255,
+      "pick_ev_per_1": 0.06431815250089412,
+      "pick_fair_odds": -125.98869272218126,
+      "pick_prob_edge": 0.03369046083380167,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.076723486,
@@ -200,5 +200,5 @@
       "start_time": "2021-03-09T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:15.150230Z"
+  "generated_at": "2026-03-01T02:27:12.350357Z"
 }

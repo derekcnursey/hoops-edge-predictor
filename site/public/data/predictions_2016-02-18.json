@@ -615,16 +615,16 @@
     },
     {
       "away_team": "Old Dominion",
-      "edge_home_points": -3.2568372,
+      "edge_home_points": -0.2568372000000001,
       "game_id": "2016_02_18_old_dominion_western_kentucky",
       "home_team": "Western Kentucky",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": -1.7568372,
       "neutral_site": null,
-      "pick_cover_prob": 0.6380135537475968,
-      "pick_ev_per_1": 0.21802587533632123,
-      "pick_fair_odds": -176.25343720817867,
-      "pick_prob_edge": 0.11420402993807299,
+      "pick_cover_prob": 0.5111091311961917,
+      "pick_ev_per_1": -0.024246204079997613,
+      "pick_fair_odds": -104.54462617531513,
+      "pick_prob_edge": -0.012700392613332112,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.07842058,
@@ -759,16 +759,16 @@
     },
     {
       "away_team": "SIU Edwardsville",
-      "edge_home_points": 3.5470839,
+      "edge_home_points": 0.5470839000000001,
       "game_id": "2016_02_18_siu_edwardsville_southeast_missouri_state",
       "home_team": "Southeast Missouri State",
-      "market_spread_home": 1.5,
+      "market_spread_home": -1.5,
       "model_mu_home": 2.0470839,
       "neutral_site": null,
-      "pick_cover_prob": 0.650301729223469,
-      "pick_ev_per_1": 0.24148511942662254,
-      "pick_fair_odds": -185.96080780709195,
-      "pick_prob_edge": 0.12649220541394512,
+      "pick_cover_prob": 0.5237451689244033,
+      "pick_ev_per_1": -0.00012285932613925743,
+      "pick_fair_odds": -109.97162333063417,
+      "pick_prob_edge": -6.435488512057663e-05,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.11611726,
@@ -1244,5 +1244,5 @@
       "start_time": "2016-02-19T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:09.044776Z"
+  "generated_at": "2026-03-01T02:27:06.959253Z"
 }

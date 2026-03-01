@@ -309,16 +309,16 @@
     },
     {
       "away_team": "Penn State",
-      "edge_home_points": 4.702298,
+      "edge_home_points": 7.702298,
       "game_id": "2015_11_20_penn_state_duquesne",
       "home_team": "Duquesne",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": 6.202298,
       "neutral_site": null,
-      "pick_cover_prob": 0.6581615838064789,
-      "pick_ev_per_1": 0.2564902963578234,
-      "pick_fair_odds": -192.5358744448083,
-      "pick_prob_edge": 0.1343520599969551,
+      "pick_cover_prob": 0.7477413101761248,
+      "pick_ev_per_1": 0.4275061376089655,
+      "pick_fair_odds": -296.4184546816568,
+      "pick_prob_edge": 0.22393178636660094,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.10404296,
@@ -1046,5 +1046,5 @@
       "start_time": "2015-11-21T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:06.811016Z"
+  "generated_at": "2026-03-01T02:28:11.490324Z"
 }

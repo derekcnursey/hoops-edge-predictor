@@ -1029,16 +1029,16 @@
     },
     {
       "away_team": "UAlbany",
-      "edge_home_points": -10.410662,
+      "edge_home_points": -6.410662,
       "game_id": "2016_11_19_ualbany_grand_canyon",
       "home_team": "Grand Canyon",
-      "market_spread_home": -2.0,
+      "market_spread_home": 2.0,
       "model_mu_home": -8.410662,
       "neutral_site": null,
-      "pick_cover_prob": 0.8303149924253275,
-      "pick_ev_per_1": 0.5851468037210797,
-      "pick_fair_odds": -489.32725659922215,
-      "pick_prob_edge": 0.30650546861580363,
+      "pick_cover_prob": 0.721841714534694,
+      "pick_ev_per_1": 0.3780614550207795,
+      "pick_fair_odds": -259.50753662692085,
+      "pick_prob_edge": 0.1980321907251702,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.17568271,
@@ -1244,5 +1244,5 @@
       "start_time": "2016-11-20T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:07.611854Z"
+  "generated_at": "2026-03-01T02:28:11.851284Z"
 }

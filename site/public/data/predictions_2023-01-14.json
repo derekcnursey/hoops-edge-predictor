@@ -993,17 +993,17 @@
     },
     {
       "away_team": "Southeast Missouri State",
-      "edge_home_points": -1.78411418,
+      "edge_home_points": 1.21588582,
       "game_id": "2023_01_14_southeast_missouri_state_morehead_state",
       "home_team": "Morehead State",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": -0.28411418,
       "neutral_site": null,
-      "pick_cover_prob": 0.5574775464648016,
-      "pick_ev_per_1": 0.06427531597825764,
-      "pick_fair_odds": -125.97723392592997,
-      "pick_prob_edge": 0.033668022655277796,
-      "pick_side": "AWAY",
+      "pick_cover_prob": 0.5392443362355838,
+      "pick_ev_per_1": 0.02946646008611442,
+      "pick_fair_odds": -117.03477106063285,
+      "pick_prob_edge": 0.01543481242605993,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.043239392,
       "pred_sigma": 12.3402405,
@@ -2738,5 +2738,5 @@
       "start_time": "2023-01-15T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:16.469989Z"
+  "generated_at": "2026-03-01T02:27:13.538650Z"
 }

@@ -975,17 +975,17 @@
     },
     {
       "away_team": "Cal State Northridge",
-      "edge_home_points": 1.4093511,
+      "edge_home_points": -0.5906488999999999,
       "game_id": "2017_01_25_cal_state_northridge_uc_santa_barbara",
       "home_team": "UC Santa Barbara",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": 0.4093511,
       "neutral_site": null,
-      "pick_cover_prob": 0.5666634080916011,
-      "pick_ev_per_1": 0.08181196090214748,
-      "pick_fair_odds": -130.7674954464463,
-      "pick_prob_edge": 0.04285388428207726,
-      "pick_side": "HOME",
+      "pick_cover_prob": 0.5280463155664438,
+      "pick_ev_per_1": 0.00808842062684717,
+      "pick_fair_odds": -111.88519826902305,
+      "pick_prob_edge": 0.004236791756919933,
+      "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.75205797,
       "pred_sigma": 8.394705,
@@ -1064,5 +1064,5 @@
       "start_time": "2017-01-26T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:10.625620Z"
+  "generated_at": "2026-03-01T02:28:12.543323Z"
 }

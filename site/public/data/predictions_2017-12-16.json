@@ -939,16 +939,16 @@
     },
     {
       "away_team": "Iowa State",
-      "edge_home_points": 8.589051699999999,
+      "edge_home_points": 3.5890516999999997,
       "game_id": "2017_12_16_iowa_state_northern_iowa",
       "home_team": "Northern Iowa",
-      "market_spread_home": 2.5,
+      "market_spread_home": -2.5,
       "model_mu_home": 6.0890517,
       "neutral_site": null,
-      "pick_cover_prob": 0.7255559694986546,
-      "pick_ev_per_1": 0.38515230540652245,
-      "pick_fair_odds": -264.3730192175187,
-      "pick_prob_edge": 0.2017464456891308,
+      "pick_cover_prob": 0.5988914401421948,
+      "pick_ev_per_1": 0.14333820390782637,
+      "pick_fair_odds": -149.30906494603465,
+      "pick_prob_edge": 0.07508191633267092,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.17583331,
@@ -1748,5 +1748,5 @@
       "start_time": "2017-12-17T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:10.209884Z"
+  "generated_at": "2026-03-01T02:27:07.941736Z"
 }

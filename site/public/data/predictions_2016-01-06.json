@@ -687,16 +687,16 @@
     },
     {
       "away_team": "Ohio",
-      "edge_home_points": 7.4594407,
+      "edge_home_points": 5.4594407,
       "game_id": "2016_01_06_ohio_northern_illinois",
       "home_team": "Northern Illinois",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": 6.4594407,
       "neutral_site": null,
-      "pick_cover_prob": 0.7498467521182612,
-      "pick_ev_per_1": 0.43152561768031694,
-      "pick_fair_odds": -299.75495360058454,
-      "pick_prob_edge": 0.2260372283087374,
+      "pick_cover_prob": 0.6890979008756896,
+      "pick_ev_per_1": 0.31555053803540734,
+      "pick_fair_odds": -221.64466010895674,
+      "pick_prob_edge": 0.16528837706616573,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.5714608,
@@ -1046,5 +1046,5 @@
       "start_time": "2016-01-07T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:08.855246Z"
+  "generated_at": "2026-03-01T02:27:06.779103Z"
 }

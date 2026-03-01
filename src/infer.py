@@ -202,12 +202,15 @@ def predict(
             .copy()
         )
 
-        # Merge majority sign and flip when the selected provider disagrees
+        # Merge majority sign and flip when the selected provider disagrees.
+        # Only flip spreads >= 3 pts — smaller spreads can legitimately
+        # differ in sign across providers for near pick'em games.
         lines_dedup = lines_dedup.merge(majority_sign, on="gameId", how="left")
         _sp = lines_dedup["spread"]
         _maj = lines_dedup["_majority_sign"]
         mask_majority_flip = (
             _sp.notna() & _maj.notna() & (_maj != 0)
+            & (abs(_sp) >= 3)
             & (np.sign(_sp) != np.sign(_maj))
         )
         lines_dedup.loc[mask_majority_flip, "spread"] = -_sp[mask_majority_flip]

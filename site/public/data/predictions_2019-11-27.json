@@ -507,16 +507,16 @@
     },
     {
       "away_team": "Oklahoma State",
-      "edge_home_points": 2.2326490000000003,
+      "edge_home_points": 6.232649,
       "game_id": "2019_11_27_oklahoma_state_syracuse",
       "home_team": "Syracuse",
-      "market_spread_home": -2.0,
+      "market_spread_home": 2.0,
       "model_mu_home": 4.232649,
       "neutral_site": null,
-      "pick_cover_prob": 0.5724496916274989,
-      "pick_ev_per_1": 0.09285850219795244,
-      "pick_fair_odds": -133.89060431427754,
-      "pick_prob_edge": 0.04864016781797509,
+      "pick_cover_prob": 0.6948989888082907,
+      "pick_ev_per_1": 0.3266253422703731,
+      "pick_fair_odds": -227.76030341363014,
+      "pick_prob_edge": 0.17108946499876687,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.04332317,
@@ -902,5 +902,5 @@
       "start_time": "2019-11-28T04:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:12.755190Z"
+  "generated_at": "2026-03-01T02:27:10.223209Z"
 }

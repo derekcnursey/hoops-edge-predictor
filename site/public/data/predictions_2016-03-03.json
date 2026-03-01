@@ -849,16 +849,16 @@
     },
     {
       "away_team": "Northwestern",
-      "edge_home_points": -1.4952245,
+      "edge_home_points": -3.4952245,
       "game_id": "2016_03_03_northwestern_penn_state",
       "home_team": "Penn State",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": -2.4952245,
       "neutral_site": null,
-      "pick_cover_prob": 0.5491366316806784,
-      "pick_ev_per_1": 0.048351751390386,
-      "pick_fair_odds": -121.79668393280407,
-      "pick_prob_edge": 0.025327107871154553,
+      "pick_cover_prob": 0.6135741006916084,
+      "pick_ev_per_1": 0.17136873768397975,
+      "pick_fair_odds": -158.7818264225449,
+      "pick_prob_edge": 0.08976457688208461,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.48326474,
@@ -1100,5 +1100,5 @@
       "start_time": "2016-03-04T04:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:09.678474Z"
+  "generated_at": "2026-03-01T02:27:07.616643Z"
 }

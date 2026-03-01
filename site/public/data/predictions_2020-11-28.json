@@ -417,16 +417,16 @@
     },
     {
       "away_team": "LSU",
-      "edge_home_points": 15.813438000000001,
+      "edge_home_points": 20.813438,
       "game_id": "2020_11_28_lsu_saint_louis",
       "home_team": "Saint Louis",
-      "market_spread_home": -2.5,
+      "market_spread_home": 2.5,
       "model_mu_home": 18.313438,
       "neutral_site": null,
-      "pick_cover_prob": 0.8336441348296071,
-      "pick_ev_per_1": 0.591502439220159,
-      "pick_fair_odds": -501.12097579230675,
-      "pick_prob_edge": 0.30983461102008325,
+      "pick_cover_prob": 0.8988357737979542,
+      "pick_ev_per_1": 0.7159592045233671,
+      "pick_fair_odds": -888.4917203862105,
+      "pick_prob_edge": 0.37502624998843037,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.7472318,
@@ -1316,5 +1316,5 @@
       "start_time": "2020-11-29T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:13.473002Z"
+  "generated_at": "2026-03-01T02:28:13.727063Z"
 }

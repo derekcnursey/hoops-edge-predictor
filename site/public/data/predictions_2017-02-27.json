@@ -471,22 +471,22 @@
     },
     {
       "away_team": "Miami",
-      "edge_home_points": 0.7055081000000001,
+      "edge_home_points": -3.2944918999999997,
       "game_id": "2017_02_27_miami_virginia_tech",
       "home_team": "Virginia Tech",
-      "market_spread_home": 2.0,
+      "market_spread_home": -2.0,
       "model_mu_home": -1.2944919,
       "neutral_site": null,
-      "pick_cover_prob": 0.5277762242392455,
-      "pick_ev_per_1": 0.007572791729468731,
-      "pick_fair_odds": -111.76400921131,
-      "pick_prob_edge": 0.003966700429721692,
-      "pick_side": "HOME",
+      "pick_cover_prob": 0.6275561077481107,
+      "pick_ev_per_1": 0.19806166024639305,
+      "pick_fair_odds": -168.49681812574474,
+      "pick_prob_edge": 0.10374658393858682,
+      "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9565705,
       "pred_sigma": 10.124825,
       "start_time": "2017-02-28T02:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:11.274396Z"
+  "generated_at": "2026-03-01T02:27:08.960003Z"
 }

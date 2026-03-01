@@ -723,16 +723,16 @@
     },
     {
       "away_team": "UT Martin",
-      "edge_home_points": 2.6649927,
+      "edge_home_points": 0.6649927,
       "game_id": "2017_02_01_ut_martin_tennessee_tech",
       "home_team": "Tennessee Tech",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": 1.6649927,
       "neutral_site": null,
-      "pick_cover_prob": 0.5858494563103402,
-      "pick_ev_per_1": 0.11843987113792231,
-      "pick_fair_odds": -141.45809180666961,
-      "pick_prob_edge": 0.06203993250081641,
+      "pick_cover_prob": 0.5215794549453141,
+      "pick_ev_per_1": -0.0042574041953094555,
+      "pick_fair_odds": -109.02112384945653,
+      "pick_prob_edge": -0.0022300688642097333,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.370229,
@@ -992,5 +992,5 @@
       "start_time": "2017-02-02T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:11.112545Z"
+  "generated_at": "2026-03-01T02:27:08.800249Z"
 }

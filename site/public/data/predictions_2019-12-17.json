@@ -21,16 +21,16 @@
     },
     {
       "away_team": "Iona",
-      "edge_home_points": 4.6007175,
+      "edge_home_points": 6.6007175,
       "game_id": "2019_12_17_iona_princeton",
       "home_team": "Princeton",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 5.6007175,
       "neutral_site": null,
-      "pick_cover_prob": 0.6648715200923095,
-      "pick_ev_per_1": 0.2693001747216819,
-      "pick_fair_odds": -198.39302236427213,
-      "pick_prob_edge": 0.1410619962827857,
+      "pick_cover_prob": 0.7293654267718073,
+      "pick_ev_per_1": 0.39242490565526844,
+      "pick_fair_odds": -269.50194059530725,
+      "pick_prob_edge": 0.20555590296228343,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.6898791,
@@ -633,16 +633,16 @@
     },
     {
       "away_team": "Miami",
-      "edge_home_points": 7.462775000000001,
+      "edge_home_points": 11.462775,
       "game_id": "2019_12_17_miami_temple",
       "home_team": "Temple",
-      "market_spread_home": -2.0,
+      "market_spread_home": 2.0,
       "model_mu_home": 9.462775,
       "neutral_site": null,
-      "pick_cover_prob": 0.7540051864583663,
-      "pick_ev_per_1": 0.43946444687506303,
-      "pick_fair_odds": -306.51263561325203,
-      "pick_prob_edge": 0.2301956626488425,
+      "pick_cover_prob": 0.8543912636044189,
+      "pick_ev_per_1": 0.6311105941538905,
+      "pick_fair_odds": -586.7719786285759,
+      "pick_prob_edge": 0.330581739794895,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.013785838,
@@ -704,5 +704,5 @@
       "start_time": "2019-12-18T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:12.963199Z"
+  "generated_at": "2026-03-01T02:27:10.406727Z"
 }

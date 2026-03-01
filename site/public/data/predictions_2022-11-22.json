@@ -813,16 +813,16 @@
     },
     {
       "away_team": "Florida Gulf Coast",
-      "edge_home_points": 2.8421839999999996,
+      "edge_home_points": 7.842184,
       "game_id": "2022_11_22_florida_gulf_coast_drexel",
       "home_team": "Drexel",
-      "market_spread_home": -2.5,
+      "market_spread_home": 2.5,
       "model_mu_home": 5.342184,
       "neutral_site": null,
-      "pick_cover_prob": 0.6155000006773635,
-      "pick_ev_per_1": 0.1750454558386031,
-      "pick_fair_odds": -160.07802386519472,
-      "pick_prob_edge": 0.09169047686783971,
+      "pick_cover_prob": 0.791125810035794,
+      "pick_ev_per_1": 0.5103310918865157,
+      "pick_fair_odds": -378.75709304790894,
+      "pick_prob_edge": 0.26731628622627013,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.74524635,
@@ -1191,16 +1191,16 @@
     },
     {
       "away_team": "Wright State",
-      "edge_home_points": 5.919789,
+      "edge_home_points": 8.919789,
       "game_id": "2022_11_22_wright_state_uc_riverside",
       "home_team": "UC Riverside",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": 7.419789,
       "neutral_site": null,
-      "pick_cover_prob": 0.6511470233505479,
-      "pick_ev_per_1": 0.2430988627601368,
-      "pick_fair_odds": -186.6537099968215,
-      "pick_prob_edge": 0.12733749954102402,
+      "pick_cover_prob": 0.7208135585025588,
+      "pick_ev_per_1": 0.3760986116867031,
+      "pick_fair_odds": -258.18358321285643,
+      "pick_prob_edge": 0.19700403469303496,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.96606344,
@@ -1262,5 +1262,5 @@
       "start_time": "2022-11-23T03:38:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:15.302762Z"
+  "generated_at": "2026-03-01T02:27:12.508086Z"
 }

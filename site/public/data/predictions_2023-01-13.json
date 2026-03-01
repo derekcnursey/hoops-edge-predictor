@@ -3,16 +3,16 @@
   "games": [
     {
       "away_team": "Yale",
-      "edge_home_points": 1.9778819,
+      "edge_home_points": 0.9778819000000001,
       "game_id": "2023_01_13_yale_cornell",
       "home_team": "Cornell",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": 1.4778819,
       "neutral_site": null,
-      "pick_cover_prob": 0.5770007641540356,
-      "pick_ev_per_1": 0.10154691338497701,
-      "pick_fair_odds": -136.40704645720706,
-      "pick_prob_edge": 0.053191240344511725,
+      "pick_cover_prob": 0.538250554363103,
+      "pick_ev_per_1": 0.027569240147742036,
+      "pick_fair_odds": -116.56766660990507,
+      "pick_prob_edge": 0.014441030553579148,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.67663115,
@@ -236,5 +236,5 @@
       "start_time": "2023-01-14T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:16.435028Z"
+  "generated_at": "2026-03-01T02:27:13.504389Z"
 }

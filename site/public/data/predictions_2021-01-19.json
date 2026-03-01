@@ -165,16 +165,16 @@
     },
     {
       "away_team": "UNC Asheville",
-      "edge_home_points": 2.8757284,
+      "edge_home_points": 4.8757284,
       "game_id": "2021_01_19_unc_asheville_gardner_webb",
       "home_team": "Gardner-Webb",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 3.8757284,
       "neutral_site": null,
-      "pick_cover_prob": 0.6047959116198927,
-      "pick_ev_per_1": 0.154610376728886,
-      "pick_fair_odds": -153.03381958898154,
-      "pick_prob_edge": 0.08098638781036882,
+      "pick_cover_prob": 0.6738699471804371,
+      "pick_ev_per_1": 0.2864789900717436,
+      "pick_fair_odds": -206.62614234857634,
+      "pick_prob_edge": 0.1500604233709133,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.3817509,
@@ -542,5 +542,5 @@
       "start_time": "2021-01-20T02:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:14.718505Z"
+  "generated_at": "2026-03-01T02:27:11.931821Z"
 }

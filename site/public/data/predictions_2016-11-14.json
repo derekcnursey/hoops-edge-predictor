@@ -1101,16 +1101,16 @@
     },
     {
       "away_team": "Louisiana",
-      "edge_home_points": 4.048953,
+      "edge_home_points": 6.048953,
       "game_id": "2016_11_14_louisiana_montana_state",
       "home_team": "Montana State",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 5.048953,
       "neutral_site": null,
-      "pick_cover_prob": 0.5751523395937437,
-      "pick_ev_per_1": 0.09801810286078338,
-      "pick_fair_odds": -135.37848814884845,
-      "pick_prob_edge": 0.05134281578421984,
+      "pick_cover_prob": 0.6114557296065651,
+      "pick_ev_per_1": 0.16732457470344253,
+      "pick_fair_odds": -157.37092944065628,
+      "pick_prob_edge": 0.0876462057970413,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.61009336,
@@ -1352,5 +1352,5 @@
       "start_time": "2016-11-15T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:07.539752Z"
+  "generated_at": "2026-03-01T02:28:11.778313Z"
 }

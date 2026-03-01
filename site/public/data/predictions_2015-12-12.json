@@ -75,17 +75,17 @@
     },
     {
       "away_team": "Auburn",
-      "edge_home_points": 2.7759614,
+      "edge_home_points": -0.2240386000000001,
       "game_id": "2015_12_12_auburn_middle_tennessee",
       "home_team": "Middle Tennessee",
-      "market_spread_home": 1.5,
+      "market_spread_home": -1.5,
       "model_mu_home": 1.2759614,
       "neutral_site": null,
-      "pick_cover_prob": 0.5916574164178078,
-      "pick_ev_per_1": 0.12952779497945122,
-      "pick_fair_odds": -144.89241147163324,
-      "pick_prob_edge": 0.06784789260828394,
-      "pick_side": "HOME",
+      "pick_cover_prob": 0.5074632389214409,
+      "pick_ev_per_1": -0.031206543877249304,
+      "pick_fair_odds": -103.03053071819363,
+      "pick_prob_edge": -0.016346284888082985,
+      "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.5498566,
       "pred_sigma": 11.97513,
@@ -1766,5 +1766,5 @@
       "start_time": "2015-12-13T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:07.091100Z"
+  "generated_at": "2026-03-01T02:27:05.245510Z"
 }

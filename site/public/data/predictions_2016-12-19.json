@@ -615,16 +615,16 @@
     },
     {
       "away_team": "South Dakota State",
-      "edge_home_points": 5.705076,
+      "edge_home_points": 3.705076,
       "game_id": "2016_12_19_south_dakota_state_drake",
       "home_team": "Drake",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": 4.705076,
       "neutral_site": null,
-      "pick_cover_prob": 0.6888725187208646,
-      "pick_ev_per_1": 0.3151202630125597,
-      "pick_fair_odds": -221.411659262213,
-      "pick_prob_edge": 0.1650629949113408,
+      "pick_cover_prob": 0.6254963898144486,
+      "pick_ev_per_1": 0.1941294714639472,
+      "pick_fair_odds": -167.0201228512965,
+      "pick_prob_edge": 0.10168686600492471,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.23377174,
@@ -938,5 +938,5 @@
       "start_time": "2016-12-20T03:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:08.039507Z"
+  "generated_at": "2026-03-01T02:27:05.992774Z"
 }

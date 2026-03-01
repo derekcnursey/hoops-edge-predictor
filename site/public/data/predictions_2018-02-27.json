@@ -309,16 +309,16 @@
     },
     {
       "away_team": "Florida",
-      "edge_home_points": -2.3531616,
+      "edge_home_points": -4.3531616,
       "game_id": "2018_02_27_florida_alabama",
       "home_team": "Alabama",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": -3.3531616,
       "neutral_site": null,
-      "pick_cover_prob": 0.5798565292261141,
-      "pick_ev_per_1": 0.10699882852258136,
-      "pick_fair_odds": -138.0139332304852,
-      "pick_prob_edge": 0.056047005416590245,
+      "pick_cover_prob": 0.645354290803385,
+      "pick_ev_per_1": 0.23204000971555316,
+      "pick_fair_odds": -181.97154908917895,
+      "pick_prob_edge": 0.12154476699386119,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.008390187,
@@ -470,5 +470,5 @@
       "start_time": "2018-02-28T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:12.285389Z"
+  "generated_at": "2026-03-01T02:27:09.781328Z"
 }

@@ -219,16 +219,16 @@
     },
     {
       "away_team": "North Carolina",
-      "edge_home_points": -0.016291799999999967,
+      "edge_home_points": -1.0162917999999999,
       "game_id": "2023_02_07_north_carolina_wake_forest",
       "home_team": "Wake Forest",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": -0.5162918,
       "neutral_site": null,
-      "pick_cover_prob": 0.5006197507936894,
-      "pick_ev_per_1": -0.0442713848484112,
-      "pick_fair_odds": -100.24820797165061,
-      "pick_prob_edge": -0.02318977301583447,
+      "pick_cover_prob": 0.5385999994061125,
+      "pick_ev_per_1": 0.028236362502578327,
+      "pick_fair_odds": -116.73168589355387,
+      "pick_prob_edge": 0.014790475596588637,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.6127429,
@@ -453,16 +453,16 @@
     },
     {
       "away_team": "Colorado State",
-      "edge_home_points": -1.1467485,
+      "edge_home_points": -2.1467485,
       "game_id": "2023_02_07_colorado_state_air_force",
       "home_team": "Air Force",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": -1.6467485,
       "neutral_site": null,
-      "pick_cover_prob": 0.5419580197328239,
-      "pick_ev_per_1": 0.034647128580845565,
-      "pick_fair_odds": -118.32060009362013,
-      "pick_prob_edge": 0.018148495923300034,
+      "pick_cover_prob": 0.5781847432513629,
+      "pick_ev_per_1": 0.1038072371162383,
+      "pick_fair_odds": -137.0706094672881,
+      "pick_prob_edge": 0.054375219441839096,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.0032629396,
@@ -506,5 +506,5 @@
       "start_time": "2023-02-08T03:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:17.161408Z"
+  "generated_at": "2026-03-01T02:27:14.210001Z"
 }

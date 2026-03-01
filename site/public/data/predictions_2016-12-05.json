@@ -309,17 +309,17 @@
     },
     {
       "away_team": "Boise State",
-      "edge_home_points": -0.75437954,
+      "edge_home_points": 1.24562046,
       "game_id": "2016_12_05_boise_state_loyola_marymount",
       "home_team": "Loyola Marymount",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 0.24562046,
       "neutral_site": null,
-      "pick_cover_prob": 0.528863953677855,
-      "pick_ev_per_1": 0.009649366112268631,
-      "pick_fair_odds": -112.25291671192525,
-      "pick_prob_edge": 0.005054429868331156,
-      "pick_side": "AWAY",
+      "pick_cover_prob": 0.5475879747260332,
+      "pick_ev_per_1": 0.04539522447697236,
+      "pick_fair_odds": -121.03744908072032,
+      "pick_prob_edge": 0.02377845091650932,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.03585012,
       "pred_sigma": 10.417529,
@@ -344,5 +344,5 @@
       "start_time": "2016-12-06T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:08.344375Z"
+  "generated_at": "2026-03-01T02:27:06.276886Z"
 }

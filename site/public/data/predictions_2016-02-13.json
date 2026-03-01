@@ -2469,16 +2469,16 @@
     },
     {
       "away_team": "North Dakota",
-      "edge_home_points": 3.3310785000000003,
+      "edge_home_points": 0.33107850000000005,
       "game_id": "2016_02_13_north_dakota_idaho",
       "home_team": "Idaho",
-      "market_spread_home": 1.5,
+      "market_spread_home": -1.5,
       "model_mu_home": 1.8310785,
       "neutral_site": null,
-      "pick_cover_prob": 0.6327235639746747,
-      "pick_ev_per_1": 0.20792680395165164,
-      "pick_fair_odds": -172.27447827092442,
-      "pick_prob_edge": 0.10891404016515083,
+      "pick_cover_prob": 0.5134422000928845,
+      "pick_ev_per_1": -0.019792163459038614,
+      "pick_fair_odds": -105.52542785068934,
+      "pick_prob_edge": -0.010367323716639287,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.7019304,
@@ -2576,5 +2576,5 @@
       "start_time": "2016-02-14T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:08.972306Z"
+  "generated_at": "2026-03-01T02:27:06.892350Z"
 }

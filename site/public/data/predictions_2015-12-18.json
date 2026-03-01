@@ -93,17 +93,17 @@
     },
     {
       "away_team": "South Carolina",
-      "edge_home_points": 1.41908827,
+      "edge_home_points": -0.58091173,
       "game_id": "2015_12_18_south_carolina_clemson",
       "home_team": "Clemson",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": 0.41908827,
       "neutral_site": null,
-      "pick_cover_prob": 0.5627189576949346,
-      "pick_ev_per_1": 0.07428164650851155,
-      "pick_fair_odds": -128.68588007580686,
-      "pick_prob_edge": 0.038909433885410794,
-      "pick_side": "HOME",
+      "pick_cover_prob": 0.5257631091927524,
+      "pick_ev_per_1": 0.003729572095254541,
+      "pick_fair_odds": -110.86508017075532,
+      "pick_prob_edge": 0.00195358538322854,
+      "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.15339161,
       "pred_sigma": 8.989173,
@@ -614,5 +614,5 @@
       "start_time": "2015-12-19T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:07.188041Z"
+  "generated_at": "2026-03-01T02:27:05.315806Z"
 }

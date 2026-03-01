@@ -759,17 +759,17 @@
     },
     {
       "away_team": "Texas State",
-      "edge_home_points": 1.94857128,
+      "edge_home_points": -2.05142872,
       "game_id": "2016_01_14_texas_state_south_alabama",
       "home_team": "South Alabama",
-      "market_spread_home": 2.0,
+      "market_spread_home": -2.0,
       "model_mu_home": -0.05142872,
       "neutral_site": null,
-      "pick_cover_prob": 0.577957289499556,
-      "pick_ev_per_1": 0.10337300722642517,
-      "pick_fair_odds": -136.94284372646405,
-      "pick_prob_edge": 0.05414776569003221,
-      "pick_side": "HOME",
+      "pick_cover_prob": 0.582015349451228,
+      "pick_ev_per_1": 0.11112021258870797,
+      "pick_fair_odds": -139.24323505351217,
+      "pick_prob_edge": 0.05820582564170418,
+      "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.08858378,
       "pred_sigma": 9.907798,
@@ -1262,5 +1262,5 @@
       "start_time": "2016-01-15T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:08.503676Z"
+  "generated_at": "2026-03-01T02:27:06.405952Z"
 }

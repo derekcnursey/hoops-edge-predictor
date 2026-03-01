@@ -471,16 +471,16 @@
     },
     {
       "away_team": "Utah State",
-      "edge_home_points": -1.338028,
+      "edge_home_points": -6.3380279999999996,
       "game_id": "2017_11_24_utah_state_northeastern",
       "home_team": "Northeastern",
-      "market_spread_home": 2.5,
+      "market_spread_home": -2.5,
       "model_mu_home": -3.838028,
       "neutral_site": null,
-      "pick_cover_prob": 0.540778419964227,
-      "pick_ev_per_1": 0.03239516538625159,
-      "pick_fair_odds": -117.75980125369998,
-      "pick_prob_edge": 0.016968896154703206,
+      "pick_cover_prob": 0.6861720946597081,
+      "pick_ev_per_1": 0.3099649079867154,
+      "pick_fair_odds": -218.6459785708583,
+      "pick_prob_edge": 0.16236257085018424,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.16045342,
@@ -1532,5 +1532,5 @@
       "start_time": "2017-11-25T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:10.124456Z"
+  "generated_at": "2026-03-01T02:27:07.887187Z"
 }

@@ -57,16 +57,16 @@
     },
     {
       "away_team": "St. Bonaventure",
-      "edge_home_points": -2.0313153,
+      "edge_home_points": -4.0313153,
       "game_id": "2016_01_09_st_bonaventure_massachusetts",
       "home_team": "Massachusetts",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": -3.0313153,
       "neutral_site": null,
-      "pick_cover_prob": 0.5814823848348432,
-      "pick_ev_per_1": 0.11010273468470055,
-      "pick_fair_odds": -138.93856883547818,
-      "pick_prob_edge": 0.05767286102531932,
+      "pick_cover_prob": 0.6584378755106683,
+      "pick_ev_per_1": 0.25701776233854867,
+      "pick_fair_odds": -192.7725085136698,
+      "pick_prob_edge": 0.1346283517011445,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.020556163,
@@ -93,16 +93,16 @@
     },
     {
       "away_team": "Wright State",
-      "edge_home_points": 0.8866953999999998,
+      "edge_home_points": 3.8866954,
       "game_id": "2016_01_09_wright_state_northern_kentucky",
       "home_team": "Northern Kentucky",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": 2.3866954,
       "neutral_site": null,
-      "pick_cover_prob": 0.5316087456489964,
-      "pick_ev_per_1": 0.014889423511720401,
-      "pick_fair_odds": -113.49672751375046,
-      "pick_prob_edge": 0.00779922183947257,
+      "pick_cover_prob": 0.635953333870461,
+      "pick_ev_per_1": 0.21409272829815285,
+      "pick_fair_odds": -174.6900584564533,
+      "pick_prob_edge": 0.11214381006093721,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.46654606,
@@ -2702,5 +2702,5 @@
       "start_time": "2016-01-10T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:08.893596Z"
+  "generated_at": "2026-03-01T02:27:06.817066Z"
 }

@@ -237,16 +237,16 @@
     },
     {
       "away_team": "Evansville",
-      "edge_home_points": 1.2680435,
+      "edge_home_points": 4.2680435,
       "game_id": "2016_02_03_evansville_northern_iowa",
       "home_team": "Northern Iowa",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": 2.7680435,
       "neutral_site": null,
-      "pick_cover_prob": 0.5586245847551731,
-      "pick_ev_per_1": 0.06646511635078489,
-      "pick_fair_odds": -126.56449939453675,
-      "pick_prob_edge": 0.034815060945649234,
+      "pick_cover_prob": 0.690195802524966,
+      "pick_ev_per_1": 0.317646532093117,
+      "pick_fair_odds": -222.7845226598605,
+      "pick_prob_edge": 0.1663862787154422,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.7925628,
@@ -686,5 +686,5 @@
       "start_time": "2016-02-04T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:09.286570Z"
+  "generated_at": "2026-03-01T02:27:07.205862Z"
 }

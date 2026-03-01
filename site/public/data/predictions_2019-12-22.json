@@ -147,17 +147,17 @@
     },
     {
       "away_team": "St. Francis (PA)",
-      "edge_home_points": -3.5247355000000002,
+      "edge_home_points": 0.4752645,
       "game_id": "2019_12_22_st_francis_pa_william_mary",
       "home_team": "William & Mary",
-      "market_spread_home": -2.0,
+      "market_spread_home": 2.0,
       "model_mu_home": -1.5247355,
       "neutral_site": null,
-      "pick_cover_prob": 0.6201048817339104,
-      "pick_ev_per_1": 0.18383659240110173,
-      "pick_fair_odds": -163.23054756907166,
-      "pick_prob_edge": 0.0962953579243866,
-      "pick_side": "AWAY",
+      "pick_cover_prob": 0.5164426286390009,
+      "pick_ev_per_1": -0.014064072598270971,
+      "pick_fair_odds": -106.80069402839305,
+      "pick_prob_edge": -0.0073668951705229135,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.0010442159,
       "pred_sigma": 11.527926,
@@ -722,5 +722,5 @@
       "start_time": "2019-12-23T04:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:13.101202Z"
+  "generated_at": "2026-03-01T02:27:10.539850Z"
 }

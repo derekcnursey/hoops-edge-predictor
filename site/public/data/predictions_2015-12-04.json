@@ -111,16 +111,16 @@
     },
     {
       "away_team": "Rider",
-      "edge_home_points": 0.40127160000000006,
+      "edge_home_points": 3.4012716000000003,
       "game_id": "2015_12_04_rider_fairfield",
       "home_team": "Fairfield",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": 1.9012716,
       "neutral_site": null,
-      "pick_cover_prob": 0.5170583672821275,
-      "pick_ev_per_1": -0.012888571552302053,
-      "pick_fair_odds": -107.0643598010498,
-      "pick_prob_edge": -0.006751156527396329,
+      "pick_cover_prob": 0.6415278383507085,
+      "pick_ev_per_1": 0.22473496412407978,
+      "pick_fair_odds": -178.96168991173778,
+      "pick_prob_edge": 0.11771831454118464,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.59749264,
@@ -488,5 +488,5 @@
       "start_time": "2015-12-05T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:07.398231Z"
+  "generated_at": "2026-03-01T02:27:05.490678Z"
 }

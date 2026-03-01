@@ -93,16 +93,16 @@
     },
     {
       "away_team": "Akron",
-      "edge_home_points": -4.6411834,
+      "edge_home_points": -0.6411834000000001,
       "game_id": "2016_02_02_akron_ohio",
       "home_team": "Ohio",
-      "market_spread_home": -2.0,
+      "market_spread_home": 2.0,
       "model_mu_home": -2.6411834,
       "neutral_site": null,
-      "pick_cover_prob": 0.6623255432832511,
-      "pick_ev_per_1": 0.26443967354075204,
-      "pick_fair_odds": -196.1432172640849,
-      "pick_prob_edge": 0.13851601947372727,
+      "pick_cover_prob": 0.5230699690047752,
+      "pick_ev_per_1": -0.0014118773545200858,
+      "pick_fair_odds": -109.67436206801,
+      "pick_prob_edge": -0.0007395548047486322,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.15237536,
@@ -614,5 +614,5 @@
       "start_time": "2016-02-03T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:09.256086Z"
+  "generated_at": "2026-03-01T02:27:07.173920Z"
 }

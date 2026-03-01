@@ -849,16 +849,16 @@
     },
     {
       "away_team": "Idaho",
-      "edge_home_points": 6.064495000000001,
+      "edge_home_points": 10.064495,
       "game_id": "2015_11_14_idaho_san_jos_state",
       "home_team": "San Jos\u00e9 State",
-      "market_spread_home": -2.0,
+      "market_spread_home": 2.0,
       "model_mu_home": 8.064495,
       "neutral_site": null,
-      "pick_cover_prob": 0.6990927117567636,
-      "pick_ev_per_1": 0.33463154062654865,
-      "pick_fair_odds": -232.32827487769475,
-      "pick_prob_edge": 0.17528318794723974,
+      "pick_cover_prob": 0.8067426545319609,
+      "pick_ev_per_1": 0.5401450677428344,
+      "pick_fair_odds": -417.44475615048754,
+      "pick_prob_edge": 0.2829331307224371,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.79915375,
@@ -884,5 +884,5 @@
       "start_time": "2015-11-15T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:06.679972Z"
+  "generated_at": "2026-03-01T02:27:04.877111Z"
 }

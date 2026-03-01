@@ -1065,16 +1065,16 @@
     },
     {
       "away_team": "UC Davis",
-      "edge_home_points": 5.324543,
+      "edge_home_points": 8.324543,
       "game_id": "2018_11_20_uc_davis_sacramento_state",
       "home_team": "Sacramento State",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": 6.824543,
       "neutral_site": null,
-      "pick_cover_prob": 0.6959369590799303,
-      "pick_ev_per_1": 0.32860692187986684,
-      "pick_fair_odds": -228.87916827184333,
-      "pick_prob_edge": 0.17212743527040641,
+      "pick_cover_prob": 0.7886217902922249,
+      "pick_ev_per_1": 0.5055506905578839,
+      "pick_fair_odds": -373.0856607133129,
+      "pick_prob_edge": 0.26481226648270106,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.94298524,
@@ -1118,5 +1118,5 @@
       "start_time": "2018-11-21T04:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:11.794866Z"
+  "generated_at": "2026-03-01T02:27:09.402036Z"
 }

@@ -237,16 +237,16 @@
     },
     {
       "away_team": "Vanderbilt",
-      "edge_home_points": 1.7483133999999998,
+      "edge_home_points": 5.7483134,
       "game_id": "2016_11_11_vanderbilt_marquette",
       "home_team": "Marquette",
-      "market_spread_home": -2.0,
+      "market_spread_home": 2.0,
       "model_mu_home": 3.7483134,
       "neutral_site": null,
-      "pick_cover_prob": 0.5380690651342711,
-      "pick_ev_per_1": 0.0272227607108812,
-      "pick_fair_odds": -116.48257878435302,
-      "pick_prob_edge": 0.014259541324747271,
+      "pick_cover_prob": 0.6233258224928433,
+      "pick_ev_per_1": 0.18998566112270077,
+      "pick_fair_odds": -165.48143188843898,
+      "pick_prob_edge": 0.09951629868331946,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.817489,
@@ -2918,5 +2918,5 @@
       "start_time": "2016-11-12T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:07.499916Z"
+  "generated_at": "2026-03-01T02:28:11.737854Z"
 }

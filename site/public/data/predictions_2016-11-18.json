@@ -399,16 +399,16 @@
     },
     {
       "away_team": "Mississippi State",
-      "edge_home_points": 10.657585,
+      "edge_home_points": 8.657585,
       "game_id": "2016_11_18_mississippi_state_boise_state",
       "home_team": "Boise State",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": 9.657585,
       "neutral_site": null,
-      "pick_cover_prob": 0.8766305602304151,
-      "pick_ev_per_1": 0.6735674331671561,
-      "pick_fair_odds": -710.5735114528229,
-      "pick_prob_edge": 0.35282103642089124,
+      "pick_cover_prob": 0.8266319816165035,
+      "pick_ev_per_1": 0.5781156012678703,
+      "pick_fair_odds": -476.80765421680195,
+      "pick_prob_edge": 0.3028224578069797,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.98978907,
@@ -1262,5 +1262,5 @@
       "start_time": "2016-11-19T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:07.579735Z"
+  "generated_at": "2026-03-01T02:28:11.819042Z"
 }

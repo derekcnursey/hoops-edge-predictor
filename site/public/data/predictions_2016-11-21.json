@@ -183,16 +183,16 @@
     },
     {
       "away_team": "South Dakota",
-      "edge_home_points": 9.577106,
+      "edge_home_points": 11.577106,
       "game_id": "2016_11_21_south_dakota_kent_state",
       "home_team": "Kent State",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 10.577106,
       "neutral_site": null,
-      "pick_cover_prob": 0.8037223041477499,
-      "pick_ev_per_1": 0.534378944282068,
-      "pick_fair_odds": -409.4822392620502,
-      "pick_prob_edge": 0.2799127803382261,
+      "pick_cover_prob": 0.8493247292936745,
+      "pick_ev_per_1": 0.6214381195606513,
+      "pick_fair_odds": -563.6789138073334,
+      "pick_prob_edge": 0.3255152054841507,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.6886874,
@@ -1028,5 +1028,5 @@
       "start_time": "2016-11-22T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:07.674537Z"
+  "generated_at": "2026-03-01T02:27:05.759811Z"
 }

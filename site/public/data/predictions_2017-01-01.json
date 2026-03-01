@@ -75,17 +75,17 @@
     },
     {
       "away_team": "Illinois State",
-      "edge_home_points": -0.7893873499999999,
+      "edge_home_points": 1.21061265,
       "game_id": "2017_01_01_illinois_state_loyola_chicago",
       "home_team": "Loyola Chicago",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 0.21061265,
       "neutral_site": null,
-      "pick_cover_prob": 0.5294130201795912,
-      "pick_ev_per_1": 0.010697583979219605,
-      "pick_fair_odds": -112.50056692635917,
-      "pick_prob_edge": 0.005603496370067407,
-      "pick_side": "AWAY",
+      "pick_cover_prob": 0.5450528652178135,
+      "pick_ev_per_1": 0.04055546996128029,
+      "pick_fair_odds": -119.80575841603367,
+      "pick_prob_edge": 0.02124334140828965,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.5227286,
       "pred_sigma": 10.697113,
@@ -398,5 +398,5 @@
       "start_time": "2017-01-02T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:10.551022Z"
+  "generated_at": "2026-03-01T02:27:08.245469Z"
 }

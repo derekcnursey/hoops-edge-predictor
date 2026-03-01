@@ -93,16 +93,16 @@
     },
     {
       "away_team": "Seton Hall",
-      "edge_home_points": 2.5845304,
+      "edge_home_points": 4.5845304,
       "game_id": "2016_12_07_seton_hall_california",
       "home_team": "California",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 3.5845304,
       "neutral_site": null,
-      "pick_cover_prob": 0.5912045544759017,
-      "pick_ev_per_1": 0.12866324036308507,
-      "pick_fair_odds": -144.6211206482364,
-      "pick_prob_edge": 0.06739503066637786,
+      "pick_cover_prob": 0.6587762230719401,
+      "pick_ev_per_1": 0.25766369859188554,
+      "pick_fair_odds": -193.06281320801085,
+      "pick_prob_edge": 0.13496669926241622,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.15608308,
@@ -1136,5 +1136,5 @@
       "start_time": "2016-12-08T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:08.406542Z"
+  "generated_at": "2026-03-01T02:27:06.310304Z"
 }

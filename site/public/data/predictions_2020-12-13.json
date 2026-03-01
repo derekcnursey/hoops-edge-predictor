@@ -93,16 +93,16 @@
     },
     {
       "away_team": "Wright State",
-      "edge_home_points": 1.0083890000000002,
+      "edge_home_points": 4.008389,
       "game_id": "2020_12_13_wright_state_bowling_green",
       "home_team": "Bowling Green",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": 2.508389,
       "neutral_site": null,
-      "pick_cover_prob": 0.5319099719572268,
-      "pick_ev_per_1": 0.015464491918342038,
-      "pick_fair_odds": -113.63411739004657,
-      "pick_prob_edge": 0.008100448147702943,
+      "pick_cover_prob": 0.6248672394872611,
+      "pick_ev_per_1": 0.192928366293862,
+      "pick_fair_odds": -166.5722926020058,
+      "pick_prob_edge": 0.10105771567773725,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.7093029,
@@ -777,16 +777,16 @@
     },
     {
       "away_team": "St. John's",
-      "edge_home_points": -4.0120115,
+      "edge_home_points": -1.0120114999999998,
       "game_id": "2020_12_13_st_john_s_georgetown",
       "home_team": "Georgetown",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": -2.5120115,
       "neutral_site": null,
-      "pick_cover_prob": 0.6380441497038424,
-      "pick_ev_per_1": 0.21808428579824457,
-      "pick_fair_odds": -176.27678878011923,
-      "pick_prob_edge": 0.11423462589431854,
+      "pick_cover_prob": 0.5354996159660798,
+      "pick_ev_per_1": 0.022317448662515893,
+      "pick_fair_odds": -115.28507496927598,
+      "pick_prob_edge": 0.01169009215655592,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.06946055,
@@ -830,5 +830,5 @@
       "start_time": "2020-12-14T02:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:13.600320Z"
+  "generated_at": "2026-03-01T02:27:11.074356Z"
 }

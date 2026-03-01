@@ -57,16 +57,16 @@
     },
     {
       "away_team": "UCF",
-      "edge_home_points": -2.145138,
+      "edge_home_points": -0.145138,
       "game_id": "2016_12_15_ucf_george_washington",
       "home_team": "George Washington",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": -1.145138,
       "neutral_site": null,
-      "pick_cover_prob": 0.5709368565356086,
-      "pick_ev_per_1": 0.0899703624770708,
-      "pick_fair_odds": -133.0659286942439,
-      "pick_prob_edge": 0.047127332726084714,
+      "pick_cover_prob": 0.5048249777217887,
+      "pick_ev_per_1": -0.036243224349312486,
+      "pick_fair_odds": -101.94879689189081,
+      "pick_prob_edge": -0.018984546087735144,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.98474365,
@@ -308,5 +308,5 @@
       "start_time": "2016-12-16T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:08.001962Z"
+  "generated_at": "2026-03-01T02:27:05.958456Z"
 }

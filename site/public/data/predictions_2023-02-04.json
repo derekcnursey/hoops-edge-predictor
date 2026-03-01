@@ -2397,17 +2397,17 @@
     },
     {
       "away_team": "Seattle U",
-      "edge_home_points": -1.94476652,
+      "edge_home_points": 1.05523348,
       "game_id": "2023_02_04_seattle_u_new_mexico_state",
       "home_team": "New Mexico State",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": -0.44476652,
       "neutral_site": null,
-      "pick_cover_prob": 0.5752559106183308,
-      "pick_ev_per_1": 0.09821582936226791,
-      "pick_fair_odds": -135.43588362954563,
-      "pick_prob_edge": 0.051446386808806976,
-      "pick_side": "AWAY",
+      "pick_cover_prob": 0.5410067414877884,
+      "pick_ev_per_1": 0.03283105193123237,
+      "pick_fair_odds": -117.8681236498803,
+      "pick_prob_edge": 0.017197217678264543,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.31108952,
       "pred_sigma": 10.247937,
@@ -2702,5 +2702,5 @@
       "start_time": "2023-02-05T03:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:17.125759Z"
+  "generated_at": "2026-03-01T02:27:14.170816Z"
 }

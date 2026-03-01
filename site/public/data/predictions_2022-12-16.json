@@ -39,16 +39,16 @@
     },
     {
       "away_team": "Bethune-Cookman",
-      "edge_home_points": 5.1535077,
+      "edge_home_points": 4.1535077,
       "game_id": "2022_12_16_bethune_cookman_incarnate_word",
       "home_team": "Incarnate Word",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": 4.6535077,
       "neutral_site": null,
-      "pick_cover_prob": 0.6895087671567606,
-      "pick_ev_per_1": 0.31633491911745193,
-      "pick_fair_odds": -222.07028547723252,
-      "pick_prob_edge": 0.16569924334723674,
+      "pick_cover_prob": 0.654873749164201,
+      "pick_ev_per_1": 0.2502135211316565,
+      "pick_fair_odds": -189.7490404100762,
+      "pick_prob_edge": 0.1310642253546772,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.4928341,
@@ -326,5 +326,5 @@
       "start_time": "2022-12-17T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:15.636709Z"
+  "generated_at": "2026-03-01T02:27:12.818434Z"
 }

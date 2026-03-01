@@ -1911,17 +1911,17 @@
     },
     {
       "away_team": "NJIT",
-      "edge_home_points": -1.21907008,
+      "edge_home_points": 1.78092992,
       "game_id": "2020_01_25_njit_florida_gulf_coast",
       "home_team": "Florida Gulf Coast",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": 0.28092992,
       "neutral_site": null,
-      "pick_cover_prob": 0.551250742977291,
-      "pick_ev_per_1": 0.052387782047555564,
-      "pick_fair_odds": -122.8415945765889,
-      "pick_prob_edge": 0.027441219167767206,
-      "pick_side": "AWAY",
+      "pick_cover_prob": 0.5746381112265465,
+      "pick_ev_per_1": 0.09703639415977061,
+      "pick_fair_odds": -135.09393445744197,
+      "pick_prob_edge": 0.050828587417022675,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.707221,
       "pred_sigma": 9.463215,
@@ -2576,5 +2576,5 @@
       "start_time": "2020-01-26T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:13.860476Z"
+  "generated_at": "2026-03-01T02:27:11.365955Z"
 }

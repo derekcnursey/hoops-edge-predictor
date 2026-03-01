@@ -1191,16 +1191,16 @@
     },
     {
       "away_team": "Tennessee Tech",
-      "edge_home_points": 2.8167863,
+      "edge_home_points": 0.8167863,
       "game_id": "2018_01_20_tennessee_tech_morehead_state",
       "home_team": "Morehead State",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": 1.8167863,
       "neutral_site": null,
-      "pick_cover_prob": 0.6120540574622785,
-      "pick_ev_per_1": 0.16846683697344067,
-      "pick_fair_odds": -157.7678718479614,
-      "pick_prob_edge": 0.08824453365275464,
+      "pick_cover_prob": 0.5328945120096006,
+      "pick_ev_per_1": 0.017344068381964728,
+      "pick_fair_odds": -114.08440399667353,
+      "pick_prob_edge": 0.009084988200076749,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.24524502,
@@ -2612,5 +2612,5 @@
       "start_time": "2018-01-21T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:12.183107Z"
+  "generated_at": "2026-03-01T02:27:09.674436Z"
 }

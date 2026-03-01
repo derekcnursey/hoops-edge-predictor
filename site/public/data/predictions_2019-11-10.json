@@ -57,16 +57,16 @@
     },
     {
       "away_team": "Southern Illinois",
-      "edge_home_points": 4.2424915,
+      "edge_home_points": 1.2424914999999999,
       "game_id": "2019_11_10_southern_illinois_oakland",
       "home_team": "Oakland",
-      "market_spread_home": 1.5,
+      "market_spread_home": -1.5,
       "model_mu_home": 2.7424915,
       "neutral_site": null,
-      "pick_cover_prob": 0.6084107265313602,
-      "pick_ev_per_1": 0.16151138701441492,
-      "pick_fair_odds": -155.36960988286225,
-      "pick_prob_edge": 0.08460120272183635,
+      "pick_cover_prob": 0.5321165020188743,
+      "pick_ev_per_1": 0.015858776581487266,
+      "pick_fair_odds": -113.72841835946514,
+      "pick_prob_edge": 0.008306978209350446,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.5701914,
@@ -614,5 +614,5 @@
       "start_time": "2019-11-11T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:12.370561Z"
+  "generated_at": "2026-03-01T02:27:09.874586Z"
 }

@@ -489,16 +489,16 @@
     },
     {
       "away_team": "Harvard",
-      "edge_home_points": 7.0604734,
+      "edge_home_points": 3.0604734000000002,
       "game_id": "2019_11_16_harvard_buffalo",
       "home_team": "Buffalo",
-      "market_spread_home": 2.0,
+      "market_spread_home": -2.0,
       "model_mu_home": 5.0604734,
       "neutral_site": null,
-      "pick_cover_prob": 0.6854052843954574,
-      "pick_ev_per_1": 0.3085009974822369,
-      "pick_fair_odds": -217.86929353798737,
-      "pick_prob_edge": 0.1615957605859336,
+      "pick_cover_prob": 0.5828956125854301,
+      "pick_ev_per_1": 0.11280071493582111,
+      "pick_fair_odds": -139.748137438333,
+      "pick_prob_edge": 0.059086088775906265,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.92533654,
@@ -759,16 +759,16 @@
     },
     {
       "away_team": "Washington",
-      "edge_home_points": 6.3317127,
+      "edge_home_points": 8.3317127,
       "game_id": "2019_11_16_washington_tennessee",
       "home_team": "Tennessee",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 7.3317127,
       "neutral_site": null,
-      "pick_cover_prob": 0.7043081642826866,
-      "pick_ev_per_1": 0.3445883136305835,
-      "pick_fair_odds": -238.18992586458072,
-      "pick_prob_edge": 0.18049864047316277,
+      "pick_cover_prob": 0.7600306856916303,
+      "pick_ev_per_1": 0.4509676726840216,
+      "pick_fair_odds": -316.71994724915623,
+      "pick_prob_edge": 0.2362211618821065,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.066170245,
@@ -1460,5 +1460,5 @@
       "start_time": "2019-11-17T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:12.470632Z"
+  "generated_at": "2026-03-01T02:27:09.947169Z"
 }

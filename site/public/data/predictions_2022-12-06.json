@@ -201,16 +201,16 @@
     },
     {
       "away_team": "Saint Louis",
-      "edge_home_points": 4.7986603,
+      "edge_home_points": 3.7986603,
       "game_id": "2022_12_06_saint_louis_iona",
       "home_team": "Iona",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": 4.2986603,
       "neutral_site": null,
-      "pick_cover_prob": 0.6728938901550333,
-      "pick_ev_per_1": 0.2846156084777909,
-      "pick_fair_odds": -205.711195817759,
-      "pick_prob_edge": 0.14908436634550948,
+      "pick_cover_prob": 0.6385463222102419,
+      "pick_ev_per_1": 0.21904297876500722,
+      "pick_fair_odds": -176.6606238771366,
+      "pick_prob_edge": 0.11473679840071804,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9732143,
@@ -1100,5 +1100,5 @@
       "start_time": "2022-12-07T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:15.948574Z"
+  "generated_at": "2026-03-01T02:27:13.135862Z"
 }

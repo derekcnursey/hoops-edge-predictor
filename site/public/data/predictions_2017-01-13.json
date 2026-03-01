@@ -93,22 +93,22 @@
     },
     {
       "away_team": "Rider",
-      "edge_home_points": 1.73918197,
+      "edge_home_points": -2.26081803,
       "game_id": "2017_01_13_rider_manhattan",
       "home_team": "Manhattan",
-      "market_spread_home": 2.0,
+      "market_spread_home": -2.0,
       "model_mu_home": -0.26081803,
       "neutral_site": null,
-      "pick_cover_prob": 0.5749912547549391,
-      "pick_ev_per_1": 0.09771057725942911,
-      "pick_fair_odds": -135.28927608851856,
-      "pick_prob_edge": 0.05118173094541523,
-      "pick_side": "HOME",
+      "pick_cover_prob": 0.5970861376364185,
+      "pick_ev_per_1": 0.13989171730588978,
+      "pick_fair_odds": -148.1920066323307,
+      "pick_prob_edge": 0.07327661382689465,
+      "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.7007396,
       "pred_sigma": 9.197344,
       "start_time": "2017-01-14T02:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:10.414798Z"
+  "generated_at": "2026-03-01T02:27:08.108005Z"
 }

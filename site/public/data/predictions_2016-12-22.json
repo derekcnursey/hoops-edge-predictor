@@ -345,16 +345,16 @@
     },
     {
       "away_team": "Cornell",
-      "edge_home_points": 8.64223,
+      "edge_home_points": 10.64223,
       "game_id": "2016_12_22_cornell_troy",
       "home_team": "Troy",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 9.64223,
       "neutral_site": null,
-      "pick_cover_prob": 0.816435018568829,
-      "pick_ev_per_1": 0.5586486718132191,
-      "pick_fair_odds": -444.76621423294586,
-      "pick_prob_edge": 0.2926254947593052,
+      "pick_cover_prob": 0.8666239019389647,
+      "pick_ev_per_1": 0.6544638127925688,
+      "pick_fair_odds": -649.7595255353638,
+      "pick_prob_edge": 0.3428143781294408,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9874235,
@@ -1586,5 +1586,5 @@
       "start_time": "2016-12-23T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:08.108202Z"
+  "generated_at": "2026-03-01T02:27:06.062020Z"
 }

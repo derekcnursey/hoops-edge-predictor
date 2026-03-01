@@ -921,16 +921,16 @@
     },
     {
       "away_team": "UC Riverside",
-      "edge_home_points": -16.589878,
+      "edge_home_points": -13.589878,
       "game_id": "2015_11_27_uc_riverside_rice",
       "home_team": "Rice",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": -15.089878,
       "neutral_site": null,
-      "pick_cover_prob": 0.924843924227044,
-      "pick_ev_per_1": 0.7656111280698112,
-      "pick_fair_odds": -1230.5644150726635,
-      "pick_prob_edge": 0.40103440041752014,
+      "pick_cover_prob": 0.880664270317902,
+      "pick_ev_per_1": 0.6812681524250855,
+      "pick_fair_odds": -737.9719993868805,
+      "pick_prob_edge": 0.3568547465083781,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.022716375,
@@ -1244,5 +1244,5 @@
       "start_time": "2015-11-28T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:07.015760Z"
+  "generated_at": "2026-03-01T02:27:05.170947Z"
 }

@@ -687,16 +687,16 @@
     },
     {
       "away_team": "Kent State",
-      "edge_home_points": 2.837035,
+      "edge_home_points": 5.837035,
       "game_id": "2015_11_18_kent_state_southern_illinois",
       "home_team": "Southern Illinois",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": 4.337035,
       "neutral_site": null,
-      "pick_cover_prob": 0.6178088431581927,
-      "pick_ev_per_1": 0.17945324602927704,
-      "pick_fair_odds": -161.6491726976064,
-      "pick_prob_edge": 0.0939993193486689,
+      "pick_cover_prob": 0.7312768452406674,
+      "pick_ev_per_1": 0.3960739772776377,
+      "pick_fair_odds": -272.13019506845103,
+      "pick_prob_edge": 0.20746732143114355,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.6857965,
@@ -1010,5 +1010,5 @@
       "start_time": "2015-11-19T03:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:06.776769Z"
+  "generated_at": "2026-03-01T02:27:04.969932Z"
 }

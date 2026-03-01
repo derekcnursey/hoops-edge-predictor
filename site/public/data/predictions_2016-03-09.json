@@ -381,17 +381,17 @@
     },
     {
       "away_team": "Nicholls",
-      "edge_home_points": 0.5796463,
+      "edge_home_points": -2.4203537,
       "game_id": "2016_03_09_nicholls_mcneese",
       "home_team": "McNeese",
-      "market_spread_home": 1.5,
+      "market_spread_home": -1.5,
       "model_mu_home": -0.9203537,
       "neutral_site": null,
-      "pick_cover_prob": 0.5218290384157498,
-      "pick_ev_per_1": -0.003780926660841344,
-      "pick_fair_odds": -109.13022335920483,
-      "pick_prob_edge": -0.001980485393774045,
-      "pick_side": "HOME",
+      "pick_cover_prob": 0.5904061940239893,
+      "pick_ev_per_1": 0.12713909768216136,
+      "pick_fair_odds": -144.14431698182676,
+      "pick_prob_edge": 0.06659667021446547,
+      "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.5350542,
       "pred_sigma": 10.588188,
@@ -560,5 +560,5 @@
       "start_time": "2016-03-10T04:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:09.812855Z"
+  "generated_at": "2026-03-01T02:27:07.746686Z"
 }

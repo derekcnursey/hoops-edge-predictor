@@ -417,17 +417,17 @@
     },
     {
       "away_team": "Akron",
-      "edge_home_points": 0.04829079999999997,
+      "edge_home_points": -1.9517092,
       "game_id": "2017_03_03_akron_kent_state",
       "home_team": "Kent State",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": -0.9517092,
       "neutral_site": null,
-      "pick_cover_prob": 0.5018279591879026,
-      "pick_ev_per_1": -0.04196480518673146,
-      "pick_fair_odds": -100.73386663166512,
-      "pick_prob_edge": -0.021981564621621263,
-      "pick_side": "HOME",
+      "pick_cover_prob": 0.5734585100300502,
+      "pick_ev_per_1": 0.09478442823918676,
+      "pick_fair_odds": -134.44378179258734,
+      "pick_prob_edge": 0.04964898622052638,
+      "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.30787706,
       "pred_sigma": 10.539171,
@@ -524,5 +524,5 @@
       "start_time": "2017-03-04T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:11.489316Z"
+  "generated_at": "2026-03-01T02:27:09.171646Z"
 }

@@ -3,16 +3,16 @@
   "games": [
     {
       "away_team": "Mississippi State",
-      "edge_home_points": -1.3146209999999998,
+      "edge_home_points": -5.314621,
       "game_id": "2019_12_14_mississippi_state_kansas_state",
       "home_team": "Kansas State",
-      "market_spread_home": 2.0,
+      "market_spread_home": -2.0,
       "model_mu_home": -3.314621,
       "neutral_site": null,
-      "pick_cover_prob": 0.5465012517149304,
-      "pick_ev_per_1": 0.04332057145577611,
-      "pick_fair_odds": -120.50777511107908,
-      "pick_prob_edge": 0.022691727905406522,
+      "pick_cover_prob": 0.6816418698532507,
+      "pick_ev_per_1": 0.30131629699256945,
+      "pick_fair_odds": -214.11165769162022,
+      "pick_prob_edge": 0.15783234604372687,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.022465952,
@@ -1496,5 +1496,5 @@
       "start_time": "2019-12-15T03:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:12.923362Z"
+  "generated_at": "2026-03-01T02:27:10.368618Z"
 }

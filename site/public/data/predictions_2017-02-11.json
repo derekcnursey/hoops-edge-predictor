@@ -1569,17 +1569,17 @@
     },
     {
       "away_team": "Marshall",
-      "edge_home_points": -0.2168327,
+      "edge_home_points": 1.7831673000000001,
       "game_id": "2017_02_11_marshall_western_kentucky",
       "home_team": "Western Kentucky",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 0.7831673,
       "neutral_site": null,
-      "pick_cover_prob": 0.5076961141259793,
-      "pick_ev_per_1": -0.030761963941312365,
-      "pick_fair_odds": -103.12657053775467,
-      "pick_prob_edge": -0.016113409683544577,
-      "pick_side": "AWAY",
+      "pick_cover_prob": 0.5630299299708312,
+      "pick_ev_per_1": 0.07487532085340509,
+      "pick_fair_odds": -128.8486257041009,
+      "pick_prob_edge": 0.0392204061613074,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.074247,
       "pred_sigma": 11.239226,
@@ -2612,5 +2612,5 @@
       "start_time": "2017-02-12T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:10.843500Z"
+  "generated_at": "2026-03-01T02:27:08.543752Z"
 }

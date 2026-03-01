@@ -525,16 +525,16 @@
     },
     {
       "away_team": "Bradley",
-      "edge_home_points": 1.9424696,
+      "edge_home_points": 4.9424696,
       "game_id": "2021_01_31_bradley_indiana_state",
       "home_team": "Indiana State",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": 3.4424696,
       "neutral_site": null,
-      "pick_cover_prob": 0.5824386803761821,
-      "pick_ev_per_1": 0.11192838980907482,
-      "pick_fair_odds": -139.48578400434758,
-      "pick_prob_edge": 0.058629156566658236,
+      "pick_cover_prob": 0.7018008607486906,
+      "pick_ev_per_1": 0.3398016432475003,
+      "pick_fair_odds": -235.34637373894066,
+      "pick_prob_edge": 0.1779913369391668,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.16582808,
@@ -776,5 +776,5 @@
       "start_time": "2021-02-01T02:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:14.804327Z"
+  "generated_at": "2026-03-01T02:27:12.014579Z"
 }

@@ -813,16 +813,16 @@
     },
     {
       "away_team": "Long Beach State",
-      "edge_home_points": 3.2413437,
+      "edge_home_points": 1.2413436999999998,
       "game_id": "2020_02_05_long_beach_state_cal_poly",
       "home_team": "Cal Poly",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": 2.2413437,
       "neutral_site": null,
-      "pick_cover_prob": 0.6109087492020129,
-      "pick_ev_per_1": 0.1662803393856609,
-      "pick_fair_odds": -157.00912008406777,
-      "pick_prob_edge": 0.08709922539248904,
+      "pick_cover_prob": 0.5429540545920064,
+      "pick_ev_per_1": 0.03654864967564858,
+      "pick_fair_odds": -118.79638361244508,
+      "pick_prob_edge": 0.01914453078248257,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.090392664,
@@ -848,5 +848,5 @@
       "start_time": "2020-02-06T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:14.219841Z"
+  "generated_at": "2026-03-01T02:27:11.708309Z"
 }

@@ -957,16 +957,16 @@
     },
     {
       "away_team": "TCU",
-      "edge_home_points": 3.7066312,
+      "edge_home_points": 0.7066311999999999,
       "game_id": "2019_11_24_tcu_clemson",
       "home_team": "Clemson",
-      "market_spread_home": 1.5,
+      "market_spread_home": -1.5,
       "model_mu_home": 2.2066312,
       "neutral_site": null,
-      "pick_cover_prob": 0.6118158608575551,
-      "pick_ev_per_1": 0.1680120980007871,
-      "pick_fair_odds": -157.60970095510476,
-      "pick_prob_edge": 0.08800633704803129,
+      "pick_cover_prob": 0.5215930319123703,
+      "pick_ev_per_1": -0.004231484530929475,
+      "pick_fair_odds": -109.02705577165217,
+      "pick_prob_edge": -0.0022164918971535608,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9976545,
@@ -974,5 +974,5 @@
       "start_time": "2019-11-25T03:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:12.662107Z"
+  "generated_at": "2026-03-01T02:27:10.112842Z"
 }

@@ -489,16 +489,16 @@
     },
     {
       "away_team": "Old Dominion",
-      "edge_home_points": 10.216226,
+      "edge_home_points": 11.216226,
       "game_id": "2021_01_01_old_dominion_florida_international",
       "home_team": "Florida International",
-      "market_spread_home": -0.5,
+      "market_spread_home": 0.5,
       "model_mu_home": 10.716226,
       "neutral_site": null,
-      "pick_cover_prob": 0.7324612081432336,
-      "pick_ev_per_1": 0.3983350337279913,
-      "pick_fair_odds": -273.77757186530727,
-      "pick_prob_edge": 0.20865168433370973,
+      "pick_cover_prob": 0.7520605537859573,
+      "pick_ev_per_1": 0.43575196631864566,
+      "pick_fair_odds": -303.32428553410324,
+      "pick_prob_edge": 0.22825102997643343,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.6495217,
@@ -632,5 +632,5 @@
       "start_time": "2021-01-02T01:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:14.748675Z"
+  "generated_at": "2026-03-01T02:27:11.960929Z"
 }

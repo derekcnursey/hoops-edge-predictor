@@ -237,16 +237,16 @@
     },
     {
       "away_team": "Lipscomb",
-      "edge_home_points": -10.231951,
+      "edge_home_points": -11.231951,
       "game_id": "2022_12_20_lipscomb_louisville",
       "home_team": "Louisville",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": -10.731951,
       "neutral_site": null,
-      "pick_cover_prob": 0.8241742531256817,
-      "pick_ev_per_1": 0.5734235741490287,
-      "pick_fair_odds": -468.7449180664128,
-      "pick_prob_edge": 0.3003647293161579,
+      "pick_cover_prob": 0.8467085391346219,
+      "pick_ev_per_1": 0.6164435747115508,
+      "pick_fair_odds": -552.3520581999074,
+      "pick_prob_edge": 0.322899015325098,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.0419883,
@@ -902,5 +902,5 @@
       "start_time": "2022-12-21T03:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:15.739443Z"
+  "generated_at": "2026-03-01T02:27:12.913467Z"
 }

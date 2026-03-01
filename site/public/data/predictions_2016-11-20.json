@@ -741,17 +741,17 @@
     },
     {
       "away_team": "Clemson",
-      "edge_home_points": 0.002735500000000002,
+      "edge_home_points": -3.9972645,
       "game_id": "2016_11_20_clemson_oklahoma",
       "home_team": "Oklahoma",
-      "market_spread_home": 2.0,
+      "market_spread_home": -2.0,
       "model_mu_home": -1.9972645,
       "neutral_site": null,
-      "pick_cover_prob": 0.50006383690675,
-      "pick_ev_per_1": -0.04533267499620447,
-      "pick_fair_odds": -100.02553802323683,
-      "pick_prob_edge": -0.023745686902773788,
-      "pick_side": "HOME",
+      "pick_cover_prob": 0.5924389518823404,
+      "pick_ev_per_1": 0.13101981722992262,
+      "pick_fair_odds": -145.36201499592477,
+      "pick_prob_edge": 0.06862942807281658,
+      "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.0014799202,
       "pred_sigma": 17.09523,
@@ -1136,5 +1136,5 @@
       "start_time": "2016-11-21T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:07.643379Z"
+  "generated_at": "2026-03-01T02:27:05.728773Z"
 }

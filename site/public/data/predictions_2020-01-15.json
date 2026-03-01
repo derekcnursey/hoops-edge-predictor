@@ -1011,16 +1011,16 @@
     },
     {
       "away_team": "Stanford",
-      "edge_home_points": -1.5235862999999998,
+      "edge_home_points": -3.5235863,
       "game_id": "2020_01_15_stanford_ucla",
       "home_team": "UCLA",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": -2.5235863,
       "neutral_site": null,
-      "pick_cover_prob": 0.5548995774584677,
-      "pick_ev_per_1": 0.059353738784347465,
-      "pick_fair_odds": -124.6684005128506,
-      "pick_prob_edge": 0.031090053648943905,
+      "pick_cover_prob": 0.6252381004674592,
+      "pick_ev_per_1": 0.19363637361969477,
+      "pick_fair_odds": -166.83609012745154,
+      "pick_prob_edge": 0.10142857665793537,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.048038002,
@@ -1046,5 +1046,5 @@
       "start_time": "2020-01-16T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:13.803289Z"
+  "generated_at": "2026-03-01T02:27:11.314388Z"
 }

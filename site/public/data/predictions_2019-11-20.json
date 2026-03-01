@@ -723,16 +723,16 @@
     },
     {
       "away_team": "BYU",
-      "edge_home_points": 7.244596,
+      "edge_home_points": 9.244596,
       "game_id": "2019_11_20_byu_boise_state",
       "home_team": "Boise State",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 8.244596,
       "neutral_site": null,
-      "pick_cover_prob": 0.6073528684092264,
-      "pick_ev_per_1": 0.1594918396903413,
-      "pick_fair_odds": -154.68160074125396,
-      "pick_prob_edge": 0.08354334459970258,
+      "pick_cover_prob": 0.6359426248451031,
+      "pick_ev_per_1": 0.21407228379519683,
+      "pick_fair_odds": -174.6819782388768,
+      "pick_prob_edge": 0.11213310103557927,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.017267205,
@@ -830,5 +830,5 @@
       "start_time": "2019-11-21T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:12.536775Z"
+  "generated_at": "2026-03-01T02:27:10.013455Z"
 }

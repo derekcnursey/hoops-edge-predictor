@@ -219,16 +219,16 @@
     },
     {
       "away_team": "Green Bay",
-      "edge_home_points": 0.7903951,
+      "edge_home_points": 2.7903951,
       "game_id": "2016_12_29_green_bay_cleveland_state",
       "home_team": "Cleveland State",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 1.7903951,
       "neutral_site": null,
-      "pick_cover_prob": 0.5270170549566264,
-      "pick_ev_per_1": 0.006123468553559552,
-      "pick_fair_odds": -111.42411380357441,
-      "pick_prob_edge": 0.0032075311471025936,
+      "pick_cover_prob": 0.5945505030340578,
+      "pick_ev_per_1": 0.13505096033774666,
+      "pick_fair_odds": -146.63984231900525,
+      "pick_prob_edge": 0.07074097922453393,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.5194878,
@@ -1010,5 +1010,5 @@
       "start_time": "2016-12-30T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:08.209473Z"
+  "generated_at": "2026-03-01T02:27:06.135199Z"
 }

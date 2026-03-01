@@ -219,17 +219,17 @@
     },
     {
       "away_team": "Massachusetts",
-      "edge_home_points": -0.28023785,
+      "edge_home_points": 1.71976215,
       "game_id": "2015_12_08_massachusetts_ucf",
       "home_team": "UCF",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 0.71976215,
       "neutral_site": null,
-      "pick_cover_prob": 0.5095597753376464,
-      "pick_ev_per_1": -0.02720406526449326,
-      "pick_fair_odds": -103.898446683988,
-      "pick_prob_edge": -0.014249748471877433,
-      "pick_side": "AWAY",
+      "pick_cover_prob": 0.5584611733775059,
+      "pick_ev_per_1": 0.06615314917523851,
+      "pick_fair_odds": -126.48064897245781,
+      "pick_prob_edge": 0.03465164956798206,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.5009554,
       "pred_sigma": 11.693583,
@@ -794,5 +794,5 @@
       "start_time": "2015-12-09T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:07.462753Z"
+  "generated_at": "2026-03-01T02:27:05.553689Z"
 }

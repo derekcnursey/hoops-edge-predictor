@@ -255,16 +255,16 @@
     },
     {
       "away_team": "Austin Peay",
-      "edge_home_points": 12.2381935,
+      "edge_home_points": 7.2381934999999995,
       "game_id": "2020_11_27_austin_peay_abilene_christian",
       "home_team": "Abilene Christian",
-      "market_spread_home": 2.5,
+      "market_spread_home": -2.5,
       "model_mu_home": 9.7381935,
       "neutral_site": null,
-      "pick_cover_prob": 0.8908126149695832,
-      "pick_ev_per_1": 0.7006422649419315,
-      "pick_fair_odds": -815.8567170753523,
-      "pick_prob_edge": 0.36700309116005936,
+      "pick_cover_prob": 0.7666883771490876,
+      "pick_ev_per_1": 0.46367781092098526,
+      "pick_fair_odds": -328.61130867835334,
+      "pick_prob_edge": 0.24287885333956372,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9198864,
@@ -399,16 +399,16 @@
     },
     {
       "away_team": "George Mason",
-      "edge_home_points": 2.7657784999999997,
+      "edge_home_points": 7.7657785,
       "game_id": "2020_11_27_george_mason_belmont",
       "home_team": "Belmont",
-      "market_spread_home": -2.5,
+      "market_spread_home": 2.5,
       "model_mu_home": 5.2657785,
       "neutral_site": null,
-      "pick_cover_prob": 0.5799373234813173,
-      "pick_ev_per_1": 0.10715307210069669,
-      "pick_fair_odds": -138.05971249043452,
-      "pick_prob_edge": 0.05612779967179349,
+      "pick_cover_prob": 0.7144486287791153,
+      "pick_ev_per_1": 0.3639473822146746,
+      "pick_fair_odds": -250.19968411444347,
+      "pick_prob_edge": 0.19063910496959147,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.988601,
@@ -1316,5 +1316,5 @@
       "start_time": "2020-11-28T02:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:13.440511Z"
+  "generated_at": "2026-03-01T02:27:10.915058Z"
 }

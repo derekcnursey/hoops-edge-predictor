@@ -471,16 +471,16 @@
     },
     {
       "away_team": "Indiana",
-      "edge_home_points": -1.0569324,
+      "edge_home_points": -5.0569324,
       "game_id": "2019_12_10_indiana_uconn",
       "home_team": "UConn",
-      "market_spread_home": 2.0,
+      "market_spread_home": -2.0,
       "model_mu_home": -3.0569324,
       "neutral_site": null,
-      "pick_cover_prob": 0.5416612358837078,
-      "pick_ev_per_1": 0.034080541232533124,
-      "pick_fair_odds": -118.17923298023176,
-      "pick_prob_edge": 0.017851712074184012,
+      "pick_cover_prob": 0.6916585952419935,
+      "pick_ev_per_1": 0.32043913637107846,
+      "pick_fair_odds": -224.3158345162315,
+      "pick_prob_edge": 0.16784907143246963,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.0055007897,
@@ -524,5 +524,5 @@
       "start_time": "2019-12-11T02:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:12.886862Z"
+  "generated_at": "2026-03-01T02:27:10.332859Z"
 }

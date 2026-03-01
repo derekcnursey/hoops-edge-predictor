@@ -57,16 +57,16 @@
     },
     {
       "away_team": "UIC",
-      "edge_home_points": 0.3270767000000001,
+      "edge_home_points": 2.3270767,
       "game_id": "2017_02_17_uic_detroit_mercy",
       "home_team": "Detroit Mercy",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 1.3270767,
       "neutral_site": null,
-      "pick_cover_prob": 0.5137432148831569,
-      "pick_ev_per_1": -0.019217498859427806,
-      "pick_fair_odds": -105.6526573217295,
-      "pick_prob_edge": -0.010066308926366951,
+      "pick_cover_prob": 0.5968284109450414,
+      "pick_ev_per_1": 0.1393996936223516,
+      "pick_fair_odds": -148.033350351898,
+      "pick_prob_edge": 0.07301888713551752,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.105779745,
@@ -254,5 +254,5 @@
       "start_time": "2017-02-18T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:11.041686Z"
+  "generated_at": "2026-03-01T02:27:08.729389Z"
 }

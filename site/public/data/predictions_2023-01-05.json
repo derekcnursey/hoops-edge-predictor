@@ -759,16 +759,16 @@
     },
     {
       "away_team": "Southern Utah",
-      "edge_home_points": 5.5070224,
+      "edge_home_points": 4.5070224,
       "game_id": "2023_01_05_southern_utah_tarleton_state",
       "home_team": "Tarleton State",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": 5.0070224,
       "neutral_site": null,
-      "pick_cover_prob": 0.6740753922351268,
-      "pick_ev_per_1": 0.28687120335796934,
-      "pick_fair_odds": -206.81942270569968,
-      "pick_prob_edge": 0.15026586842560297,
+      "pick_cover_prob": 0.6440344938759893,
+      "pick_ev_per_1": 0.22952039739961594,
+      "pick_fair_odds": -180.92609615146858,
+      "pick_prob_edge": 0.12022497006646549,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.95433754,
@@ -1424,5 +1424,5 @@
       "start_time": "2023-01-06T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:16.793122Z"
+  "generated_at": "2026-03-01T02:27:13.851356Z"
 }

@@ -525,16 +525,16 @@
     },
     {
       "away_team": "Morehead State",
-      "edge_home_points": 12.0784,
+      "edge_home_points": 9.0784,
       "game_id": "2018_11_17_morehead_state_green_bay",
       "home_team": "Green Bay",
-      "market_spread_home": 1.5,
+      "market_spread_home": -1.5,
       "model_mu_home": 10.5784,
       "neutral_site": null,
-      "pick_cover_prob": 0.800985050492991,
-      "pick_ev_per_1": 0.5291532782138918,
-      "pick_fair_odds": -402.47481532274605,
-      "pick_prob_edge": 0.2771755266834671,
+      "pick_cover_prob": 0.7373608474053155,
+      "pick_ev_per_1": 0.40768889050105683,
+      "pick_fair_odds": -280.75054313902734,
+      "pick_prob_edge": 0.21355132359579165,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.8939408,
@@ -1100,5 +1100,5 @@
       "start_time": "2018-11-18T03:05:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:11.729669Z"
+  "generated_at": "2026-03-01T02:27:09.365083Z"
 }

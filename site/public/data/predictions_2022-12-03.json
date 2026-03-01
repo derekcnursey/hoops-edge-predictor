@@ -975,16 +975,16 @@
     },
     {
       "away_team": "New Hampshire",
-      "edge_home_points": 1.0301443300000002,
+      "edge_home_points": 0.030144330000000052,
       "game_id": "2022_12_03_new_hampshire_columbia",
       "home_team": "Columbia",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": 0.53014433,
       "neutral_site": null,
-      "pick_cover_prob": 0.5453951324207452,
-      "pick_ev_per_1": 0.041208889166877205,
-      "pick_fair_odds": -119.97124784979611,
-      "pick_prob_edge": 0.021585608611221385,
+      "pick_cover_prob": 0.5013312404054291,
+      "pick_ev_per_1": -0.04291308649872627,
+      "pick_fair_odds": -100.53391770782329,
+      "pick_prob_edge": -0.022478283404094745,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.93530655,
@@ -1928,5 +1928,5 @@
       "start_time": "2022-12-04T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:15.881900Z"
+  "generated_at": "2026-03-01T02:27:13.061658Z"
 }

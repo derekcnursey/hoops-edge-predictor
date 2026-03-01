@@ -561,16 +561,16 @@
     },
     {
       "away_team": "South Dakota State",
-      "edge_home_points": 2.1029862,
+      "edge_home_points": 1.1029862,
       "game_id": "2023_01_26_south_dakota_state_st_thomas_minnesota",
       "home_team": "St. Thomas-Minnesota",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": 1.6029862,
       "neutral_site": null,
-      "pick_cover_prob": 0.5743272311681519,
-      "pick_ev_per_1": 0.0964428958664717,
-      "pick_fair_odds": -134.92223915197783,
-      "pick_prob_edge": 0.05051770735862804,
+      "pick_cover_prob": 0.5391488376814129,
+      "pick_ev_per_1": 0.029284144664515455,
+      "pick_fair_odds": -116.98979665558453,
+      "pick_prob_edge": 0.015339313871889027,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.3433693,
@@ -1262,5 +1262,5 @@
       "start_time": "2023-01-27T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:16.624887Z"
+  "generated_at": "2026-03-01T02:27:13.680907Z"
 }

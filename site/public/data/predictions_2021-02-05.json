@@ -435,16 +435,16 @@
     },
     {
       "away_team": "Coastal Carolina",
-      "edge_home_points": 2.4094958,
+      "edge_home_points": 4.4094958,
       "game_id": "2021_02_05_coastal_carolina_south_alabama",
       "home_team": "South Alabama",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 3.4094958,
       "neutral_site": null,
-      "pick_cover_prob": 0.5998282051196616,
-      "pick_ev_per_1": 0.14512657341026303,
-      "pick_fair_odds": -149.8926742948052,
-      "pick_prob_edge": 0.07601868131013778,
+      "pick_cover_prob": 0.678254713308919,
+      "pick_ev_per_1": 0.29484990722611804,
+      "pick_fair_odds": -210.80486377416156,
+      "pick_prob_edge": 0.15444518949939512,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9198765,
@@ -938,5 +938,5 @@
       "start_time": "2021-02-06T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:15.049129Z"
+  "generated_at": "2026-03-01T02:27:12.250467Z"
 }

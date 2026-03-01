@@ -291,16 +291,16 @@
     },
     {
       "away_team": "Buffalo",
-      "edge_home_points": 0.6375628,
+      "edge_home_points": 2.6375628,
       "game_id": "2016_01_19_buffalo_miami_oh",
       "home_team": "Miami (OH)",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 1.6375628,
       "neutral_site": null,
-      "pick_cover_prob": 0.5250135307057052,
-      "pick_ev_per_1": 0.0022985586199826824,
-      "pick_fair_odds": -110.53231294898515,
-      "pick_prob_edge": 0.0012040068961813866,
+      "pick_cover_prob": 0.6023965257066858,
+      "pick_ev_per_1": 0.15002973089458194,
+      "pick_fair_odds": -151.50685661823334,
+      "pick_prob_edge": 0.07858700189716195,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.1742684,
@@ -614,5 +614,5 @@
       "start_time": "2016-01-20T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:08.575449Z"
+  "generated_at": "2026-03-01T02:27:06.476247Z"
 }

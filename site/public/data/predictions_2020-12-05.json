@@ -1191,16 +1191,16 @@
     },
     {
       "away_team": "Kansas City",
-      "edge_home_points": -0.13455499999999998,
+      "edge_home_points": -2.1345549999999998,
       "game_id": "2020_12_05_kansas_city_south_dakota",
       "home_team": "South Dakota",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": -1.134555,
       "neutral_site": null,
-      "pick_cover_prob": 0.5038240462762905,
-      "pick_ev_per_1": -0.03815409347253629,
-      "pick_fair_odds": -101.54140733648688,
-      "pick_prob_edge": -0.01998547753323332,
+      "pick_cover_prob": 0.5604318847152644,
+      "pick_ev_per_1": 0.06991541627459563,
+      "pick_fair_odds": -127.49602740231461,
+      "pick_prob_edge": 0.03662236090574056,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9553342,
@@ -1280,5 +1280,5 @@
       "start_time": "2020-12-06T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:13.753987Z"
+  "generated_at": "2026-03-01T02:27:11.265471Z"
 }

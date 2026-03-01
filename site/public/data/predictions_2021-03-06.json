@@ -1389,17 +1389,17 @@
     },
     {
       "away_team": "UNLV",
-      "edge_home_points": -0.96951723,
+      "edge_home_points": 2.03048277,
       "game_id": "2021_03_06_unlv_wyoming",
       "home_team": "Wyoming",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": 0.53048277,
       "neutral_site": null,
-      "pick_cover_prob": 0.5312033917009327,
-      "pick_ev_per_1": 0.014115565974507804,
-      "pick_fair_odds": -113.31212348747479,
-      "pick_prob_edge": 0.007393867891408834,
-      "pick_side": "AWAY",
+      "pick_cover_prob": 0.5651247969349257,
+      "pick_ev_per_1": 0.07887461233031268,
+      "pick_fair_odds": -129.95102800799634,
+      "pick_prob_edge": 0.04131527312540184,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.08974562,
       "pred_sigma": 12.38284,
@@ -1442,5 +1442,5 @@
       "start_time": "2021-03-07T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:15.118357Z"
+  "generated_at": "2026-03-01T02:27:12.319735Z"
 }

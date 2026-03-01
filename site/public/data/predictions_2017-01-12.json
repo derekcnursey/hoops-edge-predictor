@@ -597,16 +597,16 @@
     },
     {
       "away_team": "Murray State",
-      "edge_home_points": 8.412406,
+      "edge_home_points": 3.412406,
       "game_id": "2017_01_12_murray_state_eastern_illinois",
       "home_team": "Eastern Illinois",
-      "market_spread_home": 2.5,
+      "market_spread_home": -2.5,
       "model_mu_home": 5.912406,
       "neutral_site": null,
-      "pick_cover_prob": 0.7457639691483982,
-      "pick_ev_per_1": 0.4237312138287601,
-      "pick_fair_odds": -293.3352785009857,
-      "pick_prob_edge": 0.22195444533887432,
+      "pick_cover_prob": 0.6057336905110863,
+      "pick_ev_per_1": 0.15640068188480105,
+      "pick_fair_odds": -153.63567110167165,
+      "pick_prob_edge": 0.08192416670156244,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.7280191,
@@ -1190,5 +1190,5 @@
       "start_time": "2017-01-13T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:10.384788Z"
+  "generated_at": "2026-03-01T02:27:08.079249Z"
 }

@@ -255,16 +255,16 @@
     },
     {
       "away_team": "Air Force",
-      "edge_home_points": 0.9113507999999999,
+      "edge_home_points": 2.9113508,
       "game_id": "2019_11_12_air_force_army",
       "home_team": "Army",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 1.9113508,
       "neutral_site": null,
-      "pick_cover_prob": 0.5334378673259136,
-      "pick_ev_per_1": 0.018381383076744084,
-      "pick_fair_odds": -114.33372534297435,
-      "pick_prob_edge": 0.009628343516389748,
+      "pick_cover_prob": 0.6056769732681603,
+      "pick_ev_per_1": 0.1562924035119423,
+      "pick_fair_odds": -153.59918954975265,
+      "pick_prob_edge": 0.08186744945863644,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.99861515,
@@ -1406,5 +1406,5 @@
       "start_time": "2019-11-13T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:12.431189Z"
+  "generated_at": "2026-03-01T02:28:13.061539Z"
 }

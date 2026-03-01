@@ -201,16 +201,16 @@
     },
     {
       "away_team": "Belmont",
-      "edge_home_points": 2.1522083,
+      "edge_home_points": 5.1522083,
       "game_id": "2016_02_28_belmont_tennessee_state",
       "home_team": "Tennessee State",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": 3.6522083,
       "neutral_site": null,
-      "pick_cover_prob": 0.567695312108855,
-      "pick_ev_per_1": 0.08378195948054146,
-      "pick_fair_odds": -131.31833357583244,
-      "pick_prob_edge": 0.04388578829933121,
+      "pick_cover_prob": 0.6584313929953775,
+      "pick_ev_per_1": 0.2570053866275388,
+      "pick_fair_odds": -192.76695208306035,
+      "pick_prob_edge": 0.13462186918585362,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.86763173,
@@ -470,5 +470,5 @@
       "start_time": "2016-02-29T01:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:09.221696Z"
+  "generated_at": "2026-03-01T02:27:07.140632Z"
 }

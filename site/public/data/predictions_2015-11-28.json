@@ -39,17 +39,17 @@
     },
     {
       "away_team": "Purdue Fort Wayne",
-      "edge_home_points": -4.579534300000001,
+      "edge_home_points": 0.42046569999999983,
       "game_id": "2015_11_28_purdue_fort_wayne_unc_greensboro",
       "home_team": "UNC Greensboro",
-      "market_spread_home": -2.5,
+      "market_spread_home": 2.5,
       "model_mu_home": -2.0795343,
       "neutral_site": null,
-      "pick_cover_prob": 0.6487537754360744,
-      "pick_ev_per_1": 0.23852993492341468,
-      "pick_fair_odds": -184.7005690214909,
-      "pick_prob_edge": 0.12494425162655054,
-      "pick_side": "AWAY",
+      "pick_cover_prob": 0.5139876909312223,
+      "pick_ev_per_1": -0.0187507718585756,
+      "pick_fair_odds": -105.75610562540005,
+      "pick_prob_edge": -0.009821832878301517,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.011384817,
       "pred_sigma": 11.989625,
@@ -1568,5 +1568,5 @@
       "start_time": "2015-11-28T23:35:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:07.050943Z"
+  "generated_at": "2026-03-01T02:27:05.203438Z"
 }

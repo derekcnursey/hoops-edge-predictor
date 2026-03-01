@@ -219,16 +219,16 @@
     },
     {
       "away_team": "South Carolina",
-      "edge_home_points": -9.91062,
+      "edge_home_points": -7.91062,
       "game_id": "2016_12_12_south_carolina_seton_hall",
       "home_team": "Seton Hall",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": -8.91062,
       "neutral_site": null,
-      "pick_cover_prob": 0.802765228228348,
-      "pick_ev_per_1": 0.5325517993450278,
-      "pick_fair_odds": -407.00999170559385,
-      "pick_prob_edge": 0.2789557044188241,
+      "pick_cover_prob": 0.7516514928974201,
+      "pick_ev_per_1": 0.4349710318950747,
+      "pick_fair_odds": -302.65996025776457,
+      "pick_prob_edge": 0.22784196908789622,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.3579944,
@@ -272,5 +272,5 @@
       "start_time": "2016-12-13T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:07.968641Z"
+  "generated_at": "2026-03-01T02:27:05.927632Z"
 }

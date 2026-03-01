@@ -93,16 +93,16 @@
     },
     {
       "away_team": "Fairleigh Dickinson",
-      "edge_home_points": -2.761882,
+      "edge_home_points": -5.761882,
       "game_id": "2019_11_18_fairleigh_dickinson_army",
       "home_team": "Army",
-      "market_spread_home": 1.5,
+      "market_spread_home": -1.5,
       "model_mu_home": -4.261882,
       "neutral_site": null,
-      "pick_cover_prob": 0.5691966670763903,
-      "pick_ev_per_1": 0.08664818260038143,
-      "pick_fair_odds": -132.12448084224096,
-      "pick_prob_edge": 0.045387143266866437,
+      "pick_cover_prob": 0.6419547100137181,
+      "pick_ev_per_1": 0.22554990093527993,
+      "pick_fair_odds": -179.29427588289565,
+      "pick_prob_edge": 0.11814518620419423,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.00058601005,
@@ -722,5 +722,5 @@
       "start_time": "2019-11-19T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:12.504363Z"
+  "generated_at": "2026-03-01T02:27:09.980289Z"
 }

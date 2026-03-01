@@ -795,16 +795,16 @@
     },
     {
       "away_team": "Southern Illinois",
-      "edge_home_points": -7.061047,
+      "edge_home_points": -5.061047,
       "game_id": "2015_12_30_southern_illinois_loyola_chicago",
       "home_team": "Loyola Chicago",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": -6.061047,
       "neutral_site": null,
-      "pick_cover_prob": 0.7964844973540213,
-      "pick_ev_per_1": 0.5205613131304042,
-      "pick_fair_odds": -391.3630593240505,
-      "pick_prob_edge": 0.27267497354449743,
+      "pick_cover_prob": 0.7238387807254747,
+      "pick_ev_per_1": 0.38187403593045166,
+      "pick_fair_odds": -262.1073236231347,
+      "pick_prob_edge": 0.20002925691595086,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.09702107,
@@ -1154,5 +1154,5 @@
       "start_time": "2015-12-31T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:07.365125Z"
+  "generated_at": "2026-03-01T02:27:05.458945Z"
 }

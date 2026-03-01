@@ -1155,16 +1155,16 @@
     },
     {
       "away_team": "San Diego",
-      "edge_home_points": 2.512553,
+      "edge_home_points": 4.5125530000000005,
       "game_id": "2016_12_03_san_diego_northern_arizona",
       "home_team": "Northern Arizona",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 3.512553,
       "neutral_site": null,
-      "pick_cover_prob": 0.5790323281080727,
-      "pick_ev_per_1": 0.10542535366086603,
-      "pick_fair_odds": -137.54793224519258,
-      "pick_prob_edge": 0.055222804298548867,
+      "pick_cover_prob": 0.6398868454739641,
+      "pick_ev_per_1": 0.2216021595412042,
+      "pick_fair_odds": -177.69049462137903,
+      "pick_prob_edge": 0.11607732166444029,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9380967,
@@ -2378,5 +2378,5 @@
       "start_time": "2016-12-04T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:08.311554Z"
+  "generated_at": "2026-03-01T02:27:06.240166Z"
 }

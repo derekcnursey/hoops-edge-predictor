@@ -291,16 +291,16 @@
     },
     {
       "away_team": "Furman",
-      "edge_home_points": 1.68801,
+      "edge_home_points": 0.68801,
       "game_id": "2023_01_29_furman_unc_greensboro",
       "home_team": "UNC Greensboro",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": 1.18801,
       "neutral_site": null,
-      "pick_cover_prob": 0.5636257279790522,
-      "pick_ev_per_1": 0.07601275341455416,
-      "pick_fair_odds": -129.1610812362457,
-      "pick_prob_edge": 0.03981620416952836,
+      "pick_cover_prob": 0.5260254246367555,
+      "pick_ev_per_1": 0.004230356124715007,
+      "pick_fair_odds": -110.98178087582447,
+      "pick_prob_edge": 0.002215900827231665,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.07206042,
@@ -380,5 +380,5 @@
       "start_time": "2023-01-29T22:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:16.696951Z"
+  "generated_at": "2026-03-01T02:27:13.749974Z"
 }

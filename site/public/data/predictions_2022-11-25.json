@@ -1029,17 +1029,17 @@
     },
     {
       "away_team": "Long Beach State",
-      "edge_home_points": -2.11971074,
+      "edge_home_points": 2.88028926,
       "game_id": "2022_11_25_long_beach_state_oakland",
       "home_team": "Oakland",
-      "market_spread_home": -2.5,
+      "market_spread_home": 2.5,
       "model_mu_home": 0.38028926,
       "neutral_site": null,
-      "pick_cover_prob": 0.5613730445794416,
-      "pick_ev_per_1": 0.07171217601529756,
-      "pick_fair_odds": -127.98416459407822,
-      "pick_prob_edge": 0.03756352076991776,
-      "pick_side": "AWAY",
+      "pick_cover_prob": 0.58311556294004,
+      "pick_ev_per_1": 0.11322062015825807,
+      "pick_fair_odds": -139.8746297780771,
+      "pick_prob_edge": 0.05930603913051613,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.059124142,
       "pred_sigma": 13.724137,
@@ -1334,5 +1334,5 @@
       "start_time": "2022-11-26T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:15.397364Z"
+  "generated_at": "2026-03-01T02:28:14.382447Z"
 }

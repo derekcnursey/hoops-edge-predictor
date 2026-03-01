@@ -1227,16 +1227,16 @@
     },
     {
       "away_team": "Auburn",
-      "edge_home_points": -0.6699744000000001,
+      "edge_home_points": -1.6699744,
       "game_id": "2022_12_10_auburn_memphis",
       "home_team": "Memphis",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": -1.1699744,
       "neutral_site": null,
-      "pick_cover_prob": 0.5267627184433423,
-      "pick_ev_per_1": 0.005637917028198991,
-      "pick_fair_odds": -111.31048608651861,
-      "pick_prob_edge": 0.00295319463381849,
+      "pick_cover_prob": 0.5664484508259797,
+      "pick_ev_per_1": 0.08140158794050667,
+      "pick_fair_odds": -130.65307964073654,
+      "pick_prob_edge": 0.042638927016455885,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.07079878,
@@ -1947,16 +1947,16 @@
     },
     {
       "away_team": "Northern Colorado",
-      "edge_home_points": 8.669918,
+      "edge_home_points": 7.669917999999999,
       "game_id": "2022_12_10_northern_colorado_cal_state_northridge",
       "home_team": "Cal State Northridge",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": 8.169918,
       "neutral_site": null,
-      "pick_cover_prob": 0.7261213355801618,
-      "pick_ev_per_1": 0.38623164065303617,
-      "pick_fair_odds": -265.12519225194734,
-      "pick_prob_edge": 0.20231181177063795,
+      "pick_cover_prob": 0.7025641516371328,
+      "pick_ev_per_1": 0.3412588349436172,
+      "pick_fair_odds": -236.20695202147095,
+      "pick_prob_edge": 0.17875462782760898,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.28830266,
@@ -2000,5 +2000,5 @@
       "start_time": "2022-12-11T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:15.541935Z"
+  "generated_at": "2026-03-01T02:27:12.719410Z"
 }

@@ -201,16 +201,16 @@
     },
     {
       "away_team": "Central Michigan",
-      "edge_home_points": 5.1018524,
+      "edge_home_points": 1.1018523999999998,
       "game_id": "2016_02_09_central_michigan_eastern_michigan",
       "home_team": "Eastern Michigan",
-      "market_spread_home": 2.0,
+      "market_spread_home": -2.0,
       "model_mu_home": 3.1018524,
       "neutral_site": null,
-      "pick_cover_prob": 0.6770266724780734,
-      "pick_ev_per_1": 0.29250546563995816,
-      "pick_fair_odds": -209.62309106844435,
-      "pick_prob_edge": 0.15321714866854952,
+      "pick_cover_prob": 0.5395170854482821,
+      "pick_ev_per_1": 0.029987163128538608,
+      "pick_fair_odds": -117.16332319810483,
+      "pick_prob_edge": 0.015707561638758305,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.6262814,
@@ -506,5 +506,5 @@
       "start_time": "2016-02-10T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:09.393377Z"
+  "generated_at": "2026-03-01T02:27:07.315962Z"
 }

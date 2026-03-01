@@ -255,16 +255,16 @@
     },
     {
       "away_team": "UMass Lowell",
-      "edge_home_points": -6.4141684,
+      "edge_home_points": -7.4141684,
       "game_id": "2022_12_13_umass_lowell_rhode_island",
       "home_team": "Rhode Island",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": -6.9141684,
       "neutral_site": null,
-      "pick_cover_prob": 0.6991426819013074,
-      "pick_ev_per_1": 0.33472693817522314,
-      "pick_fair_odds": -232.38347211217308,
-      "pick_prob_edge": 0.17533315809178351,
+      "pick_cover_prob": 0.7268483538791992,
+      "pick_ev_per_1": 0.38761958467847124,
+      "pick_fair_odds": -266.0970066267702,
+      "pick_prob_edge": 0.20303883006967538,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.47862577,
@@ -704,5 +704,5 @@
       "start_time": "2022-12-14T03:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:15.604737Z"
+  "generated_at": "2026-03-01T02:27:12.782914Z"
 }

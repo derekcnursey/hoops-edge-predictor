@@ -111,17 +111,17 @@
     },
     {
       "away_team": "New Mexico",
-      "edge_home_points": -1.988545,
+      "edge_home_points": 0.011454999999999993,
       "game_id": "2015_12_23_new_mexico_byu",
       "home_team": "BYU",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": -0.988545,
       "neutral_site": null,
-      "pick_cover_prob": 0.5609718524155083,
-      "pick_ev_per_1": 0.07094626370233403,
-      "pick_fair_odds": -127.7758283841125,
-      "pick_prob_edge": 0.03716232860598445,
-      "pick_side": "AWAY",
+      "pick_cover_prob": 0.5003526065292054,
+      "pick_ev_per_1": -0.04478138753515326,
+      "pick_fair_odds": -100.1411421469673,
+      "pick_prob_edge": -0.0234569172803184,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.60832196,
       "pred_sigma": 12.960291,
@@ -704,5 +704,5 @@
       "start_time": "2015-12-24T04:55:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:07.322471Z"
+  "generated_at": "2026-03-01T02:27:05.418342Z"
 }

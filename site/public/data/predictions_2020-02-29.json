@@ -489,16 +489,16 @@
     },
     {
       "away_team": "Florida",
-      "edge_home_points": -4.2821116,
+      "edge_home_points": -6.2821116,
       "game_id": "2020_02_29_florida_tennessee",
       "home_team": "Tennessee",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": -5.2821116,
       "neutral_site": null,
-      "pick_cover_prob": 0.6567476466460621,
-      "pick_ev_per_1": 0.25379096177884586,
-      "pick_fair_odds": -191.33085038716976,
-      "pick_prob_edge": 0.13293812283653827,
+      "pick_cover_prob": 0.7231113589082412,
+      "pick_ev_per_1": 0.3804853215520968,
+      "pick_fair_odds": -261.1560214449561,
+      "pick_prob_edge": 0.19930183509871735,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.036696874,
@@ -2468,5 +2468,5 @@
       "start_time": "2020-03-01T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:14.181685Z"
+  "generated_at": "2026-03-01T02:27:11.667630Z"
 }

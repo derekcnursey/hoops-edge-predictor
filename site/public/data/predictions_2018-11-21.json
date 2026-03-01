@@ -795,17 +795,17 @@
     },
     {
       "away_team": "Toledo",
-      "edge_home_points": -2.90255743,
+      "edge_home_points": 2.09744257,
       "game_id": "2018_11_21_toledo_uc_irvine",
       "home_team": "UC Irvine",
-      "market_spread_home": -2.5,
+      "market_spread_home": 2.5,
       "model_mu_home": -0.40255743,
       "neutral_site": null,
-      "pick_cover_prob": 0.5965438211614524,
-      "pick_ev_per_1": 0.13885638585368187,
-      "pick_fair_odds": -147.85839267073746,
-      "pick_prob_edge": 0.0727342973519286,
-      "pick_side": "AWAY",
+      "pick_cover_prob": 0.5700950415935706,
+      "pick_ev_per_1": 0.08836326122408933,
+      "pick_fair_odds": -132.6095525175605,
+      "pick_prob_edge": 0.04628551778404677,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.27303326,
       "pred_sigma": 11.875713,
@@ -1136,5 +1136,5 @@
       "start_time": "2018-11-22T04:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:11.828285Z"
+  "generated_at": "2026-03-01T02:28:12.778359Z"
 }

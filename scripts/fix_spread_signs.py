@@ -3,8 +3,9 @@
 
 Uses cross-provider majority vote: when multiple providers report spreads
 for the same game and the selected provider's sign disagrees with the
-majority, flip it. Falls back to moneyline cross-check for single-provider
-games.
+majority, flip it. Only applies to spreads >= 5 pts to avoid flipping
+legitimate near-pick'em disagreements. Falls back to moneyline cross-check
+for single-provider games.
 """
 import math
 import subprocess
@@ -22,6 +23,8 @@ from src.features import load_lines  # noqa: E402
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CSV_DIR = PROJECT_ROOT / "predictions" / "csv"
 CSV_TO_JSON = PROJECT_ROOT / "scripts" / "csv_to_json.py"
+
+MIN_SPREAD_FOR_FLIP = 3  # only flip spreads with abs >= this
 
 
 def normal_cdf(z):
@@ -41,9 +44,12 @@ def prob_to_american(p):
     return out
 
 
-def build_correct_signs() -> dict[int, float]:
-    """Build gameId → correct spread sign from multi-provider majority vote."""
-    correct_sign: dict[int, float] = {}
+def build_correct_spreads() -> dict[int, float]:
+    """Build gameId → correct spread from first-provider + majority vote fix.
+
+    Returns the spread value that SHOULD be in the CSV for each game.
+    """
+    correct: dict[int, float] = {}
 
     for season in range(2016, 2027):
         lines_df = load_lines(season)
@@ -56,7 +62,7 @@ def build_correct_signs() -> dict[int, float]:
             lines_df["homeMoneyline"], errors="coerce"
         )
 
-        # Majority vote from providers with non-zero spread
+        # Compute majority spread sign per game
         has_spread = lines_df["spread"].notna() & (lines_df["spread"] != 0)
         if not has_spread.any():
             continue
@@ -66,30 +72,45 @@ def build_correct_signs() -> dict[int, float]:
             spread_sign.groupby(lines_df.loc[has_spread, "gameId"]).sum()
         )
 
-        # Only store where majority is decisive (net sign != 0)
-        for gid, net in majority.items():
-            if net != 0:
-                correct_sign[int(gid)] = float(np.sign(net))
-
-        # For single-provider games, use moneyline as cross-check
-        provider_count = (
-            lines_df.loc[has_spread]
-            .groupby("gameId")["provider"]
-            .nunique()
+        # Pick first provider alphabetically (original behavior)
+        dedup = (
+            lines_df.sort_values("provider")
+            .drop_duplicates(subset=["gameId"], keep="first")
+            .copy()
         )
-        single_provider_games = set(provider_count[provider_count == 1].index)
 
-        for gid in single_provider_games:
-            if gid in correct_sign:
-                continue  # already have majority
-            row = lines_df[lines_df["gameId"] == gid].iloc[0]
+        for _, row in dedup.iterrows():
+            gid = int(row["gameId"])
             sp = row["spread"]
             ml = row["homeMoneyline"]
-            if pd.notna(sp) and pd.notna(ml) and abs(sp) > 3:
-                if (sp > 0 and ml < -150) or (sp < 0 and ml > 150):
-                    correct_sign[int(gid)] = float(-np.sign(sp))
 
-    return correct_sign
+            if pd.isna(sp) or sp == 0:
+                continue
+
+            maj_sign = majority.get(gid, 0)
+
+            # Majority vote fix (only for spreads >= threshold)
+            if (
+                maj_sign != 0
+                and abs(sp) >= MIN_SPREAD_FOR_FLIP
+                and np.sign(sp) != np.sign(maj_sign)
+            ):
+                correct[gid] = -sp
+            # Moneyline fallback for single-provider games
+            elif (
+                maj_sign == 0  # only 1 provider had a spread
+                and pd.notna(ml)
+                and abs(sp) > 3
+                and (
+                    (sp > 3 and ml < -150)
+                    or (sp < -3 and ml > 150)
+                )
+            ):
+                correct[gid] = -sp
+            else:
+                correct[gid] = sp
+
+    return correct
 
 
 def recalc_edges(df: pd.DataFrame) -> None:
@@ -108,8 +129,8 @@ def recalc_edges(df: pd.DataFrame) -> None:
         df["edge_home_points"] >= 0, home_cover_prob, away_cover_prob
     )
 
-    pick_breakeven = 110 / 210  # -110 odds breakeven
-    pick_profit = 100 / 110  # -110 odds profit per $1
+    pick_breakeven = 110 / 210
+    pick_profit = 100 / 110
 
     df["pick_prob_edge"] = df["pick_cover_prob"] - pick_breakeven
     df["pick_ev_per_1"] = (
@@ -120,8 +141,8 @@ def recalc_edges(df: pd.DataFrame) -> None:
 
 def main():
     print("Loading multi-provider lines from S3...")
-    correct_signs = build_correct_signs()
-    print(f"Built correct signs for {len(correct_signs)} games\n")
+    correct_spreads = build_correct_spreads()
+    print(f"Built correct spreads for {len(correct_spreads)} games\n")
 
     csv_files = sorted(CSV_DIR.glob("preds_*_edge.csv"))
     total_fixed = 0
@@ -137,13 +158,13 @@ def main():
 
         for idx, row in df.iterrows():
             gid = int(row["gameId"]) if pd.notna(row["gameId"]) else None
-            spread = sp[idx]
-            if gid is None or pd.isna(spread) or spread == 0:
+            current = sp[idx]
+            if gid is None or pd.isna(current):
                 continue
 
-            target_sign = correct_signs.get(gid)
-            if target_sign is not None and np.sign(spread) != target_sign:
-                df.at[idx, "book_spread"] = -spread
+            target = correct_spreads.get(gid)
+            if target is not None and current != target:
+                df.at[idx, "book_spread"] = target
                 n_fix += 1
 
         if n_fix == 0:

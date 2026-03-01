@@ -615,16 +615,16 @@
     },
     {
       "away_team": "Bradley",
-      "edge_home_points": 6.508023,
+      "edge_home_points": 1.5080229999999997,
       "game_id": "2020_11_25_bradley_toledo",
       "home_team": "Toledo",
-      "market_spread_home": 2.5,
+      "market_spread_home": -2.5,
       "model_mu_home": 4.008023,
       "neutral_site": null,
-      "pick_cover_prob": 0.6358065052405706,
-      "pick_ev_per_1": 0.21381241909563475,
-      "pick_fair_odds": -174.5793141254643,
-      "pick_prob_edge": 0.11199698143104675,
+      "pick_cover_prob": 0.5320678776969631,
+      "pick_ev_per_1": 0.015765948330565827,
+      "pick_fair_odds": -113.70620915663304,
+      "pick_prob_edge": 0.00825835388743923,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.79495704,
@@ -2235,16 +2235,16 @@
     },
     {
       "away_team": "VCU",
-      "edge_home_points": 0.32520060000000006,
+      "edge_home_points": 5.3252006000000005,
       "game_id": "2020_11_25_vcu_utah_state",
       "home_team": "Utah State",
-      "market_spread_home": -2.5,
+      "market_spread_home": 2.5,
       "model_mu_home": 2.8252006,
       "neutral_site": null,
-      "pick_cover_prob": 0.5094351433846307,
-      "pick_ev_per_1": -0.02744199899297778,
-      "pick_fair_odds": -103.84664464133368,
-      "pick_prob_edge": -0.01437438042489314,
+      "pick_cover_prob": 0.6507382408951086,
+      "pick_ev_per_1": 0.2423184598906618,
+      "pick_fair_odds": -186.3182051659073,
+      "pick_prob_edge": 0.12692871708558473,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.88973176,
@@ -2432,5 +2432,5 @@
       "start_time": "2020-11-26T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:13.403592Z"
+  "generated_at": "2026-03-01T02:28:13.652206Z"
 }

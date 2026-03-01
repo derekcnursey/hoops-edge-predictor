@@ -93,16 +93,16 @@
     },
     {
       "away_team": "Morgan State",
-      "edge_home_points": -2.2848618,
+      "edge_home_points": -0.28486180000000005,
       "game_id": "2016_03_08_morgan_state_maryland_eastern_shore",
       "home_team": "Maryland Eastern Shore",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": -1.2848618,
       "neutral_site": null,
-      "pick_cover_prob": 0.5960975709093466,
-      "pick_ev_per_1": 0.1380044535542071,
-      "pick_fair_odds": -147.58454715199449,
-      "pick_prob_edge": 0.07228804709982273,
+      "pick_cover_prob": 0.5120972448395695,
+      "pick_ev_per_1": -0.022359805306276348,
+      "pick_fair_odds": -104.958875395402,
+      "pick_prob_edge": -0.011712278969954304,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.21106224,
@@ -290,5 +290,5 @@
       "start_time": "2016-03-09T04:05:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:09.783053Z"
+  "generated_at": "2026-03-01T02:27:07.716458Z"
 }

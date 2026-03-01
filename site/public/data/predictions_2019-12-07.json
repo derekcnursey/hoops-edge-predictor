@@ -1695,17 +1695,17 @@
     },
     {
       "away_team": "Marquette",
-      "edge_home_points": -0.90911952,
+      "edge_home_points": 1.09088048,
       "game_id": "2019_12_07_marquette_kansas_state",
       "home_team": "Kansas State",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 0.09088048,
       "neutral_site": null,
-      "pick_cover_prob": 0.5347186170179744,
-      "pick_ev_per_1": 0.020826450670678398,
-      "pick_fair_odds": -114.92370779826177,
-      "pick_prob_edge": 0.010909093208450571,
-      "pick_side": "AWAY",
+      "pick_cover_prob": 0.5416367839086678,
+      "pick_ev_per_1": 0.03403386018927479,
+      "pick_fair_odds": -118.16759392855438,
+      "pick_prob_edge": 0.017827260099143927,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.8520547,
       "pred_sigma": 10.433243,
@@ -1910,5 +1910,5 @@
       "start_time": "2019-12-08T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:13.181147Z"
+  "generated_at": "2026-03-01T02:27:10.622965Z"
 }

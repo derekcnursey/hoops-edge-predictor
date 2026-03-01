@@ -327,16 +327,16 @@
     },
     {
       "away_team": "UConn",
-      "edge_home_points": 10.622864,
+      "edge_home_points": 6.622864,
       "game_id": "2020_12_03_uconn_usc",
       "home_team": "USC",
-      "market_spread_home": 2.0,
+      "market_spread_home": -2.0,
       "model_mu_home": 8.622864,
       "neutral_site": null,
-      "pick_cover_prob": 0.8071758064979769,
-      "pick_ev_per_1": 0.5409719942234105,
-      "pick_fair_odds": -418.6071217715262,
-      "pick_prob_edge": 0.2833662826884531,
+      "pick_cover_prob": 0.7057009051965916,
+      "pick_ev_per_1": 0.34724718264803844,
+      "pick_fair_odds": -239.7903757291538,
+      "pick_prob_edge": 0.18189138138706773,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 3.5472396e-05,
@@ -848,5 +848,5 @@
       "start_time": "2020-12-04T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:13.721714Z"
+  "generated_at": "2026-03-01T02:27:11.230761Z"
 }

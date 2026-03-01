@@ -363,17 +363,17 @@
     },
     {
       "away_team": "Northern Iowa",
-      "edge_home_points": -1.68419856,
+      "edge_home_points": 0.31580144,
       "game_id": "2017_02_22_northern_iowa_indiana_state",
       "home_team": "Indiana State",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": -0.68419856,
       "neutral_site": null,
-      "pick_cover_prob": 0.5729133589402463,
-      "pick_ev_per_1": 0.09374368524956112,
-      "pick_fair_odds": -134.14452803268318,
-      "pick_prob_edge": 0.04910383513072247,
-      "pick_side": "AWAY",
+      "pick_cover_prob": 0.5137461668491063,
+      "pick_ev_per_1": -0.01921186328806973,
+      "pick_fair_odds": -105.65390580472427,
+      "pick_prob_edge": -0.010063356960417491,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.024769804,
       "pred_sigma": 9.163399,
@@ -884,5 +884,5 @@
       "start_time": "2017-02-23T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:11.145894Z"
+  "generated_at": "2026-03-01T02:27:08.834470Z"
 }

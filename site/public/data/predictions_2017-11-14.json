@@ -237,16 +237,16 @@
     },
     {
       "away_team": "Duke",
-      "edge_home_points": 16.55846,
+      "edge_home_points": 18.55846,
       "game_id": "2017_11_14_duke_michigan_state",
       "home_team": "Michigan State",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 17.55846,
       "neutral_site": null,
-      "pick_cover_prob": 0.7895575921724032,
-      "pick_ev_per_1": 0.5073372214200425,
-      "pick_fair_odds": -375.18939282392245,
-      "pick_prob_edge": 0.26574806836287934,
+      "pick_cover_prob": 0.8164993901796694,
+      "pick_ev_per_1": 0.558771563070278,
+      "pick_fair_odds": -444.95731702424405,
+      "pick_prob_edge": 0.2926898663701456,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.58422625,
@@ -1028,5 +1028,5 @@
       "start_time": "2017-11-15T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:09.889018Z"
+  "generated_at": "2026-03-01T02:27:07.807126Z"
 }

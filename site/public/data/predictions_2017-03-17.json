@@ -129,16 +129,16 @@
     },
     {
       "away_team": "Rhode Island",
-      "edge_home_points": -1.1413015999999998,
+      "edge_home_points": -5.1413016,
       "game_id": "2017_03_17_rhode_island_creighton",
       "home_team": "Creighton",
-      "market_spread_home": 2.0,
+      "market_spread_home": -2.0,
       "model_mu_home": -3.1413016,
       "neutral_site": null,
-      "pick_cover_prob": 0.539582897946222,
-      "pick_ev_per_1": 0.030112805170060264,
-      "pick_fair_odds": -117.19436474868333,
-      "pick_prob_edge": 0.015773374136698215,
+      "pick_cover_prob": 0.6728142203285218,
+      "pick_ev_per_1": 0.2844635115362688,
+      "pick_fair_odds": -205.63675505826794,
+      "pick_prob_edge": 0.14900469651899795,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.005397853,
@@ -290,5 +290,5 @@
       "start_time": "2017-03-18T02:12:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:11.414131Z"
+  "generated_at": "2026-03-01T02:27:09.098198Z"
 }

@@ -615,16 +615,16 @@
     },
     {
       "away_team": "Georgia Southern",
-      "edge_home_points": -1.2740033,
+      "edge_home_points": -3.2740033,
       "game_id": "2017_12_29_georgia_southern_troy",
       "home_team": "Troy",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": -2.2740033,
       "neutral_site": null,
-      "pick_cover_prob": 0.5450626351057907,
-      "pick_ev_per_1": 0.04057412156560036,
-      "pick_fair_odds": -119.81047879690846,
-      "pick_prob_edge": 0.021253111296266836,
+      "pick_cover_prob": 0.6144355957869524,
+      "pick_ev_per_1": 0.17301341013872729,
+      "pick_fair_odds": -159.36004181740793,
+      "pick_prob_edge": 0.09062607197742856,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.048453476,
@@ -812,5 +812,5 @@
       "start_time": "2017-12-30T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:10.265628Z"
+  "generated_at": "2026-03-01T02:27:07.994510Z"
 }

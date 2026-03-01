@@ -111,16 +111,16 @@
     },
     {
       "away_team": "Old Dominion",
-      "edge_home_points": -1.4042089999999998,
+      "edge_home_points": -3.404209,
       "game_id": "2016_03_12_old_dominion_middle_tennessee",
       "home_team": "Middle Tennessee",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": -2.404209,
       "neutral_site": null,
-      "pick_cover_prob": 0.5527523961542647,
-      "pick_ev_per_1": 0.05525457447632354,
-      "pick_fair_odds": -123.58979487007386,
-      "pick_prob_edge": 0.02894287234474091,
+      "pick_cover_prob": 0.6260862504857039,
+      "pick_ev_per_1": 0.19525556910907105,
+      "pick_fair_odds": -167.44135547274553,
+      "pick_prob_edge": 0.10227672667618004,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.2033797,
@@ -434,5 +434,5 @@
       "start_time": "2016-03-13T04:39:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:09.489567Z"
+  "generated_at": "2026-03-01T02:27:07.410229Z"
 }

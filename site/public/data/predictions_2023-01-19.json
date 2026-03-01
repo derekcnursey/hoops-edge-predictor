@@ -75,16 +75,16 @@
     },
     {
       "away_team": "Queens University",
-      "edge_home_points": -3.9575950000000004,
+      "edge_home_points": -4.957595,
       "game_id": "2023_01_19_queens_university_north_florida",
       "home_team": "North Florida",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": -4.457595,
       "neutral_site": null,
-      "pick_cover_prob": 0.6141878718873619,
-      "pick_ev_per_1": 0.17254048269405453,
-      "pick_fair_odds": -159.193510813649,
-      "pick_prob_edge": 0.09037834807783807,
+      "pick_cover_prob": 0.6419183477555646,
+      "pick_ev_per_1": 0.225480482078805,
+      "pick_fair_odds": -179.2659142773881,
+      "pick_prob_edge": 0.11810882394604072,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.12035809,
@@ -1370,5 +1370,5 @@
       "start_time": "2023-01-20T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:16.578190Z"
+  "generated_at": "2026-03-01T02:27:13.636876Z"
 }

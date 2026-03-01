@@ -3,16 +3,16 @@
   "games": [
     {
       "away_team": "Oklahoma",
-      "edge_home_points": 0.5479072,
+      "edge_home_points": 2.5479072,
       "game_id": "2016_03_26_oklahoma_oregon",
       "home_team": "Oregon",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 1.5479072,
       "neutral_site": null,
-      "pick_cover_prob": 0.5185805339191701,
-      "pick_ev_per_1": -0.009982617063402477,
-      "pick_fair_odds": -107.7190621602536,
-      "pick_prob_edge": -0.005228989890353697,
+      "pick_cover_prob": 0.5857639383016132,
+      "pick_ev_per_1": 0.11827660948489793,
+      "pick_fair_odds": -141.40824338179402,
+      "pick_prob_edge": 0.06195441449208938,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9525328,
@@ -38,5 +38,5 @@
       "start_time": "2016-03-27T00:49:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:09.642041Z"
+  "generated_at": "2026-03-01T02:27:07.576072Z"
 }

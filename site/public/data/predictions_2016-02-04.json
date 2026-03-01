@@ -939,17 +939,17 @@
     },
     {
       "away_team": "Hawai'i",
-      "edge_home_points": -2.49640185,
+      "edge_home_points": 0.50359815,
       "game_id": "2016_02_04_hawai_i_uc_santa_barbara",
       "home_team": "UC Santa Barbara",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": -0.99640185,
       "neutral_site": null,
-      "pick_cover_prob": 0.585062089075332,
-      "pick_ev_per_1": 0.11693671550745188,
-      "pick_fair_odds": -140.99991195587575,
-      "pick_prob_edge": 0.061252565265808134,
-      "pick_side": "AWAY",
+      "pick_cover_prob": 0.5172862578177889,
+      "pick_ev_per_1": -0.012453507802403008,
+      "pick_fair_odds": -107.16211547640748,
+      "pick_prob_edge": -0.006523265991734917,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.10596269,
       "pred_sigma": 11.618692,
@@ -1136,5 +1136,5 @@
       "start_time": "2016-02-05T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:09.318121Z"
+  "generated_at": "2026-03-01T02:27:07.238957Z"
 }

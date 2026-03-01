@@ -93,16 +93,16 @@
     },
     {
       "away_team": "Wisconsin",
-      "edge_home_points": 1.7377500000000001,
+      "edge_home_points": 3.73775,
       "game_id": "2017_02_16_wisconsin_michigan",
       "home_team": "Michigan",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 2.73775,
       "neutral_site": null,
-      "pick_cover_prob": 0.5724961605673687,
-      "pick_ev_per_1": 0.09294721562861308,
-      "pick_fair_odds": -133.91602782495858,
-      "pick_prob_edge": 0.0486866367578449,
+      "pick_cover_prob": 0.6528559364134638,
+      "pick_ev_per_1": 0.24636133315297637,
+      "pick_fair_odds": -188.0648424946261,
+      "pick_prob_edge": 0.12904641260394,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.92749697,
@@ -974,5 +974,5 @@
       "start_time": "2017-02-17T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:11.010526Z"
+  "generated_at": "2026-03-01T02:27:08.699827Z"
 }

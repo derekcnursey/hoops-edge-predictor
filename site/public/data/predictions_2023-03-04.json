@@ -831,16 +831,16 @@
     },
     {
       "away_team": "Wake Forest",
-      "edge_home_points": -5.1278892,
+      "edge_home_points": -2.1278892,
       "game_id": "2023_03_04_wake_forest_syracuse",
       "home_team": "Syracuse",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": -3.6278892,
       "neutral_site": null,
-      "pick_cover_prob": 0.7259031828323066,
-      "pick_ev_per_1": 0.3858151672253126,
-      "pick_fair_odds": -264.8345903222205,
-      "pick_prob_edge": 0.20209365902278276,
+      "pick_cover_prob": 0.598386534826965,
+      "pick_ev_per_1": 0.14237429376056954,
+      "pick_fair_odds": -148.99563553456815,
+      "pick_prob_edge": 0.07457701101744119,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.35823584,
@@ -1694,5 +1694,5 @@
       "start_time": "2023-03-05T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:17.314309Z"
+  "generated_at": "2026-03-01T02:27:14.379171Z"
 }

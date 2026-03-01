@@ -219,16 +219,16 @@
     },
     {
       "away_team": "Wichita State",
-      "edge_home_points": -1.6174530000000003,
+      "edge_home_points": -6.617453,
       "game_id": "2016_03_15_wichita_state_vanderbilt",
       "home_team": "Vanderbilt",
-      "market_spread_home": 2.5,
+      "market_spread_home": -2.5,
       "model_mu_home": -4.117453,
       "neutral_site": null,
-      "pick_cover_prob": 0.5596778849548449,
-      "pick_ev_per_1": 0.06847596218652219,
-      "pick_fair_odds": -127.10646725010619,
-      "pick_prob_edge": 0.035868361145321104,
+      "pick_cover_prob": 0.7304968249879062,
+      "pick_ev_per_1": 0.39458484770418467,
+      "pick_fair_odds": -271.0531424927093,
+      "pick_prob_edge": 0.2066873011783824,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.04594885,
@@ -272,5 +272,5 @@
       "start_time": "2016-03-16T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:09.519629Z"
+  "generated_at": "2026-03-01T02:27:07.441864Z"
 }

@@ -183,16 +183,16 @@
     },
     {
       "away_team": "Youngstown State",
-      "edge_home_points": -3.269967,
+      "edge_home_points": -4.269966999999999,
       "game_id": "2022_12_01_youngstown_state_northern_kentucky",
       "home_team": "Northern Kentucky",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": -3.769967,
       "neutral_site": null,
-      "pick_cover_prob": 0.6453748367309148,
-      "pick_ev_per_1": 0.23207923375901907,
-      "pick_fair_odds": -181.98788568232882,
-      "pick_prob_edge": 0.12156531292139094,
+      "pick_cover_prob": 0.6868317441291633,
+      "pick_ev_per_1": 0.311224238792039,
+      "pick_fair_odds": -219.3171661729471,
+      "pick_prob_edge": 0.16302222031963942,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.011246093,
@@ -542,5 +542,5 @@
       "start_time": "2022-12-02T03:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:15.704571Z"
+  "generated_at": "2026-03-01T02:27:12.883706Z"
 }

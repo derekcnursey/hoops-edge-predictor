@@ -1047,17 +1047,17 @@
     },
     {
       "away_team": "UC Riverside",
-      "edge_home_points": 2.34312522,
+      "edge_home_points": -1.6568747799999999,
       "game_id": "2016_01_21_uc_riverside_uc_davis",
       "home_team": "UC Davis",
-      "market_spread_home": 2.0,
+      "market_spread_home": -2.0,
       "model_mu_home": 0.34312522,
       "neutral_site": null,
-      "pick_cover_prob": 0.6006362893702851,
-      "pick_ev_per_1": 0.1466692797069079,
-      "pick_fair_odds": -150.39831446457782,
-      "pick_prob_edge": 0.07682676556076129,
-      "pick_side": "HOME",
+      "pick_cover_prob": 0.5715462162186656,
+      "pick_ev_per_1": 0.09113368550836165,
+      "pick_fair_odds": -133.39740197284846,
+      "pick_prob_edge": 0.0477366924091418,
+      "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.89067674,
       "pred_sigma": 9.188928,
@@ -1190,5 +1190,5 @@
       "start_time": "2016-01-22T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:08.608554Z"
+  "generated_at": "2026-03-01T02:27:06.510070Z"
 }

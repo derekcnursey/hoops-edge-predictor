@@ -507,16 +507,16 @@
     },
     {
       "away_team": "East Tennessee State",
-      "edge_home_points": -3.7865953,
+      "edge_home_points": -4.7865953,
       "game_id": "2023_01_11_east_tennessee_state_the_citadel",
       "home_team": "The Citadel",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": -4.2865953,
       "neutral_site": null,
-      "pick_cover_prob": 0.6381381327874508,
-      "pick_ev_per_1": 0.2182637080487697,
-      "pick_fair_odds": -176.34854363160167,
-      "pick_prob_edge": 0.11432860897792696,
+      "pick_cover_prob": 0.6725041969670473,
+      "pick_ev_per_1": 0.28387164875527215,
+      "pick_fair_odds": -205.34742452848468,
+      "pick_prob_edge": 0.1486946731575235,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.6442385,
@@ -1029,16 +1029,16 @@
     },
     {
       "away_team": "UC Riverside",
-      "edge_home_points": -5.092562,
+      "edge_home_points": -6.092562,
       "game_id": "2023_01_11_uc_riverside_uc_san_diego",
       "home_team": "UC San Diego",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": -5.592562,
       "neutral_site": null,
-      "pick_cover_prob": 0.7025353541496,
-      "pick_ev_per_1": 0.3412038579219636,
-      "pick_fair_odds": -236.17440389972154,
-      "pick_prob_edge": 0.17872583034007616,
+      "pick_cover_prob": 0.7376492473505611,
+      "pick_ev_per_1": 0.4082394722147076,
+      "pick_fair_odds": -281.1690989643284,
+      "pick_prob_edge": 0.2138397235410373,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.034961045,
@@ -1136,5 +1136,5 @@
       "start_time": "2023-01-12T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:16.371900Z"
+  "generated_at": "2026-03-01T02:27:13.443725Z"
 }

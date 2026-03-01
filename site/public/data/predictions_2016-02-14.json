@@ -255,17 +255,17 @@
     },
     {
       "away_team": "Miami",
-      "edge_home_points": -1.9100983999999999,
+      "edge_home_points": 0.08990160000000003,
       "game_id": "2016_02_14_miami_florida_state",
       "home_team": "Florida State",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": -0.9100984,
       "neutral_site": null,
-      "pick_cover_prob": 0.5601733878565223,
-      "pick_ev_per_1": 0.06942192227154254,
-      "pick_fair_odds": -127.36232242213342,
-      "pick_prob_edge": 0.03636386404699843,
-      "pick_side": "AWAY",
+      "pick_cover_prob": 0.5028429503441746,
+      "pick_ev_per_1": -0.0400270947974849,
+      "pick_fair_odds": -101.14368300565897,
+      "pick_prob_edge": -0.020966573465349247,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.01601478,
       "pred_sigma": 12.615502,
@@ -326,5 +326,5 @@
       "start_time": "2016-02-15T01:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:09.007441Z"
+  "generated_at": "2026-03-01T02:27:06.924135Z"
 }

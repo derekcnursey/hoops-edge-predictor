@@ -219,16 +219,16 @@
     },
     {
       "away_team": "Richmond",
-      "edge_home_points": -2.4473147,
+      "edge_home_points": -3.4473147,
       "game_id": "2023_02_08_richmond_george_washington",
       "home_team": "George Washington",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": -2.9473147,
       "neutral_site": null,
-      "pick_cover_prob": 0.604896921952756,
-      "pick_ev_per_1": 0.1548032146370797,
-      "pick_fair_odds": -153.098509113722,
-      "pick_prob_edge": 0.08108739814323218,
+      "pick_cover_prob": 0.646077174992623,
+      "pick_ev_per_1": 0.23342006134955295,
+      "pick_fair_odds": -182.54747344400758,
+      "pick_prob_edge": 0.12226765118309912,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.19335796,
@@ -417,16 +417,16 @@
     },
     {
       "away_team": "Notre Dame",
-      "edge_home_points": -1.7989902,
+      "edge_home_points": -2.7989902,
       "game_id": "2023_02_08_notre_dame_georgia_tech",
       "home_team": "Georgia Tech",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": -2.2989902,
       "neutral_site": null,
-      "pick_cover_prob": 0.5607607143946343,
-      "pick_ev_per_1": 0.07054318202611998,
-      "pick_fair_odds": -127.66633877518171,
-      "pick_prob_edge": 0.03695119058511043,
+      "pick_cover_prob": 0.5940165200584986,
+      "pick_ev_per_1": 0.13403153829349723,
+      "pick_fair_odds": -146.31544124507013,
+      "pick_prob_edge": 0.07020699624897475,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.11311753,
@@ -1028,5 +1028,5 @@
       "start_time": "2023-02-09T03:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:17.192321Z"
+  "generated_at": "2026-03-01T02:27:14.244746Z"
 }

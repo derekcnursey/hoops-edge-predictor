@@ -129,16 +129,16 @@
     },
     {
       "away_team": "Michigan",
-      "edge_home_points": -1.1226764,
+      "edge_home_points": -3.1226764,
       "game_id": "2017_03_01_michigan_northwestern",
       "home_team": "Northwestern",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": -2.1226764,
       "neutral_site": null,
-      "pick_cover_prob": 0.5444527721664818,
-      "pick_ev_per_1": 0.039409837772374334,
-      "pick_fair_odds": -119.51620795845443,
-      "pick_prob_edge": 0.020643248356957966,
+      "pick_cover_prob": 0.6219371425862279,
+      "pick_ev_per_1": 0.18733454493734414,
+      "pick_fair_odds": -164.50627994528085,
+      "pick_prob_edge": 0.09812761877670406,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.45955235,
@@ -668,5 +668,5 @@
       "start_time": "2017-03-02T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:11.446812Z"
+  "generated_at": "2026-03-01T02:27:09.129004Z"
 }

@@ -201,16 +201,16 @@
     },
     {
       "away_team": "Green Bay",
-      "edge_home_points": 4.2501085,
+      "edge_home_points": 1.2501085,
       "game_id": "2017_03_15_green_bay_kansas_city",
       "home_team": "Kansas City",
-      "market_spread_home": 1.5,
+      "market_spread_home": -1.5,
       "model_mu_home": 2.7501085,
       "neutral_site": null,
-      "pick_cover_prob": 0.6698854713991405,
-      "pick_ev_per_1": 0.27887226358017725,
-      "pick_fair_odds": -202.92517092124015,
-      "pick_prob_edge": 0.14607594758961662,
+      "pick_cover_prob": 0.5514403150479772,
+      "pick_ev_per_1": 0.05274969236432003,
+      "pick_fair_odds": -122.9357727739082,
+      "pick_prob_edge": 0.027630791238453356,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.29668522,
@@ -380,5 +380,5 @@
       "start_time": "2017-03-16T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:11.356490Z"
+  "generated_at": "2026-03-01T02:27:09.041300Z"
 }

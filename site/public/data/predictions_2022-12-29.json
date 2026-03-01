@@ -1299,16 +1299,16 @@
     },
     {
       "away_team": "Northern Arizona",
-      "edge_home_points": 4.8572407,
+      "edge_home_points": 3.8572407,
       "game_id": "2022_12_29_northern_arizona_idaho_state",
       "home_team": "Idaho State",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": 4.3572407,
       "neutral_site": null,
-      "pick_cover_prob": 0.6520061631948086,
-      "pick_ev_per_1": 0.24473903882645287,
-      "pick_fair_odds": -187.36141110447448,
-      "pick_prob_edge": 0.1281966393852848,
+      "pick_cover_prob": 0.6218324573708274,
+      "pick_ev_per_1": 0.18713469134430682,
+      "pick_fair_odds": -164.43305870398035,
+      "pick_prob_edge": 0.09802293356130354,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.739284,
@@ -1640,5 +1640,5 @@
       "start_time": "2022-12-30T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:15.841388Z"
+  "generated_at": "2026-03-01T02:27:13.017405Z"
 }

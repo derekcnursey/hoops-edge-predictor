@@ -273,17 +273,17 @@
     },
     {
       "away_team": "Wofford",
-      "edge_home_points": 0.3434507,
+      "edge_home_points": -1.6565493,
       "game_id": "2016_02_06_wofford_samford",
       "home_team": "Samford",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": -0.6565493,
       "neutral_site": null,
-      "pick_cover_prob": 0.5162439724604474,
-      "pick_ev_per_1": -0.01444332530278225,
-      "pick_fair_odds": -106.71577056851007,
-      "pick_prob_edge": -0.007565551349076438,
-      "pick_side": "HOME",
+      "pick_cover_prob": 0.5778692765582161,
+      "pick_ev_per_1": 0.10320498252023069,
+      "pick_fair_odds": -136.8934418813773,
+      "pick_prob_edge": 0.054059752748692236,
+      "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.02025751,
       "pred_sigma": 8.432613,
@@ -2738,5 +2738,5 @@
       "start_time": "2016-02-07T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:09.355425Z"
+  "generated_at": "2026-03-01T02:27:07.279389Z"
 }

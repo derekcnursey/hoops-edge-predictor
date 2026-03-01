@@ -1173,16 +1173,16 @@
     },
     {
       "away_team": "UTEP",
-      "edge_home_points": 0.7063858999999999,
+      "edge_home_points": 4.7063859,
       "game_id": "2017_01_07_utep_southern_miss",
       "home_team": "Southern Miss",
-      "market_spread_home": -2.0,
+      "market_spread_home": 2.0,
       "model_mu_home": 2.7063859,
       "neutral_site": null,
-      "pick_cover_prob": 0.53289640267539,
-      "pick_ev_per_1": 0.017347677834835373,
-      "pick_fair_odds": -114.08527053262185,
-      "pick_prob_edge": 0.009086878865866121,
+      "pick_cover_prob": 0.7088464912952857,
+      "pick_ev_per_1": 0.35325239247281803,
+      "pick_fair_odds": -243.46142845703858,
+      "pick_prob_edge": 0.18503696748576182,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.83511287,
@@ -2540,5 +2540,5 @@
       "start_time": "2017-01-08T04:15:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:10.801446Z"
+  "generated_at": "2026-03-01T02:27:08.501829Z"
 }

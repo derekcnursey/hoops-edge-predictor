@@ -21,16 +21,16 @@
     },
     {
       "away_team": "Tulsa",
-      "edge_home_points": -3.1920907,
+      "edge_home_points": -1.1920907,
       "game_id": "2021_01_06_tulsa_south_florida",
       "home_team": "South Florida",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": -2.1920907,
       "neutral_site": null,
-      "pick_cover_prob": 0.6215592291147782,
-      "pick_ev_per_1": 0.1866130737645766,
-      "pick_fair_odds": -164.24214221445303,
-      "pick_prob_edge": 0.0977497053052544,
+      "pick_cover_prob": 0.5460201735958725,
+      "pick_ev_per_1": 0.04240214959212024,
+      "pick_fair_odds": -120.27410511184517,
+      "pick_prob_edge": 0.02221064978634868,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.0009965725,
@@ -578,5 +578,5 @@
       "start_time": "2021-01-07T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:14.839356Z"
+  "generated_at": "2026-03-01T02:27:12.048250Z"
 }

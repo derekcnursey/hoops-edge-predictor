@@ -3,17 +3,17 @@
   "games": [
     {
       "away_team": "UNC Greensboro",
-      "edge_home_points": 2.5375902999999997,
+      "edge_home_points": -0.46240970000000003,
       "game_id": "2016_01_28_unc_greensboro_the_citadel",
       "home_team": "The Citadel",
-      "market_spread_home": 1.5,
+      "market_spread_home": -1.5,
       "model_mu_home": 1.0375903,
       "neutral_site": null,
-      "pick_cover_prob": 0.5815617956297533,
-      "pick_ev_per_1": 0.11025433711134713,
-      "pick_fair_odds": -138.9839143643705,
-      "pick_prob_edge": 0.05775227182022946,
-      "pick_side": "HOME",
+      "pick_cover_prob": 0.5149640802630544,
+      "pick_ev_per_1": -0.016886755861441616,
+      "pick_fair_odds": -106.17029776729527,
+      "pick_prob_edge": -0.008845443546469434,
+      "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.045147814,
       "pred_sigma": 12.324948,
@@ -723,17 +723,17 @@
     },
     {
       "away_team": "Ohio State",
-      "edge_home_points": -0.75095281,
+      "edge_home_points": 1.24904719,
       "game_id": "2016_01_28_ohio_state_illinois",
       "home_team": "Illinois",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 0.24904719,
       "neutral_site": null,
-      "pick_cover_prob": 0.5260773130425709,
-      "pick_ev_per_1": 0.004329415808544401,
-      "pick_fair_odds": -111.00488065257501,
-      "pick_prob_edge": 0.002267789233047046,
-      "pick_side": "AWAY",
+      "pick_cover_prob": 0.5433194085608967,
+      "pick_ev_per_1": 0.03724614361625728,
+      "pick_fair_odds": -118.9714252687584,
+      "pick_prob_edge": 0.01950988475137283,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.7420286,
       "pred_sigma": 11.480221,
@@ -1064,5 +1064,5 @@
       "start_time": "2016-01-29T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:08.686887Z"
+  "generated_at": "2026-03-01T02:27:06.585090Z"
 }

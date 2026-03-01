@@ -57,17 +57,17 @@
     },
     {
       "away_team": "La Salle",
-      "edge_home_points": 1.8120059,
+      "edge_home_points": -0.18799410000000005,
       "game_id": "2017_02_26_la_salle_massachusetts",
       "home_team": "Massachusetts",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": 0.8120059,
       "neutral_site": null,
-      "pick_cover_prob": 0.5636714281449632,
-      "pick_ev_per_1": 0.07609999918583876,
-      "pick_fair_odds": -129.1850831011438,
-      "pick_prob_edge": 0.039861904335439347,
-      "pick_side": "HOME",
+      "pick_cover_prob": 0.5066338490507174,
+      "pick_ev_per_1": -0.03278992453953955,
+      "pick_fair_odds": -102.68921937103033,
+      "pick_prob_edge": -0.017175674758806436,
+      "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.8025228,
       "pred_sigma": 11.304951,
@@ -398,5 +398,5 @@
       "start_time": "2017-02-26T23:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:11.244677Z"
+  "generated_at": "2026-03-01T02:27:08.931752Z"
 }

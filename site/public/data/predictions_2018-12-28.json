@@ -111,17 +111,17 @@
     },
     {
       "away_team": "Towson",
-      "edge_home_points": 1.18392065,
+      "edge_home_points": -0.81607935,
       "game_id": "2018_12_28_towson_elon",
       "home_team": "Elon",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": 0.18392065,
       "neutral_site": null,
-      "pick_cover_prob": 0.5462795378733372,
-      "pick_ev_per_1": 0.04289729957637095,
-      "pick_fair_odds": -120.40002236461514,
-      "pick_prob_edge": 0.022470014063813326,
-      "pick_side": "HOME",
+      "pick_cover_prob": 0.5319382918075474,
+      "pick_ev_per_1": 0.015518557087135898,
+      "pick_fair_odds": -113.64704322038466,
+      "pick_prob_edge": 0.008128767998023534,
+      "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.17765754,
       "pred_sigma": 10.182773,
@@ -488,5 +488,5 @@
       "start_time": "2018-12-29T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:12.076705Z"
+  "generated_at": "2026-03-01T02:27:09.567333Z"
 }

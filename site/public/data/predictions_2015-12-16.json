@@ -597,17 +597,17 @@
     },
     {
       "away_team": "Oral Roberts",
-      "edge_home_points": -3.3584597,
+      "edge_home_points": 0.6415403,
       "game_id": "2015_12_16_oral_roberts_missouri_state",
       "home_team": "Missouri State",
-      "market_spread_home": -2.0,
+      "market_spread_home": 2.0,
       "model_mu_home": -1.3584597,
       "neutral_site": null,
-      "pick_cover_prob": 0.5969015826857217,
-      "pick_ev_per_1": 0.1395393851272868,
-      "pick_fair_odds": -148.07837417539238,
-      "pick_prob_edge": 0.07309205887619785,
-      "pick_side": "AWAY",
+      "pick_cover_prob": 0.5186893814998681,
+      "pick_ev_per_1": -0.009774817136615488,
+      "pick_fair_odds": -107.76603747414019,
+      "pick_prob_edge": -0.00512014230965574,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.783681,
       "pred_sigma": 13.689265,
@@ -830,5 +830,5 @@
       "start_time": "2015-12-17T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:07.129782Z"
+  "generated_at": "2026-03-01T02:27:05.284660Z"
 }

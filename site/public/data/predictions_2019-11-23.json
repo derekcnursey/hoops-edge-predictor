@@ -633,16 +633,16 @@
     },
     {
       "away_team": "Sacred Heart",
-      "edge_home_points": 2.614172,
+      "edge_home_points": 7.614172,
       "game_id": "2019_11_23_sacred_heart_ualbany",
       "home_team": "UAlbany",
-      "market_spread_home": -2.5,
+      "market_spread_home": 2.5,
       "model_mu_home": 5.114172,
       "neutral_site": null,
-      "pick_cover_prob": 0.5965805987602409,
-      "pick_ev_per_1": 0.13892659763318727,
-      "pick_fair_odds": -147.88098860066546,
-      "pick_prob_edge": 0.07277107495071711,
+      "pick_cover_prob": 0.761817564405336,
+      "pick_ev_per_1": 0.45437898659200504,
+      "pick_fair_odds": -319.8462399224886,
+      "pick_prob_edge": 0.23800804059581215,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.93567127,
@@ -777,16 +777,16 @@
     },
     {
       "away_team": "Rider",
-      "edge_home_points": -0.333402,
+      "edge_home_points": -3.333402,
       "game_id": "2019_11_23_rider_columbia",
       "home_team": "Columbia",
-      "market_spread_home": 1.5,
+      "market_spread_home": -1.5,
       "model_mu_home": -1.833402,
       "neutral_site": null,
-      "pick_cover_prob": 0.5131232587154333,
-      "pick_ev_per_1": -0.020401051543263715,
-      "pick_fair_odds": -105.39079302938528,
-      "pick_prob_edge": -0.010686265094090541,
+      "pick_cover_prob": 0.628903137036572,
+      "pick_ev_per_1": 0.20063326161527373,
+      "pick_fair_odds": -169.47142371789627,
+      "pick_prob_edge": 0.10509361322704813,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.38053694,
@@ -1262,5 +1262,5 @@
       "start_time": "2019-11-24T03:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:12.630649Z"
+  "generated_at": "2026-03-01T02:28:13.113092Z"
 }

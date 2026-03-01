@@ -39,16 +39,16 @@
     },
     {
       "away_team": "Wake Forest",
-      "edge_home_points": 6.918986,
+      "edge_home_points": 9.918986,
       "game_id": "2015_11_15_wake_forest_bucknell",
       "home_team": "Bucknell",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": 8.418986,
       "neutral_site": null,
-      "pick_cover_prob": 0.6725201827781198,
-      "pick_ev_per_1": 0.283902167121865,
-      "pick_fair_odds": -205.36232995466142,
-      "pick_prob_edge": 0.14871065896859592,
+      "pick_cover_prob": 0.7391238445655239,
+      "pick_ev_per_1": 0.41105461235236385,
+      "pick_fair_odds": -283.32364962008523,
+      "pick_prob_edge": 0.2153143207560001,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9262461,
@@ -794,5 +794,5 @@
       "start_time": "2015-11-16T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:06.711129Z"
+  "generated_at": "2026-03-01T02:27:04.906912Z"
 }

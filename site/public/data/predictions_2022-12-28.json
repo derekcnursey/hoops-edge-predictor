@@ -507,16 +507,16 @@
     },
     {
       "away_team": "Xavier",
-      "edge_home_points": -2.8738904,
+      "edge_home_points": -3.8738904,
       "game_id": "2022_12_28_xavier_st_john_s",
       "home_team": "St. John's",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": -3.3738904,
       "neutral_site": null,
-      "pick_cover_prob": 0.589437534380153,
-      "pick_ev_per_1": 0.12528983836211027,
-      "pick_fair_odds": -143.56829562835202,
-      "pick_prob_edge": 0.06562801057062917,
+      "pick_cover_prob": 0.6197299481689539,
+      "pick_ev_per_1": 0.18312081014073012,
+      "pick_fair_odds": -162.97101104461936,
+      "pick_prob_edge": 0.09592042435943005,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.06715777,
@@ -543,16 +543,16 @@
     },
     {
       "away_team": "Alabama",
-      "edge_home_points": 3.3651257,
+      "edge_home_points": 2.3651257,
       "game_id": "2022_12_28_alabama_mississippi_state",
       "home_team": "Mississippi State",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": 2.8651257,
       "neutral_site": null,
-      "pick_cover_prob": 0.6083499075961412,
-      "pick_ev_per_1": 0.16139527813808763,
-      "pick_fair_odds": -155.32995380193282,
-      "pick_prob_edge": 0.08454038378661732,
+      "pick_cover_prob": 0.5766356818076581,
+      "pick_ev_per_1": 0.10084993799643815,
+      "pick_fair_odds": -136.20318412041573,
+      "pick_prob_edge": 0.05282615799813428,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.5054597,
@@ -650,5 +650,5 @@
       "start_time": "2022-12-29T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:15.809566Z"
+  "generated_at": "2026-03-01T02:27:12.984445Z"
 }

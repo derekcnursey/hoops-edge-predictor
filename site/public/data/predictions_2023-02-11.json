@@ -147,16 +147,16 @@
     },
     {
       "away_team": "St. Bonaventure",
-      "edge_home_points": 7.82108,
+      "edge_home_points": 8.82108,
       "game_id": "2023_02_11_st_bonaventure_duquesne",
       "home_team": "Duquesne",
-      "market_spread_home": -0.5,
+      "market_spread_home": 0.5,
       "model_mu_home": 8.32108,
       "neutral_site": null,
-      "pick_cover_prob": 0.7863665466514913,
-      "pick_ev_per_1": 0.5012452254255743,
-      "pick_fair_odds": -368.0914830172503,
-      "pick_prob_edge": 0.26255702284196747,
+      "pick_cover_prob": 0.8147085506244678,
+      "pick_ev_per_1": 0.5553526875558021,
+      "pick_fair_odds": -439.6903113285541,
+      "pick_prob_edge": 0.29089902681494395,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.39860776,
@@ -1173,16 +1173,16 @@
     },
     {
       "away_team": "Merrimack",
-      "edge_home_points": -2.212101,
+      "edge_home_points": -3.212101,
       "game_id": "2023_02_11_merrimack_st_francis_pa",
       "home_team": "St. Francis (PA)",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": -2.712101,
       "neutral_site": null,
-      "pick_cover_prob": 0.5907926710218334,
-      "pick_ev_per_1": 0.12787691740531837,
-      "pick_fair_odds": -144.37489975976342,
-      "pick_prob_edge": 0.06698314721230958,
+      "pick_cover_prob": 0.6305725770696747,
+      "pick_ev_per_1": 0.20382037440574263,
+      "pick_fair_odds": -170.68916326458037,
+      "pick_prob_edge": 0.1067630532601509,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.0024913705,
@@ -2774,5 +2774,5 @@
       "start_time": "2023-02-12T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:16.839656Z"
+  "generated_at": "2026-03-01T02:27:13.900008Z"
 }

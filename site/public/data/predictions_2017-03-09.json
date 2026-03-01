@@ -525,16 +525,16 @@
     },
     {
       "away_team": "Sam Houston",
-      "edge_home_points": 2.5963655,
+      "edge_home_points": 4.5963655,
       "game_id": "2017_03_09_sam_houston_houston_christian",
       "home_team": "Houston Christian",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 3.5963655,
       "neutral_site": null,
-      "pick_cover_prob": 0.6102464451068373,
-      "pick_ev_per_1": 0.16501594065850766,
-      "pick_fair_odds": -156.5723872035279,
-      "pick_prob_edge": 0.08643692129731351,
+      "pick_cover_prob": 0.6899179569408973,
+      "pick_ev_per_1": 0.3171160996144403,
+      "pick_fair_odds": -222.4952951594803,
+      "pick_prob_edge": 0.16610843313137347,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.837089,
@@ -1046,5 +1046,5 @@
       "start_time": "2017-03-10T04:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:11.589613Z"
+  "generated_at": "2026-03-01T02:27:09.277108Z"
 }

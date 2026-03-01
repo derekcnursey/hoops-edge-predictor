@@ -75,16 +75,16 @@
     },
     {
       "away_team": "Creighton",
-      "edge_home_points": -2.0291967,
+      "edge_home_points": -3.0291967,
       "game_id": "2023_02_14_creighton_providence",
       "home_team": "Providence",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": -2.5291967,
       "neutral_site": null,
-      "pick_cover_prob": 0.5762756773694945,
-      "pick_ev_per_1": 0.10016265679630765,
-      "pick_fair_odds": -136.00250129422383,
-      "pick_prob_edge": 0.05246615355997064,
+      "pick_cover_prob": 0.6130120605272972,
+      "pick_ev_per_1": 0.17029575191574908,
+      "pick_fair_odds": -158.40598582027323,
+      "pick_prob_edge": 0.08920253671777334,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.070347525,
@@ -363,16 +363,16 @@
     },
     {
       "away_team": "Kansas",
-      "edge_home_points": 1.9234661,
+      "edge_home_points": 0.9234661,
       "game_id": "2023_02_14_kansas_oklahoma_state",
       "home_team": "Oklahoma State",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": 1.4234661,
       "neutral_site": null,
-      "pick_cover_prob": 0.5659532386891097,
-      "pick_ev_per_1": 0.0804561829519368,
-      "pick_fair_odds": -130.38992319164896,
-      "pick_prob_edge": 0.0421437148795859,
+      "pick_cover_prob": 0.5317764505614311,
+      "pick_ev_per_1": 0.015209587435459304,
+      "pick_fair_odds": -113.57319622198976,
+      "pick_prob_edge": 0.007966926751907244,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.081269704,
@@ -470,5 +470,5 @@
       "start_time": "2023-02-15T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:16.875304Z"
+  "generated_at": "2026-03-01T02:27:13.936630Z"
 }

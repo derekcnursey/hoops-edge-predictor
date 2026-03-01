@@ -345,17 +345,17 @@
     },
     {
       "away_team": "Richmond",
-      "edge_home_points": 0.36748959999999997,
+      "edge_home_points": -1.6325104000000001,
       "game_id": "2020_12_18_richmond_loyola_chicago",
       "home_team": "Loyola Chicago",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": -0.6325104,
       "neutral_site": null,
-      "pick_cover_prob": 0.5099549045683385,
-      "pick_ev_per_1": -0.026449727642262943,
-      "pick_fair_odds": -104.06285244404685,
-      "pick_prob_edge": -0.013854619241185362,
-      "pick_side": "HOME",
+      "pick_cover_prob": 0.5441371413842908,
+      "pick_ev_per_1": 0.03880726991546424,
+      "pick_fair_odds": -119.36421910673722,
+      "pick_prob_edge": 0.020327617574766976,
+      "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.011649832,
       "pred_sigma": 14.725598,
@@ -956,5 +956,5 @@
       "start_time": "2020-12-19T04:15:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:13.638460Z"
+  "generated_at": "2026-03-01T02:27:11.111096Z"
 }

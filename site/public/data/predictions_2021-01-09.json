@@ -489,16 +489,16 @@
     },
     {
       "away_team": "UMBC",
-      "edge_home_points": 1.2292204,
+      "edge_home_points": 3.2292204,
       "game_id": "2021_01_09_umbc_new_hampshire",
       "home_team": "New Hampshire",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 2.2292204,
       "neutral_site": null,
-      "pick_cover_prob": 0.5423462119030885,
-      "pick_ev_per_1": 0.035388222724078044,
-      "pick_fair_odds": -118.50578450543554,
-      "pick_prob_edge": 0.01853668809356468,
+      "pick_cover_prob": 0.6100221842882582,
+      "pick_ev_per_1": 0.1645878063684928,
+      "pick_fair_odds": -156.42484257083115,
+      "pick_prob_edge": 0.08621266047873433,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.7091399,
@@ -2468,5 +2468,5 @@
       "start_time": "2021-01-10T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:14.877218Z"
+  "generated_at": "2026-03-01T02:27:12.084741Z"
 }

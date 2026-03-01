@@ -93,16 +93,16 @@
     },
     {
       "away_team": "Louisville",
-      "edge_home_points": 1.1021762000000002,
+      "edge_home_points": 5.102176200000001,
       "game_id": "2016_11_24_louisville_wichita_state",
       "home_team": "Wichita State",
-      "market_spread_home": -2.0,
+      "market_spread_home": 2.0,
       "model_mu_home": 3.1021762,
       "neutral_site": null,
-      "pick_cover_prob": 0.5465969138688382,
-      "pick_ev_per_1": 0.04350319920414569,
-      "pick_fair_odds": -120.55429938355495,
-      "pick_prob_edge": 0.022787390059314405,
+      "pick_cover_prob": 0.7060663808968972,
+      "pick_ev_per_1": 0.34794490898498553,
+      "pick_fair_odds": -240.21286950821064,
+      "pick_prob_edge": 0.18225685708737338,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.033560153,
@@ -416,5 +416,5 @@
       "start_time": "2016-11-25T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:07.769353Z"
+  "generated_at": "2026-03-01T02:28:11.923478Z"
 }

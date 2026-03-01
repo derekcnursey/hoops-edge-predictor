@@ -1425,16 +1425,16 @@
     },
     {
       "away_team": "New Mexico State",
-      "edge_home_points": 8.133446,
+      "edge_home_points": 5.133446,
       "game_id": "2022_11_26_new_mexico_state_uc_irvine",
       "home_team": "UC Irvine",
-      "market_spread_home": 1.5,
+      "market_spread_home": -1.5,
       "model_mu_home": 6.633446,
       "neutral_site": null,
-      "pick_cover_prob": 0.7435196840504288,
-      "pick_ev_per_1": 0.41944666955081855,
-      "pick_fair_odds": -289.8934685485254,
-      "pick_prob_edge": 0.21971016024090495,
+      "pick_cover_prob": 0.6601680978713407,
+      "pick_ev_per_1": 0.26032091411801395,
+      "pick_fair_odds": -194.26313237107536,
+      "pick_prob_edge": 0.13635857406181684,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.5840251,
@@ -1496,5 +1496,5 @@
       "start_time": "2022-11-27T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:15.430566Z"
+  "generated_at": "2026-03-01T02:27:12.606305Z"
 }

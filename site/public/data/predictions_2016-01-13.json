@@ -507,16 +507,16 @@
     },
     {
       "away_team": "Jacksonville State",
-      "edge_home_points": 3.1660624,
+      "edge_home_points": 0.16606239999999994,
       "game_id": "2016_01_13_jacksonville_state_southeast_missouri_state",
       "home_team": "Southeast Missouri State",
-      "market_spread_home": 1.5,
+      "market_spread_home": -1.5,
       "model_mu_home": 1.6660624,
       "neutral_site": null,
-      "pick_cover_prob": 0.6258591601083091,
-      "pick_ev_per_1": 0.19482203293404465,
-      "pick_fair_odds": -167.2790279429232,
-      "pick_prob_edge": 0.10204963629878527,
+      "pick_cover_prob": 0.5067145844832034,
+      "pick_ev_per_1": -0.03263579325933902,
+      "pick_fair_odds": -102.72239327253119,
+      "pick_prob_edge": -0.017094939326320446,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.015140167,
@@ -740,5 +740,5 @@
       "start_time": "2016-01-14T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:08.471865Z"
+  "generated_at": "2026-03-01T02:27:06.375264Z"
 }

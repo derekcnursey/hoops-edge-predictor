@@ -111,16 +111,16 @@
     },
     {
       "away_team": "Colorado",
-      "edge_home_points": 11.816175,
+      "edge_home_points": 13.816175,
       "game_id": "2015_11_17_colorado_auburn",
       "home_team": "Auburn",
-      "market_spread_home": -1.0,
+      "market_spread_home": 1.0,
       "model_mu_home": 12.816175,
       "neutral_site": null,
-      "pick_cover_prob": 0.8235687833814407,
-      "pick_ev_per_1": 0.5722676773645685,
-      "pick_fair_odds": -466.79312151543996,
-      "pick_prob_edge": 0.29975925957191685,
+      "pick_cover_prob": 0.8613273477897294,
+      "pick_ev_per_1": 0.6443522094167561,
+      "pick_fair_odds": -621.122718907612,
+      "pick_prob_edge": 0.3375178239802056,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.99988186,
@@ -1136,5 +1136,5 @@
       "start_time": "2015-11-18T03:21:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:06.745326Z"
+  "generated_at": "2026-03-01T02:28:11.453069Z"
 }

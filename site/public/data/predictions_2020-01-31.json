@@ -183,16 +183,16 @@
     },
     {
       "away_team": "Siena",
-      "edge_home_points": -0.15206959999999992,
+      "edge_home_points": -2.1520696,
       "game_id": "2020_01_31_siena_iona",
       "home_team": "Iona",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": -1.1520696,
       "neutral_site": null,
-      "pick_cover_prob": 0.5057889839174354,
-      "pick_ev_per_1": -0.03440284888489603,
-      "pick_fair_odds": -102.3427174745406,
-      "pick_prob_edge": -0.018020539892088405,
+      "pick_cover_prob": 0.5813555945252015,
+      "pick_ev_per_1": 0.10986068045720276,
+      "pick_fair_odds": -138.86620409172,
+      "pick_prob_edge": 0.05754607071567763,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.33027476,
@@ -219,16 +219,16 @@
     },
     {
       "away_team": "VCU",
-      "edge_home_points": 2.528197,
+      "edge_home_points": 0.528197,
       "game_id": "2020_01_31_vcu_rhode_island",
       "home_team": "Rhode Island",
-      "market_spread_home": 1.0,
+      "market_spread_home": -1.0,
       "model_mu_home": 1.528197,
       "neutral_site": null,
-      "pick_cover_prob": 0.5962883705922374,
-      "pick_ev_per_1": 0.13836870749427133,
-      "pick_fair_odds": -147.7015590229544,
-      "pick_prob_edge": 0.07247884678271355,
+      "pick_cover_prob": 0.5203074203774102,
+      "pick_ev_per_1": -0.006685833824944198,
+      "pick_fair_odds": -108.46684782715946,
+      "pick_prob_edge": -0.003502103432113657,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.4677694,
@@ -272,5 +272,5 @@
       "start_time": "2020-02-01T02:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:13.937586Z"
+  "generated_at": "2026-03-01T02:27:11.438192Z"
 }

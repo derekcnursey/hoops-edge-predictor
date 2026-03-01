@@ -417,16 +417,16 @@
     },
     {
       "away_team": "Villanova",
-      "edge_home_points": -2.406846,
+      "edge_home_points": -1.406846,
       "game_id": "2020_02_22_villanova_xavier",
       "home_team": "Xavier",
-      "market_spread_home": -0.5,
+      "market_spread_home": 0.5,
       "model_mu_home": -1.906846,
       "neutral_site": null,
-      "pick_cover_prob": 0.5821728094828276,
-      "pick_ev_per_1": 0.11142081810357984,
-      "pick_fair_odds": -139.3333949287105,
-      "pick_prob_edge": 0.05836328567330373,
+      "pick_cover_prob": 0.54825800284222,
+      "pick_ev_per_1": 0.04667436906242006,
+      "pick_fair_odds": -121.36529397126871,
+      "pick_prob_edge": 0.024448479032696202,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.20848174,
@@ -2378,5 +2378,5 @@
       "start_time": "2020-02-23T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:14.076040Z"
+  "generated_at": "2026-03-01T02:27:11.566898Z"
 }

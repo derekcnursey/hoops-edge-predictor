@@ -597,16 +597,16 @@
     },
     {
       "away_team": "Southern Miss",
-      "edge_home_points": -2.281354,
+      "edge_home_points": -3.281354,
       "game_id": "2023_02_16_southern_miss_south_alabama",
       "home_team": "South Alabama",
-      "market_spread_home": 0.5,
+      "market_spread_home": -0.5,
       "model_mu_home": -2.781354,
       "neutral_site": null,
-      "pick_cover_prob": 0.588727057776968,
-      "pick_ev_per_1": 0.12393347393784793,
-      "pick_fair_odds": -143.1475298605234,
-      "pick_prob_edge": 0.06491753396744415,
+      "pick_cover_prob": 0.6264926171871646,
+      "pick_ev_per_1": 0.196031360084587,
+      "pick_fair_odds": -167.73232498622397,
+      "pick_prob_edge": 0.10268309337764081,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.029779822,
@@ -1154,5 +1154,5 @@
       "start_time": "2023-02-17T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:16.941800Z"
+  "generated_at": "2026-03-01T02:27:13.999941Z"
 }

@@ -147,16 +147,16 @@
     },
     {
       "away_team": "Wisconsin",
-      "edge_home_points": -0.3377186999999999,
+      "edge_home_points": -4.3377187,
       "game_id": "2017_01_03_wisconsin_indiana",
       "home_team": "Indiana",
-      "market_spread_home": 2.0,
+      "market_spread_home": -2.0,
       "model_mu_home": -2.3377187,
       "neutral_site": null,
-      "pick_cover_prob": 0.5118048516080619,
-      "pick_ev_per_1": -0.022918010566427338,
-      "pick_fair_odds": -104.83612000116993,
-      "pick_prob_edge": -0.012004672201461952,
+      "pick_cover_prob": 0.6480716394404971,
+      "pick_ev_per_1": 0.23722767529549438,
+      "pick_fair_odds": -184.14873936564234,
+      "pick_prob_edge": 0.12426211563097322,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.2639852,
@@ -398,5 +398,5 @@
       "start_time": "2017-01-04T02:15:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:10.732144Z"
+  "generated_at": "2026-03-01T02:27:08.430338Z"
 }

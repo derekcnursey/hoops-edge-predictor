@@ -651,16 +651,16 @@
     },
     {
       "away_team": "Oregon",
-      "edge_home_points": -4.2509765999999996,
+      "edge_home_points": -1.2509766,
       "game_id": "2021_02_11_oregon_arizona_state",
       "home_team": "Arizona State",
-      "market_spread_home": -1.5,
+      "market_spread_home": 1.5,
       "model_mu_home": -2.7509766,
       "neutral_site": null,
-      "pick_cover_prob": 0.6506883655910621,
-      "pick_ev_per_1": 0.24222324340111856,
-      "pick_fair_odds": -186.27732416988542,
-      "pick_prob_edge": 0.1268788417815383,
+      "pick_cover_prob": 0.5453569782501768,
+      "pick_ev_per_1": 0.04113604938670118,
+      "pick_fair_odds": -119.95278760712418,
+      "pick_prob_edge": 0.02154745444065298,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.062748715,
@@ -812,5 +812,5 @@
       "start_time": "2021-02-12T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:22:14.912640Z"
+  "generated_at": "2026-03-01T02:27:12.118448Z"
 }
