@@ -1,0 +1,19 @@
+{
+  "regressor": {
+    "hidden1": 512,
+    "hidden2": 256,
+    "dropout": 0.25,
+    "lr": 0.003,
+    "batch_size": 4096,
+    "weight_decay": 0.0001,
+    "epochs": 150
+  },
+  "classifier": {
+    "hidden1": 256,
+    "dropout": 0.3,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "epochs": 100,
+    "batch_size": 4096
+  }
+}
