@@ -1469,3 +1469,515 @@ def build_features_v2(
 
     result = pd.DataFrame(records)
     return result
+
+
+# ── Bulk pipeline helpers ─────────────────────────────────────────
+
+
+def _ensure_tz_naive(series: pd.Series) -> pd.Series:
+    """Strip timezone from a datetime Series if present."""
+    if hasattr(series.dtype, "tz") and series.dtype.tz is not None:
+        return series.dt.tz_localize(None)
+    return series
+
+
+def _merge_eff_asof(
+    result: pd.DataFrame,
+    eff_ratings: pd.DataFrame,
+    team_col: str,
+    prefix: str,
+) -> pd.DataFrame:
+    """Vectorized as-of efficiency rating merge using pd.merge_asof.
+
+    For each game, finds the most recent rating before game_date - 1 day
+    for the specified team column (homeTeamId or awayTeamId).
+    """
+    feat_map = {
+        "adj_oe": f"{prefix}_team_adj_oe",
+        "adj_de": f"{prefix}_team_adj_de",
+        "adj_tempo": f"{prefix}_team_adj_pace",
+        "barthag": f"{prefix}_team_BARTHAG",
+    }
+    sos_cols = []
+    for col in ["sos_oe", "sos_de"]:
+        if col in eff_ratings.columns:
+            feat_map[col] = f"{prefix}_{col}"
+            sos_cols.append(col)
+
+    all_feat_names = list(feat_map.values())
+
+    if eff_ratings.empty:
+        for col in all_feat_names:
+            result[col] = np.nan
+        return result
+
+    # Build game-team pairs with cutoff dates
+    pairs = result[["gameId", team_col, "_game_dt"]].copy()
+    pairs = pairs.rename(columns={team_col: "_tid"})
+    pairs["_cutoff"] = _ensure_tz_naive(pairs["_game_dt"].dt.normalize()) - pd.Timedelta(days=1)
+    valid = pairs.dropna(subset=["_cutoff"]).sort_values("_cutoff")
+
+    if valid.empty:
+        for col in all_feat_names:
+            result[col] = np.nan
+        return result
+
+    # Prepare ratings
+    eff_cols = ["adj_oe", "adj_de", "adj_tempo", "barthag"] + sos_cols
+    r = eff_ratings[["teamId", "rating_date"] + eff_cols].copy()
+    r = r.rename(columns={"teamId": "_tid"})
+    r["rating_date"] = _ensure_tz_naive(r["rating_date"])
+    r = r.sort_values("rating_date")
+
+    # merge_asof: for each game-team pair, find the latest rating <= cutoff
+    merged = pd.merge_asof(
+        valid, r,
+        left_on="_cutoff",
+        right_on="rating_date",
+        by="_tid",
+        direction="backward",
+    )
+
+    # Rename to feature names and merge back
+    merged = merged.rename(columns=feat_map)
+    out_cols = ["gameId"] + [c for c in all_feat_names if c in merged.columns]
+    return result.merge(merged[out_cols], on="gameId", how="left")
+
+
+def _merge_team_feature(
+    result: pd.DataFrame,
+    team_df: pd.DataFrame,
+    team_col: str,
+    col_map: dict[str, str],
+    right_game_key: str = "gameid",
+    right_team_key: str = "teamid",
+    asof_fill: bool = False,
+) -> pd.DataFrame:
+    """Merge team-level stats onto game-level result via (gameId, teamId) join.
+
+    Args:
+        result: Game-level DataFrame (must have gameId and team_col).
+        team_df: Team-level DataFrame with game/team keys + stat columns.
+        team_col: Column in result for team ID (e.g., "homeTeamId").
+        col_map: {output_feature_name: source_column_name_in_team_df}.
+        right_game_key: Game ID column in team_df.
+        right_team_key: Team ID column in team_df.
+        asof_fill: If True, fill NaN values using as-of date fallback for
+            games missing from team_df. Requires "_game_dt" in result and
+            "startdate" in team_df.
+    """
+    if team_df is None or team_df.empty:
+        for col in col_map:
+            result[col] = np.nan
+        return result
+
+    src_cols = list(set(col_map.values()))
+    available = [c for c in src_cols if c in team_df.columns]
+    if not available:
+        for col in col_map:
+            result[col] = np.nan
+        return result
+
+    merge_df = team_df[[right_game_key, right_team_key] + available].copy()
+    # Dedup to match dict-lookup semantics (last entry wins)
+    merge_df = merge_df.drop_duplicates(
+        subset=[right_game_key, right_team_key], keep="last",
+    )
+
+    # Rename source → feature names
+    rename_map = {v: k for k, v in col_map.items() if v in merge_df.columns}
+    merge_df = merge_df.rename(columns=rename_map)
+
+    feat_cols = [k for k in col_map if col_map[k] in team_df.columns]
+    merge_cols = list(dict.fromkeys(
+        [right_game_key, right_team_key] + feat_cols
+    ))
+
+    result = result.merge(
+        merge_df[merge_cols],
+        left_on=["gameId", team_col],
+        right_on=[right_game_key, right_team_key],
+        how="left",
+    )
+
+    # Drop right-side key columns (avoid accumulation)
+    for col in [right_game_key, right_team_key]:
+        if col in result.columns and col not in ["gameId", team_col]:
+            result = result.drop(columns=[col])
+
+    for col in col_map:
+        if col not in result.columns:
+            result[col] = np.nan
+
+    # As-of fallback: fill NaN values for games missing from team_df
+    if asof_fill and "_game_dt" in result.columns:
+        needs_fill = result[feat_cols].isna().any(axis=1) & result["_game_dt"].notna()
+        if needs_fill.any():
+            date_col = (
+                "_date" if "_date" in team_df.columns
+                else "startdate" if "startdate" in team_df.columns
+                else None
+            )
+            if date_col is not None:
+                tdf = team_df.copy()
+                if date_col != "_date":
+                    tdf["_date"] = pd.to_datetime(tdf[date_col], errors="coerce")
+                tdf["_date"] = _ensure_tz_naive(tdf["_date"])
+                tdf = tdf.sort_values([right_team_key, "_date"])
+
+                for idx in result.index[needs_fill]:
+                    tid = result.loc[idx, team_col]
+                    game_dt = result.loc[idx, "_game_dt"]
+                    cutoff = pd.Timestamp(game_dt)
+                    if hasattr(cutoff, "tz") and cutoff.tz is not None:
+                        cutoff = cutoff.tz_localize(None)
+                    cutoff = cutoff.normalize()
+
+                    team_rows = tdf[tdf[right_team_key] == tid]
+                    if team_rows.empty:
+                        continue
+                    eligible = team_rows[team_rows["_date"] < cutoff]
+                    if eligible.empty:
+                        eligible = team_rows
+                    row = eligible.iloc[-1]
+
+                    for feat_name, src_col in col_map.items():
+                        if feat_name in result.columns and pd.isna(
+                            result.loc[idx, feat_name]
+                        ):
+                            if src_col in row.index and pd.notna(row[src_col]):
+                                result.loc[idx, feat_name] = row[src_col]
+
+    return result
+
+
+# ── Bulk feature builder ─────────────────────────────────────────
+
+
+def build_features_v2_bulk(
+    season: int,
+    no_garbage: bool = True,
+) -> pd.DataFrame:
+    """Build V2 features for ALL games in a season using vectorized operations.
+
+    Functionally equivalent to build_features_v2(season) (no date filter) but
+    dramatically faster by:
+      1. Computing conference strength ONCE instead of per-game
+      2. Replacing per-game iterrows assembly with vectorized merge/join
+      3. Using merge_asof for efficiency ratings
+
+    Use this for building training data. For daily inference on a single date,
+    use build_features_v2(season, game_date=...) instead.
+
+    Args:
+        season: Season year (e.g. 2025).
+        no_garbage: If True (default), use no-garbage-time efficiency ratings.
+
+    Returns:
+        DataFrame with columns matching build_features_v2() output.
+    """
+    import time
+    t0 = time.time()
+
+    # ═══════════════════════════════════════════════════════════════════
+    # Phase 1: Data Loading
+    # ═══════════════════════════════════════════════════════════════════
+    games = load_games(season)
+    if games.empty:
+        return pd.DataFrame()
+
+    eff_ratings = load_efficiency_ratings(season, no_garbage=no_garbage)
+    boxscores = load_boxscores(season)
+
+    pbp_keys = s3_reader.list_parquet_keys(
+        f"{config.SILVER_PREFIX}/fct_pbp_plays_enriched/season={season}/"
+    )
+    pbp_df = pd.DataFrame()
+    if pbp_keys:
+        pbp_tbl = s3_reader.read_parquet_table(pbp_keys)
+        pbp_df = pbp_tbl.to_pandas()
+
+    all_games = games.copy()
+    games["_game_dt"] = pd.to_datetime(games["startDate"], errors="coerce")
+    print(f"  [{season}] Data loaded: {time.time() - t0:.1f}s "
+          f"({len(games)} games, {len(boxscores)} box, {len(pbp_df)} pbp)")
+
+    # ═══════════════════════════════════════════════════════════════════
+    # Phase 2: Compute All Intermediates (same logic as build_features_v2)
+    # ═══════════════════════════════════════════════════════════════════
+    t1 = time.time()
+
+    # 2a. Four factors → opponent-adjusted → rolling
+    ff = pd.DataFrame()
+    rolling_df = pd.DataFrame()
+    if not boxscores.empty:
+        ff = compute_game_four_factors(boxscores)
+        ff = adjust_four_factors(
+            ff, prior_weight=config.ADJUST_PRIOR, alpha=config.ADJUST_ALPHA,
+        )
+        ff_span = _load_optimal_spans().get("four_factors")
+        rolling_df = compute_rolling_averages_v2(ff, optimal_span=ff_span)
+
+    # 2b. PBP advanced stats + luck + opponent adjustment + rolling
+    adv_rolling = pd.DataFrame()
+    luck_rolling = pd.DataFrame()
+    ks_rolling = pd.DataFrame()
+    if not pbp_df.empty:
+        adv_stats = compute_advanced_stats(pbp_df)
+        if not adv_stats.empty:
+            # Luck features on RAW (pre-adjustment) stats
+            luck_df = compute_luck_features(adv_stats)
+            if not luck_df.empty:
+                luck_rolling = compute_rolling_advanced_stats_v2(
+                    luck_df, LUCK_FEATURE_COLS
+                )
+
+            # Opponent adjustment
+            adjustable = [
+                s for s in _ROLLING_ADV_STATS
+                if s not in _ADV_NO_ADJUST and s in adv_stats.columns
+            ]
+            pairs_for_adj = {
+                s: _ALL_ADV_STAT_PAIRS[s]
+                for s in adjustable if s in _ALL_ADV_STAT_PAIRS
+            }
+            if adjustable and pairs_for_adj:
+                adv_stats = opponent_adjust(
+                    adv_stats, stat_cols=adjustable,
+                    stat_pairs=pairs_for_adj, no_adjust=_ADV_NO_ADJUST,
+                )
+
+            # Rolling advanced stats (V2 with per-group optimal spans)
+            available_stats = [
+                s for s in _ROLLING_ADV_STATS if s in adv_stats.columns
+            ]
+            adv_rolling = compute_rolling_advanced_stats_v2(
+                adv_stats, available_stats
+            )
+
+        # Kill shot metrics (V1 rolling, fixed span)
+        ks_df = compute_kill_shot_metrics(pbp_df)
+        if not ks_df.empty:
+            ks_rolling = compute_rolling_advanced_stats(ks_df, KILL_SHOT_COLS)
+
+    # 2c. Schedule, pace, consistency, turnover, form delta
+    schedule_df = compute_schedule_features(all_games)
+
+    pace_df = pd.DataFrame()
+    if not boxscores.empty:
+        pace_df = compute_pace_features(boxscores)
+
+    consistency_map = _compute_consistency_features(all_games)
+
+    tov_df = pd.DataFrame()
+    if not boxscores.empty:
+        tov_df = compute_rolling_turnovers(boxscores)
+        # Add startdate for as-of fallback (compute_rolling_turnovers omits it)
+        if not tov_df.empty and "startdate" not in tov_df.columns:
+            box_dates = boxscores[["gameid", "teamid", "startdate"]].drop_duplicates(
+                ["gameid", "teamid"]
+            )
+            tov_df = tov_df.merge(box_dates, on=["gameid", "teamid"], how="left")
+
+    form_df = pd.DataFrame()
+    if not ff.empty:
+        form_df = compute_form_delta(ff)
+        if not form_df.empty:
+            ff_dates = ff[["gameid", "teamid", "startdate"]].drop_duplicates(
+                ["gameid", "teamid"]
+            )
+            form_df = form_df.merge(ff_dates, on=["gameid", "teamid"], how="left")
+
+    # 2d. Conference strength — computed ONCE for all dates
+    unique_dates = list(games["_game_dt"].dropna().unique())
+    conf_lookup = _build_conf_strength_lookup(eff_ratings, unique_dates)
+    team_conf_map: dict[int, str] = {}
+    if "conference" in eff_ratings.columns:
+        for tid_val, conf in zip(eff_ratings["teamId"], eff_ratings["conference"]):
+            if pd.notna(conf):
+                team_conf_map[int(tid_val)] = str(conf)
+
+    print(f"  [{season}] Intermediates: {time.time() - t1:.1f}s")
+
+    # ═══════════════════════════════════════════════════════════════════
+    # Phase 3: Vectorized Assembly
+    # ═══════════════════════════════════════════════════════════════════
+    t2 = time.time()
+
+    # Base game info
+    meta_cols = ["gameId", "homeTeamId", "awayTeamId", "_game_dt"]
+    for col in ["startDate", "homeScore", "awayScore", "homeTeam", "awayTeam",
+                "neutralSite"]:
+        if col in games.columns:
+            meta_cols.append(col)
+    result = games[meta_cols].copy()
+
+    # ── Static features ──
+    ns = result.get("neutralSite", pd.Series(0, index=result.index))
+    result["neutral_site"] = ns.apply(
+        lambda x: int(bool(x)) if pd.notna(x) else 0
+    )
+    result["home_team_home"] = 1 - result["neutral_site"]
+    result["away_team_home"] = 0
+
+    # ── Efficiency ratings (vectorized merge_asof) ──
+    result = _merge_eff_asof(result, eff_ratings, "homeTeamId", "home")
+    result = _merge_eff_asof(result, eff_ratings, "awayTeamId", "away")
+
+    # ── Rolling four factors ──
+    result = _merge_team_feature(
+        result, rolling_df, "homeTeamId", HOME_ROLLING_MAP, asof_fill=True,
+    )
+    result = _merge_team_feature(
+        result, rolling_df, "awayTeamId", AWAY_ROLLING_MAP, asof_fill=True,
+    )
+
+    # ── Advanced stats rolling ──
+    home_adv_map = {f"home_{s}": f"rolling_{s}" for s in _ROLLING_ADV_STATS}
+    away_adv_map = {f"away_{s}": f"rolling_{s}" for s in _ROLLING_ADV_STATS}
+    result = _merge_team_feature(
+        result, adv_rolling, "homeTeamId", home_adv_map, asof_fill=True,
+    )
+    result = _merge_team_feature(
+        result, adv_rolling, "awayTeamId", away_adv_map, asof_fill=True,
+    )
+
+    # ── Kill shot rolling ──
+    home_ks_map = {f"home_{s}": f"rolling_{s}" for s in KILL_SHOT_COLS}
+    away_ks_map = {f"away_{s}": f"rolling_{s}" for s in KILL_SHOT_COLS}
+    result = _merge_team_feature(
+        result, ks_rolling, "homeTeamId", home_ks_map, asof_fill=True,
+    )
+    result = _merge_team_feature(
+        result, ks_rolling, "awayTeamId", away_ks_map, asof_fill=True,
+    )
+
+    # ── Luck rolling ──
+    home_luck_map = {f"home_{s}": f"rolling_{s}" for s in LUCK_FEATURE_COLS}
+    away_luck_map = {f"away_{s}": f"rolling_{s}" for s in LUCK_FEATURE_COLS}
+    result = _merge_team_feature(
+        result, luck_rolling, "homeTeamId", home_luck_map, asof_fill=True,
+    )
+    result = _merge_team_feature(
+        result, luck_rolling, "awayTeamId", away_luck_map, asof_fill=True,
+    )
+
+    # ── Schedule features ──
+    if not schedule_df.empty:
+        sched_cols = [
+            "gameId", "home_days_rest", "away_days_rest",
+            "rest_differential", "home_games_last_7", "away_games_last_7",
+        ]
+        result = result.merge(
+            schedule_df[[c for c in sched_cols if c in schedule_df.columns]],
+            on="gameId", how="left",
+        )
+    # Fill defaults matching build_features_v2
+    for col, default in [
+        ("home_days_rest", 5.0), ("away_days_rest", 5.0),
+        ("rest_differential", 0.0),
+        ("home_games_last_7", 1), ("away_games_last_7", 1),
+    ]:
+        if col not in result.columns:
+            result[col] = default
+        else:
+            result[col] = result[col].fillna(default)
+
+    # ── Pace features ──
+    home_pace_map = {f"home_{c}": c for c in PACE_FEATURE_COLS}
+    away_pace_map = {f"away_{c}": c for c in PACE_FEATURE_COLS}
+    result = _merge_team_feature(
+        result, pace_df, "homeTeamId", home_pace_map, asof_fill=True,
+    )
+    result = _merge_team_feature(
+        result, pace_df, "awayTeamId", away_pace_map, asof_fill=True,
+    )
+
+    # ── Consistency features ──
+    cons_records = [
+        {"gameid": gid, "teamid": tid, **vals}
+        for (gid, tid), vals in consistency_map.items()
+    ]
+    cons_df = pd.DataFrame(cons_records) if cons_records else pd.DataFrame()
+    home_cons_map = {
+        "home_scoring_variance": "scoring_variance",
+        "home_blowout_rate": "blowout_rate",
+    }
+    away_cons_map = {
+        "away_scoring_variance": "scoring_variance",
+        "away_blowout_rate": "blowout_rate",
+    }
+    result = _merge_team_feature(
+        result, cons_df, "homeTeamId", home_cons_map,
+        right_game_key="gameid", right_team_key="teamid",
+    )
+    result = _merge_team_feature(
+        result, cons_df, "awayTeamId", away_cons_map,
+        right_game_key="gameid", right_team_key="teamid",
+    )
+
+    # ── SOS features (already merged via efficiency ratings in 3b) ──
+    # Already present as home_sos_oe, home_sos_de, away_sos_oe, away_sos_de
+
+    # ── Conference strength ──
+    if conf_lookup and team_conf_map:
+        _game_dt_naive = _ensure_tz_naive(result["_game_dt"])
+        _cutoff = _game_dt_naive.dt.normalize() - pd.Timedelta(days=1)
+        _date_keys = _cutoff.dt.strftime("%Y-%m-%d")
+
+        home_confs = result["homeTeamId"].map(team_conf_map).fillna("")
+        away_confs = result["awayTeamId"].map(team_conf_map).fillna("")
+
+        result["home_conf_strength"] = [
+            conf_lookup.get((dk, c)) if pd.notna(dk) else None
+            for dk, c in zip(_date_keys, home_confs)
+        ]
+        result["away_conf_strength"] = [
+            conf_lookup.get((dk, c)) if pd.notna(dk) else None
+            for dk, c in zip(_date_keys, away_confs)
+        ]
+    else:
+        result["home_conf_strength"] = None
+        result["away_conf_strength"] = None
+
+    # ── Turnover rolling ──
+    home_tov_map = {
+        "home_tov_rate": "rolling_tov_rate",
+        "home_def_tov_rate": "rolling_def_tov_rate",
+    }
+    away_tov_map = {
+        "away_tov_rate": "rolling_tov_rate",
+        "away_def_tov_rate": "rolling_def_tov_rate",
+    }
+    result = _merge_team_feature(
+        result, tov_df, "homeTeamId", home_tov_map, asof_fill=True,
+    )
+    result = _merge_team_feature(
+        result, tov_df, "awayTeamId", away_tov_map, asof_fill=True,
+    )
+
+    # ── Form delta ──
+    home_form_map = {"home_form_delta": "form_delta"}
+    away_form_map = {"away_form_delta": "form_delta"}
+    result = _merge_team_feature(
+        result, form_df, "homeTeamId", home_form_map, asof_fill=True,
+    )
+    result = _merge_team_feature(
+        result, form_df, "awayTeamId", away_form_map, asof_fill=True,
+    )
+
+    # ── Margin std (alias for scoring_variance) ──
+    result["home_margin_std"] = result.get("home_scoring_variance")
+    result["away_margin_std"] = result.get("away_scoring_variance")
+
+    # ── Clean up ──
+    drop_cols = ["_game_dt", "neutralSite"]
+    result = result.drop(
+        columns=[c for c in drop_cols if c in result.columns], errors="ignore"
+    )
+
+    print(f"  [{season}] Assembly: {time.time() - t2:.1f}s")
+    print(f"  [{season}] Total: {time.time() - t0:.1f}s, "
+          f"{len(result)} games, {len(result.columns)} cols")
+
+    return result
