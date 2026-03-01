@@ -112,7 +112,7 @@ LINES_COLS = {
 # BARTHAG exponent (BartTorvik's Pythagorean formula)
 BARTHAG_EXPONENT = 11.5
 
-# V3 expanded feature set (~126 features) — session 14
+# V3 expanded feature set (148 features) — session 14
 # This is separate from the production 50-feature FEATURE_ORDER above.
 FEATURE_ORDER_V3: list[str] = json.loads(
     (ARTIFACTS_DIR / "feature_order_v3.json").read_text()

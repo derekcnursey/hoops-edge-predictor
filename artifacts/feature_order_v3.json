@@ -134,5 +134,17 @@
   "away_tov_rate",
   "away_def_tov_rate",
   "home_margin_std",
-  "away_margin_std"
+  "away_margin_std",
+  "away_efg_luck",
+  "away_three_pt_luck",
+  "away_two_pt_luck",
+  "home_efg_luck",
+  "home_three_pt_luck",
+  "home_two_pt_luck",
+  "away_transition_scoring_efficiency",
+  "away_expected_pts_per_shot",
+  "away_transition_value",
+  "home_transition_scoring_efficiency",
+  "home_expected_pts_per_shot",
+  "home_transition_value"
 ]

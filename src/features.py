@@ -8,6 +8,7 @@ Combines:
 
 from __future__ import annotations
 
+import json
 from datetime import timedelta
 from typing import Optional
 
@@ -719,11 +720,15 @@ from .pbp_advanced_stats import (
     HALF_SPLIT_COLS,
     ROTATION_DEPTH_COLS,
     PRESSURE_FT_COLS,
+    ZONE_COUNT_COLS,
+    COMPOSITE_COLS,
     compute_advanced_stats,
 )
 from .schedule_features import compute_schedule_features, SCHEDULE_FEATURE_NAMES
 from .pace_features import compute_pace_features, PACE_FEATURE_COLS
 from .kill_shot_analysis import compute_kill_shot_metrics, KILL_SHOT_COLS
+from .luck_regression import compute_luck_features, LUCK_FEATURE_COLS
+from .rolling_averages import compute_rolling_averages_v2
 
 # ── Stat pairs for opponent adjustment of advanced stats ─────────
 # Offensive stats → defensive counterpart, and vice versa.
@@ -810,6 +815,14 @@ _ADV_NO_ADJUST = {
     "three_pt_rate_above_break",
     "assisted_fg_pct",       # Mostly about the offense
     "unassisted_fg_pct",
+    # Luck features: league-relative by construction
+    "efg_luck",
+    "three_pt_luck",
+    "two_pt_luck",
+    # Composite features: derived from already-adjusted components
+    "transition_scoring_efficiency",
+    "expected_pts_per_shot",
+    "transition_value",
 }
 
 # Per-team advanced stat columns that become rolling features (home_ / away_ prefixed)
@@ -836,6 +849,8 @@ _ROLLING_ADV_STATS = [
     "scoring_hhi", "top2_scorer_pct",
     # Pressure FT (Group N)
     "ft_pressure_delta",
+    # Composites (NOT zone counts — those are intermediate only)
+    "transition_scoring_efficiency", "expected_pts_per_shot", "transition_value",
 ]
 
 # Consistency features (Group F) - computed from game-level data
@@ -876,6 +891,120 @@ def compute_rolling_advanced_stats(
                 g[rcol] = (
                     g[stat]
                     .ewm(span=ewm_span, min_periods=1)
+                    .mean()
+                    .shift(1)
+                )
+            else:
+                g[rcol] = np.nan
+        results.append(g)
+
+    if not results:
+        return pd.DataFrame()
+
+    out = pd.concat(results, ignore_index=True)
+    keep = ["gameid", "teamid", "startdate"] + rolling_cols
+    return out[[c for c in keep if c in out.columns]].copy()
+
+
+# ── Per-group EWM span optimization (V2 rolling) ─────────────────
+
+def _load_optimal_spans() -> dict[str, int]:
+    """Load optimal EWM spans from artifacts/optimal_ewm_spans.json.
+
+    Returns empty dict if file does not exist.
+    """
+    path = config.ARTIFACTS_DIR / "optimal_ewm_spans.json"
+    if path.exists():
+        return json.loads(path.read_text())
+    return {}
+
+
+# Mapping from individual stat column → group name (for span lookup)
+_STAT_TO_GROUP: dict[str, str] = {}
+_GROUP_DEFS = {
+    "shot_quality": [
+        "rim_rate", "mid_range_rate", "rim_fg_pct", "mid_range_fg_pct",
+        "assisted_fg_pct",
+        "def_rim_rate", "def_mid_range_rate", "def_rim_fg_pct", "def_mid_range_fg_pct",
+    ],
+    "turnover": [
+        "live_ball_tov_rate", "dead_ball_tov_rate", "steal_rate_defense",
+        "transition_rate", "transition_scoring_efficiency",
+    ],
+    "tempo": [
+        "avg_possession_length", "early_clock_shot_rate", "shot_clock_pressure_rate",
+    ],
+    "second_chance": [
+        "putback_rate", "second_chance_pts_per_oreb",
+    ],
+    "clutch": [
+        "clutch_off_efficiency", "clutch_def_efficiency",
+        "non_clutch_to_clutch_delta",
+    ],
+    "drought": [
+        "off_avg_drought_length", "off_max_drought_length",
+        "def_avg_drought_length", "def_max_drought_length",
+    ],
+    "half_split": [
+        "half_adjustment_delta", "second_half_def_delta",
+    ],
+    "rotation": [
+        "scoring_hhi", "top2_scorer_pct",
+    ],
+    "composites": [
+        "transition_scoring_efficiency", "expected_pts_per_shot", "transition_value",
+    ],
+    "luck": [
+        "efg_luck", "three_pt_luck", "two_pt_luck",
+    ],
+}
+for _grp, _cols in _GROUP_DEFS.items():
+    for _col in _cols:
+        _STAT_TO_GROUP[_col] = _grp
+
+
+def compute_rolling_advanced_stats_v2(
+    adv_stats: pd.DataFrame,
+    stat_cols: list[str],
+    default_span: int = 15,
+) -> pd.DataFrame:
+    """Compute EWM rolling averages with per-group optimal spans.
+
+    Same interface as compute_rolling_advanced_stats() but looks up the
+    optimal EWM span for each stat's group from artifacts/optimal_ewm_spans.json.
+    Falls back to default_span if no artifact or unmapped stat.
+
+    Args:
+        adv_stats: DataFrame with gameid, teamid, startdate, + stat columns.
+        stat_cols: List of stat columns to compute rolling averages for.
+        default_span: Fallback span if no optimal span found.
+
+    Returns:
+        DataFrame with gameid, teamid, startdate, + rolling_{stat} columns.
+    """
+    optimal_spans = _load_optimal_spans()
+
+    df = adv_stats.copy()
+    df["_date"] = pd.to_datetime(df["startdate"], errors="coerce")
+    df = df.sort_values(["teamid", "_date", "gameid"]).reset_index(drop=True)
+
+    rolling_cols = [f"rolling_{c}" for c in stat_cols]
+
+    # Pre-compute the span for each stat
+    stat_spans = []
+    for stat in stat_cols:
+        group = _STAT_TO_GROUP.get(stat)
+        span = optimal_spans.get(group, default_span) if group else default_span
+        stat_spans.append(span)
+
+    results = []
+    for _tid, group_df in df.groupby("teamid"):
+        g = group_df.copy()
+        for stat, rcol, span in zip(stat_cols, rolling_cols, stat_spans):
+            if stat in g.columns:
+                g[rcol] = (
+                    g[stat]
+                    .ewm(span=span, min_periods=1)
                     .mean()
                     .shift(1)
                 )
@@ -1013,7 +1142,9 @@ def build_features_v2(
             prior_weight=config.ADJUST_PRIOR,
             alpha=config.ADJUST_ALPHA,
         )
-        rolling_df = compute_rolling_averages(ff)
+        # V2: use per-group optimal span for four factors
+        ff_span = _load_optimal_spans().get("four_factors")
+        rolling_df = compute_rolling_averages_v2(ff, optimal_span=ff_span)
 
     # Build rolling lookups
     rolling_lookup: dict[tuple[int, int], dict[str, float]] = {}
@@ -1030,6 +1161,10 @@ def build_features_v2(
     adv_rolling_lookup: dict[tuple[int, int], dict[str, float]] = {}
     adv_team_lookup: dict[int, pd.DataFrame] = {}
 
+    # ── Luck features ────────────────────────────────────────────
+    luck_lookup: dict[tuple[int, int], dict[str, float]] = {}
+    luck_team_lookup: dict[int, pd.DataFrame] = {}
+
     # Load enriched PBP for this season
     pbp_keys = s3_reader.list_parquet_keys(
         f"{config.SILVER_PREFIX}/fct_pbp_plays_enriched/season={season}/"
@@ -1042,6 +1177,18 @@ def build_features_v2(
         adv_stats = compute_advanced_stats(pbp_df)
 
         if not adv_stats.empty:
+            # Compute luck features on RAW (pre-opponent-adjusted) stats
+            luck_df = compute_luck_features(adv_stats)
+            if not luck_df.empty:
+                luck_rolling = compute_rolling_advanced_stats_v2(luck_df, LUCK_FEATURE_COLS)
+                if not luck_rolling.empty:
+                    luck_rolling["_date"] = pd.to_datetime(luck_rolling["startdate"], errors="coerce")
+                    for _, row in luck_rolling.iterrows():
+                        key = (int(row["gameid"]), int(row["teamid"]))
+                        luck_lookup[key] = row.to_dict()
+                    for tid, group in luck_rolling.groupby("teamid"):
+                        luck_team_lookup[int(tid)] = group.sort_values("_date").copy()
+
             # Opponent-adjust the advanced stats
             adjustable = [s for s in _ROLLING_ADV_STATS if s not in _ADV_NO_ADJUST and s in adv_stats.columns]
             pairs_for_adj = {s: _ALL_ADV_STAT_PAIRS[s] for s in adjustable if s in _ALL_ADV_STAT_PAIRS}
@@ -1053,9 +1200,9 @@ def build_features_v2(
                     no_adjust=_ADV_NO_ADJUST,
                 )
 
-            # Compute rolling averages for advanced stats
+            # V2: Compute rolling averages with per-group optimal spans
             available_stats = [s for s in _ROLLING_ADV_STATS if s in adv_stats.columns]
-            adv_rolling = compute_rolling_advanced_stats(adv_stats, available_stats)
+            adv_rolling = compute_rolling_advanced_stats_v2(adv_stats, available_stats)
 
             if not adv_rolling.empty:
                 adv_rolling["_date"] = pd.to_datetime(adv_rolling["startdate"], errors="coerce")
@@ -1228,6 +1375,17 @@ def build_features_v2(
                 )
             for stat in KILL_SHOT_COLS:
                 feat[f"{prefix}_{stat}"] = ks_row.get(f"rolling_{stat}")
+
+        # ── Luck features ────────────────────────────────────────
+        for prefix, tid in [("away", away_tid), ("home", home_tid)]:
+            luck_row = luck_lookup.get((gid, tid), {})
+            if not luck_row and not pd.isna(game_dt):
+                luck_row = _get_asof_rolling(
+                    luck_team_lookup, tid, game_dt,
+                    [f"rolling_{s}" for s in LUCK_FEATURE_COLS],
+                )
+            for stat in LUCK_FEATURE_COLS:
+                feat[f"{prefix}_{stat}"] = luck_row.get(f"rolling_{stat}")
 
         # ── Consistency features (Group F) ────────────────────────
         for prefix, tid in [("away", away_tid), ("home", home_tid)]:

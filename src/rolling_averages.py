@@ -181,3 +181,44 @@ HOME_TOV_MAP = {
     "home_tov_rate": "rolling_tov_rate",
     "home_def_tov_rate": "rolling_def_tov_rate",
 }
+
+
+def compute_rolling_averages_v2(
+    four_factors: pd.DataFrame,
+    optimal_span: int | None = None,
+) -> pd.DataFrame:
+    """Compute rolling averages of four-factor stats with custom span.
+
+    Same interface and anti-leakage pattern as compute_rolling_averages(),
+    but accepts a custom EWM span. Falls back to EWM_SPAN if None.
+
+    Args:
+        four_factors: DataFrame from compute_game_four_factors().
+        optimal_span: Custom EWM span. If None, uses config.EWM_SPAN.
+
+    Returns:
+        DataFrame with gameid, teamid, startdate, ishometeam, + rolling_* columns.
+    """
+    span = optimal_span if optimal_span is not None else EWM_SPAN
+
+    df = four_factors.copy()
+    df["_date"] = pd.to_datetime(df["startdate"], errors="coerce")
+    df = df.sort_values(["teamid", "_date", "gameid"]).reset_index(drop=True)
+
+    rolling_cols = [f"rolling_{c}" for c in FOUR_FACTOR_COLS]
+
+    results = []
+    for _tid, group in df.groupby("teamid"):
+        g = group.copy()
+        for stat, rcol in zip(FOUR_FACTOR_COLS, rolling_cols):
+            g[rcol] = (
+                g[stat]
+                .ewm(span=span, min_periods=1)
+                .mean()
+                .shift(1)
+            )
+        results.append(g)
+
+    out = pd.concat(results, ignore_index=True)
+    keep = ["gameid", "teamid", "startdate", "ishometeam"] + rolling_cols
+    return out[keep].copy()

@@ -166,6 +166,9 @@ def compute_advanced_stats(pbp: pd.DataFrame) -> pd.DataFrame:
             # ── Group N: Pressure free throws ─────────────────────────
             row.update(_compute_pressure_ft(game_df, team_id))
 
+            # ── Composite features ──────────────────────────────────
+            row.update(_compute_composites(row))
+
             results.append(row)
 
     return pd.DataFrame(results)
@@ -218,10 +221,27 @@ def _compute_shot_quality(off_plays: pd.DataFrame, def_plays: pd.DataFrame) -> d
         else:
             stats["assisted_fg_pct"] = np.nan
             stats["unassisted_fg_pct"] = np.nan
+
+        # Zone counts (intermediate data for luck/composite features)
+        stats["rim_fga"] = len(rim_shots)
+        stats["rim_fgm"] = len(rim_made)
+        stats["mid_fga"] = len(mid_shots)
+        stats["mid_fgm"] = len(mid_made)
+        stats["three_fga"] = total_3pa
+        three_made = three_shots[three_shots["shot_made_bool"] == True]
+        stats["three_fgm"] = len(three_made)
+
+        # Raw FG% by shot type
+        stats["three_pt_fg_pct"] = len(three_made) / total_3pa if total_3pa > 0 else np.nan
+        two_pt_shots = off_shots[off_shots["shot_zone"].isin(["rim", "mid_range"])]
+        two_pt_made = two_pt_shots[two_pt_shots["shot_made_bool"] == True]
+        stats["two_pt_fg_pct"] = len(two_pt_made) / len(two_pt_shots) if len(two_pt_shots) > 0 else np.nan
     else:
         for col in ["rim_rate", "mid_range_rate", "three_pt_rate_corner",
                      "three_pt_rate_above_break", "rim_fg_pct", "mid_range_fg_pct",
                      "assisted_fg_pct", "unassisted_fg_pct"]:
+            stats[col] = np.nan
+        for col in ZONE_COUNT_COLS:
             stats[col] = np.nan
 
     # Defensive shot quality (opponent shooting against this team)
@@ -314,8 +334,19 @@ def _compute_turnover_decomp(
         poss_durations["duration"] = poss_durations["max_sec"] - poss_durations["min_sec"]
         transition = poss_durations[poss_durations["duration"] < 7]
         stats["transition_rate"] = len(transition) / off_possessions
+
+        # Transition scoring efficiency: pts scored on transition possessions / count
+        n_transition = len(transition)
+        if n_transition > 0:
+            trans_poss_ids = set(transition.index)
+            trans_plays = off_plays[off_plays["possession_id"].isin(trans_poss_ids)]
+            trans_pts = trans_plays[trans_plays["scoringPlay"] == True]["scoreValue"].sum()
+            stats["transition_scoring_efficiency"] = trans_pts / n_transition
+        else:
+            stats["transition_scoring_efficiency"] = np.nan
     else:
         stats["transition_rate"] = np.nan
+        stats["transition_scoring_efficiency"] = np.nan
 
     return stats
 
@@ -679,6 +710,48 @@ def _compute_pressure_ft(team_df: pd.DataFrame, team_id: int) -> dict:
     return stats
 
 
+# ── Composite features ────────────────────────────────────────────
+
+def _compute_composites(row: dict) -> dict:
+    """Compute composite features derived from other per-game stats.
+
+    Args:
+        row: Dict containing all previously computed per-game stats.
+
+    Returns:
+        Dict with composite feature values.
+    """
+    stats = {}
+
+    # expected_pts_per_shot = rim_rate * rim_fg_pct * 2 + mid_rate * mid_fg_pct * 2
+    #                        + three_rate * three_pt_fg_pct * 3
+    rim_rate = row.get("rim_rate")
+    rim_fg = row.get("rim_fg_pct")
+    mid_rate = row.get("mid_range_rate")
+    mid_fg = row.get("mid_range_fg_pct")
+    three_fg = row.get("three_pt_fg_pct")
+    # three_rate is 1 - rim_rate - mid_rate (share of FGA that are 3s)
+    if all(pd.notna(v) for v in [rim_rate, rim_fg, mid_rate, mid_fg, three_fg]):
+        three_rate = max(1.0 - rim_rate - mid_rate, 0.0)
+        stats["expected_pts_per_shot"] = (
+            rim_rate * rim_fg * 2
+            + mid_rate * mid_fg * 2
+            + three_rate * three_fg * 3
+        )
+    else:
+        stats["expected_pts_per_shot"] = np.nan
+
+    # transition_value = steal_rate_defense * transition_scoring_efficiency
+    steal_rate = row.get("steal_rate_defense")
+    trans_eff = row.get("transition_scoring_efficiency")
+    if pd.notna(steal_rate) and pd.notna(trans_eff):
+        stats["transition_value"] = steal_rate * trans_eff
+    else:
+        stats["transition_value"] = np.nan
+
+    return stats
+
+
 # ── Column names exported for use by other modules ───────────────
 
 # All stat columns produced by this module (per-team)
@@ -691,6 +764,7 @@ SHOT_QUALITY_COLS = [
 
 TURNOVER_DECOMP_COLS = [
     "live_ball_tov_rate", "dead_ball_tov_rate", "steal_rate_defense", "transition_rate",
+    "transition_scoring_efficiency",
 ]
 
 TEMPO_COLS = [
@@ -725,8 +799,18 @@ PRESSURE_FT_COLS = [
     "pressure_ft_pct", "non_pressure_ft_pct", "ft_pressure_delta",
 ]
 
+# Zone counts: intermediate data for luck/composite features (NOT for rolling)
+ZONE_COUNT_COLS = [
+    "rim_fga", "rim_fgm", "mid_fga", "mid_fgm",
+    "three_fga", "three_fgm", "three_pt_fg_pct", "two_pt_fg_pct",
+]
+
+COMPOSITE_COLS = [
+    "transition_scoring_efficiency", "expected_pts_per_shot", "transition_value",
+]
+
 ALL_ADVANCED_STAT_COLS = (
     SHOT_QUALITY_COLS + TURNOVER_DECOMP_COLS + TEMPO_COLS +
     PUTBACK_COLS + CLUTCH_COLS + DROUGHT_COLS + HALF_SPLIT_COLS +
-    ROTATION_DEPTH_COLS + PRESSURE_FT_COLS
+    ROTATION_DEPTH_COLS + PRESSURE_FT_COLS + ZONE_COUNT_COLS + COMPOSITE_COLS
 )

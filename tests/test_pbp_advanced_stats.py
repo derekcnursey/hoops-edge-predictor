@@ -6,6 +6,8 @@ import pytest
 
 from src.pbp_advanced_stats import (
     ALL_ADVANCED_STAT_COLS,
+    COMPOSITE_COLS,
+    ZONE_COUNT_COLS,
     _classify_shot_zone,
     _is_corner_three,
     compute_advanced_stats,
@@ -204,3 +206,35 @@ class TestComputeAdvancedStats:
             if pd.notna(row["first_half_off_efficiency"]) and pd.notna(row["second_half_off_efficiency"]):
                 expected_delta = row["second_half_off_efficiency"] - row["first_half_off_efficiency"]
                 assert row["half_adjustment_delta"] == pytest.approx(expected_delta, abs=1e-6)
+
+    def test_zone_count_columns_present(self):
+        pbp = _make_game_pbp()
+        result = compute_advanced_stats(pbp)
+        for col in ZONE_COUNT_COLS:
+            assert col in result.columns, f"Missing zone count column: {col}"
+
+    def test_composite_columns_present(self):
+        pbp = _make_game_pbp()
+        result = compute_advanced_stats(pbp)
+        for col in COMPOSITE_COLS:
+            assert col in result.columns, f"Missing composite column: {col}"
+
+    def test_expected_pts_per_shot_range(self):
+        pbp = _make_game_pbp()
+        result = compute_advanced_stats(pbp)
+        for _, row in result.iterrows():
+            if pd.notna(row["expected_pts_per_shot"]):
+                assert 0.5 <= row["expected_pts_per_shot"] <= 3.0, (
+                    f"expected_pts_per_shot = {row['expected_pts_per_shot']}, expected [0.5, 3.0]"
+                )
+
+    def test_transition_value_formula(self):
+        pbp = _make_game_pbp()
+        result = compute_advanced_stats(pbp)
+        for _, row in result.iterrows():
+            steal_rate = row.get("steal_rate_defense")
+            trans_eff = row.get("transition_scoring_efficiency")
+            tv = row.get("transition_value")
+            if pd.notna(steal_rate) and pd.notna(trans_eff) and pd.notna(tv):
+                expected = steal_rate * trans_eff
+                assert tv == pytest.approx(expected, abs=1e-6)
