@@ -1,0 +1,42 @@
+{
+  "date": "2018-03-27",
+  "games": [
+    {
+      "away_team": "Western Kentucky",
+      "edge_home_points": -0.45909786224365234,
+      "game_id": "2018_03_27_western_kentucky_utah",
+      "home_team": "Utah",
+      "market_spread_home": 1.0,
+      "model_mu_home": -1.4590979,
+      "neutral_site": null,
+      "pick_cover_prob": 0.523091117677933,
+      "pick_ev_per_1": -0.0013715026148551357,
+      "pick_fair_odds": -109.68366014300364,
+      "pick_prob_edge": -0.0007184061315907986,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.5712721,
+      "pred_sigma": 7.9273434,
+      "start_time": "2018-03-27T23:00:00.000Z"
+    },
+    {
+      "away_team": "Mississippi State",
+      "edge_home_points": -0.0712202787399292,
+      "game_id": "2018_03_27_mississippi_state_penn_state",
+      "home_team": "Penn State",
+      "market_spread_home": -2.0,
+      "model_mu_home": 1.9287797,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5034589162350938,
+      "pick_ev_per_1": -0.03885115991482102,
+      "pick_fair_odds": -101.3932044490125,
+      "pick_prob_edge": -0.02035060757443008,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.95520943,
+      "pred_sigma": 8.214256,
+      "start_time": "2018-03-28T01:34:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:45.728416Z"
+}

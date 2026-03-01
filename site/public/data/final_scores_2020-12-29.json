@@ -1,0 +1,153 @@
+{
+  "date": "2020-12-29",
+  "games": [
+    {
+      "away_score": 51,
+      "away_team": "Northeastern",
+      "game_id": "2020_12_29_northeastern_west_virginia",
+      "home_score": 73,
+      "home_team": "West Virginia"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Central Arkansas",
+      "game_id": "2020_12_29_central_arkansas_baylor",
+      "home_score": 93,
+      "home_team": "Baylor"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Miami",
+      "game_id": "2020_12_29_miami_virginia_tech",
+      "home_score": 80,
+      "home_team": "Virginia Tech"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Wofford",
+      "game_id": "2020_12_29_wofford_mercer",
+      "home_score": 65,
+      "home_team": "Mercer"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Central Michigan",
+      "game_id": "2020_12_29_central_michigan_eastern_michigan",
+      "home_score": 60,
+      "home_team": "Eastern Michigan"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Santa Clara",
+      "game_id": "2020_12_29_santa_clara_usc",
+      "home_score": 86,
+      "home_team": "USC"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Incarnate Word",
+      "game_id": "2020_12_29_incarnate_word_texas_tech",
+      "home_score": 79,
+      "home_team": "Texas Tech"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Purdue",
+      "game_id": "2020_12_29_purdue_rutgers",
+      "home_score": 81,
+      "home_team": "Rutgers"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Florida State",
+      "game_id": "2020_12_29_florida_state_clemson",
+      "home_score": 77,
+      "home_team": "Clemson"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Texas A&M",
+      "game_id": "2020_12_29_texas_a_m_lsu",
+      "home_score": 77,
+      "home_team": "LSU"
+    },
+    {
+      "away_score": 57,
+      "away_team": "South Florida",
+      "game_id": "2020_12_29_south_florida_memphis",
+      "home_score": 58,
+      "home_team": "Memphis"
+    },
+    {
+      "away_score": 36,
+      "away_team": "Champion Christian",
+      "game_id": "2020_12_29_champion_christian_mcneese",
+      "home_score": 94,
+      "home_team": "McNeese"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Mary Hardin-Baylor",
+      "game_id": "2020_12_29_mary_hardin_baylor_sam_houston",
+      "home_score": 101,
+      "home_team": "Sam Houston"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Freed-Hardeman",
+      "game_id": "2020_12_29_freed_hardeman_lipscomb",
+      "home_score": 93,
+      "home_team": "Lipscomb"
+    },
+    {
+      "away_score": 44,
+      "away_team": "Dallas Christian",
+      "game_id": "2020_12_29_dallas_christian_abilene_christian",
+      "home_score": 82,
+      "home_team": "Abilene Christian"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Omaha",
+      "game_id": "2020_12_29_omaha_kansas_state",
+      "home_score": 60,
+      "home_team": "Kansas State"
+    },
+    {
+      "away_score": 64,
+      "away_team": "SE Louisiana",
+      "game_id": "2020_12_29_se_louisiana_lamar",
+      "home_score": 74,
+      "home_team": "Lamar"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Ole Miss",
+      "game_id": "2020_12_29_ole_miss_alabama",
+      "home_score": 82,
+      "home_team": "Alabama"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Houston",
+      "game_id": "2020_12_29_houston_tulsa",
+      "home_score": 65,
+      "home_team": "Tulsa"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Northwestern",
+      "game_id": "2020_12_29_northwestern_iowa",
+      "home_score": 87,
+      "home_team": "Iowa"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Utah Tech",
+      "game_id": "2020_12_29_utah_tech_gonzaga",
+      "home_score": 112,
+      "home_team": "Gonzaga"
+    }
+  ],
+  "generated_at": "2026-02-28T21:31:11.250674Z"
+}

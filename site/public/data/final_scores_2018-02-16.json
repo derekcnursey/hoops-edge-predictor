@@ -1,0 +1,104 @@
+{
+  "date": "2018-02-16",
+  "games": [
+    {
+      "away_score": 85,
+      "away_team": "Niagara",
+      "game_id": "2018_02_16_niagara_iona",
+      "home_score": 84,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Rhode Island",
+      "game_id": "2018_02_16_rhode_island_st_bonaventure",
+      "home_score": 77,
+      "home_team": "St. Bonaventure"
+    },
+    {
+      "away_score": 94,
+      "away_team": "Detroit Mercy",
+      "game_id": "2018_02_16_detroit_mercy_youngstown_state",
+      "home_score": 84,
+      "home_team": "Youngstown State"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Oakland",
+      "game_id": "2018_02_16_oakland_cleveland_state",
+      "home_score": 66,
+      "home_team": "Cleveland State"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Yale",
+      "game_id": "2018_02_16_yale_dartmouth",
+      "home_score": 65,
+      "home_team": "Dartmouth"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Pennsylvania",
+      "game_id": "2018_02_16_pennsylvania_columbia",
+      "home_score": 62,
+      "home_team": "Columbia"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Brown",
+      "game_id": "2018_02_16_brown_harvard",
+      "home_score": 65,
+      "home_team": "Harvard"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Canisius",
+      "game_id": "2018_02_16_canisius_monmouth",
+      "home_score": 60,
+      "home_team": "Monmouth"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Bowling Green",
+      "game_id": "2018_02_16_bowling_green_buffalo",
+      "home_score": 95,
+      "home_team": "Buffalo"
+    },
+    {
+      "away_score": 101,
+      "away_team": "Princeton",
+      "game_id": "2018_02_16_princeton_cornell",
+      "home_score": 107,
+      "home_team": "Cornell"
+    },
+    {
+      "away_score": 76,
+      "away_team": "IU Indianapolis",
+      "game_id": "2018_02_16_iu_indianapolis_milwaukee",
+      "home_score": 71,
+      "home_team": "Milwaukee"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Northern Kentucky",
+      "game_id": "2018_02_16_northern_kentucky_wright_state",
+      "home_score": 69,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 83,
+      "away_team": "UIC",
+      "game_id": "2018_02_16_uic_green_bay",
+      "home_score": 75,
+      "home_team": "Green Bay"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Georgia State",
+      "game_id": "2018_02_16_georgia_state_georgia_southern",
+      "home_score": 85,
+      "home_team": "Georgia Southern"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:29.877157Z"
+}

@@ -1,0 +1,524 @@
+{
+  "date": "2020-01-02",
+  "games": [
+    {
+      "away_score": 67,
+      "away_team": "UTEP",
+      "game_id": "2020_01_02_utep_florida_international",
+      "home_score": 69,
+      "home_team": "Florida International"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Stephen F. Austin",
+      "game_id": "2020_01_02_stephen_f_austin_se_louisiana",
+      "home_score": 71,
+      "home_team": "SE Louisiana"
+    },
+    {
+      "away_score": 63,
+      "away_team": "St. Francis (PA)",
+      "game_id": "2020_01_02_st_francis_pa_bryant",
+      "home_score": 67,
+      "home_team": "Bryant"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Columbia",
+      "game_id": "2020_01_02_columbia_maine",
+      "home_score": 75,
+      "home_team": "Maine"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Liberty",
+      "game_id": "2020_01_02_liberty_florida_gulf_coast",
+      "home_score": 46,
+      "home_team": "Florida Gulf Coast"
+    },
+    {
+      "away_score": 64,
+      "away_team": "James Madison",
+      "game_id": "2020_01_02_james_madison_unc_wilmington",
+      "home_score": 60,
+      "home_team": "UNC Wilmington"
+    },
+    {
+      "away_score": 88,
+      "away_team": "William & Mary",
+      "game_id": "2020_01_02_william_mary_hofstra",
+      "home_score": 61,
+      "home_team": "Hofstra"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Elon",
+      "game_id": "2020_01_02_elon_northeastern",
+      "home_score": 77,
+      "home_team": "Northeastern"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Towson",
+      "game_id": "2020_01_02_towson_charleston",
+      "home_score": 81,
+      "home_team": "Charleston"
+    },
+    {
+      "away_score": 77,
+      "away_team": "UNC Asheville",
+      "game_id": "2020_01_02_unc_asheville_presbyterian",
+      "home_score": 79,
+      "home_team": "Presbyterian"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Longwood",
+      "game_id": "2020_01_02_longwood_winthrop",
+      "home_score": 91,
+      "home_team": "Winthrop"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Gardner-Webb",
+      "game_id": "2020_01_02_gardner_webb_campbell",
+      "home_score": 65,
+      "home_team": "Campbell"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Vermont",
+      "game_id": "2020_01_02_vermont_dartmouth",
+      "home_score": 68,
+      "home_team": "Dartmouth"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Georgia State",
+      "game_id": "2020_01_02_georgia_state_app_state",
+      "home_score": 60,
+      "home_team": "App State"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Lipscomb",
+      "game_id": "2020_01_02_lipscomb_stetson",
+      "home_score": 63,
+      "home_team": "Stetson"
+    },
+    {
+      "away_score": 46,
+      "away_team": "Fordham",
+      "game_id": "2020_01_02_fordham_vcu",
+      "home_score": 64,
+      "home_team": "VCU"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Saint Joseph's",
+      "game_id": "2020_01_02_saint_joseph_s_richmond",
+      "home_score": 84,
+      "home_team": "Richmond"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Saint Louis",
+      "game_id": "2020_01_02_saint_louis_duquesne",
+      "home_score": 73,
+      "home_team": "Duquesne"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Minnesota",
+      "game_id": "2020_01_02_minnesota_purdue",
+      "home_score": 83,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Jacksonville",
+      "game_id": "2020_01_02_jacksonville_north_alabama",
+      "home_score": 62,
+      "home_team": "North Alabama"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Lehigh",
+      "game_id": "2020_01_02_lehigh_navy",
+      "home_score": 64,
+      "home_team": "Navy"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Lafayette",
+      "game_id": "2020_01_02_lafayette_boston_university",
+      "home_score": 73,
+      "home_team": "Boston University"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Army",
+      "game_id": "2020_01_02_army_bucknell",
+      "home_score": 67,
+      "home_team": "Bucknell"
+    },
+    {
+      "away_score": 51,
+      "away_team": "American University",
+      "game_id": "2020_01_02_american_university_colgate",
+      "home_score": 65,
+      "home_team": "Colgate"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Georgia Southern",
+      "game_id": "2020_01_02_georgia_southern_coastal_carolina",
+      "home_score": 67,
+      "home_team": "Coastal Carolina"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Holy Cross",
+      "game_id": "2020_01_02_holy_cross_loyola_maryland",
+      "home_score": 80,
+      "home_team": "Loyola Maryland"
+    },
+    {
+      "away_score": 64,
+      "away_team": "UTSA",
+      "game_id": "2020_01_02_utsa_florida_atlantic",
+      "home_score": 79,
+      "home_team": "Florida Atlantic"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Rice",
+      "game_id": "2020_01_02_rice_marshall",
+      "home_score": 89,
+      "home_team": "Marshall"
+    },
+    {
+      "away_score": 84,
+      "away_team": "North Texas",
+      "game_id": "2020_01_02_north_texas_western_kentucky",
+      "home_score": 93,
+      "home_team": "Western Kentucky"
+    },
+    {
+      "away_score": 76,
+      "away_team": "North Florida",
+      "game_id": "2020_01_02_north_florida_kennesaw_state",
+      "home_score": 57,
+      "home_team": "Kennesaw State"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Wagner",
+      "game_id": "2020_01_02_wagner_mount_st_mary_s",
+      "home_score": 47,
+      "home_team": "Mount St. Mary's"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Rhode Island",
+      "game_id": "2020_01_02_rhode_island_brown",
+      "home_score": 85,
+      "home_team": "Brown"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Middle Tennessee",
+      "game_id": "2020_01_02_middle_tennessee_old_dominion",
+      "home_score": 70,
+      "home_team": "Old Dominion"
+    },
+    {
+      "away_score": 44,
+      "away_team": "UAB",
+      "game_id": "2020_01_02_uab_charlotte",
+      "home_score": 51,
+      "home_team": "Charlotte"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Texas State",
+      "game_id": "2020_01_02_texas_state_little_rock",
+      "home_score": 72,
+      "home_team": "Little Rock"
+    },
+    {
+      "away_score": 94,
+      "away_team": "Sam Houston",
+      "game_id": "2020_01_02_sam_houston_mcneese",
+      "home_score": 75,
+      "home_team": "McNeese"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Robert Morris",
+      "game_id": "2020_01_02_robert_morris_central_connecticut",
+      "home_score": 78,
+      "home_team": "Central Connecticut"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Fairleigh Dickinson",
+      "game_id": "2020_01_02_fairleigh_dickinson_st_francis_brooklyn",
+      "home_score": 79,
+      "home_team": "St. Francis Brooklyn"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Merrimack",
+      "game_id": "2020_01_02_merrimack_sacred_heart",
+      "home_score": 57,
+      "home_team": "Sacred Heart"
+    },
+    {
+      "away_score": 75,
+      "away_team": "South Carolina Upstate",
+      "game_id": "2020_01_02_south_carolina_upstate_charleston_southern",
+      "home_score": 89,
+      "home_team": "Charleston Southern"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Tennessee Tech",
+      "game_id": "2020_01_02_tennessee_tech_eastern_kentucky",
+      "home_score": 74,
+      "home_team": "Eastern Kentucky"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Seattle U",
+      "game_id": "2020_01_02_seattle_u_kansas_city",
+      "home_score": 90,
+      "home_team": "Kansas City"
+    },
+    {
+      "away_score": 76,
+      "away_team": "UT Martin",
+      "game_id": "2020_01_02_ut_martin_murray_state",
+      "home_score": 89,
+      "home_team": "Murray State"
+    },
+    {
+      "away_score": 60,
+      "away_team": "South Alabama",
+      "game_id": "2020_01_02_south_alabama_louisiana",
+      "home_score": 57,
+      "home_team": "Louisiana"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Incarnate Word",
+      "game_id": "2020_01_02_incarnate_word_nicholls",
+      "home_score": 76,
+      "home_team": "Nicholls"
+    },
+    {
+      "away_score": 79,
+      "away_team": "SIU Edwardsville",
+      "game_id": "2020_01_02_siu_edwardsville_belmont",
+      "home_score": 69,
+      "home_team": "Belmont"
+    },
+    {
+      "away_score": 73,
+      "away_team": "UT Arlington",
+      "game_id": "2020_01_02_ut_arlington_arkansas_state",
+      "home_score": 52,
+      "home_team": "Arkansas State"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Illinois",
+      "game_id": "2020_01_02_illinois_michigan_state",
+      "home_score": 76,
+      "home_team": "Michigan State"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Lamar",
+      "game_id": "2020_01_02_lamar_new_orleans",
+      "home_score": 67,
+      "home_team": "New Orleans"
+    },
+    {
+      "away_score": 107,
+      "away_team": "Central Arkansas",
+      "game_id": "2020_01_02_central_arkansas_houston_christian",
+      "home_score": 111,
+      "home_team": "Houston Christian"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Troy",
+      "game_id": "2020_01_02_troy_ul_monroe",
+      "home_score": 79,
+      "home_team": "UL Monroe"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Northwestern State",
+      "game_id": "2020_01_02_northwestern_state_texas_a_m_corpus_christi",
+      "home_score": 67,
+      "home_team": "Texas A&M-Corpus Christi"
+    },
+    {
+      "away_score": 94,
+      "away_team": "Utah Valley",
+      "game_id": "2020_01_02_utah_valley_chicago_state",
+      "home_score": 73,
+      "home_team": "Chicago State"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Eastern Illinois",
+      "game_id": "2020_01_02_eastern_illinois_tennessee_state",
+      "home_score": 84,
+      "home_team": "Tennessee State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Oregon State",
+      "game_id": "2020_01_02_oregon_state_utah",
+      "home_score": 81,
+      "home_team": "Utah"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Dayton",
+      "game_id": "2020_01_02_dayton_la_salle",
+      "home_score": 58,
+      "home_team": "La Salle"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Southeast Missouri State",
+      "game_id": "2020_01_02_southeast_missouri_state_austin_peay",
+      "home_score": 78,
+      "home_team": "Austin Peay"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Montana State",
+      "game_id": "2020_01_02_montana_state_northern_colorado",
+      "home_score": 68,
+      "home_team": "Northern Colorado"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Oregon",
+      "game_id": "2020_01_02_oregon_colorado",
+      "home_score": 74,
+      "home_team": "Colorado"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Montana",
+      "game_id": "2020_01_02_montana_southern_utah",
+      "home_score": 58,
+      "home_team": "Southern Utah"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Western Illinois",
+      "game_id": "2020_01_02_western_illinois_north_dakota_state",
+      "home_score": 94,
+      "home_team": "North Dakota State"
+    },
+    {
+      "away_score": 82,
+      "away_team": "North Dakota",
+      "game_id": "2020_01_02_north_dakota_denver",
+      "home_score": 71,
+      "home_team": "Denver"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Jacksonville State",
+      "game_id": "2020_01_02_jacksonville_state_morehead_state",
+      "home_score": 72,
+      "home_team": "Morehead State"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Oral Roberts",
+      "game_id": "2020_01_02_oral_roberts_south_dakota_state",
+      "home_score": 96,
+      "home_team": "South Dakota State"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Portland State",
+      "game_id": "2020_01_02_portland_state_idaho",
+      "home_score": 72,
+      "home_team": "Idaho"
+    },
+    {
+      "away_score": 67,
+      "away_team": "UT Rio Grande Valley",
+      "game_id": "2020_01_02_ut_rio_grande_valley_california_baptist",
+      "home_score": 76,
+      "home_team": "California Baptist"
+    },
+    {
+      "away_score": 58,
+      "away_team": "San Diego",
+      "game_id": "2020_01_02_san_diego_loyola_marymount",
+      "home_score": 64,
+      "home_team": "Loyola Marymount"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Pacific",
+      "game_id": "2020_01_02_pacific_pepperdine",
+      "home_score": 56,
+      "home_team": "Pepperdine"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Westmont",
+      "game_id": "2020_01_02_westmont_uc_santa_barbara",
+      "home_score": 87,
+      "home_team": "UC Santa Barbara"
+    },
+    {
+      "away_score": 66,
+      "away_team": "UCLA",
+      "game_id": "2020_01_02_ucla_washington",
+      "home_score": 64,
+      "home_team": "Washington"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Gonzaga",
+      "game_id": "2020_01_02_gonzaga_portland",
+      "home_score": 72,
+      "home_team": "Portland"
+    },
+    {
+      "away_score": 65,
+      "away_team": "USC",
+      "game_id": "2020_01_02_usc_washington_state",
+      "home_score": 56,
+      "home_team": "Washington State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Saint Mary's",
+      "game_id": "2020_01_02_saint_mary_s_san_francisco",
+      "home_score": 58,
+      "home_team": "San Francisco"
+    },
+    {
+      "away_score": 52,
+      "away_team": "California",
+      "game_id": "2020_01_02_california_stanford",
+      "home_score": 68,
+      "home_team": "Stanford"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:20.743977Z"
+}

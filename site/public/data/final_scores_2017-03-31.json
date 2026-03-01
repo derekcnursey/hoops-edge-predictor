@@ -1,0 +1,20 @@
+{
+  "date": "2017-03-31",
+  "games": [
+    {
+      "away_score": 59,
+      "away_team": "Coastal Carolina",
+      "game_id": "2017_03_31_coastal_carolina_wyoming",
+      "home_score": 83,
+      "home_team": "Wyoming"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Saint Peter's",
+      "game_id": "2017_03_31_saint_peter_s_texas_a_m_corpus_christi",
+      "home_score": 61,
+      "home_team": "Texas A&M-Corpus Christi"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:30.528008Z"
+}

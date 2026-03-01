@@ -1,0 +1,41 @@
+{
+  "date": "2022-03-13",
+  "games": [
+    {
+      "away_score": 66,
+      "away_team": "Yale",
+      "game_id": "2022_03_13_yale_princeton",
+      "home_score": 64,
+      "home_team": "Princeton"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Richmond",
+      "game_id": "2022_03_13_richmond_davidson",
+      "home_score": 62,
+      "home_team": "Davidson"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Texas A&M",
+      "game_id": "2022_03_13_texas_a_m_tennessee",
+      "home_score": 65,
+      "home_team": "Tennessee"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Memphis",
+      "game_id": "2022_03_13_memphis_houston",
+      "home_score": 71,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Iowa",
+      "game_id": "2022_03_13_iowa_purdue",
+      "home_score": 66,
+      "home_team": "Purdue"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:19.453476Z"
+}

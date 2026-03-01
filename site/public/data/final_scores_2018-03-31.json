@@ -1,0 +1,20 @@
+{
+  "date": "2018-03-31",
+  "games": [
+    {
+      "away_score": 57,
+      "away_team": "Loyola Chicago",
+      "game_id": "2018_03_31_loyola_chicago_michigan",
+      "home_score": 69,
+      "home_team": "Michigan"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Kansas",
+      "game_id": "2018_03_31_kansas_villanova",
+      "home_score": 95,
+      "home_team": "Villanova"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:55.917054Z"
+}

@@ -1,0 +1,90 @@
+{
+  "date": "2020-01-13",
+  "games": [
+    {
+      "away_score": 50,
+      "away_team": "Jackson State",
+      "game_id": "2020_01_13_jackson_state_southern",
+      "home_score": 56,
+      "home_team": "Southern"
+    },
+    {
+      "away_score": 33,
+      "away_team": "Elmira",
+      "game_id": "2020_01_13_elmira_cornell",
+      "home_score": 70,
+      "home_team": "Cornell"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Boston University",
+      "game_id": "2020_01_13_boston_university_loyola_maryland",
+      "home_score": 53,
+      "home_team": "Loyola Maryland"
+    },
+    {
+      "away_score": 69,
+      "away_team": "North Carolina Central",
+      "game_id": "2020_01_13_north_carolina_central_maryland_eastern_shore",
+      "home_score": 64,
+      "home_team": "Maryland Eastern Shore"
+    },
+    {
+      "away_score": 101,
+      "away_team": "South Carolina State",
+      "game_id": "2020_01_13_south_carolina_state_howard",
+      "home_score": 95,
+      "home_team": "Howard"
+    },
+    {
+      "away_score": 98,
+      "away_team": "North Carolina A&T",
+      "game_id": "2020_01_13_north_carolina_a_t_delaware_state",
+      "home_score": 77,
+      "home_team": "Delaware State"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Morgan State",
+      "game_id": "2020_01_13_morgan_state_bethune_cookman",
+      "home_score": 85,
+      "home_team": "Bethune-Cookman"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Coppin State",
+      "game_id": "2020_01_13_coppin_state_florida_a_m",
+      "home_score": 65,
+      "home_team": "Florida A&M"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Grambling",
+      "game_id": "2020_01_13_grambling_alcorn_state",
+      "home_score": 87,
+      "home_team": "Alcorn State"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Mississippi Valley State",
+      "game_id": "2020_01_13_mississippi_valley_state_alabama_a_m",
+      "home_score": 66,
+      "home_team": "Alabama A&M"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Arkansas-Pine Bluff",
+      "game_id": "2020_01_13_arkansas_pine_bluff_alabama_state",
+      "home_score": 56,
+      "home_team": "Alabama State"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Portland State",
+      "game_id": "2020_01_13_portland_state_montana",
+      "home_score": 85,
+      "home_team": "Montana"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:27.130703Z"
+}

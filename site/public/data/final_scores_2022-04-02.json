@@ -1,0 +1,20 @@
+{
+  "date": "2022-04-02",
+  "games": [
+    {
+      "away_score": 65,
+      "away_team": "Villanova",
+      "game_id": "2022_04_02_villanova_kansas",
+      "home_score": 81,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 81,
+      "away_team": "North Carolina",
+      "game_id": "2022_04_02_north_carolina_duke",
+      "home_score": 77,
+      "home_team": "Duke"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:29.724922Z"
+}

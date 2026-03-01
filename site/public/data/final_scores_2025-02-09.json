@@ -1,0 +1,62 @@
+{
+  "date": "2025-02-09",
+  "games": [
+    {
+      "away_score": 68,
+      "away_team": "Xavier",
+      "game_id": "2025_02_09_xavier_villanova",
+      "home_score": 80,
+      "home_team": "Villanova"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Rutgers",
+      "game_id": "2025_02_09_rutgers_maryland",
+      "home_score": 90,
+      "home_team": "Maryland"
+    },
+    {
+      "away_score": 62,
+      "away_team": "George Washington",
+      "game_id": "2025_02_09_george_washington_st_bonaventure",
+      "home_score": 52,
+      "home_team": "St. Bonaventure"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Temple",
+      "game_id": "2025_02_09_temple_memphis",
+      "home_score": 90,
+      "home_team": "Memphis"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Arizona State",
+      "game_id": "2025_02_09_arizona_state_oklahoma_state",
+      "home_score": 86,
+      "home_team": "Oklahoma State"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Wichita State",
+      "game_id": "2025_02_09_wichita_state_south_florida",
+      "home_score": 70,
+      "home_team": "South Florida"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Ohio State",
+      "game_id": "2025_02_09_ohio_state_nebraska",
+      "home_score": 79,
+      "home_team": "Nebraska"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Massachusetts",
+      "game_id": "2025_02_09_massachusetts_la_salle",
+      "home_score": 55,
+      "home_team": "La Salle"
+    }
+  ],
+  "generated_at": "2026-02-28T23:30:02.011590Z"
+}

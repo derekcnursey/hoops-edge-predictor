@@ -1,0 +1,132 @@
+{
+  "date": "2023-03-19",
+  "games": [
+    {
+      "away_score": 75,
+      "away_team": "Cleveland State",
+      "game_id": "2023_03_19_cleveland_state_eastern_kentucky",
+      "home_score": 91,
+      "home_team": "Eastern Kentucky"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Liberty",
+      "game_id": "2023_03_19_liberty_wisconsin",
+      "home_score": 75,
+      "home_team": "Wisconsin"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Pittsburgh",
+      "game_id": "2023_03_19_pittsburgh_xavier",
+      "home_score": 84,
+      "home_team": "Xavier"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Duquesne",
+      "game_id": "2023_03_19_duquesne_rice",
+      "home_score": 84,
+      "home_team": "Rice"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Eastern Washington",
+      "game_id": "2023_03_19_eastern_washington_oklahoma_state",
+      "home_score": 71,
+      "home_team": "Oklahoma State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Kentucky",
+      "game_id": "2023_03_19_kentucky_kansas_state",
+      "home_score": 75,
+      "home_team": "Kansas State"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Morehead State",
+      "game_id": "2023_03_19_morehead_state_uab",
+      "home_score": 77,
+      "home_team": "UAB"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Tarleton State",
+      "game_id": "2023_03_19_tarleton_state_radford",
+      "home_score": 72,
+      "home_team": "Radford"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Sam Houston",
+      "game_id": "2023_03_19_sam_houston_north_texas",
+      "home_score": 75,
+      "home_team": "North Texas"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Michigan State",
+      "game_id": "2023_03_19_michigan_state_marquette",
+      "home_score": 60,
+      "home_team": "Marquette"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Saint Mary's",
+      "game_id": "2023_03_19_saint_mary_s_uconn",
+      "home_score": 70,
+      "home_team": "UConn"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Stetson",
+      "game_id": "2023_03_19_stetson_milwaukee",
+      "home_score": 87,
+      "home_team": "Milwaukee"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Creighton",
+      "game_id": "2023_03_19_creighton_baylor",
+      "home_score": 76,
+      "home_team": "Baylor"
+    },
+    {
+      "away_score": 54,
+      "away_team": "UCF",
+      "game_id": "2023_03_19_ucf_oregon",
+      "home_score": 68,
+      "home_team": "Oregon"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Fairleigh Dickinson",
+      "game_id": "2023_03_19_fairleigh_dickinson_florida_atlantic",
+      "home_score": 78,
+      "home_team": "Florida Atlantic"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Miami",
+      "game_id": "2023_03_19_miami_indiana",
+      "home_score": 69,
+      "home_team": "Indiana"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Utah Valley",
+      "game_id": "2023_03_19_utah_valley_colorado",
+      "home_score": 69,
+      "home_team": "Colorado"
+    },
+    {
+      "away_score": 81,
+      "away_team": "TCU",
+      "game_id": "2023_03_19_tcu_gonzaga",
+      "home_score": 84,
+      "home_team": "Gonzaga"
+    }
+  ],
+  "generated_at": "2026-02-28T21:34:55.887047Z"
+}

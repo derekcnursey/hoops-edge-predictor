@@ -1,0 +1,160 @@
+{
+  "date": "2018-01-28",
+  "games": [
+    {
+      "away_score": 69,
+      "away_team": "Cal State Fullerton",
+      "game_id": "2018_01_28_cal_state_fullerton_hawai_i",
+      "home_score": 66,
+      "home_team": "Hawai'i"
+    },
+    {
+      "away_score": 52,
+      "away_team": "George Washington",
+      "game_id": "2018_01_28_george_washington_st_bonaventure",
+      "home_score": 70,
+      "home_team": "St. Bonaventure"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Bucknell",
+      "game_id": "2018_01_28_bucknell_boston_university",
+      "home_score": 79,
+      "home_team": "Boston University"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Villanova",
+      "game_id": "2018_01_28_villanova_marquette",
+      "home_score": 82,
+      "home_team": "Marquette"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Rowan",
+      "game_id": "2018_01_28_rowan_princeton",
+      "home_score": 86,
+      "home_team": "Princeton"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Michigan State",
+      "game_id": "2018_01_28_michigan_state_maryland",
+      "home_score": 68,
+      "home_team": "Maryland"
+    },
+    {
+      "away_score": 44,
+      "away_team": "Detroit Mercy",
+      "game_id": "2018_01_28_detroit_mercy_northern_kentucky",
+      "home_score": 72,
+      "home_team": "Northern Kentucky"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Wagner",
+      "game_id": "2018_01_28_wagner_robert_morris",
+      "home_score": 64,
+      "home_team": "Robert Morris"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Richmond",
+      "game_id": "2018_01_28_richmond_davidson",
+      "home_score": 63,
+      "home_team": "Davidson"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Bradley",
+      "game_id": "2018_01_28_bradley_indiana_state",
+      "home_score": 73,
+      "home_team": "Indiana State"
+    },
+    {
+      "away_score": 61,
+      "away_team": "East Carolina",
+      "game_id": "2018_01_28_east_carolina_smu",
+      "home_score": 86,
+      "home_team": "SMU"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Sacred Heart",
+      "game_id": "2018_01_28_sacred_heart_st_francis_pa",
+      "home_score": 72,
+      "home_team": "St. Francis (PA)"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Oakland",
+      "game_id": "2018_01_28_oakland_wright_state",
+      "home_score": 64,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 40,
+      "away_team": "South Florida",
+      "game_id": "2018_01_28_south_florida_houston",
+      "home_score": 63,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Purdue",
+      "game_id": "2018_01_28_purdue_indiana",
+      "home_score": 67,
+      "home_team": "Indiana"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Seton Hall",
+      "game_id": "2018_01_28_seton_hall_depaul",
+      "home_score": 70,
+      "home_team": "DePaul"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Northern Iowa",
+      "game_id": "2018_01_28_northern_iowa_loyola_chicago",
+      "home_score": 70,
+      "home_team": "Loyola Chicago"
+    },
+    {
+      "away_score": 59,
+      "away_team": "California",
+      "game_id": "2018_01_28_california_usc",
+      "home_score": 77,
+      "home_team": "USC"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Clemson",
+      "game_id": "2018_01_28_clemson_georgia_tech",
+      "home_score": 70,
+      "home_team": "Georgia Tech"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Tulsa",
+      "game_id": "2018_01_28_tulsa_wichita_state",
+      "home_score": 90,
+      "home_team": "Wichita State"
+    },
+    {
+      "away_score": 57,
+      "away_team": "UConn",
+      "game_id": "2018_01_28_uconn_temple",
+      "home_score": 85,
+      "home_team": "Temple"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Washington State",
+      "game_id": "2018_01_28_washington_state_washington",
+      "home_score": 80,
+      "home_team": "Washington"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:18.851388Z"
+}

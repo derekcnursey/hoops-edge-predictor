@@ -1,0 +1,13 @@
+{
+  "date": "2016-03-31",
+  "games": [
+    {
+      "away_score": 76,
+      "away_team": "George Washington",
+      "game_id": "2016_03_31_george_washington_valparaiso",
+      "home_score": 60,
+      "home_team": "Valparaiso"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:07.458377Z"
+}

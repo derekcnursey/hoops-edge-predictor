@@ -1,0 +1,97 @@
+{
+  "date": "2016-02-07",
+  "games": [
+    {
+      "away_score": 69,
+      "away_team": "Gonzaga",
+      "game_id": "2016_02_07_gonzaga_pepperdine",
+      "home_score": 66,
+      "home_team": "Pepperdine"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Siena",
+      "game_id": "2016_02_07_siena_marist",
+      "home_score": 79,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 67,
+      "away_team": "East Carolina",
+      "game_id": "2016_02_07_east_carolina_uconn",
+      "home_score": 85,
+      "home_team": "UConn"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Miami",
+      "game_id": "2016_02_07_miami_georgia_tech",
+      "home_score": 68,
+      "home_team": "Georgia Tech"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Iowa",
+      "game_id": "2016_02_07_iowa_illinois",
+      "home_score": 65,
+      "home_team": "Illinois"
+    },
+    {
+      "away_score": 92,
+      "away_team": "SMU",
+      "game_id": "2016_02_07_smu_south_florida",
+      "home_score": 58,
+      "home_team": "South Florida"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Saint Louis",
+      "game_id": "2016_02_07_saint_louis_st_bonaventure",
+      "home_score": 65,
+      "home_team": "St. Bonaventure"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Iona",
+      "game_id": "2016_02_07_iona_niagara",
+      "home_score": 61,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Houston",
+      "game_id": "2016_02_07_houston_tulsa",
+      "home_score": 77,
+      "home_team": "Tulsa"
+    },
+    {
+      "away_score": 95,
+      "away_team": "Hofstra",
+      "game_id": "2016_02_07_hofstra_james_madison",
+      "home_score": 98,
+      "home_team": "James Madison"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Rider",
+      "game_id": "2016_02_07_rider_canisius",
+      "home_score": 67,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Manhattan",
+      "game_id": "2016_02_07_manhattan_fairfield",
+      "home_score": 80,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Utah",
+      "game_id": "2016_02_07_utah_oregon",
+      "home_score": 76,
+      "home_team": "Oregon"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:35.719746Z"
+}

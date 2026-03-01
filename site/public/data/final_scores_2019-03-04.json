@@ -1,0 +1,118 @@
+{
+  "date": "2019-03-04",
+  "games": [
+    {
+      "away_score": 66,
+      "away_team": "North Alabama",
+      "game_id": "2019_03_04_north_alabama_north_florida",
+      "home_score": 76,
+      "home_team": "North Florida"
+    },
+    {
+      "away_score": 83,
+      "away_team": "NJIT",
+      "game_id": "2019_03_04_njit_florida_gulf_coast",
+      "home_score": 78,
+      "home_team": "Florida Gulf Coast"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Virginia",
+      "game_id": "2019_03_04_virginia_syracuse",
+      "home_score": 53,
+      "home_team": "Syracuse"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Jacksonville",
+      "game_id": "2019_03_04_jacksonville_liberty",
+      "home_score": 72,
+      "home_team": "Liberty"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Morgan State",
+      "game_id": "2019_03_04_morgan_state_maryland_eastern_shore",
+      "home_score": 78,
+      "home_team": "Maryland Eastern Shore"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Norfolk State",
+      "game_id": "2019_03_04_norfolk_state_delaware_state",
+      "home_score": 66,
+      "home_team": "Delaware State"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Kennesaw State",
+      "game_id": "2019_03_04_kennesaw_state_lipscomb",
+      "home_score": 86,
+      "home_team": "Lipscomb"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Grambling",
+      "game_id": "2019_03_04_grambling_mississippi_valley_state",
+      "home_score": 75,
+      "home_team": "Mississippi Valley State"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Jackson State",
+      "game_id": "2019_03_04_jackson_state_arkansas_pine_bluff",
+      "home_score": 56,
+      "home_team": "Arkansas-Pine Bluff"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Texas Southern",
+      "game_id": "2019_03_04_texas_southern_alabama_a_m",
+      "home_score": 61,
+      "home_team": "Alabama A&M"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Texas",
+      "game_id": "2019_03_04_texas_texas_tech",
+      "home_score": 70,
+      "home_team": "Texas Tech"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Southern Utah",
+      "game_id": "2019_03_04_southern_utah_montana_state",
+      "home_score": 90,
+      "home_team": "Montana State"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Northern Arizona",
+      "game_id": "2019_03_04_northern_arizona_montana",
+      "home_score": 66,
+      "home_team": "Montana"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Kansas State",
+      "game_id": "2019_03_04_kansas_state_tcu",
+      "home_score": 52,
+      "home_team": "TCU"
+    },
+    {
+      "away_score": 96,
+      "away_team": "Prairie View A&M",
+      "game_id": "2019_03_04_prairie_view_a_m_alabama_state",
+      "home_score": 69,
+      "home_team": "Alabama State"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Weber State",
+      "game_id": "2019_03_04_weber_state_idaho_state",
+      "home_score": 78,
+      "home_team": "Idaho State"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:16.018890Z"
+}

@@ -1,0 +1,111 @@
+{
+  "date": "2020-01-31",
+  "games": [
+    {
+      "away_score": 72,
+      "away_team": "Harvard",
+      "game_id": "2020_01_31_harvard_pennsylvania",
+      "home_score": 75,
+      "home_team": "Pennsylvania"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Akron",
+      "game_id": "2020_01_31_akron_kent_state",
+      "home_score": 68,
+      "home_team": "Kent State"
+    },
+    {
+      "away_score": 90,
+      "away_team": "Quinnipiac",
+      "game_id": "2020_01_31_quinnipiac_canisius",
+      "home_score": 73,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Columbia",
+      "game_id": "2020_01_31_columbia_yale",
+      "home_score": 93,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Bowling Green",
+      "game_id": "2020_01_31_bowling_green_buffalo",
+      "home_score": 77,
+      "home_team": "Buffalo"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Oakland",
+      "game_id": "2020_01_31_oakland_detroit_mercy",
+      "home_score": 64,
+      "home_team": "Detroit Mercy"
+    },
+    {
+      "away_score": 44,
+      "away_team": "Dartmouth",
+      "game_id": "2020_01_31_dartmouth_princeton",
+      "home_score": 66,
+      "home_team": "Princeton"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Cornell",
+      "game_id": "2020_01_31_cornell_brown",
+      "home_score": 74,
+      "home_team": "Brown"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Marist",
+      "game_id": "2020_01_31_marist_niagara",
+      "home_score": 48,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Manhattan",
+      "game_id": "2020_01_31_manhattan_saint_peter_s",
+      "home_score": 70,
+      "home_team": "Saint Peter's"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Siena",
+      "game_id": "2020_01_31_siena_iona",
+      "home_score": 64,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Fairfield",
+      "game_id": "2020_01_31_fairfield_rider",
+      "home_score": 68,
+      "home_team": "Rider"
+    },
+    {
+      "away_score": 75,
+      "away_team": "VCU",
+      "game_id": "2020_01_31_vcu_rhode_island",
+      "home_score": 87,
+      "home_team": "Rhode Island"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Wright State",
+      "game_id": "2020_01_31_wright_state_milwaukee",
+      "home_score": 61,
+      "home_team": "Milwaukee"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Northern Kentucky",
+      "game_id": "2020_01_31_northern_kentucky_green_bay",
+      "home_score": 62,
+      "home_team": "Green Bay"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:37.787760Z"
+}

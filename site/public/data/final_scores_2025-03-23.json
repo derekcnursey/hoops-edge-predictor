@@ -1,0 +1,132 @@
+{
+  "date": "2025-03-23",
+  "games": [
+    {
+      "away_score": 85,
+      "away_team": "Manhattan",
+      "game_id": "2025_03_23_manhattan_incarnate_word",
+      "home_score": 92,
+      "home_team": "Incarnate Word"
+    },
+    {
+      "away_score": 75,
+      "away_team": "UConn",
+      "game_id": "2025_03_23_uconn_florida",
+      "home_score": 77,
+      "home_team": "Florida"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Elon",
+      "game_id": "2025_03_23_elon_army",
+      "home_score": 83,
+      "home_team": "Army"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Oklahoma State",
+      "game_id": "2025_03_23_oklahoma_state_smu",
+      "home_score": 83,
+      "home_team": "SMU"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Baylor",
+      "game_id": "2025_03_23_baylor_duke",
+      "home_score": 89,
+      "home_team": "Duke"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Queens University",
+      "game_id": "2025_03_23_queens_university_northern_arizona",
+      "home_score": 78,
+      "home_team": "Northern Arizona"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Illinois",
+      "game_id": "2025_03_23_illinois_kentucky",
+      "home_score": 84,
+      "home_team": "Kentucky"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Saint Mary's",
+      "game_id": "2025_03_23_saint_mary_s_alabama",
+      "home_score": 80,
+      "home_team": "Alabama"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Arkansas State",
+      "game_id": "2025_03_23_arkansas_state_north_texas",
+      "home_score": 65,
+      "home_team": "North Texas"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Illinois State",
+      "game_id": "2025_03_23_illinois_state_presbyterian",
+      "home_score": 70,
+      "home_team": "Presbyterian"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Loyola Chicago",
+      "game_id": "2025_03_23_loyola_chicago_san_francisco",
+      "home_score": 76,
+      "home_team": "San Francisco"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Colorado State",
+      "game_id": "2025_03_23_colorado_state_maryland",
+      "home_score": 72,
+      "home_team": "Maryland"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Ole Miss",
+      "game_id": "2025_03_23_ole_miss_iowa_state",
+      "home_score": 78,
+      "home_team": "Iowa State"
+    },
+    {
+      "away_score": 63,
+      "away_team": "New Mexico",
+      "game_id": "2025_03_23_new_mexico_michigan_state",
+      "home_score": 71,
+      "home_team": "Michigan State"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Kent State",
+      "game_id": "2025_03_23_kent_state_stanford",
+      "home_score": 75,
+      "home_team": "Stanford"
+    },
+    {
+      "away_score": 88,
+      "away_team": "UAB",
+      "game_id": "2025_03_23_uab_santa_clara",
+      "home_score": 84,
+      "home_team": "Santa Clara"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Jacksonville State",
+      "game_id": "2025_03_23_jacksonville_state_uc_irvine",
+      "home_score": 66,
+      "home_team": "UC Irvine"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Oregon",
+      "game_id": "2025_03_23_oregon_arizona",
+      "home_score": 87,
+      "home_team": "Arizona"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:43.704357Z"
+}

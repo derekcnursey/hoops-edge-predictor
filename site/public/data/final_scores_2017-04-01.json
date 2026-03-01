@@ -1,0 +1,20 @@
+{
+  "date": "2017-04-01",
+  "games": [
+    {
+      "away_score": 73,
+      "away_team": "South Carolina",
+      "game_id": "2017_04_01_south_carolina_gonzaga",
+      "home_score": 77,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Oregon",
+      "game_id": "2017_04_01_oregon_north_carolina",
+      "home_score": 77,
+      "home_team": "North Carolina"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:31.139947Z"
+}

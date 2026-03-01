@@ -1,0 +1,27 @@
+{
+  "date": "2017-03-14",
+  "games": [
+    {
+      "away_score": 78,
+      "away_team": "St. Francis (PA)",
+      "game_id": "2017_03_14_st_francis_pa_jacksonville",
+      "home_score": 76,
+      "home_team": "Jacksonville"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Houston Christian",
+      "game_id": "2017_03_14_houston_christian_campbell",
+      "home_score": 98,
+      "home_team": "Campbell"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Canisius",
+      "game_id": "2017_03_14_canisius_samford",
+      "home_score": 78,
+      "home_team": "Samford"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:20.805654Z"
+}

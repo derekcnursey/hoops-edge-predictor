@@ -1,0 +1,244 @@
+{
+  "date": "2020-12-04",
+  "games": [
+    {
+      "away_score": 57,
+      "away_team": "Saint Peter's",
+      "game_id": "2020_12_04_saint_peter_s_maryland",
+      "home_score": 90,
+      "home_team": "Maryland"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Fairfield",
+      "game_id": "2020_12_04_fairfield_stony_brook",
+      "home_score": 72,
+      "home_team": "Stony Brook"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Detroit Mercy",
+      "game_id": "2020_12_04_detroit_mercy_michigan_state",
+      "home_score": 83,
+      "home_team": "Michigan State"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Kennesaw State",
+      "game_id": "2020_12_04_kennesaw_state_creighton",
+      "home_score": 93,
+      "home_team": "Creighton"
+    },
+    {
+      "away_score": 64,
+      "away_team": "UT Arlington",
+      "game_id": "2020_12_04_ut_arlington_tulsa",
+      "home_score": 79,
+      "home_team": "Tulsa"
+    },
+    {
+      "away_score": 66,
+      "away_team": "SE Louisiana",
+      "game_id": "2020_12_04_se_louisiana_california_baptist",
+      "home_score": 83,
+      "home_team": "California Baptist"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Central Connecticut",
+      "game_id": "2020_12_04_central_connecticut_hartford",
+      "home_score": 80,
+      "home_team": "Hartford"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Georgia State",
+      "game_id": "2020_12_04_georgia_state_charlotte",
+      "home_score": 65,
+      "home_team": "Charlotte"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Kent State",
+      "game_id": "2020_12_04_kent_state_virginia",
+      "home_score": 71,
+      "home_team": "Virginia"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Valparaiso",
+      "game_id": "2020_12_04_valparaiso_purdue",
+      "home_score": 68,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Wisconsin",
+      "game_id": "2020_12_04_wisconsin_marquette",
+      "home_score": 67,
+      "home_team": "Marquette"
+    },
+    {
+      "away_score": 49,
+      "away_team": "College of Idaho",
+      "game_id": "2020_12_04_college_of_idaho_boise_state",
+      "home_score": 86,
+      "home_team": "Boise State"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Jessup University",
+      "game_id": "2020_12_04_jessup_university_uc_davis",
+      "home_score": 95,
+      "home_team": "UC Davis"
+    },
+    {
+      "away_score": 38,
+      "away_team": "Carver College",
+      "game_id": "2020_12_04_carver_college_austin_peay",
+      "home_score": 102,
+      "home_team": "Austin Peay"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Toledo",
+      "game_id": "2020_12_04_toledo_eastern_michigan",
+      "home_score": 74,
+      "home_team": "Eastern Michigan"
+    },
+    {
+      "away_score": 53,
+      "away_team": "St. Ambrose",
+      "game_id": "2020_12_04_st_ambrose_northern_iowa",
+      "home_score": 98,
+      "home_team": "Northern Iowa"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Bellarmine",
+      "game_id": "2020_12_04_bellarmine_duke",
+      "home_score": 76,
+      "home_team": "Duke"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Our Lady Of The Lake",
+      "game_id": "2020_12_04_our_lady_of_the_lake_ut_rio_grande_valley",
+      "home_score": 91,
+      "home_team": "UT Rio Grande Valley"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Sul Ross State",
+      "game_id": "2020_12_04_sul_ross_state_utsa",
+      "home_score": 91,
+      "home_team": "UTSA"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Jacksonville",
+      "game_id": "2020_12_04_jacksonville_georgia",
+      "home_score": 98,
+      "home_team": "Georgia"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Jacksonville State",
+      "game_id": "2020_12_04_jacksonville_state_florida_international",
+      "home_score": 74,
+      "home_team": "Florida International"
+    },
+    {
+      "away_score": 76,
+      "away_team": "McNeese",
+      "game_id": "2020_12_04_mcneese_stephen_f_austin",
+      "home_score": 86,
+      "home_team": "Stephen F. Austin"
+    },
+    {
+      "away_score": 42,
+      "away_team": "Dallas Christian",
+      "game_id": "2020_12_04_dallas_christian_sam_houston",
+      "home_score": 117,
+      "home_team": "Sam Houston"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Stetson",
+      "game_id": "2020_12_04_stetson_miami",
+      "home_score": 82,
+      "home_team": "Miami"
+    },
+    {
+      "away_score": 88,
+      "away_team": "South Dakota State",
+      "game_id": "2020_12_04_south_dakota_state_bradley",
+      "home_score": 84,
+      "home_team": "Bradley"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Crowley's Ridge",
+      "game_id": "2020_12_04_crowley_s_ridge_arkansas_state",
+      "home_score": 115,
+      "home_team": "Arkansas State"
+    },
+    {
+      "away_score": 63,
+      "away_team": "North Texas",
+      "game_id": "2020_12_04_north_texas_mississippi_state",
+      "home_score": 69,
+      "home_team": "Mississippi State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Central Arkansas",
+      "game_id": "2020_12_04_central_arkansas_memphis",
+      "home_score": 85,
+      "home_team": "Memphis"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Long Beach State",
+      "game_id": "2020_12_04_long_beach_state_loyola_marymount",
+      "home_score": 85,
+      "home_team": "Loyola Marymount"
+    },
+    {
+      "away_score": 67,
+      "away_team": "North Dakota",
+      "game_id": "2020_12_04_north_dakota_minnesota",
+      "home_score": 76,
+      "home_team": "Minnesota"
+    },
+    {
+      "away_score": 88,
+      "away_team": "San Francisco",
+      "game_id": "2020_12_04_san_francisco_cal_poly",
+      "home_score": 60,
+      "home_team": "Cal Poly"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Seton Hall",
+      "game_id": "2020_12_04_seton_hall_oregon",
+      "home_score": 83,
+      "home_team": "Oregon"
+    },
+    {
+      "away_score": 46,
+      "away_team": "Troy",
+      "game_id": "2020_12_04_troy_texas_tech",
+      "home_score": 80,
+      "home_team": "Texas Tech"
+    },
+    {
+      "away_score": 81,
+      "away_team": "South Alabama",
+      "game_id": "2020_12_04_south_alabama_auburn",
+      "home_score": 90,
+      "home_team": "Auburn"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:57.682288Z"
+}

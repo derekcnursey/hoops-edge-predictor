@@ -1,0 +1,118 @@
+{
+  "date": "2016-03-08",
+  "games": [
+    {
+      "away_score": 72,
+      "away_team": "Wake Forest",
+      "game_id": "2016_03_08_wake_forest_nc_state",
+      "home_score": 75,
+      "home_team": "NC State"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Boston College",
+      "game_id": "2016_03_08_boston_college_florida_state",
+      "home_score": 88,
+      "home_team": "Florida State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Northern Colorado",
+      "game_id": "2016_03_08_northern_colorado_portland_state",
+      "home_score": 74,
+      "home_team": "Portland State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Grambling",
+      "game_id": "2016_03_08_grambling_mississippi_valley_state",
+      "home_score": 87,
+      "home_team": "Mississippi Valley State"
+    },
+    {
+      "away_score": 58,
+      "away_team": "UTSA",
+      "game_id": "2016_03_08_utsa_florida_atlantic",
+      "home_score": 82,
+      "home_team": "Florida Atlantic"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Morgan State",
+      "game_id": "2016_03_08_morgan_state_maryland_eastern_shore",
+      "home_score": 58,
+      "home_team": "Maryland Eastern Shore"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Southern Utah",
+      "game_id": "2016_03_08_southern_utah_north_dakota",
+      "home_score": 85,
+      "home_team": "North Dakota"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Fairleigh Dickinson",
+      "game_id": "2016_03_08_fairleigh_dickinson_wagner",
+      "home_score": 79,
+      "home_team": "Wagner"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Green Bay",
+      "game_id": "2016_03_08_green_bay_wright_state",
+      "home_score": 69,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Howard",
+      "game_id": "2016_03_08_howard_north_carolina_central",
+      "home_score": 68,
+      "home_team": "North Carolina Central"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Pennsylvania",
+      "game_id": "2016_03_08_pennsylvania_princeton",
+      "home_score": 72,
+      "home_team": "Princeton"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Sacramento State",
+      "game_id": "2016_03_08_sacramento_state_montana_state",
+      "home_score": 75,
+      "home_team": "Montana State"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Gonzaga",
+      "game_id": "2016_03_08_gonzaga_saint_mary_s",
+      "home_score": 75,
+      "home_team": "Saint Mary's"
+    },
+    {
+      "away_score": 59,
+      "away_team": "North Dakota State",
+      "game_id": "2016_03_08_north_dakota_state_south_dakota_state",
+      "home_score": 67,
+      "home_team": "South Dakota State"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Arkansas-Pine Bluff",
+      "game_id": "2016_03_08_arkansas_pine_bluff_alabama_a_m",
+      "home_score": 61,
+      "home_team": "Alabama A&M"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Northern Arizona",
+      "game_id": "2016_03_08_northern_arizona_eastern_washington",
+      "home_score": 74,
+      "home_team": "Eastern Washington"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:54.025268Z"
+}

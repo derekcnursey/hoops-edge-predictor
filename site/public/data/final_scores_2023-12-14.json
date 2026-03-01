@@ -1,0 +1,104 @@
+{
+  "date": "2023-12-14",
+  "games": [
+    {
+      "away_score": 54,
+      "away_team": "Trinity Baptist",
+      "game_id": "2023_12_14_trinity_baptist_jacksonville",
+      "home_score": 91,
+      "home_team": "Jacksonville"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Bethany (WV)",
+      "game_id": "2023_12_14_bethany_wv_youngstown_state",
+      "home_score": 107,
+      "home_team": "Youngstown State"
+    },
+    {
+      "away_score": 48,
+      "away_team": "Saint Augustine's",
+      "game_id": "2023_12_14_saint_augustine_s_campbell",
+      "home_score": 97,
+      "home_team": "Campbell"
+    },
+    {
+      "away_score": 65,
+      "away_team": "East Carolina",
+      "game_id": "2023_12_14_east_carolina_florida",
+      "home_score": 70,
+      "home_team": "Florida"
+    },
+    {
+      "away_score": 71,
+      "away_team": "The Citadel",
+      "game_id": "2023_12_14_the_citadel_charleston",
+      "home_score": 86,
+      "home_team": "Charleston"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Cumberland (KY)",
+      "game_id": "2023_12_14_cumberland_ky_northern_kentucky",
+      "home_score": 94,
+      "home_team": "Northern Kentucky"
+    },
+    {
+      "away_score": 33,
+      "away_team": "Saint Mary of the Woods College",
+      "game_id": "2023_12_14_saint_mary_of_the_woods_college_morehead_state",
+      "home_score": 102,
+      "home_team": "Morehead State"
+    },
+    {
+      "away_score": 110,
+      "away_team": "Furman",
+      "game_id": "2023_12_14_furman_tulane",
+      "home_score": 117,
+      "home_team": "Tulane"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Jacksonville State",
+      "game_id": "2023_12_14_jacksonville_state_wisconsin",
+      "home_score": 75,
+      "home_team": "Wisconsin"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Birmingham-Southern",
+      "game_id": "2023_12_14_birmingham_southern_new_orleans",
+      "home_score": 91,
+      "home_team": "New Orleans"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Grambling",
+      "game_id": "2023_12_14_grambling_drake",
+      "home_score": 68,
+      "home_team": "Drake"
+    },
+    {
+      "away_score": 79,
+      "away_team": "St. Thomas-Minnesota",
+      "game_id": "2023_12_14_st_thomas_minnesota_marquette",
+      "home_score": 84,
+      "home_team": "Marquette"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Mayville State",
+      "game_id": "2023_12_14_mayville_state_south_dakota_state",
+      "home_score": 94,
+      "home_team": "South Dakota State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "UL Monroe",
+      "game_id": "2023_12_14_ul_monroe_lamar",
+      "home_score": 97,
+      "home_team": "Lamar"
+    }
+  ],
+  "generated_at": "2026-02-28T22:39:00.100557Z"
+}

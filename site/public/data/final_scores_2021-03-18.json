@@ -1,0 +1,48 @@
+{
+  "date": "2021-03-18",
+  "games": [
+    {
+      "away_score": 60,
+      "away_team": "Texas Southern",
+      "game_id": "2021_03_18_texas_southern_mount_st_mary_s",
+      "home_score": 52,
+      "home_team": "Mount St. Mary's"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Drake",
+      "game_id": "2021_03_18_drake_wichita_state",
+      "home_score": 52,
+      "home_team": "Wichita State"
+    },
+    {
+      "away_score": 75,
+      "away_team": "NC State",
+      "game_id": "2021_03_18_nc_state_davidson",
+      "home_score": 61,
+      "home_team": "Davidson"
+    },
+    {
+      "away_score": 53,
+      "away_team": "App State",
+      "game_id": "2021_03_18_app_state_norfolk_state",
+      "home_score": 54,
+      "home_team": "Norfolk State"
+    },
+    {
+      "away_score": 84,
+      "away_team": "SMU",
+      "game_id": "2021_03_18_smu_boise_state",
+      "home_score": 85,
+      "home_team": "Boise State"
+    },
+    {
+      "away_score": 86,
+      "away_team": "UCLA",
+      "game_id": "2021_03_18_ucla_michigan_state",
+      "home_score": 80,
+      "home_team": "Michigan State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:31:55.061741Z"
+}

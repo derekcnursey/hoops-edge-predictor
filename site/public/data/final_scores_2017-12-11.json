@@ -1,0 +1,83 @@
+{
+  "date": "2017-12-11",
+  "games": [
+    {
+      "away_score": 101,
+      "away_team": "North Florida",
+      "game_id": "2017_12_11_north_florida_florida_a_m",
+      "home_score": 89,
+      "home_team": "Florida A&M"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Bryant",
+      "game_id": "2017_12_11_bryant_louisville",
+      "home_score": 102,
+      "home_team": "Louisville"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Sacred Heart",
+      "game_id": "2017_12_11_sacred_heart_hartford",
+      "home_score": 86,
+      "home_team": "Hartford"
+    },
+    {
+      "away_score": 31,
+      "away_team": "Chicago State",
+      "game_id": "2017_12_11_chicago_state_northwestern",
+      "home_score": 96,
+      "home_team": "Northwestern"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Florida International",
+      "game_id": "2017_12_11_florida_international_south_florida",
+      "home_score": 53,
+      "home_team": "South Florida"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Siena",
+      "game_id": "2017_12_11_siena_vermont",
+      "home_score": 81,
+      "home_team": "Vermont"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Fisk",
+      "game_id": "2017_12_11_fisk_jackson_state",
+      "home_score": 60,
+      "home_team": "Jackson State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Drake",
+      "game_id": "2017_12_11_drake_minnesota",
+      "home_score": 68,
+      "home_team": "Minnesota"
+    },
+    {
+      "away_score": 59,
+      "away_team": "North Carolina Central",
+      "game_id": "2017_12_11_north_carolina_central_grand_canyon",
+      "home_score": 64,
+      "home_team": "Grand Canyon"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Alabama A&M",
+      "game_id": "2017_12_11_alabama_a_m_depaul",
+      "home_score": 83,
+      "home_team": "DePaul"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Texas Southern",
+      "game_id": "2017_12_11_texas_southern_oregon",
+      "home_score": 74,
+      "home_team": "Oregon"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:51.287391Z"
+}

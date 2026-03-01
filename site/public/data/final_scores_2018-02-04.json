@@ -1,0 +1,104 @@
+{
+  "date": "2018-02-04",
+  "games": [
+    {
+      "away_score": 72,
+      "away_team": "Georgia Tech",
+      "game_id": "2018_02_04_georgia_tech_boston_college",
+      "home_score": 80,
+      "home_team": "Boston College"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Seton Hall",
+      "game_id": "2018_02_04_seton_hall_villanova",
+      "home_score": 92,
+      "home_team": "Villanova"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Colgate",
+      "game_id": "2018_02_04_colgate_navy",
+      "home_score": 64,
+      "home_team": "Navy"
+    },
+    {
+      "away_score": 98,
+      "away_team": "Iona",
+      "game_id": "2018_02_04_iona_marist",
+      "home_score": 64,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Illinois",
+      "game_id": "2018_02_04_illinois_ohio_state",
+      "home_score": 75,
+      "home_team": "Ohio State"
+    },
+    {
+      "away_score": 74,
+      "away_team": "IU Indianapolis",
+      "game_id": "2018_02_04_iu_indianapolis_oakland",
+      "home_score": 82,
+      "home_team": "Oakland"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Wisconsin",
+      "game_id": "2018_02_04_wisconsin_maryland",
+      "home_score": 68,
+      "home_team": "Maryland"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Tulsa",
+      "game_id": "2018_02_04_tulsa_south_florida",
+      "home_score": 54,
+      "home_team": "South Florida"
+    },
+    {
+      "away_score": 96,
+      "away_team": "Niagara",
+      "game_id": "2018_02_04_niagara_monmouth",
+      "home_score": 91,
+      "home_team": "Monmouth"
+    },
+    {
+      "away_score": 78,
+      "away_team": "UIC",
+      "game_id": "2018_02_04_uic_detroit_mercy",
+      "home_score": 69,
+      "home_team": "Detroit Mercy"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Canisius",
+      "game_id": "2018_02_04_canisius_saint_peter_s",
+      "home_score": 58,
+      "home_team": "Saint Peter's"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Rider",
+      "game_id": "2018_02_04_rider_quinnipiac",
+      "home_score": 59,
+      "home_team": "Quinnipiac"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Temple",
+      "game_id": "2018_02_04_temple_tulane",
+      "home_score": 76,
+      "home_team": "Tulane"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Arizona State",
+      "game_id": "2018_02_04_arizona_state_washington_state",
+      "home_score": 78,
+      "home_team": "Washington State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:22.977120Z"
+}

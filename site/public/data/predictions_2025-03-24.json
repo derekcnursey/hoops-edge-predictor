@@ -1,0 +1,60 @@
+{
+  "date": "2025-03-24",
+  "games": [
+    {
+      "away_team": "Incarnate Word",
+      "edge_home_points": 4.2037224769592285,
+      "game_id": "2025_03_24_incarnate_word_jacksonville",
+      "home_team": "Jacksonville",
+      "market_spread_home": -3.5,
+      "model_mu_home": 7.7037225,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6254716637479021,
+      "pick_ev_per_1": 0.1940822671550858,
+      "pick_fair_odds": -167.00249439254503,
+      "pick_prob_edge": 0.10166213993837825,
+      "pick_side": "HOME",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.02201233,
+      "pred_sigma": 13.141418,
+      "start_time": "2025-03-24T16:00:00.000Z"
+    },
+    {
+      "away_team": "Army",
+      "edge_home_points": 1.148702621459961,
+      "game_id": "2025_03_24_army_florida_gulf_coast",
+      "home_team": "Florida Gulf Coast",
+      "market_spread_home": -10.5,
+      "model_mu_home": 11.648703,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5348853130677674,
+      "pick_ev_per_1": 0.021144688583919602,
+      "pick_fair_odds": -115.00073596809479,
+      "pick_prob_edge": 0.011075789258243596,
+      "pick_side": "HOME",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.96688074,
+      "pred_sigma": 13.119596,
+      "start_time": "2025-03-24T18:30:00.000Z"
+    },
+    {
+      "away_team": "Queens University",
+      "edge_home_points": -0.548569917678833,
+      "game_id": "2025_03_24_queens_university_cleveland_state",
+      "home_team": "Cleveland State",
+      "market_spread_home": -4.5,
+      "model_mu_home": 3.95143,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5211938108304537,
+      "pick_ev_per_1": -0.004993633869133873,
+      "pick_fair_odds": -108.85277229486643,
+      "pick_prob_edge": -0.0026157129790701505,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.25565088,
+      "pred_sigma": 10.321161,
+      "start_time": "2025-03-24T20:50:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T23:39:43.198094Z"
+}

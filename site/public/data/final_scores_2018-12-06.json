@@ -1,0 +1,118 @@
+{
+  "date": "2018-12-06",
+  "games": [
+    {
+      "away_score": 37,
+      "away_team": "Bob Jones",
+      "game_id": "2018_12_06_bob_jones_gardner_webb",
+      "home_score": 105,
+      "home_team": "Gardner-Webb"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Kentucky Christian",
+      "game_id": "2018_12_06_kentucky_christian_wofford",
+      "home_score": 112,
+      "home_team": "Wofford"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Maryland",
+      "game_id": "2018_12_06_maryland_purdue",
+      "home_score": 62,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Fort Valley State",
+      "game_id": "2018_12_06_fort_valley_state_florida_a_m",
+      "home_score": 80,
+      "home_team": "Florida A&M"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Warren Wilson",
+      "game_id": "2018_12_06_warren_wilson_tennessee_tech",
+      "home_score": 118,
+      "home_team": "Tennessee Tech"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Indiana-Kokomo",
+      "game_id": "2018_12_06_indiana_kokomo_iu_indianapolis",
+      "home_score": 95,
+      "home_team": "IU Indianapolis"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Oakland",
+      "game_id": "2018_12_06_oakland_fairfield",
+      "home_score": 86,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Charlotte",
+      "game_id": "2018_12_06_charlotte_wake_forest",
+      "home_score": 80,
+      "home_team": "Wake Forest"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Voorhees",
+      "game_id": "2018_12_06_voorhees_south_carolina_state",
+      "home_score": 90,
+      "home_team": "South Carolina State"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Drake",
+      "game_id": "2018_12_06_drake_milwaukee",
+      "home_score": 61,
+      "home_team": "Milwaukee"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Iowa State",
+      "game_id": "2018_12_06_iowa_state_iowa",
+      "home_score": 98,
+      "home_team": "Iowa"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Trinity Christian (IL)",
+      "game_id": "2018_12_06_trinity_christian_il_chicago_state",
+      "home_score": 84,
+      "home_team": "Chicago State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Utah Valley",
+      "game_id": "2018_12_06_utah_valley_arizona",
+      "home_score": 80,
+      "home_team": "Arizona"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Omaha",
+      "game_id": "2018_12_06_omaha_seattle_u",
+      "home_score": 90,
+      "home_team": "Seattle U"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Bethune-Cookman",
+      "game_id": "2018_12_06_bethune_cookman_san_jos_state",
+      "home_score": 67,
+      "home_team": "San Jos\u00e9 State"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Pepperdine",
+      "game_id": "2018_12_06_pepperdine_uc_riverside",
+      "home_score": 75,
+      "home_team": "UC Riverside"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:24.045984Z"
+}

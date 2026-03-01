@@ -1,0 +1,125 @@
+{
+  "date": "2024-03-24",
+  "games": [
+    {
+      "away_score": 49,
+      "away_team": "Northern Colorado",
+      "game_id": "2024_03_24_northern_colorado_cleveland_state",
+      "home_score": 51,
+      "home_team": "Cleveland State"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Colorado",
+      "game_id": "2024_03_24_colorado_marquette",
+      "home_score": 81,
+      "home_team": "Marquette"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Montana",
+      "game_id": "2024_03_24_montana_presbyterian",
+      "home_score": 79,
+      "home_team": "Presbyterian"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Minnesota",
+      "game_id": "2024_03_24_minnesota_indiana_state",
+      "home_score": 76,
+      "home_team": "Indiana State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Utah State",
+      "game_id": "2024_03_24_utah_state_purdue",
+      "home_score": 106,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Fairfield",
+      "game_id": "2024_03_24_fairfield_little_rock",
+      "home_score": 75,
+      "home_team": "Little Rock"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Georgia",
+      "game_id": "2024_03_24_georgia_wake_forest",
+      "home_score": 66,
+      "home_team": "Wake Forest"
+    },
+    {
+      "away_score": 55,
+      "away_team": "James Madison",
+      "game_id": "2024_03_24_james_madison_duke",
+      "home_score": 93,
+      "home_team": "Duke"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Quinnipiac",
+      "game_id": "2024_03_24_quinnipiac_evansville",
+      "home_score": 64,
+      "home_team": "Evansville"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Clemson",
+      "game_id": "2024_03_24_clemson_baylor",
+      "home_score": 64,
+      "home_team": "Baylor"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Grand Canyon",
+      "game_id": "2024_03_24_grand_canyon_alabama",
+      "home_score": 72,
+      "home_team": "Alabama"
+    },
+    {
+      "away_score": 70,
+      "away_team": "VCU",
+      "game_id": "2024_03_24_vcu_south_florida",
+      "home_score": 65,
+      "home_team": "South Florida"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Northwestern",
+      "game_id": "2024_03_24_northwestern_uconn",
+      "home_score": 75,
+      "home_team": "UConn"
+    },
+    {
+      "away_score": 95,
+      "away_team": "Texas A&M",
+      "game_id": "2024_03_24_texas_a_m_houston",
+      "home_score": 100,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Iowa",
+      "game_id": "2024_03_24_iowa_utah",
+      "home_score": 91,
+      "home_team": "Utah"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Boston College",
+      "game_id": "2024_03_24_boston_college_unlv",
+      "home_score": 79,
+      "home_team": "UNLV"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Yale",
+      "game_id": "2024_03_24_yale_san_diego_state",
+      "home_score": 85,
+      "home_team": "San Diego State"
+    }
+  ],
+  "generated_at": "2026-02-28T22:40:01.604221Z"
+}

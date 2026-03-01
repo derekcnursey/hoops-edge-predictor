@@ -1,0 +1,104 @@
+{
+  "date": "2020-01-01",
+  "games": [
+    {
+      "away_score": 89,
+      "away_team": "Furman",
+      "game_id": "2020_01_01_furman_vmi",
+      "home_score": 73,
+      "home_team": "VMI"
+    },
+    {
+      "away_score": 59,
+      "away_team": "South Dakota",
+      "game_id": "2020_01_01_south_dakota_purdue_fort_wayne",
+      "home_score": 70,
+      "home_team": "Purdue Fort Wayne"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Fresno State",
+      "game_id": "2020_01_01_fresno_state_san_diego_state",
+      "home_score": 61,
+      "home_team": "San Diego State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "East Carolina",
+      "game_id": "2020_01_01_east_carolina_wichita_state",
+      "home_score": 75,
+      "home_team": "Wichita State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "The Citadel",
+      "game_id": "2020_01_01_the_citadel_samford",
+      "home_score": 69,
+      "home_team": "Samford"
+    },
+    {
+      "away_score": 48,
+      "away_team": "Wofford",
+      "game_id": "2020_01_01_wofford_east_tennessee_state",
+      "home_score": 49,
+      "home_team": "East Tennessee State"
+    },
+    {
+      "away_score": 64,
+      "away_team": "South Florida",
+      "game_id": "2020_01_01_south_florida_smu",
+      "home_score": 82,
+      "home_team": "SMU"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Mercer",
+      "game_id": "2020_01_01_mercer_unc_greensboro",
+      "home_score": 72,
+      "home_team": "UNC Greensboro"
+    },
+    {
+      "away_score": 51,
+      "away_team": "UConn",
+      "game_id": "2020_01_01_uconn_cincinnati",
+      "home_score": 67,
+      "home_team": "Cincinnati"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Wyoming",
+      "game_id": "2020_01_01_wyoming_boise_state",
+      "home_score": 65,
+      "home_team": "Boise State"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Marquette",
+      "game_id": "2020_01_01_marquette_creighton",
+      "home_score": 92,
+      "home_team": "Creighton"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Colorado State",
+      "game_id": "2020_01_01_colorado_state_nevada",
+      "home_score": 67,
+      "home_team": "Nevada"
+    },
+    {
+      "away_score": 85,
+      "away_team": "New Mexico",
+      "game_id": "2020_01_01_new_mexico_san_jos_state",
+      "home_score": 88,
+      "home_team": "San Jos\u00e9 State"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Utah State",
+      "game_id": "2020_01_01_utah_state_unlv",
+      "home_score": 70,
+      "home_team": "UNLV"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:20.166470Z"
+}

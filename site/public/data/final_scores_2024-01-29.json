@@ -1,0 +1,125 @@
+{
+  "date": "2024-01-29",
+  "games": [
+    {
+      "away_score": 77,
+      "away_team": "Duke",
+      "game_id": "2024_01_29_duke_virginia_tech",
+      "home_score": 67,
+      "home_team": "Virginia Tech"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Boston University",
+      "game_id": "2024_01_29_boston_university_holy_cross",
+      "home_score": 65,
+      "home_team": "Holy Cross"
+    },
+    {
+      "away_score": 69,
+      "away_team": "North Carolina Central",
+      "game_id": "2024_01_29_north_carolina_central_delaware_state",
+      "home_score": 66,
+      "home_team": "Delaware State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Morgan State",
+      "game_id": "2024_01_29_morgan_state_norfolk_state",
+      "home_score": 83,
+      "home_team": "Norfolk State"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Howard",
+      "game_id": "2024_01_29_howard_coppin_state",
+      "home_score": 66,
+      "home_team": "Coppin State"
+    },
+    {
+      "away_score": 63,
+      "away_team": "South Carolina State",
+      "game_id": "2024_01_29_south_carolina_state_maryland_eastern_shore",
+      "home_score": 53,
+      "home_team": "Maryland Eastern Shore"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Jackson State",
+      "game_id": "2024_01_29_jackson_state_florida_a_m",
+      "home_score": 88,
+      "home_team": "Florida A&M"
+    },
+    {
+      "away_score": 73,
+      "away_team": "New Orleans",
+      "game_id": "2024_01_29_new_orleans_lamar",
+      "home_score": 98,
+      "home_team": "Lamar"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Texas A&M-Corpus Christi",
+      "game_id": "2024_01_29_texas_a_m_corpus_christi_east_texas_a_m",
+      "home_score": 54,
+      "home_team": "East Texas A&M"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Northwestern State",
+      "game_id": "2024_01_29_northwestern_state_mcneese",
+      "home_score": 89,
+      "home_team": "McNeese"
+    },
+    {
+      "away_score": 80,
+      "away_team": "SE Louisiana",
+      "game_id": "2024_01_29_se_louisiana_houston_christian",
+      "home_score": 58,
+      "home_team": "Houston Christian"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Arkansas-Pine Bluff",
+      "game_id": "2024_01_29_arkansas_pine_bluff_grambling",
+      "home_score": 70,
+      "home_team": "Grambling"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Mississippi Valley State",
+      "game_id": "2024_01_29_mississippi_valley_state_southern",
+      "home_score": 78,
+      "home_team": "Southern"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Alabama State",
+      "game_id": "2024_01_29_alabama_state_texas_southern",
+      "home_score": 56,
+      "home_team": "Texas Southern"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Alabama A&M",
+      "game_id": "2024_01_29_alabama_a_m_prairie_view_a_m",
+      "home_score": 87,
+      "home_team": "Prairie View A&M"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Alcorn State",
+      "game_id": "2024_01_29_alcorn_state_bethune_cookman",
+      "home_score": 67,
+      "home_team": "Bethune-Cookman"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Houston",
+      "game_id": "2024_01_29_houston_texas",
+      "home_score": 72,
+      "home_team": "Texas"
+    }
+  ],
+  "generated_at": "2026-02-28T22:39:26.898511Z"
+}

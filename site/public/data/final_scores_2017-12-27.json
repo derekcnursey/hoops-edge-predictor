@@ -1,0 +1,132 @@
+{
+  "date": "2017-12-27",
+  "games": [
+    {
+      "away_score": 45,
+      "away_team": "Limestone",
+      "game_id": "2017_12_27_limestone_south_carolina",
+      "home_score": 74,
+      "home_team": "South Carolina"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Butler",
+      "game_id": "2017_12_27_butler_georgetown",
+      "home_score": 89,
+      "home_team": "Georgetown"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Eastern Michigan",
+      "game_id": "2017_12_27_eastern_michigan_syracuse",
+      "home_score": 62,
+      "home_team": "Syracuse"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Delaware State",
+      "game_id": "2017_12_27_delaware_state_pennsylvania",
+      "home_score": 105,
+      "home_team": "Pennsylvania"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Florida Gulf Coast",
+      "game_id": "2017_12_27_florida_gulf_coast_rhode_island",
+      "home_score": 80,
+      "home_team": "Rhode Island"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Coppin State",
+      "game_id": "2017_12_27_coppin_state_georgia_tech",
+      "home_score": 76,
+      "home_team": "Georgia Tech"
+    },
+    {
+      "away_score": 103,
+      "away_team": "Villanova",
+      "game_id": "2017_12_27_villanova_depaul",
+      "home_score": 85,
+      "home_team": "DePaul"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Cal State Bakersfield",
+      "game_id": "2017_12_27_cal_state_bakersfield_arkansas",
+      "home_score": 95,
+      "home_team": "Arkansas"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Xavier",
+      "game_id": "2017_12_27_xavier_marquette",
+      "home_score": 87,
+      "home_team": "Marquette"
+    },
+    {
+      "away_score": 72,
+      "away_team": "San Jos\u00e9 State",
+      "game_id": "2017_12_27_san_jos_state_utah_state",
+      "home_score": 86,
+      "home_team": "Utah State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "San Diego State",
+      "game_id": "2017_12_27_san_diego_state_wyoming",
+      "home_score": 82,
+      "home_team": "Wyoming"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Air Force",
+      "game_id": "2017_12_27_air_force_new_mexico",
+      "home_score": 87,
+      "home_team": "New Mexico"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Morgan State",
+      "game_id": "2017_12_27_morgan_state_grand_canyon",
+      "home_score": 100,
+      "home_team": "Grand Canyon"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Chicago State",
+      "game_id": "2017_12_27_chicago_state_wisconsin",
+      "home_score": 82,
+      "home_team": "Wisconsin"
+    },
+    {
+      "away_score": 51,
+      "away_team": "UCF",
+      "game_id": "2017_12_27_ucf_smu",
+      "home_score": 56,
+      "home_team": "SMU"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Colorado State",
+      "game_id": "2017_12_27_colorado_state_boise_state",
+      "home_score": 93,
+      "home_team": "Boise State"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Nevada",
+      "game_id": "2017_12_27_nevada_fresno_state",
+      "home_score": 65,
+      "home_team": "Fresno State"
+    },
+    {
+      "away_score": 63,
+      "away_team": "San Diego Christian",
+      "game_id": "2017_12_27_san_diego_christian_cal_state_northridge",
+      "home_score": 93,
+      "home_team": "Cal State Northridge"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:00.062492Z"
+}

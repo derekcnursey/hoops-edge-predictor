@@ -1,0 +1,24 @@
+{
+  "date": "2025-04-07",
+  "games": [
+    {
+      "away_team": "Florida",
+      "edge_home_points": 3.157004475593567,
+      "game_id": "2025_04_07_florida_houston",
+      "home_team": "Houston",
+      "market_spread_home": 1.5,
+      "model_mu_home": 1.6570045,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6543963342444415,
+      "pick_ev_per_1": 0.24930209264847925,
+      "pick_fair_odds": -189.3487827491068,
+      "pick_prob_edge": 0.1305868104349177,
+      "pick_side": "HOME",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.914714,
+      "pred_sigma": 7.947805,
+      "start_time": "2025-04-08T00:50:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:11.600181Z"
+}

@@ -1,0 +1,230 @@
+{
+  "date": "2017-12-10",
+  "games": [
+    {
+      "away_score": 46,
+      "away_team": "Webber International",
+      "game_id": "2017_12_10_webber_international_florida_atlantic",
+      "home_score": 106,
+      "home_team": "Florida Atlantic"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Tulane",
+      "game_id": "2017_12_10_tulane_florida_state",
+      "home_score": 72,
+      "home_team": "Florida State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "La Salle",
+      "game_id": "2017_12_10_la_salle_villanova",
+      "home_score": 77,
+      "home_team": "Villanova"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Navy",
+      "game_id": "2017_12_10_navy_columbia",
+      "home_score": 68,
+      "home_team": "Columbia"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Charlotte",
+      "game_id": "2017_12_10_charlotte_chattanooga",
+      "home_score": 64,
+      "home_team": "Chattanooga"
+    },
+    {
+      "away_score": 93,
+      "away_team": "St. Francis (PA)",
+      "game_id": "2017_12_10_st_francis_pa_niagara",
+      "home_score": 87,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 95,
+      "away_team": "Arizona State",
+      "game_id": "2017_12_10_arizona_state_kansas",
+      "home_score": 85,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Drexel",
+      "game_id": "2017_12_10_drexel_robert_morris",
+      "home_score": 74,
+      "home_team": "Robert Morris"
+    },
+    {
+      "away_score": 60,
+      "away_team": "North Greenville",
+      "game_id": "2017_12_10_north_greenville_charleston",
+      "home_score": 92,
+      "home_team": "Charleston"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Western Kentucky",
+      "game_id": "2017_12_10_western_kentucky_ohio",
+      "home_score": 89,
+      "home_team": "Ohio"
+    },
+    {
+      "away_score": 71,
+      "away_team": "James Madison",
+      "game_id": "2017_12_10_james_madison_richmond",
+      "home_score": 74,
+      "home_team": "Richmond"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Notre Dame College (OH)",
+      "game_id": "2017_12_10_notre_dame_college_oh_cleveland_state",
+      "home_score": 89,
+      "home_team": "Cleveland State"
+    },
+    {
+      "away_score": 48,
+      "away_team": "Hiwassee",
+      "game_id": "2017_12_10_hiwassee_east_tennessee_state",
+      "home_score": 94,
+      "home_team": "East Tennessee State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Eastern Washington",
+      "game_id": "2017_12_10_eastern_washington_south_dakota",
+      "home_score": 75,
+      "home_team": "South Dakota"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Maine-Machias",
+      "game_id": "2017_12_10_maine_machias_maine",
+      "home_score": 104,
+      "home_team": "Maine"
+    },
+    {
+      "away_score": 39,
+      "away_team": "Toccoa Falls",
+      "game_id": "2017_12_10_toccoa_falls_high_point",
+      "home_score": 110,
+      "home_team": "High Point"
+    },
+    {
+      "away_score": 75,
+      "away_team": "South Alabama",
+      "game_id": "2017_12_10_south_alabama_siu_edwardsville",
+      "home_score": 76,
+      "home_team": "SIU Edwardsville"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Troy",
+      "game_id": "2017_12_10_troy_southern_miss",
+      "home_score": 89,
+      "home_team": "Southern Miss"
+    },
+    {
+      "away_score": 92,
+      "away_team": "Cincinnati Clermont",
+      "game_id": "2017_12_10_cincinnati_clermont_ut_martin",
+      "home_score": 127,
+      "home_team": "UT Martin"
+    },
+    {
+      "away_score": 40,
+      "away_team": "Maryland Eastern Shore",
+      "game_id": "2017_12_10_maryland_eastern_shore_virginia_tech",
+      "home_score": 93,
+      "home_team": "Virginia Tech"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Milligan",
+      "game_id": "2017_12_10_milligan_unc_asheville",
+      "home_score": 97,
+      "home_team": "UNC Asheville"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Fairfield",
+      "game_id": "2017_12_10_fairfield_long_island_university",
+      "home_score": 72,
+      "home_team": "Long Island University"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Missouri State",
+      "game_id": "2017_12_10_missouri_state_oral_roberts",
+      "home_score": 73,
+      "home_team": "Oral Roberts"
+    },
+    {
+      "away_score": 41,
+      "away_team": "Mercy",
+      "game_id": "2017_12_10_mercy_wagner",
+      "home_score": 75,
+      "home_team": "Wagner"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Southern",
+      "game_id": "2017_12_10_southern_iowa",
+      "home_score": 91,
+      "home_team": "Iowa"
+    },
+    {
+      "away_score": 84,
+      "away_team": "UNC Wilmington",
+      "game_id": "2017_12_10_unc_wilmington_lsu",
+      "home_score": 97,
+      "home_team": "LSU"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Dubuque",
+      "game_id": "2017_12_10_dubuque_northern_iowa",
+      "home_score": 80,
+      "home_team": "Northern Iowa"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Alcorn State",
+      "game_id": "2017_12_10_alcorn_state_iowa_state",
+      "home_score": 78,
+      "home_team": "Iowa State"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Eastern Kentucky",
+      "game_id": "2017_12_10_eastern_kentucky_northern_kentucky",
+      "home_score": 91,
+      "home_team": "Northern Kentucky"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Panhandle St (OK)",
+      "game_id": "2017_12_10_panhandle_st_ok_northern_colorado",
+      "home_score": 104,
+      "home_team": "Northern Colorado"
+    },
+    {
+      "away_score": 61,
+      "away_team": "IU Indianapolis",
+      "game_id": "2017_12_10_iu_indianapolis_purdue",
+      "home_score": 86,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 97,
+      "away_team": "Gonzaga",
+      "game_id": "2017_12_10_gonzaga_washington",
+      "home_score": 70,
+      "home_team": "Washington"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:50.704247Z"
+}

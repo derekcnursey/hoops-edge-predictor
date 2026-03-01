@@ -1,0 +1,34 @@
+{
+  "date": "2021-03-25",
+  "games": [
+    {
+      "away_score": 68,
+      "away_team": "Mississippi State",
+      "game_id": "2021_03_25_mississippi_state_richmond",
+      "home_score": 67,
+      "home_team": "Richmond"
+    },
+    {
+      "away_score": 61,
+      "away_team": "NC State",
+      "game_id": "2021_03_25_nc_state_colorado_state",
+      "home_score": 65,
+      "home_team": "Colorado State"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Boise State",
+      "game_id": "2021_03_25_boise_state_memphis",
+      "home_score": 59,
+      "home_team": "Memphis"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Louisiana Tech",
+      "game_id": "2021_03_25_louisiana_tech_western_kentucky",
+      "home_score": 65,
+      "home_team": "Western Kentucky"
+    }
+  ],
+  "generated_at": "2026-02-28T21:31:59.055511Z"
+}

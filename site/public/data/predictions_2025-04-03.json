@@ -1,0 +1,60 @@
+{
+  "date": "2025-04-03",
+  "games": [
+    {
+      "away_team": "UCF",
+      "edge_home_points": 9.287698745727539,
+      "game_id": "2025_04_03_ucf_cincinnati",
+      "home_team": "Cincinnati",
+      "market_spread_home": -6.5,
+      "model_mu_home": 15.787699,
+      "neutral_site": null,
+      "pick_cover_prob": 0.670676227405071,
+      "pick_ev_per_1": 0.2803818886824083,
+      "pick_fair_odds": -203.65253990637612,
+      "pick_prob_edge": 0.1468667035955472,
+      "pick_side": "HOME",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.99999475,
+      "pred_sigma": 21.0233,
+      "start_time": "2025-04-03T23:00:00.000Z"
+    },
+    {
+      "away_team": "Chattanooga",
+      "edge_home_points": 0.06476473808288574,
+      "game_id": "2025_04_03_chattanooga_uc_irvine",
+      "home_team": "UC Irvine",
+      "market_spread_home": -3.5,
+      "model_mu_home": 3.5647647,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5024235259036457,
+      "pick_ev_per_1": -0.04082781418394915,
+      "pick_fair_odds": -100.97413202987423,
+      "pick_prob_edge": -0.02138599790587814,
+      "pick_side": "HOME",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.28326693,
+      "pred_sigma": 10.66101,
+      "start_time": "2025-04-04T01:00:00.000Z"
+    },
+    {
+      "away_team": "Villanova",
+      "edge_home_points": -1.3556451797485352,
+      "game_id": "2025_04_03_villanova_usc",
+      "home_team": "USC",
+      "market_spread_home": 4.5,
+      "model_mu_home": -5.855645,
+      "neutral_site": null,
+      "pick_cover_prob": 0.56768459274232,
+      "pick_ev_per_1": 0.08376149523533816,
+      "pick_fair_odds": -131.3125979810277,
+      "pick_prob_edge": 0.043875068932796135,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.012990786,
+      "pred_sigma": 7.9518213,
+      "start_time": "2025-04-04T01:30:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T23:43:43.943418Z"
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2018-03-30",
+  "games": [
+    {
+      "away_score": 77,
+      "away_team": "San Francisco",
+      "game_id": "2018_03_30_san_francisco_north_texas",
+      "home_score": 88,
+      "home_team": "North Texas"
+    },
+    {
+      "away_score": 71,
+      "away_team": "UIC",
+      "game_id": "2018_03_30_uic_northern_colorado",
+      "home_score": 76,
+      "home_team": "Northern Colorado"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:55.262873Z"
+}

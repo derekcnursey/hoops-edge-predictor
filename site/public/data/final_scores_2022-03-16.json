@@ -1,0 +1,111 @@
+{
+  "date": "2022-03-16",
+  "games": [
+    {
+      "away_score": 82,
+      "away_team": "Bryant",
+      "game_id": "2022_03_16_bryant_wright_state",
+      "home_score": 93,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 42,
+      "away_team": "Maryland Eastern Shore",
+      "game_id": "2022_03_16_maryland_eastern_shore_coastal_carolina",
+      "home_score": 66,
+      "home_team": "Coastal Carolina"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Mississippi State",
+      "game_id": "2022_03_16_mississippi_state_virginia",
+      "home_score": 60,
+      "home_team": "Virginia"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Dayton",
+      "game_id": "2022_03_16_dayton_toledo",
+      "home_score": 55,
+      "home_team": "Toledo"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Towson",
+      "game_id": "2022_03_16_towson_wake_forest",
+      "home_score": 74,
+      "home_team": "Wake Forest"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Detroit Mercy",
+      "game_id": "2022_03_16_detroit_mercy_florida_gulf_coast",
+      "home_score": 95,
+      "home_team": "Florida Gulf Coast"
+    },
+    {
+      "away_score": 1,
+      "away_team": "Merrimack",
+      "game_id": "2022_03_16_merrimack_umbc",
+      "home_score": 0,
+      "home_team": "UMBC"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Northern Iowa",
+      "game_id": "2022_03_16_northern_iowa_saint_louis",
+      "home_score": 68,
+      "home_team": "Saint Louis"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Morgan State",
+      "game_id": "2022_03_16_morgan_state_youngstown_state",
+      "home_score": 70,
+      "home_team": "Youngstown State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "SE Louisiana",
+      "game_id": "2022_03_16_se_louisiana_south_alabama",
+      "home_score": 70,
+      "home_team": "South Alabama"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Nicholls",
+      "game_id": "2022_03_16_nicholls_smu",
+      "home_score": 68,
+      "home_team": "SMU"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Kent State",
+      "game_id": "2022_03_16_kent_state_southern_utah",
+      "home_score": 83,
+      "home_team": "Southern Utah"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Long Beach State",
+      "game_id": "2022_03_16_long_beach_state_byu",
+      "home_score": 93,
+      "home_team": "BYU"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Iona",
+      "game_id": "2022_03_16_iona_florida",
+      "home_score": 79,
+      "home_team": "Florida"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Notre Dame",
+      "game_id": "2022_03_16_notre_dame_rutgers",
+      "home_score": 87,
+      "home_team": "Rutgers"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:20.672517Z"
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2021-01-11",
+  "games": [
+    {
+      "away_score": 68,
+      "away_team": "Temple",
+      "game_id": "2021_01_11_temple_smu",
+      "home_score": 79,
+      "home_team": "SMU"
+    },
+    {
+      "away_score": 60,
+      "away_team": "UConn",
+      "game_id": "2021_01_11_uconn_depaul",
+      "home_score": 53,
+      "home_team": "DePaul"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Colorado",
+      "game_id": "2021_01_11_colorado_utah",
+      "home_score": 58,
+      "home_team": "Utah"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Loyola Chicago",
+      "game_id": "2021_01_11_loyola_chicago_indiana_state",
+      "home_score": 48,
+      "home_team": "Indiana State"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Bradley",
+      "game_id": "2021_01_11_bradley_northern_iowa",
+      "home_score": 73,
+      "home_team": "Northern Iowa"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Texas Southern",
+      "game_id": "2021_01_11_texas_southern_prairie_view_a_m",
+      "home_score": 73,
+      "home_team": "Prairie View A&M"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Boise State",
+      "game_id": "2021_01_11_boise_state_wyoming",
+      "home_score": 60,
+      "home_team": "Wyoming"
+    }
+  ],
+  "generated_at": "2026-02-28T21:31:18.652497Z"
+}

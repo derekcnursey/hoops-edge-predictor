@@ -1,0 +1,104 @@
+{
+  "date": "2021-12-06",
+  "games": [
+    {
+      "away_score": 71,
+      "away_team": "Millersville",
+      "game_id": "2021_12_06_millersville_morgan_state",
+      "home_score": 77,
+      "home_team": "Morgan State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Texas Southern",
+      "game_id": "2021_12_06_texas_southern_florida",
+      "home_score": 54,
+      "home_team": "Florida"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Towson",
+      "game_id": "2021_12_06_towson_kent_state",
+      "home_score": 58,
+      "home_team": "Kent State"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Mercer",
+      "game_id": "2021_12_06_mercer_coastal_carolina",
+      "home_score": 69,
+      "home_team": "Coastal Carolina"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Voorhees",
+      "game_id": "2021_12_06_voorhees_georgia_state",
+      "home_score": 80,
+      "home_team": "Georgia State"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Illinois",
+      "game_id": "2021_12_06_illinois_iowa",
+      "home_score": 83,
+      "home_team": "Iowa"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Babson",
+      "game_id": "2021_12_06_babson_harvard",
+      "home_score": 74,
+      "home_team": "Harvard"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Delaware State",
+      "game_id": "2021_12_06_delaware_state_liberty",
+      "home_score": 96,
+      "home_team": "Liberty"
+    },
+    {
+      "away_score": 67,
+      "away_team": "North Carolina Central",
+      "game_id": "2021_12_06_north_carolina_central_the_citadel",
+      "home_score": 80,
+      "home_team": "The Citadel"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Presbyterian",
+      "game_id": "2021_12_06_presbyterian_morehead_state",
+      "home_score": 71,
+      "home_team": "Morehead State"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Columbia",
+      "game_id": "2021_12_06_columbia_colgate",
+      "home_score": 89,
+      "home_team": "Colgate"
+    },
+    {
+      "away_score": 45,
+      "away_team": "Alcorn State",
+      "game_id": "2021_12_06_alcorn_state_houston",
+      "home_score": 77,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 78,
+      "away_team": "New Mexico State",
+      "game_id": "2021_12_06_new_mexico_state_new_mexico",
+      "home_score": 76,
+      "home_team": "New Mexico"
+    },
+    {
+      "away_score": 69,
+      "away_team": "San Jos\u00e9 State",
+      "game_id": "2021_12_06_san_jos_state_pepperdine",
+      "home_score": 82,
+      "home_team": "Pepperdine"
+    }
+  ],
+  "generated_at": "2026-02-28T21:32:20.358006Z"
+}

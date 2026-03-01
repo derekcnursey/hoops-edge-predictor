@@ -1,0 +1,76 @@
+{
+  "date": "2023-03-15",
+  "games": [
+    {
+      "away_score": 84,
+      "away_team": "Fairleigh Dickinson",
+      "game_id": "2023_03_15_fairleigh_dickinson_texas_southern",
+      "home_score": 61,
+      "home_team": "Texas Southern"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Morehead State",
+      "game_id": "2023_03_15_morehead_state_clemson",
+      "home_score": 64,
+      "home_team": "Clemson"
+    },
+    {
+      "away_score": 67,
+      "away_team": "UCF",
+      "game_id": "2023_03_15_ucf_florida",
+      "home_score": 49,
+      "home_team": "Florida"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Oklahoma State",
+      "game_id": "2023_03_15_oklahoma_state_youngstown_state",
+      "home_score": 64,
+      "home_team": "Youngstown State"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Alcorn State",
+      "game_id": "2023_03_15_alcorn_state_north_texas",
+      "home_score": 69,
+      "home_team": "North Texas"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Virginia Tech",
+      "game_id": "2023_03_15_virginia_tech_cincinnati",
+      "home_score": 81,
+      "home_team": "Cincinnati"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Santa Clara",
+      "game_id": "2023_03_15_santa_clara_sam_houston",
+      "home_score": 58,
+      "home_team": "Sam Houston"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Nevada",
+      "game_id": "2023_03_15_nevada_arizona_state",
+      "home_score": 98,
+      "home_team": "Arizona State"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Utah Valley",
+      "game_id": "2023_03_15_utah_valley_new_mexico",
+      "home_score": 69,
+      "home_team": "New Mexico"
+    },
+    {
+      "away_score": 58,
+      "away_team": "UC Irvine",
+      "game_id": "2023_03_15_uc_irvine_oregon",
+      "home_score": 84,
+      "home_team": "Oregon"
+    }
+  ],
+  "generated_at": "2026-02-28T21:34:53.025788Z"
+}

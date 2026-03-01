@@ -1,0 +1,42 @@
+{
+  "date": "2019-03-30",
+  "games": [
+    {
+      "away_team": "Texas Tech",
+      "edge_home_points": -2.663331985473633,
+      "game_id": "2019_03_30_texas_tech_gonzaga",
+      "home_team": "Gonzaga",
+      "market_spread_home": -5.0,
+      "model_mu_home": 2.336668,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6101412264900379,
+      "pick_ev_per_1": 0.16481506875370866,
+      "pick_fair_odds": -156.503141123858,
+      "pick_prob_edge": 0.08633170268051404,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.25346732,
+      "pred_sigma": 9.52254,
+      "start_time": "2019-03-30T22:09:00.000Z"
+    },
+    {
+      "away_team": "Purdue",
+      "edge_home_points": -4.373075157403946,
+      "game_id": "2019_03_30_purdue_virginia",
+      "home_team": "Virginia",
+      "market_spread_home": -4.0,
+      "model_mu_home": -0.37307516,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6540523750908094,
+      "pick_ev_per_1": 0.24864544335518157,
+      "pick_fair_odds": -189.06109711332593,
+      "pick_prob_edge": 0.13024285128128554,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.8519772,
+      "pred_sigma": 11.035194,
+      "start_time": "2019-03-31T00:49:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T22:33:14.992337Z"
+}

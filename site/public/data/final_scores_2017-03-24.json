@@ -1,0 +1,34 @@
+{
+  "date": "2017-03-24",
+  "games": [
+    {
+      "away_score": 80,
+      "away_team": "Butler",
+      "game_id": "2017_03_24_butler_north_carolina",
+      "home_score": 92,
+      "home_team": "North Carolina"
+    },
+    {
+      "away_score": 70,
+      "away_team": "South Carolina",
+      "game_id": "2017_03_24_south_carolina_baylor",
+      "home_score": 50,
+      "home_team": "Baylor"
+    },
+    {
+      "away_score": 75,
+      "away_team": "UCLA",
+      "game_id": "2017_03_24_ucla_kentucky",
+      "home_score": 86,
+      "home_team": "Kentucky"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Wisconsin",
+      "game_id": "2017_03_24_wisconsin_florida",
+      "home_score": 84,
+      "home_team": "Florida"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:26.502359Z"
+}

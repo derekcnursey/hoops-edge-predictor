@@ -1,0 +1,153 @@
+{
+  "date": "2022-01-10",
+  "games": [
+    {
+      "away_score": 72,
+      "away_team": "Campbell",
+      "game_id": "2022_01_10_campbell_winthrop",
+      "home_score": 74,
+      "home_team": "Winthrop"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Morgan State",
+      "game_id": "2022_01_10_morgan_state_south_carolina_state",
+      "home_score": 81,
+      "home_team": "South Carolina State"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Army",
+      "game_id": "2022_01_10_army_colgate",
+      "home_score": 76,
+      "home_team": "Colgate"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Wofford",
+      "game_id": "2022_01_10_wofford_unc_greensboro",
+      "home_score": 58,
+      "home_team": "UNC Greensboro"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Navy",
+      "game_id": "2022_01_10_navy_lafayette",
+      "home_score": 55,
+      "home_team": "Lafayette"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Boston University",
+      "game_id": "2022_01_10_boston_university_american_university",
+      "home_score": 53,
+      "home_team": "American University"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Western Carolina",
+      "game_id": "2022_01_10_western_carolina_east_tennessee_state",
+      "home_score": 87,
+      "home_team": "East Tennessee State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Bucknell",
+      "game_id": "2022_01_10_bucknell_loyola_maryland",
+      "home_score": 71,
+      "home_team": "Loyola Maryland"
+    },
+    {
+      "away_score": 67,
+      "away_team": "UIC",
+      "game_id": "2022_01_10_uic_iu_indianapolis",
+      "home_score": 65,
+      "home_team": "IU Indianapolis"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Holy Cross",
+      "game_id": "2022_01_10_holy_cross_lehigh",
+      "home_score": 77,
+      "home_team": "Lehigh"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Grambling",
+      "game_id": "2022_01_10_grambling_florida_a_m",
+      "home_score": 75,
+      "home_team": "Florida A&M"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Southern",
+      "game_id": "2022_01_10_southern_bethune_cookman",
+      "home_score": 59,
+      "home_team": "Bethune-Cookman"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Jackson State",
+      "game_id": "2022_01_10_jackson_state_alabama_a_m",
+      "home_score": 60,
+      "home_team": "Alabama A&M"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Omaha",
+      "game_id": "2022_01_10_omaha_kansas_city",
+      "home_score": 64,
+      "home_team": "Kansas City"
+    },
+    {
+      "away_score": 75,
+      "away_team": "South Dakota",
+      "game_id": "2022_01_10_south_dakota_north_dakota",
+      "home_score": 68,
+      "home_team": "North Dakota"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Arkansas-Pine Bluff",
+      "game_id": "2022_01_10_arkansas_pine_bluff_prairie_view_a_m",
+      "home_score": 75,
+      "home_team": "Prairie View A&M"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Mississippi Valley State",
+      "game_id": "2022_01_10_mississippi_valley_state_texas_southern",
+      "home_score": 95,
+      "home_team": "Texas Southern"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Alcorn State",
+      "game_id": "2022_01_10_alcorn_state_alabama_state",
+      "home_score": 60,
+      "home_team": "Alabama State"
+    },
+    {
+      "away_score": 87,
+      "away_team": "North Dakota State",
+      "game_id": "2022_01_10_north_dakota_state_denver",
+      "home_score": 69,
+      "home_team": "Denver"
+    },
+    {
+      "away_score": 72,
+      "away_team": "San Diego",
+      "game_id": "2022_01_10_san_diego_pepperdine",
+      "home_score": 62,
+      "home_team": "Pepperdine"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Oregon",
+      "game_id": "2022_01_10_oregon_oregon_state",
+      "home_score": 76,
+      "home_team": "Oregon State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:32:42.289546Z"
+}

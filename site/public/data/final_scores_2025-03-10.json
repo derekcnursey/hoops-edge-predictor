@@ -1,0 +1,90 @@
+{
+  "date": "2025-03-10",
+  "games": [
+    {
+      "away_score": 82,
+      "away_team": "Delaware",
+      "game_id": "2025_03_10_delaware_towson",
+      "home_score": 72,
+      "home_team": "Towson"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Texas A&M-Corpus Christi",
+      "game_id": "2025_03_10_texas_a_m_corpus_christi_northwestern_state",
+      "home_score": 66,
+      "home_team": "Northwestern State"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Arkansas State",
+      "game_id": "2025_03_10_arkansas_state_troy",
+      "home_score": 94,
+      "home_team": "Troy"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Oakland",
+      "game_id": "2025_03_10_oakland_robert_morris",
+      "home_score": 79,
+      "home_team": "Robert Morris"
+    },
+    {
+      "away_score": 92,
+      "away_team": "Wofford",
+      "game_id": "2025_03_10_wofford_furman",
+      "home_score": 85,
+      "home_team": "Furman"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Montana State",
+      "game_id": "2025_03_10_montana_state_idaho_state",
+      "home_score": 60,
+      "home_team": "Idaho State"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Incarnate Word",
+      "game_id": "2025_03_10_incarnate_word_nicholls",
+      "home_score": 74,
+      "home_team": "Nicholls"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Pepperdine",
+      "game_id": "2025_03_10_pepperdine_saint_mary_s",
+      "home_score": 74,
+      "home_team": "Saint Mary's"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Charleston",
+      "game_id": "2025_03_10_charleston_unc_wilmington",
+      "home_score": 68,
+      "home_team": "UNC Wilmington"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Idaho",
+      "game_id": "2025_03_10_idaho_portland_state",
+      "home_score": 70,
+      "home_team": "Portland State"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Youngstown State",
+      "game_id": "2025_03_10_youngstown_state_cleveland_state",
+      "home_score": 54,
+      "home_team": "Cleveland State"
+    },
+    {
+      "away_score": 76,
+      "away_team": "San Francisco",
+      "game_id": "2025_03_10_san_francisco_gonzaga",
+      "home_score": 85,
+      "home_team": "Gonzaga"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:36.681703Z"
+}

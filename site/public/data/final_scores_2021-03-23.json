@@ -1,0 +1,20 @@
+{
+  "date": "2021-03-23",
+  "games": [
+    {
+      "away_score": 72,
+      "away_team": "Stetson",
+      "game_id": "2021_03_23_stetson_coastal_carolina",
+      "home_score": 77,
+      "home_team": "Coastal Carolina"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Bellarmine",
+      "game_id": "2021_03_23_bellarmine_pepperdine",
+      "home_score": 82,
+      "home_team": "Pepperdine"
+    }
+  ],
+  "generated_at": "2026-02-28T21:31:57.935422Z"
+}

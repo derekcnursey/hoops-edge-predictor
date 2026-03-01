@@ -1,0 +1,24 @@
+{
+  "date": "2018-03-26",
+  "games": [
+    {
+      "away_team": "North Texas",
+      "edge_home_points": -3.728482186794281,
+      "game_id": "2018_03_26_north_texas_san_francisco",
+      "home_team": "San Francisco",
+      "market_spread_home": -4.0,
+      "model_mu_home": 0.2715178,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6363454511719517,
+      "pick_ev_per_1": 0.214841315873726,
+      "pick_fair_odds": -174.98624813650926,
+      "pick_prob_edge": 0.1125359273624279,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.8990524,
+      "pred_sigma": 10.692299,
+      "start_time": "2018-03-27T02:00:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:23.136046Z"
+}

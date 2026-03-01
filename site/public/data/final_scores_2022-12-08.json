@@ -1,0 +1,83 @@
+{
+  "date": "2022-12-08",
+  "games": [
+    {
+      "away_score": 67,
+      "away_team": "Maine-Augusta",
+      "game_id": "2022_12_08_maine_augusta_maine",
+      "home_score": 103,
+      "home_team": "Maine"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Marshall",
+      "game_id": "2022_12_08_marshall_duquesne",
+      "home_score": 71,
+      "home_team": "Duquesne"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Rutgers",
+      "game_id": "2022_12_08_rutgers_ohio_state",
+      "home_score": 67,
+      "home_team": "Ohio State"
+    },
+    {
+      "away_score": 85,
+      "away_team": "UMass Lowell",
+      "game_id": "2022_12_08_umass_lowell_massachusetts",
+      "home_score": 80,
+      "home_team": "Massachusetts"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Westminster (PA)",
+      "game_id": "2022_12_08_westminster_pa_youngstown_state",
+      "home_score": 117,
+      "home_team": "Youngstown State"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Saint Vincent",
+      "game_id": "2022_12_08_saint_vincent_st_francis_pa",
+      "home_score": 88,
+      "home_team": "St. Francis (PA)"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Iowa State",
+      "game_id": "2022_12_08_iowa_state_iowa",
+      "home_score": 75,
+      "home_team": "Iowa"
+    },
+    {
+      "away_score": 90,
+      "away_team": "Michigan",
+      "game_id": "2022_12_08_michigan_minnesota",
+      "home_score": 75,
+      "home_team": "Minnesota"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Colorado State",
+      "game_id": "2022_12_08_colorado_state_colorado",
+      "home_score": 93,
+      "home_team": "Colorado"
+    },
+    {
+      "away_score": 65,
+      "away_team": "St. Thomas-Minnesota",
+      "game_id": "2022_12_08_st_thomas_minnesota_montana_state",
+      "home_score": 82,
+      "home_team": "Montana State"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Jacksonville State",
+      "game_id": "2022_12_08_jacksonville_state_utah",
+      "home_score": 99,
+      "home_team": "Utah"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:54.089909Z"
+}

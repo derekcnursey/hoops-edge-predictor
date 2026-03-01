@@ -1,0 +1,111 @@
+{
+  "date": "2021-03-09",
+  "games": [
+    {
+      "away_score": 79,
+      "away_team": "Miami",
+      "game_id": "2021_03_09_miami_pittsburgh",
+      "home_score": 73,
+      "home_team": "Pittsburgh"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Boston College",
+      "game_id": "2021_03_09_boston_college_duke",
+      "home_score": 86,
+      "home_team": "Duke"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Iona",
+      "game_id": "2021_03_09_iona_quinnipiac",
+      "home_score": 48,
+      "home_team": "Quinnipiac"
+    },
+    {
+      "away_score": 68,
+      "away_team": "McNeese",
+      "game_id": "2021_03_09_mcneese_se_louisiana",
+      "home_score": 71,
+      "home_team": "SE Louisiana"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Long Beach State",
+      "game_id": "2021_03_09_long_beach_state_cal_state_northridge",
+      "home_score": 63,
+      "home_team": "Cal State Northridge"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Mount St. Mary's",
+      "game_id": "2021_03_09_mount_st_mary_s_bryant",
+      "home_score": 68,
+      "home_team": "Bryant"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Oakland",
+      "game_id": "2021_03_09_oakland_cleveland_state",
+      "home_score": 80,
+      "home_team": "Cleveland State"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Wake Forest",
+      "game_id": "2021_03_09_wake_forest_notre_dame",
+      "home_score": 80,
+      "home_team": "Notre Dame"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Elon",
+      "game_id": "2021_03_09_elon_drexel",
+      "home_score": 63,
+      "home_team": "Drexel"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Manhattan",
+      "game_id": "2021_03_09_manhattan_fairfield",
+      "home_score": 59,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Southern Miss",
+      "game_id": "2021_03_09_southern_miss_rice",
+      "home_score": 61,
+      "home_team": "Rice"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Cal Poly",
+      "game_id": "2021_03_09_cal_poly_cal_state_fullerton",
+      "home_score": 82,
+      "home_team": "Cal State Fullerton"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Oral Roberts",
+      "game_id": "2021_03_09_oral_roberts_north_dakota_state",
+      "home_score": 72,
+      "home_team": "North Dakota State"
+    },
+    {
+      "away_score": 78,
+      "away_team": "BYU",
+      "game_id": "2021_03_09_byu_gonzaga",
+      "home_score": 88,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Houston Christian",
+      "game_id": "2021_03_09_houston_christian_incarnate_word",
+      "home_score": 68,
+      "home_team": "Incarnate Word"
+    }
+  ],
+  "generated_at": "2026-02-28T21:31:51.080743Z"
+}

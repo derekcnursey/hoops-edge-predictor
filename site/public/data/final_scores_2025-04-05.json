@@ -1,0 +1,34 @@
+{
+  "date": "2025-04-05",
+  "games": [
+    {
+      "away_score": 69,
+      "away_team": "Nebraska",
+      "game_id": "2025_04_05_nebraska_boise_state",
+      "home_score": 79,
+      "home_team": "Boise State"
+    },
+    {
+      "away_score": 104,
+      "away_team": "UCF",
+      "game_id": "2025_04_05_ucf_villanova",
+      "home_score": 98,
+      "home_team": "Villanova"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Florida",
+      "game_id": "2025_04_05_florida_auburn",
+      "home_score": 73,
+      "home_team": "Auburn"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Houston",
+      "game_id": "2025_04_05_houston_duke",
+      "home_score": 67,
+      "home_team": "Duke"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:50.540856Z"
+}

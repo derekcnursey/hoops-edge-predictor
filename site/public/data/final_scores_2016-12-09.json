@@ -1,0 +1,76 @@
+{
+  "date": "2016-12-09",
+  "games": [
+    {
+      "away_score": 65,
+      "away_team": "Hartford",
+      "game_id": "2016_12_09_hartford_boston_college",
+      "home_score": 63,
+      "home_team": "Boston College"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Emerson",
+      "game_id": "2016_12_09_emerson_brown",
+      "home_score": 90,
+      "home_team": "Brown"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Columbia",
+      "game_id": "2016_12_09_columbia_navy",
+      "home_score": 69,
+      "home_team": "Navy"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Wake Forest",
+      "game_id": "2016_12_09_wake_forest_unc_greensboro",
+      "home_score": 75,
+      "home_team": "UNC Greensboro"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Longwood",
+      "game_id": "2016_12_09_longwood_creighton",
+      "home_score": 113,
+      "home_team": "Creighton"
+    },
+    {
+      "away_score": 67,
+      "away_team": "St. Mary's (TX)",
+      "game_id": "2016_12_09_st_mary_s_tx_texas_a_m_corpus_christi",
+      "home_score": 77,
+      "home_team": "Texas A&M-Corpus Christi"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Selma",
+      "game_id": "2016_12_09_selma_grambling",
+      "home_score": 103,
+      "home_team": "Grambling"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Siena",
+      "game_id": "2016_12_09_siena_florida_gulf_coast",
+      "home_score": 73,
+      "home_team": "Florida Gulf Coast"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Georgia Southern",
+      "game_id": "2016_12_09_georgia_southern_minnesota",
+      "home_score": 86,
+      "home_team": "Minnesota"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Pomona Pitzer",
+      "game_id": "2016_12_09_pomona_pitzer_uc_irvine",
+      "home_score": 80,
+      "home_team": "UC Irvine"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:25.625739Z"
+}

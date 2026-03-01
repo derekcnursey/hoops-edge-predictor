@@ -1,0 +1,20 @@
+{
+  "date": "2025-03-30",
+  "games": [
+    {
+      "away_score": 50,
+      "away_team": "Tennessee",
+      "game_id": "2025_03_30_tennessee_houston",
+      "home_score": 69,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Michigan State",
+      "game_id": "2025_03_30_michigan_state_auburn",
+      "home_score": 70,
+      "home_team": "Auburn"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:47.729797Z"
+}

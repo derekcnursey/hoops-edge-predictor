@@ -1,0 +1,132 @@
+{
+  "date": "2020-12-31",
+  "games": [
+    {
+      "away_score": 80,
+      "away_team": "Gardner-Webb",
+      "game_id": "2020_12_31_gardner_webb_hampton",
+      "home_score": 69,
+      "home_team": "Hampton"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Campbell",
+      "game_id": "2020_12_31_campbell_winthrop",
+      "home_score": 94,
+      "home_team": "Winthrop"
+    },
+    {
+      "away_score": 71,
+      "away_team": "McMurry",
+      "game_id": "2020_12_31_mcmurry_incarnate_word",
+      "home_score": 92,
+      "home_team": "Incarnate Word"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Radford",
+      "game_id": "2020_12_31_radford_presbyterian",
+      "home_score": 65,
+      "home_team": "Presbyterian"
+    },
+    {
+      "away_score": 55,
+      "away_team": "UNC Asheville",
+      "game_id": "2020_12_31_unc_asheville_longwood",
+      "home_score": 65,
+      "home_team": "Longwood"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Catawba",
+      "game_id": "2020_12_31_catawba_wake_forest",
+      "home_score": 70,
+      "home_team": "Wake Forest"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Utah State",
+      "game_id": "2020_12_31_utah_state_air_force",
+      "home_score": 48,
+      "home_team": "Air Force"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Minnesota",
+      "game_id": "2020_12_31_minnesota_wisconsin",
+      "home_score": 71,
+      "home_team": "Wisconsin"
+    },
+    {
+      "away_score": 62,
+      "away_team": "San Diego",
+      "game_id": "2020_12_31_san_diego_san_francisco",
+      "home_score": 70,
+      "home_team": "San Francisco"
+    },
+    {
+      "away_score": 60,
+      "away_team": "South Carolina Upstate",
+      "game_id": "2020_12_31_south_carolina_upstate_high_point",
+      "home_score": 51,
+      "home_team": "High Point"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Utah",
+      "game_id": "2020_12_31_utah_ucla",
+      "home_score": 72,
+      "home_team": "UCLA"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Arizona",
+      "game_id": "2020_12_31_arizona_washington",
+      "home_score": 53,
+      "home_team": "Washington"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Michigan",
+      "game_id": "2020_12_31_michigan_maryland",
+      "home_score": 73,
+      "home_team": "Maryland"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Northern Arizona",
+      "game_id": "2020_12_31_northern_arizona_idaho",
+      "home_score": 65,
+      "home_team": "Idaho"
+    },
+    {
+      "away_score": 106,
+      "away_team": "Boise State",
+      "game_id": "2020_12_31_boise_state_san_jos_state",
+      "home_score": 54,
+      "home_team": "San Jos\u00e9 State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Nevada",
+      "game_id": "2020_12_31_nevada_new_mexico",
+      "home_score": 54,
+      "home_team": "New Mexico"
+    },
+    {
+      "away_score": 69,
+      "away_team": "California",
+      "game_id": "2020_12_31_california_oregon",
+      "home_score": 82,
+      "home_team": "Oregon"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Colorado",
+      "game_id": "2020_12_31_colorado_usc",
+      "home_score": 62,
+      "home_team": "USC"
+    }
+  ],
+  "generated_at": "2026-02-28T21:31:12.374441Z"
+}

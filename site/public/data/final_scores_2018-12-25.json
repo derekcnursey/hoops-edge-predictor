@@ -1,0 +1,34 @@
+{
+  "date": "2018-12-25",
+  "games": [
+    {
+      "away_score": 68,
+      "away_team": "Colorado",
+      "game_id": "2018_12_25_colorado_charlotte",
+      "home_score": 53,
+      "home_team": "Charlotte"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Rhode Island",
+      "game_id": "2018_12_25_rhode_island_hawai_i",
+      "home_score": 68,
+      "home_team": "Hawai'i"
+    },
+    {
+      "away_score": 72,
+      "away_team": "UNLV",
+      "game_id": "2018_12_25_unlv_bucknell",
+      "home_score": 97,
+      "home_team": "Bucknell"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Indiana State",
+      "game_id": "2018_12_25_indiana_state_tcu",
+      "home_score": 83,
+      "home_team": "TCU"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:35.514691Z"
+}

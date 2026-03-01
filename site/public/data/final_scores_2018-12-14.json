@@ -1,0 +1,55 @@
+{
+  "date": "2018-12-14",
+  "games": [
+    {
+      "away_score": 64,
+      "away_team": "Howard",
+      "game_id": "2018_12_14_howard_george_washington",
+      "home_score": 70,
+      "home_team": "George Washington"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Brewton-Parker",
+      "game_id": "2018_12_14_brewton_parker_georgia_southern",
+      "home_score": 101,
+      "home_team": "Georgia Southern"
+    },
+    {
+      "away_score": 70,
+      "away_team": "UIC",
+      "game_id": "2018_12_14_uic_depaul",
+      "home_score": 90,
+      "home_team": "DePaul"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Arlington Baptist",
+      "game_id": "2018_12_14_arlington_baptist_houston_christian",
+      "home_score": 107,
+      "home_team": "Houston Christian"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Florida Atlantic",
+      "game_id": "2018_12_14_florida_atlantic_arkansas_state",
+      "home_score": 75,
+      "home_team": "Arkansas State"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Mayville State",
+      "game_id": "2018_12_14_mayville_state_north_dakota",
+      "home_score": 83,
+      "home_team": "North Dakota"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Green Bay",
+      "game_id": "2018_12_14_green_bay_creighton",
+      "home_score": 86,
+      "home_team": "Creighton"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:29.164973Z"
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2019-01-18",
+  "games": [
+    {
+      "away_score": 75,
+      "away_team": "Maryland",
+      "game_id": "2019_01_18_maryland_ohio_state",
+      "home_score": 61,
+      "home_team": "Ohio State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Northwestern",
+      "game_id": "2019_01_18_northwestern_rutgers",
+      "home_score": 57,
+      "home_team": "Rutgers"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Saint Joseph's",
+      "game_id": "2019_01_18_saint_joseph_s_saint_louis",
+      "home_score": 68,
+      "home_team": "Saint Louis"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Ohio",
+      "game_id": "2019_01_18_ohio_toledo",
+      "home_score": 75,
+      "home_team": "Toledo"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Marist",
+      "game_id": "2019_01_18_marist_iona",
+      "home_score": 90,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Eastern Michigan",
+      "game_id": "2019_01_18_eastern_michigan_buffalo",
+      "home_score": 77,
+      "home_team": "Buffalo"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Xavier",
+      "game_id": "2019_01_18_xavier_villanova",
+      "home_score": 85,
+      "home_team": "Villanova"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:49.132806Z"
+}

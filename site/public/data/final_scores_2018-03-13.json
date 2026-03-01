@@ -1,0 +1,90 @@
+{
+  "date": "2018-03-13",
+  "games": [
+    {
+      "away_score": 61,
+      "away_team": "LIU Brooklyn",
+      "game_id": "2018_03_13_liu_brooklyn_radford",
+      "home_score": 71,
+      "home_team": "Radford"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Wagner",
+      "game_id": "2018_03_13_wagner_baylor",
+      "home_score": 80,
+      "home_team": "Baylor"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Northern Kentucky",
+      "game_id": "2018_03_13_northern_kentucky_louisville",
+      "home_score": 66,
+      "home_team": "Louisville"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Vermont",
+      "game_id": "2018_03_13_vermont_middle_tennessee",
+      "home_score": 91,
+      "home_team": "Middle Tennessee"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Boston College",
+      "game_id": "2018_03_13_boston_college_western_kentucky",
+      "home_score": 79,
+      "home_team": "Western Kentucky"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Eastern Washington",
+      "game_id": "2018_03_13_eastern_washington_utah_valley",
+      "home_score": 87,
+      "home_team": "Utah Valley"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Hampton",
+      "game_id": "2018_03_13_hampton_notre_dame",
+      "home_score": 84,
+      "home_team": "Notre Dame"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Florida Gulf Coast",
+      "game_id": "2018_03_13_florida_gulf_coast_oklahoma_state",
+      "home_score": 80,
+      "home_team": "Oklahoma State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "St. Bonaventure",
+      "game_id": "2018_03_13_st_bonaventure_ucla",
+      "home_score": 58,
+      "home_team": "UCLA"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Rider",
+      "game_id": "2018_03_13_rider_oregon",
+      "home_score": 99,
+      "home_team": "Oregon"
+    },
+    {
+      "away_score": 45,
+      "away_team": "SE Louisiana",
+      "game_id": "2018_03_13_se_louisiana_saint_mary_s",
+      "home_score": 89,
+      "home_team": "Saint Mary's"
+    },
+    {
+      "away_score": 98,
+      "away_team": "UNC Asheville",
+      "game_id": "2018_03_13_unc_asheville_usc",
+      "home_score": 103,
+      "home_team": "USC"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:45.161781Z"
+}

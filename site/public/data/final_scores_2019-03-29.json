@@ -1,0 +1,41 @@
+{
+  "date": "2019-03-29",
+  "games": [
+    {
+      "away_score": 65,
+      "away_team": "Cal State Bakersfield",
+      "game_id": "2019_03_29_cal_state_bakersfield_green_bay",
+      "home_score": 80,
+      "home_team": "Green Bay"
+    },
+    {
+      "away_score": 63,
+      "away_team": "LSU",
+      "game_id": "2019_03_29_lsu_michigan_state",
+      "home_score": 80,
+      "home_team": "Michigan State"
+    },
+    {
+      "away_score": 97,
+      "away_team": "Auburn",
+      "game_id": "2019_03_29_auburn_north_carolina",
+      "home_score": 80,
+      "home_team": "North Carolina"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Virginia Tech",
+      "game_id": "2019_03_29_virginia_tech_duke",
+      "home_score": 75,
+      "home_team": "Duke"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Houston",
+      "game_id": "2019_03_29_houston_kentucky",
+      "home_score": 62,
+      "home_team": "Kentucky"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:31.085624Z"
+}

@@ -1,0 +1,76 @@
+{
+  "date": "2018-02-09",
+  "games": [
+    {
+      "away_score": 73,
+      "away_team": "Toledo",
+      "game_id": "2018_02_09_toledo_miami_oh",
+      "home_score": 67,
+      "home_team": "Miami (OH)"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Davidson",
+      "game_id": "2018_02_09_davidson_rhode_island",
+      "home_score": 72,
+      "home_team": "Rhode Island"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Cornell",
+      "game_id": "2018_02_09_cornell_brown",
+      "home_score": 60,
+      "home_team": "Brown"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Princeton",
+      "game_id": "2018_02_09_princeton_harvard",
+      "home_score": 66,
+      "home_team": "Harvard"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Pennsylvania",
+      "game_id": "2018_02_09_pennsylvania_dartmouth",
+      "home_score": 61,
+      "home_team": "Dartmouth"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Columbia",
+      "game_id": "2018_02_09_columbia_yale",
+      "home_score": 88,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Minnesota",
+      "game_id": "2018_02_09_minnesota_indiana",
+      "home_score": 80,
+      "home_team": "Indiana"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Detroit Mercy",
+      "game_id": "2018_02_09_detroit_mercy_oakland",
+      "home_score": 87,
+      "home_team": "Oakland"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Kent State",
+      "game_id": "2018_02_09_kent_state_ball_state",
+      "home_score": 87,
+      "home_team": "Ball State"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Eastern Washington",
+      "game_id": "2018_02_09_eastern_washington_idaho",
+      "home_score": 66,
+      "home_team": "Idaho"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:25.853024Z"
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2017-03-29",
+  "games": [
+    {
+      "away_score": 79,
+      "away_team": "Texas A&M-Corpus Christi",
+      "game_id": "2017_03_29_texas_a_m_corpus_christi_umbc",
+      "home_score": 61,
+      "home_team": "UMBC"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Coastal Carolina",
+      "game_id": "2017_03_29_coastal_carolina_wyoming",
+      "home_score": 81,
+      "home_team": "Wyoming"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Furman",
+      "game_id": "2017_03_29_furman_saint_peter_s",
+      "home_score": 77,
+      "home_team": "Saint Peter's"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:29.361340Z"
+}

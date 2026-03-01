@@ -1,0 +1,76 @@
+{
+  "date": "2022-11-08",
+  "games": [
+    {
+      "away_score": 74,
+      "away_team": "UAlbany",
+      "game_id": "2022_11_08_ualbany_immaculata",
+      "home_score": 47,
+      "home_team": "Immaculata"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Rider",
+      "game_id": "2022_11_08_rider_providence",
+      "home_score": 66,
+      "home_team": "Providence"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Milwaukee",
+      "game_id": "2022_11_08_milwaukee_purdue",
+      "home_score": 84,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Montana",
+      "game_id": "2022_11_08_montana_duquesne",
+      "home_score": 91,
+      "home_team": "Duquesne"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Mercer",
+      "game_id": "2022_11_08_mercer_east_carolina",
+      "home_score": 77,
+      "home_team": "East Carolina"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Rochester University (MI)",
+      "game_id": "2022_11_08_rochester_university_mi_detroit_mercy",
+      "home_score": 93,
+      "home_team": "Detroit Mercy"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Sacred Heart",
+      "game_id": "2022_11_08_sacred_heart_hartford",
+      "home_score": 70,
+      "home_team": "Hartford"
+    },
+    {
+      "away_score": 77,
+      "away_team": "South Carolina State",
+      "game_id": "2022_11_08_south_carolina_state_south_carolina",
+      "home_score": 80,
+      "home_team": "South Carolina"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Coppin State",
+      "game_id": "2022_11_08_coppin_state_georgetown",
+      "home_score": 99,
+      "home_team": "Georgetown"
+    },
+    {
+      "away_score": 48,
+      "away_team": "Georgia Southern",
+      "game_id": "2022_11_08_georgia_southern_san_jos_state",
+      "home_score": 63,
+      "home_team": "San Jos\u00e9 State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:31.405340Z"
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2019-03-31",
+  "games": [
+    {
+      "away_team": "Auburn",
+      "edge_home_points": -4.677026152610779,
+      "game_id": "2019_03_31_auburn_kentucky",
+      "home_team": "Kentucky",
+      "market_spread_home": -4.0,
+      "model_mu_home": -0.67702615,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6593651571434362,
+      "pick_ev_per_1": 0.25878802727383277,
+      "pick_fair_odds": -193.56949853221124,
+      "pick_prob_edge": 0.1355556333339124,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.05973998,
+      "pred_sigma": 11.387074,
+      "start_time": "2019-03-31T18:20:00.000Z"
+    },
+    {
+      "away_team": "Michigan State",
+      "edge_home_points": -2.767412006855011,
+      "game_id": "2019_03_31_michigan_state_duke",
+      "home_team": "Duke",
+      "market_spread_home": -2.0,
+      "model_mu_home": -0.767412,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5857425736561863,
+      "pick_ev_per_1": 0.11823582243453745,
+      "pick_fair_odds": -141.3957931486902,
+      "pick_prob_edge": 0.06193304984666248,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.079744495,
+      "pred_sigma": 12.776206,
+      "start_time": "2019-03-31T21:05:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T22:33:38.563209Z"
+}

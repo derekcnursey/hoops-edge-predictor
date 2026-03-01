@@ -1,0 +1,48 @@
+{
+  "date": "2017-03-12",
+  "games": [
+    {
+      "away_score": 59,
+      "away_team": "Yale",
+      "game_id": "2017_03_12_yale_princeton",
+      "home_score": 71,
+      "home_team": "Princeton"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Rhode Island",
+      "game_id": "2017_03_12_rhode_island_vcu",
+      "home_score": 63,
+      "home_team": "VCU"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Arkansas",
+      "game_id": "2017_03_12_arkansas_kentucky",
+      "home_score": 82,
+      "home_team": "Kentucky"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Troy",
+      "game_id": "2017_03_12_troy_texas_state",
+      "home_score": 53,
+      "home_team": "Texas State"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Michigan",
+      "game_id": "2017_03_12_michigan_wisconsin",
+      "home_score": 56,
+      "home_team": "Wisconsin"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Cincinnati",
+      "game_id": "2017_03_12_cincinnati_smu",
+      "home_score": 71,
+      "home_team": "SMU"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:19.651245Z"
+}

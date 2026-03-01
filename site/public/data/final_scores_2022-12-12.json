@@ -1,0 +1,153 @@
+{
+  "date": "2022-12-12",
+  "games": [
+    {
+      "away_score": 53,
+      "away_team": "Spalding",
+      "game_id": "2022_12_12_spalding_iu_indianapolis",
+      "home_score": 75,
+      "home_team": "IU Indianapolis"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Sacred Heart",
+      "game_id": "2022_12_12_sacred_heart_stony_brook",
+      "home_score": 71,
+      "home_team": "Stony Brook"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Yale",
+      "game_id": "2022_12_12_yale_fairfield",
+      "home_score": 64,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 78,
+      "away_team": "South Alabama",
+      "game_id": "2022_12_12_south_alabama_alabama_a_m",
+      "home_score": 71,
+      "home_team": "Alabama A&M"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Columbia",
+      "game_id": "2022_12_12_columbia_lafayette",
+      "home_score": 45,
+      "home_team": "Lafayette"
+    },
+    {
+      "away_score": 61,
+      "away_team": "St. Josephs (ME)",
+      "game_id": "2022_12_12_st_josephs_me_new_hampshire",
+      "home_score": 104,
+      "home_team": "New Hampshire"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Philander Smith",
+      "game_id": "2022_12_12_philander_smith_little_rock",
+      "home_score": 83,
+      "home_team": "Little Rock"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Louisiana Christian",
+      "game_id": "2022_12_12_louisiana_christian_louisiana",
+      "home_score": 98,
+      "home_team": "Louisiana"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Liberty",
+      "game_id": "2022_12_12_liberty_oral_roberts",
+      "home_score": 84,
+      "home_team": "Oral Roberts"
+    },
+    {
+      "away_score": 72,
+      "away_team": "South Florida",
+      "game_id": "2022_12_12_south_florida_northern_iowa",
+      "home_score": 69,
+      "home_team": "Northern Iowa"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Monmouth",
+      "game_id": "2022_12_12_monmouth_syracuse",
+      "home_score": 86,
+      "home_team": "Syracuse"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Rice",
+      "game_id": "2022_12_12_rice_texas",
+      "home_score": 87,
+      "home_team": "Texas"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Lindsey Wilson College",
+      "game_id": "2022_12_12_lindsey_wilson_college_austin_peay",
+      "home_score": 86,
+      "home_team": "Austin Peay"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Arizona State",
+      "game_id": "2022_12_12_arizona_state_creighton",
+      "home_score": 71,
+      "home_team": "Creighton"
+    },
+    {
+      "away_score": 48,
+      "away_team": "North Central (MN)",
+      "game_id": "2022_12_12_north_central_mn_north_dakota",
+      "home_score": 99,
+      "home_team": "North Dakota"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Northern Illinois",
+      "game_id": "2022_12_12_northern_illinois_gonzaga",
+      "home_score": 88,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Mount Marty College",
+      "game_id": "2022_12_12_mount_marty_college_south_dakota_state",
+      "home_score": 85,
+      "home_team": "South Dakota State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "San Diego Christian",
+      "game_id": "2022_12_12_san_diego_christian_uc_santa_barbara",
+      "home_score": 81,
+      "home_team": "UC Santa Barbara"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Kennesaw State",
+      "game_id": "2022_12_12_kennesaw_state_san_diego_state",
+      "home_score": 88,
+      "home_team": "San Diego State"
+    },
+    {
+      "away_score": 58,
+      "away_team": "UC San Diego",
+      "game_id": "2022_12_12_uc_san_diego_san_diego",
+      "home_score": 84,
+      "home_team": "San Diego"
+    },
+    {
+      "away_score": 64,
+      "away_team": "San Francisco",
+      "game_id": "2022_12_12_san_francisco_new_mexico",
+      "home_score": 67,
+      "home_team": "New Mexico"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:56.877359Z"
+}

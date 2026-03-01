@@ -1,0 +1,90 @@
+{
+  "date": "2017-12-07",
+  "games": [
+    {
+      "away_score": 65,
+      "away_team": "Brevard",
+      "game_id": "2017_12_07_brevard_south_carolina_state",
+      "home_score": 93,
+      "home_team": "South Carolina State"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Valparaiso",
+      "game_id": "2017_12_07_valparaiso_purdue",
+      "home_score": 80,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 64,
+      "away_team": "NJIT",
+      "game_id": "2017_12_07_njit_rutgers",
+      "home_score": 73,
+      "home_team": "Rutgers"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Ohio",
+      "game_id": "2017_12_07_ohio_maryland",
+      "home_score": 87,
+      "home_team": "Maryland"
+    },
+    {
+      "away_score": 44,
+      "away_team": "Elon",
+      "game_id": "2017_12_07_elon_unc_greensboro",
+      "home_score": 75,
+      "home_team": "UNC Greensboro"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Quinnipiac",
+      "game_id": "2017_12_07_quinnipiac_hartford",
+      "home_score": 77,
+      "home_team": "Hartford"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Drexel",
+      "game_id": "2017_12_07_drexel_la_salle",
+      "home_score": 70,
+      "home_team": "La Salle"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Stony Brook",
+      "game_id": "2017_12_07_stony_brook_columbia",
+      "home_score": 66,
+      "home_team": "Columbia"
+    },
+    {
+      "away_score": 58,
+      "away_team": "UT Arlington",
+      "game_id": "2017_12_07_ut_arlington_northern_iowa",
+      "home_score": 62,
+      "home_team": "Northern Iowa"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Iowa",
+      "game_id": "2017_12_07_iowa_iowa_state",
+      "home_score": 84,
+      "home_team": "Iowa State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Howard",
+      "game_id": "2017_12_07_howard_georgetown",
+      "home_score": 81,
+      "home_team": "Georgetown"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Eastern Washington",
+      "game_id": "2017_12_07_eastern_washington_san_francisco",
+      "home_score": 81,
+      "home_team": "San Francisco"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:48.918375Z"
+}

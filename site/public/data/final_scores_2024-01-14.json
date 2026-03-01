@@ -1,0 +1,118 @@
+{
+  "date": "2024-01-14",
+  "games": [
+    {
+      "away_score": 55,
+      "away_team": "Rutgers",
+      "game_id": "2024_01_14_rutgers_michigan_state",
+      "home_score": 73,
+      "home_team": "Michigan State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Georgetown",
+      "game_id": "2024_01_14_georgetown_uconn",
+      "home_score": 80,
+      "home_team": "UConn"
+    },
+    {
+      "away_score": 73,
+      "away_team": "UAB",
+      "game_id": "2024_01_14_uab_florida_atlantic",
+      "home_score": 86,
+      "home_team": "Florida Atlantic"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Cleveland State",
+      "game_id": "2024_01_14_cleveland_state_green_bay",
+      "home_score": 79,
+      "home_team": "Green Bay"
+    },
+    {
+      "away_score": 112,
+      "away_team": "Memphis",
+      "game_id": "2024_01_14_memphis_wichita_state",
+      "home_score": 86,
+      "home_team": "Wichita State"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Mount St. Mary's",
+      "game_id": "2024_01_14_mount_st_mary_s_iona",
+      "home_score": 87,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Saint Peter's",
+      "game_id": "2024_01_14_saint_peter_s_manhattan",
+      "home_score": 68,
+      "home_team": "Manhattan"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Rider",
+      "game_id": "2024_01_14_rider_marist",
+      "home_score": 83,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Maryland",
+      "game_id": "2024_01_14_maryland_illinois",
+      "home_score": 67,
+      "home_team": "Illinois"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Valparaiso",
+      "game_id": "2024_01_14_valparaiso_illinois_state",
+      "home_score": 50,
+      "home_team": "Illinois State"
+    },
+    {
+      "away_score": 94,
+      "away_team": "Tulane",
+      "game_id": "2024_01_14_tulane_tulsa",
+      "home_score": 87,
+      "home_team": "Tulsa"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Liberty",
+      "game_id": "2024_01_14_liberty_louisiana_tech",
+      "home_score": 80,
+      "home_team": "Louisiana Tech"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Northern Iowa",
+      "game_id": "2024_01_14_northern_iowa_murray_state",
+      "home_score": 60,
+      "home_team": "Murray State"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Delaware",
+      "game_id": "2024_01_14_delaware_unc_wilmington",
+      "home_score": 79,
+      "home_team": "UNC Wilmington"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Utah",
+      "game_id": "2024_01_14_utah_stanford",
+      "home_score": 79,
+      "home_team": "Stanford"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Washington",
+      "game_id": "2024_01_14_washington_ucla",
+      "home_score": 73,
+      "home_team": "UCLA"
+    }
+  ],
+  "generated_at": "2026-02-28T22:39:17.402252Z"
+}

@@ -1,0 +1,167 @@
+{
+  "date": "2024-03-12",
+  "games": [
+    {
+      "away_score": 63,
+      "away_team": "Davidson",
+      "game_id": "2024_03_12_davidson_fordham",
+      "home_score": 71,
+      "home_team": "Fordham"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Oklahoma State",
+      "game_id": "2024_03_12_oklahoma_state_ucf",
+      "home_score": 77,
+      "home_team": "UCF"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Georgia Tech",
+      "game_id": "2024_03_12_georgia_tech_notre_dame",
+      "home_score": 84,
+      "home_team": "Notre Dame"
+    },
+    {
+      "away_score": 60,
+      "away_team": "George Washington",
+      "game_id": "2024_03_12_george_washington_la_salle",
+      "home_score": 61,
+      "home_team": "La Salle"
+    },
+    {
+      "away_score": 85,
+      "away_team": "West Virginia",
+      "game_id": "2024_03_12_west_virginia_cincinnati",
+      "home_score": 90,
+      "home_team": "Cincinnati"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Louisville",
+      "game_id": "2024_03_12_louisville_nc_state",
+      "home_score": 94,
+      "home_team": "NC State"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Saint Louis",
+      "game_id": "2024_03_12_saint_louis_rhode_island",
+      "home_score": 71,
+      "home_team": "Rhode Island"
+    },
+    {
+      "away_score": 59,
+      "away_team": "New Hampshire",
+      "game_id": "2024_03_12_new_hampshire_vermont",
+      "home_score": 66,
+      "home_team": "Vermont"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Canisius",
+      "game_id": "2024_03_12_canisius_mount_st_mary_s",
+      "home_score": 61,
+      "home_team": "Mount St. Mary's"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Bryant",
+      "game_id": "2024_03_12_bryant_umass_lowell",
+      "home_score": 77,
+      "home_team": "UMass Lowell"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Lamar",
+      "game_id": "2024_03_12_lamar_mcneese",
+      "home_score": 76,
+      "home_team": "McNeese"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Stony Brook",
+      "game_id": "2024_03_12_stony_brook_charleston",
+      "home_score": 82,
+      "home_team": "Charleston"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Milwaukee",
+      "game_id": "2024_03_12_milwaukee_oakland",
+      "home_score": 83,
+      "home_team": "Oakland"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Wagner",
+      "game_id": "2024_03_12_wagner_merrimack",
+      "home_score": 47,
+      "home_team": "Merrimack"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Miami",
+      "game_id": "2024_03_12_miami_boston_college",
+      "home_score": 81,
+      "home_team": "Boston College"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Sacramento State",
+      "game_id": "2024_03_12_sacramento_state_montana_state",
+      "home_score": 74,
+      "home_team": "Montana State"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Manhattan",
+      "game_id": "2024_03_12_manhattan_iona",
+      "home_score": 60,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Gonzaga",
+      "game_id": "2024_03_12_gonzaga_saint_mary_s",
+      "home_score": 69,
+      "home_team": "Saint Mary's"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Nicholls",
+      "game_id": "2024_03_12_nicholls_texas_a_m_corpus_christi",
+      "home_score": 73,
+      "home_team": "Texas A&M-Corpus Christi"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Florida International",
+      "game_id": "2024_03_12_florida_international_jacksonville_state",
+      "home_score": 67,
+      "home_team": "Jacksonville State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Denver",
+      "game_id": "2024_03_12_denver_south_dakota_state",
+      "home_score": 76,
+      "home_team": "South Dakota State"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Idaho State",
+      "game_id": "2024_03_12_idaho_state_montana",
+      "home_score": 72,
+      "home_team": "Montana"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Siena",
+      "game_id": "2024_03_12_siena_niagara",
+      "home_score": 67,
+      "home_team": "Niagara"
+    }
+  ],
+  "generated_at": "2026-02-28T22:39:54.884412Z"
+}

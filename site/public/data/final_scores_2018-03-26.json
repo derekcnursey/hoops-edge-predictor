@@ -1,0 +1,13 @@
+{
+  "date": "2018-03-26",
+  "games": [
+    {
+      "away_score": 62,
+      "away_team": "North Texas",
+      "game_id": "2018_03_26_north_texas_san_francisco",
+      "home_score": 72,
+      "home_team": "San Francisco"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:52.900566Z"
+}

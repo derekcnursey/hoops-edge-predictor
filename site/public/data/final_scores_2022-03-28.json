@@ -1,0 +1,20 @@
+{
+  "date": "2022-03-28",
+  "games": [
+    {
+      "away_score": 69,
+      "away_team": "Coastal Carolina",
+      "game_id": "2022_03_28_coastal_carolina_south_alabama",
+      "home_score": 68,
+      "home_team": "South Alabama"
+    },
+    {
+      "away_score": 48,
+      "away_team": "Southern Utah",
+      "game_id": "2022_03_28_southern_utah_fresno_state",
+      "home_score": 67,
+      "home_team": "Fresno State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:27.529841Z"
+}

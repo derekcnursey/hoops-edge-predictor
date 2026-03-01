@@ -1,0 +1,118 @@
+{
+  "date": "2024-02-26",
+  "games": [
+    {
+      "away_score": 70,
+      "away_team": "Drexel",
+      "game_id": "2024_02_26_drexel_delaware",
+      "home_score": 60,
+      "home_team": "Delaware"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Miami",
+      "game_id": "2024_02_26_miami_north_carolina",
+      "home_score": 75,
+      "home_team": "North Carolina"
+    },
+    {
+      "away_score": 90,
+      "away_team": "West Virginia",
+      "game_id": "2024_02_26_west_virginia_kansas_state",
+      "home_score": 94,
+      "home_team": "Kansas State"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Incarnate Word",
+      "game_id": "2024_02_26_incarnate_word_nicholls",
+      "home_score": 92,
+      "home_team": "Nicholls"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Norfolk State",
+      "game_id": "2024_02_26_norfolk_state_morgan_state",
+      "home_score": 82,
+      "home_team": "Morgan State"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Maryland Eastern Shore",
+      "game_id": "2024_02_26_maryland_eastern_shore_south_carolina_state",
+      "home_score": 64,
+      "home_team": "South Carolina State"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Delaware State",
+      "game_id": "2024_02_26_delaware_state_north_carolina_central",
+      "home_score": 93,
+      "home_team": "North Carolina Central"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Coppin State",
+      "game_id": "2024_02_26_coppin_state_howard",
+      "home_score": 78,
+      "home_team": "Howard"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Alabama State",
+      "game_id": "2024_02_26_alabama_state_bethune_cookman",
+      "home_score": 90,
+      "home_team": "Bethune-Cookman"
+    },
+    {
+      "away_score": 58,
+      "away_team": "McNeese",
+      "game_id": "2024_02_26_mcneese_lamar",
+      "home_score": 56,
+      "home_team": "Lamar"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Texas A&M-Corpus Christi",
+      "game_id": "2024_02_26_texas_a_m_corpus_christi_houston_christian",
+      "home_score": 79,
+      "home_team": "Houston Christian"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Alabama A&M",
+      "game_id": "2024_02_26_alabama_a_m_florida_a_m",
+      "home_score": 76,
+      "home_team": "Florida A&M"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Texas Southern",
+      "game_id": "2024_02_26_texas_southern_arkansas_pine_bluff",
+      "home_score": 70,
+      "home_team": "Arkansas-Pine Bluff"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Prairie View A&M",
+      "game_id": "2024_02_26_prairie_view_a_m_mississippi_valley_state",
+      "home_score": 57,
+      "home_team": "Mississippi Valley State"
+    },
+    {
+      "away_score": 100,
+      "away_team": "UNC Wilmington",
+      "game_id": "2024_02_26_unc_wilmington_campbell",
+      "home_score": 105,
+      "home_team": "Campbell"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Baylor",
+      "game_id": "2024_02_26_baylor_tcu",
+      "home_score": 54,
+      "home_team": "TCU"
+    }
+  ],
+  "generated_at": "2026-02-28T22:39:45.178901Z"
+}

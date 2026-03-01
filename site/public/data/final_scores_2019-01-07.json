@@ -1,0 +1,76 @@
+{
+  "date": "2019-01-07",
+  "games": [
+    {
+      "away_score": 59,
+      "away_team": "Niagara",
+      "game_id": "2019_01_07_niagara_fairfield",
+      "home_score": 77,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Howard",
+      "game_id": "2019_01_07_howard_maryland_eastern_shore",
+      "home_score": 39,
+      "home_team": "Maryland Eastern Shore"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Coppin State",
+      "game_id": "2019_01_07_coppin_state_delaware_state",
+      "home_score": 60,
+      "home_team": "Delaware State"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Savannah State",
+      "game_id": "2019_01_07_savannah_state_morgan_state",
+      "home_score": 87,
+      "home_team": "Morgan State"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Florida A&M",
+      "game_id": "2019_01_07_florida_a_m_norfolk_state",
+      "home_score": 72,
+      "home_team": "Norfolk State"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Grambling",
+      "game_id": "2019_01_07_grambling_alabama_a_m",
+      "home_score": 65,
+      "home_team": "Alabama A&M"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Jackson State",
+      "game_id": "2019_01_07_jackson_state_alabama_state",
+      "home_score": 59,
+      "home_team": "Alabama State"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Prairie View A&M",
+      "game_id": "2019_01_07_prairie_view_a_m_alcorn_state",
+      "home_score": 54,
+      "home_team": "Alcorn State"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Texas Southern",
+      "game_id": "2019_01_07_texas_southern_southern",
+      "home_score": 67,
+      "home_team": "Southern"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Eastern Washington",
+      "game_id": "2019_01_07_eastern_washington_northern_colorado",
+      "home_score": 75,
+      "home_team": "Northern Colorado"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:42.543501Z"
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2018-03-29",
+  "games": [
+    {
+      "away_score": 82,
+      "away_team": "Penn State",
+      "game_id": "2018_03_29_penn_state_utah",
+      "home_score": 66,
+      "home_team": "Utah"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:54.701481Z"
+}

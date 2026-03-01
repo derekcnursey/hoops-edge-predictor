@@ -1,0 +1,62 @@
+{
+  "date": "2016-01-15",
+  "games": [
+    {
+      "away_score": 79,
+      "away_team": "UAlbany",
+      "game_id": "2016_01_15_ualbany_maine",
+      "home_score": 81,
+      "home_team": "Maine"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Siena",
+      "game_id": "2016_01_15_siena_quinnipiac",
+      "home_score": 52,
+      "home_team": "Quinnipiac"
+    },
+    {
+      "away_score": 70,
+      "away_team": "George Washington",
+      "game_id": "2016_01_15_george_washington_dayton",
+      "home_score": 77,
+      "home_team": "Dayton"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Akron",
+      "game_id": "2016_01_15_akron_toledo",
+      "home_score": 78,
+      "home_team": "Toledo"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Niagara",
+      "game_id": "2016_01_15_niagara_fairfield",
+      "home_score": 73,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Canisius",
+      "game_id": "2016_01_15_canisius_manhattan",
+      "home_score": 62,
+      "home_team": "Manhattan"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Evansville",
+      "game_id": "2016_01_15_evansville_illinois_state",
+      "home_score": 55,
+      "home_team": "Illinois State"
+    },
+    {
+      "away_score": 110,
+      "away_team": "Monmouth",
+      "game_id": "2016_01_15_monmouth_iona",
+      "home_score": 102,
+      "home_team": "Iona"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:22.033398Z"
+}

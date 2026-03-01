@@ -1,0 +1,160 @@
+{
+  "date": "2025-03-15",
+  "games": [
+    {
+      "away_score": 57,
+      "away_team": "Princeton",
+      "game_id": "2025_03_15_princeton_yale",
+      "home_score": 59,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Maine",
+      "game_id": "2025_03_15_maine_bryant",
+      "home_score": 77,
+      "home_team": "Bryant"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Wisconsin",
+      "game_id": "2025_03_15_wisconsin_michigan_state",
+      "home_score": 74,
+      "home_team": "Michigan State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "South Carolina State",
+      "game_id": "2025_03_15_south_carolina_state_norfolk_state",
+      "home_score": 66,
+      "home_team": "Norfolk State"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Tennessee",
+      "game_id": "2025_03_15_tennessee_auburn",
+      "home_score": 65,
+      "home_team": "Auburn"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Loyola Chicago",
+      "game_id": "2025_03_15_loyola_chicago_vcu",
+      "home_score": 62,
+      "home_team": "VCU"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Dartmouth",
+      "game_id": "2025_03_15_dartmouth_cornell",
+      "home_score": 87,
+      "home_team": "Cornell"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Tulane",
+      "game_id": "2025_03_15_tulane_memphis",
+      "home_score": 78,
+      "home_team": "Memphis"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Saint Joseph's",
+      "game_id": "2025_03_15_saint_joseph_s_george_mason",
+      "home_score": 74,
+      "home_team": "George Mason"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Michigan",
+      "game_id": "2025_03_15_michigan_maryland",
+      "home_score": 80,
+      "home_team": "Maryland"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Alabama",
+      "game_id": "2025_03_15_alabama_florida",
+      "home_score": 104,
+      "home_team": "Florida"
+    },
+    {
+      "away_score": 66,
+      "away_team": "UAB",
+      "game_id": "2025_03_15_uab_north_texas",
+      "home_score": 56,
+      "home_team": "North Texas"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Boise State",
+      "game_id": "2025_03_15_boise_state_colorado_state",
+      "home_score": 69,
+      "home_team": "Colorado State"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Arizona",
+      "game_id": "2025_03_15_arizona_houston",
+      "home_score": 72,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Creighton",
+      "game_id": "2025_03_15_creighton_st_john_s",
+      "home_score": 82,
+      "home_team": "St. John's"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Mount St. Mary's",
+      "game_id": "2025_03_15_mount_st_mary_s_iona",
+      "home_score": 49,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Miami (OH)",
+      "game_id": "2025_03_15_miami_oh_akron",
+      "home_score": 76,
+      "home_team": "Akron"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Jacksonville State",
+      "game_id": "2025_03_15_jacksonville_state_liberty",
+      "home_score": 79,
+      "home_team": "Liberty"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Louisville",
+      "game_id": "2025_03_15_louisville_duke",
+      "home_score": 73,
+      "home_team": "Duke"
+    },
+    {
+      "away_score": 61,
+      "away_team": "UC Irvine",
+      "game_id": "2025_03_15_uc_irvine_uc_san_diego",
+      "home_score": 75,
+      "home_team": "UC San Diego"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Alabama State",
+      "game_id": "2025_03_15_alabama_state_jackson_state",
+      "home_score": 56,
+      "home_team": "Jackson State"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Grand Canyon",
+      "game_id": "2025_03_15_grand_canyon_utah_valley",
+      "home_score": 82,
+      "home_team": "Utah Valley"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:39.605264Z"
+}

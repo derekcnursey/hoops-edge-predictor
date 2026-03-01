@@ -1,0 +1,69 @@
+{
+  "date": "2021-02-15",
+  "games": [
+    {
+      "away_score": 89,
+      "away_team": "Stephen F. Austin",
+      "game_id": "2021_02_15_stephen_f_austin_new_orleans",
+      "home_score": 79,
+      "home_team": "New Orleans"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Eastern Kentucky",
+      "game_id": "2021_02_15_eastern_kentucky_tennessee_tech",
+      "home_score": 72,
+      "home_team": "Tennessee Tech"
+    },
+    {
+      "away_score": 59,
+      "away_team": "George Fox",
+      "game_id": "2021_02_15_george_fox_idaho_state",
+      "home_score": 84,
+      "home_team": "Idaho State"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Murray State",
+      "game_id": "2021_02_15_murray_state_siu_edwardsville",
+      "home_score": 57,
+      "home_team": "SIU Edwardsville"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Hampton",
+      "game_id": "2021_02_15_hampton_longwood",
+      "home_score": 83,
+      "home_team": "Longwood"
+    },
+    {
+      "away_score": 65,
+      "away_team": "South Carolina Upstate",
+      "game_id": "2021_02_15_south_carolina_upstate_presbyterian",
+      "home_score": 75,
+      "home_team": "Presbyterian"
+    },
+    {
+      "away_score": 51,
+      "away_team": "East Tennessee State",
+      "game_id": "2021_02_15_east_tennessee_state_chattanooga",
+      "home_score": 53,
+      "home_team": "Chattanooga"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Virginia",
+      "game_id": "2021_02_15_virginia_florida_state",
+      "home_score": 81,
+      "home_team": "Florida State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Washington",
+      "game_id": "2021_02_15_washington_washington_state",
+      "home_score": 63,
+      "home_team": "Washington State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:31:38.287806Z"
+}

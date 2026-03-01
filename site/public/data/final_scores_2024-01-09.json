@@ -1,0 +1,237 @@
+{
+  "date": "2024-01-09",
+  "games": [
+    {
+      "away_score": 79,
+      "away_team": "Columbia",
+      "game_id": "2024_01_09_columbia_cornell",
+      "home_score": 91,
+      "home_team": "Cornell"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Seton Hall",
+      "game_id": "2024_01_09_seton_hall_georgetown",
+      "home_score": 70,
+      "home_team": "Georgetown"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Indiana",
+      "game_id": "2024_01_09_indiana_rutgers",
+      "home_score": 66,
+      "home_team": "Rutgers"
+    },
+    {
+      "away_score": 47,
+      "away_team": "South Carolina",
+      "game_id": "2024_01_09_south_carolina_alabama",
+      "home_score": 74,
+      "home_team": "Alabama"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Houston",
+      "game_id": "2024_01_09_houston_iowa_state",
+      "home_score": 57,
+      "home_team": "Iowa State"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Akron",
+      "game_id": "2024_01_09_akron_ball_state",
+      "home_score": 76,
+      "home_team": "Ball State"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Rhode Island",
+      "game_id": "2024_01_09_rhode_island_davidson",
+      "home_score": 74,
+      "home_team": "Davidson"
+    },
+    {
+      "away_score": 54,
+      "away_team": "VCU",
+      "game_id": "2024_01_09_vcu_george_mason",
+      "home_score": 50,
+      "home_team": "George Mason"
+    },
+    {
+      "away_score": 90,
+      "away_team": "Northern Illinois",
+      "game_id": "2024_01_09_northern_illinois_western_michigan",
+      "home_score": 95,
+      "home_team": "Western Michigan"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Toledo",
+      "game_id": "2024_01_09_toledo_kent_state",
+      "home_score": 75,
+      "home_team": "Kent State"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Ohio",
+      "game_id": "2024_01_09_ohio_bowling_green",
+      "home_score": 83,
+      "home_team": "Bowling Green"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Miami (OH)",
+      "game_id": "2024_01_09_miami_oh_buffalo",
+      "home_score": 65,
+      "home_team": "Buffalo"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Yale",
+      "game_id": "2024_01_09_yale_brown",
+      "home_score": 70,
+      "home_team": "Brown"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Central Michigan",
+      "game_id": "2024_01_09_central_michigan_eastern_michigan",
+      "home_score": 64,
+      "home_team": "Eastern Michigan"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Texas",
+      "game_id": "2024_01_09_texas_cincinnati",
+      "home_score": 73,
+      "home_team": "Cincinnati"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Wake Forest",
+      "game_id": "2024_01_09_wake_forest_florida_state",
+      "home_score": 87,
+      "home_team": "Florida State"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Missouri",
+      "game_id": "2024_01_09_missouri_kentucky",
+      "home_score": 90,
+      "home_team": "Kentucky"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Kansas State",
+      "game_id": "2024_01_09_kansas_state_west_virginia",
+      "home_score": 67,
+      "home_team": "West Virginia"
+    },
+    {
+      "away_score": 61,
+      "away_team": "SE Louisiana",
+      "game_id": "2024_01_09_se_louisiana_nicholls",
+      "home_score": 66,
+      "home_team": "Nicholls"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Richmond",
+      "game_id": "2024_01_09_richmond_loyola_chicago",
+      "home_score": 56,
+      "home_team": "Loyola Chicago"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Oklahoma State",
+      "game_id": "2024_01_09_oklahoma_state_texas_tech",
+      "home_score": 90,
+      "home_team": "Texas Tech"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Vanderbilt",
+      "game_id": "2024_01_09_vanderbilt_lsu",
+      "home_score": 77,
+      "home_team": "LSU"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Purdue",
+      "game_id": "2024_01_09_purdue_nebraska",
+      "home_score": 88,
+      "home_team": "Nebraska"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Colorado State",
+      "game_id": "2024_01_09_colorado_state_boise_state",
+      "home_score": 65,
+      "home_team": "Boise State"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Wyoming",
+      "game_id": "2024_01_09_wyoming_utah_state",
+      "home_score": 83,
+      "home_team": "Utah State"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Creighton",
+      "game_id": "2024_01_09_creighton_depaul",
+      "home_score": 58,
+      "home_team": "DePaul"
+    },
+    {
+      "away_score": 72,
+      "away_team": "BYU",
+      "game_id": "2024_01_09_byu_baylor",
+      "home_score": 81,
+      "home_team": "Baylor"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Texas A&M",
+      "game_id": "2024_01_09_texas_a_m_auburn",
+      "home_score": 66,
+      "home_team": "Auburn"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Duke",
+      "game_id": "2024_01_09_duke_pittsburgh",
+      "home_score": 53,
+      "home_team": "Pittsburgh"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Notre Dame",
+      "game_id": "2024_01_09_notre_dame_georgia_tech",
+      "home_score": 68,
+      "home_team": "Georgia Tech"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Air Force",
+      "game_id": "2024_01_09_air_force_nevada",
+      "home_score": 67,
+      "home_team": "Nevada"
+    },
+    {
+      "away_score": 73,
+      "away_team": "New Mexico",
+      "game_id": "2024_01_09_new_mexico_unlv",
+      "home_score": 83,
+      "home_team": "UNLV"
+    },
+    {
+      "away_score": 81,
+      "away_team": "San Diego State",
+      "game_id": "2024_01_09_san_diego_state_san_jos_state",
+      "home_score": 78,
+      "home_team": "San Jos\u00e9 State"
+    }
+  ],
+  "generated_at": "2026-02-28T22:39:14.638225Z"
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2019-04-04",
+  "games": [
+    {
+      "away_score": 66,
+      "away_team": "Lipscomb",
+      "game_id": "2019_04_04_lipscomb_texas",
+      "home_score": 81,
+      "home_team": "Texas"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Green Bay",
+      "game_id": "2019_04_04_green_bay_marshall",
+      "home_score": 90,
+      "home_team": "Marshall"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:34.617142Z"
+}

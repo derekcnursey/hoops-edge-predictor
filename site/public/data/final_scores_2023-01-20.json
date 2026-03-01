@@ -1,0 +1,104 @@
+{
+  "date": "2023-01-20",
+  "games": [
+    {
+      "away_score": 65,
+      "away_team": "Ball State",
+      "game_id": "2023_01_20_ball_state_kent_state",
+      "home_score": 86,
+      "home_team": "Kent State"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Iona",
+      "game_id": "2023_01_20_iona_manhattan",
+      "home_score": 76,
+      "home_team": "Manhattan"
+    },
+    {
+      "away_score": 74,
+      "away_team": "VCU",
+      "game_id": "2023_01_20_vcu_richmond",
+      "home_score": 62,
+      "home_team": "Richmond"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Central Connecticut",
+      "game_id": "2023_01_20_central_connecticut_wagner",
+      "home_score": 72,
+      "home_team": "Wagner"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Stonehill",
+      "game_id": "2023_01_20_stonehill_long_island_university",
+      "home_score": 66,
+      "home_team": "Long Island University"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Mount St. Mary's",
+      "game_id": "2023_01_20_mount_st_mary_s_siena",
+      "home_score": 72,
+      "home_team": "Siena"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Niagara",
+      "game_id": "2023_01_20_niagara_rider",
+      "home_score": 65,
+      "home_team": "Rider"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Saint Peter's",
+      "game_id": "2023_01_20_saint_peter_s_marist",
+      "home_score": 57,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 92,
+      "away_team": "Sacred Heart",
+      "game_id": "2023_01_20_sacred_heart_fairleigh_dickinson",
+      "home_score": 85,
+      "home_team": "Fairleigh Dickinson"
+    },
+    {
+      "away_score": 61,
+      "away_team": "St. Francis Brooklyn",
+      "game_id": "2023_01_20_st_francis_brooklyn_st_francis_pa",
+      "home_score": 87,
+      "home_team": "St. Francis (PA)"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Villanova",
+      "game_id": "2023_01_20_villanova_st_john_s",
+      "home_score": 49,
+      "home_team": "St. John's"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Canisius",
+      "game_id": "2023_01_20_canisius_fairfield",
+      "home_score": 67,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Toledo",
+      "game_id": "2023_01_20_toledo_buffalo",
+      "home_score": 77,
+      "home_team": "Buffalo"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Boise State",
+      "game_id": "2023_01_20_boise_state_new_mexico",
+      "home_score": 81,
+      "home_team": "New Mexico"
+    }
+  ],
+  "generated_at": "2026-02-28T21:34:19.682573Z"
+}

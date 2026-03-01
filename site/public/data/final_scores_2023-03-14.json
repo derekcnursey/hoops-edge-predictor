@@ -1,0 +1,76 @@
+{
+  "date": "2023-03-14",
+  "games": [
+    {
+      "away_score": 71,
+      "away_team": "Southeast Missouri State",
+      "game_id": "2023_03_14_southeast_missouri_state_texas_a_m_corpus_christi",
+      "home_score": 75,
+      "home_team": "Texas A&M-Corpus Christi"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Hofstra",
+      "game_id": "2023_03_14_hofstra_rutgers",
+      "home_score": 86,
+      "home_team": "Rutgers"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Toledo",
+      "game_id": "2023_03_14_toledo_michigan",
+      "home_score": 90,
+      "home_team": "Michigan"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Southern Miss",
+      "game_id": "2023_03_14_southern_miss_uab",
+      "home_score": 88,
+      "home_team": "UAB"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Yale",
+      "game_id": "2023_03_14_yale_vanderbilt",
+      "home_score": 71,
+      "home_team": "Vanderbilt"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Villanova",
+      "game_id": "2023_03_14_villanova_liberty",
+      "home_score": 62,
+      "home_team": "Liberty"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Bradley",
+      "game_id": "2023_03_14_bradley_wisconsin",
+      "home_score": 81,
+      "home_team": "Wisconsin"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Pittsburgh",
+      "game_id": "2023_03_14_pittsburgh_mississippi_state",
+      "home_score": 59,
+      "home_team": "Mississippi State"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Eastern Washington",
+      "game_id": "2023_03_14_eastern_washington_washington_state",
+      "home_score": 74,
+      "home_team": "Washington State"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Seton Hall",
+      "game_id": "2023_03_14_seton_hall_colorado",
+      "home_score": 65,
+      "home_team": "Colorado"
+    }
+  ],
+  "generated_at": "2026-02-28T21:34:52.309331Z"
+}

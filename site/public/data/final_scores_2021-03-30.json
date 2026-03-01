@@ -1,0 +1,20 @@
+{
+  "date": "2021-03-30",
+  "games": [
+    {
+      "away_score": 66,
+      "away_team": "USC",
+      "game_id": "2021_03_30_usc_gonzaga",
+      "home_score": 85,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 51,
+      "away_team": "UCLA",
+      "game_id": "2021_03_30_ucla_michigan",
+      "home_score": 49,
+      "home_team": "Michigan"
+    }
+  ],
+  "generated_at": "2026-02-28T21:32:01.294385Z"
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2015-12-10",
+  "games": [
+    {
+      "away_score": 62,
+      "away_team": "UL Monroe",
+      "game_id": "2015_12_10_ul_monroe_kent_state",
+      "home_score": 73,
+      "home_team": "Kent State"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Milligan",
+      "game_id": "2015_12_10_milligan_east_tennessee_state",
+      "home_score": 98,
+      "home_team": "East Tennessee State"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Ave Maria",
+      "game_id": "2015_12_10_ave_maria_florida_atlantic",
+      "home_score": 72,
+      "home_team": "Florida Atlantic"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Boston University",
+      "game_id": "2015_12_10_boston_university_umass_lowell",
+      "home_score": 60,
+      "home_team": "UMass Lowell"
+    },
+    {
+      "away_score": 92,
+      "away_team": "NJIT",
+      "game_id": "2015_12_10_njit_st_francis_brooklyn",
+      "home_score": 86,
+      "home_team": "St. Francis Brooklyn"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Utica",
+      "game_id": "2015_12_10_utica_colgate",
+      "home_score": 90,
+      "home_team": "Colgate"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Canisius",
+      "game_id": "2015_12_10_canisius_penn_state",
+      "home_score": 81,
+      "home_team": "Penn State"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Iowa",
+      "game_id": "2015_12_10_iowa_iowa_state",
+      "home_score": 83,
+      "home_team": "Iowa State"
+    },
+    {
+      "away_score": 74,
+      "away_team": "IU Indianapolis",
+      "game_id": "2015_12_10_iu_indianapolis_missouri_state",
+      "home_score": 88,
+      "home_team": "Missouri State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Troy",
+      "game_id": "2015_12_10_troy_seton_hall",
+      "home_score": 78,
+      "home_team": "Seton Hall"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Cumberland (TN)",
+      "game_id": "2015_12_10_cumberland_tn_lipscomb",
+      "home_score": 83,
+      "home_team": "Lipscomb"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Washington State",
+      "game_id": "2015_12_10_washington_state_idaho",
+      "home_score": 78,
+      "home_team": "Idaho"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Southern",
+      "game_id": "2015_12_10_southern_wyoming",
+      "home_score": 58,
+      "home_team": "Wyoming"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Nicholls",
+      "game_id": "2015_12_10_nicholls_san_diego_state",
+      "home_score": 84,
+      "home_team": "San Diego State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:01.306100Z"
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2019-03-28",
+  "games": [
+    {
+      "away_score": 47,
+      "away_team": "Loyola Marymount",
+      "game_id": "2019_03_28_loyola_marymount_south_florida",
+      "home_score": 56,
+      "home_team": "South Florida"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Hampton",
+      "game_id": "2019_03_28_hampton_njit",
+      "home_score": 70,
+      "home_team": "NJIT"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Florida State",
+      "game_id": "2019_03_28_florida_state_gonzaga",
+      "home_score": 72,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 99,
+      "away_team": "Purdue",
+      "game_id": "2019_03_28_purdue_tennessee",
+      "home_score": 94,
+      "home_team": "Tennessee"
+    },
+    {
+      "away_score": 108,
+      "away_team": "Texas Southern",
+      "game_id": "2019_03_28_texas_southern_ul_monroe",
+      "home_score": 102,
+      "home_team": "UL Monroe"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Texas Tech",
+      "game_id": "2019_03_28_texas_tech_michigan",
+      "home_score": 44,
+      "home_team": "Michigan"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Oregon",
+      "game_id": "2019_03_28_oregon_virginia",
+      "home_score": 53,
+      "home_team": "Virginia"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:30.527707Z"
+}

@@ -1,0 +1,167 @@
+{
+  "date": "2018-01-07",
+  "games": [
+    {
+      "away_score": 39,
+      "away_team": "Temple",
+      "game_id": "2018_01_07_temple_ucf",
+      "home_score": 60,
+      "home_team": "UCF"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Davidson",
+      "game_id": "2018_01_07_davidson_george_mason",
+      "home_score": 59,
+      "home_team": "George Mason"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Fairfield",
+      "game_id": "2018_01_07_fairfield_iona",
+      "home_score": 84,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Northern Kentucky",
+      "game_id": "2018_01_07_northern_kentucky_detroit_mercy",
+      "home_score": 54,
+      "home_team": "Detroit Mercy"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Missouri State",
+      "game_id": "2018_01_07_missouri_state_illinois_state",
+      "home_score": 72,
+      "home_team": "Illinois State"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Charleston",
+      "game_id": "2018_01_07_charleston_towson",
+      "home_score": 73,
+      "home_team": "Towson"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Niagara",
+      "game_id": "2018_01_07_niagara_marist",
+      "home_score": 70,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Quinnipiac",
+      "game_id": "2018_01_07_quinnipiac_saint_peter_s",
+      "home_score": 84,
+      "home_team": "Saint Peter's"
+    },
+    {
+      "away_score": 67,
+      "away_team": "James Madison",
+      "game_id": "2018_01_07_james_madison_northeastern",
+      "home_score": 80,
+      "home_team": "Northeastern"
+    },
+    {
+      "away_score": 76,
+      "away_team": "UNC Wilmington",
+      "game_id": "2018_01_07_unc_wilmington_delaware",
+      "home_score": 96,
+      "home_team": "Delaware"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Wright State",
+      "game_id": "2018_01_07_wright_state_oakland",
+      "home_score": 81,
+      "home_team": "Oakland"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Canisius",
+      "game_id": "2018_01_07_canisius_siena",
+      "home_score": 65,
+      "home_team": "Siena"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Loyola Chicago",
+      "game_id": "2018_01_07_loyola_chicago_northern_iowa",
+      "home_score": 50,
+      "home_team": "Northern Iowa"
+    },
+    {
+      "away_score": 57,
+      "away_team": "South Florida",
+      "game_id": "2018_01_07_south_florida_wichita_state",
+      "home_score": 95,
+      "home_team": "Wichita State"
+    },
+    {
+      "away_score": 85,
+      "away_team": "William & Mary",
+      "game_id": "2018_01_07_william_mary_drexel",
+      "home_score": 63,
+      "home_team": "Drexel"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Elon",
+      "game_id": "2018_01_07_elon_hofstra",
+      "home_score": 76,
+      "home_team": "Hofstra"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Michigan State",
+      "game_id": "2018_01_07_michigan_state_ohio_state",
+      "home_score": 80,
+      "home_team": "Ohio State"
+    },
+    {
+      "away_score": 56,
+      "away_team": "SMU",
+      "game_id": "2018_01_07_smu_cincinnati",
+      "home_score": 76,
+      "home_team": "Cincinnati"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Florida State",
+      "game_id": "2018_01_07_florida_state_miami",
+      "home_score": 80,
+      "home_team": "Miami"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Rider",
+      "game_id": "2018_01_07_rider_manhattan",
+      "home_score": 76,
+      "home_team": "Manhattan"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Arizona State",
+      "game_id": "2018_01_07_arizona_state_utah",
+      "home_score": 77,
+      "home_team": "Utah"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Iowa",
+      "game_id": "2018_01_07_iowa_maryland",
+      "home_score": 91,
+      "home_team": "Maryland"
+    },
+    {
+      "away_score": 76,
+      "away_team": "USC",
+      "game_id": "2018_01_07_usc_stanford",
+      "home_score": 77,
+      "home_team": "Stanford"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:07.486571Z"
+}

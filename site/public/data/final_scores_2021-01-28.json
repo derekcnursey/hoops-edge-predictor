@@ -1,0 +1,167 @@
+{
+  "date": "2021-01-28",
+  "games": [
+    {
+      "away_score": 68,
+      "away_team": "Merrimack",
+      "game_id": "2021_01_28_merrimack_long_island_university",
+      "home_score": 78,
+      "home_team": "Long Island University"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Oregon State",
+      "game_id": "2021_01_28_oregon_state_usc",
+      "home_score": 75,
+      "home_team": "USC"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Bradley",
+      "game_id": "2021_01_28_bradley_valparaiso",
+      "home_score": 91,
+      "home_team": "Valparaiso"
+    },
+    {
+      "away_score": 37,
+      "away_team": "Michigan State",
+      "game_id": "2021_01_28_michigan_state_rutgers",
+      "home_score": 67,
+      "home_team": "Rutgers"
+    },
+    {
+      "away_score": 79,
+      "away_team": "UTEP",
+      "game_id": "2021_01_28_utep_utsa",
+      "home_score": 86,
+      "home_team": "UTSA"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Louisiana Tech",
+      "game_id": "2021_01_28_louisiana_tech_southern_miss",
+      "home_score": 63,
+      "home_team": "Southern Miss"
+    },
+    {
+      "away_score": 80,
+      "away_team": "UNC Asheville",
+      "game_id": "2021_01_28_unc_asheville_winthrop",
+      "home_score": 84,
+      "home_team": "Winthrop"
+    },
+    {
+      "away_score": 51,
+      "away_team": "TCU",
+      "game_id": "2021_01_28_tcu_kansas",
+      "home_score": 59,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Memphis",
+      "game_id": "2021_01_28_memphis_smu",
+      "home_score": 67,
+      "home_team": "SMU"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Tennessee State",
+      "game_id": "2021_01_28_tennessee_state_murray_state",
+      "home_score": 73,
+      "home_team": "Murray State"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Morehead State",
+      "game_id": "2021_01_28_morehead_state_jacksonville_state",
+      "home_score": 66,
+      "home_team": "Jacksonville State"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Wyoming",
+      "game_id": "2021_01_28_wyoming_san_diego_state",
+      "home_score": 87,
+      "home_team": "San Diego State"
+    },
+    {
+      "away_score": 90,
+      "away_team": "Gonzaga",
+      "game_id": "2021_01_28_gonzaga_san_diego",
+      "home_score": 62,
+      "home_team": "San Diego"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Houston",
+      "game_id": "2021_01_28_houston_tulane",
+      "home_score": 60,
+      "home_team": "Tulane"
+    },
+    {
+      "away_score": 62,
+      "away_team": "SIU Edwardsville",
+      "game_id": "2021_01_28_siu_edwardsville_southeast_missouri_state",
+      "home_score": 64,
+      "home_team": "Southeast Missouri State"
+    },
+    {
+      "away_score": 41,
+      "away_team": "Eastern Illinois",
+      "game_id": "2021_01_28_eastern_illinois_ut_martin",
+      "home_score": 51,
+      "home_team": "UT Martin"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Belmont",
+      "game_id": "2021_01_28_belmont_austin_peay",
+      "home_score": 76,
+      "home_team": "Austin Peay"
+    },
+    {
+      "away_score": 70,
+      "away_team": "UAB",
+      "game_id": "2021_01_28_uab_middle_tennessee",
+      "home_score": 59,
+      "home_team": "Middle Tennessee"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Weber State",
+      "game_id": "2021_01_28_weber_state_idaho",
+      "home_score": 56,
+      "home_team": "Idaho"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Air Force",
+      "game_id": "2021_01_28_air_force_san_jos_state",
+      "home_score": 59,
+      "home_team": "San Jos\u00e9 State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Stanford",
+      "game_id": "2021_01_28_stanford_arizona",
+      "home_score": 64,
+      "home_team": "Arizona"
+    },
+    {
+      "away_score": 62,
+      "away_team": "New Mexico",
+      "game_id": "2021_01_28_new_mexico_fresno_state",
+      "home_score": 64,
+      "home_team": "Fresno State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "California",
+      "game_id": "2021_01_28_california_arizona_state",
+      "home_score": 72,
+      "home_team": "Arizona State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:31:28.162433Z"
+}

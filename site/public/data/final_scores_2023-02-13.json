@@ -1,0 +1,153 @@
+{
+  "date": "2023-02-13",
+  "games": [
+    {
+      "away_score": 60,
+      "away_team": "Stony Brook",
+      "game_id": "2023_02_13_stony_brook_delaware",
+      "home_score": 71,
+      "home_team": "Delaware"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Northeastern",
+      "game_id": "2023_02_13_northeastern_charleston",
+      "home_score": 99,
+      "home_team": "Charleston"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Miami",
+      "game_id": "2023_02_13_miami_north_carolina",
+      "home_score": 72,
+      "home_team": "North Carolina"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Drexel",
+      "game_id": "2023_02_13_drexel_hofstra",
+      "home_score": 66,
+      "home_team": "Hofstra"
+    },
+    {
+      "away_score": 51,
+      "away_team": "American University",
+      "game_id": "2023_02_13_american_university_bucknell",
+      "home_score": 73,
+      "home_team": "Bucknell"
+    },
+    {
+      "away_score": 71,
+      "away_team": "North Carolina A&T",
+      "game_id": "2023_02_13_north_carolina_a_t_monmouth",
+      "home_score": 85,
+      "home_team": "Monmouth"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Towson",
+      "game_id": "2023_02_13_towson_william_mary",
+      "home_score": 68,
+      "home_team": "William & Mary"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Delaware State",
+      "game_id": "2023_02_13_delaware_state_norfolk_state",
+      "home_score": 97,
+      "home_team": "Norfolk State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Maryland Eastern Shore",
+      "game_id": "2023_02_13_maryland_eastern_shore_howard",
+      "home_score": 78,
+      "home_team": "Howard"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Morgan State",
+      "game_id": "2023_02_13_morgan_state_south_carolina_state",
+      "home_score": 74,
+      "home_team": "South Carolina State"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Jackson State",
+      "game_id": "2023_02_13_jackson_state_bethune_cookman",
+      "home_score": 64,
+      "home_team": "Bethune-Cookman"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Alcorn State",
+      "game_id": "2023_02_13_alcorn_state_florida_a_m",
+      "home_score": 64,
+      "home_team": "Florida A&M"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Hartford",
+      "game_id": "2023_02_13_hartford_south_alabama",
+      "home_score": 77,
+      "home_team": "South Alabama"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Coppin State",
+      "game_id": "2023_02_13_coppin_state_north_carolina_central",
+      "home_score": 85,
+      "home_team": "North Carolina Central"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Prairie View A&M",
+      "game_id": "2023_02_13_prairie_view_a_m_grambling",
+      "home_score": 68,
+      "home_team": "Grambling"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Alabama State",
+      "game_id": "2023_02_13_alabama_state_mississippi_valley_state",
+      "home_score": 76,
+      "home_team": "Mississippi Valley State"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Alabama A&M",
+      "game_id": "2023_02_13_alabama_a_m_arkansas_pine_bluff",
+      "home_score": 72,
+      "home_team": "Arkansas-Pine Bluff"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Texas",
+      "game_id": "2023_02_13_texas_texas_tech",
+      "home_score": 74,
+      "home_team": "Texas Tech"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Hampton",
+      "game_id": "2023_02_13_hampton_elon",
+      "home_score": 70,
+      "home_team": "Elon"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Texas Southern",
+      "game_id": "2023_02_13_texas_southern_southern",
+      "home_score": 68,
+      "home_team": "Southern"
+    },
+    {
+      "away_score": 67,
+      "away_team": "West Virginia",
+      "game_id": "2023_02_13_west_virginia_baylor",
+      "home_score": 79,
+      "home_team": "Baylor"
+    }
+  ],
+  "generated_at": "2026-02-28T21:34:33.973812Z"
+}

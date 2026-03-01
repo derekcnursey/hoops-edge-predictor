@@ -1,0 +1,48 @@
+{
+  "date": "2016-01-08",
+  "games": [
+    {
+      "away_score": 76,
+      "away_team": "Buffalo",
+      "game_id": "2016_01_08_buffalo_kent_state",
+      "home_score": 67,
+      "home_team": "Kent State"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Daniel Webster College",
+      "game_id": "2016_01_08_daniel_webster_college_yale",
+      "home_score": 94,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Western Michigan",
+      "game_id": "2016_01_08_western_michigan_akron",
+      "home_score": 62,
+      "home_team": "Akron"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Valparaiso",
+      "game_id": "2016_01_08_valparaiso_oakland",
+      "home_score": 67,
+      "home_team": "Oakland"
+    },
+    {
+      "away_score": 69,
+      "away_team": "UIC",
+      "game_id": "2016_01_08_uic_detroit_mercy",
+      "home_score": 87,
+      "home_team": "Detroit Mercy"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Utah",
+      "game_id": "2016_01_08_utah_colorado",
+      "home_score": 54,
+      "home_team": "Colorado"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:17.984468Z"
+}

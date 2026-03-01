@@ -1,0 +1,153 @@
+{
+  "date": "2025-01-12",
+  "games": [
+    {
+      "away_score": 68,
+      "away_team": "Nebraska",
+      "game_id": "2025_01_12_nebraska_purdue",
+      "home_score": 104,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Michigan State",
+      "game_id": "2025_01_12_michigan_state_northwestern",
+      "home_score": 68,
+      "home_team": "Northwestern"
+    },
+    {
+      "away_score": 66,
+      "away_team": "VMI",
+      "game_id": "2025_01_12_vmi_chattanooga",
+      "home_score": 91,
+      "home_team": "Chattanooga"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Rider",
+      "game_id": "2025_01_12_rider_niagara",
+      "home_score": 65,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 75,
+      "away_team": "St. Francis (PA)",
+      "game_id": "2025_01_12_st_francis_pa_fairleigh_dickinson",
+      "home_score": 71,
+      "home_team": "Fairleigh Dickinson"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Long Island University",
+      "game_id": "2025_01_12_long_island_university_central_connecticut",
+      "home_score": 52,
+      "home_team": "Central Connecticut"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Quinnipiac",
+      "game_id": "2025_01_12_quinnipiac_iona",
+      "home_score": 62,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Saint Peter's",
+      "game_id": "2025_01_12_saint_peter_s_canisius",
+      "home_score": 49,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Stonehill",
+      "game_id": "2025_01_12_stonehill_chicago_state",
+      "home_score": 52,
+      "home_team": "Chicago State"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Sacred Heart",
+      "game_id": "2025_01_12_sacred_heart_mount_st_mary_s",
+      "home_score": 73,
+      "home_team": "Mount St. Mary's"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Washington",
+      "game_id": "2025_01_12_washington_michigan",
+      "home_score": 91,
+      "home_team": "Michigan"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Mercyhurst",
+      "game_id": "2025_01_12_mercyhurst_le_moyne",
+      "home_score": 79,
+      "home_team": "Le Moyne"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Manhattan",
+      "game_id": "2025_01_12_manhattan_merrimack",
+      "home_score": 69,
+      "home_team": "Merrimack"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Fairfield",
+      "game_id": "2025_01_12_fairfield_marist",
+      "home_score": 61,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Wright State",
+      "game_id": "2025_01_12_wright_state_robert_morris",
+      "home_score": 75,
+      "home_team": "Robert Morris"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Charlotte",
+      "game_id": "2025_01_12_charlotte_tulsa",
+      "home_score": 69,
+      "home_team": "Tulsa"
+    },
+    {
+      "away_score": 78,
+      "away_team": "West Virginia",
+      "game_id": "2025_01_12_west_virginia_colorado",
+      "home_score": 70,
+      "home_team": "Colorado"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Mercer",
+      "game_id": "2025_01_12_mercer_western_carolina",
+      "home_score": 85,
+      "home_team": "Western Carolina"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Oregon",
+      "game_id": "2025_01_12_oregon_penn_state",
+      "home_score": 81,
+      "home_team": "Penn State"
+    },
+    {
+      "away_score": 81,
+      "away_team": "UAB",
+      "game_id": "2025_01_12_uab_florida_atlantic",
+      "home_score": 76,
+      "home_team": "Florida Atlantic"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Southern Indiana",
+      "game_id": "2025_01_12_southern_indiana_little_rock",
+      "home_score": 78,
+      "home_team": "Little Rock"
+    }
+  ],
+  "generated_at": "2026-02-28T23:29:43.945302Z"
+}

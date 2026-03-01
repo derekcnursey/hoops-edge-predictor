@@ -1,0 +1,97 @@
+{
+  "date": "2024-03-19",
+  "games": [
+    {
+      "away_score": 71,
+      "away_team": "Wagner",
+      "game_id": "2024_03_19_wagner_howard",
+      "home_score": 68,
+      "home_team": "Howard"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Cornell",
+      "game_id": "2024_03_19_cornell_ohio_state",
+      "home_score": 88,
+      "home_team": "Ohio State"
+    },
+    {
+      "away_score": 84,
+      "away_team": "North Texas",
+      "game_id": "2024_03_19_north_texas_lsu",
+      "home_score": 77,
+      "home_team": "LSU"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Boston College",
+      "game_id": "2024_03_19_boston_college_providence",
+      "home_score": 57,
+      "home_team": "Providence"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Xavier",
+      "game_id": "2024_03_19_xavier_georgia",
+      "home_score": 78,
+      "home_team": "Georgia"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Texas Southern",
+      "game_id": "2024_03_19_texas_southern_tarleton_state",
+      "home_score": 82,
+      "home_team": "Tarleton State"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Kansas State",
+      "game_id": "2024_03_19_kansas_state_iowa",
+      "home_score": 91,
+      "home_team": "Iowa"
+    },
+    {
+      "away_score": 83,
+      "away_team": "South Florida",
+      "game_id": "2024_03_19_south_florida_ucf",
+      "home_score": 77,
+      "home_team": "UCF"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Richmond",
+      "game_id": "2024_03_19_richmond_virginia_tech",
+      "home_score": 74,
+      "home_team": "Virginia Tech"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Abilene Christian",
+      "game_id": "2024_03_19_abilene_christian_texas_a_m_corpus_christi",
+      "home_score": 63,
+      "home_team": "Texas A&M-Corpus Christi"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Minnesota",
+      "game_id": "2024_03_19_minnesota_butler",
+      "home_score": 72,
+      "home_team": "Butler"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Colorado State",
+      "game_id": "2024_03_19_colorado_state_virginia",
+      "home_score": 42,
+      "home_team": "Virginia"
+    },
+    {
+      "away_score": 75,
+      "away_team": "UC Irvine",
+      "game_id": "2024_03_19_uc_irvine_utah",
+      "home_score": 84,
+      "home_team": "Utah"
+    }
+  ],
+  "generated_at": "2026-02-28T22:39:58.682199Z"
+}

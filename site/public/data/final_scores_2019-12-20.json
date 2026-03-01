@@ -1,0 +1,160 @@
+{
+  "date": "2019-12-20",
+  "games": [
+    {
+      "away_score": 48,
+      "away_team": "Mount St. Mary's",
+      "game_id": "2019_12_20_mount_st_mary_s_navy",
+      "home_score": 59,
+      "home_team": "Navy"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Tulane",
+      "game_id": "2019_12_20_tulane_akron",
+      "home_score": 62,
+      "home_team": "Akron"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Quinnipiac",
+      "game_id": "2019_12_20_quinnipiac_drexel",
+      "home_score": 72,
+      "home_team": "Drexel"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Towson",
+      "game_id": "2019_12_20_towson_liberty",
+      "home_score": 66,
+      "home_team": "Liberty"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Central Connecticut",
+      "game_id": "2019_12_20_central_connecticut_penn_state",
+      "home_score": 87,
+      "home_team": "Penn State"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Ecclesia",
+      "game_id": "2019_12_20_ecclesia_alcorn_state",
+      "home_score": 122,
+      "home_team": "Alcorn State"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Delaware",
+      "game_id": "2019_12_20_delaware_long_island_university",
+      "home_score": 82,
+      "home_team": "Long Island University"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Lipscomb",
+      "game_id": "2019_12_20_lipscomb_vermont",
+      "home_score": 86,
+      "home_team": "Vermont"
+    },
+    {
+      "away_score": 80,
+      "away_team": "North Alabama",
+      "game_id": "2019_12_20_north_alabama_alabama_a_m",
+      "home_score": 92,
+      "home_team": "Alabama A&M"
+    },
+    {
+      "away_score": 75,
+      "away_team": "James Madison",
+      "game_id": "2019_12_20_james_madison_fordham",
+      "home_score": 69,
+      "home_team": "Fordham"
+    },
+    {
+      "away_score": 85,
+      "away_team": "SMU",
+      "game_id": "2019_12_20_smu_georgia",
+      "home_score": 87,
+      "home_team": "Georgia"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Binghamton",
+      "game_id": "2019_12_20_binghamton_pittsburgh",
+      "home_score": 79,
+      "home_team": "Pittsburgh"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Maine",
+      "game_id": "2019_12_20_maine_massachusetts",
+      "home_score": 74,
+      "home_team": "Massachusetts"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Norfolk State",
+      "game_id": "2019_12_20_norfolk_state_bowling_green",
+      "home_score": 67,
+      "home_team": "Bowling Green"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Furman",
+      "game_id": "2019_12_20_furman_mercer",
+      "home_score": 62,
+      "home_team": "Mercer"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Northern Colorado",
+      "game_id": "2019_12_20_northern_colorado_south_dakota",
+      "home_score": 68,
+      "home_team": "South Dakota"
+    },
+    {
+      "away_score": 67,
+      "away_team": "UC Irvine",
+      "game_id": "2019_12_20_uc_irvine_uic",
+      "home_score": 76,
+      "home_team": "UIC"
+    },
+    {
+      "away_score": 39,
+      "away_team": "Jacksonville",
+      "game_id": "2019_12_20_jacksonville_clemson",
+      "home_score": 68,
+      "home_team": "Clemson"
+    },
+    {
+      "away_score": 68,
+      "away_team": "North Dakota State",
+      "game_id": "2019_12_20_north_dakota_state_marquette",
+      "home_score": 82,
+      "home_team": "Marquette"
+    },
+    {
+      "away_score": 64,
+      "away_team": "IU Indianapolis",
+      "game_id": "2019_12_20_iu_indianapolis_fresno_state",
+      "home_score": 95,
+      "home_team": "Fresno State"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Mississippi Valley State",
+      "game_id": "2019_12_20_mississippi_valley_state_santa_clara",
+      "home_score": 100,
+      "home_team": "Santa Clara"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Southern",
+      "game_id": "2019_12_20_southern_uc_santa_barbara",
+      "home_score": 77,
+      "home_team": "UC Santa Barbara"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:13.374379Z"
+}

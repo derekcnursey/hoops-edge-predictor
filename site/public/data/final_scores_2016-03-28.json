@@ -1,0 +1,41 @@
+{
+  "date": "2016-03-28",
+  "games": [
+    {
+      "away_score": 75,
+      "away_team": "Old Dominion",
+      "game_id": "2016_03_28_old_dominion_tennessee_tech",
+      "home_score": 59,
+      "home_team": "Tennessee Tech"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Northern Illinois",
+      "game_id": "2016_03_28_northern_illinois_uc_santa_barbara",
+      "home_score": 70,
+      "home_team": "UC Santa Barbara"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Nevada",
+      "game_id": "2016_03_28_nevada_morehead_state",
+      "home_score": 86,
+      "home_team": "Morehead State"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Towson",
+      "game_id": "2016_03_28_towson_oakland",
+      "home_score": 90,
+      "home_team": "Oakland"
+    },
+    {
+      "away_score": 88,
+      "away_team": "East Tennessee State",
+      "game_id": "2016_03_28_east_tennessee_state_louisiana_tech",
+      "home_score": 83,
+      "home_team": "Louisiana Tech"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:05.757817Z"
+}

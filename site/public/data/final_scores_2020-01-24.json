@@ -1,0 +1,76 @@
+{
+  "date": "2020-01-24",
+  "games": [
+    {
+      "away_score": 70,
+      "away_team": "Kent State",
+      "game_id": "2020_01_24_kent_state_buffalo",
+      "home_score": 66,
+      "home_team": "Buffalo"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Fairfield",
+      "game_id": "2020_01_24_fairfield_quinnipiac",
+      "home_score": 81,
+      "home_team": "Quinnipiac"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Saint Peter's",
+      "game_id": "2020_01_24_saint_peter_s_rider",
+      "home_score": 70,
+      "home_team": "Rider"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Niagara",
+      "game_id": "2020_01_24_niagara_monmouth",
+      "home_score": 82,
+      "home_team": "Monmouth"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Wisconsin",
+      "game_id": "2020_01_24_wisconsin_purdue",
+      "home_score": 70,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Marist",
+      "game_id": "2020_01_24_marist_siena",
+      "home_score": 70,
+      "home_team": "Siena"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Yale",
+      "game_id": "2020_01_24_yale_brown",
+      "home_score": 62,
+      "home_team": "Brown"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Canisius",
+      "game_id": "2020_01_24_canisius_iona",
+      "home_score": 69,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Northern Kentucky",
+      "game_id": "2020_01_24_northern_kentucky_wright_state",
+      "home_score": 95,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Marquette",
+      "game_id": "2020_01_24_marquette_butler",
+      "home_score": 89,
+      "home_team": "Butler"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:33.700109Z"
+}

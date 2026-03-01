@@ -1,0 +1,160 @@
+{
+  "date": "2024-03-04",
+  "games": [
+    {
+      "away_score": 69,
+      "away_team": "Queens University",
+      "game_id": "2024_03_04_queens_university_florida_gulf_coast",
+      "home_score": 63,
+      "home_team": "Florida Gulf Coast"
+    },
+    {
+      "away_score": 92,
+      "away_team": "Jacksonville",
+      "game_id": "2024_03_04_jacksonville_kennesaw_state",
+      "home_score": 86,
+      "home_team": "Kennesaw State"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Duke",
+      "game_id": "2024_03_04_duke_nc_state",
+      "home_score": 64,
+      "home_team": "NC State"
+    },
+    {
+      "away_score": 79,
+      "away_team": "North Carolina Central",
+      "game_id": "2024_03_04_north_carolina_central_morgan_state",
+      "home_score": 88,
+      "home_team": "Morgan State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Nicholls",
+      "game_id": "2024_03_04_nicholls_northwestern_state",
+      "home_score": 62,
+      "home_team": "Northwestern State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "SE Louisiana",
+      "game_id": "2024_03_04_se_louisiana_incarnate_word",
+      "home_score": 56,
+      "home_team": "Incarnate Word"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Maryland Eastern Shore",
+      "game_id": "2024_03_04_maryland_eastern_shore_norfolk_state",
+      "home_score": 69,
+      "home_team": "Norfolk State"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Delaware State",
+      "game_id": "2024_03_04_delaware_state_howard",
+      "home_score": 85,
+      "home_team": "Howard"
+    },
+    {
+      "away_score": 61,
+      "away_team": "South Carolina State",
+      "game_id": "2024_03_04_south_carolina_state_coppin_state",
+      "home_score": 58,
+      "home_team": "Coppin State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Houston Christian",
+      "game_id": "2024_03_04_houston_christian_mcneese",
+      "home_score": 87,
+      "home_team": "McNeese"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Lamar",
+      "game_id": "2024_03_04_lamar_east_texas_a_m",
+      "home_score": 53,
+      "home_team": "East Texas A&M"
+    },
+    {
+      "away_score": 60,
+      "away_team": "New Orleans",
+      "game_id": "2024_03_04_new_orleans_texas_a_m_corpus_christi",
+      "home_score": 73,
+      "home_team": "Texas A&M-Corpus Christi"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Northern Colorado",
+      "game_id": "2024_03_04_northern_colorado_northern_arizona",
+      "home_score": 74,
+      "home_team": "Northern Arizona"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Alcorn State",
+      "game_id": "2024_03_04_alcorn_state_texas_southern",
+      "home_score": 79,
+      "home_team": "Texas Southern"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Bethune-Cookman",
+      "game_id": "2024_03_04_bethune_cookman_grambling",
+      "home_score": 69,
+      "home_team": "Grambling"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Jackson State",
+      "game_id": "2024_03_04_jackson_state_prairie_view_a_m",
+      "home_score": 74,
+      "home_team": "Prairie View A&M"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Weber State",
+      "game_id": "2024_03_04_weber_state_montana_state",
+      "home_score": 76,
+      "home_team": "Montana State"
+    },
+    {
+      "away_score": 44,
+      "away_team": "Florida A&M",
+      "game_id": "2024_03_04_florida_a_m_southern",
+      "home_score": 58,
+      "home_team": "Southern"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Texas",
+      "game_id": "2024_03_04_texas_baylor",
+      "home_score": 93,
+      "home_team": "Baylor"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Eastern Washington",
+      "game_id": "2024_03_04_eastern_washington_sacramento_state",
+      "home_score": 88,
+      "home_team": "Sacramento State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Idaho State",
+      "game_id": "2024_03_04_idaho_state_montana",
+      "home_score": 79,
+      "home_team": "Montana"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Idaho",
+      "game_id": "2024_03_04_idaho_portland_state",
+      "home_score": 72,
+      "home_team": "Portland State"
+    }
+  ],
+  "generated_at": "2026-02-28T22:39:49.864276Z"
+}

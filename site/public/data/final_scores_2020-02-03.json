@@ -1,0 +1,104 @@
+{
+  "date": "2020-02-03",
+  "games": [
+    {
+      "away_score": 63,
+      "away_team": "Norfolk State",
+      "game_id": "2020_02_03_norfolk_state_north_carolina_central",
+      "home_score": 69,
+      "home_team": "North Carolina Central"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Lafayette",
+      "game_id": "2020_02_03_lafayette_bucknell",
+      "home_score": 62,
+      "home_team": "Bucknell"
+    },
+    {
+      "away_score": 59,
+      "away_team": "North Carolina",
+      "game_id": "2020_02_03_north_carolina_florida_state",
+      "home_score": 65,
+      "home_team": "Florida State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Maryland Eastern Shore",
+      "game_id": "2020_02_03_maryland_eastern_shore_delaware_state",
+      "home_score": 66,
+      "home_team": "Delaware State"
+    },
+    {
+      "away_score": 63,
+      "away_team": "South Carolina State",
+      "game_id": "2020_02_03_south_carolina_state_north_carolina_a_t",
+      "home_score": 78,
+      "home_team": "North Carolina A&T"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Coppin State",
+      "game_id": "2020_02_03_coppin_state_howard",
+      "home_score": 56,
+      "home_team": "Howard"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Eastern Washington",
+      "game_id": "2020_02_03_eastern_washington_northern_arizona",
+      "home_score": 66,
+      "home_team": "Northern Arizona"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Jackson State",
+      "game_id": "2020_02_03_jackson_state_arkansas_pine_bluff",
+      "home_score": 45,
+      "home_team": "Arkansas-Pine Bluff"
+    },
+    {
+      "away_score": 90,
+      "away_team": "Grambling",
+      "game_id": "2020_02_03_grambling_mississippi_valley_state",
+      "home_score": 65,
+      "home_team": "Mississippi Valley State"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Texas Southern",
+      "game_id": "2020_02_03_texas_southern_alabama_state",
+      "home_score": 79,
+      "home_team": "Alabama State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Prairie View A&M",
+      "game_id": "2020_02_03_prairie_view_a_m_alabama_a_m",
+      "home_score": 54,
+      "home_team": "Alabama A&M"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Texas",
+      "game_id": "2020_02_03_texas_kansas",
+      "home_score": 69,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Baylor",
+      "game_id": "2020_02_03_baylor_kansas_state",
+      "home_score": 67,
+      "home_team": "Kansas State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Idaho",
+      "game_id": "2020_02_03_idaho_sacramento_state",
+      "home_score": 53,
+      "home_team": "Sacramento State"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:39.528529Z"
+}

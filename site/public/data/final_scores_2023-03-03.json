@@ -1,0 +1,230 @@
+{
+  "date": "2023-03-03",
+  "games": [
+    {
+      "away_score": 66,
+      "away_team": "Charleston Southern",
+      "game_id": "2023_03_03_charleston_southern_unc_asheville",
+      "home_score": 75,
+      "home_team": "UNC Asheville"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Northern Iowa",
+      "game_id": "2023_03_03_northern_iowa_bradley",
+      "home_score": 72,
+      "home_team": "Bradley"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Eastern Michigan",
+      "game_id": "2023_03_03_eastern_michigan_northern_illinois",
+      "home_score": 85,
+      "home_team": "Northern Illinois"
+    },
+    {
+      "away_score": 100,
+      "away_team": "Monmouth",
+      "game_id": "2023_03_03_monmouth_hampton",
+      "home_score": 64,
+      "home_team": "Hampton"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Gardner-Webb",
+      "game_id": "2023_03_03_gardner_webb_south_carolina_upstate",
+      "home_score": 77,
+      "home_team": "South Carolina Upstate"
+    },
+    {
+      "away_score": 94,
+      "away_team": "Indiana State",
+      "game_id": "2023_03_03_indiana_state_belmont",
+      "home_score": 91,
+      "home_team": "Belmont"
+    },
+    {
+      "away_score": 41,
+      "away_team": "The Citadel",
+      "game_id": "2023_03_03_the_citadel_mercer",
+      "home_score": 66,
+      "home_team": "Mercer"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Campbell",
+      "game_id": "2023_03_03_campbell_longwood",
+      "home_score": 68,
+      "home_team": "Longwood"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Toledo",
+      "game_id": "2023_03_03_toledo_ball_state",
+      "home_score": 81,
+      "home_team": "Ball State"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Akron",
+      "game_id": "2023_03_03_akron_kent_state",
+      "home_score": 89,
+      "home_team": "Kent State"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Dayton",
+      "game_id": "2023_03_03_dayton_saint_louis",
+      "home_score": 65,
+      "home_team": "Saint Louis"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Central Michigan",
+      "game_id": "2023_03_03_central_michigan_western_michigan",
+      "home_score": 81,
+      "home_team": "Western Michigan"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Murray State",
+      "game_id": "2023_03_03_murray_state_drake",
+      "home_score": 74,
+      "home_team": "Drake"
+    },
+    {
+      "away_score": 83,
+      "away_team": "North Dakota",
+      "game_id": "2023_03_03_north_dakota_denver",
+      "home_score": 68,
+      "home_team": "Denver"
+    },
+    {
+      "away_score": 78,
+      "away_team": "East Carolina",
+      "game_id": "2023_03_03_east_carolina_tulane",
+      "home_score": 81,
+      "home_team": "Tulane"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Miami (OH)",
+      "game_id": "2023_03_03_miami_oh_buffalo",
+      "home_score": 68,
+      "home_team": "Buffalo"
+    },
+    {
+      "away_score": 72,
+      "away_team": "VMI",
+      "game_id": "2023_03_03_vmi_chattanooga",
+      "home_score": 92,
+      "home_team": "Chattanooga"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Abilene Christian",
+      "game_id": "2023_03_03_abilene_christian_sam_houston",
+      "home_score": 72,
+      "home_team": "Sam Houston"
+    },
+    {
+      "away_score": 0,
+      "away_team": "New Mexico State",
+      "game_id": "2023_03_03_new_mexico_state_tarleton_state",
+      "home_score": 2,
+      "home_team": "Tarleton State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Southeast Missouri State",
+      "game_id": "2023_03_03_southeast_missouri_state_morehead_state",
+      "home_score": 58,
+      "home_team": "Morehead State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Stephen F. Austin",
+      "game_id": "2023_03_03_stephen_f_austin_utah_valley",
+      "home_score": 113,
+      "home_team": "Utah Valley"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Bowling Green",
+      "game_id": "2023_03_03_bowling_green_ohio",
+      "home_score": 92,
+      "home_team": "Ohio"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Winthrop",
+      "game_id": "2023_03_03_winthrop_radford",
+      "home_score": 78,
+      "home_team": "Radford"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Portland",
+      "game_id": "2023_03_03_portland_byu",
+      "home_score": 82,
+      "home_team": "BYU"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Grand Canyon",
+      "game_id": "2023_03_03_grand_canyon_utah_tech",
+      "home_score": 61,
+      "home_team": "Utah Tech"
+    },
+    {
+      "away_score": 71,
+      "away_team": "California Baptist",
+      "game_id": "2023_03_03_california_baptist_southern_utah",
+      "home_score": 81,
+      "home_team": "Southern Utah"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Missouri State",
+      "game_id": "2023_03_03_missouri_state_southern_illinois",
+      "home_score": 54,
+      "home_team": "Southern Illinois"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Omaha",
+      "game_id": "2023_03_03_omaha_kansas_city",
+      "home_score": 61,
+      "home_team": "Kansas City"
+    },
+    {
+      "away_score": 56,
+      "away_team": "UT Arlington",
+      "game_id": "2023_03_03_ut_arlington_seattle_u",
+      "home_score": 80,
+      "home_team": "Seattle U"
+    },
+    {
+      "away_score": 63,
+      "away_team": "UT Martin",
+      "game_id": "2023_03_03_ut_martin_tennessee_tech",
+      "home_score": 78,
+      "home_team": "Tennessee Tech"
+    },
+    {
+      "away_score": 84,
+      "away_team": "New Mexico",
+      "game_id": "2023_03_03_new_mexico_colorado_state",
+      "home_score": 92,
+      "home_team": "Colorado State"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Pacific",
+      "game_id": "2023_03_03_pacific_san_francisco",
+      "home_score": 80,
+      "home_team": "San Francisco"
+    }
+  ],
+  "generated_at": "2026-02-28T21:34:45.712078Z"
+}

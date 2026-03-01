@@ -1,0 +1,48 @@
+{
+  "date": "2019-01-11",
+  "games": [
+    {
+      "away_score": 64,
+      "away_team": "Wright State",
+      "game_id": "2019_01_11_wright_state_northern_kentucky",
+      "home_score": 68,
+      "home_team": "Northern Kentucky"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Siena",
+      "game_id": "2019_01_11_siena_marist",
+      "home_score": 66,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 90,
+      "away_team": "Iona",
+      "game_id": "2019_01_11_iona_niagara",
+      "home_score": 95,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Indiana",
+      "game_id": "2019_01_11_indiana_maryland",
+      "home_score": 78,
+      "home_team": "Maryland"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Rider",
+      "game_id": "2019_01_11_rider_canisius",
+      "home_score": 73,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Purdue",
+      "game_id": "2019_01_11_purdue_wisconsin",
+      "home_score": 80,
+      "home_team": "Wisconsin"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:45.080359Z"
+}

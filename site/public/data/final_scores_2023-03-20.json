@@ -1,0 +1,34 @@
+{
+  "date": "2023-03-20",
+  "games": [
+    {
+      "away_score": 88,
+      "away_team": "Indiana State",
+      "game_id": "2023_03_20_indiana_state_eastern_kentucky",
+      "home_score": 89,
+      "home_team": "Eastern Kentucky"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Southern Utah",
+      "game_id": "2023_03_20_southern_utah_rice",
+      "home_score": 79,
+      "home_team": "Rice"
+    },
+    {
+      "away_score": 57,
+      "away_team": "San Jos\u00e9 State",
+      "game_id": "2023_03_20_san_jos_state_radford",
+      "home_score": 67,
+      "home_team": "Radford"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Charlotte",
+      "game_id": "2023_03_20_charlotte_milwaukee",
+      "home_score": 65,
+      "home_team": "Milwaukee"
+    }
+  ],
+  "generated_at": "2026-02-28T21:34:56.440304Z"
+}

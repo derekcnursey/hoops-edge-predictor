@@ -1,0 +1,34 @@
+{
+  "date": "2018-03-23",
+  "games": [
+    {
+      "away_score": 76,
+      "away_team": "Clemson",
+      "game_id": "2018_03_23_clemson_kansas",
+      "home_score": 80,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 78,
+      "away_team": "West Virginia",
+      "game_id": "2018_03_23_west_virginia_villanova",
+      "home_score": 90,
+      "home_team": "Villanova"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Syracuse",
+      "game_id": "2018_03_23_syracuse_duke",
+      "home_score": 69,
+      "home_team": "Duke"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Texas Tech",
+      "game_id": "2018_03_23_texas_tech_purdue",
+      "home_score": 65,
+      "home_team": "Purdue"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:51.158399Z"
+}

@@ -1,0 +1,41 @@
+{
+  "date": "2016-03-13",
+  "games": [
+    {
+      "away_score": 87,
+      "away_team": "Saint Joseph's",
+      "game_id": "2016_03_13_saint_joseph_s_vcu",
+      "home_score": 74,
+      "home_team": "VCU"
+    },
+    {
+      "away_score": 50,
+      "away_team": "UL Monroe",
+      "game_id": "2016_03_13_ul_monroe_little_rock",
+      "home_score": 70,
+      "home_team": "Little Rock"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Kentucky",
+      "game_id": "2016_03_13_kentucky_texas_a_m",
+      "home_score": 77,
+      "home_team": "Texas A&M"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Purdue",
+      "game_id": "2016_03_13_purdue_michigan_state",
+      "home_score": 66,
+      "home_team": "Michigan State"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Memphis",
+      "game_id": "2016_03_13_memphis_uconn",
+      "home_score": 72,
+      "home_team": "UConn"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:56.926946Z"
+}

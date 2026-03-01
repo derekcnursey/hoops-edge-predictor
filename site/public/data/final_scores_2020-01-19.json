@@ -1,0 +1,118 @@
+{
+  "date": "2020-01-19",
+  "games": [
+    {
+      "away_score": 63,
+      "away_team": "UC Santa Barbara",
+      "game_id": "2020_01_19_uc_santa_barbara_hawai_i",
+      "home_score": 70,
+      "home_team": "Hawai'i"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Davidson",
+      "game_id": "2020_01_19_davidson_fordham",
+      "home_score": 62,
+      "home_team": "Fordham"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Siena",
+      "game_id": "2020_01_19_siena_niagara",
+      "home_score": 72,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Minnesota",
+      "game_id": "2020_01_19_minnesota_rutgers",
+      "home_score": 64,
+      "home_team": "Rutgers"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Cal State Bakersfield",
+      "game_id": "2020_01_19_cal_state_bakersfield_chicago_state",
+      "home_score": 54,
+      "home_team": "Chicago State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Iona",
+      "game_id": "2020_01_19_iona_marist",
+      "home_score": 83,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Rider",
+      "game_id": "2020_01_19_rider_canisius",
+      "home_score": 95,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Binghamton",
+      "game_id": "2020_01_19_binghamton_maine",
+      "home_score": 86,
+      "home_team": "Maine"
+    },
+    {
+      "away_score": 74,
+      "away_team": "North Dakota",
+      "game_id": "2020_01_19_north_dakota_north_dakota_state",
+      "home_score": 83,
+      "home_team": "North Dakota State"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Drake",
+      "game_id": "2020_01_19_drake_southern_illinois",
+      "home_score": 66,
+      "home_team": "Southern Illinois"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Loyola Chicago",
+      "game_id": "2020_01_19_loyola_chicago_illinois_state",
+      "home_score": 50,
+      "home_team": "Illinois State"
+    },
+    {
+      "away_score": 84,
+      "away_team": "South Dakota State",
+      "game_id": "2020_01_19_south_dakota_state_south_dakota",
+      "home_score": 99,
+      "home_team": "South Dakota"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Grand Canyon",
+      "game_id": "2020_01_19_grand_canyon_kansas_city",
+      "home_score": 66,
+      "home_team": "Kansas City"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Boston College",
+      "game_id": "2020_01_19_boston_college_wake_forest",
+      "home_score": 80,
+      "home_team": "Wake Forest"
+    },
+    {
+      "away_score": 57,
+      "away_team": "East Carolina",
+      "game_id": "2020_01_19_east_carolina_cincinnati",
+      "home_score": 82,
+      "home_team": "Cincinnati"
+    },
+    {
+      "away_score": 40,
+      "away_team": "California",
+      "game_id": "2020_01_19_california_ucla",
+      "home_score": 50,
+      "home_team": "UCLA"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:30.476904Z"
+}

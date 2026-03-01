@@ -1,0 +1,160 @@
+{
+  "date": "2018-01-12",
+  "games": [
+    {
+      "away_score": 72,
+      "away_team": "Brown",
+      "game_id": "2018_01_12_brown_yale",
+      "home_score": 78,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Marquette",
+      "game_id": "2018_01_12_marquette_butler",
+      "home_score": 94,
+      "home_team": "Butler"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Nebraska",
+      "game_id": "2018_01_12_nebraska_penn_state",
+      "home_score": 76,
+      "home_team": "Penn State"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Green Bay",
+      "game_id": "2018_01_12_green_bay_iu_indianapolis",
+      "home_score": 67,
+      "home_team": "IU Indianapolis"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Saint Peter's",
+      "game_id": "2018_01_12_saint_peter_s_canisius",
+      "home_score": 70,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Quinnipiac",
+      "game_id": "2018_01_12_quinnipiac_rider",
+      "home_score": 78,
+      "home_team": "Rider"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Cleveland State",
+      "game_id": "2018_01_12_cleveland_state_oakland",
+      "home_score": 81,
+      "home_team": "Oakland"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Youngstown State",
+      "game_id": "2018_01_12_youngstown_state_detroit_mercy",
+      "home_score": 93,
+      "home_team": "Detroit Mercy"
+    },
+    {
+      "away_score": 76,
+      "away_team": "UNC Asheville",
+      "game_id": "2018_01_12_unc_asheville_presbyterian",
+      "home_score": 56,
+      "home_team": "Presbyterian"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Longwood",
+      "game_id": "2018_01_12_longwood_liberty",
+      "home_score": 51,
+      "home_team": "Liberty"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Delaware State",
+      "game_id": "2018_01_12_delaware_state_hampton",
+      "home_score": 78,
+      "home_team": "Hampton"
+    },
+    {
+      "away_score": 64,
+      "away_team": "High Point",
+      "game_id": "2018_01_12_high_point_campbell",
+      "home_score": 65,
+      "home_team": "Campbell"
+    },
+    {
+      "away_score": 79,
+      "away_team": "VCU",
+      "game_id": "2018_01_12_vcu_dayton",
+      "home_score": 106,
+      "home_team": "Dayton"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Radford",
+      "game_id": "2018_01_12_radford_gardner_webb",
+      "home_score": 59,
+      "home_team": "Gardner-Webb"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Ohio",
+      "game_id": "2018_01_12_ohio_kent_state",
+      "home_score": 70,
+      "home_team": "Kent State"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Monmouth",
+      "game_id": "2018_01_12_monmouth_niagara",
+      "home_score": 78,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Winthrop",
+      "game_id": "2018_01_12_winthrop_charleston_southern",
+      "home_score": 53,
+      "home_team": "Charleston Southern"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Milwaukee",
+      "game_id": "2018_01_12_milwaukee_uic",
+      "home_score": 88,
+      "home_team": "UIC"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Cornell",
+      "game_id": "2018_01_12_cornell_pennsylvania",
+      "home_score": 69,
+      "home_team": "Pennsylvania"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Columbia",
+      "game_id": "2018_01_12_columbia_princeton",
+      "home_score": 72,
+      "home_team": "Princeton"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Providence",
+      "game_id": "2018_01_12_providence_depaul",
+      "home_score": 64,
+      "home_team": "DePaul"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Idaho",
+      "game_id": "2018_01_12_idaho_eastern_washington",
+      "home_score": 51,
+      "home_team": "Eastern Washington"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:09.701383Z"
+}

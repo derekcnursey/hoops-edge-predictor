@@ -1,0 +1,42 @@
+{
+  "date": "2024-04-06",
+  "games": [
+    {
+      "away_team": "NC State",
+      "edge_home_points": -0.8301773071289062,
+      "game_id": "2024_04_06_nc_state_purdue",
+      "home_team": "Purdue",
+      "market_spread_home": -9.5,
+      "model_mu_home": 8.669823,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5301099592556366,
+      "pick_ev_per_1": 0.01202810403348814,
+      "pick_fair_odds": -112.81574693855558,
+      "pick_prob_edge": 0.0063004354461128065,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.6599838,
+      "pred_sigma": 10.988991,
+      "start_time": "2024-04-06T22:09:00.000Z"
+    },
+    {
+      "away_team": "Alabama",
+      "edge_home_points": -2.5960607528686523,
+      "game_id": "2024_04_06_alabama_uconn",
+      "home_team": "UConn",
+      "market_spread_home": -10.5,
+      "model_mu_home": 7.9039392,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5861621805417854,
+      "pick_ev_per_1": 0.11903689012522656,
+      "pick_fair_odds": -141.64055409657175,
+      "pick_prob_edge": 0.062352656732261535,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.61874163,
+      "pred_sigma": 11.925844,
+      "start_time": "2024-04-07T00:51:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:27.917805Z"
+}

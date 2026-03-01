@@ -1,0 +1,97 @@
+{
+  "date": "2017-12-15",
+  "games": [
+    {
+      "away_score": 54,
+      "away_team": "Tennessee State",
+      "game_id": "2017_12_15_tennessee_state_north_carolina_a_t",
+      "home_score": 64,
+      "home_team": "North Carolina A&T"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Little Rock",
+      "game_id": "2017_12_15_little_rock_sam_houston",
+      "home_score": 57,
+      "home_team": "Sam Houston"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Washington College (MD)",
+      "game_id": "2017_12_15_washington_college_md_mount_st_mary_s",
+      "home_score": 89,
+      "home_team": "Mount St. Mary's"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Eastern Kentucky",
+      "game_id": "2017_12_15_eastern_kentucky_charleston_southern",
+      "home_score": 65,
+      "home_team": "Charleston Southern"
+    },
+    {
+      "away_score": 55,
+      "away_team": "St. Mary's (TX)",
+      "game_id": "2017_12_15_st_mary_s_tx_texas_a_m_corpus_christi",
+      "home_score": 71,
+      "home_team": "Texas A&M-Corpus Christi"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Dartmouth",
+      "game_id": "2017_12_15_dartmouth_uic",
+      "home_score": 76,
+      "home_team": "UIC"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Barclay College",
+      "game_id": "2017_12_15_barclay_college_houston_christian",
+      "home_score": 100,
+      "home_team": "Houston Christian"
+    },
+    {
+      "away_score": 103,
+      "away_team": "South Dakota State",
+      "game_id": "2017_12_15_south_dakota_state_colorado",
+      "home_score": 112,
+      "home_team": "Colorado"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Thomas (GA)",
+      "game_id": "2017_12_15_thomas_ga_samford",
+      "home_score": 98,
+      "home_team": "Samford"
+    },
+    {
+      "away_score": 36,
+      "away_team": "Maryland Eastern Shore",
+      "game_id": "2017_12_15_maryland_eastern_shore_creighton",
+      "home_score": 87,
+      "home_team": "Creighton"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Denver",
+      "game_id": "2017_12_15_denver_stanford",
+      "home_score": 75,
+      "home_team": "Stanford"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Simon Fraser",
+      "game_id": "2017_12_15_simon_fraser_idaho",
+      "home_score": 73,
+      "home_team": "Idaho"
+    },
+    {
+      "away_score": 61,
+      "away_team": "UC Davis",
+      "game_id": "2017_12_15_uc_davis_san_francisco",
+      "home_score": 74,
+      "home_team": "San Francisco"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:53.643775Z"
+}

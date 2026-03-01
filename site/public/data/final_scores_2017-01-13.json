@@ -1,0 +1,48 @@
+{
+  "date": "2017-01-13",
+  "games": [
+    {
+      "away_score": 93,
+      "away_team": "Detroit Mercy",
+      "game_id": "2017_01_13_detroit_mercy_oakland",
+      "home_score": 88,
+      "home_team": "Oakland"
+    },
+    {
+      "away_score": 72,
+      "away_team": "UMBC",
+      "game_id": "2017_01_13_umbc_vermont",
+      "home_score": 81,
+      "home_team": "Vermont"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Toledo",
+      "game_id": "2017_01_13_toledo_central_michigan",
+      "home_score": 96,
+      "home_team": "Central Michigan"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Brown",
+      "game_id": "2017_01_13_brown_princeton",
+      "home_score": 97,
+      "home_team": "Princeton"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Yale",
+      "game_id": "2017_01_13_yale_pennsylvania",
+      "home_score": 60,
+      "home_team": "Pennsylvania"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Rider",
+      "game_id": "2017_01_13_rider_manhattan",
+      "home_score": 76,
+      "home_team": "Manhattan"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:46.240911Z"
+}

@@ -1,0 +1,76 @@
+{
+  "date": "2024-12-13",
+  "games": [
+    {
+      "away_score": 62,
+      "away_team": "Wisconsin-Stout",
+      "game_id": "2024_12_13_wisconsin_stout_north_dakota_state",
+      "home_score": 91,
+      "home_team": "North Dakota State"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Army",
+      "game_id": "2024_12_13_army_george_washington",
+      "home_score": 75,
+      "home_team": "George Washington"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Boston University",
+      "game_id": "2024_12_13_boston_university_merrimack",
+      "home_score": 64,
+      "home_team": "Merrimack"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Georgia Southern",
+      "game_id": "2024_12_13_georgia_southern_louisiana_tech",
+      "home_score": 77,
+      "home_team": "Louisiana Tech"
+    },
+    {
+      "away_score": 76,
+      "away_team": "North Dakota",
+      "game_id": "2024_12_13_north_dakota_utsa",
+      "home_score": 80,
+      "home_team": "UTSA"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Indiana",
+      "game_id": "2024_12_13_indiana_nebraska",
+      "home_score": 85,
+      "home_team": "Nebraska"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Omaha",
+      "game_id": "2024_12_13_omaha_northern_iowa",
+      "home_score": 78,
+      "home_team": "Northern Iowa"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Western Michigan",
+      "game_id": "2024_12_13_western_michigan_st_thomas_minnesota",
+      "home_score": 77,
+      "home_team": "St. Thomas-Minnesota"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Weber State",
+      "game_id": "2024_12_13_weber_state_utah_tech",
+      "home_score": 71,
+      "home_team": "Utah Tech"
+    },
+    {
+      "away_score": 70,
+      "away_team": "South Dakota State",
+      "game_id": "2024_12_13_south_dakota_state_colorado",
+      "home_score": 81,
+      "home_team": "Colorado"
+    }
+  ],
+  "generated_at": "2026-02-28T23:29:26.394840Z"
+}

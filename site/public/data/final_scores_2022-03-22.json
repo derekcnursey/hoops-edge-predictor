@@ -1,0 +1,41 @@
+{
+  "date": "2022-03-22",
+  "games": [
+    {
+      "away_score": 80,
+      "away_team": "UNC Wilmington",
+      "game_id": "2022_03_22_unc_wilmington_northern_colorado",
+      "home_score": 64,
+      "home_team": "Northern Colorado"
+    },
+    {
+      "away_score": 52,
+      "away_team": "St. Bonaventure",
+      "game_id": "2022_03_22_st_bonaventure_virginia",
+      "home_score": 51,
+      "home_team": "Virginia"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Vanderbilt",
+      "game_id": "2022_03_22_vanderbilt_xavier",
+      "home_score": 75,
+      "home_team": "Xavier"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Southern Utah",
+      "game_id": "2022_03_22_southern_utah_utep",
+      "home_score": 69,
+      "home_team": "UTEP"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Middle Tennessee",
+      "game_id": "2022_03_22_middle_tennessee_abilene_christian",
+      "home_score": 69,
+      "home_team": "Abilene Christian"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:24.105359Z"
+}

@@ -1,0 +1,34 @@
+{
+  "date": "2022-03-23",
+  "games": [
+    {
+      "away_score": 90,
+      "away_team": "Middle Tennessee",
+      "game_id": "2022_03_23_middle_tennessee_unc_wilmington",
+      "home_score": 96,
+      "home_team": "UNC Wilmington"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Wake Forest",
+      "game_id": "2022_03_23_wake_forest_texas_a_m",
+      "home_score": 67,
+      "home_team": "Texas A&M"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Washington State",
+      "game_id": "2022_03_23_washington_state_byu",
+      "home_score": 58,
+      "home_team": "BYU"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Youngstown State",
+      "game_id": "2022_03_23_youngstown_state_fresno_state",
+      "home_score": 80,
+      "home_team": "Fresno State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:24.670257Z"
+}

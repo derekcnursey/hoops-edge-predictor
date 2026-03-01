@@ -1,0 +1,398 @@
+{
+  "date": "2015-11-18",
+  "games": [
+    {
+      "away_score": 73,
+      "away_team": "Goldey-Beacom",
+      "game_id": "2015_11_18_goldey_beacom_coppin_state",
+      "home_score": 80,
+      "home_team": "Coppin State"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Seattle U",
+      "game_id": "2015_11_18_seattle_u_eastern_washington",
+      "home_score": 76,
+      "home_team": "Eastern Washington"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Binghamton",
+      "game_id": "2015_11_18_binghamton_cornell",
+      "home_score": 76,
+      "home_team": "Cornell"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Centenary (LA)",
+      "game_id": "2015_11_18_centenary_la_little_rock",
+      "home_score": 95,
+      "home_team": "Little Rock"
+    },
+    {
+      "away_score": 61,
+      "away_team": "UC Irvine",
+      "game_id": "2015_11_18_uc_irvine_ucf",
+      "home_score": 60,
+      "home_team": "UCF"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Western Kentucky",
+      "game_id": "2015_11_18_western_kentucky_belmont",
+      "home_score": 90,
+      "home_team": "Belmont"
+    },
+    {
+      "away_score": 100,
+      "away_team": "Toledo",
+      "game_id": "2015_11_18_toledo_youngstown_state",
+      "home_score": 78,
+      "home_team": "Youngstown State"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Arkansas State",
+      "game_id": "2015_11_18_arkansas_state_savannah_state",
+      "home_score": 76,
+      "home_team": "Savannah State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Emerson",
+      "game_id": "2015_11_18_emerson_bryant",
+      "home_score": 82,
+      "home_team": "Bryant"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Belmont Abbey",
+      "game_id": "2015_11_18_belmont_abbey_elon",
+      "home_score": 84,
+      "home_team": "Elon"
+    },
+    {
+      "away_score": 94,
+      "away_team": "Roanoke",
+      "game_id": "2015_11_18_roanoke_north_carolina_a_t",
+      "home_score": 87,
+      "home_team": "North Carolina A&T"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Grace Bible College",
+      "game_id": "2015_11_18_grace_bible_college_coastal_carolina",
+      "home_score": 104,
+      "home_team": "Coastal Carolina"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Loyola Maryland",
+      "game_id": "2015_11_18_loyola_maryland_umbc",
+      "home_score": 57,
+      "home_team": "UMBC"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Sacred Heart",
+      "game_id": "2015_11_18_sacred_heart_umass_lowell",
+      "home_score": 87,
+      "home_team": "UMass Lowell"
+    },
+    {
+      "away_score": 96,
+      "away_team": "Army",
+      "game_id": "2015_11_18_army_fairleigh_dickinson",
+      "home_score": 85,
+      "home_team": "Fairleigh Dickinson"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Jacksonville State",
+      "game_id": "2015_11_18_jacksonville_state_virginia_tech",
+      "home_score": 71,
+      "home_team": "Virginia Tech"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Catawba",
+      "game_id": "2015_11_18_catawba_radford",
+      "home_score": 68,
+      "home_team": "Radford"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Eastern Michigan",
+      "game_id": "2015_11_18_eastern_michigan_oakland",
+      "home_score": 91,
+      "home_team": "Oakland"
+    },
+    {
+      "away_score": 75,
+      "away_team": "High Point",
+      "game_id": "2015_11_18_high_point_drexel",
+      "home_score": 66,
+      "home_team": "Drexel"
+    },
+    {
+      "away_score": 48,
+      "away_team": "Morgan State",
+      "game_id": "2015_11_18_morgan_state_old_dominion",
+      "home_score": 79,
+      "home_team": "Old Dominion"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Bucknell",
+      "game_id": "2015_11_18_bucknell_robert_morris",
+      "home_score": 76,
+      "home_team": "Robert Morris"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Quinnipiac",
+      "game_id": "2015_11_18_quinnipiac_vermont",
+      "home_score": 83,
+      "home_team": "Vermont"
+    },
+    {
+      "away_score": 56,
+      "away_team": "IU Indianapolis",
+      "game_id": "2015_11_18_iu_indianapolis_nc_state",
+      "home_score": 79,
+      "home_team": "NC State"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Illinois",
+      "game_id": "2015_11_18_illinois_providence",
+      "home_score": 60,
+      "home_team": "Providence"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Buffalo",
+      "game_id": "2015_11_18_buffalo_saint_joseph_s",
+      "home_score": 89,
+      "home_team": "Saint Joseph's"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Thomas (GA)",
+      "game_id": "2015_11_18_thomas_ga_florida_a_m",
+      "home_score": 70,
+      "home_team": "Florida A&M"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Cincinnati",
+      "game_id": "2015_11_18_cincinnati_bowling_green",
+      "home_score": 50,
+      "home_team": "Bowling Green"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Wofford",
+      "game_id": "2015_11_18_wofford_north_carolina",
+      "home_score": 78,
+      "home_team": "North Carolina"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Richmond",
+      "game_id": "2015_11_18_richmond_wake_forest",
+      "home_score": 82,
+      "home_team": "Wake Forest"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Edward Waters",
+      "game_id": "2015_11_18_edward_waters_north_florida",
+      "home_score": 98,
+      "home_team": "North Florida"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Mars Hill",
+      "game_id": "2015_11_18_mars_hill_unc_asheville",
+      "home_score": 84,
+      "home_team": "UNC Asheville"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Brown",
+      "game_id": "2015_11_18_brown_niagara",
+      "home_score": 75,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Incarnate Word",
+      "game_id": "2015_11_18_incarnate_word_purdue",
+      "home_score": 96,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Toccoa Falls",
+      "game_id": "2015_11_18_toccoa_falls_presbyterian",
+      "home_score": 116,
+      "home_team": "Presbyterian"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Johnson & Wales (NC)",
+      "game_id": "2015_11_18_johnson_wales_nc_charleston_southern",
+      "home_score": 97,
+      "home_team": "Charleston Southern"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Saint Louis",
+      "game_id": "2015_11_18_saint_louis_siu_edwardsville",
+      "home_score": 60,
+      "home_team": "SIU Edwardsville"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Purdue Fort Wayne",
+      "game_id": "2015_11_18_purdue_fort_wayne_austin_peay",
+      "home_score": 77,
+      "home_team": "Austin Peay"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Valley City",
+      "game_id": "2015_11_18_valley_city_north_dakota_state",
+      "home_score": 69,
+      "home_team": "North Dakota State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Kent State",
+      "game_id": "2015_11_18_kent_state_southern_illinois",
+      "home_score": 72,
+      "home_team": "Southern Illinois"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Akron",
+      "game_id": "2015_11_18_akron_arkansas",
+      "home_score": 80,
+      "home_team": "Arkansas"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Fisk",
+      "game_id": "2015_11_18_fisk_tennessee_state",
+      "home_score": 72,
+      "home_team": "Tennessee State"
+    },
+    {
+      "away_score": 40,
+      "away_team": "Indiana-Kokomo",
+      "game_id": "2015_11_18_indiana_kokomo_valparaiso",
+      "home_score": 78,
+      "home_team": "Valparaiso"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Prairie View A&M",
+      "game_id": "2015_11_18_prairie_view_a_m_houston",
+      "home_score": 110,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Mississippi College",
+      "game_id": "2015_11_18_mississippi_college_se_louisiana",
+      "home_score": 76,
+      "home_team": "SE Louisiana"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Fairfield",
+      "game_id": "2015_11_18_fairfield_northwestern",
+      "home_score": 79,
+      "home_team": "Northwestern"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Indiana University Northwest",
+      "game_id": "2015_11_18_indiana_university_northwest_chicago_state",
+      "home_score": 105,
+      "home_team": "Chicago State"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Kennesaw State",
+      "game_id": "2015_11_18_kennesaw_state_arizona_state",
+      "home_score": 91,
+      "home_team": "Arizona State"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Utah Valley",
+      "game_id": "2015_11_18_utah_valley_denver",
+      "home_score": 75,
+      "home_team": "Denver"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Northern Arizona",
+      "game_id": "2015_11_18_northern_arizona_gonzaga",
+      "home_score": 91,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Loyola Chicago",
+      "game_id": "2015_11_18_loyola_chicago_new_mexico",
+      "home_score": 75,
+      "home_team": "New Mexico"
+    },
+    {
+      "away_score": 61,
+      "away_team": "San Diego Christian",
+      "game_id": "2015_11_18_san_diego_christian_san_diego_state",
+      "home_score": 71,
+      "home_team": "San Diego State"
+    },
+    {
+      "away_score": 46,
+      "away_team": "Fresno Pacific",
+      "game_id": "2015_11_18_fresno_pacific_uc_davis",
+      "home_score": 76,
+      "home_team": "UC Davis"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Vanguard",
+      "game_id": "2015_11_18_vanguard_cal_state_northridge",
+      "home_score": 72,
+      "home_team": "Cal State Northridge"
+    },
+    {
+      "away_score": 62,
+      "away_team": "CS Monterey Bay",
+      "game_id": "2015_11_18_cs_monterey_bay_cal_poly",
+      "home_score": 71,
+      "home_team": "Cal Poly"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Tennessee Tech",
+      "game_id": "2015_11_18_tennessee_tech_new_mexico_state",
+      "home_score": 76,
+      "home_team": "New Mexico State"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Southern Utah",
+      "game_id": "2015_11_18_southern_utah_unlv",
+      "home_score": 84,
+      "home_team": "UNLV"
+    }
+  ],
+  "generated_at": "2026-02-28T21:26:48.415631Z"
+}

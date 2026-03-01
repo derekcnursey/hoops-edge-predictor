@@ -1,0 +1,104 @@
+{
+  "date": "2023-01-06",
+  "games": [
+    {
+      "away_score": 74,
+      "away_team": "Western Michigan",
+      "game_id": "2023_01_06_western_michigan_toledo",
+      "home_score": 102,
+      "home_team": "Toledo"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Harvard",
+      "game_id": "2023_01_06_harvard_brown",
+      "home_score": 68,
+      "home_team": "Brown"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Saint Peter's",
+      "game_id": "2023_01_06_saint_peter_s_siena",
+      "home_score": 70,
+      "home_team": "Siena"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Detroit Mercy",
+      "game_id": "2023_01_06_detroit_mercy_wright_state",
+      "home_score": 90,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Oakland",
+      "game_id": "2023_01_06_oakland_northern_kentucky",
+      "home_score": 63,
+      "home_team": "Northern Kentucky"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Niagara",
+      "game_id": "2023_01_06_niagara_fairfield",
+      "home_score": 69,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Quinnipiac",
+      "game_id": "2023_01_06_quinnipiac_rider",
+      "home_score": 63,
+      "home_team": "Rider"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Iona",
+      "game_id": "2023_01_06_iona_marist",
+      "home_score": 57,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Canisius",
+      "game_id": "2023_01_06_canisius_manhattan",
+      "home_score": 57,
+      "home_team": "Manhattan"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Dartmouth",
+      "game_id": "2023_01_06_dartmouth_yale",
+      "home_score": 77,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Princeton",
+      "game_id": "2023_01_06_princeton_columbia",
+      "home_score": 49,
+      "home_team": "Columbia"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Pennsylvania",
+      "game_id": "2023_01_06_pennsylvania_cornell",
+      "home_score": 88,
+      "home_team": "Cornell"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Akron",
+      "game_id": "2023_01_06_akron_ball_state",
+      "home_score": 70,
+      "home_team": "Ball State"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Stanford",
+      "game_id": "2023_01_06_stanford_california",
+      "home_score": 92,
+      "home_team": "California"
+    }
+  ],
+  "generated_at": "2026-02-28T21:34:11.181908Z"
+}

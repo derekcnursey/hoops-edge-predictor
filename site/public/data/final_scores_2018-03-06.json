@@ -1,0 +1,153 @@
+{
+  "date": "2018-03-06",
+  "games": [
+    {
+      "away_score": 77,
+      "away_team": "Georgia Tech",
+      "game_id": "2018_03_06_georgia_tech_boston_college",
+      "home_score": 87,
+      "home_team": "Boston College"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Pittsburgh",
+      "game_id": "2018_03_06_pittsburgh_notre_dame",
+      "home_score": 67,
+      "home_team": "Notre Dame"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Montana State",
+      "game_id": "2018_03_06_montana_state_north_dakota",
+      "home_score": 76,
+      "home_team": "North Dakota"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Florida A&M",
+      "game_id": "2018_03_06_florida_a_m_howard",
+      "home_score": 78,
+      "home_team": "Howard"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Northern Arizona",
+      "game_id": "2018_03_06_northern_arizona_northern_colorado",
+      "home_score": 82,
+      "home_team": "Northern Colorado"
+    },
+    {
+      "away_score": 48,
+      "away_team": "Coppin State",
+      "game_id": "2018_03_06_coppin_state_north_carolina_central",
+      "home_score": 60,
+      "home_team": "North Carolina Central"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Cleveland State",
+      "game_id": "2018_03_06_cleveland_state_wright_state",
+      "home_score": 74,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 71,
+      "away_team": "LIU Brooklyn",
+      "game_id": "2018_03_06_liu_brooklyn_wagner",
+      "home_score": 61,
+      "home_team": "Wagner"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Northeastern",
+      "game_id": "2018_03_06_northeastern_charleston",
+      "home_score": 83,
+      "home_team": "Charleston"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Wake Forest",
+      "game_id": "2018_03_06_wake_forest_syracuse",
+      "home_score": 73,
+      "home_team": "Syracuse"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Stony Brook",
+      "game_id": "2018_03_06_stony_brook_vermont",
+      "home_score": 70,
+      "home_team": "Vermont"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Hartford",
+      "game_id": "2018_03_06_hartford_umbc",
+      "home_score": 75,
+      "home_team": "UMBC"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Mississippi Valley State",
+      "game_id": "2018_03_06_mississippi_valley_state_arkansas_pine_bluff",
+      "home_score": 77,
+      "home_team": "Arkansas-Pine Bluff"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Jackson State",
+      "game_id": "2018_03_06_jackson_state_southern",
+      "home_score": 62,
+      "home_team": "Southern"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Southern Utah",
+      "game_id": "2018_03_06_southern_utah_idaho_state",
+      "home_score": 68,
+      "home_team": "Idaho State"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Alabama State",
+      "game_id": "2018_03_06_alabama_state_texas_southern",
+      "home_score": 90,
+      "home_team": "Texas Southern"
+    },
+    {
+      "away_score": 80,
+      "away_team": "South Carolina State",
+      "game_id": "2018_03_06_south_carolina_state_morgan_state",
+      "home_score": 83,
+      "home_team": "Morgan State"
+    },
+    {
+      "away_score": 87,
+      "away_team": "South Dakota",
+      "game_id": "2018_03_06_south_dakota_south_dakota_state",
+      "home_score": 97,
+      "home_team": "South Dakota State"
+    },
+    {
+      "away_score": 54,
+      "away_team": "BYU",
+      "game_id": "2018_03_06_byu_gonzaga",
+      "home_score": 74,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Alcorn State",
+      "game_id": "2018_03_06_alcorn_state_prairie_view_a_m",
+      "home_score": 87,
+      "home_team": "Prairie View A&M"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Sacramento State",
+      "game_id": "2018_03_06_sacramento_state_portland_state",
+      "home_score": 71,
+      "home_team": "Portland State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:41.027872Z"
+}

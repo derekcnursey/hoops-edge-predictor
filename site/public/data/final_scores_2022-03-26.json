@@ -1,0 +1,27 @@
+{
+  "date": "2022-03-26",
+  "games": [
+    {
+      "away_score": 66,
+      "away_team": "Portland",
+      "game_id": "2022_03_26_portland_southern_utah",
+      "home_score": 77,
+      "home_team": "Southern Utah"
+    },
+    {
+      "away_score": 44,
+      "away_team": "Houston",
+      "game_id": "2022_03_26_houston_villanova",
+      "home_score": 50,
+      "home_team": "Villanova"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Arkansas",
+      "game_id": "2022_03_26_arkansas_duke",
+      "home_score": 78,
+      "home_team": "Duke"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:26.399617Z"
+}

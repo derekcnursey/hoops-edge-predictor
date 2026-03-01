@@ -1,0 +1,90 @@
+{
+  "date": "2022-12-09",
+  "games": [
+    {
+      "away_score": 60,
+      "away_team": "Stony Brook",
+      "game_id": "2022_12_09_stony_brook_bryant",
+      "home_score": 79,
+      "home_team": "Bryant"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Queens University",
+      "game_id": "2022_12_09_queens_university_high_point",
+      "home_score": 79,
+      "home_team": "High Point"
+    },
+    {
+      "away_score": 23,
+      "away_team": "University of New England",
+      "game_id": "2022_12_09_university_of_new_england_merrimack",
+      "home_score": 82,
+      "home_team": "Merrimack"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Binghamton",
+      "game_id": "2022_12_09_binghamton_fordham",
+      "home_score": 77,
+      "home_team": "Fordham"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Fairleigh Dickinson",
+      "game_id": "2022_12_09_fairleigh_dickinson_columbia",
+      "home_score": 73,
+      "home_team": "Columbia"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Grambling",
+      "game_id": "2022_12_09_grambling_vanderbilt",
+      "home_score": 62,
+      "home_team": "Vanderbilt"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Dartmouth",
+      "game_id": "2022_12_09_dartmouth_central_connecticut",
+      "home_score": 59,
+      "home_team": "Central Connecticut"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Lipscomb",
+      "game_id": "2022_12_09_lipscomb_alabama_a_m",
+      "home_score": 63,
+      "home_team": "Alabama A&M"
+    },
+    {
+      "away_score": 52,
+      "away_team": "McNeese",
+      "game_id": "2022_12_09_mcneese_northern_iowa",
+      "home_score": 49,
+      "home_team": "Northern Iowa"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Arkansas State",
+      "game_id": "2022_12_09_arkansas_state_air_force",
+      "home_score": 80,
+      "home_team": "Air Force"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Washington",
+      "game_id": "2022_12_09_washington_gonzaga",
+      "home_score": 77,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Chapman",
+      "game_id": "2022_12_09_chapman_utah_tech",
+      "home_score": 99,
+      "home_team": "Utah Tech"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:54.799702Z"
+}

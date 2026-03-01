@@ -1,0 +1,13 @@
+{
+  "date": "2022-04-04",
+  "games": [
+    {
+      "away_score": 69,
+      "away_team": "North Carolina",
+      "game_id": "2022_04_04_north_carolina_kansas",
+      "home_score": 72,
+      "home_team": "Kansas"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:30.300285Z"
+}

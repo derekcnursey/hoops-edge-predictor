@@ -1,0 +1,118 @@
+{
+  "date": "2025-03-20",
+  "games": [
+    {
+      "away_score": 89,
+      "away_team": "Creighton",
+      "game_id": "2025_03_20_creighton_louisville",
+      "home_score": 75,
+      "home_team": "Louisville"
+    },
+    {
+      "away_score": 63,
+      "away_team": "High Point",
+      "game_id": "2025_03_20_high_point_purdue",
+      "home_score": 75,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Montana",
+      "game_id": "2025_03_20_montana_wisconsin",
+      "home_score": 85,
+      "home_team": "Wisconsin"
+    },
+    {
+      "away_score": 40,
+      "away_team": "SIU Edwardsville",
+      "game_id": "2025_03_20_siu_edwardsville_houston",
+      "home_score": 78,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Alabama State",
+      "game_id": "2025_03_20_alabama_state_auburn",
+      "home_score": 83,
+      "home_team": "Auburn"
+    },
+    {
+      "away_score": 69,
+      "away_team": "McNeese",
+      "game_id": "2025_03_20_mcneese_clemson",
+      "home_score": 67,
+      "home_team": "Clemson"
+    },
+    {
+      "away_score": 71,
+      "away_team": "VCU",
+      "game_id": "2025_03_20_vcu_byu",
+      "home_score": 80,
+      "home_team": "BYU"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Georgia",
+      "game_id": "2025_03_20_georgia_gonzaga",
+      "home_score": 89,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Wofford",
+      "game_id": "2025_03_20_wofford_tennessee",
+      "home_score": 77,
+      "home_team": "Tennessee"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Arkansas",
+      "game_id": "2025_03_20_arkansas_kansas",
+      "home_score": 72,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Yale",
+      "game_id": "2025_03_20_yale_texas_a_m",
+      "home_score": 80,
+      "home_team": "Texas A&M"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Drake",
+      "game_id": "2025_03_20_drake_missouri",
+      "home_score": 57,
+      "home_team": "Missouri"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Utah State",
+      "game_id": "2025_03_20_utah_state_ucla",
+      "home_score": 72,
+      "home_team": "UCLA"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Omaha",
+      "game_id": "2025_03_20_omaha_st_john_s",
+      "home_score": 83,
+      "home_team": "St. John's"
+    },
+    {
+      "away_score": 65,
+      "away_team": "UC San Diego",
+      "game_id": "2025_03_20_uc_san_diego_michigan",
+      "home_score": 68,
+      "home_team": "Michigan"
+    },
+    {
+      "away_score": 72,
+      "away_team": "UNC Wilmington",
+      "game_id": "2025_03_20_unc_wilmington_texas_tech",
+      "home_score": 82,
+      "home_team": "Texas Tech"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:41.976895Z"
+}

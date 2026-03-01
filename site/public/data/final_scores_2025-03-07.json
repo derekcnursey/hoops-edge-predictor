@@ -1,0 +1,223 @@
+{
+  "date": "2025-03-07",
+  "games": [
+    {
+      "away_score": 64,
+      "away_team": "Gardner-Webb",
+      "game_id": "2025_03_07_gardner_webb_high_point",
+      "home_score": 85,
+      "home_team": "High Point"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Southern Illinois",
+      "game_id": "2025_03_07_southern_illinois_drake",
+      "home_score": 70,
+      "home_team": "Drake"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Stony Brook",
+      "game_id": "2025_03_07_stony_brook_delaware",
+      "home_score": 80,
+      "home_team": "Delaware"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Presbyterian",
+      "game_id": "2025_03_07_presbyterian_radford",
+      "home_score": 74,
+      "home_team": "Radford"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Illinois State",
+      "game_id": "2025_03_07_illinois_state_belmont",
+      "home_score": 76,
+      "home_team": "Belmont"
+    },
+    {
+      "away_score": 55,
+      "away_team": "North Carolina A&T",
+      "game_id": "2025_03_07_north_carolina_a_t_hofstra",
+      "home_score": 77,
+      "home_team": "Hofstra"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Western Carolina",
+      "game_id": "2025_03_07_western_carolina_mercer",
+      "home_score": 67,
+      "home_team": "Mercer"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Charleston Southern",
+      "game_id": "2025_03_07_charleston_southern_unc_asheville",
+      "home_score": 80,
+      "home_team": "UNC Asheville"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Georgia State",
+      "game_id": "2025_03_07_georgia_state_marshall",
+      "home_score": 79,
+      "home_team": "Marshall"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Ball State",
+      "game_id": "2025_03_07_ball_state_miami_oh",
+      "home_score": 79,
+      "home_team": "Miami (OH)"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Ohio",
+      "game_id": "2025_03_07_ohio_toledo",
+      "home_score": 96,
+      "home_team": "Toledo"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Western Michigan",
+      "game_id": "2025_03_07_western_michigan_bowling_green",
+      "home_score": 63,
+      "home_team": "Bowling Green"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Buffalo",
+      "game_id": "2025_03_07_buffalo_akron",
+      "home_score": 88,
+      "home_team": "Akron"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Eastern Michigan",
+      "game_id": "2025_03_07_eastern_michigan_kent_state",
+      "home_score": 76,
+      "home_team": "Kent State"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Northern Illinois",
+      "game_id": "2025_03_07_northern_illinois_central_michigan",
+      "home_score": 81,
+      "home_team": "Central Michigan"
+    },
+    {
+      "away_score": 85,
+      "away_team": "South Dakota",
+      "game_id": "2025_03_07_south_dakota_north_dakota_state",
+      "home_score": 84,
+      "home_team": "North Dakota State"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Dayton",
+      "game_id": "2025_03_07_dayton_vcu",
+      "home_score": 76,
+      "home_team": "VCU"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Murray State",
+      "game_id": "2025_03_07_murray_state_bradley",
+      "home_score": 70,
+      "home_team": "Bradley"
+    },
+    {
+      "away_score": 62,
+      "away_team": "The Citadel",
+      "game_id": "2025_03_07_the_citadel_vmi",
+      "home_score": 73,
+      "home_team": "VMI"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Little Rock",
+      "game_id": "2025_03_07_little_rock_southeast_missouri_state",
+      "home_score": 78,
+      "home_team": "Southeast Missouri State"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Purdue",
+      "game_id": "2025_03_07_purdue_illinois",
+      "home_score": 88,
+      "home_team": "Illinois"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Longwood",
+      "game_id": "2025_03_07_longwood_winthrop",
+      "home_score": 88,
+      "home_team": "Winthrop"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Pepperdine",
+      "game_id": "2025_03_07_pepperdine_portland",
+      "home_score": 73,
+      "home_team": "Portland"
+    },
+    {
+      "away_score": 68,
+      "away_team": "South Florida",
+      "game_id": "2025_03_07_south_florida_memphis",
+      "home_score": 84,
+      "home_team": "Memphis"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Old Dominion",
+      "game_id": "2025_03_07_old_dominion_app_state",
+      "home_score": 56,
+      "home_team": "App State"
+    },
+    {
+      "away_score": 85,
+      "away_team": "North Dakota",
+      "game_id": "2025_03_07_north_dakota_south_dakota_state",
+      "home_score": 69,
+      "home_team": "South Dakota State"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Valparaiso",
+      "game_id": "2025_03_07_valparaiso_northern_iowa",
+      "home_score": 63,
+      "home_team": "Northern Iowa"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Colorado State",
+      "game_id": "2025_03_07_colorado_state_boise_state",
+      "home_score": 73,
+      "home_team": "Boise State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "UNLV",
+      "game_id": "2025_03_07_unlv_new_mexico",
+      "home_score": 81,
+      "home_team": "New Mexico"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Tennessee State",
+      "game_id": "2025_03_07_tennessee_state_siu_edwardsville",
+      "home_score": 71,
+      "home_team": "SIU Edwardsville"
+    },
+    {
+      "away_score": 74,
+      "away_team": "San Diego",
+      "game_id": "2025_03_07_san_diego_loyola_marymount",
+      "home_score": 100,
+      "home_team": "Loyola Marymount"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:34.977598Z"
+}

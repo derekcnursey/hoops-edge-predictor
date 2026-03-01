@@ -1,0 +1,167 @@
+{
+  "date": "2022-11-28",
+  "games": [
+    {
+      "away_score": 81,
+      "away_team": "UC Davis",
+      "game_id": "2022_11_28_uc_davis_boston_university",
+      "home_score": 70,
+      "home_team": "Boston University"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Grambling",
+      "game_id": "2022_11_28_grambling_dartmouth",
+      "home_score": 49,
+      "home_team": "Dartmouth"
+    },
+    {
+      "away_score": 39,
+      "away_team": "Columbia",
+      "game_id": "2022_11_28_columbia_marist",
+      "home_score": 52,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 46,
+      "away_team": "Arlington Baptist",
+      "game_id": "2022_11_28_arlington_baptist_east_texas_a_m",
+      "home_score": 101,
+      "home_team": "East Texas A&M"
+    },
+    {
+      "away_score": 44,
+      "away_team": "Framingham State",
+      "game_id": "2022_11_28_framingham_state_bryant",
+      "home_score": 98,
+      "home_team": "Bryant"
+    },
+    {
+      "away_score": 83,
+      "away_team": "McNeese",
+      "game_id": "2022_11_28_mcneese_ut_martin",
+      "home_score": 86,
+      "home_team": "UT Martin"
+    },
+    {
+      "away_score": 60,
+      "away_team": "UL Monroe",
+      "game_id": "2022_11_28_ul_monroe_tulane",
+      "home_score": 75,
+      "home_team": "Tulane"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Minnesota",
+      "game_id": "2022_11_28_minnesota_virginia_tech",
+      "home_score": 67,
+      "home_team": "Virginia Tech"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Western New England",
+      "game_id": "2022_11_28_western_new_england_sacred_heart",
+      "home_score": 100,
+      "home_team": "Sacred Heart"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Omaha",
+      "game_id": "2022_11_28_omaha_mississippi_state",
+      "home_score": 74,
+      "home_team": "Mississippi State"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Incarnate Word",
+      "game_id": "2022_11_28_incarnate_word_utsa",
+      "home_score": 68,
+      "home_team": "UTSA"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Champion Christian",
+      "game_id": "2022_11_28_champion_christian_southern",
+      "home_score": 112,
+      "home_team": "Southern"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Fisk",
+      "game_id": "2022_11_28_fisk_alabama_a_m",
+      "home_score": 71,
+      "home_team": "Alabama A&M"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Southeast Missouri State",
+      "game_id": "2022_11_28_southeast_missouri_state_milwaukee",
+      "home_score": 84,
+      "home_team": "Milwaukee"
+    },
+    {
+      "away_score": 41,
+      "away_team": "Howard Payne",
+      "game_id": "2022_11_28_howard_payne_ut_arlington",
+      "home_score": 99,
+      "home_team": "UT Arlington"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Troy",
+      "game_id": "2022_11_28_troy_arkansas",
+      "home_score": 74,
+      "home_team": "Arkansas"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Mount Marty College",
+      "game_id": "2022_11_28_mount_marty_college_south_dakota",
+      "home_score": 97,
+      "home_team": "South Dakota"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Texas Southern",
+      "game_id": "2022_11_28_texas_southern_kansas",
+      "home_score": 87,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Longwood",
+      "game_id": "2022_11_28_longwood_san_diego",
+      "home_score": 71,
+      "home_team": "San Diego"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Pittsburgh",
+      "game_id": "2022_11_28_pittsburgh_northwestern",
+      "home_score": 58,
+      "home_team": "Northwestern"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Cal Poly",
+      "game_id": "2022_11_28_cal_poly_pacific",
+      "home_score": 58,
+      "home_team": "Pacific"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Seattle U",
+      "game_id": "2022_11_28_seattle_u_washington",
+      "home_score": 77,
+      "home_team": "Washington"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Sam Houston",
+      "game_id": "2022_11_28_sam_houston_nevada",
+      "home_score": 78,
+      "home_team": "Nevada"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:47.147504Z"
+}

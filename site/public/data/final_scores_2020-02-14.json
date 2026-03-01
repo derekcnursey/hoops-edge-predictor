@@ -1,0 +1,118 @@
+{
+  "date": "2020-02-14",
+  "games": [
+    {
+      "away_score": 83,
+      "away_team": "Buffalo",
+      "game_id": "2020_02_14_buffalo_toledo",
+      "home_score": 67,
+      "home_team": "Toledo"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Columbia",
+      "game_id": "2020_02_14_columbia_dartmouth",
+      "home_score": 65,
+      "home_team": "Dartmouth"
+    },
+    {
+      "away_score": 70,
+      "away_team": "IU Indianapolis",
+      "game_id": "2020_02_14_iu_indianapolis_northern_kentucky",
+      "home_score": 84,
+      "home_team": "Northern Kentucky"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Akron",
+      "game_id": "2020_02_14_akron_central_michigan",
+      "home_score": 67,
+      "home_team": "Central Michigan"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Yale",
+      "game_id": "2020_02_14_yale_princeton",
+      "home_score": 64,
+      "home_team": "Princeton"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Cornell",
+      "game_id": "2020_02_14_cornell_harvard",
+      "home_score": 85,
+      "home_team": "Harvard"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Brown",
+      "game_id": "2020_02_14_brown_pennsylvania",
+      "home_score": 63,
+      "home_team": "Pennsylvania"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Quinnipiac",
+      "game_id": "2020_02_14_quinnipiac_saint_peter_s",
+      "home_score": 84,
+      "home_team": "Saint Peter's"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Manhattan",
+      "game_id": "2020_02_14_manhattan_iona",
+      "home_score": 80,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Fairfield",
+      "game_id": "2020_02_14_fairfield_marist",
+      "home_score": 53,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Monmouth",
+      "game_id": "2020_02_14_monmouth_canisius",
+      "home_score": 71,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 93,
+      "away_team": "Davidson",
+      "game_id": "2020_02_14_davidson_st_bonaventure",
+      "home_score": 64,
+      "home_team": "St. Bonaventure"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Purdue Fort Wayne",
+      "game_id": "2020_02_14_purdue_fort_wayne_north_dakota_state",
+      "home_score": 80,
+      "home_team": "North Dakota State"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Denver",
+      "game_id": "2020_02_14_denver_south_dakota_state",
+      "home_score": 90,
+      "home_team": "South Dakota State"
+    },
+    {
+      "away_score": 58,
+      "away_team": "UIC",
+      "game_id": "2020_02_14_uic_wright_state",
+      "home_score": 75,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Rider",
+      "game_id": "2020_02_14_rider_siena",
+      "home_score": 73,
+      "home_team": "Siena"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:46.034034Z"
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2023-03-30",
+  "games": [
+    {
+      "away_score": 61,
+      "away_team": "UAB",
+      "game_id": "2023_03_30_uab_north_texas",
+      "home_score": 68,
+      "home_team": "North Texas"
+    }
+  ],
+  "generated_at": "2026-02-28T21:35:01.087886Z"
+}

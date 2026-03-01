@@ -1,0 +1,69 @@
+{
+  "date": "2024-01-26",
+  "games": [
+    {
+      "away_score": 75,
+      "away_team": "Arkansas State",
+      "game_id": "2024_01_26_arkansas_state_louisiana",
+      "home_score": 81,
+      "home_team": "Louisiana"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Ohio",
+      "game_id": "2024_01_26_ohio_kent_state",
+      "home_score": 64,
+      "home_team": "Kent State"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Marist",
+      "game_id": "2024_01_26_marist_niagara",
+      "home_score": 67,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Iona",
+      "game_id": "2024_01_26_iona_siena",
+      "home_score": 51,
+      "home_team": "Siena"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Manhattan",
+      "game_id": "2024_01_26_manhattan_canisius",
+      "home_score": 82,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Michigan State",
+      "game_id": "2024_01_26_michigan_state_wisconsin",
+      "home_score": 81,
+      "home_team": "Wisconsin"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Saint Joseph's",
+      "game_id": "2024_01_26_saint_joseph_s_st_bonaventure",
+      "home_score": 91,
+      "home_team": "St. Bonaventure"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Utah Valley",
+      "game_id": "2024_01_26_utah_valley_seattle_u",
+      "home_score": 62,
+      "home_team": "Seattle U"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Stanford",
+      "game_id": "2024_01_26_stanford_california",
+      "home_score": 73,
+      "home_team": "California"
+    }
+  ],
+  "generated_at": "2026-02-28T22:39:24.779995Z"
+}

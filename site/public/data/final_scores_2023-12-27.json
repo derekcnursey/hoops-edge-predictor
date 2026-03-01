@@ -1,0 +1,27 @@
+{
+  "date": "2023-12-27",
+  "games": [
+    {
+      "away_score": 124,
+      "away_team": "Grand Canyon",
+      "game_id": "2023_12_27_grand_canyon_bethesda_university",
+      "home_score": 74,
+      "home_team": "Bethesda University"
+    },
+    {
+      "away_score": 44,
+      "away_team": "Morgan State",
+      "game_id": "2023_12_27_morgan_state_virginia",
+      "home_score": 79,
+      "home_team": "Virginia"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Chicago State",
+      "game_id": "2023_12_27_chicago_state_california_baptist",
+      "home_score": 74,
+      "home_team": "California Baptist"
+    }
+  ],
+  "generated_at": "2026-02-28T22:39:07.088566Z"
+}

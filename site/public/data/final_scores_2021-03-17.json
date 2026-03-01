@@ -1,0 +1,20 @@
+{
+  "date": "2021-03-17",
+  "games": [
+    {
+      "away_score": 66,
+      "away_team": "Toledo",
+      "game_id": "2021_03_17_toledo_richmond",
+      "home_score": 76,
+      "home_team": "Richmond"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Western Kentucky",
+      "game_id": "2021_03_17_western_kentucky_saint_mary_s",
+      "home_score": 67,
+      "home_team": "Saint Mary's"
+    }
+  ],
+  "generated_at": "2026-02-28T21:31:54.502344Z"
+}

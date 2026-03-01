@@ -1,0 +1,132 @@
+{
+  "date": "2015-12-14",
+  "games": [
+    {
+      "away_score": 71,
+      "away_team": "Robert Morris",
+      "game_id": "2015_12_14_robert_morris_columbia",
+      "home_score": 78,
+      "home_team": "Columbia"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Coastal Carolina",
+      "game_id": "2015_12_14_coastal_carolina_wofford",
+      "home_score": 63,
+      "home_team": "Wofford"
+    },
+    {
+      "away_score": 73,
+      "away_team": "North Carolina Central",
+      "game_id": "2015_12_14_north_carolina_central_marshall",
+      "home_score": 92,
+      "home_team": "Marshall"
+    },
+    {
+      "away_score": 93,
+      "away_team": "Tennessee State",
+      "game_id": "2015_12_14_tennessee_state_stetson",
+      "home_score": 90,
+      "home_team": "Stetson"
+    },
+    {
+      "away_score": 66,
+      "away_team": "South Carolina Upstate",
+      "game_id": "2015_12_14_south_carolina_upstate_navy",
+      "home_score": 57,
+      "home_team": "Navy"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Florida International",
+      "game_id": "2015_12_14_florida_international_north_florida",
+      "home_score": 94,
+      "home_team": "North Florida"
+    },
+    {
+      "away_score": 60,
+      "away_team": "St. Francis Brooklyn",
+      "game_id": "2015_12_14_st_francis_brooklyn_manhattan",
+      "home_score": 71,
+      "home_team": "Manhattan"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Eastern Washington",
+      "game_id": "2015_12_14_eastern_washington_western_carolina",
+      "home_score": 97,
+      "home_team": "Western Carolina"
+    },
+    {
+      "away_score": 54,
+      "away_team": "LeTourneau",
+      "game_id": "2015_12_14_letourneau_sam_houston",
+      "home_score": 96,
+      "home_team": "Sam Houston"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Columbia International",
+      "game_id": "2015_12_14_columbia_international_charleston_southern",
+      "home_score": 107,
+      "home_team": "Charleston Southern"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Prairie View A&M",
+      "game_id": "2015_12_14_prairie_view_a_m_tulane",
+      "home_score": 63,
+      "home_team": "Tulane"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Nicholls",
+      "game_id": "2015_12_14_nicholls_north_texas",
+      "home_score": 78,
+      "home_team": "North Texas"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Southern Miss",
+      "game_id": "2015_12_14_southern_miss_south_alabama",
+      "home_score": 54,
+      "home_team": "South Alabama"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Blue Mountain",
+      "game_id": "2015_12_14_blue_mountain_alcorn_state",
+      "home_score": 68,
+      "home_team": "Alcorn State"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Sacred Heart",
+      "game_id": "2015_12_14_sacred_heart_hartford",
+      "home_score": 80,
+      "home_team": "Hartford"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Saint Martin's",
+      "game_id": "2015_12_14_saint_martin_s_gonzaga",
+      "home_score": 86,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Cal Poly",
+      "game_id": "2015_12_14_cal_poly_saint_mary_s",
+      "home_score": 93,
+      "home_team": "Saint Mary's"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Dartmouth",
+      "game_id": "2015_12_14_dartmouth_cal_state_bakersfield",
+      "home_score": 69,
+      "home_team": "Cal State Bakersfield"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:04.126949Z"
+}

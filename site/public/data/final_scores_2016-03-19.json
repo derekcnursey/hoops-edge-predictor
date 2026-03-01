@@ -1,0 +1,83 @@
+{
+  "date": "2016-03-19",
+  "games": [
+    {
+      "away_score": 54,
+      "away_team": "Wagner",
+      "game_id": "2016_03_19_wagner_creighton",
+      "home_score": 87,
+      "home_team": "Creighton"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Wichita State",
+      "game_id": "2016_03_19_wichita_state_miami",
+      "home_score": 65,
+      "home_team": "Miami"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Louisiana",
+      "game_id": "2016_03_19_louisiana_furman",
+      "home_score": 72,
+      "home_team": "Furman"
+    },
+    {
+      "away_score": 62,
+      "away_team": "New Hampshire",
+      "game_id": "2016_03_19_new_hampshire_coastal_carolina",
+      "home_score": 71,
+      "home_team": "Coastal Carolina"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Yale",
+      "game_id": "2016_03_19_yale_duke",
+      "home_score": 71,
+      "home_team": "Duke"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Indiana",
+      "game_id": "2016_03_19_indiana_kentucky",
+      "home_score": 67,
+      "home_team": "Kentucky"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Little Rock",
+      "game_id": "2016_03_19_little_rock_iowa_state",
+      "home_score": 78,
+      "home_team": "Iowa State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Butler",
+      "game_id": "2016_03_19_butler_virginia",
+      "home_score": 77,
+      "home_team": "Virginia"
+    },
+    {
+      "away_score": 61,
+      "away_team": "UConn",
+      "game_id": "2016_03_19_uconn_kansas",
+      "home_score": 73,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Gonzaga",
+      "game_id": "2016_03_19_gonzaga_utah",
+      "home_score": 59,
+      "home_team": "Utah"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Providence",
+      "game_id": "2016_03_19_providence_north_carolina",
+      "home_score": 85,
+      "home_team": "North Carolina"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:00.475697Z"
+}

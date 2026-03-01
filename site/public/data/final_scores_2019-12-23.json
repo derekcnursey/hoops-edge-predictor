@@ -1,0 +1,69 @@
+{
+  "date": "2019-12-23",
+  "games": [
+    {
+      "away_score": 69,
+      "away_team": "Portland",
+      "game_id": "2019_12_23_portland_boise_state",
+      "home_score": 85,
+      "home_team": "Boise State"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Canisius",
+      "game_id": "2019_12_23_canisius_siena",
+      "home_score": 73,
+      "home_team": "Siena"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Long Beach State",
+      "game_id": "2019_12_23_long_beach_state_seattle_u",
+      "home_score": 79,
+      "home_team": "Seattle U"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Georgia Southern",
+      "game_id": "2019_12_23_georgia_southern_georgia",
+      "home_score": 73,
+      "home_team": "Georgia"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Houston",
+      "game_id": "2019_12_23_houston_georgia_tech",
+      "home_score": 59,
+      "home_team": "Georgia Tech"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Georgia State",
+      "game_id": "2019_12_23_georgia_state_smu",
+      "home_score": 85,
+      "home_team": "SMU"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Grambling",
+      "game_id": "2019_12_23_grambling_dayton",
+      "home_score": 81,
+      "home_team": "Dayton"
+    },
+    {
+      "away_score": 71,
+      "away_team": "San Francisco",
+      "game_id": "2019_12_23_san_francisco_fresno_state",
+      "home_score": 69,
+      "home_team": "Fresno State"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Washington",
+      "game_id": "2019_12_23_washington_hawai_i",
+      "home_score": 61,
+      "home_team": "Hawai'i"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:15.088572Z"
+}

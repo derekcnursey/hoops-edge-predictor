@@ -1,0 +1,76 @@
+{
+  "date": "2018-12-23",
+  "games": [
+    {
+      "away_score": 57,
+      "away_team": "Charlotte",
+      "game_id": "2018_12_23_charlotte_tcu",
+      "home_score": 82,
+      "home_team": "TCU"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Northern Colorado",
+      "game_id": "2018_12_23_northern_colorado_siu_edwardsville",
+      "home_score": 82,
+      "home_team": "SIU Edwardsville"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Manhattan",
+      "game_id": "2018_12_23_manhattan_st_francis_brooklyn",
+      "home_score": 72,
+      "home_team": "St. Francis Brooklyn"
+    },
+    {
+      "away_score": 44,
+      "away_team": "Coppin State",
+      "game_id": "2018_12_23_coppin_state_houston",
+      "home_score": 75,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Indiana State",
+      "game_id": "2018_12_23_indiana_state_unlv",
+      "home_score": 79,
+      "home_team": "UNLV"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Rider",
+      "game_id": "2018_12_23_rider_cal_state_northridge",
+      "home_score": 81,
+      "home_team": "Cal State Northridge"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Colorado",
+      "game_id": "2018_12_23_colorado_hawai_i",
+      "home_score": 70,
+      "home_team": "Hawai'i"
+    },
+    {
+      "away_score": 110,
+      "away_team": "Drake",
+      "game_id": "2018_12_23_drake_san_diego",
+      "home_score": 103,
+      "home_team": "San Diego"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Bucknell",
+      "game_id": "2018_12_23_bucknell_tcu",
+      "home_score": 82,
+      "home_team": "TCU"
+    },
+    {
+      "away_score": 75,
+      "away_team": "New Mexico State",
+      "game_id": "2018_12_23_new_mexico_state_washington_state",
+      "home_score": 72,
+      "home_team": "Washington State"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:34.357834Z"
+}

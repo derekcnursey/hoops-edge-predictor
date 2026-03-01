@@ -1,0 +1,55 @@
+{
+  "date": "2018-12-10",
+  "games": [
+    {
+      "away_score": 73,
+      "away_team": "Sacred Heart",
+      "game_id": "2018_12_10_sacred_heart_dartmouth",
+      "home_score": 82,
+      "home_team": "Dartmouth"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Hofstra",
+      "game_id": "2018_12_10_hofstra_manhattan",
+      "home_score": 50,
+      "home_team": "Manhattan"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Morehead State",
+      "game_id": "2018_12_10_morehead_state_marshall",
+      "home_score": 76,
+      "home_team": "Marshall"
+    },
+    {
+      "away_score": 43,
+      "away_team": "Maine-Machias",
+      "game_id": "2018_12_10_maine_machias_maine",
+      "home_score": 98,
+      "home_team": "Maine"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Champion Christian",
+      "game_id": "2018_12_10_champion_christian_arkansas_pine_bluff",
+      "home_score": 84,
+      "home_team": "Arkansas-Pine Bluff"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Cal State Fullerton",
+      "game_id": "2018_12_10_cal_state_fullerton_saint_mary_s",
+      "home_score": 81,
+      "home_team": "Saint Mary's"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Long Beach State",
+      "game_id": "2018_12_10_long_beach_state_pacific",
+      "home_score": 74,
+      "home_team": "Pacific"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:26.614176Z"
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2017-01-15",
+  "games": [
+    {
+      "away_score": 57,
+      "away_team": "Rutgers",
+      "game_id": "2017_01_15_rutgers_indiana",
+      "home_score": 76,
+      "home_team": "Indiana"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Michigan State",
+      "game_id": "2017_01_15_michigan_state_ohio_state",
+      "home_score": 72,
+      "home_team": "Ohio State"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Saint Peter's",
+      "game_id": "2017_01_15_saint_peter_s_rider",
+      "home_score": 65,
+      "home_team": "Rider"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Siena",
+      "game_id": "2017_01_15_siena_fairfield",
+      "home_score": 54,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Massachusetts",
+      "game_id": "2017_01_15_massachusetts_rhode_island",
+      "home_score": 79,
+      "home_team": "Rhode Island"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Cincinnati",
+      "game_id": "2017_01_15_cincinnati_east_carolina",
+      "home_score": 46,
+      "home_team": "East Carolina"
+    },
+    {
+      "away_score": 75,
+      "away_team": "McNeese",
+      "game_id": "2017_01_15_mcneese_se_louisiana",
+      "home_score": 79,
+      "home_team": "SE Louisiana"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Missouri State",
+      "game_id": "2017_01_15_missouri_state_loyola_chicago",
+      "home_score": 77,
+      "home_team": "Loyola Chicago"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Drake",
+      "game_id": "2017_01_15_drake_northern_iowa",
+      "home_score": 79,
+      "home_team": "Northern Iowa"
+    },
+    {
+      "away_score": 69,
+      "away_team": "George Washington",
+      "game_id": "2017_01_15_george_washington_la_salle",
+      "home_score": 79,
+      "home_team": "La Salle"
+    },
+    {
+      "away_score": 80,
+      "away_team": "SMU",
+      "game_id": "2017_01_15_smu_tulane",
+      "home_score": 64,
+      "home_team": "Tulane"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Georgia Tech",
+      "game_id": "2017_01_15_georgia_tech_nc_state",
+      "home_score": 76,
+      "home_team": "NC State"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Iowa",
+      "game_id": "2017_01_15_iowa_northwestern",
+      "home_score": 89,
+      "home_team": "Northwestern"
+    },
+    {
+      "away_score": 71,
+      "away_team": "USC",
+      "game_id": "2017_01_15_usc_colorado",
+      "home_score": 68,
+      "home_team": "Colorado"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:47.367069Z"
+}

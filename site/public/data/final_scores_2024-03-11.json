@@ -1,0 +1,104 @@
+{
+  "date": "2024-03-11",
+  "games": [
+    {
+      "away_score": 56,
+      "away_team": "Towson",
+      "game_id": "2024_03_11_towson_charleston",
+      "home_score": 61,
+      "home_team": "Charleston"
+    },
+    {
+      "away_score": 57,
+      "away_team": "New Orleans",
+      "game_id": "2024_03_11_new_orleans_lamar",
+      "home_score": 71,
+      "home_team": "Lamar"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Arkansas State",
+      "game_id": "2024_03_11_arkansas_state_james_madison",
+      "home_score": 91,
+      "home_team": "James Madison"
+    },
+    {
+      "away_score": 49,
+      "away_team": "St. Thomas-Minnesota",
+      "game_id": "2024_03_11_st_thomas_minnesota_south_dakota_state",
+      "home_score": 59,
+      "home_team": "South Dakota State"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Cleveland State",
+      "game_id": "2024_03_11_cleveland_state_oakland",
+      "home_score": 74,
+      "home_team": "Oakland"
+    },
+    {
+      "away_score": 69,
+      "away_team": "East Tennessee State",
+      "game_id": "2024_03_11_east_tennessee_state_samford",
+      "home_score": 76,
+      "home_team": "Samford"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Montana State",
+      "game_id": "2024_03_11_montana_state_weber_state",
+      "home_score": 82,
+      "home_team": "Weber State"
+    },
+    {
+      "away_score": 51,
+      "away_team": "East Texas A&M",
+      "game_id": "2024_03_11_east_texas_a_m_nicholls",
+      "home_score": 72,
+      "home_team": "Nicholls"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Stony Brook",
+      "game_id": "2024_03_11_stony_brook_hofstra",
+      "home_score": 59,
+      "home_team": "Hofstra"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Santa Clara",
+      "game_id": "2024_03_11_santa_clara_saint_mary_s",
+      "home_score": 79,
+      "home_team": "Saint Mary's"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Denver",
+      "game_id": "2024_03_11_denver_omaha",
+      "home_score": 63,
+      "home_team": "Omaha"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Milwaukee",
+      "game_id": "2024_03_11_milwaukee_northern_kentucky",
+      "home_score": 75,
+      "home_team": "Northern Kentucky"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Portland State",
+      "game_id": "2024_03_11_portland_state_montana",
+      "home_score": 87,
+      "home_team": "Montana"
+    },
+    {
+      "away_score": 77,
+      "away_team": "San Francisco",
+      "game_id": "2024_03_11_san_francisco_gonzaga",
+      "home_score": 89,
+      "home_team": "Gonzaga"
+    }
+  ],
+  "generated_at": "2026-02-28T22:39:54.333842Z"
+}

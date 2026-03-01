@@ -1,0 +1,34 @@
+{
+  "date": "2025-03-25",
+  "games": [
+    {
+      "away_score": 78,
+      "away_team": "Illinois State",
+      "game_id": "2025_03_25_illinois_state_incarnate_word",
+      "home_score": 73,
+      "home_team": "Incarnate Word"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Chattanooga",
+      "game_id": "2025_03_25_chattanooga_bradley",
+      "home_score": 65,
+      "home_team": "Bradley"
+    },
+    {
+      "away_score": 61,
+      "away_team": "North Texas",
+      "game_id": "2025_03_25_north_texas_oklahoma_state",
+      "home_score": 59,
+      "home_team": "Oklahoma State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Florida Gulf Coast",
+      "game_id": "2025_03_25_florida_gulf_coast_cleveland_state",
+      "home_score": 72,
+      "home_team": "Cleveland State"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:44.848211Z"
+}

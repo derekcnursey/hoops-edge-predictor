@@ -1,0 +1,20 @@
+{
+  "date": "2016-03-14",
+  "games": [
+    {
+      "away_score": 81,
+      "away_team": "Jackson State",
+      "game_id": "2016_03_14_jackson_state_sam_houston",
+      "home_score": 77,
+      "home_team": "Sam Houston"
+    },
+    {
+      "away_score": 74,
+      "away_team": "South Carolina State",
+      "game_id": "2016_03_14_south_carolina_state_grand_canyon",
+      "home_score": 78,
+      "home_team": "Grand Canyon"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:57.553914Z"
+}

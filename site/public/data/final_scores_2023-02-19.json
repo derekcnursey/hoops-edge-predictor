@@ -1,0 +1,188 @@
+{
+  "date": "2023-02-19",
+  "games": [
+    {
+      "away_score": 73,
+      "away_team": "Cincinnati",
+      "game_id": "2023_02_19_cincinnati_ucf",
+      "home_score": 71,
+      "home_team": "UCF"
+    },
+    {
+      "away_score": 68,
+      "away_team": "IU Indianapolis",
+      "game_id": "2023_02_19_iu_indianapolis_detroit_mercy",
+      "home_score": 81,
+      "home_team": "Detroit Mercy"
+    },
+    {
+      "away_score": 69,
+      "away_team": "North Carolina",
+      "game_id": "2023_02_19_north_carolina_nc_state",
+      "home_score": 77,
+      "home_team": "NC State"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Ohio State",
+      "game_id": "2023_02_19_ohio_state_purdue",
+      "home_score": 82,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Wright State",
+      "game_id": "2023_02_19_wright_state_purdue_fort_wayne",
+      "home_score": 77,
+      "home_team": "Purdue Fort Wayne"
+    },
+    {
+      "away_score": 83,
+      "away_team": "George Washington",
+      "game_id": "2023_02_19_george_washington_st_bonaventure",
+      "home_score": 81,
+      "home_team": "St. Bonaventure"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Manhattan",
+      "game_id": "2023_02_19_manhattan_fairfield",
+      "home_score": 72,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Niagara",
+      "game_id": "2023_02_19_niagara_marist",
+      "home_score": 61,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Canisius",
+      "game_id": "2023_02_19_canisius_mount_st_mary_s",
+      "home_score": 75,
+      "home_team": "Mount St. Mary's"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Rider",
+      "game_id": "2023_02_19_rider_quinnipiac",
+      "home_score": 90,
+      "home_team": "Quinnipiac"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Iona",
+      "game_id": "2023_02_19_iona_saint_peter_s",
+      "home_score": 53,
+      "home_team": "Saint Peter's"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Bradley",
+      "game_id": "2023_02_19_bradley_southern_illinois",
+      "home_score": 48,
+      "home_team": "Southern Illinois"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Tulsa",
+      "game_id": "2023_02_19_tulsa_temple",
+      "home_score": 76,
+      "home_team": "Temple"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Memphis",
+      "game_id": "2023_02_19_memphis_houston",
+      "home_score": 72,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Hartford",
+      "game_id": "2023_02_19_hartford_chicago_state",
+      "home_score": 75,
+      "home_team": "Chicago State"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Northern Kentucky",
+      "game_id": "2023_02_19_northern_kentucky_cleveland_state",
+      "home_score": 64,
+      "home_team": "Cleveland State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Georgetown",
+      "game_id": "2023_02_19_georgetown_butler",
+      "home_score": 62,
+      "home_team": "Butler"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Valparaiso",
+      "game_id": "2023_02_19_valparaiso_uic",
+      "home_score": 74,
+      "home_team": "UIC"
+    },
+    {
+      "away_score": 70,
+      "away_team": "East Carolina",
+      "game_id": "2023_02_19_east_carolina_smu",
+      "home_score": 86,
+      "home_team": "SMU"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Belmont",
+      "game_id": "2023_02_19_belmont_drake",
+      "home_score": 70,
+      "home_team": "Drake"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Central Arkansas",
+      "game_id": "2023_02_19_central_arkansas_bellarmine",
+      "home_score": 68,
+      "home_team": "Bellarmine"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Maryland",
+      "game_id": "2023_02_19_maryland_nebraska",
+      "home_score": 70,
+      "home_team": "Nebraska"
+    },
+    {
+      "away_score": 79,
+      "away_team": "East Tennessee State",
+      "game_id": "2023_02_19_east_tennessee_state_furman",
+      "home_score": 83,
+      "home_team": "Furman"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Iowa",
+      "game_id": "2023_02_19_iowa_northwestern",
+      "home_score": 80,
+      "home_team": "Northwestern"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Oregon",
+      "game_id": "2023_02_19_oregon_washington_state",
+      "home_score": 68,
+      "home_team": "Washington State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "UNLV",
+      "game_id": "2023_02_19_unlv_boise_state",
+      "home_score": 73,
+      "home_team": "Boise State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:34:37.640492Z"
+}

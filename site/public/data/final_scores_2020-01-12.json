@@ -1,0 +1,111 @@
+{
+  "date": "2020-01-12",
+  "games": [
+    {
+      "away_score": 89,
+      "away_team": "Wichita State",
+      "game_id": "2020_01_12_wichita_state_uconn",
+      "home_score": 86,
+      "home_team": "UConn"
+    },
+    {
+      "away_score": 42,
+      "away_team": "Michigan State",
+      "game_id": "2020_01_12_michigan_state_purdue",
+      "home_score": 71,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Canisius",
+      "game_id": "2020_01_12_canisius_saint_peter_s",
+      "home_score": 68,
+      "home_team": "Saint Peter's"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Niagara",
+      "game_id": "2020_01_12_niagara_iona",
+      "home_score": 69,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Michigan",
+      "game_id": "2020_01_12_michigan_minnesota",
+      "home_score": 75,
+      "home_team": "Minnesota"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Monmouth",
+      "game_id": "2020_01_12_monmouth_quinnipiac",
+      "home_score": 84,
+      "home_team": "Quinnipiac"
+    },
+    {
+      "away_score": 96,
+      "away_team": "Northern Kentucky",
+      "game_id": "2020_01_12_northern_kentucky_iu_indianapolis",
+      "home_score": 71,
+      "home_team": "IU Indianapolis"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Johnson & Wales (RI)",
+      "game_id": "2020_01_12_johnson_wales_ri_yale",
+      "home_score": 108,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Rider",
+      "game_id": "2020_01_12_rider_marist",
+      "home_score": 52,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Siena",
+      "game_id": "2020_01_12_siena_manhattan",
+      "home_score": 81,
+      "home_team": "Manhattan"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Memphis",
+      "game_id": "2020_01_12_memphis_south_florida",
+      "home_score": 64,
+      "home_team": "South Florida"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Wright State",
+      "game_id": "2020_01_12_wright_state_uic",
+      "home_score": 76,
+      "home_team": "UIC"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Pittsburgh",
+      "game_id": "2020_01_12_pittsburgh_miami",
+      "home_score": 66,
+      "home_team": "Miami"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Utah",
+      "game_id": "2020_01_12_utah_colorado",
+      "home_score": 91,
+      "home_team": "Colorado"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Arizona",
+      "game_id": "2020_01_12_arizona_oregon_state",
+      "home_score": 82,
+      "home_team": "Oregon State"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:26.558449Z"
+}

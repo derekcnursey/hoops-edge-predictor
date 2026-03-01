@@ -1,0 +1,111 @@
+{
+  "date": "2022-12-15",
+  "games": [
+    {
+      "away_score": 63,
+      "away_team": "Elon",
+      "game_id": "2022_12_15_elon_presbyterian",
+      "home_score": 69,
+      "home_team": "Presbyterian"
+    },
+    {
+      "away_score": 54,
+      "away_team": "North American",
+      "game_id": "2022_12_15_north_american_rice",
+      "home_score": 92,
+      "home_team": "Rice"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Lehigh",
+      "game_id": "2022_12_15_lehigh_wisconsin",
+      "home_score": 78,
+      "home_team": "Wisconsin"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Stony Brook",
+      "game_id": "2022_12_15_stony_brook_wagner",
+      "home_score": 58,
+      "home_team": "Wagner"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Chattanooga",
+      "game_id": "2022_12_15_chattanooga_middle_tennessee",
+      "home_score": 73,
+      "home_team": "Middle Tennessee"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Rust",
+      "game_id": "2022_12_15_rust_alabama_a_m",
+      "home_score": 97,
+      "home_team": "Alabama A&M"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Louisiana",
+      "game_id": "2022_12_15_louisiana_mcneese",
+      "home_score": 70,
+      "home_team": "McNeese"
+    },
+    {
+      "away_score": 73,
+      "away_team": "SE Louisiana",
+      "game_id": "2022_12_15_se_louisiana_nicholls",
+      "home_score": 88,
+      "home_team": "Nicholls"
+    },
+    {
+      "away_score": 42,
+      "away_team": "Saint Mary of the Woods College",
+      "game_id": "2022_12_15_saint_mary_of_the_woods_college_southern_indiana",
+      "home_score": 84,
+      "home_team": "Southern Indiana"
+    },
+    {
+      "away_score": 60,
+      "away_team": "North Alabama",
+      "game_id": "2022_12_15_north_alabama_colorado",
+      "home_score": 84,
+      "home_team": "Colorado"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Southwestern Christian",
+      "game_id": "2022_12_15_southwestern_christian_ut_rio_grande_valley",
+      "home_score": 106,
+      "home_team": "UT Rio Grande Valley"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Westminster (UT)",
+      "game_id": "2022_12_15_westminster_ut_utah_state",
+      "home_score": 106,
+      "home_team": "Utah State"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Western Oregon",
+      "game_id": "2022_12_15_western_oregon_byu",
+      "home_score": 97,
+      "home_team": "BYU"
+    },
+    {
+      "away_score": 74,
+      "away_team": "UC Irvine",
+      "game_id": "2022_12_15_uc_irvine_santa_clara",
+      "home_score": 86,
+      "home_team": "Santa Clara"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Seattle U",
+      "game_id": "2022_12_15_seattle_u_oregon_state",
+      "home_score": 73,
+      "home_team": "Oregon State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:58.788224Z"
+}

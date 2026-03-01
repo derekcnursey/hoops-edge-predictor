@@ -1,0 +1,90 @@
+{
+  "date": "2015-12-27",
+  "games": [
+    {
+      "away_score": 67,
+      "away_team": "Texas Southern",
+      "game_id": "2015_12_27_texas_southern_syracuse",
+      "home_score": 80,
+      "home_team": "Syracuse"
+    },
+    {
+      "away_score": 101,
+      "away_team": "Fairfield",
+      "game_id": "2015_12_27_fairfield_bucknell",
+      "home_score": 91,
+      "home_team": "Bucknell"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Presbyterian",
+      "game_id": "2015_12_27_presbyterian_marquette",
+      "home_score": 84,
+      "home_team": "Marquette"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Central Penn",
+      "game_id": "2015_12_27_central_penn_radford",
+      "home_score": 123,
+      "home_team": "Radford"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Harris-Stowe State",
+      "game_id": "2015_12_27_harris_stowe_state_southeast_missouri_state",
+      "home_score": 94,
+      "home_team": "Southeast Missouri State"
+    },
+    {
+      "away_score": 46,
+      "away_team": "Pacific Union",
+      "game_id": "2015_12_27_pacific_union_fresno_state",
+      "home_score": 89,
+      "home_team": "Fresno State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Marshall",
+      "game_id": "2015_12_27_marshall_maryland",
+      "home_score": 87,
+      "home_team": "Maryland"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Liberty",
+      "game_id": "2015_12_27_liberty_vcu",
+      "home_score": 85,
+      "home_team": "VCU"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Middle Tennessee",
+      "game_id": "2015_12_27_middle_tennessee_south_dakota_state",
+      "home_score": 65,
+      "home_team": "South Dakota State"
+    },
+    {
+      "away_score": 57,
+      "away_team": "South Carolina State",
+      "game_id": "2015_12_27_south_carolina_state_ohio_state",
+      "home_score": 73,
+      "home_team": "Ohio State"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Loyola Maryland",
+      "game_id": "2015_12_27_loyola_maryland_northwestern",
+      "home_score": 74,
+      "home_team": "Northwestern"
+    },
+    {
+      "away_score": 38,
+      "away_team": "Carroll (MT)",
+      "game_id": "2015_12_27_carroll_mt_stanford",
+      "home_score": 83,
+      "home_team": "Stanford"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:11.004025Z"
+}

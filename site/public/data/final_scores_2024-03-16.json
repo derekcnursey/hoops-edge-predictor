@@ -1,0 +1,167 @@
+{
+  "date": "2024-03-16",
+  "games": [
+    {
+      "away_score": 61,
+      "away_team": "UMass Lowell",
+      "game_id": "2024_03_16_umass_lowell_vermont",
+      "home_score": 66,
+      "home_team": "Vermont"
+    },
+    {
+      "away_score": 90,
+      "away_team": "Brown",
+      "game_id": "2024_03_16_brown_princeton",
+      "home_score": 81,
+      "home_team": "Princeton"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Delaware State",
+      "game_id": "2024_03_16_delaware_state_howard",
+      "home_score": 70,
+      "home_team": "Howard"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Mississippi State",
+      "game_id": "2024_03_16_mississippi_state_auburn",
+      "home_score": 73,
+      "home_team": "Auburn"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Wisconsin",
+      "game_id": "2024_03_16_wisconsin_purdue",
+      "home_score": 75,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Saint Joseph's",
+      "game_id": "2024_03_16_saint_joseph_s_vcu",
+      "home_score": 66,
+      "home_team": "VCU"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Cornell",
+      "game_id": "2024_03_16_cornell_yale",
+      "home_score": 69,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 93,
+      "away_team": "UAB",
+      "game_id": "2024_03_16_uab_south_florida",
+      "home_score": 83,
+      "home_team": "South Florida"
+    },
+    {
+      "away_score": 60,
+      "away_team": "St. Bonaventure",
+      "game_id": "2024_03_16_st_bonaventure_duquesne",
+      "home_score": 70,
+      "home_team": "Duquesne"
+    },
+    {
+      "away_score": 90,
+      "away_team": "Texas A&M",
+      "game_id": "2024_03_16_texas_a_m_florida",
+      "home_score": 95,
+      "home_team": "Florida"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Nebraska",
+      "game_id": "2024_03_16_nebraska_illinois",
+      "home_score": 98,
+      "home_team": "Illinois"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Temple",
+      "game_id": "2024_03_16_temple_florida_atlantic",
+      "home_score": 73,
+      "home_team": "Florida Atlantic"
+    },
+    {
+      "away_score": 68,
+      "away_team": "New Mexico",
+      "game_id": "2024_03_16_new_mexico_san_diego_state",
+      "home_score": 61,
+      "home_team": "San Diego State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Iowa State",
+      "game_id": "2024_03_16_iowa_state_houston",
+      "home_score": 41,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Marquette",
+      "game_id": "2024_03_16_marquette_uconn",
+      "home_score": 73,
+      "home_team": "UConn"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Kent State",
+      "game_id": "2024_03_16_kent_state_akron",
+      "home_score": 62,
+      "home_team": "Akron"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Saint Peter's",
+      "game_id": "2024_03_16_saint_peter_s_fairfield",
+      "home_score": 63,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 71,
+      "away_team": "UTEP",
+      "game_id": "2024_03_16_utep_western_kentucky",
+      "home_score": 78,
+      "home_team": "Western Kentucky"
+    },
+    {
+      "away_score": 84,
+      "away_team": "NC State",
+      "game_id": "2024_03_16_nc_state_north_carolina",
+      "home_score": 76,
+      "home_team": "North Carolina"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Oregon",
+      "game_id": "2024_03_16_oregon_colorado",
+      "home_score": 68,
+      "home_team": "Colorado"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Texas Southern",
+      "game_id": "2024_03_16_texas_southern_grambling",
+      "home_score": 75,
+      "home_team": "Grambling"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Long Beach State",
+      "game_id": "2024_03_16_long_beach_state_uc_davis",
+      "home_score": 70,
+      "home_team": "UC Davis"
+    },
+    {
+      "away_score": 74,
+      "away_team": "UT Arlington",
+      "game_id": "2024_03_16_ut_arlington_grand_canyon",
+      "home_score": 89,
+      "home_team": "Grand Canyon"
+    }
+  ],
+  "generated_at": "2026-02-28T22:39:57.389635Z"
+}

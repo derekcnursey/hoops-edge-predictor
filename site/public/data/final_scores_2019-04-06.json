@@ -1,0 +1,20 @@
+{
+  "date": "2019-04-06",
+  "games": [
+    {
+      "away_score": 62,
+      "away_team": "Auburn",
+      "game_id": "2019_04_06_auburn_virginia",
+      "home_score": 63,
+      "home_team": "Virginia"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Texas Tech",
+      "game_id": "2019_04_06_texas_tech_michigan_state",
+      "home_score": 51,
+      "home_team": "Michigan State"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:35.850096Z"
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2019-04-04",
+  "games": [
+    {
+      "away_team": "Lipscomb",
+      "edge_home_points": -3.7083330154418945,
+      "game_id": "2019_04_04_lipscomb_texas",
+      "home_team": "Texas",
+      "market_spread_home": -1.0,
+      "model_mu_home": -2.708333,
+      "neutral_site": null,
+      "pick_cover_prob": 0.620806386620859,
+      "pick_ev_per_1": 0.18517582900345797,
+      "pick_fair_odds": -163.71752179278892,
+      "pick_prob_edge": 0.09699686281133513,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.46412078,
+      "pred_sigma": 12.055725,
+      "start_time": "2019-04-04T23:00:00.000Z"
+    },
+    {
+      "away_team": "Green Bay",
+      "edge_home_points": -0.2748074531555176,
+      "game_id": "2019_04_04_green_bay_marshall",
+      "home_team": "Marshall",
+      "market_spread_home": -5.0,
+      "model_mu_home": 4.7251925,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5088307776648258,
+      "pick_ev_per_1": -0.028595788094423535,
+      "pick_fair_odds": -103.59581881895672,
+      "pick_prob_edge": -0.014978746144698074,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.90878016,
+      "pred_sigma": 12.413783,
+      "start_time": "2019-04-04T23:00:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T22:35:24.455336Z"
+}

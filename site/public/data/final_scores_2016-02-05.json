@@ -1,0 +1,69 @@
+{
+  "date": "2016-02-05",
+  "games": [
+    {
+      "away_score": 72,
+      "away_team": "Columbia",
+      "game_id": "2016_02_05_columbia_yale",
+      "home_score": 86,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Dartmouth",
+      "game_id": "2016_02_05_dartmouth_pennsylvania",
+      "home_score": 71,
+      "home_team": "Pennsylvania"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Rider",
+      "game_id": "2016_02_05_rider_niagara",
+      "home_score": 60,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Iona",
+      "game_id": "2016_02_05_iona_canisius",
+      "home_score": 66,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Fairfield",
+      "game_id": "2016_02_05_fairfield_monmouth",
+      "home_score": 91,
+      "home_team": "Monmouth"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Cornell",
+      "game_id": "2016_02_05_cornell_brown",
+      "home_score": 86,
+      "home_team": "Brown"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Harvard",
+      "game_id": "2016_02_05_harvard_princeton",
+      "home_score": 83,
+      "home_team": "Princeton"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Central Michigan",
+      "game_id": "2016_02_05_central_michigan_akron",
+      "home_score": 92,
+      "home_team": "Akron"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Saint Peter's",
+      "game_id": "2016_02_05_saint_peter_s_siena",
+      "home_score": 69,
+      "home_team": "Siena"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:34.594705Z"
+}

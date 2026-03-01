@@ -1,0 +1,125 @@
+{
+  "date": "2022-03-19",
+  "games": [
+    {
+      "away_score": 60,
+      "away_team": "Oregon",
+      "game_id": "2022_03_19_oregon_texas_a_m",
+      "home_score": 75,
+      "home_team": "Texas A&M"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Drake",
+      "game_id": "2022_03_19_drake_purdue_fort_wayne",
+      "home_score": 65,
+      "home_team": "Purdue Fort Wayne"
+    },
+    {
+      "away_score": 93,
+      "away_team": "North Carolina",
+      "game_id": "2022_03_19_north_carolina_baylor",
+      "home_score": 86,
+      "home_team": "Baylor"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Stephen F. Austin",
+      "game_id": "2022_03_19_stephen_f_austin_unc_asheville",
+      "home_score": 80,
+      "home_team": "UNC Asheville"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Creighton",
+      "game_id": "2022_03_19_creighton_kansas",
+      "home_score": 79,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Western Illinois",
+      "game_id": "2022_03_19_western_illinois_utep",
+      "home_score": 80,
+      "home_team": "UTEP"
+    },
+    {
+      "away_score": 74,
+      "away_team": "VCU",
+      "game_id": "2022_03_19_vcu_wake_forest",
+      "home_score": 80,
+      "home_team": "Wake Forest"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Middle Tennessee",
+      "game_id": "2022_03_19_middle_tennessee_california_baptist",
+      "home_score": 58,
+      "home_team": "California Baptist"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Michigan",
+      "game_id": "2022_03_19_michigan_tennessee",
+      "home_score": 68,
+      "home_team": "Tennessee"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Richmond",
+      "game_id": "2022_03_19_richmond_providence",
+      "home_score": 79,
+      "home_team": "Providence"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Saint Mary's",
+      "game_id": "2022_03_19_saint_mary_s_ucla",
+      "home_score": 72,
+      "home_team": "UCLA"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Ohio",
+      "game_id": "2022_03_19_ohio_rice",
+      "home_score": 64,
+      "home_team": "Rice"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Saint Peter's",
+      "game_id": "2022_03_19_saint_peter_s_murray_state",
+      "home_score": 60,
+      "home_team": "Murray State"
+    },
+    {
+      "away_score": 48,
+      "away_team": "New Mexico State",
+      "game_id": "2022_03_19_new_mexico_state_arkansas",
+      "home_score": 53,
+      "home_team": "Arkansas"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Northern Iowa",
+      "game_id": "2022_03_19_northern_iowa_byu",
+      "home_score": 90,
+      "home_team": "BYU"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Memphis",
+      "game_id": "2022_03_19_memphis_gonzaga",
+      "home_score": 82,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 73,
+      "away_team": "New Orleans",
+      "game_id": "2022_03_19_new_orleans_portland",
+      "home_score": 94,
+      "home_team": "Portland"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:22.393309Z"
+}

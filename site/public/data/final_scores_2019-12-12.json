@@ -1,0 +1,48 @@
+{
+  "date": "2019-12-12",
+  "games": [
+    {
+      "away_score": 53,
+      "away_team": "Austin Peay",
+      "game_id": "2019_12_12_austin_peay_west_virginia",
+      "home_score": 84,
+      "home_team": "West Virginia"
+    },
+    {
+      "away_score": 36,
+      "away_team": "Howard Payne",
+      "game_id": "2019_12_12_howard_payne_abilene_christian",
+      "home_score": 105,
+      "home_team": "Abilene Christian"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Southern",
+      "game_id": "2019_12_12_southern_wright_state",
+      "home_score": 85,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Iowa",
+      "game_id": "2019_12_12_iowa_iowa_state",
+      "home_score": 68,
+      "home_team": "Iowa State"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Northern Iowa",
+      "game_id": "2019_12_12_northern_iowa_grand_canyon",
+      "home_score": 58,
+      "home_team": "Grand Canyon"
+    },
+    {
+      "away_score": 48,
+      "away_team": "Portland Bible",
+      "game_id": "2019_12_12_portland_bible_portland_state",
+      "home_score": 101,
+      "home_team": "Portland State"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:08.742833Z"
+}

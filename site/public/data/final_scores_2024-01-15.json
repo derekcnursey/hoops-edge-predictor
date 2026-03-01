@@ -1,0 +1,209 @@
+{
+  "date": "2024-01-15",
+  "games": [
+    {
+      "away_score": 65,
+      "away_team": "Ohio State",
+      "game_id": "2024_01_15_ohio_state_michigan",
+      "home_score": 73,
+      "home_team": "Michigan"
+    },
+    {
+      "away_score": 93,
+      "away_team": "Siena",
+      "game_id": "2024_01_15_siena_niagara",
+      "home_score": 88,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Fairfield",
+      "game_id": "2024_01_15_fairfield_canisius",
+      "home_score": 63,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Stonehill",
+      "game_id": "2024_01_15_stonehill_wagner",
+      "home_score": 64,
+      "home_team": "Wagner"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Brown",
+      "game_id": "2024_01_15_brown_harvard",
+      "home_score": 72,
+      "home_team": "Harvard"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Dartmouth",
+      "game_id": "2024_01_15_dartmouth_princeton",
+      "home_score": 76,
+      "home_team": "Princeton"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Pennsylvania",
+      "game_id": "2024_01_15_pennsylvania_cornell",
+      "home_score": 77,
+      "home_team": "Cornell"
+    },
+    {
+      "away_score": 62,
+      "away_team": "George Mason",
+      "game_id": "2024_01_15_george_mason_george_washington",
+      "home_score": 75,
+      "home_team": "George Washington"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Villanova",
+      "game_id": "2024_01_15_villanova_marquette",
+      "home_score": 87,
+      "home_team": "Marquette"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Houston Christian",
+      "game_id": "2024_01_15_houston_christian_northwestern_state",
+      "home_score": 69,
+      "home_team": "Northwestern State"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Mississippi Valley State",
+      "game_id": "2024_01_15_mississippi_valley_state_texas_southern",
+      "home_score": 93,
+      "home_team": "Texas Southern"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Merrimack",
+      "game_id": "2024_01_15_merrimack_central_connecticut",
+      "home_score": 75,
+      "home_team": "Central Connecticut"
+    },
+    {
+      "away_score": 62,
+      "away_team": "La Salle",
+      "game_id": "2024_01_15_la_salle_saint_joseph_s",
+      "home_score": 82,
+      "home_team": "Saint Joseph's"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Iowa",
+      "game_id": "2024_01_15_iowa_minnesota",
+      "home_score": 77,
+      "home_team": "Minnesota"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Columbia",
+      "game_id": "2024_01_15_columbia_yale",
+      "home_score": 89,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Chicago State",
+      "game_id": "2024_01_15_chicago_state_stetson",
+      "home_score": 70,
+      "home_team": "Stetson"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Sacred Heart",
+      "game_id": "2024_01_15_sacred_heart_le_moyne",
+      "home_score": 73,
+      "home_team": "Le Moyne"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Notre Dame",
+      "game_id": "2024_01_15_notre_dame_boston_college",
+      "home_score": 63,
+      "home_team": "Boston College"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Fairleigh Dickinson",
+      "game_id": "2024_01_15_fairleigh_dickinson_st_francis_pa",
+      "home_score": 71,
+      "home_team": "St. Francis (PA)"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Morehouse",
+      "game_id": "2024_01_15_morehouse_howard",
+      "home_score": 78,
+      "home_team": "Howard"
+    },
+    {
+      "away_score": 66,
+      "away_team": "American University",
+      "game_id": "2024_01_15_american_university_loyola_maryland",
+      "home_score": 52,
+      "home_team": "Loyola Maryland"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Texas A&M-Corpus Christi",
+      "game_id": "2024_01_15_texas_a_m_corpus_christi_se_louisiana",
+      "home_score": 68,
+      "home_team": "SE Louisiana"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Virginia-Lynchburg",
+      "game_id": "2024_01_15_virginia_lynchburg_norfolk_state",
+      "home_score": 118,
+      "home_team": "Norfolk State"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Southern",
+      "game_id": "2024_01_15_southern_bethune_cookman",
+      "home_score": 83,
+      "home_team": "Bethune-Cookman"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Alabama A&M",
+      "game_id": "2024_01_15_alabama_a_m_alabama_state",
+      "home_score": 72,
+      "home_team": "Alabama State"
+    },
+    {
+      "away_score": 75,
+      "away_team": "New Orleans",
+      "game_id": "2024_01_15_new_orleans_nicholls",
+      "home_score": 78,
+      "home_team": "Nicholls"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Lamar",
+      "game_id": "2024_01_15_lamar_mcneese",
+      "home_score": 88,
+      "home_team": "McNeese"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Grambling",
+      "game_id": "2024_01_15_grambling_florida_a_m",
+      "home_score": 52,
+      "home_team": "Florida A&M"
+    },
+    {
+      "away_score": 81,
+      "away_team": "North Carolina A&T",
+      "game_id": "2024_01_15_north_carolina_a_t_hampton",
+      "home_score": 80,
+      "home_team": "Hampton"
+    }
+  ],
+  "generated_at": "2026-02-28T22:39:18.014414Z"
+}

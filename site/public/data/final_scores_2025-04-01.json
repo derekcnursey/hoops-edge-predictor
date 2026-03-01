@@ -1,0 +1,48 @@
+{
+  "date": "2025-04-01",
+  "games": [
+    {
+      "away_score": 61,
+      "away_team": "DePaul",
+      "game_id": "2025_04_01_depaul_cincinnati",
+      "home_score": 83,
+      "home_team": "Cincinnati"
+    },
+    {
+      "away_score": 75,
+      "away_team": "UCF",
+      "game_id": "2025_04_01_ucf_oregon_state",
+      "home_score": 76,
+      "home_team": "Oregon State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "North Texas",
+      "game_id": "2025_04_01_north_texas_uc_irvine",
+      "home_score": 69,
+      "home_team": "UC Irvine"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Villanova",
+      "game_id": "2025_04_01_villanova_colorado",
+      "home_score": 64,
+      "home_team": "Colorado"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Loyola Chicago",
+      "game_id": "2025_04_01_loyola_chicago_chattanooga",
+      "home_score": 73,
+      "home_team": "Chattanooga"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Tulane",
+      "game_id": "2025_04_01_tulane_usc",
+      "home_score": 89,
+      "home_team": "USC"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:48.879261Z"
+}

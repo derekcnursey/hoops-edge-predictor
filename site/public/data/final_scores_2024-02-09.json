@@ -1,0 +1,27 @@
+{
+  "date": "2024-02-09",
+  "games": [
+    {
+      "away_score": 47,
+      "away_team": "Dayton",
+      "game_id": "2024_02_09_dayton_vcu",
+      "home_score": 49,
+      "home_team": "VCU"
+    },
+    {
+      "away_score": 66,
+      "away_team": "San Diego State",
+      "game_id": "2024_02_09_san_diego_state_nevada",
+      "home_score": 70,
+      "home_team": "Nevada"
+    },
+    {
+      "away_score": 47,
+      "away_team": "San Jos\u00e9 State",
+      "game_id": "2024_02_09_san_jos_state_colorado_state",
+      "home_score": 66,
+      "home_team": "Colorado State"
+    }
+  ],
+  "generated_at": "2026-02-28T22:39:33.832329Z"
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2024-03-30",
+  "games": [
+    {
+      "away_team": "Illinois",
+      "edge_home_points": -2.9270195960998535,
+      "game_id": "2024_03_30_illinois_uconn",
+      "home_team": "UConn",
+      "market_spread_home": -8.5,
+      "model_mu_home": 5.5729804,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5992299763047074,
+      "pick_ev_per_1": 0.14398450021807774,
+      "pick_fair_odds": -149.51965987363988,
+      "pick_prob_edge": 0.07542045249518359,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.94005793,
+      "pred_sigma": 11.644986,
+      "start_time": "2024-03-30T22:09:00.000Z"
+    },
+    {
+      "away_team": "Clemson",
+      "edge_home_points": -1.2590421438217163,
+      "game_id": "2024_03_30_clemson_alabama",
+      "home_team": "Alabama",
+      "market_spread_home": -2.5,
+      "model_mu_home": 1.2409579,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5486416613478409,
+      "pick_ev_per_1": 0.0474068080276962,
+      "pick_fair_odds": -121.55345639258334,
+      "pick_prob_edge": 0.024832137538317034,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.40163893,
+      "pred_sigma": 10.300578,
+      "start_time": "2024-03-31T00:49:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T22:36:03.872778Z"
+}

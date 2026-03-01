@@ -1,0 +1,174 @@
+{
+  "date": "2017-02-06",
+  "games": [
+    {
+      "away_score": 70,
+      "away_team": "Louisiana",
+      "game_id": "2017_02_06_louisiana_georgia_southern",
+      "home_score": 74,
+      "home_team": "Georgia Southern"
+    },
+    {
+      "away_score": 76,
+      "away_team": "East Tennessee State",
+      "game_id": "2017_02_06_east_tennessee_state_wofford",
+      "home_score": 79,
+      "home_team": "Wofford"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Quinnipiac",
+      "game_id": "2017_02_06_quinnipiac_fairfield",
+      "home_score": 71,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Monmouth",
+      "game_id": "2017_02_06_monmouth_rider",
+      "home_score": 69,
+      "home_team": "Rider"
+    },
+    {
+      "away_score": 69,
+      "away_team": "UAlbany",
+      "game_id": "2017_02_06_ualbany_new_hampshire",
+      "home_score": 55,
+      "home_team": "New Hampshire"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Binghamton",
+      "game_id": "2017_02_06_binghamton_vermont",
+      "home_score": 71,
+      "home_team": "Vermont"
+    },
+    {
+      "away_score": 41,
+      "away_team": "Hartford",
+      "game_id": "2017_02_06_hartford_maine",
+      "home_score": 52,
+      "home_team": "Maine"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Canisius",
+      "game_id": "2017_02_06_canisius_saint_peter_s",
+      "home_score": 70,
+      "home_team": "Saint Peter's"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Louisville",
+      "game_id": "2017_02_06_louisville_virginia",
+      "home_score": 71,
+      "home_team": "Virginia"
+    },
+    {
+      "away_score": 72,
+      "away_team": "UMass Lowell",
+      "game_id": "2017_02_06_umass_lowell_stony_brook",
+      "home_score": 83,
+      "home_team": "Stony Brook"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Holy Cross",
+      "game_id": "2017_02_06_holy_cross_bucknell",
+      "home_score": 82,
+      "home_team": "Bucknell"
+    },
+    {
+      "away_score": 55,
+      "away_team": "UL Monroe",
+      "game_id": "2017_02_06_ul_monroe_georgia_state",
+      "home_score": 69,
+      "home_team": "Georgia State"
+    },
+    {
+      "away_score": 93,
+      "away_team": "Hampton",
+      "game_id": "2017_02_06_hampton_south_carolina_state",
+      "home_score": 64,
+      "home_team": "South Carolina State"
+    },
+    {
+      "away_score": 86,
+      "away_team": "North Carolina Central",
+      "game_id": "2017_02_06_north_carolina_central_coppin_state",
+      "home_score": 77,
+      "home_team": "Coppin State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Howard",
+      "game_id": "2017_02_06_howard_bethune_cookman",
+      "home_score": 71,
+      "home_team": "Bethune-Cookman"
+    },
+    {
+      "away_score": 92,
+      "away_team": "Norfolk State",
+      "game_id": "2017_02_06_norfolk_state_savannah_state",
+      "home_score": 87,
+      "home_team": "Savannah State"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Delaware State",
+      "game_id": "2017_02_06_delaware_state_florida_a_m",
+      "home_score": 77,
+      "home_team": "Florida A&M"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Coastal Carolina",
+      "game_id": "2017_02_06_coastal_carolina_arkansas_state",
+      "home_score": 67,
+      "home_team": "Arkansas State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Grambling",
+      "game_id": "2017_02_06_grambling_alcorn_state",
+      "home_score": 75,
+      "home_team": "Alcorn State"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Mississippi Valley State",
+      "game_id": "2017_02_06_mississippi_valley_state_alabama_state",
+      "home_score": 71,
+      "home_team": "Alabama State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Arkansas-Pine Bluff",
+      "game_id": "2017_02_06_arkansas_pine_bluff_alabama_a_m",
+      "home_score": 49,
+      "home_team": "Alabama A&M"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Jackson State",
+      "game_id": "2017_02_06_jackson_state_southern",
+      "home_score": 88,
+      "home_team": "Southern"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Kansas",
+      "game_id": "2017_02_06_kansas_kansas_state",
+      "home_score": 71,
+      "home_team": "Kansas State"
+    },
+    {
+      "away_score": 62,
+      "away_team": "App State",
+      "game_id": "2017_02_06_app_state_little_rock",
+      "home_score": 69,
+      "home_team": "Little Rock"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:59.966116Z"
+}

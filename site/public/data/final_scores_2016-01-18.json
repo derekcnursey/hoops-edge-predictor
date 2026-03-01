@@ -1,0 +1,195 @@
+{
+  "date": "2016-01-18",
+  "games": [
+    {
+      "away_score": 77,
+      "away_team": "Stony Brook",
+      "game_id": "2016_01_18_stony_brook_hartford",
+      "home_score": 43,
+      "home_team": "Hartford"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Norfolk State",
+      "game_id": "2016_01_18_norfolk_state_north_carolina_a_t",
+      "home_score": 68,
+      "home_team": "North Carolina A&T"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Siena",
+      "game_id": "2016_01_18_siena_monmouth",
+      "home_score": 85,
+      "home_team": "Monmouth"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Texas Tech",
+      "game_id": "2016_01_18_texas_tech_tcu",
+      "home_score": 69,
+      "home_team": "TCU"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Detroit Mercy",
+      "game_id": "2016_01_18_detroit_mercy_wright_state",
+      "home_score": 77,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 93,
+      "away_team": "UMass Lowell",
+      "game_id": "2016_01_18_umass_lowell_vermont",
+      "home_score": 82,
+      "home_team": "Vermont"
+    },
+    {
+      "away_score": 107,
+      "away_team": "Purdue",
+      "game_id": "2016_01_18_purdue_rutgers",
+      "home_score": 57,
+      "home_team": "Rutgers"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Binghamton",
+      "game_id": "2016_01_18_binghamton_ualbany",
+      "home_score": 80,
+      "home_team": "UAlbany"
+    },
+    {
+      "away_score": 99,
+      "away_team": "New Hampshire",
+      "game_id": "2016_01_18_new_hampshire_maine",
+      "home_score": 91,
+      "home_team": "Maine"
+    },
+    {
+      "away_score": 53,
+      "away_team": "UIC",
+      "game_id": "2016_01_18_uic_cleveland_state",
+      "home_score": 70,
+      "home_team": "Cleveland State"
+    },
+    {
+      "away_score": 96,
+      "away_team": "Valparaiso",
+      "game_id": "2016_01_18_valparaiso_youngstown_state",
+      "home_score": 65,
+      "home_team": "Youngstown State"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Syracuse",
+      "game_id": "2016_01_18_syracuse_duke",
+      "home_score": 62,
+      "home_team": "Duke"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Maryland Eastern Shore",
+      "game_id": "2016_01_18_maryland_eastern_shore_south_carolina_state",
+      "home_score": 68,
+      "home_team": "South Carolina State"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Loyola Maryland",
+      "game_id": "2016_01_18_loyola_maryland_boston_university",
+      "home_score": 87,
+      "home_team": "Boston University"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Nicholls",
+      "game_id": "2016_01_18_nicholls_sam_houston",
+      "home_score": 87,
+      "home_team": "Sam Houston"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Lamar",
+      "game_id": "2016_01_18_lamar_se_louisiana",
+      "home_score": 98,
+      "home_team": "SE Louisiana"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Morgan State",
+      "game_id": "2016_01_18_morgan_state_bethune_cookman",
+      "home_score": 62,
+      "home_team": "Bethune-Cookman"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Coppin State",
+      "game_id": "2016_01_18_coppin_state_florida_a_m",
+      "home_score": 66,
+      "home_team": "Florida A&M"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Little Rock",
+      "game_id": "2016_01_18_little_rock_arkansas_state",
+      "home_score": 76,
+      "home_team": "Arkansas State"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Delaware State",
+      "game_id": "2016_01_18_delaware_state_savannah_state",
+      "home_score": 64,
+      "home_team": "Savannah State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Texas Southern",
+      "game_id": "2016_01_18_texas_southern_grambling",
+      "home_score": 54,
+      "home_team": "Grambling"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Southern",
+      "game_id": "2016_01_18_southern_mississippi_valley_state",
+      "home_score": 54,
+      "home_team": "Mississippi Valley State"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Prairie View A&M",
+      "game_id": "2016_01_18_prairie_view_a_m_jackson_state",
+      "home_score": 60,
+      "home_team": "Jackson State"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Hampton",
+      "game_id": "2016_01_18_hampton_north_carolina_central",
+      "home_score": 79,
+      "home_team": "North Carolina Central"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Oklahoma",
+      "game_id": "2016_01_18_oklahoma_iowa_state",
+      "home_score": 82,
+      "home_team": "Iowa State"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Stephen F. Austin",
+      "game_id": "2016_01_18_stephen_f_austin_new_orleans",
+      "home_score": 58,
+      "home_team": "New Orleans"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Alcorn State",
+      "game_id": "2016_01_18_alcorn_state_arkansas_pine_bluff",
+      "home_score": 65,
+      "home_team": "Arkansas-Pine Bluff"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:23.795425Z"
+}

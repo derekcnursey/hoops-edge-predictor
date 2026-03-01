@@ -1,0 +1,20 @@
+{
+  "date": "2023-04-01",
+  "games": [
+    {
+      "away_score": 71,
+      "away_team": "Florida Atlantic",
+      "game_id": "2023_04_01_florida_atlantic_san_diego_state",
+      "home_score": 72,
+      "home_team": "San Diego State"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Miami",
+      "game_id": "2023_04_01_miami_uconn",
+      "home_score": 72,
+      "home_team": "UConn"
+    }
+  ],
+  "generated_at": "2026-02-28T21:35:01.655899Z"
+}

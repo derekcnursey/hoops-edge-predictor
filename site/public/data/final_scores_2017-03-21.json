@@ -1,0 +1,20 @@
+{
+  "date": "2017-03-21",
+  "games": [
+    {
+      "away_score": 68,
+      "away_team": "Richmond",
+      "game_id": "2017_03_21_richmond_tcu",
+      "home_score": 86,
+      "home_team": "TCU"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Georgia Tech",
+      "game_id": "2017_03_21_georgia_tech_ole_miss",
+      "home_score": 66,
+      "home_team": "Ole Miss"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:24.805379Z"
+}

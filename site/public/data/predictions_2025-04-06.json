@@ -1,0 +1,24 @@
+{
+  "date": "2025-04-06",
+  "games": [
+    {
+      "away_team": "Nebraska",
+      "edge_home_points": 5.502246141433716,
+      "game_id": "2025_04_06_nebraska_ucf",
+      "home_team": "UCF",
+      "market_spread_home": 3.5,
+      "model_mu_home": 2.0022461,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5727611306841951,
+      "pick_ev_per_1": 0.09345306766982697,
+      "pick_fair_odds": -134.06110066751054,
+      "pick_prob_edge": 0.04895160687467126,
+      "pick_side": "HOME",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.001008837,
+      "pred_sigma": 30.0,
+      "start_time": "2025-04-06T21:30:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T23:44:46.355009Z"
+}

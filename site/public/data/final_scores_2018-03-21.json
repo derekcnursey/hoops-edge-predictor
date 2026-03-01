@@ -1,0 +1,41 @@
+{
+  "date": "2018-03-21",
+  "games": [
+    {
+      "away_score": 68,
+      "away_team": "Jacksonville State",
+      "game_id": "2018_03_21_jacksonville_state_north_texas",
+      "home_score": 90,
+      "home_team": "North Texas"
+    },
+    {
+      "away_score": 92,
+      "away_team": "Western Kentucky",
+      "game_id": "2018_03_21_western_kentucky_oklahoma_state",
+      "home_score": 84,
+      "home_team": "Oklahoma State"
+    },
+    {
+      "away_score": 83,
+      "away_team": "UIC",
+      "game_id": "2018_03_21_uic_austin_peay",
+      "home_score": 81,
+      "home_team": "Austin Peay"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Utah",
+      "game_id": "2018_03_21_utah_saint_mary_s",
+      "home_score": 58,
+      "home_team": "Saint Mary's"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Northern Colorado",
+      "game_id": "2018_03_21_northern_colorado_san_diego",
+      "home_score": 75,
+      "home_team": "San Diego"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:49.912207Z"
+}

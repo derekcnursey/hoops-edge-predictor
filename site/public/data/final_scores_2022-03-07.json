@@ -1,0 +1,76 @@
+{
+  "date": "2022-03-07",
+  "games": [
+    {
+      "away_score": 69,
+      "away_team": "Delaware",
+      "game_id": "2022_03_07_delaware_towson",
+      "home_score": 56,
+      "home_team": "Towson"
+    },
+    {
+      "away_score": 60,
+      "away_team": "South Dakota",
+      "game_id": "2022_03_07_south_dakota_south_dakota_state",
+      "home_score": 83,
+      "home_team": "South Dakota State"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Wright State",
+      "game_id": "2022_03_07_wright_state_cleveland_state",
+      "home_score": 67,
+      "home_team": "Cleveland State"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Louisiana",
+      "game_id": "2022_03_07_louisiana_georgia_state",
+      "home_score": 80,
+      "home_team": "Georgia State"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Furman",
+      "game_id": "2022_03_07_furman_chattanooga",
+      "home_score": 64,
+      "home_team": "Chattanooga"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Charleston",
+      "game_id": "2022_03_07_charleston_unc_wilmington",
+      "home_score": 60,
+      "home_team": "UNC Wilmington"
+    },
+    {
+      "away_score": 71,
+      "away_team": "San Francisco",
+      "game_id": "2022_03_07_san_francisco_gonzaga",
+      "home_score": 81,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Oral Roberts",
+      "game_id": "2022_03_07_oral_roberts_north_dakota_state",
+      "home_score": 92,
+      "home_team": "North Dakota State"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Northern Kentucky",
+      "game_id": "2022_03_07_northern_kentucky_purdue_fort_wayne",
+      "home_score": 43,
+      "home_team": "Purdue Fort Wayne"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Santa Clara",
+      "game_id": "2022_03_07_santa_clara_saint_mary_s",
+      "home_score": 75,
+      "home_team": "Saint Mary's"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:15.309604Z"
+}

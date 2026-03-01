@@ -1,0 +1,111 @@
+{
+  "date": "2019-02-11",
+  "games": [
+    {
+      "away_score": 66,
+      "away_team": "Norfolk State",
+      "game_id": "2019_02_11_norfolk_state_florida_a_m",
+      "home_score": 54,
+      "home_team": "Florida A&M"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Lehigh",
+      "game_id": "2019_02_11_lehigh_bucknell",
+      "home_score": 87,
+      "home_team": "Bucknell"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Virginia",
+      "game_id": "2019_02_11_virginia_north_carolina",
+      "home_score": 61,
+      "home_team": "North Carolina"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Maryland Eastern Shore",
+      "game_id": "2019_02_11_maryland_eastern_shore_north_carolina_a_t",
+      "home_score": 68,
+      "home_team": "North Carolina A&T"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Howard",
+      "game_id": "2019_02_11_howard_bethune_cookman",
+      "home_score": 73,
+      "home_team": "Bethune-Cookman"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Delaware State",
+      "game_id": "2019_02_11_delaware_state_north_carolina_central",
+      "home_score": 87,
+      "home_team": "North Carolina Central"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Morgan State",
+      "game_id": "2019_02_11_morgan_state_savannah_state",
+      "home_score": 88,
+      "home_team": "Savannah State"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Coppin State",
+      "game_id": "2019_02_11_coppin_state_south_carolina_state",
+      "home_score": 85,
+      "home_team": "South Carolina State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Grambling",
+      "game_id": "2019_02_11_grambling_alcorn_state",
+      "home_score": 53,
+      "home_team": "Alcorn State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Arkansas-Pine Bluff",
+      "game_id": "2019_02_11_arkansas_pine_bluff_alabama_a_m",
+      "home_score": 60,
+      "home_team": "Alabama A&M"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Mississippi Valley State",
+      "game_id": "2019_02_11_mississippi_valley_state_alabama_state",
+      "home_score": 82,
+      "home_team": "Alabama State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Jackson State",
+      "game_id": "2019_02_11_jackson_state_southern",
+      "home_score": 76,
+      "home_team": "Southern"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Oklahoma",
+      "game_id": "2019_02_11_oklahoma_baylor",
+      "home_score": 59,
+      "home_team": "Baylor"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Kansas",
+      "game_id": "2019_02_11_kansas_tcu",
+      "home_score": 77,
+      "home_team": "TCU"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Portland State",
+      "game_id": "2019_02_11_portland_state_sacramento_state",
+      "home_score": 78,
+      "home_team": "Sacramento State"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:03.223922Z"
+}

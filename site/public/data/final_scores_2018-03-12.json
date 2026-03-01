@@ -1,0 +1,34 @@
+{
+  "date": "2018-03-12",
+  "games": [
+    {
+      "away_score": 94,
+      "away_team": "Central Michigan",
+      "game_id": "2018_03_12_central_michigan_purdue_fort_wayne",
+      "home_score": 89,
+      "home_team": "Purdue Fort Wayne"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Abilene Christian",
+      "game_id": "2018_03_12_abilene_christian_drake",
+      "home_score": 80,
+      "home_team": "Drake"
+    },
+    {
+      "away_score": 52,
+      "away_team": "North Carolina A&T",
+      "game_id": "2018_03_12_north_carolina_a_t_liberty",
+      "home_score": 65,
+      "home_team": "Liberty"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Hartford",
+      "game_id": "2018_03_12_hartford_san_diego",
+      "home_score": 88,
+      "home_team": "San Diego"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:44.598735Z"
+}

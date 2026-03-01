@@ -1,0 +1,20 @@
+{
+  "date": "2016-03-22",
+  "games": [
+    {
+      "away_score": 44,
+      "away_team": "Saint Mary's",
+      "game_id": "2016_03_22_saint_mary_s_valparaiso",
+      "home_score": 60,
+      "home_team": "Valparaiso"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Creighton",
+      "game_id": "2016_03_22_creighton_byu",
+      "home_score": 88,
+      "home_team": "BYU"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:02.253453Z"
+}

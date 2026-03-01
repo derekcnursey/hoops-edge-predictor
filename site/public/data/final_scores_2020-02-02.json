@@ -1,0 +1,104 @@
+{
+  "date": "2020-02-02",
+  "games": [
+    {
+      "away_score": 75,
+      "away_team": "Cal State Northridge",
+      "game_id": "2020_02_02_cal_state_northridge_hawai_i",
+      "home_score": 80,
+      "home_team": "Hawai'i"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Miami",
+      "game_id": "2020_02_02_miami_pittsburgh",
+      "home_score": 62,
+      "home_team": "Pittsburgh"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Iona",
+      "game_id": "2020_02_02_iona_manhattan",
+      "home_score": 72,
+      "home_team": "Manhattan"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Quinnipiac",
+      "game_id": "2020_02_02_quinnipiac_niagara",
+      "home_score": 75,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Illinois",
+      "game_id": "2020_02_02_illinois_iowa",
+      "home_score": 72,
+      "home_team": "Iowa"
+    },
+    {
+      "away_score": 81,
+      "away_team": "South Dakota",
+      "game_id": "2020_02_02_south_dakota_omaha",
+      "home_score": 80,
+      "home_team": "Omaha"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Georgetown",
+      "game_id": "2020_02_02_georgetown_st_john_s",
+      "home_score": 72,
+      "home_team": "St. John's"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Rider",
+      "game_id": "2020_02_02_rider_monmouth",
+      "home_score": 90,
+      "home_team": "Monmouth"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Northern Kentucky",
+      "game_id": "2020_02_02_northern_kentucky_milwaukee",
+      "home_score": 56,
+      "home_team": "Milwaukee"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Wright State",
+      "game_id": "2020_02_02_wright_state_green_bay",
+      "home_score": 92,
+      "home_team": "Green Bay"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Marist",
+      "game_id": "2020_02_02_marist_canisius",
+      "home_score": 66,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 69,
+      "away_team": "La Salle",
+      "game_id": "2020_02_02_la_salle_duquesne",
+      "home_score": 71,
+      "home_team": "Duquesne"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Utah",
+      "game_id": "2020_02_02_utah_ucla",
+      "home_score": 73,
+      "home_team": "UCLA"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Siena",
+      "game_id": "2020_02_02_siena_saint_peter_s",
+      "home_score": 85,
+      "home_team": "Saint Peter's"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:38.962294Z"
+}

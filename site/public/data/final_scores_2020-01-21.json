@@ -1,0 +1,174 @@
+{
+  "date": "2020-01-21",
+  "games": [
+    {
+      "away_score": 81,
+      "away_team": "Akron",
+      "game_id": "2020_01_21_akron_miami_oh",
+      "home_score": 60,
+      "home_team": "Miami (OH)"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Kansas State",
+      "game_id": "2020_01_21_kansas_state_kansas",
+      "home_score": 81,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Butler",
+      "game_id": "2020_01_21_butler_villanova",
+      "home_score": 76,
+      "home_team": "Villanova"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Georgia",
+      "game_id": "2020_01_21_georgia_kentucky",
+      "home_score": 89,
+      "home_team": "Kentucky"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Maryland",
+      "game_id": "2020_01_21_maryland_northwestern",
+      "home_score": 66,
+      "home_team": "Northwestern"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Illinois",
+      "game_id": "2020_01_21_illinois_purdue",
+      "home_score": 62,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Western Michigan",
+      "game_id": "2020_01_21_western_michigan_buffalo",
+      "home_score": 90,
+      "home_team": "Buffalo"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Eastern Michigan",
+      "game_id": "2020_01_21_eastern_michigan_bowling_green",
+      "home_score": 62,
+      "home_team": "Bowling Green"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Toledo",
+      "game_id": "2020_01_21_toledo_ohio",
+      "home_score": 74,
+      "home_team": "Ohio"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Northern Illinois",
+      "game_id": "2020_01_21_northern_illinois_kent_state",
+      "home_score": 69,
+      "home_team": "Kent State"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Wichita State",
+      "game_id": "2020_01_21_wichita_state_south_florida",
+      "home_score": 43,
+      "home_team": "South Florida"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Florida",
+      "game_id": "2020_01_21_florida_lsu",
+      "home_score": 84,
+      "home_team": "LSU"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Texas Tech",
+      "game_id": "2020_01_21_texas_tech_tcu",
+      "home_score": 65,
+      "home_team": "TCU"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Oklahoma State",
+      "game_id": "2020_01_21_oklahoma_state_iowa_state",
+      "home_score": 89,
+      "home_team": "Iowa State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Wake Forest",
+      "game_id": "2020_01_21_wake_forest_clemson",
+      "home_score": 71,
+      "home_team": "Clemson"
+    },
+    {
+      "away_score": 68,
+      "away_team": "St. John's",
+      "game_id": "2020_01_21_st_john_s_marquette",
+      "home_score": 82,
+      "home_team": "Marquette"
+    },
+    {
+      "away_score": 73,
+      "away_team": "VCU",
+      "game_id": "2020_01_21_vcu_saint_joseph_s",
+      "home_score": 60,
+      "home_team": "Saint Joseph's"
+    },
+    {
+      "away_score": 48,
+      "away_team": "Ole Miss",
+      "game_id": "2020_01_21_ole_miss_tennessee",
+      "home_score": 73,
+      "home_team": "Tennessee"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Texas A&M",
+      "game_id": "2020_01_21_texas_a_m_missouri",
+      "home_score": 64,
+      "home_team": "Missouri"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Nebraska",
+      "game_id": "2020_01_21_nebraska_wisconsin",
+      "home_score": 82,
+      "home_team": "Wisconsin"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Miami",
+      "game_id": "2020_01_21_miami_duke",
+      "home_score": 89,
+      "home_team": "Duke"
+    },
+    {
+      "away_score": 59,
+      "away_team": "San Jos\u00e9 State",
+      "game_id": "2020_01_21_san_jos_state_new_mexico",
+      "home_score": 86,
+      "home_team": "New Mexico"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Air Force",
+      "game_id": "2020_01_21_air_force_utah_state",
+      "home_score": 72,
+      "home_team": "Utah State"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Wyoming",
+      "game_id": "2020_01_21_wyoming_san_diego_state",
+      "home_score": 72,
+      "home_team": "San Diego State"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:31.652336Z"
+}

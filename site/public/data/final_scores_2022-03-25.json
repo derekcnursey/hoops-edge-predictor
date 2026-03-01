@@ -1,0 +1,34 @@
+{
+  "date": "2022-03-25",
+  "games": [
+    {
+      "away_score": 67,
+      "away_team": "Saint Peter's",
+      "game_id": "2022_03_25_saint_peter_s_purdue",
+      "home_score": 64,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Providence",
+      "game_id": "2022_03_25_providence_kansas",
+      "home_score": 66,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 73,
+      "away_team": "North Carolina",
+      "game_id": "2022_03_25_north_carolina_ucla",
+      "home_score": 66,
+      "home_team": "UCLA"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Iowa State",
+      "game_id": "2022_03_25_iowa_state_miami",
+      "home_score": 70,
+      "home_team": "Miami"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:25.834918Z"
+}

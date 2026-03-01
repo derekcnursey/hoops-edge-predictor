@@ -1,0 +1,20 @@
+{
+  "date": "2017-03-28",
+  "games": [
+    {
+      "away_score": 61,
+      "away_team": "Cal State Bakersfield",
+      "game_id": "2017_03_28_cal_state_bakersfield_georgia_tech",
+      "home_score": 76,
+      "home_team": "Georgia Tech"
+    },
+    {
+      "away_score": 68,
+      "away_team": "TCU",
+      "game_id": "2017_03_28_tcu_ucf",
+      "home_score": 53,
+      "home_team": "UCF"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:28.807559Z"
+}

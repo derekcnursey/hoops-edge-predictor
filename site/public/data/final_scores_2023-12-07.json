@@ -1,0 +1,76 @@
+{
+  "date": "2023-12-07",
+  "games": [
+    {
+      "away_score": 59,
+      "away_team": "Berea",
+      "game_id": "2023_12_07_berea_bellarmine",
+      "home_score": 98,
+      "home_team": "Bellarmine"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Rust",
+      "game_id": "2023_12_07_rust_north_alabama",
+      "home_score": 109,
+      "home_team": "North Alabama"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Eastern Kentucky",
+      "game_id": "2023_12_07_eastern_kentucky_unc_greensboro",
+      "home_score": 87,
+      "home_team": "UNC Greensboro"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Virginia-Lynchburg",
+      "game_id": "2023_12_07_virginia_lynchburg_delaware_state",
+      "home_score": 106,
+      "home_team": "Delaware State"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Bethel (IN)",
+      "game_id": "2023_12_07_bethel_in_wright_state",
+      "home_score": 81,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Iowa",
+      "game_id": "2023_12_07_iowa_iowa_state",
+      "home_score": 90,
+      "home_team": "Iowa State"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Little Rock",
+      "game_id": "2023_12_07_little_rock_central_arkansas",
+      "home_score": 75,
+      "home_team": "Central Arkansas"
+    },
+    {
+      "away_score": 58,
+      "away_team": "IU Indianapolis",
+      "game_id": "2023_12_07_iu_indianapolis_eastern_illinois",
+      "home_score": 75,
+      "home_team": "Eastern Illinois"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Portland",
+      "game_id": "2023_12_07_portland_north_dakota_state",
+      "home_score": 78,
+      "home_team": "North Dakota State"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Bethesda University",
+      "game_id": "2023_12_07_bethesda_university_cal_state_northridge",
+      "home_score": 92,
+      "home_team": "Cal State Northridge"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:55.597497Z"
+}

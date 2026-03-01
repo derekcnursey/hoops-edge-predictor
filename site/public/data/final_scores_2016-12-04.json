@@ -1,0 +1,195 @@
+{
+  "date": "2016-12-04",
+  "games": [
+    {
+      "away_score": 65,
+      "away_team": "Colgate",
+      "game_id": "2016_12_04_colgate_south_carolina_upstate",
+      "home_score": 71,
+      "home_team": "South Carolina Upstate"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Elon",
+      "game_id": "2016_12_04_elon_georgetown",
+      "home_score": 77,
+      "home_team": "Georgetown"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Marquette",
+      "game_id": "2016_12_04_marquette_georgia",
+      "home_score": 79,
+      "home_team": "Georgia"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Canisius",
+      "game_id": "2016_12_04_canisius_monmouth",
+      "home_score": 94,
+      "home_team": "Monmouth"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Marist",
+      "game_id": "2016_12_04_marist_quinnipiac",
+      "home_score": 77,
+      "home_team": "Quinnipiac"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Manhattan",
+      "game_id": "2016_12_04_manhattan_saint_peter_s",
+      "home_score": 84,
+      "home_team": "Saint Peter's"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Limestone",
+      "game_id": "2016_12_04_limestone_east_tennessee_state",
+      "home_score": 85,
+      "home_team": "East Tennessee State"
+    },
+    {
+      "away_score": 43,
+      "away_team": "Coppin State",
+      "game_id": "2016_12_04_coppin_state_clemson",
+      "home_score": 85,
+      "home_team": "Clemson"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Florida International",
+      "game_id": "2016_12_04_florida_international_south_carolina",
+      "home_score": 70,
+      "home_team": "South Carolina"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Radford",
+      "game_id": "2016_12_04_radford_north_carolina",
+      "home_score": 95,
+      "home_team": "North Carolina"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Boyce",
+      "game_id": "2016_12_04_boyce_ut_martin",
+      "home_score": 108,
+      "home_team": "UT Martin"
+    },
+    {
+      "away_score": 97,
+      "away_team": "Campbell",
+      "game_id": "2016_12_04_campbell_the_citadel",
+      "home_score": 91,
+      "home_team": "The Citadel"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Delaware State",
+      "game_id": "2016_12_04_delaware_state_smu",
+      "home_score": 74,
+      "home_team": "SMU"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Florida Gulf Coast",
+      "game_id": "2016_12_04_florida_gulf_coast_georgia_southern",
+      "home_score": 82,
+      "home_team": "Georgia Southern"
+    },
+    {
+      "away_score": 93,
+      "away_team": "Eastern Washington",
+      "game_id": "2016_12_04_eastern_washington_seattle_u",
+      "home_score": 88,
+      "home_team": "Seattle U"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Jacksonville State",
+      "game_id": "2016_12_04_jacksonville_state_samford",
+      "home_score": 81,
+      "home_team": "Samford"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Florida State",
+      "game_id": "2016_12_04_florida_state_george_washington",
+      "home_score": 48,
+      "home_team": "George Washington"
+    },
+    {
+      "away_score": 90,
+      "away_team": "Eastern Illinois",
+      "game_id": "2016_12_04_eastern_illinois_uic",
+      "home_score": 76,
+      "home_team": "UIC"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Davidson",
+      "game_id": "2016_12_04_davidson_charleston",
+      "home_score": 76,
+      "home_team": "Charleston"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Southeast Missouri State",
+      "game_id": "2016_12_04_southeast_missouri_state_indiana",
+      "home_score": 83,
+      "home_team": "Indiana"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Niagara",
+      "game_id": "2016_12_04_niagara_iona",
+      "home_score": 58,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Southern Miss",
+      "game_id": "2016_12_04_southern_miss_jackson_state",
+      "home_score": 75,
+      "home_team": "Jackson State"
+    },
+    {
+      "away_score": 53,
+      "away_team": "North Carolina A&T",
+      "game_id": "2016_12_04_north_carolina_a_t_notre_dame",
+      "home_score": 107,
+      "home_team": "Notre Dame"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Crowley's Ridge",
+      "game_id": "2016_12_04_crowley_s_ridge_tennessee_tech",
+      "home_score": 98,
+      "home_team": "Tennessee Tech"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Georgia State",
+      "game_id": "2016_12_04_georgia_state_mississippi_state",
+      "home_score": 82,
+      "home_team": "Mississippi State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Alabama State",
+      "game_id": "2016_12_04_alabama_state_troy",
+      "home_score": 83,
+      "home_team": "Troy"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Bowling Green",
+      "game_id": "2016_12_04_bowling_green_cincinnati",
+      "home_score": 85,
+      "home_team": "Cincinnati"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:22.763795Z"
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2025-02-07",
+  "games": [
+    {
+      "away_score": 73,
+      "away_team": "VCU",
+      "game_id": "2025_02_07_vcu_dayton",
+      "home_score": 68,
+      "home_team": "Dayton"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Princeton",
+      "game_id": "2025_02_07_princeton_pennsylvania",
+      "home_score": 59,
+      "home_team": "Pennsylvania"
+    },
+    {
+      "away_score": 72,
+      "away_team": "USC",
+      "game_id": "2025_02_07_usc_purdue",
+      "home_score": 90,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 68,
+      "away_team": "St. John's",
+      "game_id": "2025_02_07_st_john_s_uconn",
+      "home_score": 62,
+      "home_team": "UConn"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Saint Louis",
+      "game_id": "2025_02_07_saint_louis_saint_joseph_s",
+      "home_score": 76,
+      "home_team": "Saint Joseph's"
+    },
+    {
+      "away_score": 52,
+      "away_team": "San Jos\u00e9 State",
+      "game_id": "2025_02_07_san_jos_state_boise_state",
+      "home_score": 79,
+      "home_team": "Boise State"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Utah State",
+      "game_id": "2025_02_07_utah_state_fresno_state",
+      "home_score": 81,
+      "home_team": "Fresno State"
+    }
+  ],
+  "generated_at": "2026-02-28T23:30:00.755167Z"
+}

@@ -1,0 +1,90 @@
+{
+  "date": "2019-02-08",
+  "games": [
+    {
+      "away_score": 60,
+      "away_team": "Princeton",
+      "game_id": "2019_02_08_princeton_yale",
+      "home_score": 74,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 92,
+      "away_team": "Pennsylvania",
+      "game_id": "2019_02_08_pennsylvania_brown",
+      "home_score": 82,
+      "home_team": "Brown"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Siena",
+      "game_id": "2019_02_08_siena_manhattan",
+      "home_score": 49,
+      "home_team": "Manhattan"
+    },
+    {
+      "away_score": 96,
+      "away_team": "Columbia",
+      "game_id": "2019_02_08_columbia_harvard",
+      "home_score": 98,
+      "home_team": "Harvard"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Cornell",
+      "game_id": "2019_02_08_cornell_dartmouth",
+      "home_score": 80,
+      "home_team": "Dartmouth"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Canisius",
+      "game_id": "2019_02_08_canisius_rider",
+      "home_score": 80,
+      "home_team": "Rider"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Niagara",
+      "game_id": "2019_02_08_niagara_marist",
+      "home_score": 79,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Saint Louis",
+      "game_id": "2019_02_08_saint_louis_saint_joseph_s",
+      "home_score": 91,
+      "home_team": "Saint Joseph's"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Quinnipiac",
+      "game_id": "2019_02_08_quinnipiac_iona",
+      "home_score": 65,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Georgia Southern",
+      "game_id": "2019_02_08_georgia_southern_ul_monroe",
+      "home_score": 88,
+      "home_team": "UL Monroe"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Kent State",
+      "game_id": "2019_02_08_kent_state_akron",
+      "home_score": 72,
+      "home_team": "Akron"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Georgia State",
+      "game_id": "2019_02_08_georgia_state_louisiana",
+      "home_score": 76,
+      "home_team": "Louisiana"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:01.556100Z"
+}

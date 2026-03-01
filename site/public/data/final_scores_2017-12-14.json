@@ -1,0 +1,132 @@
+{
+  "date": "2017-12-14",
+  "games": [
+    {
+      "away_score": 86,
+      "away_team": "St. Edward's",
+      "game_id": "2017_12_14_st_edward_s_rice",
+      "home_score": 91,
+      "home_team": "Rice"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Washington Adventist",
+      "game_id": "2017_12_14_washington_adventist_howard",
+      "home_score": 76,
+      "home_team": "Howard"
+    },
+    {
+      "away_score": 34,
+      "away_team": "Mid-Atlantic Christian",
+      "game_id": "2017_12_14_mid_atlantic_christian_norfolk_state",
+      "home_score": 112,
+      "home_team": "Norfolk State"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Bethune-Cookman",
+      "game_id": "2017_12_14_bethune_cookman_south_florida",
+      "home_score": 83,
+      "home_team": "South Florida"
+    },
+    {
+      "away_score": 35,
+      "away_team": "Toccoa Falls",
+      "game_id": "2017_12_14_toccoa_falls_presbyterian",
+      "home_score": 104,
+      "home_team": "Presbyterian"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Southern Wesleyan",
+      "game_id": "2017_12_14_southern_wesleyan_vmi",
+      "home_score": 90,
+      "home_team": "VMI"
+    },
+    {
+      "away_score": 71,
+      "away_team": "McNeese",
+      "game_id": "2017_12_14_mcneese_north_carolina_central",
+      "home_score": 77,
+      "home_team": "North Carolina Central"
+    },
+    {
+      "away_score": 77,
+      "away_team": "The Citadel",
+      "game_id": "2017_12_14_the_citadel_campbell",
+      "home_score": 87,
+      "home_team": "Campbell"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Montreat",
+      "game_id": "2017_12_14_montreat_furman",
+      "home_score": 103,
+      "home_team": "Furman"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Florida College",
+      "game_id": "2017_12_14_florida_college_lipscomb",
+      "home_score": 100,
+      "home_team": "Lipscomb"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Florida A&M",
+      "game_id": "2017_12_14_florida_a_m_southern",
+      "home_score": 68,
+      "home_team": "Southern"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Prairie View A&M",
+      "game_id": "2017_12_14_prairie_view_a_m_tulsa",
+      "home_score": 77,
+      "home_team": "Tulsa"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Southern-New Orleans",
+      "game_id": "2017_12_14_southern_new_orleans_se_louisiana",
+      "home_score": 106,
+      "home_team": "SE Louisiana"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Valparaiso",
+      "game_id": "2017_12_14_valparaiso_northwestern",
+      "home_score": 84,
+      "home_team": "Northwestern"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Texas Southern",
+      "game_id": "2017_12_14_texas_southern_baylor",
+      "home_score": 99,
+      "home_team": "Baylor"
+    },
+    {
+      "away_score": 44,
+      "away_team": "Bethesda University",
+      "game_id": "2017_12_14_bethesda_university_utah_valley",
+      "home_score": 106,
+      "home_team": "Utah Valley"
+    },
+    {
+      "away_score": 90,
+      "away_team": "South Dakota",
+      "game_id": "2017_12_14_south_dakota_northern_arizona",
+      "home_score": 77,
+      "home_team": "Northern Arizona"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Santa Clara",
+      "game_id": "2017_12_14_santa_clara_usc",
+      "home_score": 82,
+      "home_team": "USC"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:53.006009Z"
+}

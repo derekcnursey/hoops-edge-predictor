@@ -1,0 +1,125 @@
+{
+  "date": "2016-12-15",
+  "games": [
+    {
+      "away_score": 64,
+      "away_team": "St. Edward's",
+      "game_id": "2016_12_15_st_edward_s_rice",
+      "home_score": 93,
+      "home_team": "Rice"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Bethesda University",
+      "game_id": "2016_12_15_bethesda_university_cal_state_bakersfield",
+      "home_score": 105,
+      "home_team": "Cal State Bakersfield"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Austin Peay",
+      "game_id": "2016_12_15_austin_peay_wofford",
+      "home_score": 96,
+      "home_team": "Wofford"
+    },
+    {
+      "away_score": 59,
+      "away_team": "UCF",
+      "game_id": "2016_12_15_ucf_george_washington",
+      "home_score": 74,
+      "home_team": "George Washington"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Charleston",
+      "game_id": "2016_12_15_charleston_east_carolina",
+      "home_score": 35,
+      "home_team": "East Carolina"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Georgia Southern",
+      "game_id": "2016_12_15_georgia_southern_florida_international",
+      "home_score": 68,
+      "home_team": "Florida International"
+    },
+    {
+      "away_score": 64,
+      "away_team": "App State",
+      "game_id": "2016_12_15_app_state_nc_state",
+      "home_score": 97,
+      "home_team": "NC State"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Lipscomb",
+      "game_id": "2016_12_15_lipscomb_tennessee",
+      "home_score": 92,
+      "home_team": "Tennessee"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Thomas (GA)",
+      "game_id": "2016_12_15_thomas_ga_north_florida",
+      "home_score": 110,
+      "home_team": "North Florida"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Goldey-Beacom",
+      "game_id": "2016_12_15_goldey_beacom_coppin_state",
+      "home_score": 89,
+      "home_team": "Coppin State"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Omaha",
+      "game_id": "2016_12_15_omaha_kansas_city",
+      "home_score": 75,
+      "home_team": "Kansas City"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Blue Mountain",
+      "game_id": "2016_12_15_blue_mountain_jackson_state",
+      "home_score": 49,
+      "home_team": "Jackson State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Murray State",
+      "game_id": "2016_12_15_murray_state_ole_miss",
+      "home_score": 78,
+      "home_team": "Ole Miss"
+    },
+    {
+      "away_score": 61,
+      "away_team": "South Carolina Upstate",
+      "game_id": "2016_12_15_south_carolina_upstate_alabama",
+      "home_score": 78,
+      "home_team": "Alabama"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Coastal Carolina",
+      "game_id": "2016_12_15_coastal_carolina_auburn",
+      "home_score": 117,
+      "home_team": "Auburn"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Mississippi Valley State",
+      "game_id": "2016_12_15_mississippi_valley_state_seattle_u",
+      "home_score": 82,
+      "home_team": "Seattle U"
+    },
+    {
+      "away_score": 57,
+      "away_team": "North Carolina A&T",
+      "game_id": "2016_12_15_north_carolina_a_t_pacific",
+      "home_score": 66,
+      "home_team": "Pacific"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:29.214594Z"
+}

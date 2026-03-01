@@ -1,0 +1,76 @@
+{
+  "date": "2025-03-22",
+  "games": [
+    {
+      "away_score": 72,
+      "away_team": "Dayton",
+      "game_id": "2025_03_22_dayton_chattanooga",
+      "home_score": 87,
+      "home_team": "Chattanooga"
+    },
+    {
+      "away_score": 62,
+      "away_team": "McNeese",
+      "game_id": "2025_03_22_mcneese_purdue",
+      "home_score": 76,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Bradley",
+      "game_id": "2025_03_22_bradley_george_mason",
+      "home_score": 67,
+      "home_team": "George Mason"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Arkansas",
+      "game_id": "2025_03_22_arkansas_st_john_s",
+      "home_score": 66,
+      "home_team": "St. John's"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Michigan",
+      "game_id": "2025_03_22_michigan_texas_a_m",
+      "home_score": 79,
+      "home_team": "Texas A&M"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Drake",
+      "game_id": "2025_03_22_drake_texas_tech",
+      "home_score": 77,
+      "home_team": "Texas Tech"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Creighton",
+      "game_id": "2025_03_22_creighton_auburn",
+      "home_score": 82,
+      "home_team": "Auburn"
+    },
+    {
+      "away_score": 91,
+      "away_team": "BYU",
+      "game_id": "2025_03_22_byu_wisconsin",
+      "home_score": 89,
+      "home_team": "Wisconsin"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Gonzaga",
+      "game_id": "2025_03_22_gonzaga_houston",
+      "home_score": 81,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 58,
+      "away_team": "UCLA",
+      "game_id": "2025_03_22_ucla_tennessee",
+      "home_score": 67,
+      "home_team": "Tennessee"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:43.131016Z"
+}

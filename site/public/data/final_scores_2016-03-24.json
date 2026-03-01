@@ -1,0 +1,41 @@
+{
+  "date": "2016-03-24",
+  "games": [
+    {
+      "away_score": 69,
+      "away_team": "Miami",
+      "game_id": "2016_03_24_miami_villanova",
+      "home_score": 92,
+      "home_team": "Villanova"
+    },
+    {
+      "away_score": 60,
+      "away_team": "UT Arlington",
+      "game_id": "2016_03_24_ut_arlington_njit",
+      "home_score": 63,
+      "home_team": "NJIT"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Texas A&M",
+      "game_id": "2016_03_24_texas_a_m_oklahoma",
+      "home_score": 77,
+      "home_team": "Oklahoma"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Maryland",
+      "game_id": "2016_03_24_maryland_kansas",
+      "home_score": 79,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Duke",
+      "game_id": "2016_03_24_duke_oregon",
+      "home_score": 82,
+      "home_team": "Oregon"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:03.458344Z"
+}

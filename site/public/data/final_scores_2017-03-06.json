@@ -1,0 +1,125 @@
+{
+  "date": "2017-03-06",
+  "games": [
+    {
+      "away_score": 65,
+      "away_team": "North Carolina A&T",
+      "game_id": "2017_03_06_north_carolina_a_t_maryland_eastern_shore",
+      "home_score": 75,
+      "home_team": "Maryland Eastern Shore"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Northern Illinois",
+      "game_id": "2017_03_06_northern_illinois_eastern_michigan",
+      "home_score": 72,
+      "home_team": "Eastern Michigan"
+    },
+    {
+      "away_score": 41,
+      "away_team": "New Hampshire",
+      "game_id": "2017_03_06_new_hampshire_vermont",
+      "home_score": 74,
+      "home_team": "Vermont"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Youngstown State",
+      "game_id": "2017_03_06_youngstown_state_northern_kentucky",
+      "home_score": 84,
+      "home_team": "Northern Kentucky"
+    },
+    {
+      "away_score": 74,
+      "away_team": "South Dakota State",
+      "game_id": "2017_03_06_south_dakota_state_south_dakota",
+      "home_score": 71,
+      "home_team": "South Dakota"
+    },
+    {
+      "away_score": 79,
+      "away_team": "East Tennessee State",
+      "game_id": "2017_03_06_east_tennessee_state_unc_greensboro",
+      "home_score": 74,
+      "home_team": "UNC Greensboro"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Howard",
+      "game_id": "2017_03_06_howard_coppin_state",
+      "home_score": 73,
+      "home_team": "Coppin State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Charleston",
+      "game_id": "2017_03_06_charleston_unc_wilmington",
+      "home_score": 78,
+      "home_team": "UNC Wilmington"
+    },
+    {
+      "away_score": 106,
+      "away_team": "Central Michigan",
+      "game_id": "2017_03_06_central_michigan_kent_state",
+      "home_score": 116,
+      "home_team": "Kent State"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Miami (OH)",
+      "game_id": "2017_03_06_miami_oh_western_michigan",
+      "home_score": 65,
+      "home_team": "Western Michigan"
+    },
+    {
+      "away_score": 63,
+      "away_team": "UAlbany",
+      "game_id": "2017_03_06_ualbany_stony_brook",
+      "home_score": 56,
+      "home_team": "Stony Brook"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Bowling Green",
+      "game_id": "2017_03_06_bowling_green_toledo",
+      "home_score": 77,
+      "home_team": "Toledo"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Siena",
+      "game_id": "2017_03_06_siena_iona",
+      "home_score": 87,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Santa Clara",
+      "game_id": "2017_03_06_santa_clara_gonzaga",
+      "home_score": 77,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 62,
+      "away_team": "IU Indianapolis",
+      "game_id": "2017_03_06_iu_indianapolis_omaha",
+      "home_score": 90,
+      "home_team": "Omaha"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Milwaukee",
+      "game_id": "2017_03_06_milwaukee_uic",
+      "home_score": 68,
+      "home_team": "UIC"
+    },
+    {
+      "away_score": 50,
+      "away_team": "BYU",
+      "game_id": "2017_03_06_byu_saint_mary_s",
+      "home_score": 81,
+      "home_team": "Saint Mary's"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:16.169856Z"
+}

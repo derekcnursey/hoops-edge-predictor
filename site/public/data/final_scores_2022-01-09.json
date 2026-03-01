@@ -1,0 +1,118 @@
+{
+  "date": "2022-01-09",
+  "games": [
+    {
+      "away_score": 60,
+      "away_team": "Minnesota",
+      "game_id": "2022_01_09_minnesota_indiana",
+      "home_score": 73,
+      "home_team": "Indiana"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Purdue Fort Wayne",
+      "game_id": "2022_01_09_purdue_fort_wayne_robert_morris",
+      "home_score": 70,
+      "home_team": "Robert Morris"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Quinnipiac",
+      "game_id": "2022_01_09_quinnipiac_niagara",
+      "home_score": 76,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Cleveland State",
+      "game_id": "2022_01_09_cleveland_state_youngstown_state",
+      "home_score": 80,
+      "home_team": "Youngstown State"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Rider",
+      "game_id": "2022_01_09_rider_marist",
+      "home_score": 75,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Fairfield",
+      "game_id": "2022_01_09_fairfield_siena",
+      "home_score": 69,
+      "home_team": "Siena"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Lipscomb",
+      "game_id": "2022_01_09_lipscomb_central_arkansas",
+      "home_score": 93,
+      "home_team": "Central Arkansas"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Cincinnati",
+      "game_id": "2022_01_09_cincinnati_memphis",
+      "home_score": 87,
+      "home_team": "Memphis"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Elon",
+      "game_id": "2022_01_09_elon_charleston",
+      "home_score": 65,
+      "home_team": "Charleston"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Hofstra",
+      "game_id": "2022_01_09_hofstra_james_madison",
+      "home_score": 80,
+      "home_team": "James Madison"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Milwaukee",
+      "game_id": "2022_01_09_milwaukee_oakland",
+      "home_score": 86,
+      "home_team": "Oakland"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Northeastern",
+      "game_id": "2022_01_09_northeastern_towson",
+      "home_score": 70,
+      "home_team": "Towson"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Washington",
+      "game_id": "2022_01_09_washington_colorado",
+      "home_score": 78,
+      "home_team": "Colorado"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Northwestern",
+      "game_id": "2022_01_09_northwestern_ohio_state",
+      "home_score": 95,
+      "home_team": "Ohio State"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Montana",
+      "game_id": "2022_01_09_montana_montana_state",
+      "home_score": 66,
+      "home_team": "Montana State"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Wisconsin",
+      "game_id": "2022_01_09_wisconsin_maryland",
+      "home_score": 69,
+      "home_team": "Maryland"
+    }
+  ],
+  "generated_at": "2026-02-28T21:32:41.697335Z"
+}

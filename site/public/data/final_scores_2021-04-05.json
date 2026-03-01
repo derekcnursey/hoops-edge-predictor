@@ -1,0 +1,13 @@
+{
+  "date": "2021-04-05",
+  "games": [
+    {
+      "away_score": 86,
+      "away_team": "Baylor",
+      "game_id": "2021_04_05_baylor_gonzaga",
+      "home_score": 70,
+      "home_team": "Gonzaga"
+    }
+  ],
+  "generated_at": "2026-02-28T21:32:02.489473Z"
+}

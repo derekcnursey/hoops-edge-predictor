@@ -1,0 +1,34 @@
+{
+  "date": "2024-12-25",
+  "games": [
+    {
+      "away_score": 68,
+      "away_team": "Loyola Chicago",
+      "game_id": "2024_12_25_loyola_chicago_murray_state",
+      "home_score": 71,
+      "home_team": "Murray State"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Charleston",
+      "game_id": "2024_12_25_charleston_charlotte",
+      "home_score": 81,
+      "home_team": "Charlotte"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Oakland",
+      "game_id": "2024_12_25_oakland_hawai_i",
+      "home_score": 73,
+      "home_team": "Hawai'i"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Oregon State",
+      "game_id": "2024_12_25_oregon_state_nebraska",
+      "home_score": 78,
+      "home_team": "Nebraska"
+    }
+  ],
+  "generated_at": "2026-02-28T23:29:33.794623Z"
+}

@@ -1,0 +1,60 @@
+{
+  "date": "2018-03-28",
+  "games": [
+    {
+      "away_team": "San Francisco",
+      "edge_home_points": 2.2757067680358887,
+      "game_id": "2018_03_28_san_francisco_north_texas",
+      "home_team": "North Texas",
+      "market_spread_home": -3.5,
+      "model_mu_home": 5.775707,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5875776120033117,
+      "pick_ev_per_1": 0.12173907746086776,
+      "pick_fair_odds": -142.4698632044267,
+      "pick_prob_edge": 0.06376808819378788,
+      "pick_side": "HOME",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.98968506,
+      "pred_sigma": 10.2825165,
+      "start_time": "2018-03-29T00:30:00.000Z"
+    },
+    {
+      "away_team": "Sam Houston",
+      "edge_home_points": -2.4399261474609375,
+      "game_id": "2018_03_28_sam_houston_northern_colorado",
+      "home_team": "Northern Colorado",
+      "market_spread_home": -10.5,
+      "model_mu_home": 8.060074,
+      "neutral_site": null,
+      "pick_cover_prob": 0.595868281670118,
+      "pick_ev_per_1": 0.13756671955204336,
+      "pick_fair_odds": -147.44407692932592,
+      "pick_prob_edge": 0.07205875786059412,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.99999154,
+      "pred_sigma": 10.05463,
+      "start_time": "2018-03-29T01:00:00.000Z"
+    },
+    {
+      "away_team": "UIC",
+      "edge_home_points": 2.854729175567627,
+      "game_id": "2018_03_28_uic_liberty",
+      "home_team": "Liberty",
+      "market_spread_home": -5.0,
+      "model_mu_home": 7.854729,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5917097027941398,
+      "pick_ev_per_1": 0.129627614425176,
+      "pick_fair_odds": -144.92377282622505,
+      "pick_prob_edge": 0.06790017898461598,
+      "pick_side": "HOME",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.12355821,
+      "pred_sigma": 12.3077755,
+      "start_time": "2018-03-28T23:00:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:09.221833Z"
+}

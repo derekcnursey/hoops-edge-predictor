@@ -1,0 +1,20 @@
+{
+  "date": "2022-03-29",
+  "games": [
+    {
+      "away_score": 77,
+      "away_team": "St. Bonaventure",
+      "game_id": "2022_03_29_st_bonaventure_xavier",
+      "home_score": 84,
+      "home_team": "Xavier"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Washington State",
+      "game_id": "2022_03_29_washington_state_texas_a_m",
+      "home_score": 72,
+      "home_team": "Texas A&M"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:28.066693Z"
+}

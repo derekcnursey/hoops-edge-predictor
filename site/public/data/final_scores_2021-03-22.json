@@ -1,0 +1,90 @@
+{
+  "date": "2021-03-22",
+  "games": [
+    {
+      "away_score": 53,
+      "away_team": "Stetson",
+      "game_id": "2021_03_22_stetson_bowling_green",
+      "home_score": 52,
+      "home_team": "Bowling Green"
+    },
+    {
+      "away_score": 95,
+      "away_team": "Oregon",
+      "game_id": "2021_03_22_oregon_iowa",
+      "home_score": 80,
+      "home_team": "Iowa"
+    },
+    {
+      "away_score": 93,
+      "away_team": "Coastal Carolina",
+      "game_id": "2021_03_22_coastal_carolina_bryant",
+      "home_score": 82,
+      "home_team": "Bryant"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Oklahoma",
+      "game_id": "2021_03_22_oklahoma_gonzaga",
+      "home_score": 87,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Abilene Christian",
+      "game_id": "2021_03_22_abilene_christian_ucla",
+      "home_score": 67,
+      "home_team": "UCLA"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Longwood",
+      "game_id": "2021_03_22_longwood_pepperdine",
+      "home_score": 80,
+      "home_team": "Pepperdine"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Ohio",
+      "game_id": "2021_03_22_ohio_creighton",
+      "home_score": 72,
+      "home_team": "Creighton"
+    },
+    {
+      "away_score": 78,
+      "away_team": "LSU",
+      "game_id": "2021_03_22_lsu_michigan",
+      "home_score": 86,
+      "home_team": "Michigan"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Colorado",
+      "game_id": "2021_03_22_colorado_florida_state",
+      "home_score": 71,
+      "home_team": "Florida State"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Bellarmine",
+      "game_id": "2021_03_22_bellarmine_army",
+      "home_score": 67,
+      "home_team": "Army"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Maryland",
+      "game_id": "2021_03_22_maryland_alabama",
+      "home_score": 96,
+      "home_team": "Alabama"
+    },
+    {
+      "away_score": 85,
+      "away_team": "USC",
+      "game_id": "2021_03_22_usc_kansas",
+      "home_score": 51,
+      "home_team": "Kansas"
+    }
+  ],
+  "generated_at": "2026-02-28T21:31:57.333145Z"
+}

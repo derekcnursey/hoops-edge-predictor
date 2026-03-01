@@ -1,0 +1,132 @@
+{
+  "date": "2018-12-13",
+  "games": [
+    {
+      "away_score": 58,
+      "away_team": "Huntingdon College (AL)",
+      "game_id": "2018_12_13_huntingdon_college_al_north_alabama",
+      "home_score": 90,
+      "home_team": "North Alabama"
+    },
+    {
+      "away_score": 73,
+      "away_team": "St. Edward's",
+      "game_id": "2018_12_13_st_edward_s_rice",
+      "home_score": 78,
+      "home_team": "Rice"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Kennesaw State",
+      "game_id": "2018_12_13_kennesaw_state_gardner_webb",
+      "home_score": 81,
+      "home_team": "Gardner-Webb"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Maryland Eastern Shore",
+      "game_id": "2018_12_13_maryland_eastern_shore_duquesne",
+      "home_score": 72,
+      "home_team": "Duquesne"
+    },
+    {
+      "away_score": 89,
+      "away_team": "North Florida",
+      "game_id": "2018_12_13_north_florida_florida_international",
+      "home_score": 102,
+      "home_team": "Florida International"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Northwestern Ohio",
+      "game_id": "2018_12_13_northwestern_ohio_wright_state",
+      "home_score": 91,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Averett",
+      "game_id": "2018_12_13_averett_longwood",
+      "home_score": 81,
+      "home_team": "Longwood"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Boston University",
+      "game_id": "2018_12_13_boston_university_dartmouth",
+      "home_score": 78,
+      "home_team": "Dartmouth"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Central Penn",
+      "game_id": "2018_12_13_central_penn_campbell",
+      "home_score": 100,
+      "home_team": "Campbell"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Milwaukee",
+      "game_id": "2018_12_13_milwaukee_kansas_city",
+      "home_score": 66,
+      "home_team": "Kansas City"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Morehead State",
+      "game_id": "2018_12_13_morehead_state_samford",
+      "home_score": 77,
+      "home_team": "Samford"
+    },
+    {
+      "away_score": 61,
+      "away_team": "North Carolina Central",
+      "game_id": "2018_12_13_north_carolina_central_mcneese",
+      "home_score": 77,
+      "home_team": "McNeese"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Savannah State",
+      "game_id": "2018_12_13_savannah_state_wisconsin",
+      "home_score": 101,
+      "home_team": "Wisconsin"
+    },
+    {
+      "away_score": 60,
+      "away_team": "New Orleans",
+      "game_id": "2018_12_13_new_orleans_tulsa",
+      "home_score": 70,
+      "home_team": "Tulsa"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Lamar",
+      "game_id": "2018_12_13_lamar_cal_state_bakersfield",
+      "home_score": 86,
+      "home_team": "Cal State Bakersfield"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Mississippi Valley State",
+      "game_id": "2018_12_13_mississippi_valley_state_santa_clara",
+      "home_score": 82,
+      "home_team": "Santa Clara"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Eastern Washington",
+      "game_id": "2018_12_13_eastern_washington_san_francisco",
+      "home_score": 85,
+      "home_team": "San Francisco"
+    },
+    {
+      "away_score": 40,
+      "away_team": "Westcliff",
+      "game_id": "2018_12_13_westcliff_sacramento_state",
+      "home_score": 89,
+      "home_team": "Sacramento State"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:28.608378Z"
+}

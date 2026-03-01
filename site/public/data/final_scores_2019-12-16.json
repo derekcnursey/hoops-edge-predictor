@@ -1,0 +1,146 @@
+{
+  "date": "2019-12-16",
+  "games": [
+    {
+      "away_score": 72,
+      "away_team": "Chestnut Hill College",
+      "game_id": "2019_12_16_chestnut_hill_college_morgan_state",
+      "home_score": 96,
+      "home_team": "Morgan State"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Delaware State",
+      "game_id": "2019_12_16_delaware_state_delaware",
+      "home_score": 86,
+      "home_team": "Delaware"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Charleston Southern",
+      "game_id": "2019_12_16_charleston_southern_james_madison",
+      "home_score": 81,
+      "home_team": "James Madison"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Marshall",
+      "game_id": "2019_12_16_marshall_morehead_state",
+      "home_score": 62,
+      "home_team": "Morehead State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Southern Miss",
+      "game_id": "2019_12_16_southern_miss_texas_tech",
+      "home_score": 71,
+      "home_team": "Texas Tech"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Northern Illinois",
+      "game_id": "2019_12_16_northern_illinois_pittsburgh",
+      "home_score": 59,
+      "home_team": "Pittsburgh"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Kent State",
+      "game_id": "2019_12_16_kent_state_uc_irvine",
+      "home_score": 74,
+      "home_team": "UC Irvine"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Marist",
+      "game_id": "2019_12_16_marist_rider",
+      "home_score": 74,
+      "home_team": "Rider"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Mercer",
+      "game_id": "2019_12_16_mercer_unc_wilmington",
+      "home_score": 63,
+      "home_team": "UNC Wilmington"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Valparaiso",
+      "game_id": "2019_12_16_valparaiso_charlotte",
+      "home_score": 67,
+      "home_team": "Charlotte"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Montana State",
+      "game_id": "2019_12_16_montana_state_north_dakota_state",
+      "home_score": 79,
+      "home_team": "North Dakota State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Southeastern Baptist College",
+      "game_id": "2019_12_16_southeastern_baptist_college_jackson_state",
+      "home_score": 113,
+      "home_team": "Jackson State"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Alcorn State",
+      "game_id": "2019_12_16_alcorn_state_tulane",
+      "home_score": 68,
+      "home_team": "Tulane"
+    },
+    {
+      "away_score": 38,
+      "away_team": "Kennesaw State",
+      "game_id": "2019_12_16_kennesaw_state_murray_state",
+      "home_score": 74,
+      "home_team": "Murray State"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Eastern Illinois",
+      "game_id": "2019_12_16_eastern_illinois_western_illinois",
+      "home_score": 47,
+      "home_team": "Western Illinois"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Evansville",
+      "game_id": "2019_12_16_evansville_jacksonville_state",
+      "home_score": 85,
+      "home_team": "Jacksonville State"
+    },
+    {
+      "away_score": 54,
+      "away_team": "North Carolina A&T",
+      "game_id": "2019_12_16_north_carolina_a_t_utep",
+      "home_score": 72,
+      "home_team": "UTEP"
+    },
+    {
+      "away_score": 74,
+      "away_team": "UC Santa Barbara",
+      "game_id": "2019_12_16_uc_santa_barbara_idaho_state",
+      "home_score": 68,
+      "home_team": "Idaho State"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Florida A&M",
+      "game_id": "2019_12_16_florida_a_m_portland",
+      "home_score": 66,
+      "home_team": "Portland"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Loyola Marymount",
+      "game_id": "2019_12_16_loyola_marymount_uc_davis",
+      "home_score": 67,
+      "home_team": "UC Davis"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:11.027000Z"
+}

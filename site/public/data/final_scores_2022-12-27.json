@@ -1,0 +1,55 @@
+{
+  "date": "2022-12-27",
+  "games": [
+    {
+      "away_score": 43,
+      "away_team": "Jacksonville",
+      "game_id": "2022_12_27_jacksonville_notre_dame",
+      "home_score": 59,
+      "home_team": "Notre Dame"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Saint Elizabeth",
+      "game_id": "2022_12_27_saint_elizabeth_njit",
+      "home_score": 79,
+      "home_team": "NJIT"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Georgia Southwestern",
+      "game_id": "2022_12_27_georgia_southwestern_jacksonville_state",
+      "home_score": 78,
+      "home_team": "Jacksonville State"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Northwestern State",
+      "game_id": "2022_12_27_northwestern_state_texas_a_m",
+      "home_score": 64,
+      "home_team": "Texas A&M"
+    },
+    {
+      "away_score": 71,
+      "away_team": "South Carolina State",
+      "game_id": "2022_12_27_south_carolina_state_texas_tech",
+      "home_score": 110,
+      "home_team": "Texas Tech"
+    },
+    {
+      "away_score": 72,
+      "away_team": "East Texas A&M",
+      "game_id": "2022_12_27_east_texas_a_m_texas",
+      "home_score": 97,
+      "home_team": "Texas"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Seton Hall",
+      "game_id": "2022_12_27_seton_hall_marquette",
+      "home_score": 83,
+      "home_team": "Marquette"
+    }
+  ],
+  "generated_at": "2026-02-28T21:34:05.873953Z"
+}

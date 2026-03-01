@@ -1,0 +1,48 @@
+{
+  "date": "2021-03-27",
+  "games": [
+    {
+      "away_score": 90,
+      "away_team": "Memphis",
+      "game_id": "2021_03_27_memphis_colorado_state",
+      "home_score": 67,
+      "home_team": "Colorado State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Oregon State",
+      "game_id": "2021_03_27_oregon_state_loyola_chicago",
+      "home_score": 58,
+      "home_team": "Loyola Chicago"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Louisiana Tech",
+      "game_id": "2021_03_27_louisiana_tech_mississippi_state",
+      "home_score": 84,
+      "home_team": "Mississippi State"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Villanova",
+      "game_id": "2021_03_27_villanova_baylor",
+      "home_score": 62,
+      "home_team": "Baylor"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Oral Roberts",
+      "game_id": "2021_03_27_oral_roberts_arkansas",
+      "home_score": 72,
+      "home_team": "Arkansas"
+    },
+    {
+      "away_score": 46,
+      "away_team": "Syracuse",
+      "game_id": "2021_03_27_syracuse_houston",
+      "home_score": 62,
+      "home_team": "Houston"
+    }
+  ],
+  "generated_at": "2026-02-28T21:31:59.598089Z"
+}

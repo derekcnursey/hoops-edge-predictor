@@ -1,0 +1,48 @@
+{
+  "date": "2018-03-22",
+  "games": [
+    {
+      "away_score": 69,
+      "away_team": "Loyola Chicago",
+      "game_id": "2018_03_22_loyola_chicago_nevada",
+      "home_score": 68,
+      "home_team": "Nevada"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Texas A&M",
+      "game_id": "2018_03_22_texas_a_m_michigan",
+      "home_score": 99,
+      "home_team": "Michigan"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Sam Houston",
+      "game_id": "2018_03_22_sam_houston_utsa",
+      "home_score": 69,
+      "home_team": "UTSA"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Kansas State",
+      "game_id": "2018_03_22_kansas_state_kentucky",
+      "home_score": 58,
+      "home_team": "Kentucky"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Campbell",
+      "game_id": "2018_03_22_campbell_san_francisco",
+      "home_score": 65,
+      "home_team": "San Francisco"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Florida State",
+      "game_id": "2018_03_22_florida_state_gonzaga",
+      "home_score": 60,
+      "home_team": "Gonzaga"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:50.556200Z"
+}

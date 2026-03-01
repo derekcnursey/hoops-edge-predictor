@@ -1,0 +1,55 @@
+{
+  "date": "2017-02-05",
+  "games": [
+    {
+      "away_score": 58,
+      "away_team": "Lafayette",
+      "game_id": "2017_02_05_lafayette_boston_university",
+      "home_score": 75,
+      "home_team": "Boston University"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Clemson",
+      "game_id": "2017_02_05_clemson_florida_state",
+      "home_score": 109,
+      "home_team": "Florida State"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Notre Dame",
+      "game_id": "2017_02_05_notre_dame_north_carolina",
+      "home_score": 83,
+      "home_team": "North Carolina"
+    },
+    {
+      "away_score": 74,
+      "away_team": "South Florida",
+      "game_id": "2017_02_05_south_florida_temple",
+      "home_score": 83,
+      "home_team": "Temple"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Indiana",
+      "game_id": "2017_02_05_indiana_wisconsin",
+      "home_score": 65,
+      "home_team": "Wisconsin"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Nebraska",
+      "game_id": "2017_02_05_nebraska_iowa",
+      "home_score": 81,
+      "home_team": "Iowa"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Colorado",
+      "game_id": "2017_02_05_colorado_california",
+      "home_score": 77,
+      "home_team": "California"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:59.371342Z"
+}

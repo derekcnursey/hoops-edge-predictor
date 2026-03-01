@@ -1,0 +1,13 @@
+{
+  "date": "2022-04-01",
+  "games": [
+    {
+      "away_score": 85,
+      "away_team": "Fresno State",
+      "game_id": "2022_04_01_fresno_state_coastal_carolina",
+      "home_score": 74,
+      "home_team": "Coastal Carolina"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:29.164711Z"
+}

@@ -1,0 +1,167 @@
+{
+  "date": "2024-12-20",
+  "games": [
+    {
+      "away_score": 63,
+      "away_team": "Virginia-Lynchburg",
+      "game_id": "2024_12_20_virginia_lynchburg_radford",
+      "home_score": 122,
+      "home_team": "Radford"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Valparaiso",
+      "game_id": "2024_12_20_valparaiso_western_michigan",
+      "home_score": 73,
+      "home_team": "Western Michigan"
+    },
+    {
+      "away_score": 45,
+      "away_team": "Houston Christian",
+      "game_id": "2024_12_20_houston_christian_texas_a_m",
+      "home_score": 77,
+      "home_team": "Texas A&M"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Southern-New Orleans",
+      "game_id": "2024_12_20_southern_new_orleans_northwestern_state",
+      "home_score": 89,
+      "home_team": "Northwestern State"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Norfolk State",
+      "game_id": "2024_12_20_norfolk_state_grambling",
+      "home_score": 70,
+      "home_team": "Grambling"
+    },
+    {
+      "away_score": 79,
+      "away_team": "UIC",
+      "game_id": "2024_12_20_uic_seattle_u",
+      "home_score": 68,
+      "home_team": "Seattle U"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Defiance",
+      "game_id": "2024_12_20_defiance_purdue_fort_wayne",
+      "home_score": 103,
+      "home_team": "Purdue Fort Wayne"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Rider",
+      "game_id": "2024_12_20_rider_pennsylvania",
+      "home_score": 79,
+      "home_team": "Pennsylvania"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Delaware State",
+      "game_id": "2024_12_20_delaware_state_alabama_state",
+      "home_score": 80,
+      "home_team": "Alabama State"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Akron",
+      "game_id": "2024_12_20_akron_yale",
+      "home_score": 74,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Holy Cross",
+      "game_id": "2024_12_20_holy_cross_siena",
+      "home_score": 70,
+      "home_team": "Siena"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Longwood",
+      "game_id": "2024_12_20_longwood_north_carolina_central",
+      "home_score": 67,
+      "home_team": "North Carolina Central"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Loyola New Orleans",
+      "game_id": "2024_12_20_loyola_new_orleans_se_louisiana",
+      "home_score": 96,
+      "home_team": "SE Louisiana"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Delaware",
+      "game_id": "2024_12_20_delaware_saint_peter_s",
+      "home_score": 72,
+      "home_team": "Saint Peter's"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Texas Wesleyan",
+      "game_id": "2024_12_20_texas_wesleyan_stephen_f_austin",
+      "home_score": 82,
+      "home_team": "Stephen F. Austin"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Dillard",
+      "game_id": "2024_12_20_dillard_tulane",
+      "home_score": 99,
+      "home_team": "Tulane"
+    },
+    {
+      "away_score": 72,
+      "away_team": "St. John's",
+      "game_id": "2024_12_20_st_john_s_providence",
+      "home_score": 70,
+      "home_team": "Providence"
+    },
+    {
+      "away_score": 64,
+      "away_team": "App State",
+      "game_id": "2024_12_20_app_state_north_texas",
+      "home_score": 68,
+      "home_team": "North Texas"
+    },
+    {
+      "away_score": 48,
+      "away_team": "South Dakota Mines",
+      "game_id": "2024_12_20_south_dakota_mines_north_dakota",
+      "home_score": 80,
+      "home_team": "North Dakota"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Cincinnati",
+      "game_id": "2024_12_20_cincinnati_dayton",
+      "home_score": 59,
+      "home_team": "Dayton"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Florida A&M",
+      "game_id": "2024_12_20_florida_a_m_byu",
+      "home_score": 103,
+      "home_team": "BYU"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Jackson State",
+      "game_id": "2024_12_20_jackson_state_utep",
+      "home_score": 67,
+      "home_team": "UTEP"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Southern",
+      "game_id": "2024_12_20_southern_loyola_marymount",
+      "home_score": 89,
+      "home_team": "Loyola Marymount"
+    }
+  ],
+  "generated_at": "2026-02-28T23:29:30.479959Z"
+}

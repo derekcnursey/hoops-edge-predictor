@@ -1,0 +1,76 @@
+{
+  "date": "2019-12-05",
+  "games": [
+    {
+      "away_score": 66,
+      "away_team": "Elon",
+      "game_id": "2019_12_05_elon_high_point",
+      "home_score": 70,
+      "home_team": "High Point"
+    },
+    {
+      "away_score": 94,
+      "away_team": "Howard",
+      "game_id": "2019_12_05_howard_hampton",
+      "home_score": 91,
+      "home_team": "Hampton"
+    },
+    {
+      "away_score": 84,
+      "away_team": "St. Francis Brooklyn",
+      "game_id": "2019_12_05_st_francis_brooklyn_hartford",
+      "home_score": 78,
+      "home_team": "Hartford"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Central Arkansas",
+      "game_id": "2019_12_05_central_arkansas_wichita_state",
+      "home_score": 95,
+      "home_team": "Wichita State"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Louisiana Tech",
+      "game_id": "2019_12_05_louisiana_tech_mississippi_state",
+      "home_score": 67,
+      "home_team": "Mississippi State"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Oklahoma",
+      "game_id": "2019_12_05_oklahoma_north_texas",
+      "home_score": 80,
+      "home_team": "North Texas"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Southeast Missouri State",
+      "game_id": "2019_12_05_southeast_missouri_state_abilene_christian",
+      "home_score": 73,
+      "home_team": "Abilene Christian"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Furman",
+      "game_id": "2019_12_05_furman_auburn",
+      "home_score": 81,
+      "home_team": "Auburn"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Northern Illinois",
+      "game_id": "2019_12_05_northern_illinois_saint_mary_s",
+      "home_score": 61,
+      "home_team": "Saint Mary's"
+    },
+    {
+      "away_score": 70,
+      "away_team": "South Dakota State",
+      "game_id": "2019_12_05_south_dakota_state_montana_state",
+      "home_score": 77,
+      "home_team": "Montana State"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:04.694367Z"
+}

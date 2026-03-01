@@ -1,0 +1,34 @@
+{
+  "date": "2024-03-27",
+  "games": [
+    {
+      "away_score": 67,
+      "away_team": "High Point",
+      "game_id": "2024_03_27_high_point_seattle_u",
+      "home_score": 77,
+      "home_team": "Seattle U"
+    },
+    {
+      "away_score": 68,
+      "away_team": "UNLV",
+      "game_id": "2024_03_27_unlv_seton_hall",
+      "home_score": 91,
+      "home_team": "Seton Hall"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Purdue Fort Wayne",
+      "game_id": "2024_03_27_purdue_fort_wayne_norfolk_state",
+      "home_score": 75,
+      "home_team": "Norfolk State"
+    },
+    {
+      "away_score": 54,
+      "away_team": "VCU",
+      "game_id": "2024_03_27_vcu_utah",
+      "home_score": 74,
+      "home_team": "Utah"
+    }
+  ],
+  "generated_at": "2026-02-28T22:40:03.412744Z"
+}

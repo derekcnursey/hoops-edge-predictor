@@ -1,0 +1,55 @@
+{
+  "date": "2019-01-04",
+  "games": [
+    {
+      "away_score": 66,
+      "away_team": "IU Indianapolis",
+      "game_id": "2019_01_04_iu_indianapolis_uic",
+      "home_score": 64,
+      "home_team": "UIC"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Ball State",
+      "game_id": "2019_01_04_ball_state_toledo",
+      "home_score": 64,
+      "home_team": "Toledo"
+    },
+    {
+      "away_score": 74,
+      "away_team": "SMU",
+      "game_id": "2019_01_04_smu_tulane",
+      "home_score": 65,
+      "home_team": "Tulane"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Johnson & Wales (RI)",
+      "game_id": "2019_01_04_johnson_wales_ri_cornell",
+      "home_score": 76,
+      "home_team": "Cornell"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Buffalo",
+      "game_id": "2019_01_04_buffalo_eastern_michigan",
+      "home_score": 58,
+      "home_team": "Eastern Michigan"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Holy Names University",
+      "game_id": "2019_01_04_holy_names_university_cal_poly",
+      "home_score": 68,
+      "home_team": "Cal Poly"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Bethesda University",
+      "game_id": "2019_01_04_bethesda_university_uc_riverside",
+      "home_score": 112,
+      "home_team": "UC Riverside"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:40.653189Z"
+}

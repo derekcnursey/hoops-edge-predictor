@@ -1,0 +1,76 @@
+{
+  "date": "2025-01-17",
+  "games": [
+    {
+      "away_score": 80,
+      "away_team": "Ohio",
+      "game_id": "2025_01_17_ohio_akron",
+      "home_score": 92,
+      "home_team": "Akron"
+    },
+    {
+      "away_score": 78,
+      "away_team": "VCU",
+      "game_id": "2025_01_17_vcu_saint_joseph_s",
+      "home_score": 69,
+      "home_team": "Saint Joseph's"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Robert Morris",
+      "game_id": "2025_01_17_robert_morris_green_bay",
+      "home_score": 67,
+      "home_team": "Green Bay"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Providence",
+      "game_id": "2025_01_17_providence_villanova",
+      "home_score": 75,
+      "home_team": "Villanova"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Indiana",
+      "game_id": "2025_01_17_indiana_ohio_state",
+      "home_score": 76,
+      "home_team": "Ohio State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "DePaul",
+      "game_id": "2025_01_17_depaul_georgetown",
+      "home_score": 68,
+      "home_team": "Georgetown"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Youngstown State",
+      "game_id": "2025_01_17_youngstown_state_milwaukee",
+      "home_score": 79,
+      "home_team": "Milwaukee"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Iowa",
+      "game_id": "2025_01_17_iowa_ucla",
+      "home_score": 94,
+      "home_team": "UCLA"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Air Force",
+      "game_id": "2025_01_17_air_force_fresno_state",
+      "home_score": 74,
+      "home_team": "Fresno State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Boise State",
+      "game_id": "2025_01_17_boise_state_new_mexico",
+      "home_score": 84,
+      "home_team": "New Mexico"
+    }
+  ],
+  "generated_at": "2026-02-28T23:29:47.494344Z"
+}

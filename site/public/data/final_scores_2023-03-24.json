@@ -1,0 +1,34 @@
+{
+  "date": "2023-03-24",
+  "games": [
+    {
+      "away_score": 71,
+      "away_team": "San Diego State",
+      "game_id": "2023_03_24_san_diego_state_alabama",
+      "home_score": 64,
+      "home_team": "Alabama"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Miami",
+      "game_id": "2023_03_24_miami_houston",
+      "home_score": 75,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Princeton",
+      "game_id": "2023_03_24_princeton_creighton",
+      "home_score": 86,
+      "home_team": "Creighton"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Xavier",
+      "game_id": "2023_03_24_xavier_texas",
+      "home_score": 83,
+      "home_team": "Texas"
+    }
+  ],
+  "generated_at": "2026-02-28T21:34:58.678243Z"
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2016-04-02",
+  "games": [
+    {
+      "away_score": 95,
+      "away_team": "Villanova",
+      "game_id": "2016_04_02_villanova_oklahoma",
+      "home_score": 51,
+      "home_team": "Oklahoma"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Syracuse",
+      "game_id": "2016_04_02_syracuse_north_carolina",
+      "home_score": 83,
+      "home_team": "North Carolina"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:08.694383Z"
+}

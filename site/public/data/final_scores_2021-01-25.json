@@ -1,0 +1,118 @@
+{
+  "date": "2021-01-25",
+  "games": [
+    {
+      "away_score": 73,
+      "away_team": "Radford",
+      "game_id": "2021_01_25_radford_unc_asheville",
+      "home_score": 63,
+      "home_team": "UNC Asheville"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Charleston Southern",
+      "game_id": "2021_01_25_charleston_southern_gardner_webb",
+      "home_score": 80,
+      "home_team": "Gardner-Webb"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Loyola Marymount",
+      "game_id": "2021_01_25_loyola_marymount_portland",
+      "home_score": 50,
+      "home_team": "Portland"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Presbyterian",
+      "game_id": "2021_01_25_presbyterian_high_point",
+      "home_score": 56,
+      "home_team": "High Point"
+    },
+    {
+      "away_score": 41,
+      "away_team": "Western New Mexico",
+      "game_id": "2021_01_25_western_new_mexico_new_mexico_state",
+      "home_score": 70,
+      "home_team": "New Mexico State"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Howard Payne",
+      "game_id": "2021_01_25_howard_payne_tarleton_state",
+      "home_score": 113,
+      "home_team": "Tarleton State"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Syracuse",
+      "game_id": "2021_01_25_syracuse_virginia",
+      "home_score": 81,
+      "home_team": "Virginia"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Prairie View A&M",
+      "game_id": "2021_01_25_prairie_view_a_m_arkansas_pine_bluff",
+      "home_score": 56,
+      "home_team": "Arkansas-Pine Bluff"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Coe",
+      "game_id": "2021_01_25_coe_northern_iowa",
+      "home_score": 70,
+      "home_team": "Northern Iowa"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Southern Illinois",
+      "game_id": "2021_01_25_southern_illinois_indiana_state",
+      "home_score": 69,
+      "home_team": "Indiana State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Loyola Chicago",
+      "game_id": "2021_01_25_loyola_chicago_bradley",
+      "home_score": 58,
+      "home_team": "Bradley"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Southern",
+      "game_id": "2021_01_25_southern_alabama_state",
+      "home_score": 66,
+      "home_team": "Alabama State"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Utah State",
+      "game_id": "2021_01_25_utah_state_unlv",
+      "home_score": 59,
+      "home_team": "UNLV"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Texas Tech",
+      "game_id": "2021_01_25_texas_tech_west_virginia",
+      "home_score": 88,
+      "home_team": "West Virginia"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Oklahoma State",
+      "game_id": "2021_01_25_oklahoma_state_iowa_state",
+      "home_score": 60,
+      "home_team": "Iowa State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Arizona State",
+      "game_id": "2021_01_25_arizona_state_arizona",
+      "home_score": 80,
+      "home_team": "Arizona"
+    }
+  ],
+  "generated_at": "2026-02-28T21:31:26.452595Z"
+}

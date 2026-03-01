@@ -1,0 +1,104 @@
+{
+  "date": "2018-12-02",
+  "games": [
+    {
+      "away_score": 51,
+      "away_team": "Texas A&M-Corpus Christi",
+      "game_id": "2018_12_02_texas_a_m_corpus_christi_tennessee",
+      "home_score": 79,
+      "home_team": "Tennessee"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Arizona",
+      "game_id": "2018_12_02_arizona_uconn",
+      "home_score": 72,
+      "home_team": "UConn"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Colgate",
+      "game_id": "2018_12_02_colgate_florida_gulf_coast",
+      "home_score": 56,
+      "home_team": "Florida Gulf Coast"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Delaware",
+      "game_id": "2018_12_02_delaware_columbia",
+      "home_score": 86,
+      "home_team": "Columbia"
+    },
+    {
+      "away_score": 73,
+      "away_team": "UC Riverside",
+      "game_id": "2018_12_02_uc_riverside_valparaiso",
+      "home_score": 82,
+      "home_team": "Valparaiso"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Sacred Heart",
+      "game_id": "2018_12_02_sacred_heart_lafayette",
+      "home_score": 62,
+      "home_team": "Lafayette"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Oral Roberts",
+      "game_id": "2018_12_02_oral_roberts_smu",
+      "home_score": 79,
+      "home_team": "SMU"
+    },
+    {
+      "away_score": 62,
+      "away_team": "UCF",
+      "game_id": "2018_12_02_ucf_missouri",
+      "home_score": 64,
+      "home_team": "Missouri"
+    },
+    {
+      "away_score": 46,
+      "away_team": "Rust",
+      "game_id": "2018_12_02_rust_southern_miss",
+      "home_score": 106,
+      "home_team": "Southern Miss"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Maryland Eastern Shore",
+      "game_id": "2018_12_02_maryland_eastern_shore_east_carolina",
+      "home_score": 70,
+      "home_team": "East Carolina"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Illinois",
+      "game_id": "2018_12_02_illinois_nebraska",
+      "home_score": 75,
+      "home_team": "Nebraska"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Minnesota",
+      "game_id": "2018_12_02_minnesota_ohio_state",
+      "home_score": 79,
+      "home_team": "Ohio State"
+    },
+    {
+      "away_score": 63,
+      "away_team": "UC Santa Barbara",
+      "game_id": "2018_12_02_uc_santa_barbara_washington",
+      "home_score": 67,
+      "home_team": "Washington"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Loyola Marymount",
+      "game_id": "2018_12_02_loyola_marymount_ucla",
+      "home_score": 82,
+      "home_team": "UCLA"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:21.721589Z"
+}

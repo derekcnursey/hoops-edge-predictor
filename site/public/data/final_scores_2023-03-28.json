@@ -1,0 +1,20 @@
+{
+  "date": "2023-03-28",
+  "games": [
+    {
+      "away_score": 54,
+      "away_team": "Wisconsin",
+      "game_id": "2023_03_28_wisconsin_north_texas",
+      "home_score": 56,
+      "home_team": "North Texas"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Utah Valley",
+      "game_id": "2023_03_28_utah_valley_uab",
+      "home_score": 88,
+      "home_team": "UAB"
+    }
+  ],
+  "generated_at": "2026-02-28T21:35:00.456149Z"
+}

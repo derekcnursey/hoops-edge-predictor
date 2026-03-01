@@ -1,0 +1,83 @@
+{
+  "date": "2020-01-10",
+  "games": [
+    {
+      "away_score": 58,
+      "away_team": "Pennsylvania",
+      "game_id": "2020_01_10_pennsylvania_princeton",
+      "home_score": 63,
+      "home_team": "Princeton"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Buffalo",
+      "game_id": "2020_01_10_buffalo_miami_oh",
+      "home_score": 78,
+      "home_team": "Miami (OH)"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Manhattan",
+      "game_id": "2020_01_10_manhattan_fairfield",
+      "home_score": 68,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Canisius",
+      "game_id": "2020_01_10_canisius_monmouth",
+      "home_score": 84,
+      "home_team": "Monmouth"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Wright State",
+      "game_id": "2020_01_10_wright_state_iu_indianapolis",
+      "home_score": 70,
+      "home_team": "IU Indianapolis"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Iona",
+      "game_id": "2020_01_10_iona_rider",
+      "home_score": 66,
+      "home_team": "Rider"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Niagara",
+      "game_id": "2020_01_10_niagara_quinnipiac",
+      "home_score": 67,
+      "home_team": "Quinnipiac"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Maryland",
+      "game_id": "2020_01_10_maryland_iowa",
+      "home_score": 67,
+      "home_team": "Iowa"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Northern Kentucky",
+      "game_id": "2020_01_10_northern_kentucky_uic",
+      "home_score": 52,
+      "home_team": "UIC"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Butler",
+      "game_id": "2020_01_10_butler_providence",
+      "home_score": 58,
+      "home_team": "Providence"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Ball State",
+      "game_id": "2020_01_10_ball_state_akron",
+      "home_score": 75,
+      "home_team": "Akron"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:25.453753Z"
+}

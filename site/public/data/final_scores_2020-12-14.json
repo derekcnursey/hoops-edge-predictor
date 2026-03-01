@@ -1,0 +1,118 @@
+{
+  "date": "2020-12-14",
+  "games": [
+    {
+      "away_score": 66,
+      "away_team": "Sam Houston",
+      "game_id": "2020_12_14_sam_houston_lsu",
+      "home_score": 88,
+      "home_team": "LSU"
+    },
+    {
+      "away_score": 66,
+      "away_team": "WVU Tech",
+      "game_id": "2020_12_14_wvu_tech_youngstown_state",
+      "home_score": 80,
+      "home_team": "Youngstown State"
+    },
+    {
+      "away_score": 39,
+      "away_team": "St. Francis (IL)",
+      "game_id": "2020_12_14_st_francis_il_central_michigan",
+      "home_score": 91,
+      "home_team": "Central Michigan"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Eastern Kentucky",
+      "game_id": "2020_12_14_eastern_kentucky_morehead_state",
+      "home_score": 75,
+      "home_team": "Morehead State"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Rutgers",
+      "game_id": "2020_12_14_rutgers_maryland",
+      "home_score": 60,
+      "home_team": "Maryland"
+    },
+    {
+      "away_score": 46,
+      "away_team": "Carver College",
+      "game_id": "2020_12_14_carver_college_presbyterian",
+      "home_score": 85,
+      "home_team": "Presbyterian"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Longwood",
+      "game_id": "2020_12_14_longwood_radford",
+      "home_score": 67,
+      "home_team": "Radford"
+    },
+    {
+      "away_score": 85,
+      "away_team": "William & Mary",
+      "game_id": "2020_12_14_william_mary_george_washington",
+      "home_score": 84,
+      "home_team": "George Washington"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Texas A&M-International",
+      "game_id": "2020_12_14_texas_a_m_international_ut_rio_grande_valley",
+      "home_score": 89,
+      "home_team": "UT Rio Grande Valley"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Arlington Baptist",
+      "game_id": "2020_12_14_arlington_baptist_mcneese",
+      "home_score": 110,
+      "home_team": "McNeese"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Central Arkansas",
+      "game_id": "2020_12_14_central_arkansas_ole_miss",
+      "home_score": 68,
+      "home_team": "Ole Miss"
+    },
+    {
+      "away_score": 68,
+      "away_team": "McKendree",
+      "game_id": "2020_12_14_mckendree_austin_peay",
+      "home_score": 82,
+      "home_team": "Austin Peay"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Northern Arizona",
+      "game_id": "2020_12_14_northern_arizona_colorado_state",
+      "home_score": 91,
+      "home_team": "Colorado State"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Nevada",
+      "game_id": "2020_12_14_nevada_san_diego",
+      "home_score": 72,
+      "home_team": "San Diego"
+    },
+    {
+      "away_score": 45,
+      "away_team": "Northern Colorado",
+      "game_id": "2020_12_14_northern_colorado_colorado",
+      "home_score": 81,
+      "home_team": "Colorado"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Marquette",
+      "game_id": "2020_12_14_marquette_creighton",
+      "home_score": 84,
+      "home_team": "Creighton"
+    }
+  ],
+  "generated_at": "2026-02-28T21:31:03.427011Z"
+}

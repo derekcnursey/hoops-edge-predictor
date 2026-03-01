@@ -1,0 +1,13 @@
+{
+  "date": "2019-04-05",
+  "games": [
+    {
+      "away_score": 77,
+      "away_team": "South Florida",
+      "game_id": "2019_04_05_south_florida_depaul",
+      "home_score": 65,
+      "home_team": "DePaul"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:35.280106Z"
+}

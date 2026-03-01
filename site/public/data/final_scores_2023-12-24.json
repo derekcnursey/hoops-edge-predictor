@@ -1,0 +1,34 @@
+{
+  "date": "2023-12-24",
+  "games": [
+    {
+      "away_score": 55,
+      "away_team": "Temple",
+      "game_id": "2023_12_24_temple_portland",
+      "home_score": 54,
+      "home_team": "Portland"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Old Dominion",
+      "game_id": "2023_12_24_old_dominion_massachusetts",
+      "home_score": 87,
+      "home_team": "Massachusetts"
+    },
+    {
+      "away_score": 65,
+      "away_team": "TCU",
+      "game_id": "2023_12_24_tcu_hawai_i",
+      "home_score": 51,
+      "home_team": "Hawai'i"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Nevada",
+      "game_id": "2023_12_24_nevada_georgia_tech",
+      "home_score": 64,
+      "home_team": "Georgia Tech"
+    }
+  ],
+  "generated_at": "2026-02-28T22:39:06.494555Z"
+}

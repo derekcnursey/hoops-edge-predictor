@@ -1,0 +1,132 @@
+{
+  "date": "2024-12-16",
+  "games": [
+    {
+      "away_score": 63,
+      "away_team": "West Virginia Wesleyan",
+      "game_id": "2024_12_16_west_virginia_wesleyan_marshall",
+      "home_score": 93,
+      "home_team": "Marshall"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Wofford",
+      "game_id": "2024_12_16_wofford_charleston",
+      "home_score": 77,
+      "home_team": "Charleston"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Cairn University",
+      "game_id": "2024_12_16_cairn_university_maryland_eastern_shore",
+      "home_score": 81,
+      "home_team": "Maryland Eastern Shore"
+    },
+    {
+      "away_score": 71,
+      "away_team": "The Citadel",
+      "game_id": "2024_12_16_the_citadel_central_arkansas",
+      "home_score": 73,
+      "home_team": "Central Arkansas"
+    },
+    {
+      "away_score": 75,
+      "away_team": "SE Louisiana",
+      "game_id": "2024_12_16_se_louisiana_grambling",
+      "home_score": 65,
+      "home_team": "Grambling"
+    },
+    {
+      "away_score": 54,
+      "away_team": "St. Thomas (TX)",
+      "game_id": "2024_12_16_st_thomas_tx_sam_houston",
+      "home_score": 80,
+      "home_team": "Sam Houston"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Grand Canyon",
+      "game_id": "2024_12_16_grand_canyon_louisiana_tech",
+      "home_score": 74,
+      "home_team": "Louisiana Tech"
+    },
+    {
+      "away_score": 64,
+      "away_team": "California Baptist",
+      "game_id": "2024_12_16_california_baptist_middle_tennessee",
+      "home_score": 75,
+      "home_team": "Middle Tennessee"
+    },
+    {
+      "away_score": 49,
+      "away_team": "South Alabama",
+      "game_id": "2024_12_16_south_alabama_tcu",
+      "home_score": 58,
+      "home_team": "TCU"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Montana",
+      "game_id": "2024_12_16_montana_northern_iowa",
+      "home_score": 104,
+      "home_team": "Northern Iowa"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Truett-McConnell",
+      "game_id": "2024_12_16_truett_mcconnell_lipscomb",
+      "home_score": 99,
+      "home_team": "Lipscomb"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Air Force",
+      "game_id": "2024_12_16_air_force_northern_colorado",
+      "home_score": 81,
+      "home_team": "Northern Colorado"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Alcorn State",
+      "game_id": "2024_12_16_alcorn_state_rice",
+      "home_score": 77,
+      "home_team": "Rice"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Oral Roberts",
+      "game_id": "2024_12_16_oral_roberts_texas_tech",
+      "home_score": 86,
+      "home_team": "Texas Tech"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Southern Utah",
+      "game_id": "2024_12_16_southern_utah_new_mexico_state",
+      "home_score": 72,
+      "home_team": "New Mexico State"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Tarleton State",
+      "game_id": "2024_12_16_tarleton_state_utep",
+      "home_score": 67,
+      "home_team": "UTEP"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Whittier",
+      "game_id": "2024_12_16_whittier_utah_tech",
+      "home_score": 100,
+      "home_team": "Utah Tech"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Willamette",
+      "game_id": "2024_12_16_willamette_portland",
+      "home_score": 100,
+      "home_team": "Portland"
+    }
+  ],
+  "generated_at": "2026-02-28T23:29:28.138712Z"
+}

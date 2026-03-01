@@ -1,0 +1,97 @@
+{
+  "date": "2019-02-01",
+  "games": [
+    {
+      "away_score": 71,
+      "away_team": "Pennsylvania",
+      "game_id": "2019_02_01_pennsylvania_cornell",
+      "home_score": 80,
+      "home_team": "Cornell"
+    },
+    {
+      "away_score": 74,
+      "away_team": "North Dakota",
+      "game_id": "2019_02_01_north_dakota_western_illinois",
+      "home_score": 73,
+      "home_team": "Western Illinois"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Princeton",
+      "game_id": "2019_02_01_princeton_columbia",
+      "home_score": 43,
+      "home_team": "Columbia"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Brown",
+      "game_id": "2019_02_01_brown_dartmouth",
+      "home_score": 58,
+      "home_team": "Dartmouth"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Quinnipiac",
+      "game_id": "2019_02_01_quinnipiac_canisius",
+      "home_score": 75,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Davidson",
+      "game_id": "2019_02_01_davidson_st_bonaventure",
+      "home_score": 66,
+      "home_team": "St. Bonaventure"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Northern Kentucky",
+      "game_id": "2019_02_01_northern_kentucky_iu_indianapolis",
+      "home_score": 83,
+      "home_team": "IU Indianapolis"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Michigan",
+      "game_id": "2019_02_01_michigan_iowa",
+      "home_score": 74,
+      "home_team": "Iowa"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Yale",
+      "game_id": "2019_02_01_yale_harvard",
+      "home_score": 65,
+      "home_team": "Harvard"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Buffalo",
+      "game_id": "2019_02_01_buffalo_bowling_green",
+      "home_score": 92,
+      "home_team": "Bowling Green"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Milwaukee",
+      "game_id": "2019_02_01_milwaukee_green_bay",
+      "home_score": 90,
+      "home_team": "Green Bay"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Wright State",
+      "game_id": "2019_02_01_wright_state_uic",
+      "home_score": 67,
+      "home_team": "UIC"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Maryland",
+      "game_id": "2019_02_01_maryland_wisconsin",
+      "home_score": 69,
+      "home_team": "Wisconsin"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:57.521269Z"
+}

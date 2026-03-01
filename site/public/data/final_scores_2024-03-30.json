@@ -1,0 +1,20 @@
+{
+  "date": "2024-03-30",
+  "games": [
+    {
+      "away_score": 52,
+      "away_team": "Illinois",
+      "game_id": "2024_03_30_illinois_uconn",
+      "home_score": 77,
+      "home_team": "UConn"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Clemson",
+      "game_id": "2024_03_30_clemson_alabama",
+      "home_score": 89,
+      "home_team": "Alabama"
+    }
+  ],
+  "generated_at": "2026-02-28T22:40:05.423303Z"
+}

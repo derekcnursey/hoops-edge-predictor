@@ -1,0 +1,566 @@
+{
+  "date": "2017-11-29",
+  "games": [
+    {
+      "away_score": 87,
+      "away_team": "Wofford",
+      "game_id": "2017_11_29_wofford_coastal_carolina",
+      "home_score": 81,
+      "home_team": "Coastal Carolina"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Pennsylvania",
+      "game_id": "2017_11_29_pennsylvania_villanova",
+      "home_score": 90,
+      "home_team": "Villanova"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Wiley",
+      "game_id": "2017_11_29_wiley_southern",
+      "home_score": 92,
+      "home_team": "Southern"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Florida National",
+      "game_id": "2017_11_29_florida_national_florida_international",
+      "home_score": 79,
+      "home_team": "Florida International"
+    },
+    {
+      "away_score": 33,
+      "away_team": "Berea",
+      "game_id": "2017_11_29_berea_northern_kentucky",
+      "home_score": 112,
+      "home_team": "Northern Kentucky"
+    },
+    {
+      "away_score": 70,
+      "away_team": "South Carolina Upstate",
+      "game_id": "2017_11_29_south_carolina_upstate_unc_asheville",
+      "home_score": 82,
+      "home_team": "UNC Asheville"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Shawnee State",
+      "game_id": "2017_11_29_shawnee_state_stony_brook",
+      "home_score": 101,
+      "home_team": "Stony Brook"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Boston University",
+      "game_id": "2017_11_29_boston_university_new_hampshire",
+      "home_score": 69,
+      "home_team": "New Hampshire"
+    },
+    {
+      "away_score": 89,
+      "away_team": "American University",
+      "game_id": "2017_11_29_american_university_st_francis_pa",
+      "home_score": 100,
+      "home_team": "St. Francis (PA)"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Robert Morris",
+      "game_id": "2017_11_29_robert_morris_youngstown_state",
+      "home_score": 74,
+      "home_team": "Youngstown State"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Fairleigh Dickinson",
+      "game_id": "2017_11_29_fairleigh_dickinson_saint_peter_s",
+      "home_score": 77,
+      "home_team": "Saint Peter's"
+    },
+    {
+      "away_score": 79,
+      "away_team": "San Jos\u00e9 State",
+      "game_id": "2017_11_29_san_jos_state_bowling_green",
+      "home_score": 85,
+      "home_team": "Bowling Green"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Mid-Atlantic Christian",
+      "game_id": "2017_11_29_mid_atlantic_christian_hampton",
+      "home_score": 117,
+      "home_team": "Hampton"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Webber International",
+      "game_id": "2017_11_29_webber_international_florida_gulf_coast",
+      "home_score": 115,
+      "home_team": "Florida Gulf Coast"
+    },
+    {
+      "away_score": 104,
+      "away_team": "Marshall",
+      "game_id": "2017_11_29_marshall_william_mary",
+      "home_score": 114,
+      "home_team": "William & Mary"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Lafayette",
+      "game_id": "2017_11_29_lafayette_drexel",
+      "home_score": 68,
+      "home_team": "Drexel"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Lipscomb",
+      "game_id": "2017_11_29_lipscomb_tennessee_tech",
+      "home_score": 86,
+      "home_team": "Tennessee Tech"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Sacred Heart",
+      "game_id": "2017_11_29_sacred_heart_umass_lowell",
+      "home_score": 80,
+      "home_team": "UMass Lowell"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Arkansas State",
+      "game_id": "2017_11_29_arkansas_state_cleveland_state",
+      "home_score": 75,
+      "home_team": "Cleveland State"
+    },
+    {
+      "away_score": 40,
+      "away_team": "Midway University",
+      "game_id": "2017_11_29_midway_university_miami_oh",
+      "home_score": 123,
+      "home_team": "Miami (OH)"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Eastern Michigan",
+      "game_id": "2017_11_29_eastern_michigan_north_florida",
+      "home_score": 84,
+      "home_team": "North Florida"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Massachusetts",
+      "game_id": "2017_11_29_massachusetts_quinnipiac",
+      "home_score": 68,
+      "home_team": "Quinnipiac"
+    },
+    {
+      "away_score": 93,
+      "away_team": "Winthrop",
+      "game_id": "2017_11_29_winthrop_furman",
+      "home_score": 74,
+      "home_team": "Furman"
+    },
+    {
+      "away_score": 82,
+      "away_team": "East Tennessee State",
+      "game_id": "2017_11_29_east_tennessee_state_fordham",
+      "home_score": 77,
+      "home_team": "Fordham"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Rider",
+      "game_id": "2017_11_29_rider_providence",
+      "home_score": 88,
+      "home_team": "Providence"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Mercer",
+      "game_id": "2017_11_29_mercer_tennessee",
+      "home_score": 84,
+      "home_team": "Tennessee"
+    },
+    {
+      "away_score": 106,
+      "away_team": "Buffalo",
+      "game_id": "2017_11_29_buffalo_niagara",
+      "home_score": 87,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Colgate",
+      "game_id": "2017_11_29_colgate_ualbany",
+      "home_score": 75,
+      "home_team": "UAlbany"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Vermont",
+      "game_id": "2017_11_29_vermont_richmond",
+      "home_score": 65,
+      "home_team": "Richmond"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Morgan State",
+      "game_id": "2017_11_29_morgan_state_george_washington",
+      "home_score": 73,
+      "home_team": "George Washington"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Air Force",
+      "game_id": "2017_11_29_air_force_indiana_state",
+      "home_score": 74,
+      "home_team": "Indiana State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Columbia",
+      "game_id": "2017_11_29_columbia_uconn",
+      "home_score": 77,
+      "home_team": "UConn"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Auburn",
+      "game_id": "2017_11_29_auburn_dayton",
+      "home_score": 60,
+      "home_team": "Dayton"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Bluefield State",
+      "game_id": "2017_11_29_bluefield_state_longwood",
+      "home_score": 84,
+      "home_team": "Longwood"
+    },
+    {
+      "away_score": 75,
+      "away_team": "St. Bonaventure",
+      "game_id": "2017_11_29_st_bonaventure_siena",
+      "home_score": 55,
+      "home_team": "Siena"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Bucknell",
+      "game_id": "2017_11_29_bucknell_saint_joseph_s",
+      "home_score": 83,
+      "home_team": "Saint Joseph's"
+    },
+    {
+      "away_score": 76,
+      "away_team": "George Mason",
+      "game_id": "2017_11_29_george_mason_james_madison",
+      "home_score": 72,
+      "home_team": "James Madison"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Clemson",
+      "game_id": "2017_11_29_clemson_ohio_state",
+      "home_score": 65,
+      "home_team": "Ohio State"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Penn State",
+      "game_id": "2017_11_29_penn_state_nc_state",
+      "home_score": 85,
+      "home_team": "NC State"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Michigan",
+      "game_id": "2017_11_29_michigan_north_carolina",
+      "home_score": 86,
+      "home_team": "North Carolina"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Central Arkansas",
+      "game_id": "2017_11_29_central_arkansas_little_rock",
+      "home_score": 71,
+      "home_team": "Little Rock"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Lyon",
+      "game_id": "2017_11_29_lyon_northwestern_state",
+      "home_score": 67,
+      "home_team": "Northwestern State"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Georgia State",
+      "game_id": "2017_11_29_georgia_state_alabama_a_m",
+      "home_score": 53,
+      "home_team": "Alabama A&M"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Rice",
+      "game_id": "2017_11_29_rice_ut_arlington",
+      "home_score": 69,
+      "home_team": "UT Arlington"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Kent State",
+      "game_id": "2017_11_29_kent_state_norfolk_state",
+      "home_score": 70,
+      "home_team": "Norfolk State"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Binghamton",
+      "game_id": "2017_11_29_binghamton_delaware_state",
+      "home_score": 64,
+      "home_team": "Delaware State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "UNLV",
+      "game_id": "2017_11_29_unlv_northern_iowa",
+      "home_score": 77,
+      "home_team": "Northern Iowa"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Drake",
+      "game_id": "2017_11_29_drake_omaha",
+      "home_score": 75,
+      "home_team": "Omaha"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Florida A&M",
+      "game_id": "2017_11_29_florida_a_m_texas",
+      "home_score": 82,
+      "home_team": "Texas"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Austin Peay",
+      "game_id": "2017_11_29_austin_peay_oklahoma_state",
+      "home_score": 79,
+      "home_team": "Oklahoma State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Oral Roberts",
+      "game_id": "2017_11_29_oral_roberts_kansas_state",
+      "home_score": 77,
+      "home_team": "Kansas State"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Texas A&M-Corpus Christi",
+      "game_id": "2017_11_29_texas_a_m_corpus_christi_texas_state",
+      "home_score": 66,
+      "home_team": "Texas State"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Long Beach State",
+      "game_id": "2017_11_29_long_beach_state_arizona",
+      "home_score": 91,
+      "home_team": "Arizona"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Alcorn State",
+      "game_id": "2017_11_29_alcorn_state_tulane",
+      "home_score": 81,
+      "home_team": "Tulane"
+    },
+    {
+      "away_score": 66,
+      "away_team": "New Orleans",
+      "game_id": "2017_11_29_new_orleans_houston",
+      "home_score": 75,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 60,
+      "away_team": "UT Martin",
+      "game_id": "2017_11_29_ut_martin_lsu",
+      "home_score": 84,
+      "home_team": "LSU"
+    },
+    {
+      "away_score": 66,
+      "away_team": "UIC",
+      "game_id": "2017_11_29_uic_troy",
+      "home_score": 87,
+      "home_team": "Troy"
+    },
+    {
+      "away_score": 59,
+      "away_team": "SIU Edwardsville",
+      "game_id": "2017_11_29_siu_edwardsville_southern_illinois",
+      "home_score": 86,
+      "home_team": "Southern Illinois"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Louisiana Tech",
+      "game_id": "2017_11_29_louisiana_tech_alabama",
+      "home_score": 77,
+      "home_team": "Alabama"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Eastern Kentucky",
+      "game_id": "2017_11_29_eastern_kentucky_western_kentucky",
+      "home_score": 83,
+      "home_team": "Western Kentucky"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Lehigh",
+      "game_id": "2017_11_29_lehigh_princeton",
+      "home_score": 76,
+      "home_team": "Princeton"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Bryant",
+      "game_id": "2017_11_29_bryant_yale",
+      "home_score": 84,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Southern Miss",
+      "game_id": "2017_11_29_southern_miss_south_alabama",
+      "home_score": 69,
+      "home_team": "South Alabama"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Wyoming",
+      "game_id": "2017_11_29_wyoming_denver",
+      "home_score": 88,
+      "home_team": "Denver"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Incarnate Word",
+      "game_id": "2017_11_29_incarnate_word_gonzaga",
+      "home_score": 103,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Bethesda University",
+      "game_id": "2017_11_29_bethesda_university_montana_state",
+      "home_score": 98,
+      "home_team": "Montana State"
+    },
+    {
+      "away_score": 85,
+      "away_team": "BYU",
+      "game_id": "2017_11_29_byu_utah_valley",
+      "home_score": 58,
+      "home_team": "Utah Valley"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Chicago State",
+      "game_id": "2017_11_29_chicago_state_marquette",
+      "home_score": 95,
+      "home_team": "Marquette"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Evansville",
+      "game_id": "2017_11_29_evansville_new_mexico",
+      "home_score": 78,
+      "home_team": "New Mexico"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Belmont",
+      "game_id": "2017_11_29_belmont_tcu",
+      "home_score": 87,
+      "home_team": "TCU"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Boston College",
+      "game_id": "2017_11_29_boston_college_nebraska",
+      "home_score": 71,
+      "home_team": "Nebraska"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Miami",
+      "game_id": "2017_11_29_miami_minnesota",
+      "home_score": 81,
+      "home_team": "Minnesota"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Milwaukee",
+      "game_id": "2017_11_29_milwaukee_northern_illinois",
+      "home_score": 62,
+      "home_team": "Northern Illinois"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Duke",
+      "game_id": "2017_11_29_duke_indiana",
+      "home_score": 81,
+      "home_team": "Indiana"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Montana",
+      "game_id": "2017_11_29_montana_stanford",
+      "home_score": 70,
+      "home_team": "Stanford"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Whittier",
+      "game_id": "2017_11_29_whittier_uc_irvine",
+      "home_score": 112,
+      "home_team": "UC Irvine"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Illinois State",
+      "game_id": "2017_11_29_illinois_state_nevada",
+      "home_score": 98,
+      "home_team": "Nevada"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Cal State Bakersfield",
+      "game_id": "2017_11_29_cal_state_bakersfield_ucla",
+      "home_score": 75,
+      "home_team": "UCLA"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Southern Utah",
+      "game_id": "2017_11_29_southern_utah_pepperdine",
+      "home_score": 82,
+      "home_team": "Pepperdine"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Northern Colorado",
+      "game_id": "2017_11_29_northern_colorado_uc_davis",
+      "home_score": 56,
+      "home_team": "UC Davis"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:44.229258Z"
+}

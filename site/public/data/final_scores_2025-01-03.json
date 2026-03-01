@@ -1,0 +1,118 @@
+{
+  "date": "2025-01-03",
+  "games": [
+    {
+      "away_score": 54,
+      "away_team": "Fairfield",
+      "game_id": "2025_01_03_fairfield_merrimack",
+      "home_score": 67,
+      "home_team": "Merrimack"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Akron",
+      "game_id": "2025_01_03_akron_bowling_green",
+      "home_score": 68,
+      "home_team": "Bowling Green"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Iowa",
+      "game_id": "2025_01_03_iowa_wisconsin",
+      "home_score": 116,
+      "home_team": "Wisconsin"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Wichita State",
+      "game_id": "2025_01_03_wichita_state_temple",
+      "home_score": 91,
+      "home_team": "Temple"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Stonehill",
+      "game_id": "2025_01_03_stonehill_mercyhurst",
+      "home_score": 76,
+      "home_team": "Mercyhurst"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Le Moyne",
+      "game_id": "2025_01_03_le_moyne_long_island_university",
+      "home_score": 78,
+      "home_team": "Long Island University"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Chicago State",
+      "game_id": "2025_01_03_chicago_state_wagner",
+      "home_score": 52,
+      "home_team": "Wagner"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Central Connecticut",
+      "game_id": "2025_01_03_central_connecticut_st_francis_pa",
+      "home_score": 59,
+      "home_team": "St. Francis (PA)"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Marist",
+      "game_id": "2025_01_03_marist_iona",
+      "home_score": 65,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 95,
+      "away_team": "Manhattan",
+      "game_id": "2025_01_03_manhattan_siena",
+      "home_score": 103,
+      "home_team": "Siena"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Quinnipiac",
+      "game_id": "2025_01_03_quinnipiac_saint_peter_s",
+      "home_score": 46,
+      "home_team": "Saint Peter's"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Xavier",
+      "game_id": "2025_01_03_xavier_georgetown",
+      "home_score": 69,
+      "home_team": "Georgetown"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Michigan State",
+      "game_id": "2025_01_03_michigan_state_ohio_state",
+      "home_score": 62,
+      "home_team": "Ohio State"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Creighton",
+      "game_id": "2025_01_03_creighton_marquette",
+      "home_score": 79,
+      "home_team": "Marquette"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Saint Joseph's",
+      "game_id": "2025_01_03_saint_joseph_s_saint_louis",
+      "home_score": 73,
+      "home_team": "Saint Louis"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Nevada",
+      "game_id": "2025_01_03_nevada_new_mexico",
+      "home_score": 82,
+      "home_team": "New Mexico"
+    }
+  ],
+  "generated_at": "2026-02-28T23:29:38.541567Z"
+}

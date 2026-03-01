@@ -1,0 +1,167 @@
+{
+  "date": "2021-03-07",
+  "games": [
+    {
+      "away_score": 75,
+      "away_team": "Delaware",
+      "game_id": "2021_03_07_delaware_hofstra",
+      "home_score": 83,
+      "home_team": "Hofstra"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Campbell",
+      "game_id": "2021_03_07_campbell_winthrop",
+      "home_score": 80,
+      "home_team": "Winthrop"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Florida",
+      "game_id": "2021_03_07_florida_tennessee",
+      "home_score": 65,
+      "home_team": "Tennessee"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Memphis",
+      "game_id": "2021_03_07_memphis_houston",
+      "home_score": 67,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Wisconsin",
+      "game_id": "2021_03_07_wisconsin_iowa",
+      "home_score": 77,
+      "home_team": "Iowa"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Cincinnati",
+      "game_id": "2021_03_07_cincinnati_east_carolina",
+      "home_score": 69,
+      "home_team": "East Carolina"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Nebraska",
+      "game_id": "2021_03_07_nebraska_northwestern",
+      "home_score": 79,
+      "home_team": "Northwestern"
+    },
+    {
+      "away_score": 75,
+      "away_team": "North Alabama",
+      "game_id": "2021_03_07_north_alabama_liberty",
+      "home_score": 79,
+      "home_team": "Liberty"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Drake",
+      "game_id": "2021_03_07_drake_loyola_chicago",
+      "home_score": 75,
+      "home_team": "Loyola Chicago"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Elon",
+      "game_id": "2021_03_07_elon_james_madison",
+      "home_score": 71,
+      "home_team": "James Madison"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Texas Tech",
+      "game_id": "2021_03_07_texas_tech_baylor",
+      "home_score": 88,
+      "home_team": "Baylor"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Michigan",
+      "game_id": "2021_03_07_michigan_michigan_state",
+      "home_score": 70,
+      "home_team": "Michigan State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "East Tennessee State",
+      "game_id": "2021_03_07_east_tennessee_state_unc_greensboro",
+      "home_score": 77,
+      "home_team": "UNC Greensboro"
+    },
+    {
+      "away_score": 47,
+      "away_team": "William & Mary",
+      "game_id": "2021_03_07_william_mary_northeastern",
+      "home_score": 63,
+      "home_team": "Northeastern"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Louisiana",
+      "game_id": "2021_03_07_louisiana_georgia_state",
+      "home_score": 84,
+      "home_team": "Georgia State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "North Dakota",
+      "game_id": "2021_03_07_north_dakota_oral_roberts",
+      "home_score": 76,
+      "home_team": "Oral Roberts"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Texas",
+      "game_id": "2021_03_07_texas_tcu",
+      "home_score": 64,
+      "home_team": "TCU"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Penn State",
+      "game_id": "2021_03_07_penn_state_maryland",
+      "home_score": 61,
+      "home_team": "Maryland"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Mercer",
+      "game_id": "2021_03_07_mercer_vmi",
+      "home_score": 59,
+      "home_team": "VMI"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Oregon",
+      "game_id": "2021_03_07_oregon_oregon_state",
+      "home_score": 67,
+      "home_team": "Oregon State"
+    },
+    {
+      "away_score": 64,
+      "away_team": "App State",
+      "game_id": "2021_03_07_app_state_coastal_carolina",
+      "home_score": 61,
+      "home_team": "Coastal Carolina"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Drexel",
+      "game_id": "2021_03_07_drexel_charleston",
+      "home_score": 75,
+      "home_team": "Charleston"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Kansas City",
+      "game_id": "2021_03_07_kansas_city_north_dakota_state",
+      "home_score": 69,
+      "home_team": "North Dakota State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:31:49.771013Z"
+}

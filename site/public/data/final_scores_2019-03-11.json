@@ -1,0 +1,111 @@
+{
+  "date": "2019-03-11",
+  "games": [
+    {
+      "away_score": 74,
+      "away_team": "Delaware",
+      "game_id": "2019_03_11_delaware_hofstra",
+      "home_score": 78,
+      "home_team": "Hofstra"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Delaware State",
+      "game_id": "2019_03_11_delaware_state_savannah_state",
+      "home_score": 67,
+      "home_team": "Savannah State"
+    },
+    {
+      "away_score": 58,
+      "away_team": "UNC Greensboro",
+      "game_id": "2019_03_11_unc_greensboro_wofford",
+      "home_score": 70,
+      "home_team": "Wofford"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Ball State",
+      "game_id": "2019_03_11_ball_state_eastern_michigan",
+      "home_score": 43,
+      "home_team": "Eastern Michigan"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Western Michigan",
+      "game_id": "2019_03_11_western_michigan_central_michigan",
+      "home_score": 81,
+      "home_team": "Central Michigan"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Western Illinois",
+      "game_id": "2019_03_11_western_illinois_north_dakota_state",
+      "home_score": 76,
+      "home_team": "North Dakota State"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Green Bay",
+      "game_id": "2019_03_11_green_bay_wright_state",
+      "home_score": 66,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Miami (OH)",
+      "game_id": "2019_03_11_miami_oh_akron",
+      "home_score": 80,
+      "home_team": "Akron"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Charleston",
+      "game_id": "2019_03_11_charleston_northeastern",
+      "home_score": 70,
+      "home_team": "Northeastern"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Monmouth",
+      "game_id": "2019_03_11_monmouth_iona",
+      "home_score": 81,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Pepperdine",
+      "game_id": "2019_03_11_pepperdine_gonzaga",
+      "home_score": 100,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Ohio",
+      "game_id": "2019_03_11_ohio_northern_illinois",
+      "home_score": 80,
+      "home_team": "Northern Illinois"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Purdue Fort Wayne",
+      "game_id": "2019_03_11_purdue_fort_wayne_omaha",
+      "home_score": 61,
+      "home_team": "Omaha"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Oakland",
+      "game_id": "2019_03_11_oakland_northern_kentucky",
+      "home_score": 64,
+      "home_team": "Northern Kentucky"
+    },
+    {
+      "away_score": 62,
+      "away_team": "San Diego",
+      "game_id": "2019_03_11_san_diego_saint_mary_s",
+      "home_score": 69,
+      "home_team": "Saint Mary's"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:20.137519Z"
+}

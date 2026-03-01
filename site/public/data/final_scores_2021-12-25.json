@@ -1,0 +1,20 @@
+{
+  "date": "2021-12-25",
+  "games": [
+    {
+      "away_score": 77,
+      "away_team": "Wyoming",
+      "game_id": "2021_12_25_wyoming_south_florida",
+      "home_score": 57,
+      "home_team": "South Florida"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Liberty",
+      "game_id": "2021_12_25_liberty_byu",
+      "home_score": 80,
+      "home_team": "BYU"
+    }
+  ],
+  "generated_at": "2026-02-28T21:32:32.666778Z"
+}

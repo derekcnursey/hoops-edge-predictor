@@ -1,0 +1,90 @@
+{
+  "date": "2019-02-03",
+  "games": [
+    {
+      "away_score": 37,
+      "away_team": "Wake Forest",
+      "game_id": "2019_02_03_wake_forest_clemson",
+      "home_score": 64,
+      "home_team": "Clemson"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Minnesota",
+      "game_id": "2019_02_03_minnesota_purdue",
+      "home_score": 73,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Georgetown",
+      "game_id": "2019_02_03_georgetown_villanova",
+      "home_score": 77,
+      "home_team": "Villanova"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Xavier",
+      "game_id": "2019_02_03_xavier_creighton",
+      "home_score": 76,
+      "home_team": "Creighton"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Wright State",
+      "game_id": "2019_02_03_wright_state_iu_indianapolis",
+      "home_score": 74,
+      "home_team": "IU Indianapolis"
+    },
+    {
+      "away_score": 72,
+      "away_team": "North Dakota",
+      "game_id": "2019_02_03_north_dakota_omaha",
+      "home_score": 90,
+      "home_team": "Omaha"
+    },
+    {
+      "away_score": 53,
+      "away_team": "New Hampshire",
+      "game_id": "2019_02_03_new_hampshire_maine",
+      "home_score": 62,
+      "home_team": "Maine"
+    },
+    {
+      "away_score": 52,
+      "away_team": "East Carolina",
+      "game_id": "2019_02_03_east_carolina_uconn",
+      "home_score": 76,
+      "home_team": "UConn"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Quinnipiac",
+      "game_id": "2019_02_03_quinnipiac_niagara",
+      "home_score": 73,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 92,
+      "away_team": "South Dakota State",
+      "game_id": "2019_02_03_south_dakota_state_denver",
+      "home_score": 82,
+      "home_team": "Denver"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Stanford",
+      "game_id": "2019_02_03_stanford_california",
+      "home_score": 81,
+      "home_team": "California"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Northern Kentucky",
+      "game_id": "2019_02_03_northern_kentucky_uic",
+      "home_score": 69,
+      "home_team": "UIC"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:58.769874Z"
+}

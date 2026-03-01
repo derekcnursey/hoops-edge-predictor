@@ -1,0 +1,160 @@
+{
+  "date": "2020-02-11",
+  "games": [
+    {
+      "away_score": 88,
+      "away_team": "Penn State",
+      "game_id": "2020_02_11_penn_state_purdue",
+      "home_score": 76,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Northern Illinois",
+      "game_id": "2020_02_11_northern_illinois_ball_state",
+      "home_score": 63,
+      "home_team": "Ball State"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Mississippi State",
+      "game_id": "2020_02_11_mississippi_state_ole_miss",
+      "home_score": 83,
+      "home_team": "Ole Miss"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Arkansas",
+      "game_id": "2020_02_11_arkansas_tennessee",
+      "home_score": 82,
+      "home_team": "Tennessee"
+    },
+    {
+      "away_score": 79,
+      "away_team": "NC State",
+      "game_id": "2020_02_11_nc_state_syracuse",
+      "home_score": 74,
+      "home_team": "Syracuse"
+    },
+    {
+      "away_score": 74,
+      "away_team": "St. Bonaventure",
+      "game_id": "2020_02_11_st_bonaventure_saint_joseph_s",
+      "home_score": 56,
+      "home_team": "Saint Joseph's"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Fordham",
+      "game_id": "2020_02_11_fordham_davidson",
+      "home_score": 79,
+      "home_team": "Davidson"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Bowling Green",
+      "game_id": "2020_02_11_bowling_green_akron",
+      "home_score": 74,
+      "home_team": "Akron"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Miami (OH)",
+      "game_id": "2020_02_11_miami_oh_toledo",
+      "home_score": 65,
+      "home_team": "Toledo"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Eastern Michigan",
+      "game_id": "2020_02_11_eastern_michigan_central_michigan",
+      "home_score": 70,
+      "home_team": "Central Michigan"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Western Michigan",
+      "game_id": "2020_02_11_western_michigan_ohio",
+      "home_score": 73,
+      "home_team": "Ohio"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Kentucky",
+      "game_id": "2020_02_11_kentucky_vanderbilt",
+      "home_score": 64,
+      "home_team": "Vanderbilt"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Rhode Island",
+      "game_id": "2020_02_11_rhode_island_dayton",
+      "home_score": 81,
+      "home_team": "Dayton"
+    },
+    {
+      "away_score": 57,
+      "away_team": "North Carolina",
+      "game_id": "2020_02_11_north_carolina_wake_forest",
+      "home_score": 74,
+      "home_team": "Wake Forest"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Nebraska",
+      "game_id": "2020_02_11_nebraska_maryland",
+      "home_score": 72,
+      "home_team": "Maryland"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Michigan State",
+      "game_id": "2020_02_11_michigan_state_illinois",
+      "home_score": 69,
+      "home_team": "Illinois"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Oklahoma State",
+      "game_id": "2020_02_11_oklahoma_state_kansas_state",
+      "home_score": 59,
+      "home_team": "Kansas State"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Notre Dame",
+      "game_id": "2020_02_11_notre_dame_virginia",
+      "home_score": 50,
+      "home_team": "Virginia"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Missouri",
+      "game_id": "2020_02_11_missouri_lsu",
+      "home_score": 82,
+      "home_team": "LSU"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Air Force",
+      "game_id": "2020_02_11_air_force_boise_state",
+      "home_score": 74,
+      "home_team": "Boise State"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Utah State",
+      "game_id": "2020_02_11_utah_state_colorado_state",
+      "home_score": 72,
+      "home_team": "Colorado State"
+    },
+    {
+      "away_score": 59,
+      "away_team": "New Mexico",
+      "game_id": "2020_02_11_new_mexico_san_diego_state",
+      "home_score": 82,
+      "home_team": "San Diego State"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:44.268291Z"
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2025-04-03",
+  "games": [
+    {
+      "away_score": 88,
+      "away_team": "UCF",
+      "game_id": "2025_04_03_ucf_cincinnati",
+      "home_score": 80,
+      "home_team": "Cincinnati"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Chattanooga",
+      "game_id": "2025_04_03_chattanooga_uc_irvine",
+      "home_score": 84,
+      "home_team": "UC Irvine"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Villanova",
+      "game_id": "2025_04_03_villanova_usc",
+      "home_score": 59,
+      "home_team": "USC"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:49.981595Z"
+}

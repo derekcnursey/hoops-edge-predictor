@@ -1,0 +1,34 @@
+{
+  "date": "2019-12-25",
+  "games": [
+    {
+      "away_score": 46,
+      "away_team": "Portland",
+      "game_id": "2019_12_25_portland_ball_state",
+      "home_score": 61,
+      "home_team": "Ball State"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Boise State",
+      "game_id": "2019_12_25_boise_state_utep",
+      "home_score": 67,
+      "home_team": "UTEP"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Georgia Tech",
+      "game_id": "2019_12_25_georgia_tech_hawai_i",
+      "home_score": 53,
+      "home_team": "Hawai'i"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Houston",
+      "game_id": "2019_12_25_houston_washington",
+      "home_score": 71,
+      "home_team": "Washington"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:16.275486Z"
+}

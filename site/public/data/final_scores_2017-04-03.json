@@ -1,0 +1,13 @@
+{
+  "date": "2017-04-03",
+  "games": [
+    {
+      "away_score": 65,
+      "away_team": "Gonzaga",
+      "game_id": "2017_04_03_gonzaga_north_carolina",
+      "home_score": 71,
+      "home_team": "North Carolina"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:31.714822Z"
+}

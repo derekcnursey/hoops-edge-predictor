@@ -1,0 +1,83 @@
+{
+  "date": "2024-02-11",
+  "games": [
+    {
+      "away_score": 95,
+      "away_team": "Florida Atlantic",
+      "game_id": "2024_02_11_florida_atlantic_wichita_state",
+      "home_score": 82,
+      "home_team": "Wichita State"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Seton Hall",
+      "game_id": "2024_02_11_seton_hall_villanova",
+      "home_score": 80,
+      "home_team": "Villanova"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Penn State",
+      "game_id": "2024_02_11_penn_state_northwestern",
+      "home_score": 68,
+      "home_team": "Northwestern"
+    },
+    {
+      "away_score": 68,
+      "away_team": "North Texas",
+      "game_id": "2024_02_11_north_texas_smu",
+      "home_score": 71,
+      "home_team": "SMU"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Tulane",
+      "game_id": "2024_02_11_tulane_memphis",
+      "home_score": 90,
+      "home_team": "Memphis"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Rhode Island",
+      "game_id": "2024_02_11_rhode_island_massachusetts",
+      "home_score": 81,
+      "home_team": "Massachusetts"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Charlotte",
+      "game_id": "2024_02_11_charlotte_temple",
+      "home_score": 70,
+      "home_team": "Temple"
+    },
+    {
+      "away_score": 70,
+      "away_team": "UAB",
+      "game_id": "2024_02_11_uab_tulsa",
+      "home_score": 63,
+      "home_team": "Tulsa"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Bowling Green",
+      "game_id": "2024_02_11_bowling_green_louisiana",
+      "home_score": 86,
+      "home_team": "Louisiana"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Minnesota",
+      "game_id": "2024_02_11_minnesota_iowa",
+      "home_score": 90,
+      "home_team": "Iowa"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Northern Iowa",
+      "game_id": "2024_02_11_northern_iowa_uic",
+      "home_score": 71,
+      "home_team": "UIC"
+    }
+  ],
+  "generated_at": "2026-02-28T22:39:35.203130Z"
+}

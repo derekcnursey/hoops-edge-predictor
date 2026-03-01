@@ -1,0 +1,42 @@
+{
+  "date": "2019-12-27",
+  "games": [
+    {
+      "away_team": "UMass Lowell",
+      "edge_home_points": 0.22869443893432617,
+      "game_id": "2019_12_27_umass_lowell_loyola_maryland",
+      "home_team": "Loyola Maryland",
+      "market_spread_home": -6.0,
+      "model_mu_home": 6.2286944,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5093650703330455,
+      "pick_ev_per_1": -0.027575774818731413,
+      "pick_fair_odds": -103.81753102633866,
+      "pick_prob_edge": -0.01444445347647838,
+      "pick_side": "HOME",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.76898724,
+      "pred_sigma": 9.741251,
+      "start_time": "2019-12-28T00:00:00.000Z"
+    },
+    {
+      "away_team": "Coppin State",
+      "edge_home_points": 0.7638487815856934,
+      "game_id": "2019_12_27_coppin_state_mount_st_mary_s",
+      "home_team": "Mount St. Mary's",
+      "market_spread_home": -4.0,
+      "model_mu_home": 4.763849,
+      "neutral_site": null,
+      "pick_cover_prob": 0.524494196913548,
+      "pick_ev_per_1": 0.0013071031985916748,
+      "pick_fair_odds": -110.30237559859799,
+      "pick_prob_edge": 0.0006846731040242027,
+      "pick_side": "HOME",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.2974216,
+      "pred_sigma": 12.433148,
+      "start_time": "2019-12-28T00:00:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T22:59:36.915258Z"
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2016-03-23",
+  "games": [
+    {
+      "away_score": 77,
+      "away_team": "Florida",
+      "game_id": "2016_03_23_florida_george_washington",
+      "home_score": 82,
+      "home_team": "George Washington"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Morehead State",
+      "game_id": "2016_03_23_morehead_state_ohio",
+      "home_score": 72,
+      "home_team": "Ohio"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Grand Canyon",
+      "game_id": "2016_03_23_grand_canyon_coastal_carolina",
+      "home_score": 60,
+      "home_team": "Coastal Carolina"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Ball State",
+      "game_id": "2016_03_23_ball_state_columbia",
+      "home_score": 69,
+      "home_team": "Columbia"
+    },
+    {
+      "away_score": 67,
+      "away_team": "UC Irvine",
+      "game_id": "2016_03_23_uc_irvine_louisiana",
+      "home_score": 66,
+      "home_team": "Louisiana"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Georgia Tech",
+      "game_id": "2016_03_23_georgia_tech_san_diego_state",
+      "home_score": 72,
+      "home_team": "San Diego State"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Vermont",
+      "game_id": "2016_03_23_vermont_nevada",
+      "home_score": 86,
+      "home_team": "Nevada"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:02.876573Z"
+}

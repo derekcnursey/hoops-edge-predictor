@@ -1,0 +1,60 @@
+{
+  "date": "2024-02-09",
+  "games": [
+    {
+      "away_team": "Dayton",
+      "edge_home_points": -0.654045820236206,
+      "game_id": "2024_02_09_dayton_vcu",
+      "home_team": "VCU",
+      "market_spread_home": 2.5,
+      "model_mu_home": -3.1540458,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5281499882049985,
+      "pick_ev_per_1": 0.008286341118633467,
+      "pick_fair_odds": -111.93175267619932,
+      "pick_prob_edge": 0.004340464395474641,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.18597123,
+      "pred_sigma": 9.261454,
+      "start_time": "2024-02-10T00:00:00.000Z"
+    },
+    {
+      "away_team": "San Diego State",
+      "edge_home_points": -4.292725026607513,
+      "game_id": "2024_02_09_san_diego_state_nevada",
+      "home_team": "Nevada",
+      "market_spread_home": -3.5,
+      "model_mu_home": -0.792725,
+      "neutral_site": null,
+      "pick_cover_prob": 0.678115792207558,
+      "pick_ev_per_1": 0.2945846942144289,
+      "pick_fair_odds": -210.6707243757737,
+      "pick_prob_edge": 0.15430626839803419,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.0311657,
+      "pred_sigma": 9.282845,
+      "start_time": "2024-02-10T01:00:00.000Z"
+    },
+    {
+      "away_team": "San Jos\u00e9 State",
+      "edge_home_points": 3.627340316772461,
+      "game_id": "2024_02_09_san_jos_state_colorado_state",
+      "home_team": "Colorado State",
+      "market_spread_home": -15.5,
+      "model_mu_home": 19.12734,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6033160748362597,
+      "pick_ev_per_1": 0.151785233778314,
+      "pick_fair_odds": -152.08987220423094,
+      "pick_prob_edge": 0.07950655102673587,
+      "pick_side": "HOME",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.9970156,
+      "pred_sigma": 13.847992,
+      "start_time": "2024-02-10T02:30:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T22:14:48.095397Z"
+}

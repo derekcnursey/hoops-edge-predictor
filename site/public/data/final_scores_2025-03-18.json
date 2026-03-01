@@ -1,0 +1,69 @@
+{
+  "date": "2025-03-18",
+  "games": [
+    {
+      "away_score": 68,
+      "away_team": "St. Francis (PA)",
+      "game_id": "2025_03_18_st_francis_pa_alabama_state",
+      "home_score": 70,
+      "home_team": "Alabama State"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Kent State",
+      "game_id": "2025_03_18_kent_state_st_bonaventure",
+      "home_score": 56,
+      "home_team": "St. Bonaventure"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Jacksonville State",
+      "game_id": "2025_03_18_jacksonville_state_georgia_tech",
+      "home_score": 64,
+      "home_team": "Georgia Tech"
+    },
+    {
+      "away_score": 109,
+      "away_team": "Chattanooga",
+      "game_id": "2025_03_18_chattanooga_middle_tennessee",
+      "home_score": 103,
+      "home_team": "Middle Tennessee"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Saint Louis",
+      "game_id": "2025_03_18_saint_louis_arkansas_state",
+      "home_score": 103,
+      "home_team": "Arkansas State"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Wichita State",
+      "game_id": "2025_03_18_wichita_state_oklahoma_state",
+      "home_score": 89,
+      "home_team": "Oklahoma State"
+    },
+    {
+      "away_score": 95,
+      "away_team": "North Carolina",
+      "game_id": "2025_03_18_north_carolina_san_diego_state",
+      "home_score": 68,
+      "home_team": "San Diego State"
+    },
+    {
+      "away_score": 62,
+      "away_team": "UC Riverside",
+      "game_id": "2025_03_18_uc_riverside_santa_clara",
+      "home_score": 101,
+      "home_team": "Santa Clara"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Cal State Northridge",
+      "game_id": "2025_03_18_cal_state_northridge_stanford",
+      "home_score": 87,
+      "home_team": "Stanford"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:40.817759Z"
+}

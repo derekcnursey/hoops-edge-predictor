@@ -1,0 +1,97 @@
+{
+  "date": "2019-03-24",
+  "games": [
+    {
+      "away_score": 77,
+      "away_team": "Iowa",
+      "game_id": "2019_03_24_iowa_tennessee",
+      "home_score": 83,
+      "home_team": "Tennessee"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Presbyterian",
+      "game_id": "2019_03_24_presbyterian_robert_morris",
+      "home_score": 70,
+      "home_team": "Robert Morris"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Wichita State",
+      "game_id": "2019_03_24_wichita_state_clemson",
+      "home_score": 55,
+      "home_team": "Clemson"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Washington",
+      "game_id": "2019_03_24_washington_north_carolina",
+      "home_score": 81,
+      "home_team": "North Carolina"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Xavier",
+      "game_id": "2019_03_24_xavier_texas",
+      "home_score": 78,
+      "home_team": "Texas"
+    },
+    {
+      "away_score": 76,
+      "away_team": "UCF",
+      "game_id": "2019_03_24_ucf_duke",
+      "home_score": 77,
+      "home_team": "Duke"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Buffalo",
+      "game_id": "2019_03_24_buffalo_texas_tech",
+      "home_score": 78,
+      "home_team": "Texas Tech"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Liberty",
+      "game_id": "2019_03_24_liberty_virginia_tech",
+      "home_score": 67,
+      "home_team": "Virginia Tech"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Harvard",
+      "game_id": "2019_03_24_harvard_nc_state",
+      "home_score": 78,
+      "home_team": "NC State"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Oklahoma",
+      "game_id": "2019_03_24_oklahoma_virginia",
+      "home_score": 63,
+      "home_team": "Virginia"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Ohio State",
+      "game_id": "2019_03_24_ohio_state_houston",
+      "home_score": 74,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Nebraska",
+      "game_id": "2019_03_24_nebraska_tcu",
+      "home_score": 88,
+      "home_team": "TCU"
+    },
+    {
+      "away_score": 54,
+      "away_team": "UC Irvine",
+      "game_id": "2019_03_24_uc_irvine_oregon",
+      "home_score": 73,
+      "home_team": "Oregon"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:28.006811Z"
+}

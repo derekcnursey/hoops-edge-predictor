@@ -1,0 +1,34 @@
+{
+  "date": "2015-12-25",
+  "games": [
+    {
+      "away_score": 59,
+      "away_team": "New Mexico",
+      "game_id": "2015_12_25_new_mexico_washington_state",
+      "home_score": 82,
+      "home_team": "Washington State"
+    },
+    {
+      "away_score": 84,
+      "away_team": "BYU",
+      "game_id": "2015_12_25_byu_northern_iowa",
+      "home_score": 76,
+      "home_team": "Northern Iowa"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Auburn",
+      "game_id": "2015_12_25_auburn_hawai_i",
+      "home_score": 79,
+      "home_team": "Hawai'i"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Harvard",
+      "game_id": "2015_12_25_harvard_oklahoma",
+      "home_score": 83,
+      "home_team": "Oklahoma"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:09.835667Z"
+}

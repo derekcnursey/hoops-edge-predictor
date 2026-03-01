@@ -1,0 +1,27 @@
+{
+  "date": "2025-03-24",
+  "games": [
+    {
+      "away_score": 87,
+      "away_team": "Incarnate Word",
+      "game_id": "2025_03_24_incarnate_word_jacksonville",
+      "home_score": 71,
+      "home_team": "Jacksonville"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Army",
+      "game_id": "2025_03_24_army_florida_gulf_coast",
+      "home_score": 68,
+      "home_team": "Florida Gulf Coast"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Queens University",
+      "game_id": "2025_03_24_queens_university_cleveland_state",
+      "home_score": 88,
+      "home_team": "Cleveland State"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:44.280305Z"
+}

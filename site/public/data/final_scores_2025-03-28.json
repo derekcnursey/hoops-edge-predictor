@@ -1,0 +1,34 @@
+{
+  "date": "2025-03-28",
+  "games": [
+    {
+      "away_score": 70,
+      "away_team": "Ole Miss",
+      "game_id": "2025_03_28_ole_miss_michigan_state",
+      "home_score": 73,
+      "home_team": "Michigan State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Kentucky",
+      "game_id": "2025_03_28_kentucky_tennessee",
+      "home_score": 78,
+      "home_team": "Tennessee"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Michigan",
+      "game_id": "2025_03_28_michigan_auburn",
+      "home_score": 78,
+      "home_team": "Auburn"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Purdue",
+      "game_id": "2025_03_28_purdue_houston",
+      "home_score": 62,
+      "home_team": "Houston"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:46.553591Z"
+}

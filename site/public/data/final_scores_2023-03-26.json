@@ -1,0 +1,20 @@
+{
+  "date": "2023-03-26",
+  "games": [
+    {
+      "away_score": 56,
+      "away_team": "Creighton",
+      "game_id": "2023_03_26_creighton_san_diego_state",
+      "home_score": 57,
+      "home_team": "San Diego State"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Miami",
+      "game_id": "2023_03_26_miami_texas",
+      "home_score": 81,
+      "home_team": "Texas"
+    }
+  ],
+  "generated_at": "2026-02-28T21:34:59.860577Z"
+}

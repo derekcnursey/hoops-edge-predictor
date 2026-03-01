@@ -1,0 +1,20 @@
+{
+  "date": "2022-03-27",
+  "games": [
+    {
+      "away_score": 50,
+      "away_team": "Miami",
+      "game_id": "2022_03_27_miami_kansas",
+      "home_score": 76,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Saint Peter's",
+      "game_id": "2022_03_27_saint_peter_s_north_carolina",
+      "home_score": 69,
+      "home_team": "North Carolina"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:26.967340Z"
+}

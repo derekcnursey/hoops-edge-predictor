@@ -1,0 +1,202 @@
+{
+  "date": "2016-03-04",
+  "games": [
+    {
+      "away_score": 78,
+      "away_team": "Longwood",
+      "game_id": "2016_03_04_longwood_high_point",
+      "home_score": 89,
+      "home_team": "High Point"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Loyola Chicago",
+      "game_id": "2016_03_04_loyola_chicago_wichita_state",
+      "home_score": 66,
+      "home_team": "Wichita State"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Liberty",
+      "game_id": "2016_03_04_liberty_unc_asheville",
+      "home_score": 80,
+      "home_team": "UNC Asheville"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Southern Illinois",
+      "game_id": "2016_03_04_southern_illinois_northern_iowa",
+      "home_score": 66,
+      "home_team": "Northern Iowa"
+    },
+    {
+      "away_score": 85,
+      "away_team": "VMI",
+      "game_id": "2016_03_04_vmi_samford",
+      "home_score": 92,
+      "home_team": "Samford"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Drexel",
+      "game_id": "2016_03_04_drexel_elon",
+      "home_score": 56,
+      "home_team": "Elon"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Presbyterian",
+      "game_id": "2016_03_04_presbyterian_winthrop",
+      "home_score": 67,
+      "home_team": "Winthrop"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Yale",
+      "game_id": "2016_03_04_yale_cornell",
+      "home_score": 64,
+      "home_team": "Cornell"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Princeton",
+      "game_id": "2016_03_04_princeton_harvard",
+      "home_score": 73,
+      "home_team": "Harvard"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Missouri State",
+      "game_id": "2016_03_04_missouri_state_evansville",
+      "home_score": 66,
+      "home_team": "Evansville"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Kent State",
+      "game_id": "2016_03_04_kent_state_akron",
+      "home_score": 74,
+      "home_team": "Akron"
+    },
+    {
+      "away_score": 48,
+      "away_team": "Rider",
+      "game_id": "2016_03_04_rider_monmouth",
+      "home_score": 59,
+      "home_team": "Monmouth"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Brown",
+      "game_id": "2016_03_04_brown_columbia",
+      "home_score": 66,
+      "home_team": "Columbia"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Pennsylvania",
+      "game_id": "2016_03_04_pennsylvania_dartmouth",
+      "home_score": 72,
+      "home_team": "Dartmouth"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Ohio",
+      "game_id": "2016_03_04_ohio_miami_oh",
+      "home_score": 65,
+      "home_team": "Miami (OH)"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Ball State",
+      "game_id": "2016_03_04_ball_state_northern_illinois",
+      "home_score": 80,
+      "home_team": "Northern Illinois"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Buffalo",
+      "game_id": "2016_03_04_buffalo_bowling_green",
+      "home_score": 83,
+      "home_team": "Bowling Green"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Western Michigan",
+      "game_id": "2016_03_04_western_michigan_central_michigan",
+      "home_score": 82,
+      "home_team": "Central Michigan"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Eastern Michigan",
+      "game_id": "2016_03_04_eastern_michigan_toledo",
+      "home_score": 75,
+      "home_team": "Toledo"
+    },
+    {
+      "away_score": 69,
+      "away_team": "The Citadel",
+      "game_id": "2016_03_04_the_citadel_mercer",
+      "home_score": 71,
+      "home_team": "Mercer"
+    },
+    {
+      "away_score": 97,
+      "away_team": "Austin Peay",
+      "game_id": "2016_03_04_austin_peay_belmont",
+      "home_score": 96,
+      "home_team": "Belmont"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Gardner-Webb",
+      "game_id": "2016_03_04_gardner_webb_coastal_carolina",
+      "home_score": 65,
+      "home_team": "Coastal Carolina"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Delaware",
+      "game_id": "2016_03_04_delaware_charleston",
+      "home_score": 67,
+      "home_team": "Charleston"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Texas",
+      "game_id": "2016_03_04_texas_oklahoma_state",
+      "home_score": 50,
+      "home_team": "Oklahoma State"
+    },
+    {
+      "away_score": 61,
+      "away_team": "San Diego",
+      "game_id": "2016_03_04_san_diego_loyola_marymount",
+      "home_score": 64,
+      "home_team": "Loyola Marymount"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Indiana State",
+      "game_id": "2016_03_04_indiana_state_illinois_state",
+      "home_score": 57,
+      "home_team": "Illinois State"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Canisius",
+      "game_id": "2016_03_04_canisius_iona",
+      "home_score": 73,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Morehead State",
+      "game_id": "2016_03_04_morehead_state_ut_martin",
+      "home_score": 83,
+      "home_team": "UT Martin"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:51.465285Z"
+}

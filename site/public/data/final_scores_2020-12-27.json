@@ -1,0 +1,132 @@
+{
+  "date": "2020-12-27",
+  "games": [
+    {
+      "away_score": 81,
+      "away_team": "Drake",
+      "game_id": "2020_12_27_drake_indiana_state",
+      "home_score": 63,
+      "home_team": "Indiana State"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Youngstown State",
+      "game_id": "2020_12_27_youngstown_state_cleveland_state",
+      "home_score": 81,
+      "home_team": "Cleveland State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Hartford",
+      "game_id": "2020_12_27_hartford_new_hampshire",
+      "home_score": 77,
+      "home_team": "New Hampshire"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Binghamton",
+      "game_id": "2020_12_27_binghamton_umbc",
+      "home_score": 74,
+      "home_team": "UMBC"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Green Bay",
+      "game_id": "2020_12_27_green_bay_wright_state",
+      "home_score": 90,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 58,
+      "away_team": "UMass Lowell",
+      "game_id": "2020_12_27_umass_lowell_stony_brook",
+      "home_score": 73,
+      "home_team": "Stony Brook"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Canisius",
+      "game_id": "2020_12_27_canisius_monmouth",
+      "home_score": 84,
+      "home_team": "Monmouth"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Olivet",
+      "game_id": "2020_12_27_olivet_eastern_michigan",
+      "home_score": 94,
+      "home_team": "Eastern Michigan"
+    },
+    {
+      "away_score": 45,
+      "away_team": "Carver College",
+      "game_id": "2020_12_27_carver_college_jacksonville_state",
+      "home_score": 104,
+      "home_team": "Jacksonville State"
+    },
+    {
+      "away_score": 78,
+      "away_team": "NJIT",
+      "game_id": "2020_12_27_njit_vermont",
+      "home_score": 92,
+      "home_team": "Vermont"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Illinois State",
+      "game_id": "2020_12_27_illinois_state_loyola_chicago",
+      "home_score": 90,
+      "home_team": "Loyola Chicago"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Oakland",
+      "game_id": "2020_12_27_oakland_detroit_mercy",
+      "home_score": 80,
+      "home_team": "Detroit Mercy"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Alcorn State",
+      "game_id": "2020_12_27_alcorn_state_vanderbilt",
+      "home_score": 87,
+      "home_team": "Vanderbilt"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Evansville",
+      "game_id": "2020_12_27_evansville_southern_illinois",
+      "home_score": 63,
+      "home_team": "Southern Illinois"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Missouri State",
+      "game_id": "2020_12_27_missouri_state_northern_iowa",
+      "home_score": 59,
+      "home_team": "Northern Iowa"
+    },
+    {
+      "away_score": 90,
+      "away_team": "DePaul",
+      "game_id": "2020_12_27_depaul_providence",
+      "home_score": 95,
+      "home_team": "Providence"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Robert Morris",
+      "game_id": "2020_12_27_robert_morris_purdue_fort_wayne",
+      "home_score": 87,
+      "home_team": "Purdue Fort Wayne"
+    },
+    {
+      "away_score": 56,
+      "away_team": "UC Santa Barbara",
+      "game_id": "2020_12_27_uc_santa_barbara_uc_irvine",
+      "home_score": 75,
+      "home_team": "UC Irvine"
+    }
+  ],
+  "generated_at": "2026-02-28T21:31:10.106246Z"
+}

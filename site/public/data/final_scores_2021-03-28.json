@@ -1,0 +1,48 @@
+{
+  "date": "2021-03-28",
+  "games": [
+    {
+      "away_score": 68,
+      "away_team": "Oregon",
+      "game_id": "2021_03_28_oregon_usc",
+      "home_score": 82,
+      "home_team": "USC"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Mississippi State",
+      "game_id": "2021_03_28_mississippi_state_memphis",
+      "home_score": 77,
+      "home_team": "Memphis"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Creighton",
+      "game_id": "2021_03_28_creighton_gonzaga",
+      "home_score": 83,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Louisiana Tech",
+      "game_id": "2021_03_28_louisiana_tech_colorado_state",
+      "home_score": 74,
+      "home_team": "Colorado State"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Florida State",
+      "game_id": "2021_03_28_florida_state_michigan",
+      "home_score": 76,
+      "home_team": "Michigan"
+    },
+    {
+      "away_score": 88,
+      "away_team": "UCLA",
+      "game_id": "2021_03_28_ucla_alabama",
+      "home_score": 78,
+      "home_team": "Alabama"
+    }
+  ],
+  "generated_at": "2026-02-28T21:32:00.158408Z"
+}

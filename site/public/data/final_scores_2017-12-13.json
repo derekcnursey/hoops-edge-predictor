@@ -1,0 +1,160 @@
+{
+  "date": "2017-12-13",
+  "games": [
+    {
+      "away_score": 82,
+      "away_team": "Boston University",
+      "game_id": "2017_12_13_boston_university_umass_lowell",
+      "home_score": 87,
+      "home_team": "UMass Lowell"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Villanova",
+      "game_id": "2017_12_13_villanova_temple",
+      "home_score": 67,
+      "home_team": "Temple"
+    },
+    {
+      "away_score": 58,
+      "away_team": "UNC Wilmington",
+      "game_id": "2017_12_13_unc_wilmington_unc_greensboro",
+      "home_score": 71,
+      "home_team": "UNC Greensboro"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Florida International",
+      "game_id": "2017_12_13_florida_international_north_florida",
+      "home_score": 87,
+      "home_team": "North Florida"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Mississippi Valley State",
+      "game_id": "2017_12_13_mississippi_valley_state_duquesne",
+      "home_score": 73,
+      "home_team": "Duquesne"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Milwaukee",
+      "game_id": "2017_12_13_milwaukee_belmont",
+      "home_score": 82,
+      "home_team": "Belmont"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Sam Houston",
+      "game_id": "2017_12_13_sam_houston_ole_miss",
+      "home_score": 82,
+      "home_team": "Ole Miss"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Southern Miss",
+      "game_id": "2017_12_13_southern_miss_alabama_a_m",
+      "home_score": 54,
+      "home_team": "Alabama A&M"
+    },
+    {
+      "away_score": 45,
+      "away_team": "Longwood",
+      "game_id": "2017_12_13_longwood_illinois",
+      "home_score": 92,
+      "home_team": "Illinois"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Western Kentucky",
+      "game_id": "2017_12_13_western_kentucky_wisconsin",
+      "home_score": 81,
+      "home_team": "Wisconsin"
+    },
+    {
+      "away_score": 66,
+      "away_team": "New Orleans",
+      "game_id": "2017_12_13_new_orleans_smu",
+      "home_score": 79,
+      "home_team": "SMU"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Arkansas State",
+      "game_id": "2017_12_13_arkansas_state_omaha",
+      "home_score": 77,
+      "home_team": "Omaha"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Jackson State",
+      "game_id": "2017_12_13_jackson_state_southern_illinois",
+      "home_score": 69,
+      "home_team": "Southern Illinois"
+    },
+    {
+      "away_score": 46,
+      "away_team": "Little Rock",
+      "game_id": "2017_12_13_little_rock_bradley",
+      "home_score": 86,
+      "home_team": "Bradley"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Savannah State",
+      "game_id": "2017_12_13_savannah_state_texas_a_m",
+      "home_score": 113,
+      "home_team": "Texas A&M"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Denver",
+      "game_id": "2017_12_13_denver_northern_colorado",
+      "home_score": 83,
+      "home_team": "Northern Colorado"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Houston",
+      "game_id": "2017_12_13_houston_lsu",
+      "home_score": 80,
+      "home_team": "LSU"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Kennesaw State",
+      "game_id": "2017_12_13_kennesaw_state_texas_tech",
+      "home_score": 82,
+      "home_team": "Texas Tech"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Grand Canyon",
+      "game_id": "2017_12_13_grand_canyon_boise_state",
+      "home_score": 85,
+      "home_team": "Boise State"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Portland State",
+      "game_id": "2017_12_13_portland_state_oregon",
+      "home_score": 95,
+      "home_team": "Oregon"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Arkansas-Pine Bluff",
+      "game_id": "2017_12_13_arkansas_pine_bluff_fresno_state",
+      "home_score": 78,
+      "home_team": "Fresno State"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Saint Martin's",
+      "game_id": "2017_12_13_saint_martin_s_seattle_u",
+      "home_score": 88,
+      "home_team": "Seattle U"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:52.444871Z"
+}

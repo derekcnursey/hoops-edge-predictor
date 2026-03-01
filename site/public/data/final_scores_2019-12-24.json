@@ -1,0 +1,13 @@
+{
+  "date": "2019-12-24",
+  "games": [
+    {
+      "away_score": 70,
+      "away_team": "Ball State",
+      "game_id": "2019_12_24_ball_state_utep",
+      "home_score": 71,
+      "home_team": "UTEP"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:15.708178Z"
+}

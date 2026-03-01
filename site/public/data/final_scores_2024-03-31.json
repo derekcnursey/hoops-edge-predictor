@@ -1,0 +1,20 @@
+{
+  "date": "2024-03-31",
+  "games": [
+    {
+      "away_score": 66,
+      "away_team": "Tennessee",
+      "game_id": "2024_03_31_tennessee_purdue",
+      "home_score": 72,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 76,
+      "away_team": "NC State",
+      "game_id": "2024_03_31_nc_state_duke",
+      "home_score": 64,
+      "home_team": "Duke"
+    }
+  ],
+  "generated_at": "2026-02-28T22:40:06.199072Z"
+}

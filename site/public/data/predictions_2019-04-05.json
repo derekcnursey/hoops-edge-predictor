@@ -1,0 +1,24 @@
+{
+  "date": "2019-04-05",
+  "games": [
+    {
+      "away_team": "South Florida",
+      "edge_home_points": 2.157747507095337,
+      "game_id": "2019_04_05_south_florida_depaul",
+      "home_team": "DePaul",
+      "market_spread_home": -1.0,
+      "model_mu_home": 3.1577475,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5813534377541786,
+      "pick_ev_per_1": 0.10985656298525004,
+      "pick_fair_odds": -138.86497350784853,
+      "pick_prob_edge": 0.057543913944654745,
+      "pick_side": "HOME",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.8515019,
+      "pred_sigma": 10.507294,
+      "start_time": "2019-04-05T23:00:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T22:35:47.905588Z"
+}

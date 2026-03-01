@@ -1,0 +1,90 @@
+{
+  "date": "2022-03-15",
+  "games": [
+    {
+      "away_score": 80,
+      "away_team": "South Carolina Upstate",
+      "game_id": "2022_03_15_south_carolina_upstate_app_state",
+      "home_score": 74,
+      "home_team": "App State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Texas A&M-Corpus Christi",
+      "game_id": "2022_03_15_texas_a_m_corpus_christi_texas_southern",
+      "home_score": 76,
+      "home_team": "Texas Southern"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Belmont",
+      "game_id": "2022_03_15_belmont_vanderbilt",
+      "home_score": 82,
+      "home_team": "Vanderbilt"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Princeton",
+      "game_id": "2022_03_15_princeton_vcu",
+      "home_score": 90,
+      "home_team": "VCU"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Missouri State",
+      "game_id": "2022_03_15_missouri_state_oklahoma",
+      "home_score": 89,
+      "home_team": "Oklahoma"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Texas State",
+      "game_id": "2022_03_15_texas_state_north_texas",
+      "home_score": 67,
+      "home_team": "North Texas"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Cleveland State",
+      "game_id": "2022_03_15_cleveland_state_xavier",
+      "home_score": 72,
+      "home_team": "Xavier"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Oregon",
+      "game_id": "2022_03_15_oregon_utah_state",
+      "home_score": 72,
+      "home_team": "Utah State"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Alcorn State",
+      "game_id": "2022_03_15_alcorn_state_texas_a_m",
+      "home_score": 74,
+      "home_team": "Texas A&M"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Indiana",
+      "game_id": "2022_03_15_indiana_wyoming",
+      "home_score": 58,
+      "home_team": "Wyoming"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Santa Clara",
+      "game_id": "2022_03_15_santa_clara_washington_state",
+      "home_score": 63,
+      "home_team": "Washington State"
+    },
+    {
+      "away_score": 76,
+      "away_team": "St. Bonaventure",
+      "game_id": "2022_03_15_st_bonaventure_colorado",
+      "home_score": 68,
+      "home_team": "Colorado"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:20.071629Z"
+}

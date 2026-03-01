@@ -1,0 +1,174 @@
+{
+  "date": "2025-02-16",
+  "games": [
+    {
+      "away_score": 83,
+      "away_team": "Florida Atlantic",
+      "game_id": "2025_02_16_florida_atlantic_temple",
+      "home_score": 81,
+      "home_team": "Temple"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Memphis",
+      "game_id": "2025_02_16_memphis_wichita_state",
+      "home_score": 84,
+      "home_team": "Wichita State"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Siena",
+      "game_id": "2025_02_16_siena_sacred_heart",
+      "home_score": 73,
+      "home_team": "Sacred Heart"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Michigan",
+      "game_id": "2025_02_16_michigan_ohio_state",
+      "home_score": 83,
+      "home_team": "Ohio State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Mount St. Mary's",
+      "game_id": "2025_02_16_mount_st_mary_s_canisius",
+      "home_score": 66,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Youngstown State",
+      "game_id": "2025_02_16_youngstown_state_cleveland_state",
+      "home_score": 60,
+      "home_team": "Cleveland State"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Bradley",
+      "game_id": "2025_02_16_bradley_drake",
+      "home_score": 59,
+      "home_team": "Drake"
+    },
+    {
+      "away_score": 94,
+      "away_team": "South Dakota State",
+      "game_id": "2025_02_16_south_dakota_state_south_dakota",
+      "home_score": 91,
+      "home_team": "South Dakota"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Iona",
+      "game_id": "2025_02_16_iona_quinnipiac",
+      "home_score": 79,
+      "home_team": "Quinnipiac"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Marist",
+      "game_id": "2025_02_16_marist_merrimack",
+      "home_score": 60,
+      "home_team": "Merrimack"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Rider",
+      "game_id": "2025_02_16_rider_saint_peter_s",
+      "home_score": 66,
+      "home_team": "Saint Peter's"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Manhattan",
+      "game_id": "2025_02_16_manhattan_fairfield",
+      "home_score": 67,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Nebraska",
+      "game_id": "2025_02_16_nebraska_northwestern",
+      "home_score": 64,
+      "home_team": "Northwestern"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Missouri State",
+      "game_id": "2025_02_16_missouri_state_uic",
+      "home_score": 63,
+      "home_team": "UIC"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Creighton",
+      "game_id": "2025_02_16_creighton_st_john_s",
+      "home_score": 79,
+      "home_team": "St. John's"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Northern Kentucky",
+      "game_id": "2025_02_16_northern_kentucky_milwaukee",
+      "home_score": 92,
+      "home_team": "Milwaukee"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Wright State",
+      "game_id": "2025_02_16_wright_state_green_bay",
+      "home_score": 79,
+      "home_team": "Green Bay"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Detroit Mercy",
+      "game_id": "2025_02_16_detroit_mercy_oakland",
+      "home_score": 93,
+      "home_team": "Oakland"
+    },
+    {
+      "away_score": 78,
+      "away_team": "South Florida",
+      "game_id": "2025_02_16_south_florida_uab",
+      "home_score": 85,
+      "home_team": "UAB"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Utah State",
+      "game_id": "2025_02_16_utah_state_new_mexico",
+      "home_score": 82,
+      "home_team": "New Mexico"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Iowa",
+      "game_id": "2025_02_16_iowa_maryland",
+      "home_score": 101,
+      "home_team": "Maryland"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Rutgers",
+      "game_id": "2025_02_16_rutgers_oregon",
+      "home_score": 75,
+      "home_team": "Oregon"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Valparaiso",
+      "game_id": "2025_02_16_valparaiso_evansville",
+      "home_score": 79,
+      "home_team": "Evansville"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Louisville",
+      "game_id": "2025_02_16_louisville_notre_dame",
+      "home_score": 60,
+      "home_team": "Notre Dame"
+    }
+  ],
+  "generated_at": "2026-02-28T23:30:06.202849Z"
+}

@@ -1,0 +1,76 @@
+{
+  "date": "2023-01-27",
+  "games": [
+    {
+      "away_score": 74,
+      "away_team": "Purdue Fort Wayne",
+      "game_id": "2023_01_27_purdue_fort_wayne_cleveland_state",
+      "home_score": 79,
+      "home_team": "Cleveland State"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Saint Louis",
+      "game_id": "2023_01_27_saint_louis_davidson",
+      "home_score": 70,
+      "home_team": "Davidson"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Rider",
+      "game_id": "2023_01_27_rider_marist",
+      "home_score": 52,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Detroit Mercy",
+      "game_id": "2023_01_27_detroit_mercy_robert_morris",
+      "home_score": 85,
+      "home_team": "Robert Morris"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Manhattan",
+      "game_id": "2023_01_27_manhattan_niagara",
+      "home_score": 68,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Iona",
+      "game_id": "2023_01_27_iona_siena",
+      "home_score": 70,
+      "home_team": "Siena"
+    },
+    {
+      "away_score": 75,
+      "away_team": "North Dakota",
+      "game_id": "2023_01_27_north_dakota_north_dakota_state",
+      "home_score": 91,
+      "home_team": "North Dakota State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Buffalo",
+      "game_id": "2023_01_27_buffalo_kent_state",
+      "home_score": 74,
+      "home_team": "Kent State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Oakland",
+      "game_id": "2023_01_27_oakland_youngstown_state",
+      "home_score": 77,
+      "home_team": "Youngstown State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Air Force",
+      "game_id": "2023_01_27_air_force_new_mexico",
+      "home_score": 81,
+      "home_team": "New Mexico"
+    }
+  ],
+  "generated_at": "2026-02-28T21:34:23.851346Z"
+}

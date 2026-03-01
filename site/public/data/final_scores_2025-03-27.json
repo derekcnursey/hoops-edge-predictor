@@ -1,0 +1,34 @@
+{
+  "date": "2025-03-27",
+  "games": [
+    {
+      "away_score": 88,
+      "away_team": "BYU",
+      "game_id": "2025_03_27_byu_alabama",
+      "home_score": 113,
+      "home_team": "Alabama"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Maryland",
+      "game_id": "2025_03_27_maryland_florida",
+      "home_score": 87,
+      "home_team": "Florida"
+    },
+    {
+      "away_score": 93,
+      "away_team": "Arizona",
+      "game_id": "2025_03_27_arizona_duke",
+      "home_score": 100,
+      "home_team": "Duke"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Arkansas",
+      "game_id": "2025_03_27_arkansas_texas_tech",
+      "home_score": 85,
+      "home_team": "Texas Tech"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:45.978031Z"
+}

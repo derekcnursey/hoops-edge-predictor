@@ -1,0 +1,146 @@
+{
+  "date": "2019-11-07",
+  "games": [
+    {
+      "away_score": 53,
+      "away_team": "Midland University",
+      "game_id": "2019_11_07_midland_university_omaha",
+      "home_score": 72,
+      "home_team": "Omaha"
+    },
+    {
+      "away_score": 44,
+      "away_team": "Spalding",
+      "game_id": "2019_11_07_spalding_morehead_state",
+      "home_score": 92,
+      "home_team": "Morehead State"
+    },
+    {
+      "away_score": 45,
+      "away_team": "Presbyterian",
+      "game_id": "2019_11_07_presbyterian_clemson",
+      "home_score": 79,
+      "home_team": "Clemson"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Florida National",
+      "game_id": "2019_11_07_florida_national_north_florida",
+      "home_score": 89,
+      "home_team": "North Florida"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Bryant",
+      "game_id": "2019_11_07_bryant_rutgers",
+      "home_score": 73,
+      "home_team": "Rutgers"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Robert Morris",
+      "game_id": "2019_11_07_robert_morris_marshall",
+      "home_score": 67,
+      "home_team": "Marshall"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Manchester",
+      "game_id": "2019_11_07_manchester_purdue_fort_wayne",
+      "home_score": 91,
+      "home_team": "Purdue Fort Wayne"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Ferrum",
+      "game_id": "2019_11_07_ferrum_app_state",
+      "home_score": 83,
+      "home_team": "App State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Winthrop",
+      "game_id": "2019_11_07_winthrop_hartford",
+      "home_score": 57,
+      "home_team": "Hartford"
+    },
+    {
+      "away_score": 42,
+      "away_team": "Kentucky Wesleyan",
+      "game_id": "2019_11_07_kentucky_wesleyan_samford",
+      "home_score": 68,
+      "home_team": "Samford"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Southwestern (TX)",
+      "game_id": "2019_11_07_southwestern_tx_tcu",
+      "home_score": 83,
+      "home_team": "TCU"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Crown College",
+      "game_id": "2019_11_07_crown_college_north_dakota",
+      "home_score": 86,
+      "home_team": "North Dakota"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Hendrix College",
+      "game_id": "2019_11_07_hendrix_college_central_arkansas",
+      "home_score": 71,
+      "home_team": "Central Arkansas"
+    },
+    {
+      "away_score": 76,
+      "away_team": "UAB",
+      "game_id": "2019_11_07_uab_troy",
+      "home_score": 75,
+      "home_team": "Troy"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Peru State",
+      "game_id": "2019_11_07_peru_state_south_dakota_state",
+      "home_score": 86,
+      "home_team": "South Dakota State"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Mayville State",
+      "game_id": "2019_11_07_mayville_state_north_dakota_state",
+      "home_score": 93,
+      "home_team": "North Dakota State"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Kennesaw State",
+      "game_id": "2019_11_07_kennesaw_state_drake",
+      "home_score": 86,
+      "home_team": "Drake"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Seattle U",
+      "game_id": "2019_11_07_seattle_u_washington_state",
+      "home_score": 85,
+      "home_team": "Washington State"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Idaho State",
+      "game_id": "2019_11_07_idaho_state_air_force",
+      "home_score": 79,
+      "home_team": "Air Force"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Jessup University",
+      "game_id": "2019_11_07_jessup_university_uc_davis",
+      "home_score": 109,
+      "home_team": "UC Davis"
+    }
+  ],
+  "generated_at": "2026-02-28T23:27:47.841074Z"
+}

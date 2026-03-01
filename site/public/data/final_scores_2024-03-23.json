@@ -1,0 +1,111 @@
+{
+  "date": "2024-03-23",
+  "games": [
+    {
+      "away_score": 58,
+      "away_team": "North Texas",
+      "game_id": "2024_03_23_north_texas_seton_hall",
+      "home_score": 72,
+      "home_team": "Seton Hall"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Dayton",
+      "game_id": "2024_03_23_dayton_arizona",
+      "home_score": 78,
+      "home_team": "Arizona"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Arkansas State",
+      "game_id": "2024_03_23_arkansas_state_bethune_cookman",
+      "home_score": 85,
+      "home_team": "Bethune-Cookman"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Bradley",
+      "game_id": "2024_03_23_bradley_cincinnati",
+      "home_score": 74,
+      "home_team": "Cincinnati"
+    },
+    {
+      "away_score": 75,
+      "away_team": "UC San Diego",
+      "game_id": "2024_03_23_uc_san_diego_chicago_state",
+      "home_score": 77,
+      "home_team": "Chicago State"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Gonzaga",
+      "game_id": "2024_03_23_gonzaga_kansas",
+      "home_score": 68,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Alabama A&M",
+      "game_id": "2024_03_23_alabama_a_m_norfolk_state",
+      "home_score": 81,
+      "home_team": "Norfolk State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Michigan State",
+      "game_id": "2024_03_23_michigan_state_north_carolina",
+      "home_score": 85,
+      "home_team": "North Carolina"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Seattle U",
+      "game_id": "2024_03_23_seattle_u_delaware_state",
+      "home_score": 66,
+      "home_team": "Delaware State"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Washington State",
+      "game_id": "2024_03_23_washington_state_iowa_state",
+      "home_score": 67,
+      "home_team": "Iowa State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Virginia Tech",
+      "game_id": "2024_03_23_virginia_tech_ohio_state",
+      "home_score": 81,
+      "home_team": "Ohio State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Oakland",
+      "game_id": "2024_03_23_oakland_nc_state",
+      "home_score": 79,
+      "home_team": "NC State"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Texas",
+      "game_id": "2024_03_23_texas_tennessee",
+      "home_score": 62,
+      "home_team": "Tennessee"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Duquesne",
+      "game_id": "2024_03_23_duquesne_illinois",
+      "home_score": 89,
+      "home_team": "Illinois"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Oregon",
+      "game_id": "2024_03_23_oregon_creighton",
+      "home_score": 86,
+      "home_team": "Creighton"
+    }
+  ],
+  "generated_at": "2026-02-28T22:40:01.000870Z"
+}

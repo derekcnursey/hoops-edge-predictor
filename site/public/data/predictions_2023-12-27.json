@@ -1,0 +1,60 @@
+{
+  "date": "2023-12-27",
+  "games": [
+    {
+      "away_team": "Grand Canyon",
+      "edge_home_points": null,
+      "game_id": "2023_12_27_grand_canyon_bethesda_university",
+      "home_team": "Bethesda University",
+      "market_spread_home": null,
+      "model_mu_home": -25.263779,
+      "neutral_site": null,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 1.7568178e-05,
+      "pred_sigma": 21.42039,
+      "start_time": "2023-12-27T20:00:00.000Z"
+    },
+    {
+      "away_team": "Morgan State",
+      "edge_home_points": -6.649440765380859,
+      "game_id": "2023_12_27_morgan_state_virginia",
+      "home_team": "Virginia",
+      "market_spread_home": -26.5,
+      "model_mu_home": 19.85056,
+      "neutral_site": null,
+      "pick_cover_prob": 0.7119152278540273,
+      "pick_ev_per_1": 0.35911088953950665,
+      "pick_fair_odds": -247.12004822431206,
+      "pick_prob_edge": 0.18810570404450344,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.99987686,
+      "pred_sigma": 11.895487,
+      "start_time": "2023-12-28T00:00:00.000Z"
+    },
+    {
+      "away_team": "Chicago State",
+      "edge_home_points": -1.6804304122924805,
+      "game_id": "2023_12_27_chicago_state_california_baptist",
+      "home_team": "California Baptist",
+      "market_spread_home": -10.5,
+      "model_mu_home": 8.81957,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5586703972840326,
+      "pick_ev_per_1": 0.06655257663315306,
+      "pick_fair_odds": -126.5880180812579,
+      "pick_prob_edge": 0.034860873474508725,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.9868548,
+      "pred_sigma": 11.385103,
+      "start_time": "2023-12-28T03:00:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T21:56:12.814829Z"
+}

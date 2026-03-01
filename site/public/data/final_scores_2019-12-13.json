@@ -1,0 +1,69 @@
+{
+  "date": "2019-12-13",
+  "games": [
+    {
+      "away_score": 66,
+      "away_team": "North Greenville",
+      "game_id": "2019_12_13_north_greenville_wofford",
+      "home_score": 112,
+      "home_team": "Wofford"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Gardner-Webb",
+      "game_id": "2019_12_13_gardner_webb_kennesaw_state",
+      "home_score": 85,
+      "home_team": "Kennesaw State"
+    },
+    {
+      "away_score": 58,
+      "away_team": "UT Rio Grande Valley",
+      "game_id": "2019_12_13_ut_rio_grande_valley_creighton",
+      "home_score": 89,
+      "home_team": "Creighton"
+    },
+    {
+      "away_score": 90,
+      "away_team": "Nebraska",
+      "game_id": "2019_12_13_nebraska_indiana",
+      "home_score": 96,
+      "home_team": "Indiana"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Colorado",
+      "game_id": "2019_12_13_colorado_colorado_state",
+      "home_score": 48,
+      "home_team": "Colorado State"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Nebraska-Kearney",
+      "game_id": "2019_12_13_nebraska_kearney_south_dakota_state",
+      "home_score": 66,
+      "home_team": "South Dakota State"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Multnomah University",
+      "game_id": "2019_12_13_multnomah_university_eastern_washington",
+      "home_score": 146,
+      "home_team": "Eastern Washington"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Prairie View A&M",
+      "game_id": "2019_12_13_prairie_view_a_m_loyola_marymount",
+      "home_score": 79,
+      "home_team": "Loyola Marymount"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Evergreen State",
+      "game_id": "2019_12_13_evergreen_state_portland",
+      "home_score": 77,
+      "home_team": "Portland"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:09.309387Z"
+}

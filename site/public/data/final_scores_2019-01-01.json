@@ -1,0 +1,48 @@
+{
+  "date": "2019-01-01",
+  "games": [
+    {
+      "away_score": 66,
+      "away_team": "Notre Dame",
+      "game_id": "2019_01_01_notre_dame_virginia_tech",
+      "home_score": 81,
+      "home_team": "Virginia Tech"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Winthrop",
+      "game_id": "2019_01_01_winthrop_florida_state",
+      "home_score": 87,
+      "home_team": "Florida State"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Cal State Northridge",
+      "game_id": "2019_01_01_cal_state_northridge_san_diego_state",
+      "home_score": 65,
+      "home_team": "San Diego State"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Mars Hill",
+      "game_id": "2019_01_01_mars_hill_radford",
+      "home_score": 80,
+      "home_team": "Radford"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Marquette",
+      "game_id": "2019_01_01_marquette_st_john_s",
+      "home_score": 89,
+      "home_team": "St. John's"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Cal State Fullerton",
+      "game_id": "2019_01_01_cal_state_fullerton_washington",
+      "home_score": 84,
+      "home_team": "Washington"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:38.925186Z"
+}

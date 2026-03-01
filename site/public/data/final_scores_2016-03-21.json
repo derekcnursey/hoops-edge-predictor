@@ -1,0 +1,62 @@
+{
+  "date": "2016-03-21",
+  "games": [
+    {
+      "away_score": 72,
+      "away_team": "Duquesne",
+      "game_id": "2016_03_21_duquesne_morehead_state",
+      "home_score": 82,
+      "home_team": "Morehead State"
+    },
+    {
+      "away_score": 87,
+      "away_team": "George Washington",
+      "game_id": "2016_03_21_george_washington_monmouth",
+      "home_score": 71,
+      "home_team": "Monmouth"
+    },
+    {
+      "away_score": 67,
+      "away_team": "UNC Greensboro",
+      "game_id": "2016_03_21_unc_greensboro_ohio",
+      "home_score": 72,
+      "home_team": "Ohio"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Boston University",
+      "game_id": "2016_03_21_boston_university_njit",
+      "home_score": 83,
+      "home_team": "NJIT"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Georgia Tech",
+      "game_id": "2016_03_21_georgia_tech_south_carolina",
+      "home_score": 66,
+      "home_team": "South Carolina"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Eastern Washington",
+      "game_id": "2016_03_21_eastern_washington_nevada",
+      "home_score": 85,
+      "home_team": "Nevada"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Vermont",
+      "game_id": "2016_03_21_vermont_seattle_u",
+      "home_score": 54,
+      "home_team": "Seattle U"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Washington",
+      "game_id": "2016_03_21_washington_san_diego_state",
+      "home_score": 93,
+      "home_team": "San Diego State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:01.678291Z"
+}

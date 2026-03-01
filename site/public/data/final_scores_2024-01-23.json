@@ -1,0 +1,237 @@
+{
+  "date": "2024-01-23",
+  "games": [
+    {
+      "away_score": 90,
+      "away_team": "Butler",
+      "game_id": "2024_01_23_butler_georgetown",
+      "home_score": 66,
+      "home_team": "Georgetown"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Dayton",
+      "game_id": "2024_01_23_dayton_la_salle",
+      "home_score": 54,
+      "home_team": "La Salle"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Duke",
+      "game_id": "2024_01_23_duke_louisville",
+      "home_score": 69,
+      "home_team": "Louisville"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Kentucky",
+      "game_id": "2024_01_23_kentucky_south_carolina",
+      "home_score": 79,
+      "home_team": "South Carolina"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Texas",
+      "game_id": "2024_01_23_texas_oklahoma",
+      "home_score": 60,
+      "home_team": "Oklahoma"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Wisconsin",
+      "game_id": "2024_01_23_wisconsin_minnesota",
+      "home_score": 59,
+      "home_team": "Minnesota"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Florida State",
+      "game_id": "2024_01_23_florida_state_syracuse",
+      "home_score": 69,
+      "home_team": "Syracuse"
+    },
+    {
+      "away_score": 59,
+      "away_team": "West Virginia",
+      "game_id": "2024_01_23_west_virginia_ucf",
+      "home_score": 72,
+      "home_team": "UCF"
+    },
+    {
+      "away_score": 70,
+      "away_team": "UAB",
+      "game_id": "2024_01_23_uab_charlotte",
+      "home_score": 76,
+      "home_team": "Charlotte"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Ohio State",
+      "game_id": "2024_01_23_ohio_state_nebraska",
+      "home_score": 83,
+      "home_team": "Nebraska"
+    },
+    {
+      "away_score": 50,
+      "away_team": "St. Bonaventure",
+      "game_id": "2024_01_23_st_bonaventure_duquesne",
+      "home_score": 54,
+      "home_team": "Duquesne"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Saint Joseph's",
+      "game_id": "2024_01_23_saint_joseph_s_massachusetts",
+      "home_score": 77,
+      "home_team": "Massachusetts"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Loyola Chicago",
+      "game_id": "2024_01_23_loyola_chicago_vcu",
+      "home_score": 74,
+      "home_team": "VCU"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Ball State",
+      "game_id": "2024_01_23_ball_state_buffalo",
+      "home_score": 59,
+      "home_team": "Buffalo"
+    },
+    {
+      "away_score": 90,
+      "away_team": "Kent State",
+      "game_id": "2024_01_23_kent_state_bowling_green",
+      "home_score": 84,
+      "home_team": "Bowling Green"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Miami (OH)",
+      "game_id": "2024_01_23_miami_oh_central_michigan",
+      "home_score": 71,
+      "home_team": "Central Michigan"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Eastern Michigan",
+      "game_id": "2024_01_23_eastern_michigan_western_michigan",
+      "home_score": 73,
+      "home_team": "Western Michigan"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Ohio",
+      "game_id": "2024_01_23_ohio_akron",
+      "home_score": 67,
+      "home_team": "Akron"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Wells College",
+      "game_id": "2024_01_23_wells_college_cornell",
+      "home_score": 105,
+      "home_team": "Cornell"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Pittsburgh",
+      "game_id": "2024_01_23_pittsburgh_georgia_tech",
+      "home_score": 64,
+      "home_team": "Georgia Tech"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Toledo",
+      "game_id": "2024_01_23_toledo_northern_illinois",
+      "home_score": 73,
+      "home_team": "Northern Illinois"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Evansville",
+      "game_id": "2024_01_23_evansville_northern_iowa",
+      "home_score": 70,
+      "home_team": "Northern Iowa"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Belmont",
+      "game_id": "2024_01_23_belmont_illinois_state",
+      "home_score": 77,
+      "home_team": "Illinois State"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Xavier",
+      "game_id": "2024_01_23_xavier_creighton",
+      "home_score": 85,
+      "home_team": "Creighton"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Michigan",
+      "game_id": "2024_01_23_michigan_purdue",
+      "home_score": 99,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 85,
+      "away_team": "San Diego",
+      "game_id": "2024_01_23_san_diego_portland",
+      "home_score": 81,
+      "home_team": "Portland"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Boston College",
+      "game_id": "2024_01_23_boston_college_virginia_tech",
+      "home_score": 76,
+      "home_team": "Virginia Tech"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Wyoming",
+      "game_id": "2024_01_23_wyoming_san_diego_state",
+      "home_score": 81,
+      "home_team": "San Diego State"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Missouri",
+      "game_id": "2024_01_23_missouri_texas_a_m",
+      "home_score": 63,
+      "home_team": "Texas A&M"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Houston",
+      "game_id": "2024_01_23_houston_byu",
+      "home_score": 68,
+      "home_team": "BYU"
+    },
+    {
+      "away_score": 74,
+      "away_team": "TCU",
+      "game_id": "2024_01_23_tcu_oklahoma_state",
+      "home_score": 69,
+      "home_team": "Oklahoma State"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Boise State",
+      "game_id": "2024_01_23_boise_state_fresno_state",
+      "home_score": 68,
+      "home_team": "Fresno State"
+    },
+    {
+      "away_score": 90,
+      "away_team": "Air Force",
+      "game_id": "2024_01_23_air_force_unlv",
+      "home_score": 58,
+      "home_team": "UNLV"
+    }
+  ],
+  "generated_at": "2026-02-28T22:39:22.686477Z"
+}

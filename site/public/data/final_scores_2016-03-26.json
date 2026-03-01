@@ -1,0 +1,20 @@
+{
+  "date": "2016-03-26",
+  "games": [
+    {
+      "away_score": 80,
+      "away_team": "Oklahoma",
+      "game_id": "2016_03_26_oklahoma_oregon",
+      "home_score": 68,
+      "home_team": "Oregon"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Villanova",
+      "game_id": "2016_03_26_villanova_kansas",
+      "home_score": 59,
+      "home_team": "Kansas"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:04.610653Z"
+}

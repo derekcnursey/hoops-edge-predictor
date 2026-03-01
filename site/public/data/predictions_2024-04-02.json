@@ -1,0 +1,42 @@
+{
+  "date": "2024-04-02",
+  "games": [
+    {
+      "away_team": "Utah",
+      "edge_home_points": -0.17744874954223633,
+      "game_id": "2024_04_02_utah_indiana_state",
+      "home_team": "Indiana State",
+      "market_spread_home": -4.5,
+      "model_mu_home": 4.3225513,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5049559347552451,
+      "pick_ev_per_1": -0.03599321546725931,
+      "pick_fair_odds": -102.0022196419201,
+      "pick_prob_edge": -0.018853589054278697,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.85087603,
+      "pred_sigma": 14.283882,
+      "start_time": "2024-04-02T23:00:00.000Z"
+    },
+    {
+      "away_team": "Georgia",
+      "edge_home_points": -4.011808514595032,
+      "game_id": "2024_04_02_georgia_seton_hall",
+      "home_team": "Seton Hall",
+      "market_spread_home": -5.5,
+      "model_mu_home": 1.4881915,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6414055753804973,
+      "pick_ev_per_1": 0.2245015529991311,
+      "pick_fair_odds": -178.8665777670915,
+      "pick_prob_edge": 0.11759605157097341,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.13369676,
+      "pred_sigma": 11.075663,
+      "start_time": "2024-04-03T01:35:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:08.463626Z"
+}

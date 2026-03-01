@@ -1,0 +1,83 @@
+{
+  "date": "2016-02-26",
+  "games": [
+    {
+      "away_score": 83,
+      "away_team": "Columbia",
+      "game_id": "2016_02_26_columbia_princeton",
+      "home_score": 88,
+      "home_team": "Princeton"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Harvard",
+      "game_id": "2016_02_26_harvard_yale",
+      "home_score": 59,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Quinnipiac",
+      "game_id": "2016_02_26_quinnipiac_marist",
+      "home_score": 91,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Cornell",
+      "game_id": "2016_02_26_cornell_pennsylvania",
+      "home_score": 79,
+      "home_team": "Pennsylvania"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Iona",
+      "game_id": "2016_02_26_iona_manhattan",
+      "home_score": 73,
+      "home_team": "Manhattan"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Valparaiso",
+      "game_id": "2016_02_26_valparaiso_milwaukee",
+      "home_score": 76,
+      "home_team": "Milwaukee"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Bowling Green",
+      "game_id": "2016_02_26_bowling_green_akron",
+      "home_score": 89,
+      "home_team": "Akron"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Dartmouth",
+      "game_id": "2016_02_26_dartmouth_brown",
+      "home_score": 84,
+      "home_team": "Brown"
+    },
+    {
+      "away_score": 69,
+      "away_team": "UIC",
+      "game_id": "2016_02_26_uic_green_bay",
+      "home_score": 85,
+      "home_team": "Green Bay"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Rider",
+      "game_id": "2016_02_26_rider_monmouth",
+      "home_score": 79,
+      "home_team": "Monmouth"
+    },
+    {
+      "away_score": 97,
+      "away_team": "Detroit Mercy",
+      "game_id": "2016_02_26_detroit_mercy_oakland",
+      "home_score": 108,
+      "home_team": "Oakland"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:47.176492Z"
+}

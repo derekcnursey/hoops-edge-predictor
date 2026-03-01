@@ -1,0 +1,97 @@
+{
+  "date": "2023-01-13",
+  "games": [
+    {
+      "away_score": 82,
+      "away_team": "Yale",
+      "game_id": "2023_01_13_yale_cornell",
+      "home_score": 94,
+      "home_team": "Cornell"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Kent State",
+      "game_id": "2023_01_13_kent_state_ohio",
+      "home_score": 65,
+      "home_team": "Ohio"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Villanova",
+      "game_id": "2023_01_13_villanova_butler",
+      "home_score": 79,
+      "home_team": "Butler"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Eastern Michigan",
+      "game_id": "2023_01_13_eastern_michigan_akron",
+      "home_score": 104,
+      "home_team": "Akron"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Nebraska",
+      "game_id": "2023_01_13_nebraska_purdue",
+      "home_score": 73,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Saint Peter's",
+      "game_id": "2023_01_13_saint_peter_s_quinnipiac",
+      "home_score": 58,
+      "home_team": "Quinnipiac"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Siena",
+      "game_id": "2023_01_13_siena_niagara",
+      "home_score": 64,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Manhattan",
+      "game_id": "2023_01_13_manhattan_mount_st_mary_s",
+      "home_score": 57,
+      "home_team": "Mount St. Mary's"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Marist",
+      "game_id": "2023_01_13_marist_canisius",
+      "home_score": 58,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Fairfield",
+      "game_id": "2023_01_13_fairfield_iona",
+      "home_score": 75,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Michigan State",
+      "game_id": "2023_01_13_michigan_state_illinois",
+      "home_score": 75,
+      "home_team": "Illinois"
+    },
+    {
+      "away_score": 63,
+      "away_team": "VCU",
+      "game_id": "2023_01_13_vcu_dayton",
+      "home_score": 62,
+      "home_team": "Dayton"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Utah State",
+      "game_id": "2023_01_13_utah_state_nevada",
+      "home_score": 85,
+      "home_team": "Nevada"
+    }
+  ],
+  "generated_at": "2026-02-28T21:34:15.172160Z"
+}

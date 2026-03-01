@@ -1,0 +1,41 @@
+{
+  "date": "2024-03-25",
+  "games": [
+    {
+      "away_score": 93,
+      "away_team": "High Point",
+      "game_id": "2024_03_25_high_point_cleveland_state",
+      "home_score": 74,
+      "home_team": "Cleveland State"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Arkansas State",
+      "game_id": "2024_03_25_arkansas_state_montana",
+      "home_score": 61,
+      "home_team": "Montana"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Fairfield",
+      "game_id": "2024_03_25_fairfield_chicago_state",
+      "home_score": 74,
+      "home_team": "Chicago State"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Seattle U",
+      "game_id": "2024_03_25_seattle_u_evansville",
+      "home_score": 57,
+      "home_team": "Evansville"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Purdue Fort Wayne",
+      "game_id": "2024_03_25_purdue_fort_wayne_tarleton_state",
+      "home_score": 72,
+      "home_team": "Tarleton State"
+    }
+  ],
+  "generated_at": "2026-02-28T22:40:02.211593Z"
+}

@@ -1,0 +1,111 @@
+{
+  "date": "2021-12-31",
+  "games": [
+    {
+      "away_score": 48,
+      "away_team": "High Point",
+      "game_id": "2021_12_31_high_point_kentucky",
+      "home_score": 92,
+      "home_team": "Kentucky"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Sacred Heart",
+      "game_id": "2021_12_31_sacred_heart_bryant",
+      "home_score": 85,
+      "home_team": "Bryant"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Champion Christian",
+      "game_id": "2021_12_31_champion_christian_central_arkansas",
+      "home_score": 119,
+      "home_team": "Central Arkansas"
+    },
+    {
+      "away_score": 40,
+      "away_team": "Converse University",
+      "game_id": "2021_12_31_converse_university_winthrop",
+      "home_score": 78,
+      "home_team": "Winthrop"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Sul Ross State",
+      "game_id": "2021_12_31_sul_ross_state_texas_a_m_corpus_christi",
+      "home_score": 101,
+      "home_team": "Texas A&M-Corpus Christi"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Boyce",
+      "game_id": "2021_12_31_boyce_liberty",
+      "home_score": 91,
+      "home_team": "Liberty"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Long Island University",
+      "game_id": "2021_12_31_long_island_university_merrimack",
+      "home_score": 82,
+      "home_team": "Merrimack"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Northeastern",
+      "game_id": "2021_12_31_northeastern_william_mary",
+      "home_score": 71,
+      "home_team": "William & Mary"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Niagara",
+      "game_id": "2021_12_31_niagara_quinnipiac",
+      "home_score": 77,
+      "home_team": "Quinnipiac"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Delaware",
+      "game_id": "2021_12_31_delaware_charleston",
+      "home_score": 66,
+      "home_team": "Charleston"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Belhaven",
+      "game_id": "2021_12_31_belhaven_new_orleans",
+      "home_score": 94,
+      "home_team": "New Orleans"
+    },
+    {
+      "away_score": 2,
+      "away_team": "Wagner",
+      "game_id": "2021_12_31_wagner_mount_st_mary_s",
+      "home_score": 0,
+      "home_team": "Mount St. Mary's"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Alice Lloyd College",
+      "game_id": "2021_12_31_alice_lloyd_college_eastern_kentucky",
+      "home_score": 106,
+      "home_team": "Eastern Kentucky"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Central Connecticut",
+      "game_id": "2021_12_31_central_connecticut_st_francis_brooklyn",
+      "home_score": 55,
+      "home_team": "St. Francis Brooklyn"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Fairleigh Dickinson",
+      "game_id": "2021_12_31_fairleigh_dickinson_st_francis_pa",
+      "home_score": 62,
+      "home_team": "St. Francis (PA)"
+    }
+  ],
+  "generated_at": "2026-02-28T21:32:35.640856Z"
+}

@@ -1,0 +1,174 @@
+{
+  "date": "2018-12-28",
+  "games": [
+    {
+      "away_score": 78,
+      "away_team": "Detroit Mercy",
+      "game_id": "2018_12_28_detroit_mercy_youngstown_state",
+      "home_score": 66,
+      "home_team": "Youngstown State"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Kennesaw State",
+      "game_id": "2018_12_28_kennesaw_state_georgia_tech",
+      "home_score": 87,
+      "home_team": "Georgia Tech"
+    },
+    {
+      "away_score": 100,
+      "away_team": "South Dakota State",
+      "game_id": "2018_12_28_south_dakota_state_western_illinois",
+      "home_score": 58,
+      "home_team": "Western Illinois"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Oakland",
+      "game_id": "2018_12_28_oakland_cleveland_state",
+      "home_score": 77,
+      "home_team": "Cleveland State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "UAlbany",
+      "game_id": "2018_12_28_ualbany_kent_state",
+      "home_score": 70,
+      "home_team": "Kent State"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Towson",
+      "game_id": "2018_12_28_towson_elon",
+      "home_score": 60,
+      "home_team": "Elon"
+    },
+    {
+      "away_score": 57,
+      "away_team": "North Carolina A&T",
+      "game_id": "2018_12_28_north_carolina_a_t_east_carolina",
+      "home_score": 77,
+      "home_team": "East Carolina"
+    },
+    {
+      "away_score": 74,
+      "away_team": "James Madison",
+      "game_id": "2018_12_28_james_madison_william_mary",
+      "home_score": 79,
+      "home_team": "William & Mary"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Drexel",
+      "game_id": "2018_12_28_drexel_northeastern",
+      "home_score": 93,
+      "home_team": "Northeastern"
+    },
+    {
+      "away_score": 46,
+      "away_team": "Delaware",
+      "game_id": "2018_12_28_delaware_hofstra",
+      "home_score": 91,
+      "home_team": "Hofstra"
+    },
+    {
+      "away_score": 40,
+      "away_team": "Maryland Eastern Shore",
+      "game_id": "2018_12_28_maryland_eastern_shore_virginia_tech",
+      "home_score": 85,
+      "home_team": "Virginia Tech"
+    },
+    {
+      "away_score": 46,
+      "away_team": "UT Rio Grande Valley",
+      "game_id": "2018_12_28_ut_rio_grande_valley_texas_tech",
+      "home_score": 71,
+      "home_team": "Texas Tech"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Loyola Maryland",
+      "game_id": "2018_12_28_loyola_maryland_nc_state",
+      "home_score": 97,
+      "home_team": "NC State"
+    },
+    {
+      "away_score": 75,
+      "away_team": "UIC",
+      "game_id": "2018_12_28_uic_wright_state",
+      "home_score": 72,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 77,
+      "away_team": "IU Indianapolis",
+      "game_id": "2018_12_28_iu_indianapolis_northern_kentucky",
+      "home_score": 92,
+      "home_team": "Northern Kentucky"
+    },
+    {
+      "away_score": 69,
+      "away_team": "UL Monroe",
+      "game_id": "2018_12_28_ul_monroe_lsu",
+      "home_score": 81,
+      "home_team": "LSU"
+    },
+    {
+      "away_score": 60,
+      "away_team": "UC Riverside",
+      "game_id": "2018_12_28_uc_riverside_air_force",
+      "home_score": 72,
+      "home_team": "Air Force"
+    },
+    {
+      "away_score": 56,
+      "away_team": "UT Arlington",
+      "game_id": "2018_12_28_ut_arlington_texas",
+      "home_score": 76,
+      "home_team": "Texas"
+    },
+    {
+      "away_score": 41,
+      "away_team": "Southern",
+      "game_id": "2018_12_28_southern_marquette",
+      "home_score": 84,
+      "home_team": "Marquette"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Austin Peay",
+      "game_id": "2018_12_28_austin_peay_arkansas",
+      "home_score": 76,
+      "home_team": "Arkansas"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Denver",
+      "game_id": "2018_12_28_denver_omaha",
+      "home_score": 91,
+      "home_team": "Omaha"
+    },
+    {
+      "away_score": 51,
+      "away_team": "North Alabama",
+      "game_id": "2018_12_28_north_alabama_gonzaga",
+      "home_score": 96,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Eastern Oregon",
+      "game_id": "2018_12_28_eastern_oregon_utah_state",
+      "home_score": 84,
+      "home_team": "Utah State"
+    },
+    {
+      "away_score": 59,
+      "away_team": "UC Davis",
+      "game_id": "2018_12_28_uc_davis_loyola_marymount",
+      "home_score": 77,
+      "home_team": "Loyola Marymount"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:36.624286Z"
+}

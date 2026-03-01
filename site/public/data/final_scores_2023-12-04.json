@@ -1,0 +1,76 @@
+{
+  "date": "2023-12-04",
+  "games": [
+    {
+      "away_score": 54,
+      "away_team": "Boyce",
+      "game_id": "2023_12_04_boyce_bellarmine",
+      "home_score": 88,
+      "home_team": "Bellarmine"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Maryland Eastern Shore",
+      "game_id": "2023_12_04_maryland_eastern_shore_east_carolina",
+      "home_score": 63,
+      "home_team": "East Carolina"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Middle Georgia State",
+      "game_id": "2023_12_04_middle_georgia_state_georgia_state",
+      "home_score": 89,
+      "home_team": "Georgia State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Iowa",
+      "game_id": "2023_12_04_iowa_purdue",
+      "home_score": 87,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 46,
+      "away_team": "St. Andrews",
+      "game_id": "2023_12_04_st_andrews_coastal_carolina",
+      "home_score": 110,
+      "home_team": "Coastal Carolina"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Furman",
+      "game_id": "2023_12_04_furman_arkansas",
+      "home_score": 97,
+      "home_team": "Arkansas"
+    },
+    {
+      "away_score": 78,
+      "away_team": "San Jos\u00e9 State",
+      "game_id": "2023_12_04_san_jos_state_north_dakota_state",
+      "home_score": 83,
+      "home_team": "North Dakota State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Arkansas State",
+      "game_id": "2023_12_04_arkansas_state_alabama",
+      "home_score": 89,
+      "home_team": "Alabama"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Western New Mexico",
+      "game_id": "2023_12_04_western_new_mexico_utep",
+      "home_score": 90,
+      "home_team": "UTEP"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Cal Poly",
+      "game_id": "2023_12_04_cal_poly_oregon_state",
+      "home_score": 70,
+      "home_team": "Oregon State"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:53.834965Z"
+}

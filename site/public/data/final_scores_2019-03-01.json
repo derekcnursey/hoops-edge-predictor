@@ -1,0 +1,118 @@
+{
+  "date": "2019-03-01",
+  "games": [
+    {
+      "away_score": 80,
+      "away_team": "Columbia",
+      "game_id": "2019_03_01_columbia_brown",
+      "home_score": 77,
+      "home_team": "Brown"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Kent State",
+      "game_id": "2019_03_01_kent_state_bowling_green",
+      "home_score": 77,
+      "home_team": "Bowling Green"
+    },
+    {
+      "away_score": 44,
+      "away_team": "Marist",
+      "game_id": "2019_03_01_marist_fairfield",
+      "home_score": 59,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Iona",
+      "game_id": "2019_03_01_iona_rider",
+      "home_score": 79,
+      "home_team": "Rider"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Princeton",
+      "game_id": "2019_03_01_princeton_dartmouth",
+      "home_score": 76,
+      "home_team": "Dartmouth"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Cornell",
+      "game_id": "2019_03_01_cornell_yale",
+      "home_score": 88,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Stetson",
+      "game_id": "2019_03_01_stetson_kennesaw_state",
+      "home_score": 83,
+      "home_team": "Kennesaw State"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Lipscomb",
+      "game_id": "2019_03_01_lipscomb_north_alabama",
+      "home_score": 75,
+      "home_team": "North Alabama"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Florida Gulf Coast",
+      "game_id": "2019_03_01_florida_gulf_coast_jacksonville",
+      "home_score": 74,
+      "home_team": "Jacksonville"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Monmouth",
+      "game_id": "2019_03_01_monmouth_manhattan",
+      "home_score": 54,
+      "home_team": "Manhattan"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Quinnipiac",
+      "game_id": "2019_03_01_quinnipiac_saint_peter_s",
+      "home_score": 60,
+      "home_team": "Saint Peter's"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Rhode Island",
+      "game_id": "2019_03_01_rhode_island_dayton",
+      "home_score": 70,
+      "home_team": "Dayton"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Liberty",
+      "game_id": "2019_03_01_liberty_njit",
+      "home_score": 51,
+      "home_team": "NJIT"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Pennsylvania",
+      "game_id": "2019_03_01_pennsylvania_harvard",
+      "home_score": 59,
+      "home_team": "Harvard"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Buffalo",
+      "game_id": "2019_03_01_buffalo_miami_oh",
+      "home_score": 69,
+      "home_team": "Miami (OH)"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Siena",
+      "game_id": "2019_03_01_siena_canisius",
+      "home_score": 68,
+      "home_team": "Canisius"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:14.286672Z"
+}

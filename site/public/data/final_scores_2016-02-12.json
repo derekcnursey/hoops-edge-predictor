@@ -1,0 +1,97 @@
+{
+  "date": "2016-02-12",
+  "games": [
+    {
+      "away_score": 52,
+      "away_team": "UC Irvine",
+      "game_id": "2016_02_12_uc_irvine_hawai_i",
+      "home_score": 74,
+      "home_team": "Hawai'i"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Princeton",
+      "game_id": "2016_02_12_princeton_cornell",
+      "home_score": 56,
+      "home_team": "Cornell"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Dayton",
+      "game_id": "2016_02_12_dayton_rhode_island",
+      "home_score": 66,
+      "home_team": "Rhode Island"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Pennsylvania",
+      "game_id": "2016_02_12_pennsylvania_columbia",
+      "home_score": 63,
+      "home_team": "Columbia"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Niagara",
+      "game_id": "2016_02_12_niagara_saint_peter_s",
+      "home_score": 72,
+      "home_team": "Saint Peter's"
+    },
+    {
+      "away_score": 94,
+      "away_team": "Ohio",
+      "game_id": "2016_02_12_ohio_buffalo",
+      "home_score": 75,
+      "home_team": "Buffalo"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Yale",
+      "game_id": "2016_02_12_yale_dartmouth",
+      "home_score": 65,
+      "home_team": "Dartmouth"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Brown",
+      "game_id": "2016_02_12_brown_harvard",
+      "home_score": 79,
+      "home_team": "Harvard"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Central Arkansas",
+      "game_id": "2016_02_12_central_arkansas_incarnate_word",
+      "home_score": 71,
+      "home_team": "Incarnate Word"
+    },
+    {
+      "away_score": 67,
+      "away_team": "USC",
+      "game_id": "2016_02_12_usc_arizona_state",
+      "home_score": 74,
+      "home_team": "Arizona State"
+    },
+    {
+      "away_score": 75,
+      "away_team": "UCLA",
+      "game_id": "2016_02_12_ucla_arizona",
+      "home_score": 81,
+      "home_team": "Arizona"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Monmouth",
+      "game_id": "2016_02_12_monmouth_rider",
+      "home_score": 78,
+      "home_team": "Rider"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Grand Canyon",
+      "game_id": "2016_02_12_grand_canyon_seattle_u",
+      "home_score": 60,
+      "home_team": "Seattle U"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:38.781849Z"
+}

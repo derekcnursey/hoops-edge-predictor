@@ -1,0 +1,34 @@
+{
+  "date": "2024-03-28",
+  "games": [
+    {
+      "away_score": 77,
+      "away_team": "Clemson",
+      "game_id": "2024_03_28_clemson_arizona",
+      "home_score": 72,
+      "home_team": "Arizona"
+    },
+    {
+      "away_score": 52,
+      "away_team": "San Diego State",
+      "game_id": "2024_03_28_san_diego_state_uconn",
+      "home_score": 82,
+      "home_team": "UConn"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Alabama",
+      "game_id": "2024_03_28_alabama_north_carolina",
+      "home_score": 87,
+      "home_team": "North Carolina"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Illinois",
+      "game_id": "2024_03_28_illinois_iowa_state",
+      "home_score": 69,
+      "home_team": "Iowa State"
+    }
+  ],
+  "generated_at": "2026-02-28T22:40:04.080658Z"
+}

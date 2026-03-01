@@ -1,0 +1,125 @@
+{
+  "date": "2018-12-03",
+  "games": [
+    {
+      "away_score": 78,
+      "away_team": "Liberty",
+      "game_id": "2018_12_03_liberty_georgetown",
+      "home_score": 88,
+      "home_team": "Georgetown"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Iowa",
+      "game_id": "2018_12_03_iowa_michigan_state",
+      "home_score": 90,
+      "home_team": "Michigan State"
+    },
+    {
+      "away_score": 71,
+      "away_team": "UMBC",
+      "game_id": "2018_12_03_umbc_coppin_state",
+      "home_score": 60,
+      "home_team": "Coppin State"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Vermont",
+      "game_id": "2018_12_03_vermont_george_mason",
+      "home_score": 67,
+      "home_team": "George Mason"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Texas Southern",
+      "game_id": "2018_12_03_texas_southern_georgia",
+      "home_score": 92,
+      "home_team": "Georgia"
+    },
+    {
+      "away_score": 45,
+      "away_team": "Morgan State",
+      "game_id": "2018_12_03_morgan_state_virginia",
+      "home_score": 83,
+      "home_team": "Virginia"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Niagara",
+      "game_id": "2018_12_03_niagara_pittsburgh",
+      "home_score": 70,
+      "home_team": "Pittsburgh"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Reinhardt",
+      "game_id": "2018_12_03_reinhardt_east_tennessee_state",
+      "home_score": 107,
+      "home_team": "East Tennessee State"
+    },
+    {
+      "away_score": 75,
+      "away_team": "St. Joseph's (NY)",
+      "game_id": "2018_12_03_st_joseph_s_ny_st_francis_brooklyn",
+      "home_score": 104,
+      "home_team": "St. Francis Brooklyn"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Cairn University",
+      "game_id": "2018_12_03_cairn_university_delaware_state",
+      "home_score": 102,
+      "home_team": "Delaware State"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Rutgers",
+      "game_id": "2018_12_03_rutgers_wisconsin",
+      "home_score": 69,
+      "home_team": "Wisconsin"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Northwestern State",
+      "game_id": "2018_12_03_northwestern_state_texas_a_m",
+      "home_score": 80,
+      "home_team": "Texas A&M"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Troy",
+      "game_id": "2018_12_03_troy_florida_state",
+      "home_score": 83,
+      "home_team": "Florida State"
+    },
+    {
+      "away_score": 59,
+      "away_team": "North Dakota State",
+      "game_id": "2018_12_03_north_dakota_state_iowa_state",
+      "home_score": 81,
+      "home_team": "Iowa State"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Florida A&M",
+      "game_id": "2018_12_03_florida_a_m_depaul",
+      "home_score": 65,
+      "home_team": "DePaul"
+    },
+    {
+      "away_score": 52,
+      "away_team": "College of Idaho",
+      "game_id": "2018_12_03_college_of_idaho_montana",
+      "home_score": 80,
+      "home_team": "Montana"
+    },
+    {
+      "away_score": 90,
+      "away_team": "Cal State Northridge",
+      "game_id": "2018_12_03_cal_state_northridge_pepperdine",
+      "home_score": 83,
+      "home_team": "Pepperdine"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:22.309907Z"
+}

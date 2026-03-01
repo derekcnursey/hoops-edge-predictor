@@ -1,0 +1,27 @@
+{
+  "date": "2018-03-28",
+  "games": [
+    {
+      "away_score": 55,
+      "away_team": "San Francisco",
+      "game_id": "2018_03_28_san_francisco_north_texas",
+      "home_score": 69,
+      "home_team": "North Texas"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Sam Houston",
+      "game_id": "2018_03_28_sam_houston_northern_colorado",
+      "home_score": 99,
+      "home_team": "Northern Colorado"
+    },
+    {
+      "away_score": 67,
+      "away_team": "UIC",
+      "game_id": "2018_03_28_uic_liberty",
+      "home_score": 51,
+      "home_team": "Liberty"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:54.132453Z"
+}

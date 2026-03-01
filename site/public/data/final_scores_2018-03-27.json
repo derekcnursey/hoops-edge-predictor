@@ -1,0 +1,20 @@
+{
+  "date": "2018-03-27",
+  "games": [
+    {
+      "away_score": 64,
+      "away_team": "Western Kentucky",
+      "game_id": "2018_03_27_western_kentucky_utah",
+      "home_score": 69,
+      "home_team": "Utah"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Mississippi State",
+      "game_id": "2018_03_27_mississippi_state_penn_state",
+      "home_score": 75,
+      "home_team": "Penn State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:53.480777Z"
+}

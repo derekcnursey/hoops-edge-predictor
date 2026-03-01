@@ -1,0 +1,118 @@
+{
+  "date": "2025-02-14",
+  "games": [
+    {
+      "away_score": 56,
+      "away_team": "Columbia",
+      "game_id": "2025_02_14_columbia_dartmouth",
+      "home_score": 78,
+      "home_team": "Dartmouth"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Mount St. Mary's",
+      "game_id": "2025_02_14_mount_st_mary_s_niagara",
+      "home_score": 83,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Rider",
+      "game_id": "2025_02_14_rider_iona",
+      "home_score": 71,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Cornell",
+      "game_id": "2025_02_14_cornell_harvard",
+      "home_score": 75,
+      "home_team": "Harvard"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Princeton",
+      "game_id": "2025_02_14_princeton_brown",
+      "home_score": 70,
+      "home_team": "Brown"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Pennsylvania",
+      "game_id": "2025_02_14_pennsylvania_yale",
+      "home_score": 72,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 99,
+      "away_team": "Quinnipiac",
+      "game_id": "2025_02_14_quinnipiac_sacred_heart",
+      "home_score": 90,
+      "home_team": "Sacred Heart"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Marist",
+      "game_id": "2025_02_14_marist_siena",
+      "home_score": 64,
+      "home_team": "Siena"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Merrimack",
+      "game_id": "2025_02_14_merrimack_manhattan",
+      "home_score": 79,
+      "home_team": "Manhattan"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Fairfield",
+      "game_id": "2025_02_14_fairfield_saint_peter_s",
+      "home_score": 65,
+      "home_team": "Saint Peter's"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Ohio",
+      "game_id": "2025_02_14_ohio_kent_state",
+      "home_score": 76,
+      "home_team": "Kent State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Northern Kentucky",
+      "game_id": "2025_02_14_northern_kentucky_green_bay",
+      "home_score": 60,
+      "home_team": "Green Bay"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Saint Louis",
+      "game_id": "2025_02_14_saint_louis_loyola_chicago",
+      "home_score": 78,
+      "home_team": "Loyola Chicago"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Wright State",
+      "game_id": "2025_02_14_wright_state_milwaukee",
+      "home_score": 88,
+      "home_team": "Milwaukee"
+    },
+    {
+      "away_score": 72,
+      "away_team": "UCLA",
+      "game_id": "2025_02_14_ucla_indiana",
+      "home_score": 68,
+      "home_team": "Indiana"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Nevada",
+      "game_id": "2025_02_14_nevada_san_jos_state",
+      "home_score": 58,
+      "home_team": "San Jos\u00e9 State"
+    }
+  ],
+  "generated_at": "2026-02-28T23:30:04.992383Z"
+}

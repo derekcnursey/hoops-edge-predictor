@@ -1,0 +1,20 @@
+{
+  "date": "2024-04-02",
+  "games": [
+    {
+      "away_score": 90,
+      "away_team": "Utah",
+      "game_id": "2024_04_02_utah_indiana_state",
+      "home_score": 100,
+      "home_team": "Indiana State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Georgia",
+      "game_id": "2024_04_02_georgia_seton_hall",
+      "home_score": 84,
+      "home_team": "Seton Hall"
+    }
+  ],
+  "generated_at": "2026-02-28T22:40:06.811742Z"
+}

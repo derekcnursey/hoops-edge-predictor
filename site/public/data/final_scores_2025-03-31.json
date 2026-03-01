@@ -1,0 +1,34 @@
+{
+  "date": "2025-03-31",
+  "games": [
+    {
+      "away_score": 84,
+      "away_team": "Utah",
+      "game_id": "2025_03_31_utah_butler",
+      "home_score": 86,
+      "home_team": "Butler"
+    },
+    {
+      "away_score": 59,
+      "away_team": "George Washington",
+      "game_id": "2025_03_31_george_washington_boise_state",
+      "home_score": 89,
+      "home_team": "Boise State"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Nebraska",
+      "game_id": "2025_03_31_nebraska_arizona_state",
+      "home_score": 78,
+      "home_team": "Arizona State"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Washington State",
+      "game_id": "2025_03_31_washington_state_georgetown",
+      "home_score": 82,
+      "home_team": "Georgetown"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:48.264048Z"
+}

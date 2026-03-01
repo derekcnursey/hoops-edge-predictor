@@ -1,0 +1,41 @@
+{
+  "date": "2023-03-12",
+  "games": [
+    {
+      "away_score": 74,
+      "away_team": "Princeton",
+      "game_id": "2023_03_12_princeton_yale",
+      "home_score": 65,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Dayton",
+      "game_id": "2023_03_12_dayton_vcu",
+      "home_score": 68,
+      "home_team": "VCU"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Texas A&M",
+      "game_id": "2023_03_12_texas_a_m_alabama",
+      "home_score": 82,
+      "home_team": "Alabama"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Memphis",
+      "game_id": "2023_03_12_memphis_houston",
+      "home_score": 65,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Penn State",
+      "game_id": "2023_03_12_penn_state_purdue",
+      "home_score": 67,
+      "home_team": "Purdue"
+    }
+  ],
+  "generated_at": "2026-02-28T21:34:51.535981Z"
+}

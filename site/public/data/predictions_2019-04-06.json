@@ -1,0 +1,42 @@
+{
+  "date": "2019-04-06",
+  "games": [
+    {
+      "away_team": "Auburn",
+      "edge_home_points": -5.190053999423981,
+      "game_id": "2019_04_06_auburn_virginia",
+      "home_team": "Virginia",
+      "market_spread_home": -6.0,
+      "model_mu_home": 0.809946,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6912686546583522,
+      "pick_ev_per_1": 0.31969470434776326,
+      "pick_fair_odds": -223.90621007186087,
+      "pick_prob_edge": 0.16745913084882835,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.68108535,
+      "pred_sigma": 10.391547,
+      "start_time": "2019-04-06T22:09:00.000Z"
+    },
+    {
+      "away_team": "Texas Tech",
+      "edge_home_points": -2.5232273936271667,
+      "game_id": "2019_04_06_texas_tech_michigan_state",
+      "home_team": "Michigan State",
+      "market_spread_home": -2.0,
+      "model_mu_home": -0.5232274,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5976794948217703,
+      "pick_ev_per_1": 0.14102449011428875,
+      "pick_fair_odds": -148.55804939820197,
+      "pick_prob_edge": 0.07386997101224646,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.017603755,
+      "pred_sigma": 10.201235,
+      "start_time": "2019-04-07T00:49:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T22:36:12.765777Z"
+}

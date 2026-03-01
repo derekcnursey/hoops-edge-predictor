@@ -1,0 +1,42 @@
+{
+  "date": "2018-03-25",
+  "games": [
+    {
+      "away_team": "Texas Tech",
+      "edge_home_points": -2.725646495819092,
+      "game_id": "2018_03_25_texas_tech_villanova",
+      "home_team": "Villanova",
+      "market_spread_home": -6.0,
+      "model_mu_home": 3.2743535,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6173219837795347,
+      "pick_ev_per_1": 0.17852378721547535,
+      "pick_fair_odds": -161.31629140250595,
+      "pick_prob_edge": 0.0935124599700109,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.97628355,
+      "pred_sigma": 9.132525,
+      "start_time": "2018-03-25T18:20:00.000Z"
+    },
+    {
+      "away_team": "Duke",
+      "edge_home_points": -2.4619765281677246,
+      "game_id": "2018_03_25_duke_kansas",
+      "home_team": "Kansas",
+      "market_spread_home": 3.0,
+      "model_mu_home": -5.4619765,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5896240817841654,
+      "pick_ev_per_1": 0.12564597431522473,
+      "pick_fair_odds": -143.6790161439386,
+      "pick_prob_edge": 0.06581455797464153,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.30375677,
+      "pred_sigma": 10.865908,
+      "start_time": "2018-03-25T21:05:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:00.293362Z"
+}

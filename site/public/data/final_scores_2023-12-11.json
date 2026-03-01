@@ -1,0 +1,111 @@
+{
+  "date": "2023-12-11",
+  "games": [
+    {
+      "away_score": 61,
+      "away_team": "Gallaudet",
+      "game_id": "2023_12_11_gallaudet_longwood",
+      "home_score": 92,
+      "home_team": "Longwood"
+    },
+    {
+      "away_score": 99,
+      "away_team": "Northern Colorado",
+      "game_id": "2023_12_11_northern_colorado_east_texas_a_m",
+      "home_score": 101,
+      "home_team": "East Texas A&M"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Delaware",
+      "game_id": "2023_12_11_delaware_robert_morris",
+      "home_score": 69,
+      "home_team": "Robert Morris"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Mary Baldwin",
+      "game_id": "2023_12_11_mary_baldwin_hampton",
+      "home_score": 100,
+      "home_team": "Hampton"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Howard",
+      "game_id": "2023_12_11_howard_pennsylvania",
+      "home_score": 78,
+      "home_team": "Pennsylvania"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Columbia",
+      "game_id": "2023_12_11_columbia_fairleigh_dickinson",
+      "home_score": 83,
+      "home_team": "Fairleigh Dickinson"
+    },
+    {
+      "away_score": 60,
+      "away_team": "North Greenville",
+      "game_id": "2023_12_11_north_greenville_gardner_webb",
+      "home_score": 79,
+      "home_team": "Gardner-Webb"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Jacksonville",
+      "game_id": "2023_12_11_jacksonville_south_carolina_state",
+      "home_score": 86,
+      "home_team": "South Carolina State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Yale",
+      "game_id": "2023_12_11_yale_quinnipiac",
+      "home_score": 66,
+      "home_team": "Quinnipiac"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Stonehill",
+      "game_id": "2023_12_11_stonehill_new_hampshire",
+      "home_score": 75,
+      "home_team": "New Hampshire"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Alabama A&M",
+      "game_id": "2023_12_11_alabama_a_m_samford",
+      "home_score": 118,
+      "home_team": "Samford"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Jarvis Christian",
+      "game_id": "2023_12_11_jarvis_christian_texas_state",
+      "home_score": 107,
+      "home_team": "Texas State"
+    },
+    {
+      "away_score": 40,
+      "away_team": "Mississippi Valley State",
+      "game_id": "2023_12_11_mississippi_valley_state_gonzaga",
+      "home_score": 78,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Utah Tech",
+      "game_id": "2023_12_11_utah_tech_cal_state_northridge",
+      "home_score": 80,
+      "home_team": "Cal State Northridge"
+    },
+    {
+      "away_score": 72,
+      "away_team": "New Orleans",
+      "game_id": "2023_12_11_new_orleans_san_francisco",
+      "home_score": 85,
+      "home_team": "San Francisco"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:58.250100Z"
+}

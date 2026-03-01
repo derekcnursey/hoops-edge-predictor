@@ -1,0 +1,160 @@
+{
+  "date": "2017-01-03",
+  "games": [
+    {
+      "away_score": 54,
+      "away_team": "Buffalo",
+      "game_id": "2017_01_03_buffalo_toledo",
+      "home_score": 86,
+      "home_team": "Toledo"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Arkansas",
+      "game_id": "2017_01_03_arkansas_tennessee",
+      "home_score": 78,
+      "home_team": "Tennessee"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Northern Illinois",
+      "game_id": "2017_01_03_northern_illinois_miami_oh",
+      "home_score": 69,
+      "home_team": "Miami (OH)"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Bowling Green",
+      "game_id": "2017_01_03_bowling_green_akron",
+      "home_score": 89,
+      "home_team": "Akron"
+    },
+    {
+      "away_score": 90,
+      "away_team": "Ball State",
+      "game_id": "2017_01_03_ball_state_kent_state",
+      "home_score": 100,
+      "home_team": "Kent State"
+    },
+    {
+      "away_score": 70,
+      "away_team": "UNC Asheville",
+      "game_id": "2017_01_03_unc_asheville_liberty",
+      "home_score": 57,
+      "home_team": "Liberty"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Boston College",
+      "game_id": "2017_01_03_boston_college_wake_forest",
+      "home_score": 79,
+      "home_team": "Wake Forest"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Cal State Bakersfield",
+      "game_id": "2017_01_03_cal_state_bakersfield_dartmouth",
+      "home_score": 60,
+      "home_team": "Dartmouth"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Wisconsin",
+      "game_id": "2017_01_03_wisconsin_indiana",
+      "home_score": 68,
+      "home_team": "Indiana"
+    },
+    {
+      "away_score": 89,
+      "away_team": "North Carolina",
+      "game_id": "2017_01_03_north_carolina_clemson",
+      "home_score": 86,
+      "home_team": "Clemson"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Ole Miss",
+      "game_id": "2017_01_03_ole_miss_florida",
+      "home_score": 70,
+      "home_team": "Florida"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Middle Georgia State",
+      "game_id": "2017_01_03_middle_georgia_state_jacksonville",
+      "home_score": 124,
+      "home_team": "Jacksonville"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Saint Joseph's",
+      "game_id": "2017_01_03_saint_joseph_s_rhode_island",
+      "home_score": 88,
+      "home_team": "Rhode Island"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Western Michigan",
+      "game_id": "2017_01_03_western_michigan_ohio",
+      "home_score": 89,
+      "home_team": "Ohio"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Central Michigan",
+      "game_id": "2017_01_03_central_michigan_eastern_michigan",
+      "home_score": 85,
+      "home_team": "Eastern Michigan"
+    },
+    {
+      "away_score": 45,
+      "away_team": "East Carolina",
+      "game_id": "2017_01_03_east_carolina_ucf",
+      "home_score": 48,
+      "home_team": "UCF"
+    },
+    {
+      "away_score": 90,
+      "away_team": "Dayton",
+      "game_id": "2017_01_03_dayton_st_bonaventure",
+      "home_score": 74,
+      "home_team": "St. Bonaventure"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Alabama",
+      "game_id": "2017_01_03_alabama_mississippi_state",
+      "home_score": 58,
+      "home_team": "Mississippi State"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Oklahoma",
+      "game_id": "2017_01_03_oklahoma_tcu",
+      "home_score": 60,
+      "home_team": "TCU"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Kansas State",
+      "game_id": "2017_01_03_kansas_state_kansas",
+      "home_score": 90,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Texas A&M",
+      "game_id": "2017_01_03_texas_a_m_kentucky",
+      "home_score": 100,
+      "home_team": "Kentucky"
+    },
+    {
+      "away_score": 76,
+      "away_team": "West Virginia",
+      "game_id": "2017_01_03_west_virginia_texas_tech",
+      "home_score": 77,
+      "home_team": "Texas Tech"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:40.309255Z"
+}

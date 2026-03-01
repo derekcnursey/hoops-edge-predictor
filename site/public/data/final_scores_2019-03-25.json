@@ -1,0 +1,55 @@
+{
+  "date": "2019-03-25",
+  "games": [
+    {
+      "away_score": 109,
+      "away_team": "Coastal Carolina",
+      "game_id": "2019_03_25_coastal_carolina_west_virginia",
+      "home_score": 91,
+      "home_team": "West Virginia"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Utah Valley",
+      "game_id": "2019_03_25_utah_valley_south_florida",
+      "home_score": 66,
+      "home_team": "South Florida"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Longwood",
+      "game_id": "2019_03_25_longwood_depaul",
+      "home_score": 97,
+      "home_team": "DePaul"
+    },
+    {
+      "away_score": 94,
+      "away_team": "Texas Southern",
+      "game_id": "2019_03_25_texas_southern_ut_rio_grande_valley",
+      "home_score": 85,
+      "home_team": "UT Rio Grande Valley"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Cal State Bakersfield",
+      "game_id": "2019_03_25_cal_state_bakersfield_southern_utah",
+      "home_score": 67,
+      "home_team": "Southern Utah"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Norfolk State",
+      "game_id": "2019_03_25_norfolk_state_colorado",
+      "home_score": 76,
+      "home_team": "Colorado"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Brown",
+      "game_id": "2019_03_25_brown_loyola_marymount",
+      "home_score": 81,
+      "home_team": "Loyola Marymount"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:28.710593Z"
+}

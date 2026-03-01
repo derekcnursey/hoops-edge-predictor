@@ -1,0 +1,90 @@
+{
+  "date": "2020-12-26",
+  "games": [
+    {
+      "away_score": 59,
+      "away_team": "Kentucky",
+      "game_id": "2020_12_26_kentucky_louisville",
+      "home_score": 62,
+      "home_team": "Louisville"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Houston",
+      "game_id": "2020_12_26_houston_ucf",
+      "home_score": 54,
+      "home_team": "UCF"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Youngstown State",
+      "game_id": "2020_12_26_youngstown_state_cleveland_state",
+      "home_score": 87,
+      "home_team": "Cleveland State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Coppin State",
+      "game_id": "2020_12_26_coppin_state_towson",
+      "home_score": 78,
+      "home_team": "Towson"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Ohio State",
+      "game_id": "2020_12_26_ohio_state_northwestern",
+      "home_score": 71,
+      "home_team": "Northwestern"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Nicholls",
+      "game_id": "2020_12_26_nicholls_lsu",
+      "home_score": 86,
+      "home_team": "LSU"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Green Bay",
+      "game_id": "2020_12_26_green_bay_wright_state",
+      "home_score": 67,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Virginia",
+      "game_id": "2020_12_26_virginia_gonzaga",
+      "home_score": 98,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Indiana",
+      "game_id": "2020_12_26_indiana_illinois",
+      "home_score": 69,
+      "home_team": "Illinois"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Norfolk State",
+      "game_id": "2020_12_26_norfolk_state_george_mason",
+      "home_score": 65,
+      "home_team": "George Mason"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Oakland",
+      "game_id": "2020_12_26_oakland_detroit_mercy",
+      "home_score": 75,
+      "home_team": "Detroit Mercy"
+    },
+    {
+      "away_score": 102,
+      "away_team": "Robert Morris",
+      "game_id": "2020_12_26_robert_morris_purdue_fort_wayne",
+      "home_score": 88,
+      "home_team": "Purdue Fort Wayne"
+    }
+  ],
+  "generated_at": "2026-02-28T21:31:09.562327Z"
+}

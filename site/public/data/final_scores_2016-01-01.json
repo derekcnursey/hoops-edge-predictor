@@ -1,0 +1,69 @@
+{
+  "date": "2016-01-01",
+  "games": [
+    {
+      "away_score": 80,
+      "away_team": "Western Illinois",
+      "game_id": "2016_01_01_western_illinois_omaha",
+      "home_score": 82,
+      "home_team": "Omaha"
+    },
+    {
+      "away_score": 77,
+      "away_team": "IU Indianapolis",
+      "game_id": "2016_01_01_iu_indianapolis_south_dakota",
+      "home_score": 66,
+      "home_team": "South Dakota"
+    },
+    {
+      "away_score": 70,
+      "away_team": "North Texas",
+      "game_id": "2016_01_01_north_texas_utsa",
+      "home_score": 66,
+      "home_team": "UTSA"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Denver",
+      "game_id": "2016_01_01_denver_south_dakota_state",
+      "home_score": 68,
+      "home_team": "South Dakota State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Utah",
+      "game_id": "2016_01_01_utah_stanford",
+      "home_score": 70,
+      "home_team": "Stanford"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Rice",
+      "game_id": "2016_01_01_rice_utep",
+      "home_score": 61,
+      "home_team": "UTEP"
+    },
+    {
+      "away_score": 90,
+      "away_team": "USC",
+      "game_id": "2016_01_01_usc_washington_state",
+      "home_score": 77,
+      "home_team": "Washington State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Colorado",
+      "game_id": "2016_01_01_colorado_california",
+      "home_score": 79,
+      "home_team": "California"
+    },
+    {
+      "away_score": 93,
+      "away_team": "UCLA",
+      "game_id": "2016_01_01_ucla_washington",
+      "home_score": 96,
+      "home_team": "Washington"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:13.936997Z"
+}

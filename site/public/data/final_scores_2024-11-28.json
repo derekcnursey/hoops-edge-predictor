@@ -1,0 +1,160 @@
+{
+  "date": "2024-11-28",
+  "games": [
+    {
+      "away_score": 69,
+      "away_team": "Northwestern",
+      "game_id": "2024_11_28_northwestern_butler",
+      "home_score": 71,
+      "home_team": "Butler"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Kennesaw State",
+      "game_id": "2024_11_28_kennesaw_state_uc_irvine",
+      "home_score": 76,
+      "home_team": "UC Irvine"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Davidson",
+      "game_id": "2024_11_28_davidson_providence",
+      "home_score": 58,
+      "home_team": "Providence"
+    },
+    {
+      "away_score": 48,
+      "away_team": "Northern Iowa",
+      "game_id": "2024_11_28_northern_iowa_north_texas",
+      "home_score": 68,
+      "home_team": "North Texas"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Saint Mary's",
+      "game_id": "2024_11_28_saint_mary_s_usc",
+      "home_score": 36,
+      "home_team": "USC"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Mississippi State",
+      "game_id": "2024_11_28_mississippi_state_unlv",
+      "home_score": 58,
+      "home_team": "UNLV"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Kent State",
+      "game_id": "2024_11_28_kent_state_towson",
+      "home_score": 54,
+      "home_team": "Towson"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Arizona State",
+      "game_id": "2024_11_28_arizona_state_new_mexico",
+      "home_score": 82,
+      "home_team": "New Mexico"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Houston",
+      "game_id": "2024_11_28_houston_notre_dame",
+      "home_score": 54,
+      "home_team": "Notre Dame"
+    },
+    {
+      "away_score": 70,
+      "away_team": "West Virginia",
+      "game_id": "2024_11_28_west_virginia_louisville",
+      "home_score": 79,
+      "home_team": "Louisville"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Minnesota",
+      "game_id": "2024_11_28_minnesota_wichita_state",
+      "home_score": 68,
+      "home_team": "Wichita State"
+    },
+    {
+      "away_score": 78,
+      "away_team": "UT Arlington",
+      "game_id": "2024_11_28_ut_arlington_rhode_island",
+      "home_score": 83,
+      "home_team": "Rhode Island"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Florida",
+      "game_id": "2024_11_28_florida_wake_forest",
+      "home_score": 58,
+      "home_team": "Wake Forest"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Gonzaga",
+      "game_id": "2024_11_28_gonzaga_indiana",
+      "home_score": 73,
+      "home_team": "Indiana"
+    },
+    {
+      "away_score": 61,
+      "away_team": "NC State",
+      "game_id": "2024_11_28_nc_state_purdue",
+      "home_score": 71,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Utah Valley",
+      "game_id": "2024_11_28_utah_valley_north_dakota_state",
+      "home_score": 83,
+      "home_team": "North Dakota State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Santa Clara",
+      "game_id": "2024_11_28_santa_clara_tcu",
+      "home_score": 52,
+      "home_team": "TCU"
+    },
+    {
+      "away_score": 90,
+      "away_team": "Illinois",
+      "game_id": "2024_11_28_illinois_arkansas",
+      "home_score": 77,
+      "home_team": "Arkansas"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Arizona",
+      "game_id": "2024_11_28_arizona_oklahoma",
+      "home_score": 82,
+      "home_team": "Oklahoma"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Utah State",
+      "game_id": "2024_11_28_utah_state_st_bonaventure",
+      "home_score": 67,
+      "home_team": "St. Bonaventure"
+    },
+    {
+      "away_score": 85,
+      "away_team": "BYU",
+      "game_id": "2024_11_28_byu_ole_miss",
+      "home_score": 96,
+      "home_team": "Ole Miss"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Washington",
+      "game_id": "2024_11_28_washington_colorado_state",
+      "home_score": 67,
+      "home_team": "Colorado State"
+    }
+  ],
+  "generated_at": "2026-02-28T23:29:17.348833Z"
+}

@@ -1,0 +1,90 @@
+{
+  "date": "2022-01-03",
+  "games": [
+    {
+      "away_score": 84,
+      "away_team": "Alabama State",
+      "game_id": "2022_01_03_alabama_state_mississippi_valley_state",
+      "home_score": 75,
+      "home_team": "Mississippi Valley State"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Towson",
+      "game_id": "2022_01_03_towson_drexel",
+      "home_score": 65,
+      "home_team": "Drexel"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Wisconsin",
+      "game_id": "2022_01_03_wisconsin_purdue",
+      "home_score": 69,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Florida A&M",
+      "game_id": "2022_01_03_florida_a_m_bethune_cookman",
+      "home_score": 66,
+      "home_team": "Bethune-Cookman"
+    },
+    {
+      "away_score": 78,
+      "away_team": "UT Rio Grande Valley",
+      "game_id": "2022_01_03_ut_rio_grande_valley_sam_houston",
+      "home_score": 86,
+      "home_team": "Sam Houston"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Washington",
+      "game_id": "2022_01_03_washington_arizona",
+      "home_score": 95,
+      "home_team": "Arizona"
+    },
+    {
+      "away_score": 48,
+      "away_team": "Dallas Christian",
+      "game_id": "2022_01_03_dallas_christian_utsa",
+      "home_score": 101,
+      "home_team": "UTSA"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Ecclesia",
+      "game_id": "2022_01_03_ecclesia_houston_christian",
+      "home_score": 94,
+      "home_team": "Houston Christian"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Texas Southern",
+      "game_id": "2022_01_03_texas_southern_southern",
+      "home_score": 63,
+      "home_team": "Southern"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Alabama A&M",
+      "game_id": "2022_01_03_alabama_a_m_arkansas_pine_bluff",
+      "home_score": 50,
+      "home_team": "Arkansas-Pine Bluff"
+    },
+    {
+      "away_score": 0,
+      "away_team": "Prairie View A&M",
+      "game_id": "2022_01_03_prairie_view_a_m_grambling",
+      "home_score": 2,
+      "home_team": "Grambling"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Maryland",
+      "game_id": "2022_01_03_maryland_iowa",
+      "home_score": 80,
+      "home_team": "Iowa"
+    }
+  ],
+  "generated_at": "2026-02-28T21:32:38.107821Z"
+}

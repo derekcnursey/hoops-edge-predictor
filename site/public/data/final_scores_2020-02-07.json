@@ -1,0 +1,90 @@
+{
+  "date": "2020-02-07",
+  "games": [
+    {
+      "away_score": 78,
+      "away_team": "Harvard",
+      "game_id": "2020_02_07_harvard_yale",
+      "home_score": 77,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Davidson",
+      "game_id": "2020_02_07_davidson_vcu",
+      "home_score": 73,
+      "home_team": "VCU"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Canisius",
+      "game_id": "2020_02_07_canisius_rider",
+      "home_score": 61,
+      "home_team": "Rider"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Fairfield",
+      "game_id": "2020_02_07_fairfield_siena",
+      "home_score": 65,
+      "home_team": "Siena"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Niagara",
+      "game_id": "2020_02_07_niagara_manhattan",
+      "home_score": 77,
+      "home_team": "Manhattan"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Saint Peter's",
+      "game_id": "2020_02_07_saint_peter_s_marist",
+      "home_score": 72,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Dartmouth",
+      "game_id": "2020_02_07_dartmouth_brown",
+      "home_score": 67,
+      "home_team": "Brown"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Kent State",
+      "game_id": "2020_02_07_kent_state_northern_illinois",
+      "home_score": 57,
+      "home_team": "Northern Illinois"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Iona",
+      "game_id": "2020_02_07_iona_quinnipiac",
+      "home_score": 52,
+      "home_team": "Quinnipiac"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Maryland",
+      "game_id": "2020_02_07_maryland_illinois",
+      "home_score": 66,
+      "home_team": "Illinois"
+    },
+    {
+      "away_score": 70,
+      "away_team": "South Alabama",
+      "game_id": "2020_02_07_south_alabama_troy",
+      "home_score": 66,
+      "home_team": "Troy"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Central Michigan",
+      "game_id": "2020_02_07_central_michigan_buffalo",
+      "home_score": 65,
+      "home_team": "Buffalo"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:41.850807Z"
+}

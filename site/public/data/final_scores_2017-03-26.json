@@ -1,0 +1,34 @@
+{
+  "date": "2017-03-26",
+  "games": [
+    {
+      "away_score": 68,
+      "away_team": "Liberty",
+      "game_id": "2017_03_26_liberty_umbc",
+      "home_score": 80,
+      "home_team": "UMBC"
+    },
+    {
+      "away_score": 77,
+      "away_team": "South Carolina",
+      "game_id": "2017_03_26_south_carolina_florida",
+      "home_score": 70,
+      "home_team": "Florida"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Purdue Fort Wayne",
+      "game_id": "2017_03_26_purdue_fort_wayne_texas_a_m_corpus_christi",
+      "home_score": 78,
+      "home_team": "Texas A&M-Corpus Christi"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Kentucky",
+      "game_id": "2017_03_26_kentucky_north_carolina",
+      "home_score": 75,
+      "home_team": "North Carolina"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:27.639791Z"
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2019-03-31",
+  "games": [
+    {
+      "away_score": 77,
+      "away_team": "Auburn",
+      "game_id": "2019_03_31_auburn_kentucky",
+      "home_score": 71,
+      "home_team": "Kentucky"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Michigan State",
+      "game_id": "2019_03_31_michigan_state_duke",
+      "home_score": 67,
+      "home_team": "Duke"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:32.240556Z"
+}

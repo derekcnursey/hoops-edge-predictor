@@ -1,0 +1,27 @@
+{
+  "date": "2023-03-22",
+  "games": [
+    {
+      "away_score": 71,
+      "away_team": "Charlotte",
+      "game_id": "2023_03_22_charlotte_eastern_kentucky",
+      "home_score": 68,
+      "home_team": "Eastern Kentucky"
+    },
+    {
+      "away_score": 67,
+      "away_team": "UAB",
+      "game_id": "2023_03_22_uab_vanderbilt",
+      "home_score": 59,
+      "home_team": "Vanderbilt"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Cincinnati",
+      "game_id": "2023_03_22_cincinnati_utah_valley",
+      "home_score": 74,
+      "home_team": "Utah Valley"
+    }
+  ],
+  "generated_at": "2026-02-28T21:34:57.557357Z"
+}

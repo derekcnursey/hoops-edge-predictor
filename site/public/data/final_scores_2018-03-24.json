@@ -1,0 +1,27 @@
+{
+  "date": "2018-03-24",
+  "games": [
+    {
+      "away_score": 71,
+      "away_team": "Central Michigan",
+      "game_id": "2018_03_24_central_michigan_liberty",
+      "home_score": 84,
+      "home_team": "Liberty"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Loyola Chicago",
+      "game_id": "2018_03_24_loyola_chicago_kansas_state",
+      "home_score": 62,
+      "home_team": "Kansas State"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Florida State",
+      "game_id": "2018_03_24_florida_state_michigan",
+      "home_score": 58,
+      "home_team": "Michigan"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:51.732320Z"
+}

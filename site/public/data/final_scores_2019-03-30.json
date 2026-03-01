@@ -1,0 +1,20 @@
+{
+  "date": "2019-03-30",
+  "games": [
+    {
+      "away_score": 75,
+      "away_team": "Texas Tech",
+      "game_id": "2019_03_30_texas_tech_gonzaga",
+      "home_score": 69,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Purdue",
+      "game_id": "2019_03_30_purdue_virginia",
+      "home_score": 80,
+      "home_team": "Virginia"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:31.644983Z"
+}

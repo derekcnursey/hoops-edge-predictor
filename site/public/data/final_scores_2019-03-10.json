@@ -1,0 +1,160 @@
+{
+  "date": "2019-03-10",
+  "games": [
+    {
+      "away_score": 85,
+      "away_team": "Houston",
+      "game_id": "2019_03_10_houston_cincinnati",
+      "home_score": 69,
+      "home_team": "Cincinnati"
+    },
+    {
+      "away_score": 67,
+      "away_team": "James Madison",
+      "game_id": "2019_03_10_james_madison_hofstra",
+      "home_score": 76,
+      "home_team": "Hofstra"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Rutgers",
+      "game_id": "2019_03_10_rutgers_indiana",
+      "home_score": 89,
+      "home_team": "Indiana"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Illinois",
+      "game_id": "2019_03_10_illinois_penn_state",
+      "home_score": 72,
+      "home_team": "Penn State"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Navy",
+      "game_id": "2019_03_10_navy_colgate",
+      "home_score": 80,
+      "home_team": "Colgate"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Gardner-Webb",
+      "game_id": "2019_03_10_gardner_webb_radford",
+      "home_score": 65,
+      "home_team": "Radford"
+    },
+    {
+      "away_score": 82,
+      "away_team": "UConn",
+      "game_id": "2019_03_10_uconn_east_carolina",
+      "home_score": 73,
+      "home_team": "East Carolina"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Lehigh",
+      "game_id": "2019_03_10_lehigh_bucknell",
+      "home_score": 97,
+      "home_team": "Bucknell"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Iowa",
+      "game_id": "2019_03_10_iowa_nebraska",
+      "home_score": 93,
+      "home_team": "Nebraska"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Northern Iowa",
+      "game_id": "2019_03_10_northern_iowa_bradley",
+      "home_score": 57,
+      "home_team": "Bradley"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Delaware",
+      "game_id": "2019_03_10_delaware_william_mary",
+      "home_score": 79,
+      "home_team": "William & Mary"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Liberty",
+      "game_id": "2019_03_10_liberty_lipscomb",
+      "home_score": 68,
+      "home_team": "Lipscomb"
+    },
+    {
+      "away_score": 77,
+      "away_team": "SMU",
+      "game_id": "2019_03_10_smu_south_florida",
+      "home_score": 71,
+      "home_team": "South Florida"
+    },
+    {
+      "away_score": 72,
+      "away_team": "East Tennessee State",
+      "game_id": "2019_03_10_east_tennessee_state_wofford",
+      "home_score": 81,
+      "home_team": "Wofford"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Wisconsin",
+      "game_id": "2019_03_10_wisconsin_ohio_state",
+      "home_score": 67,
+      "home_team": "Ohio State"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Siena",
+      "game_id": "2019_03_10_siena_iona",
+      "home_score": 73,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 59,
+      "away_team": "UNC Wilmington",
+      "game_id": "2019_03_10_unc_wilmington_northeastern",
+      "home_score": 80,
+      "home_team": "Northeastern"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Furman",
+      "game_id": "2019_03_10_furman_unc_greensboro",
+      "home_score": 66,
+      "home_team": "UNC Greensboro"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Oral Roberts",
+      "game_id": "2019_03_10_oral_roberts_north_dakota_state",
+      "home_score": 86,
+      "home_team": "North Dakota State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Monmouth",
+      "game_id": "2019_03_10_monmouth_canisius",
+      "home_score": 59,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Drexel",
+      "game_id": "2019_03_10_drexel_charleston",
+      "home_score": 73,
+      "home_team": "Charleston"
+    },
+    {
+      "away_score": 70,
+      "away_team": "South Dakota",
+      "game_id": "2019_03_10_south_dakota_purdue_fort_wayne",
+      "home_score": 96,
+      "home_team": "Purdue Fort Wayne"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:19.522813Z"
+}

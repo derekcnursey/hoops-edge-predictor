@@ -1,0 +1,244 @@
+{
+  "date": "2019-11-10",
+  "games": [
+    {
+      "away_score": 74,
+      "away_team": "Boston College",
+      "game_id": "2019_11_10_boston_college_south_florida",
+      "home_score": 60,
+      "home_team": "South Florida"
+    },
+    {
+      "away_score": 32,
+      "away_team": "Wyoming",
+      "game_id": "2019_11_10_wyoming_south_carolina",
+      "home_score": 66,
+      "home_team": "South Carolina"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Cornell",
+      "game_id": "2019_11_10_cornell_bryant",
+      "home_score": 82,
+      "home_team": "Bryant"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Southern Illinois",
+      "game_id": "2019_11_10_southern_illinois_oakland",
+      "home_score": 61,
+      "home_team": "Oakland"
+    },
+    {
+      "away_score": 39,
+      "away_team": "Niagara",
+      "game_id": "2019_11_10_niagara_rutgers",
+      "home_score": 86,
+      "home_team": "Rutgers"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Florida State",
+      "game_id": "2019_11_10_florida_state_florida",
+      "home_score": 51,
+      "home_team": "Florida"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Saint Joseph's",
+      "game_id": "2019_11_10_saint_joseph_s_old_dominion",
+      "home_score": 82,
+      "home_team": "Old Dominion"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Mississippi Valley State",
+      "game_id": "2019_11_10_mississippi_valley_state_central_michigan",
+      "home_score": 134,
+      "home_team": "Central Michigan"
+    },
+    {
+      "away_score": 96,
+      "away_team": "Toledo",
+      "game_id": "2019_11_10_toledo_marshall",
+      "home_score": 70,
+      "home_team": "Marshall"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Abilene Christian",
+      "game_id": "2019_11_10_abilene_christian_drexel",
+      "home_score": 86,
+      "home_team": "Drexel"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Vermont",
+      "game_id": "2019_11_10_vermont_bucknell",
+      "home_score": 63,
+      "home_team": "Bucknell"
+    },
+    {
+      "away_score": 46,
+      "away_team": "Maine",
+      "game_id": "2019_11_10_maine_harvard",
+      "home_score": 67,
+      "home_team": "Harvard"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Maryland Eastern Shore",
+      "game_id": "2019_11_10_maryland_eastern_shore_liberty",
+      "home_score": 66,
+      "home_team": "Liberty"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Columbia",
+      "game_id": "2019_11_10_columbia_wake_forest",
+      "home_score": 65,
+      "home_team": "Wake Forest"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Youngstown State",
+      "game_id": "2019_11_10_youngstown_state_louisville",
+      "home_score": 78,
+      "home_team": "Louisville"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Alabama State",
+      "game_id": "2019_11_10_alabama_state_missouri_state",
+      "home_score": 59,
+      "home_team": "Missouri State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Colgate",
+      "game_id": "2019_11_10_colgate_clemson",
+      "home_score": 81,
+      "home_team": "Clemson"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Carver College",
+      "game_id": "2019_11_10_carver_college_north_alabama",
+      "home_score": 95,
+      "home_team": "North Alabama"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Delaware",
+      "game_id": "2019_11_10_delaware_utsa",
+      "home_score": 79,
+      "home_team": "UTSA"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Little Rock",
+      "game_id": "2019_11_10_little_rock_illinois_state",
+      "home_score": 75,
+      "home_team": "Illinois State"
+    },
+    {
+      "away_score": 56,
+      "away_team": "UMass Lowell",
+      "game_id": "2019_11_10_umass_lowell_ohio_state",
+      "home_score": 76,
+      "home_team": "Ohio State"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Montana State-Northern",
+      "game_id": "2019_11_10_montana_state_northern_montana",
+      "home_score": 64,
+      "home_team": "Montana"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Detroit Mercy",
+      "game_id": "2019_11_10_detroit_mercy_nc_state",
+      "home_score": 84,
+      "home_team": "NC State"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Washington College (MD)",
+      "game_id": "2019_11_10_washington_college_md_navy",
+      "home_score": 87,
+      "home_team": "Navy"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Portland",
+      "game_id": "2019_11_10_portland_san_jos_state",
+      "home_score": 57,
+      "home_team": "San Jos\u00e9 State"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Winthrop",
+      "game_id": "2019_11_10_winthrop_fresno_state",
+      "home_score": 77,
+      "home_team": "Fresno State"
+    },
+    {
+      "away_score": 40,
+      "away_team": "Wayland Baptist",
+      "game_id": "2019_11_10_wayland_baptist_rice",
+      "home_score": 65,
+      "home_team": "Rice"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Purdue Fort Wayne",
+      "game_id": "2019_11_10_purdue_fort_wayne_southeast_missouri_state",
+      "home_score": 79,
+      "home_team": "Southeast Missouri State"
+    },
+    {
+      "away_score": 34,
+      "away_team": "James Madison",
+      "game_id": "2019_11_10_james_madison_virginia",
+      "home_score": 65,
+      "home_team": "Virginia"
+    },
+    {
+      "away_score": 61,
+      "away_team": "UC Santa Barbara",
+      "game_id": "2019_11_10_uc_santa_barbara_ucla",
+      "home_score": 77,
+      "home_team": "UCLA"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Binghamton",
+      "game_id": "2019_11_10_binghamton_michigan_state",
+      "home_score": 100,
+      "home_team": "Michigan State"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Florida A&M",
+      "game_id": "2019_11_10_florida_a_m_pacific",
+      "home_score": 76,
+      "home_team": "Pacific"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Illinois",
+      "game_id": "2019_11_10_illinois_arizona",
+      "home_score": 90,
+      "home_team": "Arizona"
+    },
+    {
+      "away_score": 81,
+      "away_team": "South Dakota",
+      "game_id": "2019_11_10_south_dakota_hawai_i",
+      "home_score": 75,
+      "home_team": "Hawai'i"
+    }
+  ],
+  "generated_at": "2026-02-28T23:27:49.676130Z"
+}

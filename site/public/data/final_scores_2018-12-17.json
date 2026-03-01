@@ -1,0 +1,167 @@
+{
+  "date": "2018-12-17",
+  "games": [
+    {
+      "away_score": 63,
+      "away_team": "Davidson",
+      "game_id": "2018_12_17_davidson_wake_forest",
+      "home_score": 67,
+      "home_team": "Wake Forest"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Wilmington (DE)",
+      "game_id": "2018_12_17_wilmington_de_morgan_state",
+      "home_score": 85,
+      "home_team": "Morgan State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Southeast Missouri State",
+      "game_id": "2018_12_17_southeast_missouri_state_florida_state",
+      "home_score": 85,
+      "home_team": "Florida State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Arizona State",
+      "game_id": "2018_12_17_arizona_state_vanderbilt",
+      "home_score": 81,
+      "home_team": "Vanderbilt"
+    },
+    {
+      "away_score": 85,
+      "away_team": "NC Wesleyan",
+      "game_id": "2018_12_17_nc_wesleyan_high_point",
+      "home_score": 90,
+      "home_team": "High Point"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Longwood",
+      "game_id": "2018_12_17_longwood_cornell",
+      "home_score": 70,
+      "home_team": "Cornell"
+    },
+    {
+      "away_score": 48,
+      "away_team": "Covenant",
+      "game_id": "2018_12_17_covenant_lipscomb",
+      "home_score": 119,
+      "home_team": "Lipscomb"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Houston Christian",
+      "game_id": "2018_12_17_houston_christian_samford",
+      "home_score": 85,
+      "home_team": "Samford"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Gardner-Webb",
+      "game_id": "2018_12_17_gardner_webb_georgia_tech",
+      "home_score": 69,
+      "home_team": "Georgia Tech"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Ball State",
+      "game_id": "2018_12_17_ball_state_valparaiso",
+      "home_score": 61,
+      "home_team": "Valparaiso"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Florida A&M",
+      "game_id": "2018_12_17_florida_a_m_utah",
+      "home_score": 93,
+      "home_team": "Utah"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Incarnate Word",
+      "game_id": "2018_12_17_incarnate_word_uic",
+      "home_score": 63,
+      "home_team": "UIC"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Bethany (KS)",
+      "game_id": "2018_12_17_bethany_ks_utsa",
+      "home_score": 101,
+      "home_team": "UTSA"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Texas Southern",
+      "game_id": "2018_12_17_texas_southern_tulane",
+      "home_score": 77,
+      "home_team": "Tulane"
+    },
+    {
+      "away_score": 66,
+      "away_team": "SIU Edwardsville",
+      "game_id": "2018_12_17_siu_edwardsville_drake",
+      "home_score": 79,
+      "home_team": "Drake"
+    },
+    {
+      "away_score": 73,
+      "away_team": "California Baptist",
+      "game_id": "2018_12_17_california_baptist_se_louisiana",
+      "home_score": 52,
+      "home_team": "SE Louisiana"
+    },
+    {
+      "away_score": 53,
+      "away_team": "North Dakota State",
+      "game_id": "2018_12_17_north_dakota_state_montana",
+      "home_score": 60,
+      "home_team": "Montana"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Western Illinois",
+      "game_id": "2018_12_17_western_illinois_northern_illinois",
+      "home_score": 91,
+      "home_team": "Northern Illinois"
+    },
+    {
+      "away_score": 46,
+      "away_team": "Chicago State",
+      "game_id": "2018_12_17_chicago_state_northwestern",
+      "home_score": 88,
+      "home_team": "Northwestern"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Northern Colorado",
+      "game_id": "2018_12_17_northern_colorado_new_mexico_state",
+      "home_score": 74,
+      "home_team": "New Mexico State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Pepperdine",
+      "game_id": "2018_12_17_pepperdine_oregon_state",
+      "home_score": 82,
+      "home_team": "Oregon State"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Rider",
+      "game_id": "2018_12_17_rider_washington_state",
+      "home_score": 94,
+      "home_team": "Washington State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Seattle U",
+      "game_id": "2018_12_17_seattle_u_portland",
+      "home_score": 56,
+      "home_team": "Portland"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:30.857166Z"
+}

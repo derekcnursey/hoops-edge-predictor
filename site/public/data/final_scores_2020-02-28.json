@@ -1,0 +1,97 @@
+{
+  "date": "2020-02-28",
+  "games": [
+    {
+      "away_score": 69,
+      "away_team": "Kent State",
+      "game_id": "2020_02_28_kent_state_ohio",
+      "home_score": 76,
+      "home_team": "Ohio"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Pennsylvania",
+      "game_id": "2020_02_28_pennsylvania_yale",
+      "home_score": 76,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Dartmouth",
+      "game_id": "2020_02_28_dartmouth_cornell",
+      "home_score": 70,
+      "home_team": "Cornell"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Harvard",
+      "game_id": "2020_02_28_harvard_columbia",
+      "home_score": 69,
+      "home_team": "Columbia"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Princeton",
+      "game_id": "2020_02_28_princeton_brown",
+      "home_score": 49,
+      "home_team": "Brown"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Siena",
+      "game_id": "2020_02_28_siena_marist",
+      "home_score": 50,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Wright State",
+      "game_id": "2020_02_28_wright_state_northern_kentucky",
+      "home_score": 62,
+      "home_team": "Northern Kentucky"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Quinnipiac",
+      "game_id": "2020_02_28_quinnipiac_fairfield",
+      "home_score": 58,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Georgia Southern",
+      "game_id": "2020_02_28_georgia_southern_georgia_state",
+      "home_score": 70,
+      "home_team": "Georgia State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Davidson",
+      "game_id": "2020_02_28_davidson_dayton",
+      "home_score": 82,
+      "home_team": "Dayton"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Monmouth",
+      "game_id": "2020_02_28_monmouth_rider",
+      "home_score": 79,
+      "home_team": "Rider"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Texas State",
+      "game_id": "2020_02_28_texas_state_ut_arlington",
+      "home_score": 85,
+      "home_team": "UT Arlington"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Washington State",
+      "game_id": "2020_02_28_washington_state_washington",
+      "home_score": 74,
+      "home_team": "Washington"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:54.853100Z"
+}

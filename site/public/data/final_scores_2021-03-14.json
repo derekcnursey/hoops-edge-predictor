@@ -1,0 +1,41 @@
+{
+  "date": "2021-03-14",
+  "games": [
+    {
+      "away_score": 72,
+      "away_team": "Loyola Maryland",
+      "game_id": "2021_03_14_loyola_maryland_colgate",
+      "home_score": 85,
+      "home_team": "Colgate"
+    },
+    {
+      "away_score": 65,
+      "away_team": "VCU",
+      "game_id": "2021_03_14_vcu_st_bonaventure",
+      "home_score": 74,
+      "home_team": "St. Bonaventure"
+    },
+    {
+      "away_score": 79,
+      "away_team": "LSU",
+      "game_id": "2021_03_14_lsu_alabama",
+      "home_score": 80,
+      "home_team": "Alabama"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Cincinnati",
+      "game_id": "2021_03_14_cincinnati_houston",
+      "home_score": 91,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Ohio State",
+      "game_id": "2021_03_14_ohio_state_illinois",
+      "home_score": 91,
+      "home_team": "Illinois"
+    }
+  ],
+  "generated_at": "2026-02-28T21:31:53.946775Z"
+}

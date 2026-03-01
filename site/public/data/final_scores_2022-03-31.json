@@ -1,0 +1,13 @@
+{
+  "date": "2022-03-31",
+  "games": [
+    {
+      "away_score": 73,
+      "away_team": "Xavier",
+      "game_id": "2022_03_31_xavier_texas_a_m",
+      "home_score": 72,
+      "home_team": "Texas A&M"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:28.608663Z"
+}

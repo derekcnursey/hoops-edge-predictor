@@ -1,0 +1,20 @@
+{
+  "date": "2024-04-06",
+  "games": [
+    {
+      "away_score": 50,
+      "away_team": "NC State",
+      "game_id": "2024_04_06_nc_state_purdue",
+      "home_score": 63,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Alabama",
+      "game_id": "2024_04_06_alabama_uconn",
+      "home_score": 86,
+      "home_team": "UConn"
+    }
+  ],
+  "generated_at": "2026-02-28T22:40:08.237005Z"
+}

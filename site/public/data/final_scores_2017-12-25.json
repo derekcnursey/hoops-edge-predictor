@@ -1,0 +1,34 @@
+{
+  "date": "2017-12-25",
+  "games": [
+    {
+      "away_score": 78,
+      "away_team": "Akron",
+      "game_id": "2017_12_25_akron_davidson",
+      "home_score": 91,
+      "home_team": "Davidson"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Princeton",
+      "game_id": "2017_12_25_princeton_hawai_i",
+      "home_score": 63,
+      "home_team": "Hawai'i"
+    },
+    {
+      "away_score": 77,
+      "away_team": "USC",
+      "game_id": "2017_12_25_usc_new_mexico_state",
+      "home_score": 72,
+      "home_team": "New Mexico State"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Middle Tennessee",
+      "game_id": "2017_12_25_middle_tennessee_miami",
+      "home_score": 84,
+      "home_team": "Miami"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:59.431801Z"
+}

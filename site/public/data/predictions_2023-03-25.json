@@ -1,0 +1,42 @@
+{
+  "date": "2023-03-25",
+  "games": [
+    {
+      "away_team": "Florida Atlantic",
+      "edge_home_points": -4.863869667053223,
+      "game_id": "2023_03_25_florida_atlantic_kansas_state",
+      "home_team": "Kansas State",
+      "market_spread_home": -0.5,
+      "model_mu_home": -4.3638697,
+      "neutral_site": null,
+      "pick_cover_prob": 0.656300559505394,
+      "pick_ev_per_1": 0.25293743178302486,
+      "pick_fair_odds": -190.9518847516698,
+      "pick_prob_edge": 0.13249103569587017,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.05458712,
+      "pred_sigma": 12.087527,
+      "start_time": "2023-03-25T22:09:00.000Z"
+    },
+    {
+      "away_team": "UConn",
+      "edge_home_points": 1.041355013847351,
+      "game_id": "2023_03_25_uconn_gonzaga",
+      "home_team": "Gonzaga",
+      "market_spread_home": 2.5,
+      "model_mu_home": -1.458645,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5366303904124571,
+      "pick_ev_per_1": 0.024476199878327165,
+      "pick_fair_odds": -115.81044145085937,
+      "pick_prob_edge": 0.012820866602933245,
+      "pick_side": "HOME",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.18592285,
+      "pred_sigma": 11.325457,
+      "start_time": "2023-03-26T00:59:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T21:23:35.909512Z"
+}

@@ -1,0 +1,132 @@
+{
+  "date": "2019-03-12",
+  "games": [
+    {
+      "away_score": 71,
+      "away_team": "Wake Forest",
+      "game_id": "2019_03_12_wake_forest_miami",
+      "home_score": 79,
+      "home_team": "Miami"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Notre Dame",
+      "game_id": "2019_03_12_notre_dame_georgia_tech",
+      "home_score": 71,
+      "home_team": "Georgia Tech"
+    },
+    {
+      "away_score": 63,
+      "away_team": "South Carolina State",
+      "game_id": "2019_03_12_south_carolina_state_maryland_eastern_shore",
+      "home_score": 54,
+      "home_team": "Maryland Eastern Shore"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Fairleigh Dickinson",
+      "game_id": "2019_03_12_fairleigh_dickinson_st_francis_pa",
+      "home_score": 76,
+      "home_team": "St. Francis (PA)"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Binghamton",
+      "game_id": "2019_03_12_binghamton_vermont",
+      "home_score": 84,
+      "home_team": "Vermont"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Northern Kentucky",
+      "game_id": "2019_03_12_northern_kentucky_wright_state",
+      "home_score": 66,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Pittsburgh",
+      "game_id": "2019_03_12_pittsburgh_boston_college",
+      "home_score": 70,
+      "home_team": "Boston College"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Hartford",
+      "game_id": "2019_03_12_hartford_umbc",
+      "home_score": 90,
+      "home_team": "UMBC"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Northeastern",
+      "game_id": "2019_03_12_northeastern_hofstra",
+      "home_score": 74,
+      "home_team": "Hofstra"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Arkansas State",
+      "game_id": "2019_03_12_arkansas_state_south_alabama",
+      "home_score": 75,
+      "home_team": "South Alabama"
+    },
+    {
+      "away_score": 80,
+      "away_team": "App State",
+      "game_id": "2019_03_12_app_state_ul_monroe",
+      "home_score": 89,
+      "home_team": "UL Monroe"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Arkansas-Pine Bluff",
+      "game_id": "2019_03_12_arkansas_pine_bluff_grambling",
+      "home_score": 59,
+      "home_team": "Grambling"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Morgan State",
+      "game_id": "2019_03_12_morgan_state_coppin_state",
+      "home_score": 81,
+      "home_team": "Coppin State"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Southern",
+      "game_id": "2019_03_12_southern_texas_southern",
+      "home_score": 80,
+      "home_team": "Texas Southern"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Alcorn State",
+      "game_id": "2019_03_12_alcorn_state_prairie_view_a_m",
+      "home_score": 86,
+      "home_team": "Prairie View A&M"
+    },
+    {
+      "away_score": 73,
+      "away_team": "North Dakota State",
+      "game_id": "2019_03_12_north_dakota_state_omaha",
+      "home_score": 63,
+      "home_team": "Omaha"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Saint Mary's",
+      "game_id": "2019_03_12_saint_mary_s_gonzaga",
+      "home_score": 47,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Alabama State",
+      "game_id": "2019_03_12_alabama_state_jackson_state",
+      "home_score": 49,
+      "home_team": "Jackson State"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:20.708909Z"
+}

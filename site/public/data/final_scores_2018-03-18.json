@@ -1,0 +1,90 @@
+{
+  "date": "2018-03-18",
+  "games": [
+    {
+      "away_score": 78,
+      "away_team": "Mississippi State",
+      "game_id": "2018_03_18_mississippi_state_baylor",
+      "home_score": 77,
+      "home_team": "Baylor"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Butler",
+      "game_id": "2018_03_18_butler_purdue",
+      "home_score": 76,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Syracuse",
+      "game_id": "2018_03_18_syracuse_michigan_state",
+      "home_score": 53,
+      "home_team": "Michigan State"
+    },
+    {
+      "away_score": 92,
+      "away_team": "Oregon",
+      "game_id": "2018_03_18_oregon_marquette",
+      "home_score": 101,
+      "home_team": "Marquette"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Drake",
+      "game_id": "2018_03_18_drake_northern_colorado",
+      "home_score": 81,
+      "home_team": "Northern Colorado"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Texas A&M",
+      "game_id": "2018_03_18_texas_a_m_north_carolina",
+      "home_score": 65,
+      "home_team": "North Carolina"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Nevada",
+      "game_id": "2018_03_18_nevada_cincinnati",
+      "home_score": 73,
+      "home_team": "Cincinnati"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Middle Tennessee",
+      "game_id": "2018_03_18_middle_tennessee_louisville",
+      "home_score": 84,
+      "home_team": "Louisville"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Clemson",
+      "game_id": "2018_03_18_clemson_auburn",
+      "home_score": 53,
+      "home_team": "Auburn"
+    },
+    {
+      "away_score": 43,
+      "away_team": "UMBC",
+      "game_id": "2018_03_18_umbc_kansas_state",
+      "home_score": 50,
+      "home_team": "Kansas State"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Florida State",
+      "game_id": "2018_03_18_florida_state_xavier",
+      "home_score": 70,
+      "home_team": "Xavier"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Marshall",
+      "game_id": "2018_03_18_marshall_west_virginia",
+      "home_score": 94,
+      "home_team": "West Virginia"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:48.616270Z"
+}

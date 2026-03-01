@@ -1,0 +1,48 @@
+{
+  "date": "2022-03-21",
+  "games": [
+    {
+      "away_score": 75,
+      "away_team": "Drake",
+      "game_id": "2022_03_21_drake_unc_wilmington",
+      "home_score": 76,
+      "home_team": "UNC Wilmington"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Northern Colorado",
+      "game_id": "2022_03_21_northern_colorado_unc_asheville",
+      "home_score": 84,
+      "home_team": "UNC Asheville"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Middle Tennessee",
+      "game_id": "2022_03_21_middle_tennessee_boston_university",
+      "home_score": 46,
+      "home_team": "Boston University"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Florida Gulf Coast",
+      "game_id": "2022_03_21_florida_gulf_coast_coastal_carolina",
+      "home_score": 84,
+      "home_team": "Coastal Carolina"
+    },
+    {
+      "away_score": 79,
+      "away_team": "South Carolina Upstate",
+      "game_id": "2022_03_21_south_carolina_upstate_south_alabama",
+      "home_score": 83,
+      "home_team": "South Alabama"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Ohio",
+      "game_id": "2022_03_21_ohio_abilene_christian",
+      "home_score": 91,
+      "home_team": "Abilene Christian"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:23.523295Z"
+}

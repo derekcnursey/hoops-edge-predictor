@@ -1,0 +1,139 @@
+{
+  "date": "2023-02-20",
+  "games": [
+    {
+      "away_score": 66,
+      "away_team": "UC San Diego",
+      "game_id": "2023_02_20_uc_san_diego_uc_davis",
+      "home_score": 76,
+      "home_team": "UC Davis"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Oklahoma State",
+      "game_id": "2023_02_20_oklahoma_state_west_virginia",
+      "home_score": 85,
+      "home_team": "West Virginia"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Louisville",
+      "game_id": "2023_02_20_louisville_duke",
+      "home_score": 79,
+      "home_team": "Duke"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Southwestern Assemblies of God",
+      "game_id": "2023_02_20_southwestern_assemblies_of_god_ut_rio_grande_valley",
+      "home_score": 113,
+      "home_team": "UT Rio Grande Valley"
+    },
+    {
+      "away_score": 68,
+      "away_team": "North Carolina Central",
+      "game_id": "2023_02_20_north_carolina_central_maryland_eastern_shore",
+      "home_score": 63,
+      "home_team": "Maryland Eastern Shore"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Coppin State",
+      "game_id": "2023_02_20_coppin_state_norfolk_state",
+      "home_score": 62,
+      "home_team": "Norfolk State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "South Carolina State",
+      "game_id": "2023_02_20_south_carolina_state_delaware_state",
+      "home_score": 69,
+      "home_team": "Delaware State"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Howard",
+      "game_id": "2023_02_20_howard_morgan_state",
+      "home_score": 89,
+      "home_team": "Morgan State"
+    },
+    {
+      "away_score": 72,
+      "away_team": "East Texas A&M",
+      "game_id": "2023_02_20_east_texas_a_m_nicholls",
+      "home_score": 71,
+      "home_team": "Nicholls"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Hawai'i",
+      "game_id": "2023_02_20_hawai_i_cal_state_bakersfield",
+      "home_score": 50,
+      "home_team": "Cal State Bakersfield"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Bethune-Cookman",
+      "game_id": "2023_02_20_bethune_cookman_alabama_state",
+      "home_score": 65,
+      "home_team": "Alabama State"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Arkansas-Pine Bluff",
+      "game_id": "2023_02_20_arkansas_pine_bluff_texas_southern",
+      "home_score": 64,
+      "home_team": "Texas Southern"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Kansas",
+      "game_id": "2023_02_20_kansas_tcu",
+      "home_score": 58,
+      "home_team": "TCU"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Mississippi Valley State",
+      "game_id": "2023_02_20_mississippi_valley_state_prairie_view_a_m",
+      "home_score": 67,
+      "home_team": "Prairie View A&M"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Florida A&M",
+      "game_id": "2023_02_20_florida_a_m_alabama_a_m",
+      "home_score": 71,
+      "home_team": "Alabama A&M"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Minnesota",
+      "game_id": "2023_02_20_minnesota_illinois",
+      "home_score": 78,
+      "home_team": "Illinois"
+    },
+    {
+      "away_score": 59,
+      "away_team": "UC Irvine",
+      "game_id": "2023_02_20_uc_irvine_cal_poly",
+      "home_score": 56,
+      "home_team": "Cal Poly"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Cal State Fullerton",
+      "game_id": "2023_02_20_cal_state_fullerton_uc_santa_barbara",
+      "home_score": 60,
+      "home_team": "UC Santa Barbara"
+    },
+    {
+      "away_score": 96,
+      "away_team": "UC Riverside",
+      "game_id": "2023_02_20_uc_riverside_cal_state_northridge",
+      "home_score": 76,
+      "home_team": "Cal State Northridge"
+    }
+  ],
+  "generated_at": "2026-02-28T21:34:39.218459Z"
+}

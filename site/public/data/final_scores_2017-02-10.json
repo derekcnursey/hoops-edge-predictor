@@ -1,0 +1,76 @@
+{
+  "date": "2017-02-10",
+  "games": [
+    {
+      "away_score": 79,
+      "away_team": "Ohio",
+      "game_id": "2017_02_10_ohio_ball_state",
+      "home_score": 77,
+      "home_team": "Ball State"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Cornell",
+      "game_id": "2017_02_10_cornell_princeton",
+      "home_score": 69,
+      "home_team": "Princeton"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Dartmouth",
+      "game_id": "2017_02_10_dartmouth_yale",
+      "home_score": 73,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Dayton",
+      "game_id": "2017_02_10_dayton_rhode_island",
+      "home_score": 74,
+      "home_team": "Rhode Island"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Columbia",
+      "game_id": "2017_02_10_columbia_pennsylvania",
+      "home_score": 70,
+      "home_team": "Pennsylvania"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Oakland",
+      "game_id": "2017_02_10_oakland_detroit_mercy",
+      "home_score": 80,
+      "home_team": "Detroit Mercy"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Harvard",
+      "game_id": "2017_02_10_harvard_brown",
+      "home_score": 74,
+      "home_team": "Brown"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Akron",
+      "game_id": "2017_02_10_akron_eastern_michigan",
+      "home_score": 76,
+      "home_team": "Eastern Michigan"
+    },
+    {
+      "away_score": 94,
+      "away_team": "Niagara",
+      "game_id": "2017_02_10_niagara_canisius",
+      "home_score": 81,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Monmouth",
+      "game_id": "2017_02_10_monmouth_manhattan",
+      "home_score": 58,
+      "home_team": "Manhattan"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:02.301317Z"
+}

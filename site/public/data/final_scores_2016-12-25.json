@@ -1,0 +1,34 @@
+{
+  "date": "2016-12-25",
+  "games": [
+    {
+      "away_score": 66,
+      "away_team": "Stephen F. Austin",
+      "game_id": "2016_12_25_stephen_f_austin_utah",
+      "home_score": 74,
+      "home_team": "Utah"
+    },
+    {
+      "away_score": 46,
+      "away_team": "Southern Miss",
+      "game_id": "2016_12_25_southern_miss_hawai_i",
+      "home_score": 60,
+      "home_team": "Hawai'i"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Tulsa",
+      "game_id": "2016_12_25_tulsa_illinois_state",
+      "home_score": 68,
+      "home_team": "Illinois State"
+    },
+    {
+      "away_score": 62,
+      "away_team": "San Diego State",
+      "game_id": "2016_12_25_san_diego_state_san_francisco",
+      "home_score": 48,
+      "home_team": "San Francisco"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:35.139254Z"
+}

@@ -1,0 +1,153 @@
+{
+  "date": "2019-12-02",
+  "games": [
+    {
+      "away_score": 81,
+      "away_team": "Holy Cross",
+      "game_id": "2019_12_02_holy_cross_mercer",
+      "home_score": 67,
+      "home_team": "Mercer"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Hofstra",
+      "game_id": "2019_12_02_hofstra_canisius",
+      "home_score": 57,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 83,
+      "away_team": "San Diego",
+      "game_id": "2019_12_02_san_diego_uic",
+      "home_score": 89,
+      "home_team": "UIC"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Luther",
+      "game_id": "2019_12_02_luther_northern_iowa",
+      "home_score": 110,
+      "home_team": "Northern Iowa"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Columbia",
+      "game_id": "2019_12_02_columbia_delaware",
+      "home_score": 84,
+      "home_team": "Delaware"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Manhattan",
+      "game_id": "2019_12_02_manhattan_stony_brook",
+      "home_score": 65,
+      "home_team": "Stony Brook"
+    },
+    {
+      "away_score": 46,
+      "away_team": "Kennesaw State",
+      "game_id": "2019_12_02_kennesaw_state_elon",
+      "home_score": 70,
+      "home_team": "Elon"
+    },
+    {
+      "away_score": 70,
+      "away_team": "High Point",
+      "game_id": "2019_12_02_high_point_north_florida",
+      "home_score": 93,
+      "home_team": "North Florida"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Miami",
+      "game_id": "2019_12_02_miami_illinois",
+      "home_score": 79,
+      "home_team": "Illinois"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Furman",
+      "game_id": "2019_12_02_furman_south_florida",
+      "home_score": 65,
+      "home_team": "South Florida"
+    },
+    {
+      "away_score": 59,
+      "away_team": "North Carolina Central",
+      "game_id": "2019_12_02_north_carolina_central_wofford",
+      "home_score": 77,
+      "home_team": "Wofford"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Reinhardt",
+      "game_id": "2019_12_02_reinhardt_tennessee_tech",
+      "home_score": 86,
+      "home_team": "Tennessee Tech"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Arlington Baptist",
+      "game_id": "2019_12_02_arlington_baptist_stephen_f_austin",
+      "home_score": 114,
+      "home_team": "Stephen F. Austin"
+    },
+    {
+      "away_score": 45,
+      "away_team": "Navy",
+      "game_id": "2019_12_02_navy_bryant",
+      "home_score": 60,
+      "home_team": "Bryant"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Campbellsville-Harrodsburg",
+      "game_id": "2019_12_02_campbellsville_harrodsburg_nicholls",
+      "home_score": 120,
+      "home_team": "Nicholls"
+    },
+    {
+      "away_score": 71,
+      "away_team": "St. Bonaventure",
+      "game_id": "2019_12_02_st_bonaventure_florida_atlantic",
+      "home_score": 64,
+      "home_team": "Florida Atlantic"
+    },
+    {
+      "away_score": 77,
+      "away_team": "North Texas",
+      "game_id": "2019_12_02_north_texas_ut_arlington",
+      "home_score": 66,
+      "home_team": "UT Arlington"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Florida A&M",
+      "game_id": "2019_12_02_florida_a_m_kansas_state",
+      "home_score": 76,
+      "home_team": "Kansas State"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Clemson",
+      "game_id": "2019_12_02_clemson_minnesota",
+      "home_score": 78,
+      "home_team": "Minnesota"
+    },
+    {
+      "away_score": 28,
+      "away_team": "Trinity Baptist",
+      "game_id": "2019_12_02_trinity_baptist_liberty",
+      "home_score": 87,
+      "home_team": "Liberty"
+    },
+    {
+      "away_score": 55,
+      "away_team": "South Dakota",
+      "game_id": "2019_12_02_south_dakota_washington",
+      "home_score": 75,
+      "home_team": "Washington"
+    }
+  ],
+  "generated_at": "2026-02-28T23:28:02.713425Z"
+}

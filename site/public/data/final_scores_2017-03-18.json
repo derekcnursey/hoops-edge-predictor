@@ -1,0 +1,76 @@
+{
+  "date": "2017-03-18",
+  "games": [
+    {
+      "away_score": 85,
+      "away_team": "Ole Miss",
+      "game_id": "2017_03_18_ole_miss_syracuse",
+      "home_score": 80,
+      "home_team": "Syracuse"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Notre Dame",
+      "game_id": "2017_03_18_notre_dame_west_virginia",
+      "home_score": 83,
+      "home_team": "West Virginia"
+    },
+    {
+      "away_score": 79,
+      "away_team": "St. Francis (PA)",
+      "game_id": "2017_03_18_st_francis_pa_umbc",
+      "home_score": 87,
+      "home_team": "UMBC"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Wisconsin",
+      "game_id": "2017_03_18_wisconsin_villanova",
+      "home_score": 62,
+      "home_team": "Villanova"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Northwestern",
+      "game_id": "2017_03_18_northwestern_gonzaga",
+      "home_score": 79,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Xavier",
+      "game_id": "2017_03_18_xavier_florida_state",
+      "home_score": 66,
+      "home_team": "Florida State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Middle Tennessee",
+      "game_id": "2017_03_18_middle_tennessee_butler",
+      "home_score": 74,
+      "home_team": "Butler"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Saint Mary's",
+      "game_id": "2017_03_18_saint_mary_s_arizona",
+      "home_score": 69,
+      "home_team": "Arizona"
+    },
+    {
+      "away_score": 39,
+      "away_team": "Virginia",
+      "game_id": "2017_03_18_virginia_florida",
+      "home_score": 65,
+      "home_team": "Florida"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Iowa State",
+      "game_id": "2017_03_18_iowa_state_purdue",
+      "home_score": 80,
+      "home_team": "Purdue"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:23.150611Z"
+}

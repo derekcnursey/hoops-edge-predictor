@@ -1,0 +1,55 @@
+{
+  "date": "2021-12-23",
+  "games": [
+    {
+      "away_score": 63,
+      "away_team": "Wagner",
+      "game_id": "2021_12_23_wagner_fairfield",
+      "home_score": 50,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 52,
+      "away_team": "St. Xavier  (IL)",
+      "game_id": "2021_12_23_st_xavier_il_milwaukee",
+      "home_score": 74,
+      "home_team": "Milwaukee"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Liberty",
+      "game_id": "2021_12_23_liberty_stanford",
+      "home_score": 79,
+      "home_team": "Stanford"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Westmont",
+      "game_id": "2021_12_23_westmont_pepperdine",
+      "home_score": 96,
+      "home_team": "Pepperdine"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Fresno State",
+      "game_id": "2021_12_23_fresno_state_weber_state",
+      "home_score": 43,
+      "home_team": "Weber State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Northern Iowa",
+      "game_id": "2021_12_23_northern_iowa_wyoming",
+      "home_score": 71,
+      "home_team": "Wyoming"
+    },
+    {
+      "away_score": 67,
+      "away_team": "BYU",
+      "game_id": "2021_12_23_byu_vanderbilt",
+      "home_score": 69,
+      "home_team": "Vanderbilt"
+    }
+  ],
+  "generated_at": "2026-02-28T21:32:31.435158Z"
+}

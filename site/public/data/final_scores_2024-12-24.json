@@ -1,0 +1,13 @@
+{
+  "date": "2024-12-24",
+  "games": [
+    {
+      "away_score": 90,
+      "away_team": "Murray State",
+      "game_id": "2024_12_24_murray_state_charlotte",
+      "home_score": 94,
+      "home_team": "Charlotte"
+    }
+  ],
+  "generated_at": "2026-02-28T23:29:33.147354Z"
+}

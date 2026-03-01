@@ -1,0 +1,104 @@
+{
+  "date": "2023-03-18",
+  "games": [
+    {
+      "away_score": 67,
+      "away_team": "Indiana State",
+      "game_id": "2023_03_18_indiana_state_south_carolina_upstate",
+      "home_score": 62,
+      "home_team": "South Carolina Upstate"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Michigan",
+      "game_id": "2023_03_18_michigan_vanderbilt",
+      "home_score": 66,
+      "home_team": "Vanderbilt"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Furman",
+      "game_id": "2023_03_18_furman_san_diego_state",
+      "home_score": 75,
+      "home_team": "San Diego State"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Southern Utah",
+      "game_id": "2023_03_18_southern_utah_north_alabama",
+      "home_score": 50,
+      "home_team": "North Alabama"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Cincinnati",
+      "game_id": "2023_03_18_cincinnati_hofstra",
+      "home_score": 65,
+      "home_team": "Hofstra"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Duke",
+      "game_id": "2023_03_18_duke_tennessee",
+      "home_score": 65,
+      "home_team": "Tennessee"
+    },
+    {
+      "away_score": 77,
+      "away_team": "San Jos\u00e9 State",
+      "game_id": "2023_03_18_san_jos_state_southern_indiana",
+      "home_score": 52,
+      "home_team": "Southern Indiana"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Arkansas",
+      "game_id": "2023_03_18_arkansas_kansas",
+      "home_score": 71,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Charlotte",
+      "game_id": "2023_03_18_charlotte_western_carolina",
+      "home_score": 56,
+      "home_team": "Western Carolina"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Princeton",
+      "game_id": "2023_03_18_princeton_missouri",
+      "home_score": 63,
+      "home_team": "Missouri"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Auburn",
+      "game_id": "2023_03_18_auburn_houston",
+      "home_score": 81,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Penn State",
+      "game_id": "2023_03_18_penn_state_texas",
+      "home_score": 71,
+      "home_team": "Texas"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Northwestern",
+      "game_id": "2023_03_18_northwestern_ucla",
+      "home_score": 68,
+      "home_team": "UCLA"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Maryland",
+      "game_id": "2023_03_18_maryland_alabama",
+      "home_score": 73,
+      "home_team": "Alabama"
+    }
+  ],
+  "generated_at": "2026-02-28T21:34:55.215914Z"
+}

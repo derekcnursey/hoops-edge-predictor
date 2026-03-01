@@ -1,0 +1,41 @@
+{
+  "date": "2025-03-16",
+  "games": [
+    {
+      "away_score": 84,
+      "away_team": "Cornell",
+      "game_id": "2025_03_16_cornell_yale",
+      "home_score": 90,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 63,
+      "away_team": "George Mason",
+      "game_id": "2025_03_16_george_mason_vcu",
+      "home_score": 68,
+      "home_team": "VCU"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Tennessee",
+      "game_id": "2025_03_16_tennessee_florida",
+      "home_score": 86,
+      "home_team": "Florida"
+    },
+    {
+      "away_score": 72,
+      "away_team": "UAB",
+      "game_id": "2025_03_16_uab_memphis",
+      "home_score": 84,
+      "home_team": "Memphis"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Wisconsin",
+      "game_id": "2025_03_16_wisconsin_michigan",
+      "home_score": 59,
+      "home_team": "Michigan"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:40.204591Z"
+}

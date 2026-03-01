@@ -1,0 +1,83 @@
+{
+  "date": "2016-12-08",
+  "games": [
+    {
+      "away_score": 62,
+      "away_team": "Fordham",
+      "game_id": "2016_12_08_fordham_st_john_s",
+      "home_score": 90,
+      "home_team": "St. John's"
+    },
+    {
+      "away_score": 48,
+      "away_team": "Pacific",
+      "game_id": "2016_12_08_pacific_massachusetts",
+      "home_score": 72,
+      "home_team": "Massachusetts"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Arkansas-Pine Bluff",
+      "game_id": "2016_12_08_arkansas_pine_bluff_little_rock",
+      "home_score": 67,
+      "home_team": "Little Rock"
+    },
+    {
+      "away_score": 48,
+      "away_team": "Vanderbilt",
+      "game_id": "2016_12_08_vanderbilt_middle_tennessee",
+      "home_score": 71,
+      "home_team": "Middle Tennessee"
+    },
+    {
+      "away_score": 40,
+      "away_team": "Delaware State",
+      "game_id": "2016_12_08_delaware_state_north_texas",
+      "home_score": 73,
+      "home_team": "North Texas"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Iowa State",
+      "game_id": "2016_12_08_iowa_state_iowa",
+      "home_score": 78,
+      "home_team": "Iowa"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Yale",
+      "game_id": "2016_12_08_yale_sacred_heart",
+      "home_score": 52,
+      "home_team": "Sacred Heart"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Nicholls",
+      "game_id": "2016_12_08_nicholls_florida_state",
+      "home_score": 118,
+      "home_team": "Florida State"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Great Falls",
+      "game_id": "2016_12_08_great_falls_eastern_washington",
+      "home_score": 103,
+      "home_team": "Eastern Washington"
+    },
+    {
+      "away_score": 65,
+      "away_team": "UT Arlington",
+      "game_id": "2016_12_08_ut_arlington_saint_mary_s",
+      "home_score": 51,
+      "home_team": "Saint Mary's"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Southern Utah",
+      "game_id": "2016_12_08_southern_utah_loyola_marymount",
+      "home_score": 75,
+      "home_team": "Loyola Marymount"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:25.047913Z"
+}

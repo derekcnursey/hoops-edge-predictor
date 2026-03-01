@@ -1,0 +1,62 @@
+{
+  "date": "2024-12-23",
+  "games": [
+    {
+      "away_score": 30,
+      "away_team": "Penn State Scranton",
+      "game_id": "2024_12_23_penn_state_scranton_wagner",
+      "home_score": 120,
+      "home_team": "Wagner"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Aquinas",
+      "game_id": "2024_12_23_aquinas_bowling_green",
+      "home_score": 87,
+      "home_team": "Bowling Green"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Charleston",
+      "game_id": "2024_12_23_charleston_loyola_chicago",
+      "home_score": 68,
+      "home_team": "Loyola Chicago"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Middle Tennessee",
+      "game_id": "2024_12_23_middle_tennessee_tennessee",
+      "home_score": 82,
+      "home_team": "Tennessee"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Oregon State",
+      "game_id": "2024_12_23_oregon_state_oakland",
+      "home_score": 74,
+      "home_team": "Oakland"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Cal State Bakersfield",
+      "game_id": "2024_12_23_cal_state_bakersfield_north_dakota_state",
+      "home_score": 94,
+      "home_team": "North Dakota State"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Seattle U",
+      "game_id": "2024_12_23_seattle_u_washington",
+      "home_score": 70,
+      "home_team": "Washington"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Nebraska",
+      "game_id": "2024_12_23_nebraska_hawai_i",
+      "home_score": 55,
+      "home_team": "Hawai'i"
+    }
+  ],
+  "generated_at": "2026-02-28T23:29:32.383974Z"
+}

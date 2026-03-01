@@ -1,0 +1,20 @@
+{
+  "date": "2016-03-30",
+  "games": [
+    {
+      "away_score": 68,
+      "away_team": "Morehead State",
+      "game_id": "2016_03_30_morehead_state_nevada",
+      "home_score": 77,
+      "home_team": "Nevada"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Oakland",
+      "game_id": "2016_03_30_oakland_old_dominion",
+      "home_score": 68,
+      "home_team": "Old Dominion"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:06.873379Z"
+}

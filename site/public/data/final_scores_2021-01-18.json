@@ -1,0 +1,104 @@
+{
+  "date": "2021-01-18",
+  "games": [
+    {
+      "away_score": 69,
+      "away_team": "UNC Wilmington",
+      "game_id": "2021_01_18_unc_wilmington_towson",
+      "home_score": 72,
+      "home_team": "Towson"
+    },
+    {
+      "away_score": 74,
+      "away_team": "St. John's",
+      "game_id": "2021_01_18_st_john_s_uconn",
+      "home_score": 70,
+      "home_team": "UConn"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Sacramento State",
+      "game_id": "2021_01_18_sacramento_state_idaho_state",
+      "home_score": 65,
+      "home_team": "Idaho State"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Western Carolina",
+      "game_id": "2021_01_18_western_carolina_samford",
+      "home_score": 82,
+      "home_team": "Samford"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Saint Joseph's",
+      "game_id": "2021_01_18_saint_joseph_s_la_salle",
+      "home_score": 90,
+      "home_team": "La Salle"
+    },
+    {
+      "away_score": 48,
+      "away_team": "Arkansas-Pine Bluff",
+      "game_id": "2021_01_18_arkansas_pine_bluff_alcorn_state",
+      "home_score": 82,
+      "home_team": "Alcorn State"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Mississippi Valley State",
+      "game_id": "2021_01_18_mississippi_valley_state_southern",
+      "home_score": 102,
+      "home_team": "Southern"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Florida State",
+      "game_id": "2021_01_18_florida_state_louisville",
+      "home_score": 65,
+      "home_team": "Louisville"
+    },
+    {
+      "away_score": 81,
+      "away_team": "VMI",
+      "game_id": "2021_01_18_vmi_east_tennessee_state",
+      "home_score": 92,
+      "home_team": "East Tennessee State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "The Citadel",
+      "game_id": "2021_01_18_the_citadel_unc_greensboro",
+      "home_score": 87,
+      "home_team": "UNC Greensboro"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Wyoming",
+      "game_id": "2021_01_18_wyoming_air_force",
+      "home_score": 58,
+      "home_team": "Air Force"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Kansas",
+      "game_id": "2021_01_18_kansas_baylor",
+      "home_score": 77,
+      "home_team": "Baylor"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Grambling",
+      "game_id": "2021_01_18_grambling_prairie_view_a_m",
+      "home_score": 59,
+      "home_team": "Prairie View A&M"
+    },
+    {
+      "away_score": 46,
+      "away_team": "New Mexico",
+      "game_id": "2021_01_18_new_mexico_unlv",
+      "home_score": 53,
+      "home_team": "UNLV"
+    }
+  ],
+  "generated_at": "2026-02-28T21:31:22.516132Z"
+}

@@ -1,0 +1,41 @@
+{
+  "date": "2024-03-17",
+  "games": [
+    {
+      "away_score": 61,
+      "away_team": "Brown",
+      "game_id": "2024_03_17_brown_yale",
+      "home_score": 62,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Florida",
+      "game_id": "2024_03_17_florida_auburn",
+      "home_score": 86,
+      "home_team": "Auburn"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Duquesne",
+      "game_id": "2024_03_17_duquesne_vcu",
+      "home_score": 51,
+      "home_team": "VCU"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Temple",
+      "game_id": "2024_03_17_temple_uab",
+      "home_score": 85,
+      "home_team": "UAB"
+    },
+    {
+      "away_score": 87,
+      "away_team": "Wisconsin",
+      "game_id": "2024_03_17_wisconsin_illinois",
+      "home_score": 93,
+      "home_team": "Illinois"
+    }
+  ],
+  "generated_at": "2026-02-28T22:39:58.052270Z"
+}

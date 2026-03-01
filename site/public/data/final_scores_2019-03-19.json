@@ -1,0 +1,111 @@
+{
+  "date": "2019-03-19",
+  "games": [
+    {
+      "away_score": 82,
+      "away_team": "Fairleigh Dickinson",
+      "game_id": "2019_03_19_fairleigh_dickinson_prairie_view_a_m",
+      "home_score": 76,
+      "home_team": "Prairie View A&M"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Campbell",
+      "game_id": "2019_03_19_campbell_unc_greensboro",
+      "home_score": 84,
+      "home_team": "UNC Greensboro"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Cornell",
+      "game_id": "2019_03_19_cornell_robert_morris",
+      "home_score": 98,
+      "home_team": "Robert Morris"
+    },
+    {
+      "away_score": 73,
+      "away_team": "IU Indianapolis",
+      "game_id": "2019_03_19_iu_indianapolis_marshall",
+      "home_score": 78,
+      "home_team": "Marshall"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Hofstra",
+      "game_id": "2019_03_19_hofstra_nc_state",
+      "home_score": 84,
+      "home_team": "NC State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Wright State",
+      "game_id": "2019_03_19_wright_state_clemson",
+      "home_score": 75,
+      "home_team": "Clemson"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Lipscomb",
+      "game_id": "2019_03_19_lipscomb_davidson",
+      "home_score": 81,
+      "home_team": "Davidson"
+    },
+    {
+      "away_score": 72,
+      "away_team": "St. Francis (PA)",
+      "game_id": "2019_03_19_st_francis_pa_indiana",
+      "home_score": 89,
+      "home_team": "Indiana"
+    },
+    {
+      "away_score": 60,
+      "away_team": "San Diego",
+      "game_id": "2019_03_19_san_diego_memphis",
+      "home_score": 74,
+      "home_team": "Memphis"
+    },
+    {
+      "away_score": 73,
+      "away_team": "South Dakota State",
+      "game_id": "2019_03_19_south_dakota_state_texas",
+      "home_score": 79,
+      "home_team": "Texas"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Loyola Chicago",
+      "game_id": "2019_03_19_loyola_chicago_creighton",
+      "home_score": 70,
+      "home_team": "Creighton"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Arkansas",
+      "game_id": "2019_03_19_arkansas_providence",
+      "home_score": 72,
+      "home_team": "Providence"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Cal State Northridge",
+      "game_id": "2019_03_19_cal_state_northridge_utah_valley",
+      "home_score": 92,
+      "home_team": "Utah Valley"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Temple",
+      "game_id": "2019_03_19_temple_belmont",
+      "home_score": 81,
+      "home_team": "Belmont"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Dayton",
+      "game_id": "2019_03_19_dayton_colorado",
+      "home_score": 78,
+      "home_team": "Colorado"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:24.793334Z"
+}

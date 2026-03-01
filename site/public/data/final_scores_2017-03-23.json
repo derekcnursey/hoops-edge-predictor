@@ -1,0 +1,34 @@
+{
+  "date": "2017-03-23",
+  "games": [
+    {
+      "away_score": 68,
+      "away_team": "Michigan",
+      "game_id": "2017_03_23_michigan_oregon",
+      "home_score": 69,
+      "home_team": "Oregon"
+    },
+    {
+      "away_score": 58,
+      "away_team": "West Virginia",
+      "game_id": "2017_03_23_west_virginia_gonzaga",
+      "home_score": 61,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Purdue",
+      "game_id": "2017_03_23_purdue_kansas",
+      "home_score": 98,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Xavier",
+      "game_id": "2017_03_23_xavier_arizona",
+      "home_score": 71,
+      "home_team": "Arizona"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:25.942588Z"
+}

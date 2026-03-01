@@ -1,0 +1,97 @@
+{
+  "date": "2018-12-07",
+  "games": [
+    {
+      "away_score": 68,
+      "away_team": "Bryant",
+      "game_id": "2018_12_07_bryant_columbia",
+      "home_score": 90,
+      "home_team": "Columbia"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Frostburg State",
+      "game_id": "2018_12_07_frostburg_state_longwood",
+      "home_score": 68,
+      "home_team": "Longwood"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Oral Roberts",
+      "game_id": "2018_12_07_oral_roberts_missouri",
+      "home_score": 80,
+      "home_team": "Missouri"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Massachusetts",
+      "game_id": "2018_12_07_massachusetts_providence",
+      "home_score": 78,
+      "home_team": "Providence"
+    },
+    {
+      "away_score": 60,
+      "away_team": "New Mexico",
+      "game_id": "2018_12_07_new_mexico_saint_mary_s",
+      "home_score": 85,
+      "home_team": "Saint Mary's"
+    },
+    {
+      "away_score": 53,
+      "away_team": "James Madison",
+      "game_id": "2018_12_07_james_madison_george_mason",
+      "home_score": 66,
+      "home_team": "George Mason"
+    },
+    {
+      "away_score": 75,
+      "away_team": "UNC Greensboro",
+      "game_id": "2018_12_07_unc_greensboro_elon",
+      "home_score": 74,
+      "home_team": "Elon"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Maine-Fort Kent",
+      "game_id": "2018_12_07_maine_fort_kent_umass_lowell",
+      "home_score": 110,
+      "home_team": "UMass Lowell"
+    },
+    {
+      "away_score": 96,
+      "away_team": "Louisiana Tech",
+      "game_id": "2018_12_07_louisiana_tech_stephen_f_austin",
+      "home_score": 93,
+      "home_team": "Stephen F. Austin"
+    },
+    {
+      "away_score": 92,
+      "away_team": "Southern",
+      "game_id": "2018_12_07_southern_south_dakota_state",
+      "home_score": 101,
+      "home_team": "South Dakota State"
+    },
+    {
+      "away_score": 96,
+      "away_team": "TCU",
+      "game_id": "2018_12_07_tcu_usc",
+      "home_score": 61,
+      "home_team": "USC"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Idaho State",
+      "game_id": "2018_12_07_idaho_state_santa_clara",
+      "home_score": 66,
+      "home_team": "Santa Clara"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Nevada",
+      "game_id": "2018_12_07_nevada_arizona_state",
+      "home_score": 66,
+      "home_team": "Arizona State"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:24.606614Z"
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2024-12-27",
+  "games": [
+    {
+      "away_score": 45,
+      "away_team": "Cleary University",
+      "game_id": "2024_12_27_cleary_university_duquesne",
+      "home_score": 93,
+      "home_team": "Duquesne"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Arlington Baptist",
+      "game_id": "2024_12_27_arlington_baptist_baylor",
+      "home_score": 107,
+      "home_team": "Baylor"
+    }
+  ],
+  "generated_at": "2026-02-28T23:29:34.572724Z"
+}

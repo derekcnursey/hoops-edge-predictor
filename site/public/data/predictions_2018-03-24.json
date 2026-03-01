@@ -1,0 +1,60 @@
+{
+  "date": "2018-03-24",
+  "games": [
+    {
+      "away_team": "Central Michigan",
+      "edge_home_points": 1.8692970275878906,
+      "game_id": "2018_03_24_central_michigan_liberty",
+      "home_team": "Liberty",
+      "market_spread_home": -3.0,
+      "model_mu_home": 4.869297,
+      "neutral_site": null,
+      "pick_cover_prob": 0.555975218783995,
+      "pick_ev_per_1": 0.061407235860354126,
+      "pick_fair_odds": -125.21265530752652,
+      "pick_prob_edge": 0.03216569497447119,
+      "pick_side": "HOME",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.465979,
+      "pred_sigma": 13.278838,
+      "start_time": "2018-03-24T18:00:00.000Z"
+    },
+    {
+      "away_team": "Loyola Chicago",
+      "edge_home_points": -4.99425482749939,
+      "game_id": "2018_03_24_loyola_chicago_kansas_state",
+      "home_team": "Kansas State",
+      "market_spread_home": -1.0,
+      "model_mu_home": -3.9942548,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6808020799012934,
+      "pick_ev_per_1": 0.2997130616297419,
+      "pick_fair_odds": -213.28524938093793,
+      "pick_prob_edge": 0.15699255609176954,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.016091786,
+      "pred_sigma": 10.627366,
+      "start_time": "2018-03-24T22:09:00.000Z"
+    },
+    {
+      "away_team": "Florida State",
+      "edge_home_points": -0.14817500114440918,
+      "game_id": "2018_03_24_florida_state_michigan",
+      "home_team": "Michigan",
+      "market_spread_home": -4.0,
+      "model_mu_home": 3.851825,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5056211776651456,
+      "pick_ev_per_1": -0.03472320627563119,
+      "pick_fair_odds": -102.27403659347618,
+      "pick_prob_edge": -0.018188346144378253,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.55540466,
+      "pred_sigma": 10.515824,
+      "start_time": "2018-03-25T00:49:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T21:26:37.886974Z"
+}

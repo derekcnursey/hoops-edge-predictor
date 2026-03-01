@@ -1,0 +1,13 @@
+{
+  "date": "2017-03-30",
+  "games": [
+    {
+      "away_score": 56,
+      "away_team": "Georgia Tech",
+      "game_id": "2017_03_30_georgia_tech_tcu",
+      "home_score": 88,
+      "home_team": "TCU"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:29.948597Z"
+}

@@ -1,0 +1,202 @@
+{
+  "date": "2024-12-11",
+  "games": [
+    {
+      "away_score": 69,
+      "away_team": "Norfolk State",
+      "game_id": "2024_12_11_norfolk_state_baylor",
+      "home_score": 94,
+      "home_team": "Baylor"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Columbia College (SC)",
+      "game_id": "2024_12_11_columbia_college_sc_presbyterian",
+      "home_score": 97,
+      "home_team": "Presbyterian"
+    },
+    {
+      "away_score": 46,
+      "away_team": "Bluefield University",
+      "game_id": "2024_12_11_bluefield_university_unc_asheville",
+      "home_score": 92,
+      "home_team": "UNC Asheville"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Long Island University",
+      "game_id": "2024_12_11_long_island_university_umass_lowell",
+      "home_score": 69,
+      "home_team": "UMass Lowell"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Milwaukee",
+      "game_id": "2024_12_11_milwaukee_green_bay",
+      "home_score": 67,
+      "home_team": "Green Bay"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Eastern Kentucky",
+      "game_id": "2024_12_11_eastern_kentucky_pittsburgh",
+      "home_score": 96,
+      "home_team": "Pittsburgh"
+    },
+    {
+      "away_score": 74,
+      "away_team": "UTEP",
+      "game_id": "2024_12_11_utep_louisville",
+      "home_score": 77,
+      "home_team": "Louisville"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Virginia-Lynchburg",
+      "game_id": "2024_12_11_virginia_lynchburg_howard",
+      "home_score": 124,
+      "home_team": "Howard"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Cumberland (KY)",
+      "game_id": "2024_12_11_cumberland_ky_northern_kentucky",
+      "home_score": 98,
+      "home_team": "Northern Kentucky"
+    },
+    {
+      "away_score": 93,
+      "away_team": "UT Martin",
+      "game_id": "2024_12_11_ut_martin_alabama_state",
+      "home_score": 103,
+      "home_team": "Alabama State"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Marshall",
+      "game_id": "2024_12_11_marshall_wright_state",
+      "home_score": 88,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Southern Virginia",
+      "game_id": "2024_12_11_southern_virginia_coastal_carolina",
+      "home_score": 82,
+      "home_team": "Coastal Carolina"
+    },
+    {
+      "away_score": 59,
+      "away_team": "NJIT",
+      "game_id": "2024_12_11_njit_delaware_state",
+      "home_score": 71,
+      "home_team": "Delaware State"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Maine",
+      "game_id": "2024_12_11_maine_duquesne",
+      "home_score": 56,
+      "home_team": "Duquesne"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Lesley University",
+      "game_id": "2024_12_11_lesley_university_stonehill",
+      "home_score": 97,
+      "home_team": "Stonehill"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Dartmouth",
+      "game_id": "2024_12_11_dartmouth_notre_dame",
+      "home_score": 77,
+      "home_team": "Notre Dame"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Fairleigh Dickinson",
+      "game_id": "2024_12_11_fairleigh_dickinson_villanova",
+      "home_score": 86,
+      "home_team": "Villanova"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Bryant",
+      "game_id": "2024_12_11_bryant_st_john_s",
+      "home_score": 99,
+      "home_team": "St. John's"
+    },
+    {
+      "away_score": 76,
+      "away_team": "IU Indianapolis",
+      "game_id": "2024_12_11_iu_indianapolis_purdue_fort_wayne",
+      "home_score": 78,
+      "home_team": "Purdue Fort Wayne"
+    },
+    {
+      "away_score": 74,
+      "away_team": "North Alabama",
+      "game_id": "2024_12_11_north_alabama_east_carolina",
+      "home_score": 67,
+      "home_team": "East Carolina"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Arkansas-Pine Bluff",
+      "game_id": "2024_12_11_arkansas_pine_bluff_ul_monroe",
+      "home_score": 89,
+      "home_team": "UL Monroe"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Colgate",
+      "game_id": "2024_12_11_colgate_kentucky",
+      "home_score": 78,
+      "home_team": "Kentucky"
+    },
+    {
+      "away_score": 61,
+      "away_team": "SE Louisiana",
+      "game_id": "2024_12_11_se_louisiana_louisiana",
+      "home_score": 68,
+      "home_team": "Louisiana"
+    },
+    {
+      "away_score": 57,
+      "away_team": "North Dakota",
+      "game_id": "2024_12_11_north_dakota_utah_valley",
+      "home_score": 80,
+      "home_team": "Utah Valley"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Fresno State",
+      "game_id": "2024_12_11_fresno_state_byu",
+      "home_score": 95,
+      "home_team": "BYU"
+    },
+    {
+      "away_score": 75,
+      "away_team": "California Baptist",
+      "game_id": "2024_12_11_california_baptist_san_diego_state",
+      "home_score": 81,
+      "home_team": "San Diego State"
+    },
+    {
+      "away_score": 63,
+      "away_team": "South Dakota State",
+      "game_id": "2024_12_11_south_dakota_state_nevada",
+      "home_score": 77,
+      "home_team": "Nevada"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Stanislaus State",
+      "game_id": "2024_12_11_stanislaus_state_san_francisco",
+      "home_score": 68,
+      "home_team": "San Francisco"
+    }
+  ],
+  "generated_at": "2026-02-28T23:29:25.295023Z"
+}

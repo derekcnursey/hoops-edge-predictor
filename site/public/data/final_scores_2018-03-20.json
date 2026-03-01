@@ -1,0 +1,20 @@
+{
+  "date": "2018-03-20",
+  "games": [
+    {
+      "away_score": 85,
+      "away_team": "Penn State",
+      "game_id": "2018_03_20_penn_state_marquette",
+      "home_score": 80,
+      "home_team": "Marquette"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Mississippi State",
+      "game_id": "2018_03_20_mississippi_state_louisville",
+      "home_score": 56,
+      "home_team": "Louisville"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:49.261553Z"
+}

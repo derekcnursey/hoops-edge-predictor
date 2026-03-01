@@ -1,0 +1,34 @@
+{
+  "date": "2017-03-25",
+  "games": [
+    {
+      "away_score": 79,
+      "away_team": "Furman",
+      "game_id": "2017_03_25_furman_campbell",
+      "home_score": 64,
+      "home_team": "Campbell"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Saint Peter's",
+      "game_id": "2017_03_25_saint_peter_s_texas_state",
+      "home_score": 44,
+      "home_team": "Texas State"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Xavier",
+      "game_id": "2017_03_25_xavier_gonzaga",
+      "home_score": 83,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Oregon",
+      "game_id": "2017_03_25_oregon_kansas",
+      "home_score": 60,
+      "home_team": "Kansas"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:27.090069Z"
+}

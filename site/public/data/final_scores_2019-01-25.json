@@ -1,0 +1,48 @@
+{
+  "date": "2019-01-25",
+  "games": [
+    {
+      "away_score": 69,
+      "away_team": "Michigan",
+      "game_id": "2019_01_25_michigan_indiana",
+      "home_score": 46,
+      "home_team": "Indiana"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Buffalo",
+      "game_id": "2019_01_25_buffalo_kent_state",
+      "home_score": 79,
+      "home_team": "Kent State"
+    },
+    {
+      "away_score": 92,
+      "away_team": "Quinnipiac",
+      "game_id": "2019_01_25_quinnipiac_marist",
+      "home_score": 78,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Rider",
+      "game_id": "2019_01_25_rider_iona",
+      "home_score": 77,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Brown",
+      "game_id": "2019_01_25_brown_yale",
+      "home_score": 79,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Butler",
+      "game_id": "2019_01_25_butler_creighton",
+      "home_score": 75,
+      "home_team": "Creighton"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:53.214371Z"
+}

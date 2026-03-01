@@ -1,0 +1,34 @@
+{
+  "date": "2016-03-25",
+  "games": [
+    {
+      "away_score": 71,
+      "away_team": "Iowa State",
+      "game_id": "2016_03_25_iowa_state_virginia",
+      "home_score": 84,
+      "home_team": "Virginia"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Wisconsin",
+      "game_id": "2016_03_25_wisconsin_notre_dame",
+      "home_score": 61,
+      "home_team": "Notre Dame"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Gonzaga",
+      "game_id": "2016_03_25_gonzaga_syracuse",
+      "home_score": 63,
+      "home_team": "Syracuse"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Indiana",
+      "game_id": "2016_03_25_indiana_north_carolina",
+      "home_score": 101,
+      "home_team": "North Carolina"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:04.031874Z"
+}

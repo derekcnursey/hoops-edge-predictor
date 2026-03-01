@@ -1,0 +1,20 @@
+{
+  "date": "2025-03-29",
+  "games": [
+    {
+      "away_score": 79,
+      "away_team": "Texas Tech",
+      "game_id": "2025_03_29_texas_tech_florida",
+      "home_score": 84,
+      "home_team": "Florida"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Alabama",
+      "game_id": "2025_03_29_alabama_duke",
+      "home_score": 85,
+      "home_team": "Duke"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:47.132967Z"
+}

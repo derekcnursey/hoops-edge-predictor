@@ -1,0 +1,125 @@
+{
+  "date": "2018-03-15",
+  "games": [
+    {
+      "away_score": 78,
+      "away_team": "Oklahoma",
+      "game_id": "2018_03_15_oklahoma_rhode_island",
+      "home_score": 83,
+      "home_team": "Rhode Island"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Wright State",
+      "game_id": "2018_03_15_wright_state_tennessee",
+      "home_score": 73,
+      "home_team": "Tennessee"
+    },
+    {
+      "away_score": 64,
+      "away_team": "UNC Greensboro",
+      "game_id": "2018_03_15_unc_greensboro_gonzaga",
+      "home_score": 68,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Pennsylvania",
+      "game_id": "2018_03_15_pennsylvania_kansas",
+      "home_score": 76,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Iona",
+      "game_id": "2018_03_15_iona_duke",
+      "home_score": 89,
+      "home_team": "Duke"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Loyola Chicago",
+      "game_id": "2018_03_15_loyola_chicago_miami",
+      "home_score": 62,
+      "home_team": "Miami"
+    },
+    {
+      "away_score": 73,
+      "away_team": "South Dakota State",
+      "game_id": "2018_03_15_south_dakota_state_ohio_state",
+      "home_score": 81,
+      "home_team": "Ohio State"
+    },
+    {
+      "away_score": 83,
+      "away_team": "NC State",
+      "game_id": "2018_03_15_nc_state_seton_hall",
+      "home_score": 94,
+      "home_team": "Seton Hall"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Radford",
+      "game_id": "2018_03_15_radford_villanova",
+      "home_score": 87,
+      "home_team": "Villanova"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Davidson",
+      "game_id": "2018_03_15_davidson_kentucky",
+      "home_score": 78,
+      "home_team": "Kentucky"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Stephen F. Austin",
+      "game_id": "2018_03_15_stephen_f_austin_texas_tech",
+      "home_score": 70,
+      "home_team": "Texas Tech"
+    },
+    {
+      "away_score": 65,
+      "away_team": "San Diego State",
+      "game_id": "2018_03_15_san_diego_state_houston",
+      "home_score": 67,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 66,
+      "away_team": "UL Monroe",
+      "game_id": "2018_03_15_ul_monroe_austin_peay",
+      "home_score": 80,
+      "home_team": "Austin Peay"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Alabama",
+      "game_id": "2018_03_15_alabama_virginia_tech",
+      "home_score": 83,
+      "home_team": "Virginia Tech"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Buffalo",
+      "game_id": "2018_03_15_buffalo_arizona",
+      "home_score": 68,
+      "home_team": "Arizona"
+    },
+    {
+      "away_score": 62,
+      "away_team": "St. Bonaventure",
+      "game_id": "2018_03_15_st_bonaventure_florida",
+      "home_score": 77,
+      "home_team": "Florida"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Montana",
+      "game_id": "2018_03_15_montana_michigan",
+      "home_score": 61,
+      "home_team": "Michigan"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:46.409373Z"
+}

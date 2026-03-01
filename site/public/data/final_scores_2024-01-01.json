@@ -1,0 +1,41 @@
+{
+  "date": "2024-01-01",
+  "games": [
+    {
+      "away_score": 46,
+      "away_team": "Boyce",
+      "game_id": "2024_01_01_boyce_liberty",
+      "home_score": 88,
+      "home_team": "Liberty"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Hampton",
+      "game_id": "2024_01_01_hampton_drexel",
+      "home_score": 99,
+      "home_team": "Drexel"
+    },
+    {
+      "away_score": 57,
+      "away_team": "North Alabama",
+      "game_id": "2024_01_01_north_alabama_texas_tech",
+      "home_score": 85,
+      "home_team": "Texas Tech"
+    },
+    {
+      "away_score": 62,
+      "away_team": "UT Arlington",
+      "game_id": "2024_01_01_ut_arlington_texas",
+      "home_score": 79,
+      "home_team": "Texas"
+    },
+    {
+      "away_score": 42,
+      "away_team": "East Texas A&M",
+      "game_id": "2024_01_01_east_texas_a_m_tcu",
+      "home_score": 77,
+      "home_team": "TCU"
+    }
+  ],
+  "generated_at": "2026-02-28T22:39:10.014049Z"
+}

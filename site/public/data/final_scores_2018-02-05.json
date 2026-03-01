@@ -1,0 +1,111 @@
+{
+  "date": "2018-02-05",
+  "games": [
+    {
+      "away_score": 65,
+      "away_team": "Siena",
+      "game_id": "2018_02_05_siena_fairfield",
+      "home_score": 78,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Syracuse",
+      "game_id": "2018_02_05_syracuse_louisville",
+      "home_score": 73,
+      "home_team": "Louisville"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Hampton",
+      "game_id": "2018_02_05_hampton_north_carolina_central",
+      "home_score": 70,
+      "home_team": "North Carolina Central"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Bucknell",
+      "game_id": "2018_02_05_bucknell_lehigh",
+      "home_score": 92,
+      "home_team": "Lehigh"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Indiana",
+      "game_id": "2018_02_05_indiana_rutgers",
+      "home_score": 43,
+      "home_team": "Rutgers"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Delaware State",
+      "game_id": "2018_02_05_delaware_state_north_carolina_a_t",
+      "home_score": 54,
+      "home_team": "North Carolina A&T"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Howard",
+      "game_id": "2018_02_05_howard_morgan_state",
+      "home_score": 97,
+      "home_team": "Morgan State"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Norfolk State",
+      "game_id": "2018_02_05_norfolk_state_bethune_cookman",
+      "home_score": 79,
+      "home_team": "Bethune-Cookman"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Florida A&M",
+      "game_id": "2018_02_05_florida_a_m_maryland_eastern_shore",
+      "home_score": 62,
+      "home_team": "Maryland Eastern Shore"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Coppin State",
+      "game_id": "2018_02_05_coppin_state_south_carolina_state",
+      "home_score": 60,
+      "home_team": "South Carolina State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Alabama State",
+      "game_id": "2018_02_05_alabama_state_arkansas_pine_bluff",
+      "home_score": 59,
+      "home_team": "Arkansas-Pine Bluff"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Alcorn State",
+      "game_id": "2018_02_05_alcorn_state_grambling",
+      "home_score": 81,
+      "home_team": "Grambling"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Alabama A&M",
+      "game_id": "2018_02_05_alabama_a_m_mississippi_valley_state",
+      "home_score": 77,
+      "home_team": "Mississippi Valley State"
+    },
+    {
+      "away_score": 75,
+      "away_team": "West Virginia",
+      "game_id": "2018_02_05_west_virginia_oklahoma",
+      "home_score": 73,
+      "home_team": "Oklahoma"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Southern",
+      "game_id": "2018_02_05_southern_jackson_state",
+      "home_score": 62,
+      "home_team": "Jackson State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:23.519106Z"
+}

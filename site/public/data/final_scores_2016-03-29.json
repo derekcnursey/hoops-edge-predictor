@@ -1,0 +1,41 @@
+{
+  "date": "2016-03-29",
+  "games": [
+    {
+      "away_score": 67,
+      "away_team": "UC Irvine",
+      "game_id": "2016_03_29_uc_irvine_columbia",
+      "home_score": 73,
+      "home_team": "Columbia"
+    },
+    {
+      "away_score": 70,
+      "away_team": "BYU",
+      "game_id": "2016_03_29_byu_valparaiso",
+      "home_score": 72,
+      "home_team": "Valparaiso"
+    },
+    {
+      "away_score": 49,
+      "away_team": "UC Santa Barbara",
+      "game_id": "2016_03_29_uc_santa_barbara_old_dominion",
+      "home_score": 64,
+      "home_team": "Old Dominion"
+    },
+    {
+      "away_score": 65,
+      "away_team": "George Washington",
+      "game_id": "2016_03_29_george_washington_san_diego_state",
+      "home_score": 46,
+      "home_team": "San Diego State"
+    },
+    {
+      "away_score": 81,
+      "away_team": "East Tennessee State",
+      "game_id": "2016_03_29_east_tennessee_state_oakland",
+      "home_score": 104,
+      "home_team": "Oakland"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:06.319561Z"
+}

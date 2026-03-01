@@ -1,0 +1,104 @@
+{
+  "date": "2022-02-11",
+  "games": [
+    {
+      "away_score": 68,
+      "away_team": "UConn",
+      "game_id": "2022_02_11_uconn_xavier",
+      "home_score": 74,
+      "home_team": "Xavier"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Oakland",
+      "game_id": "2022_02_11_oakland_robert_morris",
+      "home_score": 68,
+      "home_team": "Robert Morris"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Rider",
+      "game_id": "2022_02_11_rider_saint_peter_s",
+      "home_score": 49,
+      "home_team": "Saint Peter's"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Monmouth",
+      "game_id": "2022_02_11_monmouth_manhattan",
+      "home_score": 65,
+      "home_team": "Manhattan"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Detroit Mercy",
+      "game_id": "2022_02_11_detroit_mercy_youngstown_state",
+      "home_score": 82,
+      "home_team": "Youngstown State"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Wright State",
+      "game_id": "2022_02_11_wright_state_milwaukee",
+      "home_score": 60,
+      "home_team": "Milwaukee"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Kent State",
+      "game_id": "2022_02_11_kent_state_akron",
+      "home_score": 64,
+      "home_team": "Akron"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Northern Kentucky",
+      "game_id": "2022_02_11_northern_kentucky_green_bay",
+      "home_score": 62,
+      "home_team": "Green Bay"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Iona",
+      "game_id": "2022_02_11_iona_siena",
+      "home_score": 70,
+      "home_team": "Siena"
+    },
+    {
+      "away_score": 68,
+      "away_team": "St. Bonaventure",
+      "game_id": "2022_02_11_st_bonaventure_saint_louis",
+      "home_score": 61,
+      "home_team": "Saint Louis"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Nevada",
+      "game_id": "2022_02_11_nevada_utah_state",
+      "home_score": 72,
+      "home_team": "Utah State"
+    },
+    {
+      "away_score": 46,
+      "away_team": "Northern New Mexico",
+      "game_id": "2022_02_11_northern_new_mexico_new_mexico",
+      "home_score": 78,
+      "home_team": "New Mexico"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Fresno State",
+      "game_id": "2022_02_11_fresno_state_colorado_state",
+      "home_score": 65,
+      "home_team": "Colorado State"
+    },
+    {
+      "away_score": 63,
+      "away_team": "UNLV",
+      "game_id": "2022_02_11_unlv_boise_state",
+      "home_score": 69,
+      "home_team": "Boise State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:01.591430Z"
+}

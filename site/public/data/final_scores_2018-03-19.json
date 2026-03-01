@@ -1,0 +1,69 @@
+{
+  "date": "2018-03-19",
+  "games": [
+    {
+      "away_score": 80,
+      "away_team": "Jacksonville State",
+      "game_id": "2018_03_19_jacksonville_state_central_arkansas",
+      "home_score": 59,
+      "home_team": "Central Arkansas"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Stanford",
+      "game_id": "2018_03_19_stanford_oklahoma_state",
+      "home_score": 71,
+      "home_team": "Oklahoma State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "New Orleans",
+      "game_id": "2018_03_19_new_orleans_campbell",
+      "home_score": 71,
+      "home_team": "Campbell"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Eastern Michigan",
+      "game_id": "2018_03_19_eastern_michigan_sam_houston",
+      "home_score": 69,
+      "home_team": "Sam Houston"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Mercer",
+      "game_id": "2018_03_19_mercer_north_texas",
+      "home_score": 96,
+      "home_team": "North Texas"
+    },
+    {
+      "away_score": 71,
+      "away_team": "LSU",
+      "game_id": "2018_03_19_lsu_utah",
+      "home_score": 95,
+      "home_team": "Utah"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Utah Valley",
+      "game_id": "2018_03_19_utah_valley_san_francisco",
+      "home_score": 78,
+      "home_team": "San Francisco"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Washington",
+      "game_id": "2018_03_19_washington_saint_mary_s",
+      "home_score": 85,
+      "home_team": "Saint Mary's"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Western Kentucky",
+      "game_id": "2018_03_19_western_kentucky_usc",
+      "home_score": 75,
+      "home_team": "USC"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:49.293436Z"
+}

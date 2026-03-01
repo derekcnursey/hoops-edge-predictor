@@ -1,0 +1,62 @@
+{
+  "date": "2017-01-06",
+  "games": [
+    {
+      "away_score": 59,
+      "away_team": "Western Michigan",
+      "game_id": "2017_01_06_western_michigan_akron",
+      "home_score": 66,
+      "home_team": "Akron"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Rhode Island",
+      "game_id": "2017_01_06_rhode_island_dayton",
+      "home_score": 67,
+      "home_team": "Dayton"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Iona",
+      "game_id": "2017_01_06_iona_monmouth",
+      "home_score": 92,
+      "home_team": "Monmouth"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Rider",
+      "game_id": "2017_01_06_rider_marist",
+      "home_score": 62,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Detroit Mercy",
+      "game_id": "2017_01_06_detroit_mercy_uic",
+      "home_score": 78,
+      "home_team": "UIC"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Milwaukee",
+      "game_id": "2017_01_06_milwaukee_green_bay",
+      "home_score": 80,
+      "home_team": "Green Bay"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Oakland",
+      "game_id": "2017_01_06_oakland_valparaiso",
+      "home_score": 66,
+      "home_team": "Valparaiso"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Kent State",
+      "game_id": "2017_01_06_kent_state_ohio",
+      "home_score": 85,
+      "home_team": "Ohio"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:42.103144Z"
+}

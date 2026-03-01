@@ -1,0 +1,118 @@
+{
+  "date": "2017-03-07",
+  "games": [
+    {
+      "away_score": 61,
+      "away_team": "NC State",
+      "game_id": "2017_03_07_nc_state_clemson",
+      "home_score": 75,
+      "home_team": "Clemson"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Boston College",
+      "game_id": "2017_03_07_boston_college_wake_forest",
+      "home_score": 92,
+      "home_team": "Wake Forest"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Bethune-Cookman",
+      "game_id": "2017_03_07_bethune_cookman_delaware_state",
+      "home_score": 62,
+      "home_team": "Delaware State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Northern Arizona",
+      "game_id": "2017_03_07_northern_arizona_portland_state",
+      "home_score": 80,
+      "home_team": "Portland State"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Florida A&M",
+      "game_id": "2017_03_07_florida_a_m_south_carolina_state",
+      "home_score": 82,
+      "home_team": "South Carolina State"
+    },
+    {
+      "away_score": 61,
+      "away_team": "St. Francis (PA)",
+      "game_id": "2017_03_07_st_francis_pa_mount_st_mary_s",
+      "home_score": 71,
+      "home_team": "Mount St. Mary's"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Mississippi Valley State",
+      "game_id": "2017_03_07_mississippi_valley_state_alcorn_state",
+      "home_score": 63,
+      "home_team": "Alcorn State"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Pittsburgh",
+      "game_id": "2017_03_07_pittsburgh_georgia_tech",
+      "home_score": 59,
+      "home_team": "Georgia Tech"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Milwaukee",
+      "game_id": "2017_03_07_milwaukee_northern_kentucky",
+      "home_score": 59,
+      "home_team": "Northern Kentucky"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Jackson State",
+      "game_id": "2017_03_07_jackson_state_southern",
+      "home_score": 69,
+      "home_team": "Southern"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Alabama State",
+      "game_id": "2017_03_07_alabama_state_texas_southern",
+      "home_score": 87,
+      "home_team": "Texas Southern"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Idaho State",
+      "game_id": "2017_03_07_idaho_state_sacramento_state",
+      "home_score": 91,
+      "home_team": "Sacramento State"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Saint Mary's",
+      "game_id": "2017_03_07_saint_mary_s_gonzaga",
+      "home_score": 74,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 79,
+      "away_team": "South Dakota State",
+      "game_id": "2017_03_07_south_dakota_state_omaha",
+      "home_score": 77,
+      "home_team": "Omaha"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Grambling",
+      "game_id": "2017_03_07_grambling_prairie_view_a_m",
+      "home_score": 77,
+      "home_team": "Prairie View A&M"
+    },
+    {
+      "away_score": 109,
+      "away_team": "Southern Utah",
+      "game_id": "2017_03_07_southern_utah_montana_state",
+      "home_score": 105,
+      "home_team": "Montana State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:16.715786Z"
+}

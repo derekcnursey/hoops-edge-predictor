@@ -1,0 +1,76 @@
+{
+  "date": "2016-01-22",
+  "games": [
+    {
+      "away_score": 86,
+      "away_team": "Duquesne",
+      "game_id": "2016_01_22_duquesne_george_mason",
+      "home_score": 75,
+      "home_team": "George Mason"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Rhode Island",
+      "game_id": "2016_01_22_rhode_island_george_washington",
+      "home_score": 62,
+      "home_team": "George Washington"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Toledo",
+      "game_id": "2016_01_22_toledo_northern_illinois",
+      "home_score": 58,
+      "home_team": "Northern Illinois"
+    },
+    {
+      "away_score": 69,
+      "away_team": "UIC",
+      "game_id": "2016_01_22_uic_northern_kentucky",
+      "home_score": 82,
+      "home_team": "Northern Kentucky"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Canisius",
+      "game_id": "2016_01_22_canisius_niagara",
+      "home_score": 61,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Valparaiso",
+      "game_id": "2016_01_22_valparaiso_wright_state",
+      "home_score": 73,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Fairfield",
+      "game_id": "2016_01_22_fairfield_marist",
+      "home_score": 76,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Saint Peter's",
+      "game_id": "2016_01_22_saint_peter_s_iona",
+      "home_score": 64,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 90,
+      "away_team": "Yale",
+      "game_id": "2016_01_22_yale_brown",
+      "home_score": 66,
+      "home_team": "Brown"
+    },
+    {
+      "away_score": 63,
+      "away_team": "UAlbany",
+      "game_id": "2016_01_22_ualbany_stony_brook",
+      "home_score": 69,
+      "home_team": "Stony Brook"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:26.091083Z"
+}

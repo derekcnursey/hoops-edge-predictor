@@ -1,0 +1,83 @@
+{
+  "date": "2022-12-05",
+  "games": [
+    {
+      "away_score": 61,
+      "away_team": "IU Indianapolis",
+      "game_id": "2022_12_05_iu_indianapolis_green_bay",
+      "home_score": 68,
+      "home_team": "Green Bay"
+    },
+    {
+      "away_score": 73,
+      "away_team": "UAlbany",
+      "game_id": "2022_12_05_ualbany_massachusetts",
+      "home_score": 87,
+      "home_team": "Massachusetts"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Kennesaw State",
+      "game_id": "2022_12_05_kennesaw_state_charleston_southern",
+      "home_score": 65,
+      "home_team": "Charleston Southern"
+    },
+    {
+      "away_score": 84,
+      "away_team": "UMass Lowell",
+      "game_id": "2022_12_05_umass_lowell_long_island_university",
+      "home_score": 64,
+      "home_team": "Long Island University"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Concordia-Ann Arbor",
+      "game_id": "2022_12_05_concordia_ann_arbor_western_michigan",
+      "home_score": 94,
+      "home_team": "Western Michigan"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Our Lady Of The Lake",
+      "game_id": "2022_12_05_our_lady_of_the_lake_lamar",
+      "home_score": 91,
+      "home_team": "Lamar"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Trevecca Nazarene",
+      "game_id": "2022_12_05_trevecca_nazarene_lipscomb",
+      "home_score": 87,
+      "home_team": "Lipscomb"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Kent State",
+      "game_id": "2022_12_05_kent_state_gonzaga",
+      "home_score": 73,
+      "home_team": "Gonzaga"
+    },
+    {
+      "away_score": 35,
+      "away_team": "Simon Fraser",
+      "game_id": "2022_12_05_simon_fraser_new_mexico_state",
+      "home_score": 77,
+      "home_team": "New Mexico State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "North Dakota State",
+      "game_id": "2022_12_05_north_dakota_state_portland",
+      "home_score": 62,
+      "home_team": "Portland"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Troy",
+      "game_id": "2022_12_05_troy_san_diego_state",
+      "home_score": 60,
+      "home_team": "San Diego State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:33:51.329208Z"
+}

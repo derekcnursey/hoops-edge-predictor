@@ -1,0 +1,62 @@
+{
+  "date": "2022-12-23",
+  "games": [
+    {
+      "away_score": 70,
+      "away_team": "Kean",
+      "game_id": "2022_12_23_kean_princeton",
+      "home_score": 88,
+      "home_team": "Princeton"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Coppin State",
+      "game_id": "2022_12_23_coppin_state_george_mason",
+      "home_score": 91,
+      "home_team": "George Mason"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Iona",
+      "game_id": "2022_12_23_iona_seattle_u",
+      "home_score": 72,
+      "home_team": "Seattle U"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Bucknell",
+      "game_id": "2022_12_23_bucknell_rutgers",
+      "home_score": 85,
+      "home_team": "Rutgers"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Kennesaw State",
+      "game_id": "2022_12_23_kennesaw_state_indiana",
+      "home_score": 69,
+      "home_team": "Indiana"
+    },
+    {
+      "away_score": 77,
+      "away_team": "SMU",
+      "game_id": "2022_12_23_smu_utah_state",
+      "home_score": 74,
+      "home_team": "Utah State"
+    },
+    {
+      "away_score": 70,
+      "away_team": "George Washington",
+      "game_id": "2022_12_23_george_washington_pepperdine",
+      "home_score": 81,
+      "home_team": "Pepperdine"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Washington State",
+      "game_id": "2022_12_23_washington_state_hawai_i",
+      "home_score": 62,
+      "home_team": "Hawai'i"
+    }
+  ],
+  "generated_at": "2026-02-28T21:34:04.458000Z"
+}

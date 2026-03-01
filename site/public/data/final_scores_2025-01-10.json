@@ -1,0 +1,104 @@
+{
+  "date": "2025-01-10",
+  "games": [
+    {
+      "away_score": 66,
+      "away_team": "Merrimack",
+      "game_id": "2025_01_10_merrimack_sacred_heart",
+      "home_score": 65,
+      "home_team": "Sacred Heart"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Kent State",
+      "game_id": "2025_01_10_kent_state_buffalo",
+      "home_score": 49,
+      "home_team": "Buffalo"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Saint Peter's",
+      "game_id": "2025_01_10_saint_peter_s_niagara",
+      "home_score": 70,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Iona",
+      "game_id": "2025_01_10_iona_fairfield",
+      "home_score": 68,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Mount St. Mary's",
+      "game_id": "2025_01_10_mount_st_mary_s_manhattan",
+      "home_score": 66,
+      "home_team": "Manhattan"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Mercyhurst",
+      "game_id": "2025_01_10_mercyhurst_st_francis_pa",
+      "home_score": 73,
+      "home_team": "St. Francis (PA)"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Minnesota",
+      "game_id": "2025_01_10_minnesota_wisconsin",
+      "home_score": 80,
+      "home_team": "Wisconsin"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Long Island University",
+      "game_id": "2025_01_10_long_island_university_stonehill",
+      "home_score": 60,
+      "home_team": "Stonehill"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Siena",
+      "game_id": "2025_01_10_siena_quinnipiac",
+      "home_score": 72,
+      "home_team": "Quinnipiac"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Wagner",
+      "game_id": "2025_01_10_wagner_central_connecticut",
+      "home_score": 57,
+      "home_team": "Central Connecticut"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Fairleigh Dickinson",
+      "game_id": "2025_01_10_fairleigh_dickinson_le_moyne",
+      "home_score": 86,
+      "home_team": "Le Moyne"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Rider",
+      "game_id": "2025_01_10_rider_canisius",
+      "home_score": 85,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Central Michigan",
+      "game_id": "2025_01_10_central_michigan_toledo",
+      "home_score": 69,
+      "home_team": "Toledo"
+    },
+    {
+      "away_score": 61,
+      "away_team": "UCLA",
+      "game_id": "2025_01_10_ucla_maryland",
+      "home_score": 79,
+      "home_team": "Maryland"
+    }
+  ],
+  "generated_at": "2026-02-28T23:29:42.657837Z"
+}

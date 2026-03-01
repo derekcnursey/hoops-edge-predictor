@@ -1,0 +1,104 @@
+{
+  "date": "2023-03-06",
+  "games": [
+    {
+      "away_score": 77,
+      "away_team": "McNeese",
+      "game_id": "2023_03_06_mcneese_nicholls",
+      "home_score": 71,
+      "home_team": "Nicholls"
+    },
+    {
+      "away_score": 79,
+      "away_team": "UNC Wilmington",
+      "game_id": "2023_03_06_unc_wilmington_hofstra",
+      "home_score": 73,
+      "home_team": "Hofstra"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Chattanooga",
+      "game_id": "2023_03_06_chattanooga_furman",
+      "home_score": 88,
+      "home_team": "Furman"
+    },
+    {
+      "away_score": 65,
+      "away_team": "St. Thomas-Minnesota",
+      "game_id": "2023_03_06_st_thomas_minnesota_oral_roberts",
+      "home_score": 70,
+      "home_team": "Oral Roberts"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Northern Kentucky",
+      "game_id": "2023_03_06_northern_kentucky_youngstown_state",
+      "home_score": 63,
+      "home_team": "Youngstown State"
+    },
+    {
+      "away_score": 66,
+      "away_team": "South Alabama",
+      "game_id": "2023_03_06_south_alabama_louisiana",
+      "home_score": 71,
+      "home_team": "Louisiana"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Idaho State",
+      "game_id": "2023_03_06_idaho_state_montana",
+      "home_score": 83,
+      "home_team": "Montana"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Towson",
+      "game_id": "2023_03_06_towson_charleston",
+      "home_score": 77,
+      "home_team": "Charleston"
+    },
+    {
+      "away_score": 82,
+      "away_team": "New Orleans",
+      "game_id": "2023_03_06_new_orleans_se_louisiana",
+      "home_score": 78,
+      "home_team": "SE Louisiana"
+    },
+    {
+      "away_score": 69,
+      "away_team": "BYU",
+      "game_id": "2023_03_06_byu_saint_mary_s",
+      "home_score": 76,
+      "home_team": "Saint Mary's"
+    },
+    {
+      "away_score": 89,
+      "away_team": "North Dakota State",
+      "game_id": "2023_03_06_north_dakota_state_south_dakota_state",
+      "home_score": 79,
+      "home_team": "South Dakota State"
+    },
+    {
+      "away_score": 93,
+      "away_team": "Cleveland State",
+      "game_id": "2023_03_06_cleveland_state_milwaukee",
+      "home_score": 80,
+      "home_team": "Milwaukee"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Sacramento State",
+      "game_id": "2023_03_06_sacramento_state_weber_state",
+      "home_score": 70,
+      "home_team": "Weber State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "San Francisco",
+      "game_id": "2023_03_06_san_francisco_gonzaga",
+      "home_score": 84,
+      "home_team": "Gonzaga"
+    }
+  ],
+  "generated_at": "2026-02-28T21:34:47.878551Z"
+}

@@ -1,0 +1,153 @@
+{
+  "date": "2025-02-03",
+  "games": [
+    {
+      "away_score": 68,
+      "away_team": "Colgate",
+      "game_id": "2025_02_03_colgate_lehigh",
+      "home_score": 94,
+      "home_team": "Lehigh"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Alabama State",
+      "game_id": "2025_02_03_alabama_state_florida_a_m",
+      "home_score": 66,
+      "home_team": "Florida A&M"
+    },
+    {
+      "away_score": 78,
+      "away_team": "North Carolina Central",
+      "game_id": "2025_02_03_north_carolina_central_norfolk_state",
+      "home_score": 81,
+      "home_team": "Norfolk State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Incarnate Word",
+      "game_id": "2025_02_03_incarnate_word_mcneese",
+      "home_score": 67,
+      "home_team": "McNeese"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Lamar",
+      "game_id": "2025_02_03_lamar_se_louisiana",
+      "home_score": 81,
+      "home_team": "SE Louisiana"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Virginia",
+      "game_id": "2025_02_03_virginia_pittsburgh",
+      "home_score": 57,
+      "home_team": "Pittsburgh"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Alabama A&M",
+      "game_id": "2025_02_03_alabama_a_m_bethune_cookman",
+      "home_score": 89,
+      "home_team": "Bethune-Cookman"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Houston Christian",
+      "game_id": "2025_02_03_houston_christian_nicholls",
+      "home_score": 75,
+      "home_team": "Nicholls"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Jackson State",
+      "game_id": "2025_02_03_jackson_state_southern",
+      "home_score": 91,
+      "home_team": "Southern"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Stephen F. Austin",
+      "game_id": "2025_02_03_stephen_f_austin_new_orleans",
+      "home_score": 85,
+      "home_team": "New Orleans"
+    },
+    {
+      "away_score": 63,
+      "away_team": "UT Rio Grande Valley",
+      "game_id": "2025_02_03_ut_rio_grande_valley_northwestern_state",
+      "home_score": 79,
+      "home_team": "Northwestern State"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Texas A&M-Corpus Christi",
+      "game_id": "2025_02_03_texas_a_m_corpus_christi_east_texas_a_m",
+      "home_score": 66,
+      "home_team": "East Texas A&M"
+    },
+    {
+      "away_score": 82,
+      "away_team": "Morgan State",
+      "game_id": "2025_02_03_morgan_state_delaware_state",
+      "home_score": 84,
+      "home_team": "Delaware State"
+    },
+    {
+      "away_score": 89,
+      "away_team": "South Carolina State",
+      "game_id": "2025_02_03_south_carolina_state_howard",
+      "home_score": 66,
+      "home_team": "Howard"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Charleston",
+      "game_id": "2025_02_03_charleston_william_mary",
+      "home_score": 90,
+      "home_team": "William & Mary"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Coppin State",
+      "game_id": "2025_02_03_coppin_state_maryland_eastern_shore",
+      "home_score": 57,
+      "home_team": "Maryland Eastern Shore"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Alcorn State",
+      "game_id": "2025_02_03_alcorn_state_grambling",
+      "home_score": 53,
+      "home_team": "Grambling"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Northern Colorado",
+      "game_id": "2025_02_03_northern_colorado_idaho_state",
+      "home_score": 72,
+      "home_team": "Idaho State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Northern Arizona",
+      "game_id": "2025_02_03_northern_arizona_weber_state",
+      "home_score": 77,
+      "home_team": "Weber State"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Iowa State",
+      "game_id": "2025_02_03_iowa_state_kansas",
+      "home_score": 69,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 61,
+      "away_team": "North Texas",
+      "game_id": "2025_02_03_north_texas_uab",
+      "home_score": 64,
+      "home_team": "UAB"
+    }
+  ],
+  "generated_at": "2026-02-28T23:29:57.859861Z"
+}

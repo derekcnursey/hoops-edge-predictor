@@ -1,0 +1,76 @@
+{
+  "date": "2018-01-26",
+  "games": [
+    {
+      "away_score": 91,
+      "away_team": "Wagner",
+      "game_id": "2018_01_26_wagner_st_francis_pa",
+      "home_score": 61,
+      "home_team": "St. Francis (PA)"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Buffalo",
+      "game_id": "2018_01_26_buffalo_ohio",
+      "home_score": 66,
+      "home_team": "Ohio"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Harvard",
+      "game_id": "2018_01_26_harvard_yale",
+      "home_score": 52,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Dartmouth",
+      "game_id": "2018_01_26_dartmouth_brown",
+      "home_score": 64,
+      "home_team": "Brown"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Sacred Heart",
+      "game_id": "2018_01_26_sacred_heart_robert_morris",
+      "home_score": 64,
+      "home_team": "Robert Morris"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Saint Peter's",
+      "game_id": "2018_01_26_saint_peter_s_rider",
+      "home_score": 63,
+      "home_team": "Rider"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Detroit Mercy",
+      "game_id": "2018_01_26_detroit_mercy_wright_state",
+      "home_score": 87,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Wisconsin",
+      "game_id": "2018_01_26_wisconsin_michigan_state",
+      "home_score": 76,
+      "home_team": "Michigan State"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Oakland",
+      "game_id": "2018_01_26_oakland_northern_kentucky",
+      "home_score": 70,
+      "home_team": "Northern Kentucky"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Cal State Bakersfield",
+      "game_id": "2018_01_26_cal_state_bakersfield_seattle_u",
+      "home_score": 59,
+      "home_team": "Seattle U"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:17.711497Z"
+}

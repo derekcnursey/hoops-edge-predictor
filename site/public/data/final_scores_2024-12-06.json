@@ -1,0 +1,160 @@
+{
+  "date": "2024-12-06",
+  "games": [
+    {
+      "away_score": 46,
+      "away_team": "Saint Joseph's Long Island",
+      "game_id": "2024_12_06_saint_joseph_s_long_island_hofstra",
+      "home_score": 114,
+      "home_team": "Hofstra"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Calumet College",
+      "game_id": "2024_12_06_calumet_college_eastern_illinois",
+      "home_score": 87,
+      "home_team": "Eastern Illinois"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Delaware",
+      "game_id": "2024_12_06_delaware_duquesne",
+      "home_score": 80,
+      "home_team": "Duquesne"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Brown",
+      "game_id": "2024_12_06_brown_bryant",
+      "home_score": 75,
+      "home_team": "Bryant"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Siena",
+      "game_id": "2024_12_06_siena_niagara",
+      "home_score": 69,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Campbellsville-Harrodsburg",
+      "game_id": "2024_12_06_campbellsville_harrodsburg_eastern_kentucky",
+      "home_score": 98,
+      "home_team": "Eastern Kentucky"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Mount St. Mary's",
+      "game_id": "2024_12_06_mount_st_mary_s_marist",
+      "home_score": 53,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Georgetown",
+      "game_id": "2024_12_06_georgetown_west_virginia",
+      "home_score": 73,
+      "home_team": "West Virginia"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Kennesaw State",
+      "game_id": "2024_12_06_kennesaw_state_georgia_state",
+      "home_score": 77,
+      "home_team": "Georgia State"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Merrimack",
+      "game_id": "2024_12_06_merrimack_canisius",
+      "home_score": 52,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Quinnipiac",
+      "game_id": "2024_12_06_quinnipiac_rider",
+      "home_score": 67,
+      "home_team": "Rider"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Iona",
+      "game_id": "2024_12_06_iona_sacred_heart",
+      "home_score": 83,
+      "home_team": "Sacred Heart"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Manhattan",
+      "game_id": "2024_12_06_manhattan_saint_peter_s",
+      "home_score": 67,
+      "home_team": "Saint Peter's"
+    },
+    {
+      "away_score": 63,
+      "away_team": "New College (FL)",
+      "game_id": "2024_12_06_new_college_fl_florida_international",
+      "home_score": 70,
+      "home_team": "Florida International"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Trinity (FL)",
+      "game_id": "2024_12_06_trinity_fl_florida_a_m",
+      "home_score": 130,
+      "home_team": "Florida A&M"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Portland",
+      "game_id": "2024_12_06_portland_kent_state",
+      "home_score": 76,
+      "home_team": "Kent State"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Charleston Southern",
+      "game_id": "2024_12_06_charleston_southern_davidson",
+      "home_score": 73,
+      "home_team": "Davidson"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Miami (OH)",
+      "game_id": "2024_12_06_miami_oh_indiana",
+      "home_score": 76,
+      "home_team": "Indiana"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Prairie View A&M",
+      "game_id": "2024_12_06_prairie_view_a_m_uab",
+      "home_score": 95,
+      "home_team": "UAB"
+    },
+    {
+      "away_score": 71,
+      "away_team": "North Texas",
+      "game_id": "2024_12_06_north_texas_high_point",
+      "home_score": 76,
+      "home_team": "High Point"
+    },
+    {
+      "away_score": 49,
+      "away_team": "East-West University",
+      "game_id": "2024_12_06_east_west_university_western_illinois",
+      "home_score": 96,
+      "home_team": "Western Illinois"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Illinois",
+      "game_id": "2024_12_06_illinois_northwestern",
+      "home_score": 70,
+      "home_team": "Northwestern"
+    }
+  ],
+  "generated_at": "2026-02-28T23:29:22.403146Z"
+}

@@ -1,0 +1,167 @@
+{
+  "date": "2015-12-07",
+  "games": [
+    {
+      "away_score": 51,
+      "away_team": "Aquinas",
+      "game_id": "2015_12_07_aquinas_central_michigan",
+      "home_score": 90,
+      "home_team": "Central Michigan"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Brown",
+      "game_id": "2015_12_07_brown_georgetown",
+      "home_score": 74,
+      "home_team": "Georgetown"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Binghamton",
+      "game_id": "2015_12_07_binghamton_oakland",
+      "home_score": 83,
+      "home_team": "Oakland"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Northeastern",
+      "game_id": "2015_12_07_northeastern_western_michigan",
+      "home_score": 87,
+      "home_team": "Western Michigan"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Kent State",
+      "game_id": "2015_12_07_kent_state_njit",
+      "home_score": 75,
+      "home_team": "NJIT"
+    },
+    {
+      "away_score": 66,
+      "away_team": "VMI",
+      "game_id": "2015_12_07_vmi_butler",
+      "home_score": 93,
+      "home_team": "Butler"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Thomas (GA)",
+      "game_id": "2015_12_07_thomas_ga_kennesaw_state",
+      "home_score": 69,
+      "home_team": "Kennesaw State"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Western Illinois",
+      "game_id": "2015_12_07_western_illinois_iowa",
+      "home_score": 90,
+      "home_team": "Iowa"
+    },
+    {
+      "away_score": 73,
+      "away_team": "East Carolina",
+      "game_id": "2015_12_07_east_carolina_charleston",
+      "home_score": 77,
+      "home_team": "Charleston"
+    },
+    {
+      "away_score": 53,
+      "away_team": "IU Indianapolis",
+      "game_id": "2015_12_07_iu_indianapolis_purdue",
+      "home_score": 80,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Oklahoma",
+      "game_id": "2015_12_07_oklahoma_villanova",
+      "home_score": 55,
+      "home_team": "Villanova"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Montreat",
+      "game_id": "2015_12_07_montreat_presbyterian",
+      "home_score": 93,
+      "home_team": "Presbyterian"
+    },
+    {
+      "away_score": 93,
+      "away_team": "Belmont",
+      "game_id": "2015_12_07_belmont_lipscomb",
+      "home_score": 84,
+      "home_team": "Lipscomb"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Howard",
+      "game_id": "2015_12_07_howard_north_carolina_central",
+      "home_score": 69,
+      "home_team": "North Carolina Central"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Norfolk State",
+      "game_id": "2015_12_07_norfolk_state_coppin_state",
+      "home_score": 56,
+      "home_team": "Coppin State"
+    },
+    {
+      "away_score": 54,
+      "away_team": "South Carolina State",
+      "game_id": "2015_12_07_south_carolina_state_bethune_cookman",
+      "home_score": 69,
+      "home_team": "Bethune-Cookman"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Maryland Eastern Shore",
+      "game_id": "2015_12_07_maryland_eastern_shore_north_carolina_a_t",
+      "home_score": 80,
+      "home_team": "North Carolina A&T"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Buffalo",
+      "game_id": "2015_12_07_buffalo_iowa_state",
+      "home_score": 84,
+      "home_team": "Iowa State"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Oregon",
+      "game_id": "2015_12_07_oregon_navy",
+      "home_score": 47,
+      "home_team": "Navy"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Biola",
+      "game_id": "2015_12_07_biola_san_diego_state",
+      "home_score": 73,
+      "home_team": "San Diego State"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Idaho",
+      "game_id": "2015_12_07_idaho_usc",
+      "home_score": 74,
+      "home_team": "USC"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Cal State Northridge",
+      "game_id": "2015_12_07_cal_state_northridge_san_francisco",
+      "home_score": 65,
+      "home_team": "San Francisco"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Incarnate Word",
+      "game_id": "2015_12_07_incarnate_word_sacramento_state",
+      "home_score": 73,
+      "home_team": "Sacramento State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:26:59.495572Z"
+}

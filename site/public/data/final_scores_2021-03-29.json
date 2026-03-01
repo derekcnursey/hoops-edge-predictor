@@ -1,0 +1,20 @@
+{
+  "date": "2021-03-29",
+  "games": [
+    {
+      "away_score": 61,
+      "away_team": "Oregon State",
+      "game_id": "2021_03_29_oregon_state_houston",
+      "home_score": 67,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Arkansas",
+      "game_id": "2021_03_29_arkansas_baylor",
+      "home_score": 81,
+      "home_team": "Baylor"
+    }
+  ],
+  "generated_at": "2026-02-28T21:32:00.725493Z"
+}

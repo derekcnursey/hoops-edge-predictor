@@ -1,0 +1,111 @@
+{
+  "date": "2016-12-12",
+  "games": [
+    {
+      "away_score": 71,
+      "away_team": "Auburn",
+      "game_id": "2016_12_12_auburn_boston_college",
+      "home_score": 72,
+      "home_team": "Boston College"
+    },
+    {
+      "away_score": 64,
+      "away_team": "UAlbany",
+      "game_id": "2016_12_12_ualbany_canisius",
+      "home_score": 77,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Longwood",
+      "game_id": "2016_12_12_longwood_george_mason",
+      "home_score": 97,
+      "home_team": "George Mason"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Urbana",
+      "game_id": "2016_12_12_urbana_iu_indianapolis",
+      "home_score": 109,
+      "home_team": "IU Indianapolis"
+    },
+    {
+      "away_score": 67,
+      "away_team": "St. Francis (PA)",
+      "game_id": "2016_12_12_st_francis_pa_lehigh",
+      "home_score": 100,
+      "home_team": "Lehigh"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Jacksonville State",
+      "game_id": "2016_12_12_jacksonville_state_maryland",
+      "home_score": 92,
+      "home_team": "Maryland"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Pennsylvania",
+      "game_id": "2016_12_12_pennsylvania_ucf",
+      "home_score": 49,
+      "home_team": "UCF"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Bethune-Cookman",
+      "game_id": "2016_12_12_bethune_cookman_south_florida",
+      "home_score": 79,
+      "home_team": "South Florida"
+    },
+    {
+      "away_score": 84,
+      "away_team": "North Florida",
+      "game_id": "2016_12_12_north_florida_ut_rio_grande_valley",
+      "home_score": 98,
+      "home_team": "UT Rio Grande Valley"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Florida A&M",
+      "game_id": "2016_12_12_florida_a_m_se_louisiana",
+      "home_score": 108,
+      "home_team": "SE Louisiana"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Bethel (TN)",
+      "game_id": "2016_12_12_bethel_tn_murray_state",
+      "home_score": 103,
+      "home_team": "Murray State"
+    },
+    {
+      "away_score": 41,
+      "away_team": "Blue Mountain",
+      "game_id": "2016_12_12_blue_mountain_ul_monroe",
+      "home_score": 72,
+      "home_team": "UL Monroe"
+    },
+    {
+      "away_score": 64,
+      "away_team": "South Carolina",
+      "game_id": "2016_12_12_south_carolina_seton_hall",
+      "home_score": 67,
+      "home_team": "Seton Hall"
+    },
+    {
+      "away_score": 41,
+      "away_team": "Alabama State",
+      "game_id": "2016_12_12_alabama_state_san_diego_state",
+      "home_score": 73,
+      "home_team": "San Diego State"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Arkansas-Pine Bluff",
+      "game_id": "2016_12_12_arkansas_pine_bluff_seattle_u",
+      "home_score": 63,
+      "home_team": "Seattle U"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:27.408003Z"
+}

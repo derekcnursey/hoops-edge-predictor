@@ -1,0 +1,90 @@
+{
+  "date": "2016-01-29",
+  "games": [
+    {
+      "away_score": 67,
+      "away_team": "Western Illinois",
+      "game_id": "2016_01_29_western_illinois_iu_indianapolis",
+      "home_score": 69,
+      "home_team": "IU Indianapolis"
+    },
+    {
+      "away_score": 79,
+      "away_team": "VCU",
+      "game_id": "2016_01_29_vcu_davidson",
+      "home_score": 69,
+      "home_team": "Davidson"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Princeton",
+      "game_id": "2016_01_29_princeton_brown",
+      "home_score": 59,
+      "home_team": "Brown"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Cornell",
+      "game_id": "2016_01_29_cornell_harvard",
+      "home_score": 65,
+      "home_team": "Harvard"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Northern Kentucky",
+      "game_id": "2016_01_29_northern_kentucky_detroit_mercy",
+      "home_score": 83,
+      "home_team": "Detroit Mercy"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Pennsylvania",
+      "game_id": "2016_01_29_pennsylvania_yale",
+      "home_score": 81,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Columbia",
+      "game_id": "2016_01_29_columbia_dartmouth",
+      "home_score": 60,
+      "home_team": "Dartmouth"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Manhattan",
+      "game_id": "2016_01_29_manhattan_iona",
+      "home_score": 70,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Canisius",
+      "game_id": "2016_01_29_canisius_fairfield",
+      "home_score": 84,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Wright State",
+      "game_id": "2016_01_29_wright_state_oakland",
+      "home_score": 89,
+      "home_team": "Oakland"
+    },
+    {
+      "away_score": 94,
+      "away_team": "Green Bay",
+      "game_id": "2016_01_29_green_bay_milwaukee",
+      "home_score": 95,
+      "home_team": "Milwaukee"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Kent State",
+      "game_id": "2016_01_29_kent_state_ohio",
+      "home_score": 72,
+      "home_team": "Ohio"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:30.165046Z"
+}

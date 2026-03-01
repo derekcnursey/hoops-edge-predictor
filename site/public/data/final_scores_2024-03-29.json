@@ -1,0 +1,34 @@
+{
+  "date": "2024-03-29",
+  "games": [
+    {
+      "away_score": 67,
+      "away_team": "NC State",
+      "game_id": "2024_03_29_nc_state_marquette",
+      "home_score": 58,
+      "home_team": "Marquette"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Gonzaga",
+      "game_id": "2024_03_29_gonzaga_purdue",
+      "home_score": 80,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Duke",
+      "game_id": "2024_03_29_duke_houston",
+      "home_score": 51,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Creighton",
+      "game_id": "2024_03_29_creighton_tennessee",
+      "home_score": 82,
+      "home_team": "Tennessee"
+    }
+  ],
+  "generated_at": "2026-02-28T22:40:04.754673Z"
+}

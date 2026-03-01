@@ -1,0 +1,41 @@
+{
+  "date": "2017-03-22",
+  "games": [
+    {
+      "away_score": 78,
+      "away_team": "UIC",
+      "game_id": "2017_03_22_uic_coastal_carolina",
+      "home_score": 89,
+      "home_team": "Coastal Carolina"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Illinois",
+      "game_id": "2017_03_22_illinois_ucf",
+      "home_score": 68,
+      "home_team": "UCF"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Idaho",
+      "game_id": "2017_03_22_idaho_texas_state",
+      "home_score": 64,
+      "home_team": "Texas State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Utah Valley",
+      "game_id": "2017_03_22_utah_valley_wyoming",
+      "home_score": 74,
+      "home_team": "Wyoming"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Cal State Bakersfield",
+      "game_id": "2017_03_22_cal_state_bakersfield_ut_arlington",
+      "home_score": 76,
+      "home_team": "UT Arlington"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:25.372823Z"
+}

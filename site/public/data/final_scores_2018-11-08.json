@@ -1,0 +1,167 @@
+{
+  "date": "2018-11-08",
+  "games": [
+    {
+      "away_score": 40,
+      "away_team": "Maine-Fort Kent",
+      "game_id": "2018_11_08_maine_fort_kent_liberty",
+      "home_score": 89,
+      "home_team": "Liberty"
+    },
+    {
+      "away_score": 44,
+      "away_team": "Hiwassee",
+      "game_id": "2018_11_08_hiwassee_east_tennessee_state",
+      "home_score": 109,
+      "home_team": "East Tennessee State"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Chicago State",
+      "game_id": "2018_11_08_chicago_state_notre_dame",
+      "home_score": 89,
+      "home_team": "Notre Dame"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Earlham College",
+      "game_id": "2018_11_08_earlham_college_purdue_fort_wayne",
+      "home_score": 112,
+      "home_team": "Purdue Fort Wayne"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Siena",
+      "game_id": "2018_11_08_siena_george_washington",
+      "home_score": 61,
+      "home_team": "George Washington"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Southeastern",
+      "game_id": "2018_11_08_southeastern_florida_gulf_coast",
+      "home_score": 81,
+      "home_team": "Florida Gulf Coast"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Mid-Atlantic Christian",
+      "game_id": "2018_11_08_mid_atlantic_christian_norfolk_state",
+      "home_score": 108,
+      "home_team": "Norfolk State"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Nicholls",
+      "game_id": "2018_11_08_nicholls_louisville",
+      "home_score": 85,
+      "home_team": "Louisville"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Morehead State",
+      "game_id": "2018_11_08_morehead_state_uconn",
+      "home_score": 80,
+      "home_team": "UConn"
+    },
+    {
+      "away_score": 47,
+      "away_team": "St. Andrews",
+      "game_id": "2018_11_08_st_andrews_unc_asheville",
+      "home_score": 87,
+      "home_team": "UNC Asheville"
+    },
+    {
+      "away_score": 44,
+      "away_team": "SUNY-Canton",
+      "game_id": "2018_11_08_suny_canton_cornell",
+      "home_score": 86,
+      "home_team": "Cornell"
+    },
+    {
+      "away_score": 92,
+      "away_team": "Southeastern Oklahoma State",
+      "game_id": "2018_11_08_southeastern_oklahoma_state_little_rock",
+      "home_score": 101,
+      "home_team": "Little Rock"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Southwestern Assemblies of God",
+      "game_id": "2018_11_08_southwestern_assemblies_of_god_stephen_f_austin",
+      "home_score": 68,
+      "home_team": "Stephen F. Austin"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Northwestern State",
+      "game_id": "2018_11_08_northwestern_state_smu",
+      "home_score": 69,
+      "home_team": "SMU"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Hendrix College",
+      "game_id": "2018_11_08_hendrix_college_central_arkansas",
+      "home_score": 99,
+      "home_team": "Central Arkansas"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Southwestern (TX)",
+      "game_id": "2018_11_08_southwestern_tx_sam_houston",
+      "home_score": 94,
+      "home_team": "Sam Houston"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Buena Vista",
+      "game_id": "2018_11_08_buena_vista_drake",
+      "home_score": 98,
+      "home_team": "Drake"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Alabama State",
+      "game_id": "2018_11_08_alabama_state_south_dakota_state",
+      "home_score": 78,
+      "home_team": "South Dakota State"
+    },
+    {
+      "away_score": 52,
+      "away_team": "New Orleans",
+      "game_id": "2018_11_08_new_orleans_northwestern",
+      "home_score": 82,
+      "home_team": "Northwestern"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Kansas City",
+      "game_id": "2018_11_08_kansas_city_iowa",
+      "home_score": 77,
+      "home_team": "Iowa"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Evansville",
+      "game_id": "2018_11_08_evansville_illinois",
+      "home_score": 99,
+      "home_team": "Illinois"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Maine",
+      "game_id": "2018_11_08_maine_utah",
+      "home_score": 75,
+      "home_team": "Utah"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Puget Sound",
+      "game_id": "2018_11_08_puget_sound_seattle_u",
+      "home_score": 95,
+      "home_team": "Seattle U"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:07.050401Z"
+}

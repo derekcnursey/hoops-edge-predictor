@@ -1,0 +1,279 @@
+{
+  "date": "2023-11-13",
+  "games": [
+    {
+      "away_score": 71,
+      "away_team": "Ohio Christian",
+      "game_id": "2023_11_13_ohio_christian_youngstown_state",
+      "home_score": 99,
+      "home_team": "Youngstown State"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Michigan",
+      "game_id": "2023_11_13_michigan_st_john_s",
+      "home_score": 73,
+      "home_team": "St. John's"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Hampton",
+      "game_id": "2023_11_13_hampton_norfolk_state",
+      "home_score": 75,
+      "home_team": "Norfolk State"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Florida International",
+      "game_id": "2023_11_13_florida_international_miami",
+      "home_score": 86,
+      "home_team": "Miami"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Villanova",
+      "game_id": "2023_11_13_villanova_pennsylvania",
+      "home_score": 76,
+      "home_team": "Pennsylvania"
+    },
+    {
+      "away_score": 46,
+      "away_team": "SUNY-Canton",
+      "game_id": "2023_11_13_suny_canton_le_moyne",
+      "home_score": 105,
+      "home_team": "Le Moyne"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Johnson & Wales (NC)",
+      "game_id": "2023_11_13_johnson_wales_nc_charleston_southern",
+      "home_score": 102,
+      "home_team": "Charleston Southern"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Siena",
+      "game_id": "2023_11_13_siena_american_university",
+      "home_score": 78,
+      "home_team": "American University"
+    },
+    {
+      "away_score": 42,
+      "away_team": "Framingham State",
+      "game_id": "2023_11_13_framingham_state_central_connecticut",
+      "home_score": 99,
+      "home_team": "Central Connecticut"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Central Michigan",
+      "game_id": "2023_11_13_central_michigan_florida_state",
+      "home_score": 94,
+      "home_team": "Florida State"
+    },
+    {
+      "away_score": 77,
+      "away_team": "North Florida",
+      "game_id": "2023_11_13_north_florida_south_carolina_state",
+      "home_score": 87,
+      "home_team": "South Carolina State"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Stony Brook",
+      "game_id": "2023_11_13_stony_brook_duquesne",
+      "home_score": 85,
+      "home_team": "Duquesne"
+    },
+    {
+      "away_score": 47,
+      "away_team": "East Tennessee State",
+      "game_id": "2023_11_13_east_tennessee_state_butler",
+      "home_score": 81,
+      "home_team": "Butler"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Quinnipiac",
+      "game_id": "2023_11_13_quinnipiac_massachusetts",
+      "home_score": 102,
+      "home_team": "Massachusetts"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Florida Gulf Coast",
+      "game_id": "2023_11_13_florida_gulf_coast_pittsburgh",
+      "home_score": 86,
+      "home_team": "Pittsburgh"
+    },
+    {
+      "away_score": 45,
+      "away_team": "Mount Saint Mary (NY)",
+      "game_id": "2023_11_13_mount_saint_mary_ny_fairfield",
+      "home_score": 92,
+      "home_team": "Fairfield"
+    },
+    {
+      "away_score": 64,
+      "away_team": "VMI",
+      "game_id": "2023_11_13_vmi_south_carolina",
+      "home_score": 74,
+      "home_team": "South Carolina"
+    },
+    {
+      "away_score": 64,
+      "away_team": "The Citadel",
+      "game_id": "2023_11_13_the_citadel_presbyterian",
+      "home_score": 71,
+      "home_team": "Presbyterian"
+    },
+    {
+      "away_score": 43,
+      "away_team": "Lyon",
+      "game_id": "2023_11_13_lyon_louisiana_tech",
+      "home_score": 100,
+      "home_team": "Louisiana Tech"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Brescia",
+      "game_id": "2023_11_13_brescia_ut_martin",
+      "home_score": 90,
+      "home_team": "UT Martin"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Western Carolina",
+      "game_id": "2023_11_13_western_carolina_middle_tennessee",
+      "home_score": 64,
+      "home_team": "Middle Tennessee"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Arkansas-Pine Bluff",
+      "game_id": "2023_11_13_arkansas_pine_bluff_central_arkansas",
+      "home_score": 83,
+      "home_team": "Central Arkansas"
+    },
+    {
+      "away_score": 96,
+      "away_team": "Stephen F. Austin",
+      "game_id": "2023_11_13_stephen_f_austin_northwestern_state",
+      "home_score": 70,
+      "home_team": "Northwestern State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "South Dakota State",
+      "game_id": "2023_11_13_south_dakota_state_kansas_state",
+      "home_score": 91,
+      "home_team": "Kansas State"
+    },
+    {
+      "away_score": 52,
+      "away_team": "Hannibal-LaGrange",
+      "game_id": "2023_11_13_hannibal_lagrange_lindenwood",
+      "home_score": 83,
+      "home_team": "Lindenwood"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Rider",
+      "game_id": "2023_11_13_rider_nebraska",
+      "home_score": 64,
+      "home_team": "Nebraska"
+    },
+    {
+      "away_score": 46,
+      "away_team": "Champion Christian",
+      "game_id": "2023_11_13_champion_christian_mcneese",
+      "home_score": 110,
+      "home_team": "McNeese"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Old Dominion",
+      "game_id": "2023_11_13_old_dominion_arkansas",
+      "home_score": 86,
+      "home_team": "Arkansas"
+    },
+    {
+      "away_score": 50,
+      "away_team": "SIU Edwardsville",
+      "game_id": "2023_11_13_siu_edwardsville_missouri",
+      "home_score": 68,
+      "home_team": "Missouri"
+    },
+    {
+      "away_score": 48,
+      "away_team": "Stetson",
+      "game_id": "2023_11_13_stetson_houston",
+      "home_score": 79,
+      "home_team": "Houston"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Illinois Tech",
+      "game_id": "2023_11_13_illinois_tech_northern_illinois",
+      "home_score": 107,
+      "home_team": "Northern Illinois"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Oral Roberts",
+      "game_id": "2023_11_13_oral_roberts_missouri_state",
+      "home_score": 84,
+      "home_team": "Missouri State"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Southern",
+      "game_id": "2023_11_13_southern_arizona",
+      "home_score": 97,
+      "home_team": "Arizona"
+    },
+    {
+      "away_score": 45,
+      "away_team": "Dallas Christian",
+      "game_id": "2023_11_13_dallas_christian_texas_a_m_corpus_christi",
+      "home_score": 104,
+      "home_team": "Texas A&M-Corpus Christi"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Xavier",
+      "game_id": "2023_11_13_xavier_purdue",
+      "home_score": 83,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 76,
+      "away_team": "UC Santa Barbara",
+      "game_id": "2023_11_13_uc_santa_barbara_utep",
+      "home_score": 89,
+      "home_team": "UTEP"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Cal State Bakersfield",
+      "game_id": "2023_11_13_cal_state_bakersfield_california",
+      "home_score": 83,
+      "home_team": "California"
+    },
+    {
+      "away_score": 57,
+      "away_team": "La Verne",
+      "game_id": "2023_11_13_la_verne_uc_san_diego",
+      "home_score": 116,
+      "home_team": "UC San Diego"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Long Island University",
+      "game_id": "2023_11_13_long_island_university_pepperdine",
+      "home_score": 88,
+      "home_team": "Pepperdine"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:41.281886Z"
+}

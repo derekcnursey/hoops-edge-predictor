@@ -1,0 +1,24 @@
+{
+  "date": "2024-04-08",
+  "games": [
+    {
+      "away_team": "Purdue",
+      "edge_home_points": -2.29440975189209,
+      "game_id": "2024_04_08_purdue_uconn",
+      "home_team": "UConn",
+      "market_spread_home": -6.5,
+      "model_mu_home": 4.2055902,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5839344709578209,
+      "pick_ev_per_1": 0.11478399001038542,
+      "pick_fair_odds": -140.34675554643798,
+      "pick_prob_edge": 0.06012494714829708,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.9596455,
+      "pred_sigma": 10.82426,
+      "start_time": "2024-04-09T01:20:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T22:39:08.760515Z"
+}

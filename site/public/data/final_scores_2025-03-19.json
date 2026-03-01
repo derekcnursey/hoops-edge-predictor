@@ -1,0 +1,83 @@
+{
+  "date": "2025-03-19",
+  "games": [
+    {
+      "away_score": 83,
+      "away_team": "Mount St. Mary's",
+      "game_id": "2025_03_19_mount_st_mary_s_american_university",
+      "home_score": 72,
+      "home_team": "American University"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Florida Atlantic",
+      "game_id": "2025_03_19_florida_atlantic_dayton",
+      "home_score": 86,
+      "home_team": "Dayton"
+    },
+    {
+      "away_score": 69,
+      "away_team": "UAB",
+      "game_id": "2025_03_19_uab_saint_joseph_s",
+      "home_score": 65,
+      "home_team": "Saint Joseph's"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Samford",
+      "game_id": "2025_03_19_samford_george_mason",
+      "home_score": 86,
+      "home_team": "George Mason"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Furman",
+      "game_id": "2025_03_19_furman_north_texas",
+      "home_score": 75,
+      "home_team": "North Texas"
+    },
+    {
+      "away_score": 62,
+      "away_team": "North Alabama",
+      "game_id": "2025_03_19_north_alabama_bradley",
+      "home_score": 71,
+      "home_team": "Bradley"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Northern Iowa",
+      "game_id": "2025_03_19_northern_iowa_smu",
+      "home_score": 73,
+      "home_team": "SMU"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Xavier",
+      "game_id": "2025_03_19_xavier_texas",
+      "home_score": 80,
+      "home_team": "Texas"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Northern Colorado",
+      "game_id": "2025_03_19_northern_colorado_uc_irvine",
+      "home_score": 82,
+      "home_team": "UC Irvine"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Loyola Chicago",
+      "game_id": "2025_03_19_loyola_chicago_san_jos_state",
+      "home_score": 70,
+      "home_team": "San Jos\u00e9 State"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Utah Valley",
+      "game_id": "2025_03_19_utah_valley_san_francisco",
+      "home_score": 79,
+      "home_team": "San Francisco"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:41.392083Z"
+}

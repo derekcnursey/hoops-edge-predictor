@@ -1,0 +1,153 @@
+{
+  "date": "2025-02-17",
+  "games": [
+    {
+      "away_score": 62,
+      "away_team": "Maryland Eastern Shore",
+      "game_id": "2025_02_17_maryland_eastern_shore_howard",
+      "home_score": 86,
+      "home_team": "Howard"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Alcorn State",
+      "game_id": "2025_02_17_alcorn_state_florida_a_m",
+      "home_score": 85,
+      "home_team": "Florida A&M"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Alabama A&M",
+      "game_id": "2025_02_17_alabama_a_m_arkansas_pine_bluff",
+      "home_score": 61,
+      "home_team": "Arkansas-Pine Bluff"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Lehigh",
+      "game_id": "2025_02_17_lehigh_bucknell",
+      "home_score": 67,
+      "home_team": "Bucknell"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Jackson State",
+      "game_id": "2025_02_17_jackson_state_bethune_cookman",
+      "home_score": 71,
+      "home_team": "Bethune-Cookman"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Alabama State",
+      "game_id": "2025_02_17_alabama_state_mississippi_valley_state",
+      "home_score": 56,
+      "home_team": "Mississippi Valley State"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Northern Iowa",
+      "game_id": "2025_02_17_northern_iowa_murray_state",
+      "home_score": 67,
+      "home_team": "Murray State"
+    },
+    {
+      "away_score": 88,
+      "away_team": "McNeese",
+      "game_id": "2025_02_17_mcneese_se_louisiana",
+      "home_score": 82,
+      "home_team": "SE Louisiana"
+    },
+    {
+      "away_score": 48,
+      "away_team": "Prairie View A&M",
+      "game_id": "2025_02_17_prairie_view_a_m_grambling",
+      "home_score": 70,
+      "home_team": "Grambling"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Stephen F. Austin",
+      "game_id": "2025_02_17_stephen_f_austin_east_texas_a_m",
+      "home_score": 74,
+      "home_team": "East Texas A&M"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Lamar",
+      "game_id": "2025_02_17_lamar_northwestern_state",
+      "home_score": 65,
+      "home_team": "Northwestern State"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Incarnate Word",
+      "game_id": "2025_02_17_incarnate_word_ut_rio_grande_valley",
+      "home_score": 60,
+      "home_team": "UT Rio Grande Valley"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Nicholls",
+      "game_id": "2025_02_17_nicholls_new_orleans",
+      "home_score": 62,
+      "home_team": "New Orleans"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Coppin State",
+      "game_id": "2025_02_17_coppin_state_south_carolina_state",
+      "home_score": 87,
+      "home_team": "South Carolina State"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Duke",
+      "game_id": "2025_02_17_duke_virginia",
+      "home_score": 62,
+      "home_team": "Virginia"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Houston Christian",
+      "game_id": "2025_02_17_houston_christian_texas_a_m_corpus_christi",
+      "home_score": 68,
+      "home_team": "Texas A&M-Corpus Christi"
+    },
+    {
+      "away_score": 92,
+      "away_team": "Morgan State",
+      "game_id": "2025_02_17_morgan_state_north_carolina_central",
+      "home_score": 78,
+      "home_team": "North Carolina Central"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Delaware State",
+      "game_id": "2025_02_17_delaware_state_norfolk_state",
+      "home_score": 96,
+      "home_team": "Norfolk State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Kansas State",
+      "game_id": "2025_02_17_kansas_state_utah",
+      "home_score": 74,
+      "home_team": "Utah"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Texas Southern",
+      "game_id": "2025_02_17_texas_southern_southern",
+      "home_score": 66,
+      "home_team": "Southern"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Arizona",
+      "game_id": "2025_02_17_arizona_baylor",
+      "home_score": 67,
+      "home_team": "Baylor"
+    }
+  ],
+  "generated_at": "2026-02-28T23:30:06.760396Z"
+}

@@ -1,0 +1,62 @@
+{
+  "date": "2024-12-09",
+  "games": [
+    {
+      "away_score": 75,
+      "away_team": "Thomas (ME)",
+      "game_id": "2024_12_09_thomas_me_boston_university",
+      "home_score": 113,
+      "home_team": "Boston University"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Minnesota",
+      "game_id": "2024_12_09_minnesota_indiana",
+      "home_score": 82,
+      "home_team": "Indiana"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Pennsylvania",
+      "game_id": "2024_12_09_pennsylvania_vcu",
+      "home_score": 66,
+      "home_team": "VCU"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Charleston Southern",
+      "game_id": "2024_12_09_charleston_southern_south_carolina_state",
+      "home_score": 82,
+      "home_team": "South Carolina State"
+    },
+    {
+      "away_score": 46,
+      "away_team": "Sarah Lawrence",
+      "game_id": "2024_12_09_sarah_lawrence_columbia",
+      "home_score": 92,
+      "home_team": "Columbia"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Hofstra",
+      "game_id": "2024_12_09_hofstra_norfolk_state",
+      "home_score": 67,
+      "home_team": "Norfolk State"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Abilene Christian",
+      "game_id": "2024_12_09_abilene_christian_baylor",
+      "home_score": 88,
+      "home_team": "Baylor"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Lincoln University (CA)",
+      "game_id": "2024_12_09_lincoln_university_ca_san_jos_state",
+      "home_score": 117,
+      "home_team": "San Jos\u00e9 State"
+    }
+  ],
+  "generated_at": "2026-02-28T23:29:24.100357Z"
+}

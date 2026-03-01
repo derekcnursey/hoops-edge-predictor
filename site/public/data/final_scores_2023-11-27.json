@@ -1,0 +1,160 @@
+{
+  "date": "2023-11-27",
+  "games": [
+    {
+      "away_score": 78,
+      "away_team": "Oakland",
+      "game_id": "2023_11_27_oakland_xavier",
+      "home_score": 76,
+      "home_team": "Xavier"
+    },
+    {
+      "away_score": 80,
+      "away_team": "UMBC",
+      "game_id": "2023_11_27_umbc_hampton",
+      "home_score": 76,
+      "home_team": "Hampton"
+    },
+    {
+      "away_score": 64,
+      "away_team": "New Hampshire",
+      "game_id": "2023_11_27_new_hampshire_uconn",
+      "home_score": 84,
+      "home_team": "UConn"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Springfield",
+      "game_id": "2023_11_27_springfield_bryant",
+      "home_score": 108,
+      "home_team": "Bryant"
+    },
+    {
+      "away_score": 40,
+      "away_team": "Saint Peter's",
+      "game_id": "2023_11_27_saint_peter_s_rutgers",
+      "home_score": 71,
+      "home_team": "Rutgers"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Troy",
+      "game_id": "2023_11_27_troy_eastern_kentucky",
+      "home_score": 77,
+      "home_team": "Eastern Kentucky"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Presbyterian",
+      "game_id": "2023_11_27_presbyterian_elon",
+      "home_score": 82,
+      "home_team": "Elon"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Manhattan",
+      "game_id": "2023_11_27_manhattan_fordham",
+      "home_score": 93,
+      "home_team": "Fordham"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Western Illinois",
+      "game_id": "2023_11_27_western_illinois_wisconsin",
+      "home_score": 71,
+      "home_team": "Wisconsin"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Houston Christian",
+      "game_id": "2023_11_27_houston_christian_tcu",
+      "home_score": 101,
+      "home_team": "TCU"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Utah Tech",
+      "game_id": "2023_11_27_utah_tech_lindenwood",
+      "home_score": 66,
+      "home_team": "Lindenwood"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Northern Illinois",
+      "game_id": "2023_11_27_northern_illinois_northwestern",
+      "home_score": 89,
+      "home_team": "Northwestern"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Arkansas Baptist",
+      "game_id": "2023_11_27_arkansas_baptist_arkansas_pine_bluff",
+      "home_score": 85,
+      "home_team": "Arkansas-Pine Bluff"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Mount Marty College",
+      "game_id": "2023_11_27_mount_marty_college_south_dakota_state",
+      "home_score": 92,
+      "home_team": "South Dakota State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "York College Nebraska",
+      "game_id": "2023_11_27_york_college_nebraska_omaha",
+      "home_score": 104,
+      "home_team": "Omaha"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Loyola New Orleans",
+      "game_id": "2023_11_27_loyola_new_orleans_louisiana",
+      "home_score": 78,
+      "home_team": "Louisiana"
+    },
+    {
+      "away_score": 69,
+      "away_team": "UC Santa Barbara",
+      "game_id": "2023_11_27_uc_santa_barbara_fresno_state",
+      "home_score": 65,
+      "home_team": "Fresno State"
+    },
+    {
+      "away_score": 45,
+      "away_team": "Navajo Tech",
+      "game_id": "2023_11_27_navajo_tech_weber_state",
+      "home_score": 107,
+      "home_team": "Weber State"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Eastern Washington",
+      "game_id": "2023_11_27_eastern_washington_washington_state",
+      "home_score": 82,
+      "home_team": "Washington State"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Point Loma Nazarene",
+      "game_id": "2023_11_27_point_loma_nazarene_san_diego_state",
+      "home_score": 71,
+      "home_team": "San Diego State"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Utah",
+      "game_id": "2023_11_27_utah_saint_mary_s",
+      "home_score": 71,
+      "home_team": "Saint Mary's"
+    },
+    {
+      "away_score": 65,
+      "away_team": "North Dakota State",
+      "game_id": "2023_11_27_north_dakota_state_san_jos_state",
+      "home_score": 78,
+      "home_team": "San Jos\u00e9 State"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:49.752299Z"
+}

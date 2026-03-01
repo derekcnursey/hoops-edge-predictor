@@ -1,0 +1,83 @@
+{
+  "date": "2017-03-19",
+  "games": [
+    {
+      "away_score": 57,
+      "away_team": "Belmont",
+      "game_id": "2017_03_19_belmont_georgia_tech",
+      "home_score": 71,
+      "home_team": "Georgia Tech"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Michigan",
+      "game_id": "2017_03_19_michigan_louisville",
+      "home_score": 69,
+      "home_team": "Louisville"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Wichita State",
+      "game_id": "2017_03_19_wichita_state_kentucky",
+      "home_score": 65,
+      "home_team": "Kentucky"
+    },
+    {
+      "away_score": 94,
+      "away_team": "TCU",
+      "game_id": "2017_03_19_tcu_iowa",
+      "home_score": 92,
+      "home_team": "Iowa"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Michigan State",
+      "game_id": "2017_03_19_michigan_state_kansas",
+      "home_score": 90,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Arkansas",
+      "game_id": "2017_03_19_arkansas_north_carolina",
+      "home_score": 72,
+      "home_team": "North Carolina"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Rhode Island",
+      "game_id": "2017_03_19_rhode_island_oregon",
+      "home_score": 75,
+      "home_team": "Oregon"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Oakland",
+      "game_id": "2017_03_19_oakland_richmond",
+      "home_score": 87,
+      "home_team": "Richmond"
+    },
+    {
+      "away_score": 78,
+      "away_team": "USC",
+      "game_id": "2017_03_19_usc_baylor",
+      "home_score": 82,
+      "home_team": "Baylor"
+    },
+    {
+      "away_score": 88,
+      "away_team": "South Carolina",
+      "game_id": "2017_03_19_south_carolina_duke",
+      "home_score": 81,
+      "home_team": "Duke"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Cincinnati",
+      "game_id": "2017_03_19_cincinnati_ucla",
+      "home_score": 79,
+      "home_team": "UCLA"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:23.703223Z"
+}

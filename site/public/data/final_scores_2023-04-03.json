@@ -1,0 +1,13 @@
+{
+  "date": "2023-04-03",
+  "games": [
+    {
+      "away_score": 59,
+      "away_team": "San Diego State",
+      "game_id": "2023_04_03_san_diego_state_uconn",
+      "home_score": 76,
+      "home_team": "UConn"
+    }
+  ],
+  "generated_at": "2026-02-28T21:35:02.299584Z"
+}

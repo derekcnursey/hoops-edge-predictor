@@ -1,0 +1,27 @@
+{
+  "date": "2025-03-26",
+  "games": [
+    {
+      "away_score": 79,
+      "away_team": "Illinois State",
+      "game_id": "2025_03_26_illinois_state_cleveland_state",
+      "home_score": 68,
+      "home_team": "Cleveland State"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Kent State",
+      "game_id": "2025_03_26_kent_state_loyola_chicago",
+      "home_score": 72,
+      "home_team": "Loyola Chicago"
+    },
+    {
+      "away_score": 77,
+      "away_team": "UAB",
+      "game_id": "2025_03_26_uab_uc_irvine",
+      "home_score": 81,
+      "home_team": "UC Irvine"
+    }
+  ],
+  "generated_at": "2026-02-28T23:45:45.416314Z"
+}

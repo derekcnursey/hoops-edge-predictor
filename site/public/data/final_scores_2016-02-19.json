@@ -1,0 +1,90 @@
+{
+  "date": "2016-02-19",
+  "games": [
+    {
+      "away_score": 76,
+      "away_team": "Harvard",
+      "game_id": "2016_02_19_harvard_columbia",
+      "home_score": 90,
+      "home_team": "Columbia"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Akron",
+      "game_id": "2016_02_19_akron_kent_state",
+      "home_score": 85,
+      "home_team": "Kent State"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Northern Illinois",
+      "game_id": "2016_02_19_northern_illinois_ball_state",
+      "home_score": 63,
+      "home_team": "Ball State"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Siena",
+      "game_id": "2016_02_19_siena_rider",
+      "home_score": 64,
+      "home_team": "Rider"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Brown",
+      "game_id": "2016_02_19_brown_pennsylvania",
+      "home_score": 79,
+      "home_team": "Pennsylvania"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Richmond",
+      "game_id": "2016_02_19_richmond_vcu",
+      "home_score": 87,
+      "home_team": "VCU"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Dartmouth",
+      "game_id": "2016_02_19_dartmouth_cornell",
+      "home_score": 66,
+      "home_team": "Cornell"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Yale",
+      "game_id": "2016_02_19_yale_princeton",
+      "home_score": 75,
+      "home_team": "Princeton"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Denver",
+      "game_id": "2016_02_19_denver_oral_roberts",
+      "home_score": 62,
+      "home_team": "Oral Roberts"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Oakland",
+      "game_id": "2016_02_19_oakland_valparaiso",
+      "home_score": 86,
+      "home_team": "Valparaiso"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Detroit Mercy",
+      "game_id": "2016_02_19_detroit_mercy_uic",
+      "home_score": 72,
+      "home_team": "UIC"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Iona",
+      "game_id": "2016_02_19_iona_monmouth",
+      "home_score": 67,
+      "home_team": "Monmouth"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:42.926921Z"
+}

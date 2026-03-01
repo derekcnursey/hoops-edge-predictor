@@ -1,0 +1,90 @@
+{
+  "date": "2017-12-08",
+  "games": [
+    {
+      "away_score": 71,
+      "away_team": "Life Pacific",
+      "game_id": "2017_12_08_life_pacific_cal_state_bakersfield",
+      "home_score": 100,
+      "home_team": "Cal State Bakersfield"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Concordia-Nebraska",
+      "game_id": "2017_12_08_concordia_nebraska_south_dakota_state",
+      "home_score": 103,
+      "home_team": "South Dakota State"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Army",
+      "game_id": "2017_12_08_army_wake_forest",
+      "home_score": 109,
+      "home_team": "Wake Forest"
+    },
+    {
+      "away_score": 90,
+      "away_team": "Boston University",
+      "game_id": "2017_12_08_boston_university_bethune_cookman",
+      "home_score": 87,
+      "home_team": "Bethune-Cookman"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Dartmouth",
+      "game_id": "2017_12_08_dartmouth_maine",
+      "home_score": 66,
+      "home_team": "Maine"
+    },
+    {
+      "away_score": 49,
+      "away_team": "Maryland Eastern Shore",
+      "game_id": "2017_12_08_maryland_eastern_shore_liberty",
+      "home_score": 71,
+      "home_team": "Liberty"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Hampton",
+      "game_id": "2017_12_08_hampton_missouri_state",
+      "home_score": 88,
+      "home_team": "Missouri State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Southern Nazarene",
+      "game_id": "2017_12_08_southern_nazarene_oral_roberts",
+      "home_score": 60,
+      "home_team": "Oral Roberts"
+    },
+    {
+      "away_score": 70,
+      "away_team": "St. John's",
+      "game_id": "2017_12_08_st_john_s_arizona_state",
+      "home_score": 82,
+      "home_team": "Arizona State"
+    },
+    {
+      "away_score": 48,
+      "away_team": "Air Force",
+      "game_id": "2017_12_08_air_force_uc_riverside",
+      "home_score": 67,
+      "home_team": "UC Riverside"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Colorado State",
+      "game_id": "2017_12_08_colorado_state_oregon",
+      "home_score": 95,
+      "home_team": "Oregon"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Oklahoma",
+      "game_id": "2017_12_08_oklahoma_usc",
+      "home_score": 83,
+      "home_team": "USC"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:49.479550Z"
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2025-04-02",
+  "games": [
+    {
+      "away_team": "Butler",
+      "edge_home_points": -2.687727451324463,
+      "game_id": "2025_04_02_butler_boise_state",
+      "home_team": "Boise State",
+      "market_spread_home": -9.5,
+      "model_mu_home": 6.8122725,
+      "neutral_site": null,
+      "pick_cover_prob": 0.595723511510206,
+      "pick_ev_per_1": 0.13729034015584773,
+      "pick_fair_odds": -147.35546797083774,
+      "pick_prob_edge": 0.07191398770068214,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.25528356,
+      "pred_sigma": 11.092872,
+      "start_time": "2025-04-02T23:00:00.000Z"
+    },
+    {
+      "away_team": "Nebraska",
+      "edge_home_points": 8.651788413524628,
+      "game_id": "2025_04_02_nebraska_georgetown",
+      "home_team": "Georgetown",
+      "market_spread_home": 9.5,
+      "model_mu_home": -0.8482116,
+      "neutral_site": null,
+      "pick_cover_prob": 0.82246951155807,
+      "pick_ev_per_1": 0.5701690675199519,
+      "pick_fair_odds": -463.28352880474324,
+      "pick_prob_edge": 0.2986599877485462,
+      "pick_side": "HOME",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.10137507,
+      "pred_sigma": 9.355133,
+      "start_time": "2025-04-03T01:39:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T23:43:19.997819Z"
+}

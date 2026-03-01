@@ -1,0 +1,90 @@
+{
+  "date": "2019-01-28",
+  "games": [
+    {
+      "away_score": 77,
+      "away_team": "Southern Utah",
+      "game_id": "2019_01_28_southern_utah_northern_arizona",
+      "home_score": 80,
+      "home_team": "Northern Arizona"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Maryland Eastern Shore",
+      "game_id": "2019_01_28_maryland_eastern_shore_howard",
+      "home_score": 72,
+      "home_team": "Howard"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Duke",
+      "game_id": "2019_01_28_duke_notre_dame",
+      "home_score": 61,
+      "home_team": "Notre Dame"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Florida A&M",
+      "game_id": "2019_01_28_florida_a_m_morgan_state",
+      "home_score": 66,
+      "home_team": "Morgan State"
+    },
+    {
+      "away_score": 91,
+      "away_team": "Bethune-Cookman",
+      "game_id": "2019_01_28_bethune_cookman_coppin_state",
+      "home_score": 95,
+      "home_team": "Coppin State"
+    },
+    {
+      "away_score": 82,
+      "away_team": "North Carolina Central",
+      "game_id": "2019_01_28_north_carolina_central_savannah_state",
+      "home_score": 78,
+      "home_team": "Savannah State"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Alcorn State",
+      "game_id": "2019_01_28_alcorn_state_alabama_a_m",
+      "home_score": 71,
+      "home_team": "Alabama A&M"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Southern",
+      "game_id": "2019_01_28_southern_alabama_state",
+      "home_score": 69,
+      "home_team": "Alabama State"
+    },
+    {
+      "away_score": 65,
+      "away_team": "Texas Southern",
+      "game_id": "2019_01_28_texas_southern_mississippi_valley_state",
+      "home_score": 62,
+      "home_team": "Mississippi Valley State"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Prairie View A&M",
+      "game_id": "2019_01_28_prairie_view_a_m_arkansas_pine_bluff",
+      "home_score": 63,
+      "home_team": "Arkansas-Pine Bluff"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Baylor",
+      "game_id": "2019_01_28_baylor_oklahoma",
+      "home_score": 47,
+      "home_team": "Oklahoma"
+    },
+    {
+      "away_score": 65,
+      "away_team": "TCU",
+      "game_id": "2019_01_28_tcu_texas_tech",
+      "home_score": 84,
+      "home_team": "Texas Tech"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:54.952549Z"
+}

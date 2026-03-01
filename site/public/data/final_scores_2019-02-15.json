@@ -1,0 +1,104 @@
+{
+  "date": "2019-02-15",
+  "games": [
+    {
+      "away_score": 72,
+      "away_team": "Monmouth",
+      "game_id": "2019_02_15_monmouth_rider",
+      "home_score": 81,
+      "home_team": "Rider"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Manhattan",
+      "game_id": "2019_02_15_manhattan_niagara",
+      "home_score": 60,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Fairfield",
+      "game_id": "2019_02_15_fairfield_canisius",
+      "home_score": 72,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Saint Joseph's",
+      "game_id": "2019_02_15_saint_joseph_s_davidson",
+      "home_score": 80,
+      "home_team": "Davidson"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Brown",
+      "game_id": "2019_02_15_brown_cornell",
+      "home_score": 70,
+      "home_team": "Cornell"
+    },
+    {
+      "away_score": 46,
+      "away_team": "Saint Peter's",
+      "game_id": "2019_02_15_saint_peter_s_iona",
+      "home_score": 62,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Harvard",
+      "game_id": "2019_02_15_harvard_princeton",
+      "home_score": 69,
+      "home_team": "Princeton"
+    },
+    {
+      "away_score": 88,
+      "away_team": "Buffalo",
+      "game_id": "2019_02_15_buffalo_toledo",
+      "home_score": 82,
+      "home_team": "Toledo"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Yale",
+      "game_id": "2019_02_15_yale_columbia",
+      "home_score": 64,
+      "home_team": "Columbia"
+    },
+    {
+      "away_score": 81,
+      "away_team": "South Alabama",
+      "game_id": "2019_02_15_south_alabama_georgia_state",
+      "home_score": 90,
+      "home_team": "Georgia State"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Dartmouth",
+      "game_id": "2019_02_15_dartmouth_pennsylvania",
+      "home_score": 82,
+      "home_team": "Pennsylvania"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Marist",
+      "game_id": "2019_02_15_marist_quinnipiac",
+      "home_score": 61,
+      "home_team": "Quinnipiac"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Northern Kentucky",
+      "game_id": "2019_02_15_northern_kentucky_wright_state",
+      "home_score": 81,
+      "home_team": "Wright State"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Troy",
+      "game_id": "2019_02_15_troy_georgia_southern",
+      "home_score": 76,
+      "home_team": "Georgia Southern"
+    }
+  ],
+  "generated_at": "2026-02-28T22:38:05.424865Z"
+}

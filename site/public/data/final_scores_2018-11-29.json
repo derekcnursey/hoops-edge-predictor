@@ -1,0 +1,167 @@
+{
+  "date": "2018-11-29",
+  "games": [
+    {
+      "away_score": 58,
+      "away_team": "Dartmouth",
+      "game_id": "2018_11_29_dartmouth_marist",
+      "home_score": 76,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 77,
+      "away_team": "UAlbany",
+      "game_id": "2018_11_29_ualbany_liu_brooklyn",
+      "home_score": 80,
+      "home_team": "LIU Brooklyn"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Sacred Heart",
+      "game_id": "2018_11_29_sacred_heart_boston_college",
+      "home_score": 81,
+      "home_team": "Boston College"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Hampton",
+      "game_id": "2018_11_29_hampton_norfolk_state",
+      "home_score": 94,
+      "home_team": "Norfolk State"
+    },
+    {
+      "away_score": 29,
+      "away_team": "Trinity Baptist",
+      "game_id": "2018_11_29_trinity_baptist_campbell",
+      "home_score": 79,
+      "home_team": "Campbell"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Coppin State",
+      "game_id": "2018_11_29_coppin_state_james_madison",
+      "home_score": 81,
+      "home_team": "James Madison"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Alabama",
+      "game_id": "2018_11_29_alabama_ucf",
+      "home_score": 70,
+      "home_team": "UCF"
+    },
+    {
+      "away_score": 99,
+      "away_team": "Belmont",
+      "game_id": "2018_11_29_belmont_samford",
+      "home_score": 93,
+      "home_team": "Samford"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Central Connecticut",
+      "game_id": "2018_11_29_central_connecticut_north_carolina_a_t",
+      "home_score": 72,
+      "home_team": "North Carolina A&T"
+    },
+    {
+      "away_score": 67,
+      "away_team": "UAB",
+      "game_id": "2018_11_29_uab_alabama_a_m",
+      "home_score": 57,
+      "home_team": "Alabama A&M"
+    },
+    {
+      "away_score": 59,
+      "away_team": "McNeese",
+      "game_id": "2018_11_29_mcneese_smu",
+      "home_score": 91,
+      "home_team": "SMU"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Florida A&M",
+      "game_id": "2018_11_29_florida_a_m_north_florida",
+      "home_score": 81,
+      "home_team": "North Florida"
+    },
+    {
+      "away_score": 67,
+      "away_team": "East-West University",
+      "game_id": "2018_11_29_east_west_university_chicago_state",
+      "home_score": 90,
+      "home_team": "Chicago State"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Austin Peay",
+      "game_id": "2018_11_29_austin_peay_troy",
+      "home_score": 74,
+      "home_team": "Troy"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Huston-Tillotson",
+      "game_id": "2018_11_29_huston_tillotson_texas_southern",
+      "home_score": 81,
+      "home_team": "Texas Southern"
+    },
+    {
+      "away_score": 64,
+      "away_team": "San Diego Christian",
+      "game_id": "2018_11_29_san_diego_christian_southern_utah",
+      "home_score": 111,
+      "home_team": "Southern Utah"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Georgia Southern",
+      "game_id": "2018_11_29_georgia_southern_arizona",
+      "home_score": 100,
+      "home_team": "Arizona"
+    },
+    {
+      "away_score": 66,
+      "away_team": "Montana-Western",
+      "game_id": "2018_11_29_montana_western_idaho_state",
+      "home_score": 74,
+      "home_team": "Idaho State"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Bethesda University",
+      "game_id": "2018_11_29_bethesda_university_loyola_marymount",
+      "home_score": 106,
+      "home_team": "Loyola Marymount"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Jackson State",
+      "game_id": "2018_11_29_jackson_state_santa_clara",
+      "home_score": 81,
+      "home_team": "Santa Clara"
+    },
+    {
+      "away_score": 80,
+      "away_team": "California Baptist",
+      "game_id": "2018_11_29_california_baptist_uc_riverside",
+      "home_score": 70,
+      "home_team": "UC Riverside"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Northern Arizona",
+      "game_id": "2018_11_29_northern_arizona_uc_davis",
+      "home_score": 73,
+      "home_team": "UC Davis"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Sacramento State",
+      "game_id": "2018_11_29_sacramento_state_uc_santa_barbara",
+      "home_score": 75,
+      "home_team": "UC Santa Barbara"
+    }
+  ],
+  "generated_at": "2026-02-28T22:37:19.922729Z"
+}

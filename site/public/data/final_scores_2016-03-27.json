@@ -1,0 +1,34 @@
+{
+  "date": "2016-03-27",
+  "games": [
+    {
+      "away_score": 74,
+      "away_team": "Notre Dame",
+      "game_id": "2016_03_27_notre_dame_north_carolina",
+      "home_score": 88,
+      "home_team": "North Carolina"
+    },
+    {
+      "away_score": 66,
+      "away_team": "UC Irvine",
+      "game_id": "2016_03_27_uc_irvine_coastal_carolina",
+      "home_score": 47,
+      "home_team": "Coastal Carolina"
+    },
+    {
+      "away_score": 65,
+      "away_team": "NJIT",
+      "game_id": "2016_03_27_njit_columbia",
+      "home_score": 80,
+      "home_team": "Columbia"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Syracuse",
+      "game_id": "2016_03_27_syracuse_virginia",
+      "home_score": 62,
+      "home_team": "Virginia"
+    }
+  ],
+  "generated_at": "2026-02-28T21:28:05.190754Z"
+}

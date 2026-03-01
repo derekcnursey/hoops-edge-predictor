@@ -1,0 +1,104 @@
+{
+  "date": "2017-02-17",
+  "games": [
+    {
+      "away_score": 69,
+      "away_team": "Cornell",
+      "game_id": "2017_02_17_cornell_dartmouth",
+      "home_score": 65,
+      "home_team": "Dartmouth"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Kent State",
+      "game_id": "2017_02_17_kent_state_akron",
+      "home_score": 67,
+      "home_team": "Akron"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Canisius",
+      "game_id": "2017_02_17_canisius_rider",
+      "home_score": 77,
+      "home_team": "Rider"
+    },
+    {
+      "away_score": 74,
+      "away_team": "UIC",
+      "game_id": "2017_02_17_uic_detroit_mercy",
+      "home_score": 69,
+      "home_team": "Detroit Mercy"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Valparaiso",
+      "game_id": "2017_02_17_valparaiso_oakland",
+      "home_score": 82,
+      "home_team": "Oakland"
+    },
+    {
+      "away_score": 95,
+      "away_team": "Iona",
+      "game_id": "2017_02_17_iona_marist",
+      "home_score": 88,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Columbia",
+      "game_id": "2017_02_17_columbia_harvard",
+      "home_score": 78,
+      "home_team": "Harvard"
+    },
+    {
+      "away_score": 96,
+      "away_team": "Pennsylvania",
+      "game_id": "2017_02_17_pennsylvania_brown",
+      "home_score": 72,
+      "home_team": "Brown"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Princeton",
+      "game_id": "2017_02_17_princeton_yale",
+      "home_score": 52,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Little Rock",
+      "game_id": "2017_02_17_little_rock_arkansas_state",
+      "home_score": 67,
+      "home_team": "Arkansas State"
+    },
+    {
+      "away_score": 84,
+      "away_team": "VCU",
+      "game_id": "2017_02_17_vcu_richmond",
+      "home_score": 73,
+      "home_team": "Richmond"
+    },
+    {
+      "away_score": 89,
+      "away_team": "Fairfield",
+      "game_id": "2017_02_17_fairfield_quinnipiac",
+      "home_score": 86,
+      "home_team": "Quinnipiac"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Idaho",
+      "game_id": "2017_02_17_idaho_eastern_washington",
+      "home_score": 77,
+      "home_team": "Eastern Washington"
+    },
+    {
+      "away_score": 68,
+      "away_team": "California",
+      "game_id": "2017_02_17_california_stanford",
+      "home_score": 73,
+      "home_team": "Stanford"
+    }
+  ],
+  "generated_at": "2026-02-28T21:29:06.256789Z"
+}

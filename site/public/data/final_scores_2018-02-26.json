@@ -1,0 +1,146 @@
+{
+  "date": "2018-02-26",
+  "games": [
+    {
+      "away_score": 76,
+      "away_team": "South Carolina Upstate",
+      "game_id": "2018_02_26_south_carolina_upstate_florida_gulf_coast",
+      "home_score": 96,
+      "home_team": "Florida Gulf Coast"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Norfolk State",
+      "game_id": "2018_02_26_norfolk_state_howard",
+      "home_score": 74,
+      "home_team": "Howard"
+    },
+    {
+      "away_score": 90,
+      "away_team": "James Madison",
+      "game_id": "2018_02_26_james_madison_elon",
+      "home_score": 84,
+      "home_team": "Elon"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Duke",
+      "game_id": "2018_02_26_duke_virginia_tech",
+      "home_score": 64,
+      "home_team": "Virginia Tech"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Kennesaw State",
+      "game_id": "2018_02_26_kennesaw_state_jacksonville",
+      "home_score": 87,
+      "home_team": "Jacksonville"
+    },
+    {
+      "away_score": 90,
+      "away_team": "Marquette",
+      "game_id": "2018_02_26_marquette_georgetown",
+      "home_score": 86,
+      "home_team": "Georgetown"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Delaware State",
+      "game_id": "2018_02_26_delaware_state_maryland_eastern_shore",
+      "home_score": 59,
+      "home_team": "Maryland Eastern Shore"
+    },
+    {
+      "away_score": 80,
+      "away_team": "North Florida",
+      "game_id": "2018_02_26_north_florida_njit",
+      "home_score": 76,
+      "home_team": "NJIT"
+    },
+    {
+      "away_score": 86,
+      "away_team": "North Carolina A&T",
+      "game_id": "2018_02_26_north_carolina_a_t_bethune_cookman",
+      "home_score": 80,
+      "home_team": "Bethune-Cookman"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Coppin State",
+      "game_id": "2018_02_26_coppin_state_morgan_state",
+      "home_score": 69,
+      "home_team": "Morgan State"
+    },
+    {
+      "away_score": 74,
+      "away_team": "South Carolina State",
+      "game_id": "2018_02_26_south_carolina_state_florida_a_m",
+      "home_score": 76,
+      "home_team": "Florida A&M"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Stetson",
+      "game_id": "2018_02_26_stetson_lipscomb",
+      "home_score": 89,
+      "home_team": "Lipscomb"
+    },
+    {
+      "away_score": 75,
+      "away_team": "North Carolina Central",
+      "game_id": "2018_02_26_north_carolina_central_savannah_state",
+      "home_score": 85,
+      "home_team": "Savannah State"
+    },
+    {
+      "away_score": 48,
+      "away_team": "Arkansas-Pine Bluff",
+      "game_id": "2018_02_26_arkansas_pine_bluff_jackson_state",
+      "home_score": 51,
+      "home_team": "Jackson State"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Mississippi Valley State",
+      "game_id": "2018_02_26_mississippi_valley_state_grambling",
+      "home_score": 74,
+      "home_team": "Grambling"
+    },
+    {
+      "away_score": 58,
+      "away_team": "Alabama A&M",
+      "game_id": "2018_02_26_alabama_a_m_prairie_view_a_m",
+      "home_score": 71,
+      "home_team": "Prairie View A&M"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Fresno State",
+      "game_id": "2018_02_26_fresno_state_air_force",
+      "home_score": 48,
+      "home_team": "Air Force"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Texas",
+      "game_id": "2018_02_26_texas_kansas",
+      "home_score": 80,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Texas Tech",
+      "game_id": "2018_02_26_texas_tech_west_virginia",
+      "home_score": 84,
+      "home_team": "West Virginia"
+    },
+    {
+      "away_score": 77,
+      "away_team": "Alabama State",
+      "game_id": "2018_02_26_alabama_state_texas_southern",
+      "home_score": 95,
+      "home_team": "Texas Southern"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:35.850936Z"
+}

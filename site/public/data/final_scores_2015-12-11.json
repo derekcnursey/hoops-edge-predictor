@@ -1,0 +1,48 @@
+{
+  "date": "2015-12-11",
+  "games": [
+    {
+      "away_score": 58,
+      "away_team": "North Greenville",
+      "game_id": "2015_12_11_north_greenville_south_carolina_upstate",
+      "home_score": 70,
+      "home_team": "South Carolina Upstate"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Eastern Washington",
+      "game_id": "2015_12_11_eastern_washington_pittsburgh",
+      "home_score": 84,
+      "home_team": "Pittsburgh"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Prairie View A&M",
+      "game_id": "2015_12_11_prairie_view_a_m_tcu",
+      "home_score": 73,
+      "home_team": "TCU"
+    },
+    {
+      "away_score": 72,
+      "away_team": "UT Martin",
+      "game_id": "2015_12_11_ut_martin_ut_rio_grande_valley",
+      "home_score": 64,
+      "home_team": "UT Rio Grande Valley"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Valparaiso",
+      "game_id": "2015_12_11_valparaiso_chicago_state",
+      "home_score": 53,
+      "home_team": "Chicago State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "North Dakota State",
+      "game_id": "2015_12_11_north_dakota_state_north_dakota",
+      "home_score": 67,
+      "home_team": "North Dakota"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:02.028660Z"
+}

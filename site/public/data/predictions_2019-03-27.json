@@ -1,0 +1,60 @@
+{
+  "date": "2019-03-27",
+  "games": [
+    {
+      "away_team": "Coastal Carolina",
+      "edge_home_points": -6.892737865447998,
+      "game_id": "2019_03_27_coastal_carolina_depaul",
+      "home_team": "DePaul",
+      "market_spread_home": -8.0,
+      "model_mu_home": 1.1072621,
+      "neutral_site": null,
+      "pick_cover_prob": 0.7337605002515579,
+      "pick_ev_per_1": 0.40081550048024694,
+      "pick_fair_odds": -275.60166727508715,
+      "pick_prob_edge": 0.2099509764420341,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.23468146,
+      "pred_sigma": 11.04205,
+      "start_time": "2019-03-28T00:00:00.000Z"
+    },
+    {
+      "away_team": "Lipscomb",
+      "edge_home_points": -4.022320508956909,
+      "game_id": "2019_03_27_lipscomb_nc_state",
+      "home_team": "NC State",
+      "market_spread_home": -5.0,
+      "model_mu_home": 0.9776795,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6383628692987089,
+      "pick_ev_per_1": 0.21869275047935333,
+      "pick_fair_odds": -176.52027823049804,
+      "pick_prob_edge": 0.11455334548918505,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.18064256,
+      "pred_sigma": 11.35972,
+      "start_time": "2019-03-28T01:00:00.000Z"
+    },
+    {
+      "away_team": "Colorado",
+      "edge_home_points": -2.47570538520813,
+      "game_id": "2019_03_27_colorado_texas",
+      "home_team": "Texas",
+      "market_spread_home": -5.0,
+      "model_mu_home": 2.5242946,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5968474183991297,
+      "pick_ev_per_1": 0.13943598058015672,
+      "pick_fair_odds": -148.04504439215557,
+      "pick_prob_edge": 0.07303789458960586,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.7465956,
+      "pred_sigma": 10.0968685,
+      "start_time": "2019-03-28T01:00:00.000Z"
+    }
+  ],
+  "generated_at": "2026-02-28T22:32:02.351246Z"
+}

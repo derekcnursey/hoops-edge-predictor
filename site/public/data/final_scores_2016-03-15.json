@@ -1,0 +1,111 @@
+{
+  "date": "2016-03-15",
+  "games": [
+    {
+      "away_score": 65,
+      "away_team": "Fairleigh Dickinson",
+      "game_id": "2016_03_15_fairleigh_dickinson_florida_gulf_coast",
+      "home_score": 96,
+      "home_team": "Florida Gulf Coast"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Davidson",
+      "game_id": "2016_03_15_davidson_florida_state",
+      "home_score": 84,
+      "home_team": "Florida State"
+    },
+    {
+      "away_score": 66,
+      "away_team": "High Point",
+      "game_id": "2016_03_15_high_point_south_carolina",
+      "home_score": 88,
+      "home_team": "South Carolina"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Mercer",
+      "game_id": "2016_03_15_mercer_coastal_carolina",
+      "home_score": 65,
+      "home_team": "Coastal Carolina"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Akron",
+      "game_id": "2016_03_15_akron_ohio_state",
+      "home_score": 72,
+      "home_team": "Ohio State"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Morehead State",
+      "game_id": "2016_03_15_morehead_state_siena",
+      "home_score": 80,
+      "home_team": "Siena"
+    },
+    {
+      "away_score": 57,
+      "away_team": "UL Monroe",
+      "game_id": "2016_03_15_ul_monroe_furman",
+      "home_score": 58,
+      "home_team": "Furman"
+    },
+    {
+      "away_score": 78,
+      "away_team": "Ball State",
+      "game_id": "2016_03_15_ball_state_tennessee_state",
+      "home_score": 73,
+      "home_team": "Tennessee State"
+    },
+    {
+      "away_score": 54,
+      "away_team": "Alabama",
+      "game_id": "2016_03_15_alabama_creighton",
+      "home_score": 72,
+      "home_team": "Creighton"
+    },
+    {
+      "away_score": 102,
+      "away_team": "Long Beach State",
+      "game_id": "2016_03_15_long_beach_state_washington",
+      "home_score": 107,
+      "home_team": "Washington"
+    },
+    {
+      "away_score": 97,
+      "away_team": "Florida",
+      "game_id": "2016_03_15_florida_north_florida",
+      "home_score": 68,
+      "home_team": "North Florida"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Texas Southern",
+      "game_id": "2016_03_15_texas_southern_valparaiso",
+      "home_score": 84,
+      "home_team": "Valparaiso"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Wichita State",
+      "game_id": "2016_03_15_wichita_state_vanderbilt",
+      "home_score": 50,
+      "home_team": "Vanderbilt"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Purdue Fort Wayne",
+      "game_id": "2016_03_15_purdue_fort_wayne_san_diego_state",
+      "home_score": 79,
+      "home_team": "San Diego State"
+    },
+    {
+      "away_score": 56,
+      "away_team": "New Mexico State",
+      "game_id": "2016_03_15_new_mexico_state_saint_mary_s",
+      "home_score": 58,
+      "home_team": "Saint Mary's"
+    }
+  ],
+  "generated_at": "2026-02-28T21:27:58.124130Z"
+}

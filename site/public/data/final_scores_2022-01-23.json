@@ -1,0 +1,167 @@
+{
+  "date": "2022-01-23",
+  "games": [
+    {
+      "away_score": 62,
+      "away_team": "Butler",
+      "game_id": "2022_01_23_butler_providence",
+      "home_score": 69,
+      "home_team": "Providence"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Saint Peter's",
+      "game_id": "2022_01_23_saint_peter_s_canisius",
+      "home_score": 63,
+      "home_team": "Canisius"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Northwestern",
+      "game_id": "2022_01_23_northwestern_purdue",
+      "home_score": 80,
+      "home_team": "Purdue"
+    },
+    {
+      "away_score": 68,
+      "away_team": "St. Francis Brooklyn",
+      "game_id": "2022_01_23_st_francis_brooklyn_bryant",
+      "home_score": 85,
+      "home_team": "Bryant"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Rider",
+      "game_id": "2022_01_23_rider_niagara",
+      "home_score": 67,
+      "home_team": "Niagara"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Xavier",
+      "game_id": "2022_01_23_xavier_marquette",
+      "home_score": 75,
+      "home_team": "Marquette"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Iona",
+      "game_id": "2022_01_23_iona_quinnipiac",
+      "home_score": 61,
+      "home_team": "Quinnipiac"
+    },
+    {
+      "away_score": 50,
+      "away_team": "Central Connecticut",
+      "game_id": "2022_01_23_central_connecticut_mount_st_mary_s",
+      "home_score": 65,
+      "home_team": "Mount St. Mary's"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Manhattan",
+      "game_id": "2022_01_23_manhattan_monmouth",
+      "home_score": 78,
+      "home_team": "Monmouth"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Youngstown State",
+      "game_id": "2022_01_23_youngstown_state_purdue_fort_wayne",
+      "home_score": 82,
+      "home_team": "Purdue Fort Wayne"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Illinois State",
+      "game_id": "2022_01_23_illinois_state_evansville",
+      "home_score": 56,
+      "home_team": "Evansville"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Fairfield",
+      "game_id": "2022_01_23_fairfield_marist",
+      "home_score": 66,
+      "home_team": "Marist"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Massachusetts",
+      "game_id": "2022_01_23_massachusetts_saint_louis",
+      "home_score": 90,
+      "home_team": "Saint Louis"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Memphis",
+      "game_id": "2022_01_23_memphis_tulsa",
+      "home_score": 81,
+      "home_team": "Tulsa"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Robert Morris",
+      "game_id": "2022_01_23_robert_morris_cleveland_state",
+      "home_score": 75,
+      "home_team": "Cleveland State"
+    },
+    {
+      "away_score": 71,
+      "away_team": "Wagner",
+      "game_id": "2022_01_23_wagner_merrimack",
+      "home_score": 57,
+      "home_team": "Merrimack"
+    },
+    {
+      "away_score": 96,
+      "away_team": "Arizona",
+      "game_id": "2022_01_23_arizona_california",
+      "home_score": 71,
+      "home_team": "California"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Michigan",
+      "game_id": "2022_01_23_michigan_indiana",
+      "home_score": 62,
+      "home_team": "Indiana"
+    },
+    {
+      "away_score": 59,
+      "away_team": "UTEP",
+      "game_id": "2022_01_23_utep_utsa",
+      "home_score": 54,
+      "home_team": "UTSA"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Sacred Heart",
+      "game_id": "2022_01_23_sacred_heart_st_francis_pa",
+      "home_score": 85,
+      "home_team": "St. Francis (PA)"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Clayton State",
+      "game_id": "2022_01_23_clayton_state_georgia_tech",
+      "home_score": 103,
+      "home_team": "Georgia Tech"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Long Island University",
+      "game_id": "2022_01_23_long_island_university_fairleigh_dickinson",
+      "home_score": 75,
+      "home_team": "Fairleigh Dickinson"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Washington",
+      "game_id": "2022_01_23_washington_oregon",
+      "home_score": 84,
+      "home_team": "Oregon"
+    }
+  ],
+  "generated_at": "2026-02-28T21:32:50.593315Z"
+}

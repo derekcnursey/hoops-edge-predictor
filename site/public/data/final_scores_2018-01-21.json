@@ -1,0 +1,139 @@
+{
+  "date": "2018-01-21",
+  "games": [
+    {
+      "away_score": 69,
+      "away_team": "Boston College",
+      "game_id": "2018_01_21_boston_college_louisville",
+      "home_score": 77,
+      "home_team": "Louisville"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Manhattan",
+      "game_id": "2018_01_21_manhattan_saint_peter_s",
+      "home_score": 57,
+      "home_team": "Saint Peter's"
+    },
+    {
+      "away_score": 86,
+      "away_team": "Miami",
+      "game_id": "2018_01_21_miami_nc_state",
+      "home_score": 81,
+      "home_team": "NC State"
+    },
+    {
+      "away_score": 47,
+      "away_team": "Rutgers",
+      "game_id": "2018_01_21_rutgers_michigan",
+      "home_score": 62,
+      "home_team": "Michigan"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Vermont",
+      "game_id": "2018_01_21_vermont_hartford",
+      "home_score": 53,
+      "home_team": "Hartford"
+    },
+    {
+      "away_score": 51,
+      "away_team": "Stony Brook",
+      "game_id": "2018_01_21_stony_brook_new_hampshire",
+      "home_score": 53,
+      "home_team": "New Hampshire"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Canisius",
+      "game_id": "2018_01_21_canisius_iona",
+      "home_score": 82,
+      "home_team": "Iona"
+    },
+    {
+      "away_score": 56,
+      "away_team": "Radford",
+      "game_id": "2018_01_21_radford_campbell",
+      "home_score": 59,
+      "home_team": "Campbell"
+    },
+    {
+      "away_score": 84,
+      "away_team": "UNC Asheville",
+      "game_id": "2018_01_21_unc_asheville_liberty",
+      "home_score": 68,
+      "home_team": "Liberty"
+    },
+    {
+      "away_score": 79,
+      "away_team": "UMass Lowell",
+      "game_id": "2018_01_21_umass_lowell_binghamton",
+      "home_score": 71,
+      "home_team": "Binghamton"
+    },
+    {
+      "away_score": 39,
+      "away_team": "UMBC",
+      "game_id": "2018_01_21_umbc_ualbany",
+      "home_score": 83,
+      "home_team": "UAlbany"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Siena",
+      "game_id": "2018_01_21_siena_quinnipiac",
+      "home_score": 76,
+      "home_team": "Quinnipiac"
+    },
+    {
+      "away_score": 75,
+      "away_team": "High Point",
+      "game_id": "2018_01_21_high_point_longwood",
+      "home_score": 55,
+      "home_team": "Longwood"
+    },
+    {
+      "away_score": 81,
+      "away_team": "Winthrop",
+      "game_id": "2018_01_21_winthrop_presbyterian",
+      "home_score": 68,
+      "home_team": "Presbyterian"
+    },
+    {
+      "away_score": 53,
+      "away_team": "Northern Iowa",
+      "game_id": "2018_01_21_northern_iowa_southern_illinois",
+      "home_score": 64,
+      "home_team": "Southern Illinois"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Loyola Chicago",
+      "game_id": "2018_01_21_loyola_chicago_valparaiso",
+      "home_score": 54,
+      "home_team": "Valparaiso"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Gardner-Webb",
+      "game_id": "2018_01_21_gardner_webb_charleston_southern",
+      "home_score": 83,
+      "home_team": "Charleston Southern"
+    },
+    {
+      "away_score": 59,
+      "away_team": "Virginia",
+      "game_id": "2018_01_21_virginia_wake_forest",
+      "home_score": 49,
+      "home_team": "Wake Forest"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Washington State",
+      "game_id": "2018_01_21_washington_state_utah",
+      "home_score": 82,
+      "home_team": "Utah"
+    }
+  ],
+  "generated_at": "2026-02-28T21:30:14.788309Z"
+}

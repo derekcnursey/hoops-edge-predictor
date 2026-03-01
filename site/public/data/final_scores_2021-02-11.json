@@ -1,0 +1,230 @@
+{
+  "date": "2021-02-11",
+  "games": [
+    {
+      "away_score": 54,
+      "away_team": "Gardner-Webb",
+      "game_id": "2021_02_11_gardner_webb_longwood",
+      "home_score": 57,
+      "home_team": "Longwood"
+    },
+    {
+      "away_score": 50,
+      "away_team": "UT Martin",
+      "game_id": "2021_02_11_ut_martin_austin_peay",
+      "home_score": 71,
+      "home_team": "Austin Peay"
+    },
+    {
+      "away_score": 57,
+      "away_team": "Portland",
+      "game_id": "2021_02_11_portland_pacific",
+      "home_score": 84,
+      "home_team": "Pacific"
+    },
+    {
+      "away_score": 68,
+      "away_team": "Purdue",
+      "game_id": "2021_02_11_purdue_minnesota",
+      "home_score": 71,
+      "home_team": "Minnesota"
+    },
+    {
+      "away_score": 72,
+      "away_team": "Fairleigh Dickinson",
+      "game_id": "2021_02_11_fairleigh_dickinson_wagner",
+      "home_score": 76,
+      "home_team": "Wagner"
+    },
+    {
+      "away_score": 73,
+      "away_team": "Charleston Southern",
+      "game_id": "2021_02_11_charleston_southern_high_point",
+      "home_score": 77,
+      "home_team": "High Point"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Georgia Southern",
+      "game_id": "2021_02_11_georgia_southern_georgia_state",
+      "home_score": 79,
+      "home_team": "Georgia State"
+    },
+    {
+      "away_score": 76,
+      "away_team": "Utah",
+      "game_id": "2021_02_11_utah_california",
+      "home_score": 75,
+      "home_team": "California"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Winthrop",
+      "game_id": "2021_02_11_winthrop_radford",
+      "home_score": 64,
+      "home_team": "Radford"
+    },
+    {
+      "away_score": 85,
+      "away_team": "Presbyterian",
+      "game_id": "2021_02_11_presbyterian_hampton",
+      "home_score": 70,
+      "home_team": "Hampton"
+    },
+    {
+      "away_score": 63,
+      "away_team": "Texas State",
+      "game_id": "2021_02_11_texas_state_ut_arlington",
+      "home_score": 56,
+      "home_team": "UT Arlington"
+    },
+    {
+      "away_score": 70,
+      "away_team": "St. Francis Brooklyn",
+      "game_id": "2021_02_11_st_francis_brooklyn_st_francis_pa",
+      "home_score": 67,
+      "home_team": "St. Francis (PA)"
+    },
+    {
+      "away_score": 60,
+      "away_team": "Long Island University",
+      "game_id": "2021_02_11_long_island_university_mount_st_mary_s",
+      "home_score": 66,
+      "home_team": "Mount St. Mary's"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Troy",
+      "game_id": "2021_02_11_troy_south_alabama",
+      "home_score": 73,
+      "home_team": "South Alabama"
+    },
+    {
+      "away_score": 67,
+      "away_team": "Weber State",
+      "game_id": "2021_02_11_weber_state_montana",
+      "home_score": 80,
+      "home_team": "Montana"
+    },
+    {
+      "away_score": 71,
+      "away_team": "South Carolina Upstate",
+      "game_id": "2021_02_11_south_carolina_upstate_campbell",
+      "home_score": 72,
+      "home_team": "Campbell"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Iowa State",
+      "game_id": "2021_02_11_iowa_state_kansas",
+      "home_score": 97,
+      "home_team": "Kansas"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Colorado",
+      "game_id": "2021_02_11_colorado_stanford",
+      "home_score": 51,
+      "home_team": "Stanford"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Merrimack",
+      "game_id": "2021_02_11_merrimack_central_connecticut",
+      "home_score": 46,
+      "home_team": "Central Connecticut"
+    },
+    {
+      "away_score": 93,
+      "away_team": "Eastern Washington",
+      "game_id": "2021_02_11_eastern_washington_montana_state",
+      "home_score": 77,
+      "home_team": "Montana State"
+    },
+    {
+      "away_score": 72,
+      "away_team": "UL Monroe",
+      "game_id": "2021_02_11_ul_monroe_louisiana",
+      "home_score": 66,
+      "home_team": "Louisiana"
+    },
+    {
+      "away_score": 61,
+      "away_team": "Oregon State",
+      "game_id": "2021_02_11_oregon_state_arizona",
+      "home_score": 70,
+      "home_team": "Arizona"
+    },
+    {
+      "away_score": 64,
+      "away_team": "Eastern Illinois",
+      "game_id": "2021_02_11_eastern_illinois_jacksonville_state",
+      "home_score": 76,
+      "home_team": "Jacksonville State"
+    },
+    {
+      "away_score": 74,
+      "away_team": "Eastern Kentucky",
+      "game_id": "2021_02_11_eastern_kentucky_belmont",
+      "home_score": 92,
+      "home_team": "Belmont"
+    },
+    {
+      "away_score": 43,
+      "away_team": "Idaho",
+      "game_id": "2021_02_11_idaho_idaho_state",
+      "home_score": 69,
+      "home_team": "Idaho State"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Oregon",
+      "game_id": "2021_02_11_oregon_arizona_state",
+      "home_score": 64,
+      "home_team": "Arizona State"
+    },
+    {
+      "away_score": 81,
+      "away_team": "SIU Edwardsville",
+      "game_id": "2021_02_11_siu_edwardsville_tennessee_tech",
+      "home_score": 63,
+      "home_team": "Tennessee Tech"
+    },
+    {
+      "away_score": 79,
+      "away_team": "Morehead State",
+      "game_id": "2021_02_11_morehead_state_tennessee_state",
+      "home_score": 66,
+      "home_team": "Tennessee State"
+    },
+    {
+      "away_score": 69,
+      "away_team": "Fresno State",
+      "game_id": "2021_02_11_fresno_state_air_force",
+      "home_score": 63,
+      "home_team": "Air Force"
+    },
+    {
+      "away_score": 69,
+      "away_team": "USC",
+      "game_id": "2021_02_11_usc_washington",
+      "home_score": 54,
+      "home_team": "Washington"
+    },
+    {
+      "away_score": 66,
+      "away_team": "UNLV",
+      "game_id": "2021_02_11_unlv_boise_state",
+      "home_score": 78,
+      "home_team": "Boise State"
+    },
+    {
+      "away_score": 73,
+      "away_team": "UCLA",
+      "game_id": "2021_02_11_ucla_washington_state",
+      "home_score": 81,
+      "home_team": "Washington State"
+    }
+  ],
+  "generated_at": "2026-02-28T21:31:36.112952Z"
+}
