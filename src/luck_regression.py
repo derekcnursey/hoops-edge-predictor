@@ -55,7 +55,8 @@ def compute_luck_features(adv_stats: pd.DataFrame) -> pd.DataFrame:
         return pd.DataFrame(columns=["gameid", "teamid", "startdate"] + LUCK_FEATURE_COLS)
 
     df = adv_stats.copy()
-    df["_date"] = pd.to_datetime(df["startdate"], errors="coerce")
+    df["_date"] = pd.to_datetime(df["startdate"], errors="coerce", utc=True).dt.normalize()
+    df["_date"] = df["_date"].dt.tz_localize(None)
     df = df.sort_values(["_date", "gameid", "teamid"]).reset_index(drop=True)
 
     n = len(df)
