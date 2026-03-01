@@ -117,3 +117,13 @@ BARTHAG_EXPONENT = 11.5
 FEATURE_ORDER_V3: list[str] = json.loads(
     (ARTIFACTS_DIR / "feature_order_v3.json").read_text()
 )
+
+# V4 pruned feature set (136 features) — session 15
+# Dropped 12 near-duplicate features (|r| > 0.95):
+#   home_team_home (= 1 - neutral_site), away_team_home (constant 0),
+#   scoring_variance (= margin_std), def_def_rebound_pct (= -off_rebound_pct),
+#   def_off_rebound_pct (~ -def_rebound_pct), top2_scorer_pct (~ scoring_hhi),
+#   efg_luck (~ expected_pts_per_shot)
+FEATURE_ORDER_V4: list[str] = json.loads(
+    (ARTIFACTS_DIR / "feature_order_v4.json").read_text()
+)
