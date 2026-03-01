@@ -193,6 +193,20 @@ function getSeasonFromDate(dateStr: string): number {
   return month >= 11 ? year + 1 : year;
 }
 
+/** Map calendar month to season-relative order: Nov=0, Dec=1, Jan=2, ..., Oct=11 */
+function seasonMonthOrd(mo: number): number {
+  return mo >= 11 ? mo - 11 : mo + 1;
+}
+
+const SEASON_MONTHS = [
+  { value: 11, label: "Nov" },
+  { value: 12, label: "Dec" },
+  { value: 1, label: "Jan" },
+  { value: 2, label: "Feb" },
+  { value: 3, label: "Mar" },
+  { value: 4, label: "Apr" },
+];
+
 const mono: CSSProperties = {
   fontFamily: "'IBM Plex Mono', monospace"
 };
@@ -204,7 +218,7 @@ export default function Performance({
   seasonLabel: _serverSeasonLabel
 }: PerformanceProps) {
   const [edgeMin, setEdgeMin] = useState(0);
-  const [startDate, setStartDate] = useState("");
+  const [startMonth, setStartMonth] = useState<number | "">("");
 
   const availableSeasons = useMemo(() => {
     const set = new Set<number>();
@@ -226,17 +240,14 @@ export default function Performance({
     return Math.ceil(Math.max(...games.map((g) => g.edge)));
   }, [games]);
 
-  const minDate = games.length ? games[0].date : "";
-  const maxDate = games.length ? games[games.length - 1].date : "";
-
   /* filtered games */
   const filtered = useMemo(
     () =>
       games
         .filter((g) => seasonFilter === "all" || getSeasonFromDate(g.date) === seasonFilter)
-        .filter((g) => !startDate || g.date >= startDate)
+        .filter((g) => startMonth === "" || seasonMonthOrd(Number(g.date.slice(5, 7))) >= seasonMonthOrd(startMonth as number))
         .filter((g) => g.edge >= edgeMin),
-    [games, seasonFilter, startDate, edgeMin]
+    [games, seasonFilter, startMonth, edgeMin]
   );
 
   /* stats */
@@ -413,38 +424,43 @@ export default function Performance({
             <span style={{ ...mono, fontSize: 13, color: "#64748b" }}>
               {seasonLabel}
             </span>
-            {minDate && (
-              <div
-                style={{ display: "flex", alignItems: "center", gap: 6 }}
+            <div
+              style={{ display: "flex", alignItems: "center", gap: 6 }}
+            >
+              <span
+                style={{
+                  ...mono,
+                  fontSize: 11,
+                  fontWeight: 600,
+                  color: "#64748b"
+                }}
               >
-                <span
-                  style={{
-                    ...mono,
-                    fontSize: 11,
-                    fontWeight: 600,
-                    color: "#64748b"
-                  }}
-                >
-                  FROM
-                </span>
-                <input
-                  type="date"
-                  min={minDate}
-                  max={maxDate}
-                  value={startDate}
-                  onChange={(e) => setStartDate(e.target.value)}
-                  style={{
-                    ...mono,
-                    fontSize: 13,
-                    padding: "2px 6px",
-                    border: "1px solid #cbd5e1",
-                    borderRadius: 4,
-                    color: "#0f172a",
-                    background: "#fff"
-                  }}
-                />
-              </div>
-            )}
+                FROM
+              </span>
+              <select
+                value={startMonth}
+                onChange={(e) => {
+                  const v = e.target.value;
+                  setStartMonth(v === "" ? "" : Number(v));
+                }}
+                style={{
+                  ...mono,
+                  padding: "4px 8px",
+                  border: "1px solid #e2e8f0",
+                  borderRadius: 6,
+                  fontSize: 13,
+                  background: "#fff",
+                  color: "#334155",
+                }}
+              >
+                <option value="">All</option>
+                {SEASON_MONTHS.map((m) => (
+                  <option key={m.value} value={m.value}>
+                    {m.label}
+                  </option>
+                ))}
+              </select>
+            </div>
           </div>
 
           <div
