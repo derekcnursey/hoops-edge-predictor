@@ -1,0 +1,42 @@
+{
+  "date": "2017-04-01",
+  "games": [
+    {
+      "away_team": "South Carolina",
+      "edge_home_points": -4.769572734832764,
+      "game_id": "2017_04_01_south_carolina_gonzaga",
+      "home_team": "Gonzaga",
+      "market_spread_home": -6.5,
+      "model_mu_home": 1.7304273,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6505686090228516,
+      "pick_ev_per_1": 0.24199461722544402,
+      "pick_fair_odds": -186.1792116625826,
+      "pick_prob_edge": 0.1267590852133278,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.10731828,
+      "pred_sigma": 12.329063,
+      "start_time": "2017-04-01T22:09:00.000Z"
+    },
+    {
+      "away_team": "Oregon",
+      "edge_home_points": -4.599571615457535,
+      "game_id": "2017_04_01_oregon_north_carolina",
+      "home_team": "North Carolina",
+      "market_spread_home": -4.5,
+      "model_mu_home": -0.099571615,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6517733949901013,
+      "pick_ev_per_1": 0.2442946631629207,
+      "pick_fair_odds": -187.16932756231367,
+      "pick_prob_edge": 0.1279638711805775,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.26847896,
+      "pred_sigma": 11.790366,
+      "start_time": "2017-04-02T01:05:00.000Z"
+    }
+  ],
+  "generated_at": "2026-03-01T01:09:03.805906Z"
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2016-04-02",
+  "games": [
+    {
+      "away_team": "Villanova",
+      "edge_home_points": -6.73454475402832,
+      "game_id": "2016_04_02_villanova_oklahoma",
+      "home_team": "Oklahoma",
+      "market_spread_home": 1.0,
+      "model_mu_home": -7.7345448,
+      "neutral_site": null,
+      "pick_cover_prob": 0.7262856245785767,
+      "pick_ev_per_1": 0.3865452832863737,
+      "pick_fair_odds": -265.3443479029385,
+      "pick_prob_edge": 0.20247610076905287,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.051344,
+      "pred_sigma": 11.194063,
+      "start_time": "2016-04-02T22:09:00.000Z"
+    },
+    {
+      "away_team": "Syracuse",
+      "edge_home_points": -5.2127299308776855,
+      "game_id": "2016_04_02_syracuse_north_carolina",
+      "home_team": "North Carolina",
+      "market_spread_home": -10.0,
+      "model_mu_home": 4.78727,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6820789071174176,
+      "pick_ev_per_1": 0.30215064086052446,
+      "pick_fair_odds": -214.54345823142012,
+      "pick_prob_edge": 0.15826938330789375,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.35822916,
+      "pred_sigma": 11.008467,
+      "start_time": "2016-04-03T00:49:00.000Z"
+    }
+  ],
+  "generated_at": "2026-03-01T01:08:56.698974Z"
+}

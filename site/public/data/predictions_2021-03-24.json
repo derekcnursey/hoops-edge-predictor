@@ -1,0 +1,24 @@
+{
+  "date": "2021-03-24",
+  "games": [
+    {
+      "away_team": "Coastal Carolina",
+      "edge_home_points": -3.772735834121704,
+      "game_id": "2021_03_24_coastal_carolina_pepperdine",
+      "home_team": "Pepperdine",
+      "market_spread_home": -4.5,
+      "model_mu_home": 0.72726417,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6342172655929734,
+      "pick_ev_per_1": 0.21077841613204018,
+      "pick_fair_odds": -173.38633181282006,
+      "pick_prob_edge": 0.11040774178344959,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.032407224,
+      "pred_sigma": 10.997824,
+      "start_time": "2021-03-25T00:00:00.000Z"
+    }
+  ],
+  "generated_at": "2026-03-01T01:10:47.663678Z"
+}

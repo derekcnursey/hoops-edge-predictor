@@ -1,0 +1,42 @@
+{
+  "date": "2016-03-22",
+  "games": [
+    {
+      "away_team": "Saint Mary's",
+      "edge_home_points": -1.431821346282959,
+      "game_id": "2016_03_22_saint_mary_s_valparaiso",
+      "home_team": "Valparaiso",
+      "market_spread_home": -2.5,
+      "model_mu_home": 1.0681787,
+      "neutral_site": null,
+      "pick_cover_prob": 0.551029913417042,
+      "pick_ev_per_1": 0.051966198341625636,
+      "pick_fair_odds": -122.73198813997735,
+      "pick_prob_edge": 0.02722038960751816,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.68035805,
+      "pred_sigma": 11.163094,
+      "start_time": "2016-03-22T23:00:00.000Z"
+    },
+    {
+      "away_team": "Creighton",
+      "edge_home_points": -0.9978053569793701,
+      "game_id": "2016_03_22_creighton_byu",
+      "home_team": "BYU",
+      "market_spread_home": -3.5,
+      "model_mu_home": 2.5021946,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5333851556068306,
+      "pick_ev_per_1": 0.018280751613040325,
+      "pick_fair_odds": -114.3095128704051,
+      "pick_prob_edge": 0.009575631797306805,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.7143005,
+      "pred_sigma": 11.909531,
+      "start_time": "2016-03-23T01:00:00.000Z"
+    }
+  ],
+  "generated_at": "2026-03-01T01:04:39.555625Z"
+}

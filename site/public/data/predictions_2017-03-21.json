@@ -1,0 +1,42 @@
+{
+  "date": "2017-03-21",
+  "games": [
+    {
+      "away_team": "Richmond",
+      "edge_home_points": -4.879101991653442,
+      "game_id": "2017_03_21_richmond_tcu",
+      "home_team": "TCU",
+      "market_spread_home": -8.0,
+      "model_mu_home": 3.120898,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6584658777538466,
+      "pick_ev_per_1": 0.2570712211664343,
+      "pick_fair_odds": -192.7965128120555,
+      "pick_prob_edge": 0.13465635394432274,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.5905843,
+      "pred_sigma": 11.950387,
+      "start_time": "2017-03-21T23:00:00.000Z"
+    },
+    {
+      "away_team": "Georgia Tech",
+      "edge_home_points": -0.6925210952758789,
+      "game_id": "2017_03_21_georgia_tech_ole_miss",
+      "home_team": "Ole Miss",
+      "market_spread_home": -4.5,
+      "model_mu_home": 3.807479,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5316996028265897,
+      "pick_ev_per_1": 0.015062878123489387,
+      "pick_fair_odds": -113.5381490248241,
+      "pick_prob_edge": 0.007890079017065843,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.7058434,
+      "pred_sigma": 8.706257,
+      "start_time": "2017-03-22T01:00:00.000Z"
+    }
+  ],
+  "generated_at": "2026-03-01T01:04:47.234793Z"
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2017-03-27",
+  "games": [
+    {
+      "away_team": "Wyoming",
+      "edge_home_points": null,
+      "game_id": "2017_03_27_wyoming_coastal_carolina",
+      "home_team": "Coastal Carolina",
+      "market_spread_home": null,
+      "model_mu_home": 0.025536787,
+      "neutral_site": null,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.71145743,
+      "pred_sigma": 12.214095,
+      "start_time": "2017-03-27T23:30:00.000Z"
+    }
+  ],
+  "generated_at": "2026-03-01T01:07:07.267446Z"
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2021-03-30",
+  "games": [
+    {
+      "away_team": "USC",
+      "edge_home_points": -1.0398364067077637,
+      "game_id": "2021_03_30_usc_gonzaga",
+      "home_team": "Gonzaga",
+      "market_spread_home": -8.0,
+      "model_mu_home": 6.9601636,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5373356238294207,
+      "pick_ev_per_1": 0.02582255458343946,
+      "pick_fair_odds": -116.13939855860242,
+      "pick_prob_edge": 0.013526100019896847,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.92378265,
+      "pred_sigma": 11.094717,
+      "start_time": "2021-03-30T23:15:00.000Z"
+    },
+    {
+      "away_team": "UCLA",
+      "edge_home_points": -1.4140820503234863,
+      "game_id": "2021_03_30_ucla_michigan",
+      "home_team": "Michigan",
+      "market_spread_home": -6.0,
+      "model_mu_home": 4.585918,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5592778363656561,
+      "pick_ev_per_1": 0.06771223306170704,
+      "pick_fair_odds": -126.90032009138412,
+      "pick_prob_edge": 0.03546831255613225,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.9148875,
+      "pred_sigma": 9.481668,
+      "start_time": "2021-03-31T01:57:00.000Z"
+    }
+  ],
+  "generated_at": "2026-03-01T01:12:40.257434Z"
+}

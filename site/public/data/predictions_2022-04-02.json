@@ -1,0 +1,42 @@
+{
+  "date": "2022-04-02",
+  "games": [
+    {
+      "away_team": "Villanova",
+      "edge_home_points": -2.6425576210021973,
+      "game_id": "2022_04_02_villanova_kansas",
+      "home_team": "Kansas",
+      "market_spread_home": -4.0,
+      "model_mu_home": 1.3574424,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6193668486744262,
+      "pick_ev_per_1": 0.18242762019663172,
+      "pick_fair_odds": -162.72015364858535,
+      "pick_prob_edge": 0.09555732486490232,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.034856092,
+      "pred_sigma": 8.697822,
+      "start_time": "2022-04-02T22:09:00.000Z"
+    },
+    {
+      "away_team": "North Carolina",
+      "edge_home_points": -4.40937677025795,
+      "game_id": "2022_04_02_north_carolina_duke",
+      "home_team": "Duke",
+      "market_spread_home": -4.0,
+      "model_mu_home": -0.40937677,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6645650237513252,
+      "pick_ev_per_1": 0.26871504534343904,
+      "pick_fair_odds": -198.12037229494211,
+      "pick_prob_edge": 0.14075549994180137,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.9114338,
+      "pred_sigma": 10.376119,
+      "start_time": "2022-04-03T00:49:00.000Z"
+    }
+  ],
+  "generated_at": "2026-03-01T01:27:53.090879Z"
+}

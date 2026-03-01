@@ -1,0 +1,42 @@
+{
+  "date": "2022-03-29",
+  "games": [
+    {
+      "away_team": "St. Bonaventure",
+      "edge_home_points": 1.8726181983947754,
+      "game_id": "2022_03_29_st_bonaventure_xavier",
+      "home_team": "Xavier",
+      "market_spread_home": 1.0,
+      "model_mu_home": 0.8726182,
+      "neutral_site": null,
+      "pick_cover_prob": 0.5744041539444159,
+      "pick_ev_per_1": 0.09658974843933943,
+      "pick_fair_odds": -134.96469931931549,
+      "pick_prob_edge": 0.05059463013489207,
+      "pick_side": "HOME",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.11317828,
+      "pred_sigma": 9.982073,
+      "start_time": "2022-03-29T23:00:00.000Z"
+    },
+    {
+      "away_team": "Washington State",
+      "edge_home_points": -3.5406200885772705,
+      "game_id": "2022_03_29_washington_state_texas_a_m",
+      "home_team": "Texas A&M",
+      "market_spread_home": -2.0,
+      "model_mu_home": -1.5406201,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6459189712728712,
+      "pick_ev_per_1": 0.23311803606639048,
+      "pick_fair_odds": -182.42123098062007,
+      "pick_prob_edge": 0.1221094474633474,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.06107882,
+      "pred_sigma": 9.458663,
+      "start_time": "2022-03-30T01:30:00.000Z"
+    }
+  ],
+  "generated_at": "2026-03-01T01:26:30.750730Z"
+}

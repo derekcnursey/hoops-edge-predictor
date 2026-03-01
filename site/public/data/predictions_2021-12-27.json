@@ -1,0 +1,60 @@
+{
+  "date": "2021-12-27",
+  "games": [
+    {
+      "away_team": "Penn State - Wilkes-Barre",
+      "edge_home_points": null,
+      "game_id": "2021_12_27_penn_state_wilkes_barre_morgan_state",
+      "home_team": "Morgan State",
+      "market_spread_home": null,
+      "model_mu_home": 19.695587,
+      "neutral_site": null,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.9998622,
+      "pred_sigma": 30.0,
+      "start_time": "2021-12-27T17:00:00.000Z"
+    },
+    {
+      "away_team": "Brown",
+      "edge_home_points": -9.62199455499649,
+      "game_id": "2021_12_27_brown_syracuse",
+      "home_team": "Syracuse",
+      "market_spread_home": -9.5,
+      "model_mu_home": -0.121994555,
+      "neutral_site": null,
+      "pick_cover_prob": 0.8224570489922813,
+      "pick_ev_per_1": 0.5701452753489007,
+      "pick_fair_odds": -463.2439893130565,
+      "pick_prob_edge": 0.2986475251827575,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.6129348,
+      "pred_sigma": 10.404751,
+      "start_time": "2021-12-27T23:00:00.000Z"
+    },
+    {
+      "away_team": "Dallas Christian",
+      "edge_home_points": null,
+      "game_id": "2021_12_27_dallas_christian_texas_a_m",
+      "home_team": "Texas A&M",
+      "market_spread_home": null,
+      "model_mu_home": 33.11376,
+      "neutral_site": null,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.999998,
+      "pred_sigma": 15.195187,
+      "start_time": "2021-12-28T01:00:00.000Z"
+    }
+  ],
+  "generated_at": "2026-03-01T00:50:20.409918Z"
+}

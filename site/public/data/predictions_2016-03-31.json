@@ -1,0 +1,24 @@
+{
+  "date": "2016-03-31",
+  "games": [
+    {
+      "away_team": "George Washington",
+      "edge_home_points": -3.2440474033355713,
+      "game_id": "2016_03_31_george_washington_valparaiso",
+      "home_team": "Valparaiso",
+      "market_spread_home": -2.0,
+      "model_mu_home": -1.2440474,
+      "neutral_site": null,
+      "pick_cover_prob": 0.6245812259247688,
+      "pick_ev_per_1": 0.19238234040183144,
+      "pick_fair_odds": -166.36920395451702,
+      "pick_prob_edge": 0.100771702115245,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.053291403,
+      "pred_sigma": 10.21634,
+      "start_time": "2016-03-31T23:00:00.000Z"
+    }
+  ],
+  "generated_at": "2026-03-01T01:08:09.995483Z"
+}
