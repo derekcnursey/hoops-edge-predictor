@@ -728,6 +728,9 @@ from .schedule_features import compute_schedule_features, SCHEDULE_FEATURE_NAMES
 from .pace_features import compute_pace_features, PACE_FEATURE_COLS
 from .kill_shot_analysis import compute_kill_shot_metrics, KILL_SHOT_COLS
 from .luck_regression import compute_luck_features, LUCK_FEATURE_COLS
+from .corrected_efficiencies import (
+    compute_corrected_efficiencies, CORRECTED_EFFICIENCY_COLS,
+)
 from .rolling_averages import compute_rolling_averages_v2
 
 # ── Stat pairs for opponent adjustment of advanced stats ─────────
@@ -748,6 +751,10 @@ _TURNOVER_PAIRS = {
     "live_ball_tov_rate": "steal_rate_defense",
     "dead_ball_tov_rate": "steal_rate_defense",  # approximate pair
     "steal_rate_defense": "live_ball_tov_rate",
+    "halfcourt_scoring_efficiency": "def_halfcourt_scoring_efficiency",
+    "def_halfcourt_scoring_efficiency": "halfcourt_scoring_efficiency",
+    "transition_scoring_efficiency": "def_transition_scoring_efficiency",
+    "def_transition_scoring_efficiency": "transition_scoring_efficiency",
 }
 
 _TEMPO_PAIRS = {
@@ -823,6 +830,10 @@ _ADV_NO_ADJUST = {
     "transition_scoring_efficiency",
     "expected_pts_per_shot",
     "transition_value",
+    # Corrected efficiencies: league-relative by construction
+    "shot_quality_oe",
+    "shot_quality_de",
+    "shot_quality_vs_actual",
 }
 
 # Per-team advanced stat columns that become rolling features (home_ / away_ prefixed)
@@ -832,8 +843,10 @@ _ROLLING_ADV_STATS = [
     "rim_rate", "mid_range_rate", "rim_fg_pct", "mid_range_fg_pct",
     "assisted_fg_pct",
     "def_rim_rate", "def_mid_range_rate", "def_rim_fg_pct", "def_mid_range_fg_pct",
-    # Turnover decomp (Group C)
+    # Turnover decomp (Group C) + halfcourt/transition split
     "live_ball_tov_rate", "dead_ball_tov_rate", "steal_rate_defense", "transition_rate",
+    "halfcourt_scoring_efficiency", "def_transition_scoring_efficiency",
+    "def_halfcourt_scoring_efficiency",
     # Tempo (Group D)
     "avg_possession_length", "early_clock_shot_rate", "shot_clock_pressure_rate",
     # Putbacks (Group G)
@@ -930,6 +943,8 @@ _GROUP_DEFS = {
     "turnover": [
         "live_ball_tov_rate", "dead_ball_tov_rate", "steal_rate_defense",
         "transition_rate", "transition_scoring_efficiency",
+        "halfcourt_scoring_efficiency", "def_transition_scoring_efficiency",
+        "def_halfcourt_scoring_efficiency",
     ],
     "tempo": [
         "avg_possession_length", "early_clock_shot_rate", "shot_clock_pressure_rate",
@@ -956,6 +971,9 @@ _GROUP_DEFS = {
     ],
     "luck": [
         "efg_luck", "three_pt_luck", "two_pt_luck",
+    ],
+    "corrected_efficiency": [
+        "shot_quality_oe", "shot_quality_de", "shot_quality_vs_actual",
     ],
 }
 for _grp, _cols in _GROUP_DEFS.items():
@@ -1718,9 +1736,10 @@ def build_features_v2_bulk(
         ff_span = _load_optimal_spans().get("four_factors")
         rolling_df = compute_rolling_averages_v2(ff, optimal_span=ff_span)
 
-    # 2b. PBP advanced stats + luck + opponent adjustment + rolling
+    # 2b. PBP advanced stats + luck + corrected eff + opponent adjustment + rolling
     adv_rolling = pd.DataFrame()
     luck_rolling = pd.DataFrame()
+    corr_eff_rolling = pd.DataFrame()
     ks_rolling = pd.DataFrame()
     if not pbp_df.empty:
         adv_stats = compute_advanced_stats(pbp_df)
@@ -1730,6 +1749,13 @@ def build_features_v2_bulk(
             if not luck_df.empty:
                 luck_rolling = compute_rolling_advanced_stats_v2(
                     luck_df, LUCK_FEATURE_COLS
+                )
+
+            # Corrected efficiency features on RAW (pre-adjustment) stats
+            corr_eff_df = compute_corrected_efficiencies(adv_stats)
+            if not corr_eff_df.empty:
+                corr_eff_rolling = compute_rolling_advanced_stats_v2(
+                    corr_eff_df, CORRECTED_EFFICIENCY_COLS
                 )
 
             # Opponent adjustment
@@ -1860,6 +1886,16 @@ def build_features_v2_bulk(
     )
     result = _merge_team_feature(
         result, luck_rolling, "awayTeamId", away_luck_map, asof_fill=True,
+    )
+
+    # ── Corrected efficiency rolling ──
+    home_ce_map = {f"home_{s}": f"rolling_{s}" for s in CORRECTED_EFFICIENCY_COLS}
+    away_ce_map = {f"away_{s}": f"rolling_{s}" for s in CORRECTED_EFFICIENCY_COLS}
+    result = _merge_team_feature(
+        result, corr_eff_rolling, "homeTeamId", home_ce_map, asof_fill=True,
+    )
+    result = _merge_team_feature(
+        result, corr_eff_rolling, "awayTeamId", away_ce_map, asof_fill=True,
     )
 
     # ── Schedule features ──

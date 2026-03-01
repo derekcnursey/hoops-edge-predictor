@@ -238,3 +238,25 @@ class TestComputeAdvancedStats:
             if pd.notna(steal_rate) and pd.notna(trans_eff) and pd.notna(tv):
                 expected = steal_rate * trans_eff
                 assert tv == pytest.approx(expected, abs=1e-6)
+
+    def test_halfcourt_columns_present(self):
+        """New halfcourt/transition split columns should be present."""
+        pbp = _make_game_pbp()
+        result = compute_advanced_stats(pbp)
+        for col in [
+            "halfcourt_scoring_efficiency",
+            "def_transition_scoring_efficiency",
+            "def_halfcourt_scoring_efficiency",
+        ]:
+            assert col in result.columns, f"Missing column: {col}"
+
+    def test_halfcourt_efficiency_non_negative(self):
+        pbp = _make_game_pbp()
+        result = compute_advanced_stats(pbp)
+        for _, row in result.iterrows():
+            for col in [
+                "halfcourt_scoring_efficiency",
+                "def_halfcourt_scoring_efficiency",
+            ]:
+                if pd.notna(row[col]):
+                    assert row[col] >= 0, f"{col} = {row[col]}, expected >= 0"

@@ -127,3 +127,11 @@ FEATURE_ORDER_V3: list[str] = json.loads(
 FEATURE_ORDER_V4: list[str] = json.loads(
     (ARTIFACTS_DIR / "feature_order_v4.json").read_text()
 )
+
+# V5 corrected-efficiency feature set (86 features) — session 16
+# Core idea: replace raw shot breakdown stats (rim_rate, mid_range_rate, etc.)
+# with corrected efficiencies (shot_quality_oe/de, halfcourt/transition split).
+# Fewer, cleaner features — each maximally informative.
+FEATURE_ORDER_V5: list[str] = json.loads(
+    (ARTIFACTS_DIR / "feature_order_v5.json").read_text()
+)

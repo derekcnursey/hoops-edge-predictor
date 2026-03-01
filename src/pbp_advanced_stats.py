@@ -344,9 +344,55 @@ def _compute_turnover_decomp(
             stats["transition_scoring_efficiency"] = trans_pts / n_transition
         else:
             stats["transition_scoring_efficiency"] = np.nan
+
+        # Halfcourt (non-transition) scoring efficiency
+        n_halfcourt = off_possessions - n_transition
+        if n_halfcourt > 0:
+            halfcourt_poss_ids = set(poss_durations[poss_durations["duration"] >= 7].index)
+            hc_plays = off_plays[off_plays["possession_id"].isin(halfcourt_poss_ids)]
+            hc_pts = hc_plays[hc_plays["scoringPlay"] == True]["scoreValue"].sum()
+            stats["halfcourt_scoring_efficiency"] = hc_pts / n_halfcourt
+        else:
+            stats["halfcourt_scoring_efficiency"] = np.nan
     else:
         stats["transition_rate"] = np.nan
         stats["transition_scoring_efficiency"] = np.nan
+        stats["halfcourt_scoring_efficiency"] = np.nan
+
+    # Defensive halfcourt/transition split (opponent's possessions against us)
+    def_possessions_count = def_plays["possession_id"].nunique()
+    if def_possessions_count > 0:
+        def_poss_durations = def_plays.groupby("possession_id").agg(
+            max_sec=("secondsRemaining", "max"),
+            min_sec=("secondsRemaining", "min"),
+        )
+        def_poss_durations["duration"] = (
+            def_poss_durations["max_sec"] - def_poss_durations["min_sec"]
+        )
+        def_transition = def_poss_durations[def_poss_durations["duration"] < 7]
+        n_def_trans = len(def_transition)
+
+        if n_def_trans > 0:
+            dt_poss_ids = set(def_transition.index)
+            dt_plays = def_plays[def_plays["possession_id"].isin(dt_poss_ids)]
+            dt_pts = dt_plays[dt_plays["scoringPlay"] == True]["scoreValue"].sum()
+            stats["def_transition_scoring_efficiency"] = dt_pts / n_def_trans
+        else:
+            stats["def_transition_scoring_efficiency"] = np.nan
+
+        n_def_hc = def_possessions_count - n_def_trans
+        if n_def_hc > 0:
+            dhc_poss_ids = set(
+                def_poss_durations[def_poss_durations["duration"] >= 7].index
+            )
+            dhc_plays = def_plays[def_plays["possession_id"].isin(dhc_poss_ids)]
+            dhc_pts = dhc_plays[dhc_plays["scoringPlay"] == True]["scoreValue"].sum()
+            stats["def_halfcourt_scoring_efficiency"] = dhc_pts / n_def_hc
+        else:
+            stats["def_halfcourt_scoring_efficiency"] = np.nan
+    else:
+        stats["def_transition_scoring_efficiency"] = np.nan
+        stats["def_halfcourt_scoring_efficiency"] = np.nan
 
     return stats
 
@@ -764,7 +810,8 @@ SHOT_QUALITY_COLS = [
 
 TURNOVER_DECOMP_COLS = [
     "live_ball_tov_rate", "dead_ball_tov_rate", "steal_rate_defense", "transition_rate",
-    "transition_scoring_efficiency",
+    "transition_scoring_efficiency", "halfcourt_scoring_efficiency",
+    "def_transition_scoring_efficiency", "def_halfcourt_scoring_efficiency",
 ]
 
 TEMPO_COLS = [
