@@ -417,6 +417,28 @@ def daily_run(season: int, game_date: str | None):
 
     click.echo(f"=== Daily run for {game_date} (season {season}) ===")
 
+    # Freshness check: warn if gold data is stale
+    try:
+        from . import s3_reader
+        import pandas as _pd
+        gold_tbl = s3_reader.read_gold_table(
+            "team_adjusted_efficiencies_no_garbage", season=season
+        )
+        gold_df = gold_tbl.to_pandas()
+        gold_df["rating_date"] = _pd.to_datetime(gold_df["rating_date"], errors="coerce")
+        max_date = gold_df["rating_date"].max()
+        if _pd.notna(max_date):
+            days_stale = (_pd.Timestamp(game_date) - max_date).days
+            click.echo(f"Gold ratings through: {max_date.strftime('%Y-%m-%d')} ({days_stale}d before {game_date})")
+            if days_stale > 2:
+                click.echo(
+                    f"ERROR: Gold data is {days_stale} days stale! "
+                    f"Run daily-update instead (includes ETL).", err=True
+                )
+                sys.exit(1)
+    except Exception as e:
+        click.echo(f"WARNING: Freshness check failed: {e}", err=True)
+
     # 1. Build features
     click.echo("Building features...")
     df = build_features(
@@ -694,13 +716,24 @@ def daily_update(season: int, game_date: str | None, skip_etl: bool,
 
     # ── Steps 1-3: ETL ingest + silver + gold ──────────────────────
     if not skip_etl:
-        # Step 1: Minimal ETL ingest
-        click.echo("\n[1/6] ETL ingest (games, games_teams, lines, ratings_adjusted)...")
+        # Step 1a: Minimal ETL ingest (games, lines, ratings)
+        click.echo("\n[1/6] ETL ingest...")
+        click.echo("  Step 1a: games, games_teams, lines, ratings...")
         _run(
             ["poetry", "run", "python", "-m", "cbbd_etl", "incremental",
              "--only-endpoints", "games,games_teams,lines,ratings_adjusted"],
             cwd=etl_root,
             label="ETL incremental ingest",
+        )
+
+        # Step 1b: PBP fanout (plays + substitutions for new games)
+        # Without this, silver/gold transforms use stale PBP data.
+        click.echo("  Step 1b: PBP fanout (plays + substitutions)...")
+        _run(
+            ["poetry", "run", "python", "-m", "cbbd_etl", "fanout",
+             "--season-start", str(season), "--season-end", str(season)],
+            cwd=etl_root,
+            label="ETL PBP fanout",
         )
 
         # Step 2: Silver — fct_games/fct_lines/fct_ratings_adjusted built during ingest.
@@ -735,6 +768,35 @@ def daily_update(season: int, game_date: str | None, skip_etl: bool,
             cwd=etl_root,
             label="gold team_adjusted_efficiencies_no_garbage",
         )
+
+    # ── Freshness check: ensure gold data is current ────────────────
+    click.echo("\nChecking gold data freshness...")
+    try:
+        from . import s3_reader
+        gold_tbl = s3_reader.read_gold_table(
+            "team_adjusted_efficiencies_no_garbage", season=season
+        )
+        gold_df = gold_tbl.to_pandas()
+        import pandas as _pd
+        gold_df["rating_date"] = _pd.to_datetime(gold_df["rating_date"], errors="coerce")
+        max_date = gold_df["rating_date"].max()
+        if _pd.notna(max_date):
+            max_date_str = max_date.strftime("%Y-%m-%d")
+            game_dt = _pd.Timestamp(game_date)
+            days_stale = (game_dt - max_date).days
+            click.echo(f"  Gold ratings through: {max_date_str} ({days_stale} day(s) before {game_date})")
+            if days_stale > 2:
+                click.echo(
+                    f"  WARNING: Gold data is {days_stale} days stale! "
+                    f"ETL PBP pipeline may have failed.", err=True
+                )
+                if not skip_etl:
+                    click.echo("  ERROR: ETL ran but gold data is still stale. Aborting.", err=True)
+                    sys.exit(1)
+        else:
+            click.echo("  WARNING: Could not determine gold data date.", err=True)
+    except Exception as e:
+        click.echo(f"  WARNING: Freshness check failed: {e}", err=True)
 
     # ── Steps 4-5: Predict + publish ──────────────────────────────
     if not skip_predict:
