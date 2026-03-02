@@ -16,7 +16,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9600884,
-      "pred_sigma": 28.06708
+      "pred_sigma": 28.06708,
+      "start_time": "2025-12-28T17:00:00.000Z"
     },
     {
       "away_team": "Worcester State",
@@ -33,7 +34,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.99995875,
-      "pred_sigma": 17.299408
+      "pred_sigma": 17.299408,
+      "start_time": "2025-12-28T18:00:00.000Z"
     },
     {
       "away_team": "Alice Lloyd College",
@@ -50,92 +52,98 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9985483,
-      "pred_sigma": 30.0
+      "pred_sigma": 30.0,
+      "start_time": "2025-12-28T19:00:00.000Z"
     },
     {
       "away_team": "Harvard",
-      "edge_home_points": 2.507615566253662,
+      "edge_home_points": 2.5076156000000003,
       "game_id": "2025_12_28_harvard_colgate",
       "home_team": "Colgate",
       "market_spread_home": -3.5,
       "model_mu_home": 6.0076156,
       "neutral_site": null,
-      "pick_cover_prob": 0.5937386814849648,
-      "pick_ev_per_1": 0.1335011191985691,
-      "pick_fair_odds": -146.1469882624307,
-      "pick_prob_edge": 0.06992915767544094,
+      "pick_cover_prob": 0.5937386808095665,
+      "pick_ev_per_1": 0.1335011179091724,
+      "pick_fair_odds": -146.14698785321812,
+      "pick_prob_edge": 0.06992915700004265,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.057719097,
-      "pred_sigma": 10.572942
+      "pred_sigma": 10.572942,
+      "start_time": "2025-12-28T19:00:00.000Z"
     },
     {
       "away_team": "Liberty",
-      "edge_home_points": 7.9443840980529785,
+      "edge_home_points": 7.4443839999999994,
       "game_id": "2025_12_28_liberty_florida_international",
       "home_team": "Florida International",
-      "market_spread_home": 5.0,
+      "market_spread_home": 4.5,
       "model_mu_home": 2.944384,
       "neutral_site": null,
-      "pick_cover_prob": 0.752263025990334,
-      "pick_ev_per_1": 0.43613850416336486,
-      "pick_fair_odds": -303.6539172231041,
-      "pick_prob_edge": 0.22845350218081018,
+      "pick_cover_prob": 0.7385001837521102,
+      "pick_ev_per_1": 0.40986398716311956,
+      "pick_fair_odds": -282.40944653362436,
+      "pick_prob_edge": 0.2146906599425864,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.014747406,
-      "pred_sigma": 11.655007
+      "pred_sigma": 11.655007,
+      "start_time": "2025-12-28T19:00:00.000Z"
     },
     {
       "away_team": "Le Moyne",
-      "edge_home_points": -2.953035354614258,
+      "edge_home_points": -2.453035,
       "game_id": "2025_12_28_le_moyne_boston_college",
       "home_team": "Boston College",
-      "market_spread_home": -13.0,
+      "market_spread_home": -12.5,
       "model_mu_home": 10.046965,
       "neutral_site": null,
-      "pick_cover_prob": 0.5833812254509667,
-      "pick_ev_per_1": 0.11372779404275457,
-      "pick_fair_odds": -140.0275890308699,
-      "pick_prob_edge": 0.059571701641442876,
+      "pick_cover_prob": 0.5694213473116464,
+      "pick_ev_per_1": 0.08707711759496128,
+      "pick_fair_odds": -132.2456057113879,
+      "pick_prob_edge": 0.04561182350212256,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.42846414,
-      "pred_sigma": 14.025265
+      "pred_sigma": 14.025265,
+      "start_time": "2025-12-28T19:00:00.000Z"
     },
     {
       "away_team": "UL Monroe",
-      "edge_home_points": -9.317934036254883,
+      "edge_home_points": -8.817934000000001,
       "game_id": "2025_12_28_ul_monroe_kansas_state",
       "home_team": "Kansas State",
-      "market_spread_home": -33.0,
+      "market_spread_home": -32.5,
       "model_mu_home": 23.682066,
       "neutral_site": null,
-      "pick_cover_prob": 0.7689677294556011,
-      "pick_ev_per_1": 0.46802930168796575,
-      "pick_fair_odds": -332.8399654488197,
-      "pick_prob_edge": 0.24515820564607727,
+      "pick_cover_prob": 0.7567815840989711,
+      "pick_ev_per_1": 0.44476484237076297,
+      "pick_fair_odds": -311.15307666789624,
+      "pick_prob_edge": 0.23297206028944728,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.99975735,
-      "pred_sigma": 12.669678
+      "pred_sigma": 12.669678,
+      "start_time": "2025-12-28T19:00:00.000Z"
     },
     {
       "away_team": "Columbia",
-      "edge_home_points": -0.5080509185791016,
+      "edge_home_points": -0.508051,
       "game_id": "2025_12_28_columbia_north_florida",
       "home_team": "North Florida",
       "market_spread_home": 11.5,
       "model_mu_home": -12.008051,
       "neutral_site": null,
-      "pick_cover_prob": 0.5141814997469338,
-      "pick_ev_per_1": -0.01838077321039905,
-      "pick_fair_odds": -105.83818843438304,
-      "pick_prob_edge": -0.009628024062590002,
+      "pick_cover_prob": 0.5141815016605674,
+      "pick_ev_per_1": -0.018380769557098553,
+      "pick_fair_odds": -105.83818924517733,
+      "pick_prob_edge": -0.009628022148956417,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.017545145,
-      "pred_sigma": 14.28906
+      "pred_sigma": 14.28906,
+      "start_time": "2025-12-28T19:00:00.000Z"
     },
     {
       "away_team": "Pfeiffer",
@@ -152,7 +160,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 1.0,
-      "pred_sigma": 24.565466
+      "pred_sigma": 24.565466,
+      "start_time": "2025-12-28T19:00:00.000Z"
     },
     {
       "away_team": "Fort Lauderdale",
@@ -169,7 +178,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 1.0,
-      "pred_sigma": 19.378714
+      "pred_sigma": 19.378714,
+      "start_time": "2025-12-28T19:00:00.000Z"
     },
     {
       "away_team": "Dakota State",
@@ -186,7 +196,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.6769759,
-      "pred_sigma": 24.406267
+      "pred_sigma": 24.406267,
+      "start_time": "2025-12-28T19:00:00.000Z"
     },
     {
       "away_team": "North Central (MN)",
@@ -203,7 +214,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.99980813,
-      "pred_sigma": 19.80893
+      "pred_sigma": 19.80893,
+      "start_time": "2025-12-28T19:00:00.000Z"
     },
     {
       "away_team": "Baptist (Fl)",
@@ -220,24 +232,26 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9948618,
-      "pred_sigma": 29.892649
+      "pred_sigma": 29.892649,
+      "start_time": "2025-12-28T19:00:00.000Z"
     },
     {
       "away_team": "Winthrop",
-      "edge_home_points": -8.195480346679688,
+      "edge_home_points": -8.69548,
       "game_id": "2025_12_28_winthrop_texas_tech",
       "home_team": "Texas Tech",
-      "market_spread_home": -18.0,
+      "market_spread_home": -18.5,
       "model_mu_home": 9.80452,
       "neutral_site": null,
-      "pick_cover_prob": 0.7561462934630052,
-      "pick_ev_per_1": 0.44355201479301,
-      "pick_fair_odds": -310.08193568232315,
-      "pick_prob_edge": 0.23233676965348138,
+      "pick_cover_prob": 0.7692252466218579,
+      "pick_ev_per_1": 0.46852092536900136,
+      "pick_fair_odds": -333.3229633492115,
+      "pick_prob_edge": 0.24541572281233404,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9756388,
-      "pred_sigma": 11.809733
+      "pred_sigma": 11.809733,
+      "start_time": "2025-12-28T19:00:00.000Z"
     },
     {
       "away_team": "Mount Marty College",
@@ -254,7 +268,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.99985814,
-      "pred_sigma": 27.592329
+      "pred_sigma": 27.592329,
+      "start_time": "2025-12-28T19:00:00.000Z"
     },
     {
       "away_team": "Union (KY)",
@@ -271,7 +286,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.99625033,
-      "pred_sigma": 27.516098
+      "pred_sigma": 27.516098,
+      "start_time": "2025-12-28T19:00:00.000Z"
     },
     {
       "away_team": "Shenandoah",
@@ -288,24 +304,26 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9911369,
-      "pred_sigma": 30.0
+      "pred_sigma": 30.0,
+      "start_time": "2025-12-28T19:30:00.000Z"
     },
     {
       "away_team": "Florida A&M",
-      "edge_home_points": -8.17767333984375,
+      "edge_home_points": -8.177673,
       "game_id": "2025_12_28_florida_a_m_georgia_tech",
       "home_team": "Georgia Tech",
       "market_spread_home": -19.5,
       "model_mu_home": 11.322327,
       "neutral_site": null,
-      "pick_cover_prob": 0.7419754021138987,
-      "pick_ev_per_1": 0.4164984949447156,
-      "pick_fair_odds": -287.55994900975514,
-      "pick_prob_edge": 0.21816587830437484,
+      "pick_cover_prob": 0.7419753876372,
+      "pick_ev_per_1": 0.4164984673073817,
+      "pick_fair_odds": -287.5599272653619,
+      "pick_prob_edge": 0.2181658638276761,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.8866745,
-      "pred_sigma": 12.59174
+      "pred_sigma": 12.59174,
+      "start_time": "2025-12-28T19:30:00.000Z"
     },
     {
       "away_team": "Averett",
@@ -322,24 +340,26 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 1.0,
-      "pred_sigma": 20.242867
+      "pred_sigma": 20.242867,
+      "start_time": "2025-12-28T20:00:00.000Z"
     },
     {
       "away_team": "Norfolk State",
-      "edge_home_points": -2.78586408495903,
+      "edge_home_points": -2.78586408,
       "game_id": "2025_12_28_norfolk_state_louisiana",
       "home_team": "Louisiana",
       "market_spread_home": -2.5,
       "model_mu_home": -0.28586408,
       "neutral_site": null,
-      "pick_cover_prob": 0.6104764554979336,
-      "pick_ev_per_1": 0.16545505140514594,
-      "pick_fair_odds": -156.72389104959356,
-      "pick_prob_edge": 0.08666693168840978,
+      "pick_cover_prob": 0.610476454025169,
+      "pick_ev_per_1": 0.16545504859350446,
+      "pick_fair_odds": -156.72389007893634,
+      "pick_prob_edge": 0.0866669302156452,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.96444994,
-      "pred_sigma": 9.929618
+      "pred_sigma": 9.929618,
+      "start_time": "2025-12-28T20:00:00.000Z"
     },
     {
       "away_team": "Principia College",
@@ -356,41 +376,44 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9937226,
-      "pred_sigma": 17.661263
+      "pred_sigma": 17.661263,
+      "start_time": "2025-12-28T20:00:00.000Z"
     },
     {
       "away_team": "Northern Colorado",
-      "edge_home_points": -6.827624320983887,
+      "edge_home_points": -7.327624,
       "game_id": "2025_12_28_northern_colorado_colorado",
       "home_team": "Colorado",
-      "market_spread_home": -15.0,
+      "market_spread_home": -15.5,
       "model_mu_home": 8.172376,
       "neutral_site": null,
-      "pick_cover_prob": 0.694714090089861,
-      "pick_ev_per_1": 0.3262723538079163,
-      "pick_fair_odds": -227.56179290893255,
-      "pick_prob_edge": 0.17090456628033712,
+      "pick_cover_prob": 0.7076564633113448,
+      "pick_ev_per_1": 0.35098052086711273,
+      "pick_fair_odds": -242.06331746783115,
+      "pick_prob_edge": 0.18384693950182096,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.93930334,
-      "pred_sigma": 13.407021
+      "pred_sigma": 13.407021,
+      "start_time": "2025-12-28T20:00:00.000Z"
     },
     {
       "away_team": "Cal State Fullerton",
-      "edge_home_points": -6.760180473327637,
+      "edge_home_points": -6.76018,
       "game_id": "2025_12_28_cal_state_fullerton_smu",
       "home_team": "SMU",
       "market_spread_home": -21.5,
       "model_mu_home": 14.73982,
       "neutral_site": null,
-      "pick_cover_prob": 0.6853830913845753,
-      "pick_ev_per_1": 0.30845862900691645,
-      "pick_fair_odds": -217.8468711045536,
-      "pick_prob_edge": 0.16157356757505148,
+      "pick_cover_prob": 0.6853830812838824,
+      "pick_ev_per_1": 0.30845860972377537,
+      "pick_fair_odds": -217.84686090016385,
+      "pick_prob_edge": 0.16157355747435853,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.987717,
-      "pred_sigma": 14.00187
+      "pred_sigma": 14.00187,
+      "start_time": "2025-12-28T20:00:00.000Z"
     },
     {
       "away_team": "College Of Biblical Studies",
@@ -407,7 +430,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.99999356,
-      "pred_sigma": 17.90562
+      "pred_sigma": 17.90562,
+      "start_time": "2025-12-28T20:30:00.000Z"
     },
     {
       "away_team": "Truett-McConnell",
@@ -424,7 +448,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.5241776,
-      "pred_sigma": 27.73764
+      "pred_sigma": 27.73764,
+      "start_time": "2025-12-28T21:00:00.000Z"
     },
     {
       "away_team": "University of The Southwest",
@@ -441,24 +466,26 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9531516,
-      "pred_sigma": 20.47815
+      "pred_sigma": 20.47815,
+      "start_time": "2025-12-28T21:00:00.000Z"
     },
     {
       "away_team": "Charleston Southern",
-      "edge_home_points": -1.281991958618164,
+      "edge_home_points": -1.2819920000000007,
       "game_id": "2025_12_28_charleston_southern_richmond",
       "home_team": "Richmond",
       "market_spread_home": -11.5,
       "model_mu_home": 10.218008,
       "neutral_site": null,
-      "pick_cover_prob": 0.5346938580270721,
-      "pick_ev_per_1": 0.02077918350622865,
-      "pick_fair_odds": -114.91227168417247,
-      "pick_prob_edge": 0.010884334217548308,
+      "pick_cover_prob": 0.534693859037259,
+      "pick_ev_per_1": 0.02077918543476709,
+      "pick_fair_odds": -114.91227215075033,
+      "pick_prob_edge": 0.010884335227735131,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.83994246,
-      "pred_sigma": 14.72293
+      "pred_sigma": 14.72293,
+      "start_time": "2025-12-28T21:00:00.000Z"
     },
     {
       "away_team": "Columbia College (SC)",
@@ -475,24 +502,26 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.99980766,
-      "pred_sigma": 15.038309
+      "pred_sigma": 15.038309,
+      "start_time": "2025-12-28T22:00:00.000Z"
     },
     {
       "away_team": "Washington State",
-      "edge_home_points": 3.233031392097473,
+      "edge_home_points": 2.7330313999999998,
       "game_id": "2025_12_28_washington_state_portland",
       "home_team": "Portland",
-      "market_spread_home": 4.0,
+      "market_spread_home": 3.5,
       "model_mu_home": -0.7669686,
       "neutral_site": null,
-      "pick_cover_prob": 0.5852187525989464,
-      "pick_ev_per_1": 0.11723580041617043,
-      "pick_fair_odds": -141.09093799823987,
-      "pick_prob_edge": 0.061409228789422565,
+      "pick_cover_prob": 0.5721974773206366,
+      "pick_ev_per_1": 0.09237700215757905,
+      "pick_fair_odds": -133.7527122881173,
+      "pick_prob_edge": 0.0483879535111128,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.007715664,
-      "pred_sigma": 15.019003
+      "pred_sigma": 15.019003,
+      "start_time": "2025-12-28T22:00:00.000Z"
     },
     {
       "away_team": "Pacific Union",
@@ -509,24 +538,26 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9678523,
-      "pred_sigma": 26.912199
+      "pred_sigma": 26.912199,
+      "start_time": "2025-12-28T22:00:00.000Z"
     },
     {
       "away_team": "Pennsylvania",
-      "edge_home_points": -3.479776382446289,
+      "edge_home_points": -3.4797759999999993,
       "game_id": "2025_12_28_pennsylvania_george_mason",
       "home_team": "George Mason",
       "market_spread_home": -16.5,
       "model_mu_home": 13.020224,
       "neutral_site": null,
-      "pick_cover_prob": 0.6324993110064995,
-      "pick_ev_per_1": 0.20749868464877175,
-      "pick_fair_odds": -172.1083333853792,
-      "pick_prob_edge": 0.10868978719697564,
+      "pick_cover_prob": 0.6324992965542129,
+      "pick_ev_per_1": 0.2074986570580427,
+      "pick_fair_odds": -172.108322684481,
+      "pick_prob_edge": 0.10868977274468905,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9993432,
-      "pred_sigma": 10.280592
+      "pred_sigma": 10.280592,
+      "start_time": "2025-12-28T22:00:00.000Z"
     },
     {
       "away_team": "Fisk",
@@ -543,24 +574,26 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9999944,
-      "pred_sigma": 17.168613
+      "pred_sigma": 17.168613,
+      "start_time": "2025-12-28T22:30:00.000Z"
     },
     {
       "away_team": "Old Dominion",
-      "edge_home_points": -6.836015701293945,
+      "edge_home_points": -6.336016000000001,
       "game_id": "2025_12_28_old_dominion_maryland",
       "home_team": "Maryland",
-      "market_spread_home": -15.0,
+      "market_spread_home": -14.5,
       "model_mu_home": 8.163984,
       "neutral_site": null,
-      "pick_cover_prob": 0.7139829269281823,
-      "pick_ev_per_1": 0.36305831504471164,
-      "pick_fair_odds": -249.62947814968524,
-      "pick_prob_edge": 0.1901734031186585,
+      "pick_cover_prob": 0.6997663933868712,
+      "pick_ev_per_1": 0.3359176601022086,
+      "pick_fair_odds": -233.07397239129438,
+      "pick_prob_edge": 0.17595686957734735,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.4983594,
-      "pred_sigma": 12.097896
+      "pred_sigma": 12.097896,
+      "start_time": "2025-12-28T23:00:00.000Z"
     },
     {
       "away_team": "McPherson",
@@ -577,58 +610,62 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.7692216,
-      "pred_sigma": 22.041761
+      "pred_sigma": 22.041761,
+      "start_time": "2025-12-28T23:00:00.000Z"
     },
     {
       "away_team": "Pacific",
-      "edge_home_points": -3.509739875793457,
+      "edge_home_points": -3.50974,
       "game_id": "2025_12_28_pacific_san_diego",
       "home_team": "San Diego",
       "market_spread_home": 2.5,
       "model_mu_home": -6.00974,
       "neutral_site": null,
-      "pick_cover_prob": 0.6138999975330668,
-      "pick_ev_per_1": 0.17199090438130926,
-      "pick_fair_odds": -159.00025734541222,
-      "pick_prob_edge": 0.09009047372354295,
+      "pick_cover_prob": 0.61390000009259,
+      "pick_ev_per_1": 0.1719909092676719,
+      "pick_fair_odds": -159.00025906236945,
+      "pick_prob_edge": 0.09009047628306621,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.2247772,
-      "pred_sigma": 12.123521
+      "pred_sigma": 12.123521,
+      "start_time": "2025-12-28T23:00:00.000Z"
     },
     {
       "away_team": "Santa Clara",
-      "edge_home_points": 4.985999584197998,
+      "edge_home_points": 5.4859995999999995,
       "game_id": "2025_12_28_santa_clara_oregon_state",
       "home_team": "Oregon State",
-      "market_spread_home": 6.0,
+      "market_spread_home": 6.5,
       "model_mu_home": -1.0140004,
       "neutral_site": null,
-      "pick_cover_prob": 0.618902579568641,
-      "pick_ev_per_1": 0.18154128826740557,
-      "pick_fair_odds": -162.4000967700368,
-      "pick_prob_edge": 0.0950930557591172,
+      "pick_cover_prob": 0.6304120215392881,
+      "pick_ev_per_1": 0.20351385930227728,
+      "pick_fair_odds": -170.57157112221995,
+      "pick_prob_edge": 0.10660249772976427,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.010926418,
-      "pred_sigma": 16.477205
+      "pred_sigma": 16.477205,
+      "start_time": "2025-12-28T23:00:00.000Z"
     },
     {
       "away_team": "Saint Mary's",
-      "edge_home_points": 6.34318995475769,
+      "edge_home_points": 6.34319,
       "game_id": "2025_12_28_saint_mary_s_loyola_marymount",
       "home_team": "Loyola Marymount",
       "market_spread_home": 9.5,
       "model_mu_home": -3.15681,
       "neutral_site": null,
-      "pick_cover_prob": 0.6977017014443949,
-      "pick_ev_per_1": 0.3319759754847539,
-      "pick_fair_odds": -230.79908315000287,
-      "pick_prob_edge": 0.17389217763487108,
+      "pick_cover_prob": 0.6977017009903264,
+      "pick_ev_per_1": 0.33197597461789574,
+      "pick_fair_odds": -230.7990826531246,
+      "pick_prob_edge": 0.17389217718080252,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.01106944,
-      "pred_sigma": 12.250229
+      "pred_sigma": 12.250229,
+      "start_time": "2025-12-29T00:00:00.000Z"
     },
     {
       "away_team": "Stanton",
@@ -645,59 +682,63 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9954704,
-      "pred_sigma": 22.698257
+      "pred_sigma": 22.698257,
+      "start_time": "2025-12-29T00:00:00.000Z"
     },
     {
       "away_team": "Omaha",
-      "edge_home_points": -7.120959281921387,
+      "edge_home_points": -7.120958999999999,
       "game_id": "2025_12_28_omaha_oregon",
       "home_team": "Oregon",
       "market_spread_home": -21.5,
       "model_mu_home": 14.379041,
       "neutral_site": null,
-      "pick_cover_prob": 0.7062120219883173,
-      "pick_ev_per_1": 0.3482229510686058,
-      "pick_fair_odds": -240.38152506030536,
-      "pick_prob_edge": 0.1824024981787935,
+      "pick_cover_prob": 0.706212017902706,
+      "pick_ev_per_1": 0.34822294326880243,
+      "pick_fair_odds": -240.3815203267332,
+      "pick_prob_edge": 0.1824024940931822,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.8891829,
-      "pred_sigma": 13.129771
+      "pred_sigma": 13.129771,
+      "start_time": "2025-12-29T01:00:00.000Z"
     },
     {
       "away_team": "Gonzaga",
-      "edge_home_points": 11.812618255615234,
+      "edge_home_points": 12.312618,
       "game_id": "2025_12_28_gonzaga_pepperdine",
       "home_team": "Pepperdine",
-      "market_spread_home": 29.0,
+      "market_spread_home": 29.5,
       "model_mu_home": -17.187382,
       "neutral_site": null,
-      "pick_cover_prob": 0.8328250067084983,
-      "pick_ev_per_1": 0.5899386491707695,
-      "pick_fair_odds": -498.1755885321367,
-      "pick_prob_edge": 0.3090154828989745,
+      "pick_cover_prob": 0.8428527348341601,
+      "pick_ev_per_1": 0.6090824937743057,
+      "pick_fair_odds": -536.3457861927695,
+      "pick_prob_edge": 0.3190432110246363,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.006360972,
-      "pred_sigma": 12.236122
+      "pred_sigma": 12.236122,
+      "start_time": "2025-12-29T01:00:00.000Z"
     },
     {
       "away_team": "San Francisco",
-      "edge_home_points": -1.215193271636963,
+      "edge_home_points": -1.2151933,
       "game_id": "2025_12_28_san_francisco_seattle_u",
       "home_team": "Seattle U",
       "market_spread_home": -2.5,
       "model_mu_home": 1.2848067,
       "neutral_site": null,
-      "pick_cover_prob": 0.5414209290182896,
-      "pick_ev_per_1": 0.033621773580371106,
-      "pick_fair_odds": -118.06490162301439,
-      "pick_prob_edge": 0.017611405208765807,
+      "pick_cover_prob": 0.5414209311295244,
+      "pick_ev_per_1": 0.033621777610910175,
+      "pick_fair_odds": -118.0649026269551,
+      "pick_prob_edge": 0.01761140732000055,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.0984946,
-      "pred_sigma": 11.682964
+      "pred_sigma": 11.682964,
+      "start_time": "2025-12-29T01:00:00.000Z"
     }
   ],
-  "generated_at": "2026-02-28T03:30:38.176165Z"
+  "generated_at": "2026-03-02T16:22:05.727821Z"
 }

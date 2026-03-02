@@ -3,20 +3,21 @@
   "games": [
     {
       "away_team": "Florida Atlantic",
-      "edge_home_points": -1.0516996383666992,
+      "edge_home_points": -1.0516996,
       "game_id": "2026_01_25_florida_atlantic_south_florida",
       "home_team": "South Florida",
       "market_spread_home": -5.5,
       "model_mu_home": 4.4483004,
       "neutral_site": null,
-      "pick_cover_prob": 0.5346271599382313,
-      "pick_ev_per_1": 0.020651850791168824,
-      "pick_fair_odds": -114.88147006328742,
-      "pick_prob_edge": 0.010817636128707453,
+      "pick_cover_prob": 0.5346271586325445,
+      "pick_ev_per_1": 0.020651848298494035,
+      "pick_fair_odds": -114.88146946039902,
+      "pick_prob_edge": 0.010817634823020672,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.50392514,
-      "pred_sigma": 12.1014805
+      "pred_sigma": 12.1014805,
+      "start_time": "2026-01-25T18:00:00.000Z"
     },
     {
       "away_team": "St. Francis (PA)",
@@ -33,7 +34,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.52257645,
-      "pred_sigma": 11.128264
+      "pred_sigma": 11.128264,
+      "start_time": "2026-01-25T18:00:00.000Z"
     },
     {
       "away_team": "Purdue Fort Wayne",
@@ -50,76 +52,81 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.6692422,
-      "pred_sigma": 9.269648
+      "pred_sigma": 9.269648,
+      "start_time": "2026-01-25T19:00:00.000Z"
     },
     {
       "away_team": "Oregon",
-      "edge_home_points": 0.6102085113525391,
+      "edge_home_points": 1.1102085000000006,
       "game_id": "2026_01_25_oregon_washington",
       "home_team": "Washington",
-      "market_spread_home": -8.0,
+      "market_spread_home": -7.5,
       "model_mu_home": 8.6102085,
       "neutral_site": null,
-      "pick_cover_prob": 0.5179510600848604,
-      "pick_ev_per_1": -0.011184339837993884,
-      "pick_fair_odds": -107.44781643458047,
-      "pick_prob_edge": -0.005858463724663476,
+      "pick_cover_prob": 0.5326345631967213,
+      "pick_ev_per_1": 0.016847802466467943,
+      "pick_fair_odds": -113.96533017928654,
+      "pick_prob_edge": 0.008825039387197475,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.06877014,
-      "pred_sigma": 13.556625
+      "pred_sigma": 13.556625,
+      "start_time": "2026-01-25T20:00:00.000Z"
     },
     {
       "away_team": "Chicago State",
-      "edge_home_points": 0.7628135681152344,
+      "edge_home_points": 1.2628140000000005,
       "game_id": "2026_01_25_chicago_state_mercyhurst",
       "home_team": "Mercyhurst",
-      "market_spread_home": -9.0,
+      "market_spread_home": -8.5,
       "model_mu_home": 9.762814,
       "neutral_site": null,
-      "pick_cover_prob": 0.5292881163396917,
-      "pick_ev_per_1": 0.010459131193956972,
-      "pick_fair_odds": -112.44417970158054,
-      "pick_prob_edge": 0.005478592530167914,
+      "pick_cover_prob": 0.5484097780937969,
+      "pick_ev_per_1": 0.04696412181543036,
+      "pick_fair_odds": -121.43969277698477,
+      "pick_prob_edge": 0.024600254284273038,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.8341102,
-      "pred_sigma": 10.381171
+      "pred_sigma": 10.381171,
+      "start_time": "2026-01-25T20:00:00.000Z"
     },
     {
       "away_team": "USC",
-      "edge_home_points": -1.4883370399475098,
+      "edge_home_points": -1.4883369999999996,
       "game_id": "2026_01_25_usc_wisconsin",
       "home_team": "Wisconsin",
       "market_spread_home": -7.5,
       "model_mu_home": 6.011663,
       "neutral_site": null,
-      "pick_cover_prob": 0.5561712445390183,
-      "pick_ev_per_1": 0.06178146684721686,
-      "pick_fair_odds": -125.31212493461636,
-      "pick_prob_edge": 0.0323617207294945,
+      "pick_cover_prob": 0.5561712434774384,
+      "pick_ev_per_1": 0.061781464820564236,
+      "pick_fair_odds": -125.31212439569946,
+      "pick_prob_edge": 0.03236171966791457,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.51227117,
-      "pred_sigma": 10.535489
+      "pred_sigma": 10.535489,
+      "start_time": "2026-01-25T21:00:00.000Z"
     },
     {
       "away_team": "Southern Illinois",
-      "edge_home_points": -2.3153600692749023,
+      "edge_home_points": -2.81536,
       "game_id": "2026_01_25_southern_illinois_evansville",
       "home_team": "Evansville",
-      "market_spread_home": 3.0,
+      "market_spread_home": 2.5,
       "model_mu_home": -5.31536,
       "neutral_site": null,
-      "pick_cover_prob": 0.590592159853593,
-      "pick_ev_per_1": 0.1274941233568594,
-      "pick_fair_odds": -144.25521495689807,
-      "pick_prob_edge": 0.0667826360440692,
+      "pick_cover_prob": 0.609699395605198,
+      "pick_ev_per_1": 0.1639715734281053,
+      "pick_fair_odds": -156.2127726014144,
+      "pick_prob_edge": 0.0858898717956742,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.11600375,
-      "pred_sigma": 10.107719
+      "pred_sigma": 10.107719,
+      "start_time": "2026-01-25T21:00:00.000Z"
     }
   ],
-  "generated_at": "2026-02-28T03:30:38.752687Z"
+  "generated_at": "2026-03-02T16:22:21.065359Z"
 }

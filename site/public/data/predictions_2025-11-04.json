@@ -16,7 +16,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.923757,
-      "pred_sigma": 19.926664
+      "pred_sigma": 19.926664,
+      "start_time": "2025-11-04T23:00:00.000Z"
     },
     {
       "away_team": "Evansville",
@@ -33,7 +34,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.923757,
-      "pred_sigma": 17.594799
+      "pred_sigma": 17.594799,
+      "start_time": "2025-11-04T23:30:00.000Z"
     },
     {
       "away_team": "Caldwell",
@@ -50,7 +52,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.923757,
-      "pred_sigma": 21.967358
+      "pred_sigma": 21.967358,
+      "start_time": "2025-11-05T00:00:00.000Z"
     },
     {
       "away_team": "Mount St. Mary's",
@@ -67,7 +70,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.89747864,
-      "pred_sigma": 12.447142
+      "pred_sigma": 12.447142,
+      "start_time": "2025-11-05T00:00:00.000Z"
     },
     {
       "away_team": "North Carolina A&T",
@@ -84,7 +88,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.904694,
-      "pred_sigma": 14.520188
+      "pred_sigma": 14.520188,
+      "start_time": "2025-11-05T00:00:00.000Z"
     },
     {
       "away_team": "East-West University",
@@ -101,7 +106,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.40897638,
-      "pred_sigma": 12.92128
+      "pred_sigma": 12.92128,
+      "start_time": "2025-11-05T00:00:00.000Z"
     },
     {
       "away_team": "Nicholls",
@@ -118,7 +124,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.85126424,
-      "pred_sigma": 11.188927
+      "pred_sigma": 11.188927,
+      "start_time": "2025-11-05T00:00:00.000Z"
     },
     {
       "away_team": "St. Joseph's (NY)",
@@ -135,7 +142,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9116858,
-      "pred_sigma": 23.58751
+      "pred_sigma": 23.58751,
+      "start_time": "2025-11-05T00:00:00.000Z"
     },
     {
       "away_team": "Merchant Marine Academy",
@@ -152,7 +160,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.91527313,
-      "pred_sigma": 23.934687
+      "pred_sigma": 23.934687,
+      "start_time": "2025-11-05T00:00:00.000Z"
     },
     {
       "away_team": "Alcorn State",
@@ -169,7 +178,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.77317625,
-      "pred_sigma": 10.527944
+      "pred_sigma": 10.527944,
+      "start_time": "2025-11-05T00:00:00.000Z"
     },
     {
       "away_team": "NJIT",
@@ -186,7 +196,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9142433,
-      "pred_sigma": 12.002899
+      "pred_sigma": 12.002899,
+      "start_time": "2025-11-05T00:00:00.000Z"
     },
     {
       "away_team": "Converse University",
@@ -203,7 +214,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.92322254,
-      "pred_sigma": 24.531513
+      "pred_sigma": 24.531513,
+      "start_time": "2025-11-05T00:00:00.000Z"
     },
     {
       "away_team": "Georgia Southern",
@@ -220,7 +232,8 @@
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.849174,
-      "pred_sigma": 12.637677
+      "pred_sigma": 12.637677,
+      "start_time": "2025-11-05T00:00:00.000Z"
     },
     {
       "away_team": "UNC Asheville",
@@ -237,7 +250,8 @@
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.92541,
-      "pred_sigma": 13.809802
+      "pred_sigma": 13.809802,
+      "start_time": "2025-11-05T00:30:00.000Z"
     },
     {
       "away_team": "Eastern Illinois",
@@ -254,7 +268,8 @@
       "pick_side": "HOME",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.8108788,
-      "pred_sigma": 13.1108465
+      "pred_sigma": 13.1108465,
+      "start_time": "2025-11-05T01:00:00.000Z"
     },
     {
       "away_team": "West Coast Baptist",
@@ -271,7 +286,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.94659954,
-      "pred_sigma": 13.253339
+      "pred_sigma": 13.253339,
+      "start_time": "2025-11-05T01:00:00.000Z"
     },
     {
       "away_team": "Oral Roberts",
@@ -288,7 +304,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9218882,
-      "pred_sigma": 15.694367
+      "pred_sigma": 15.694367,
+      "start_time": "2025-11-05T01:00:00.000Z"
     },
     {
       "away_team": "College Of Biblical Studies",
@@ -305,7 +322,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9998097,
-      "pred_sigma": 12.926872
+      "pred_sigma": 12.926872,
+      "start_time": "2025-11-05T01:00:00.000Z"
     },
     {
       "away_team": "Missouri Southern State",
@@ -322,7 +340,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9069642,
-      "pred_sigma": 20.079021
+      "pred_sigma": 20.079021,
+      "start_time": "2025-11-05T01:00:00.000Z"
     },
     {
       "away_team": "Arkansas Baptist",
@@ -339,7 +358,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9169542,
-      "pred_sigma": 22.61623
+      "pred_sigma": 22.61623,
+      "start_time": "2025-11-05T01:00:00.000Z"
     },
     {
       "away_team": "Lindenwood",
@@ -356,7 +376,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.88850325,
-      "pred_sigma": 12.749666
+      "pred_sigma": 12.749666,
+      "start_time": "2025-11-05T01:00:00.000Z"
     },
     {
       "away_team": "UNC Greensboro",
@@ -373,7 +394,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9181827,
-      "pred_sigma": 14.744105
+      "pred_sigma": 14.744105,
+      "start_time": "2025-11-05T01:00:00.000Z"
     },
     {
       "away_team": "Robert Morris",
@@ -390,7 +412,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.8962806,
-      "pred_sigma": 11.924121
+      "pred_sigma": 11.924121,
+      "start_time": "2025-11-05T01:30:00.000Z"
     },
     {
       "away_team": "Texas",
@@ -407,7 +430,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.82738197,
-      "pred_sigma": 16.297249
+      "pred_sigma": 16.297249,
+      "start_time": "2025-11-05T01:45:00.000Z"
     },
     {
       "away_team": "San Francisco State",
@@ -424,7 +448,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.91445297,
-      "pred_sigma": 23.592552
+      "pred_sigma": 23.592552,
+      "start_time": "2025-11-05T02:00:00.000Z"
     },
     {
       "away_team": "Southern Utah",
@@ -441,7 +466,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.83016324,
-      "pred_sigma": 13.600845
+      "pred_sigma": 13.600845,
+      "start_time": "2025-11-05T02:00:00.000Z"
     },
     {
       "away_team": "Adams State",
@@ -458,7 +484,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.923757,
-      "pred_sigma": 21.49996
+      "pred_sigma": 21.49996,
+      "start_time": "2025-11-05T02:00:00.000Z"
     },
     {
       "away_team": "Occidental",
@@ -475,7 +502,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.923757,
-      "pred_sigma": 20.027681
+      "pred_sigma": 20.027681,
+      "start_time": "2025-11-05T02:00:00.000Z"
     },
     {
       "away_team": "Dominican (CA)",
@@ -492,7 +520,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.92027533,
-      "pred_sigma": 21.222336
+      "pred_sigma": 21.222336,
+      "start_time": "2025-11-05T03:00:00.000Z"
     },
     {
       "away_team": "Long Beach State",
@@ -509,7 +538,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.7432175,
-      "pred_sigma": 10.7153
+      "pred_sigma": 10.7153,
+      "start_time": "2025-11-05T03:00:00.000Z"
     },
     {
       "away_team": "UT Martin",
@@ -526,7 +556,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9251627,
-      "pred_sigma": 15.98191
+      "pred_sigma": 15.98191,
+      "start_time": "2025-11-05T03:00:00.000Z"
     },
     {
       "away_team": "Humboldt State",
@@ -543,7 +574,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.923757,
-      "pred_sigma": 19.71949
+      "pred_sigma": 19.71949,
+      "start_time": "2025-11-05T03:00:00.000Z"
     },
     {
       "away_team": "Louisiana Tech",
@@ -560,7 +592,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.84359634,
-      "pred_sigma": 13.278939
+      "pred_sigma": 13.278939,
+      "start_time": "2025-11-05T03:00:00.000Z"
     },
     {
       "away_team": "Park University Gilbert",
@@ -577,7 +610,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.923757,
-      "pred_sigma": 22.828201
+      "pred_sigma": 22.828201,
+      "start_time": "2025-11-05T03:00:00.000Z"
     },
     {
       "away_team": "Portland State",
@@ -594,7 +628,8 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.8903825,
-      "pred_sigma": 13.679706
+      "pred_sigma": 13.679706,
+      "start_time": "2025-11-05T03:00:00.000Z"
     },
     {
       "away_team": "Hawai'i",
@@ -611,8 +646,9 @@
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.89743996,
-      "pred_sigma": 11.840858
+      "pred_sigma": 11.840858,
+      "start_time": "2025-11-05T03:30:00.000Z"
     }
   ],
-  "generated_at": "2026-02-28T03:30:37.735300Z"
+  "generated_at": "2026-03-02T16:21:53.906634Z"
 }

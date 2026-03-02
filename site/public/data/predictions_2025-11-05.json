@@ -489,17 +489,17 @@
     },
     {
       "away_team": "East Texas A&M",
-      "edge_home_points": 13.247165,
+      "edge_home_points": -31.752834999999997,
       "game_id": "2025_11_05_east_texas_a_m_new_mexico",
       "home_team": "New Mexico",
-      "market_spread_home": 22.5,
+      "market_spread_home": -22.5,
       "model_mu_home": -9.252835,
       "neutral_site": null,
-      "pick_cover_prob": 0.769804274267086,
-      "pick_ev_per_1": 0.46962634178261864,
-      "pick_fair_odds": -334.4129313505395,
-      "pick_prob_edge": 0.24599475045756214,
-      "pick_side": "HOME",
+      "pick_cover_prob": 0.9615894857590384,
+      "pick_ev_per_1": 0.8357617455399823,
+      "pick_fair_odds": -2503.4538192503096,
+      "pick_prob_edge": 0.4377799619495145,
+      "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9573368,
       "pred_sigma": 17.945166,
@@ -632,5 +632,5 @@
       "start_time": "2025-11-06T03:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T02:43:41.845851Z"
+  "generated_at": "2026-03-02T16:21:54.449805Z"
 }
