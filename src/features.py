@@ -25,6 +25,7 @@ from .rolling_averages import (
     compute_form_delta,
     compute_rolling_averages,
     compute_rolling_turnovers,
+    compute_venue_split_rolling,
 )
 
 # All supported extra feature group names
@@ -363,6 +364,117 @@ def _compute_scoring_variance(
     }
 
 
+def _compute_team_hca(
+    games: pd.DataFrame,
+    eff_lookup: dict[int, pd.DataFrame],
+) -> dict[tuple[int, int], float]:
+    """Compute team-specific HCA from opponent-quality-adjusted residuals.
+
+    For each completed game, computes:
+        residual = actual_margin - expected_margin
+    where expected_margin = team_adj_net - opp_adj_net (from efficiency ratings).
+
+    Residuals are split by venue (home/away), then:
+        team_hca = (ewm(home_residuals) - ewm(away_residuals)) / 2
+
+    The /2 converts the full home/away gap into a per-game venue effect.
+
+    Anti-leakage: shift(1) on each venue subset, then forward-fill to all games.
+
+    Args:
+        games: DataFrame with gameId, homeTeamId, awayTeamId, homeScore,
+            awayScore, startDate.
+        eff_lookup: Dict mapping teamId -> DataFrame of dated efficiency ratings
+            (from _build_efficiency_lookup). Used to compute expected margins.
+
+    Returns:
+        Dict mapping (gameId, teamId) -> team_hca (float).
+    """
+    dates = pd.to_datetime(games["startDate"], errors="coerce")
+
+    # Expand to per-team view with residual and venue flag
+    rows = []
+    for _, g in games.iterrows():
+        dt = dates[g.name]
+        gid = int(g["gameId"])
+        home_tid = int(g["homeTeamId"])
+        away_tid = int(g["awayTeamId"])
+        hs = g.get("homeScore")
+        aws = g.get("awayScore")
+
+        residual = np.nan
+        if pd.notna(hs) and pd.notna(aws) and not pd.isna(dt):
+            actual_home_margin = float(hs) - float(aws)
+            # Look up pre-game efficiency ratings for both teams
+            home_eff = _get_asof_rating(eff_lookup, home_tid, dt)
+            away_eff = _get_asof_rating(eff_lookup, away_tid, dt)
+            if home_eff and away_eff:
+                home_net = home_eff["adj_oe"] - home_eff["adj_de"]
+                away_net = away_eff["adj_oe"] - away_eff["adj_de"]
+                expected_margin = home_net - away_net
+                residual = actual_home_margin - expected_margin
+
+        rows.append({
+            "gameId": gid,
+            "teamId": home_tid,
+            "date": dt,
+            "residual": residual,
+            "is_home": True,
+        })
+        rows.append({
+            "gameId": gid,
+            "teamId": away_tid,
+            "date": dt,
+            "residual": -residual if not np.isnan(residual) else np.nan,
+            "is_home": False,
+        })
+
+    team_games = pd.DataFrame(rows)
+    team_games = team_games.sort_values(["teamId", "date", "gameId"]).reset_index(drop=True)
+
+    results = []
+    for _tid, group in team_games.groupby("teamId"):
+        g = group.copy()
+        home_mask = g["is_home"]
+
+        # Home-only residual EWM (min_periods=3 to avoid noisy early-season values)
+        g["_home_res_ewm"] = np.nan
+        home_idx = g.index[home_mask]
+        if len(home_idx) > 0:
+            g.loc[home_idx, "_home_res_ewm"] = (
+                g.loc[home_idx, "residual"]
+                .ewm(span=config.EWM_SPAN, min_periods=3)
+                .mean()
+                .shift(1)
+            )
+        g["_home_res_ewm"] = g["_home_res_ewm"].ffill()
+
+        # Away-only residual EWM
+        g["_away_res_ewm"] = np.nan
+        away_idx = g.index[~home_mask]
+        if len(away_idx) > 0:
+            g.loc[away_idx, "_away_res_ewm"] = (
+                g.loc[away_idx, "residual"]
+                .ewm(span=config.EWM_SPAN, min_periods=3)
+                .mean()
+                .shift(1)
+            )
+        g["_away_res_ewm"] = g["_away_res_ewm"].ffill()
+
+        # HCA = (home_residual_avg - away_residual_avg) / 2
+        g["team_hca"] = (g["_home_res_ewm"] - g["_away_res_ewm"]) / 2
+        results.append(g[["gameId", "teamId", "team_hca"]])
+
+    if not results:
+        return {}
+    out = pd.concat(results, ignore_index=True)
+    return {
+        (int(r["gameId"]), int(r["teamId"])): float(r["team_hca"])
+        for _, r in out.iterrows()
+        if pd.notna(r["team_hca"])
+    }
+
+
 def build_features(
     season: int,
     game_date: Optional[str] = None,
@@ -379,7 +491,7 @@ def build_features(
         game_date: If provided, only build features for games on this date.
         no_garbage: If True (default), use no-garbage-time efficiency ratings.
         extra_features: Optional list of extra feature group names to include
-            beyond the base 37. Valid values: rest_days, sos, conf_strength,
+            beyond the base features. Valid values: rest_days, sos, conf_strength,
             form_delta, tov_rate, margin_std.
         adjust_ff: If True, opponent-adjust four-factor stats before rolling
             averages. Default False for backward compatibility.
@@ -515,6 +627,37 @@ def build_features(
             for tid, group in _ms_df.groupby("teamid"):
                 margin_std_team_lookup[int(tid)] = group.sort_values("_date").copy()
 
+    # ── HCA and venue-split pre-computations ─────────────────────
+    # Always computed (base features, not extras)
+    all_games_for_hca = load_games(season) if game_date is not None else games
+    hca_lookup = _compute_team_hca(all_games_for_hca, eff_lookup)
+    hca_team_lookup: dict[int, pd.DataFrame] = {}
+    if hca_lookup:
+        _hca_rows = []
+        for (gid_key, tid_key), val in hca_lookup.items():
+            _hca_rows.append({"gameid": gid_key, "teamid": tid_key, "team_hca": val})
+        _hca_df = pd.DataFrame(_hca_rows)
+        _dates_df = all_games_for_hca[["gameId", "startDate"]].copy()
+        _dates_df["_date"] = pd.to_datetime(_dates_df["startDate"], errors="coerce")
+        _hca_df = _hca_df.merge(
+            _dates_df.rename(columns={"gameId": "gameid"}),
+            on="gameid", how="left",
+        )
+        for tid, group in _hca_df.groupby("teamid"):
+            hca_team_lookup[int(tid)] = group.sort_values("_date").copy()
+
+    venue_split_lookup: dict[tuple[int, int], dict[str, float]] = {}
+    venue_split_team_lookup: dict[int, pd.DataFrame] = {}
+    if not ff.empty:
+        venue_split_df = compute_venue_split_rolling(ff)
+        if not venue_split_df.empty:
+            venue_split_df["_date"] = pd.to_datetime(venue_split_df["startdate"], errors="coerce")
+            for _, row in venue_split_df.iterrows():
+                key = (int(row["gameid"]), int(row["teamid"]))
+                venue_split_lookup[key] = row.to_dict()
+            for tid, group in venue_split_df.groupby("teamid"):
+                venue_split_team_lookup[int(tid)] = group.sort_values("_date").copy()
+
     # ── Assemble features per game ─────────────────────────────────
     records = []
     for _, game in games.iterrows():
@@ -567,6 +710,32 @@ def build_features(
             )
         for feat_name, rolling_col in HOME_ROLLING_MAP.items():
             feat[feat_name] = home_rolling.get(rolling_col)
+
+        # ── HCA and venue-split features ───────────────────────────
+        if neutral:
+            feat["home_team_hca"] = 0.0
+        else:
+            h_hca = hca_lookup.get((gid, home_tid))
+            if h_hca is None and not pd.isna(game_dt):
+                h_asof = _get_asof_rolling(hca_team_lookup, home_tid, game_dt, ["team_hca"])
+                h_hca = h_asof.get("team_hca")
+            feat["home_team_hca"] = h_hca
+
+        home_vs = venue_split_lookup.get((gid, home_tid), {})
+        if not home_vs and not pd.isna(game_dt):
+            home_vs = _get_asof_rolling(
+                venue_split_team_lookup, home_tid, game_dt,
+                ["rolling_home_efg"],
+            )
+        feat["home_team_efg_home_split"] = home_vs.get("rolling_home_efg")
+
+        away_vs = venue_split_lookup.get((gid, away_tid), {})
+        if not away_vs and not pd.isna(game_dt):
+            away_vs = _get_asof_rolling(
+                venue_split_team_lookup, away_tid, game_dt,
+                ["rolling_away_efg"],
+            )
+        feat["away_team_efg_away_split"] = away_vs.get("rolling_away_efg")
 
         # ── Extra features ─────────────────────────────────────────
         if "rest_days" in extra:
@@ -654,7 +823,7 @@ def build_features(
     if result.empty:
         return result
 
-    # Verify we have the base 37 features
+    # Verify we have all features in FEATURE_ORDER
     missing = [f for f in config.FEATURE_ORDER if f not in result.columns]
     if missing:
         for col in missing:
@@ -671,7 +840,7 @@ def get_feature_matrix(
 
     Args:
         df: DataFrame with feature columns + metadata.
-        feature_order: Custom feature order. Defaults to config.FEATURE_ORDER (base 37).
+        feature_order: Custom feature order. Defaults to config.FEATURE_ORDER.
 
     Returns:
         DataFrame with only the feature columns in the specified order.

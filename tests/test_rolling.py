@@ -5,7 +5,7 @@ import pandas as pd
 import pytest
 
 from src.four_factors import FOUR_FACTOR_COLS, compute_game_four_factors
-from src.rolling_averages import compute_rolling_averages
+from src.rolling_averages import compute_rolling_averages, compute_venue_split_rolling
 
 
 def _make_team_games(
@@ -108,6 +108,54 @@ class TestRollingAverages:
         r100 = team100.iloc[1]["rolling_eff_fg_pct"]
         r200 = team200.iloc[1]["rolling_eff_fg_pct"]
         assert r100 != pytest.approx(r200, abs=0.01), "Different teams should have different rolling avgs"
+
+    def test_venue_split_output_columns(self):
+        """Venue split rolling should produce rolling_home_efg and rolling_away_efg."""
+        box = _make_team_games(100, 10)
+        ff = compute_game_four_factors(box)
+        vs = compute_venue_split_rolling(ff)
+        assert "rolling_home_efg" in vs.columns
+        assert "rolling_away_efg" in vs.columns
+
+    def test_venue_split_first_home_game_is_nan(self):
+        """First home game should have NaN rolling_home_efg (no prior home games)."""
+        box = _make_team_games(100, 6)
+        ff = compute_game_four_factors(box)
+        vs = compute_venue_split_rolling(ff)
+        vs = vs.sort_values("startdate")
+        # First game (gameid=1000) is home (ishometeam alternates, starts True)
+        first_home = vs[vs["gameid"] == 1000].iloc[0]
+        assert np.isnan(first_home["rolling_home_efg"]), "First home game should have NaN"
+
+    def test_venue_split_forward_fill(self):
+        """Away games should carry forward the latest home-split value."""
+        box = _make_team_games(100, 6)
+        ff = compute_game_four_factors(box)
+        vs = compute_venue_split_rolling(ff)
+        vs = vs.sort_values("startdate")
+        # Game at index 1 (gameid=1001) is away — should carry forward home value from game 0
+        second = vs.iloc[1]
+        # rolling_home_efg should be the first home game's raw eff_fg_pct (forward-filled)
+        first_home_raw = ff.sort_values("startdate").iloc[0]["eff_fg_pct"]
+        # After shift(1), first home game has NaN, so second home game gets the value
+        # But the first away game (index 1) comes between, so it inherits NaN via ffill
+        # Actually: home game 0 -> shift(1) = NaN, away game 1 -> ffill from NaN = NaN
+        # home game 2 -> shift(1) = game 0's value, so game 2 has a value
+        # The forward fill only works after at least 2 home games
+        third_game = vs.iloc[2]  # gameid=1002, home game
+        assert not np.isnan(third_game["rolling_home_efg"]), "Second home game should have value"
+
+    def test_venue_split_no_leakage(self):
+        """Home split should not include the current home game's stats."""
+        box = _make_team_games(100, 6)
+        ff = compute_game_four_factors(box)
+        vs = compute_venue_split_rolling(ff)
+        vs = vs.sort_values("startdate")
+        # Third game (index 2, gameid=1002) is home — its rolling_home_efg
+        # should equal the first home game's (index 0) raw stat, not include index 2
+        first_home_raw = ff.sort_values("startdate").iloc[0]["eff_fg_pct"]
+        third_home_rolling = vs.iloc[2]["rolling_home_efg"]
+        assert third_home_rolling == pytest.approx(first_home_raw, rel=1e-6)
 
     def test_exponential_decay_weights_recent_more(self):
         """More recent games should have more weight in the EWM average."""

@@ -94,6 +94,61 @@ HOME_ROLLING_MAP = {
 }
 
 
+def compute_venue_split_rolling(four_factors: pd.DataFrame) -> pd.DataFrame:
+    """Compute venue-split rolling eFG% per team.
+
+    For each team, computes separate EWM(span=15) averages of eff_fg_pct
+    for home-only and away-only games, with shift(1) for anti-leakage.
+    Results are forward-filled across all games so that away games still
+    carry the latest home-split value and vice versa.
+
+    Args:
+        four_factors: DataFrame from compute_game_four_factors() with columns:
+            gameid, teamid, startdate, ishometeam, + four-factor cols including eff_fg_pct.
+
+    Returns:
+        DataFrame with gameid, teamid, startdate, rolling_home_efg, rolling_away_efg.
+    """
+    df = four_factors.copy()
+    df["_date"] = pd.to_datetime(df["startdate"], errors="coerce")
+    df = df.sort_values(["teamid", "_date", "gameid"]).reset_index(drop=True)
+
+    results = []
+    for _tid, group in df.groupby("teamid"):
+        g = group.copy()
+        home_mask = g["ishometeam"].astype(bool)
+
+        # Home-only EWM: compute on home subset, shift(1), place back, ffill
+        g["rolling_home_efg"] = np.nan
+        home_idx = g.index[home_mask]
+        if len(home_idx) > 0:
+            g.loc[home_idx, "rolling_home_efg"] = (
+                g.loc[home_idx, "eff_fg_pct"]
+                .ewm(span=EWM_SPAN, min_periods=1)
+                .mean()
+                .shift(1)
+            )
+        g["rolling_home_efg"] = g["rolling_home_efg"].ffill()
+
+        # Away-only EWM: same pattern
+        g["rolling_away_efg"] = np.nan
+        away_idx = g.index[~home_mask]
+        if len(away_idx) > 0:
+            g.loc[away_idx, "rolling_away_efg"] = (
+                g.loc[away_idx, "eff_fg_pct"]
+                .ewm(span=EWM_SPAN, min_periods=1)
+                .mean()
+                .shift(1)
+            )
+        g["rolling_away_efg"] = g["rolling_away_efg"].ffill()
+
+        results.append(g[["gameid", "teamid", "startdate", "rolling_home_efg", "rolling_away_efg"]])
+
+    if not results:
+        return pd.DataFrame(columns=["gameid", "teamid", "startdate", "rolling_home_efg", "rolling_away_efg"])
+    return pd.concat(results, ignore_index=True)
+
+
 def compute_form_delta(four_factors: pd.DataFrame) -> pd.DataFrame:
     """Compute form delta: difference between short-term and long-term EWM averages.
 

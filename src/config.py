@@ -42,12 +42,13 @@ EXTRA_FEATURES = [
     "margin_std",
 ]
 
-# The 50 features in EXACT order expected by the model
+# The 53 features in EXACT order expected by the model
 # (V3: removed home_team_home, away_def_def_rebound_pct, home_def_def_rebound_pct)
+# (V6: added home_team_hca, home_team_efg_home_split, away_team_efg_away_split)
 FEATURE_ORDER: list[str] = json.loads(
     (ARTIFACTS_DIR / "feature_order.json").read_text()
 )
-assert len(FEATURE_ORDER) == 50, f"Expected 50 features, got {len(FEATURE_ORDER)}"
+assert len(FEATURE_ORDER) == 53, f"Expected 53 features, got {len(FEATURE_ORDER)}"
 
 # ── Column mappings from S3 Parquet schemas ──────────────────────────
 

@@ -15,7 +15,7 @@ from . import config
 class HoopsDataset(Dataset):
     """PyTorch Dataset that yields (features, spread, home_win) tuples.
 
-    Features are the 37-element vector in FEATURE_ORDER.
+    Features are the N-element vector in FEATURE_ORDER (currently 53 features).
     """
 
     def __init__(
@@ -26,7 +26,7 @@ class HoopsDataset(Dataset):
     ):
         """
         Args:
-            features: (N, 37) float array of pre-scaled features.
+            features: (N, D) float array of pre-scaled features.
             spread: (N,) float array of home spread (home_pts - away_pts).
             home_win: (N,) float array of 0/1 labels.
         """

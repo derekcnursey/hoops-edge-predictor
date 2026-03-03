@@ -48,5 +48,8 @@
   "away_tov_rate",
   "away_def_tov_rate",
   "home_margin_std",
-  "away_margin_std"
+  "away_margin_std",
+  "home_team_hca",
+  "home_team_efg_home_split",
+  "away_team_efg_away_split"
 ]

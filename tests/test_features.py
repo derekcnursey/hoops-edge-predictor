@@ -121,6 +121,7 @@ class TestFeatureAssembly:
         assert df.iloc[0]["neutral_site"] == 1
         assert df.iloc[0]["home_team_home"] == 0
         assert df.iloc[0]["away_team_home"] == 0
+        assert df.iloc[0]["home_team_hca"] == 0.0
 
     @patch("src.features.load_lines")
     @patch("src.features.load_boxscores")
@@ -146,3 +147,7 @@ class TestFeatureAssembly:
         assert df.iloc[0]["neutral_site"] == 0
         assert df.iloc[0]["home_team_home"] == 1
         assert df.iloc[0]["away_team_home"] == 0
+        # home_team_hca should exist (may be None for single-game mock data)
+        assert "home_team_hca" in df.columns
+        assert "home_team_efg_home_split" in df.columns
+        assert "away_team_efg_away_split" in df.columns
