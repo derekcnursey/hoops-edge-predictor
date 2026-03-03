@@ -31,7 +31,6 @@ type HistoryProps = {
 type SortKey =
   | "matchup"
   | "score"
-  | "pick"
   | "book"
   | "model"
   | "ats"
@@ -192,8 +191,6 @@ function sortVal(g: HistoryGame, key: SortKey): string | number {
       return g.home_score !== null && g.away_score !== null
         ? g.home_score - g.away_score
         : -Infinity;
-    case "pick":
-      return g.pick_team;
     case "book":
       return g.market_spread_home ?? -Infinity;
     case "model":
@@ -210,7 +207,6 @@ function sortVal(g: HistoryGame, key: SortKey): string | number {
 const columns: { key: SortKey; label: string; align: "left" | "center" }[] = [
   { key: "matchup", label: "MATCHUP", align: "left" },
   { key: "score", label: "SCORE", align: "center" },
-  { key: "pick", label: "PICK", align: "center" },
   { key: "book", label: "BOOK LINE", align: "center" },
   { key: "model", label: "MODEL", align: "center" },
   { key: "ats", label: "ATS", align: "center" },
@@ -702,7 +698,7 @@ export default function History({
                           animation: `fadeIn 0.3s ease ${i * 0.02}s both`
                         }}
                       >
-                        {/* MATCHUP */}
+                        {/* MATCHUP — picked side is bold */}
                         <td
                           style={{
                             padding: "10px 14px",
@@ -715,7 +711,13 @@ export default function History({
                             opacity: dimmed ? 0.4 : 1
                           }}
                         >
-                          {displayTeam(g.away_team)} @ {displayTeam(g.home_team)}
+                          <span style={{ fontWeight: g.pick_side === "AWAY" ? 700 : 400 }}>
+                            {displayTeam(g.away_team)}
+                          </span>
+                          {" @ "}
+                          <span style={{ fontWeight: g.pick_side === "HOME" ? 700 : 400 }}>
+                            {displayTeam(g.home_team)}
+                          </span>
                         </td>
 
                         {/* SCORE */}
@@ -733,22 +735,6 @@ export default function History({
                           {g.away_score !== null && g.home_score !== null
                             ? `${g.away_score}-${g.home_score}`
                             : "\u2014"}
-                        </td>
-
-                        {/* PICK */}
-                        <td
-                          style={{
-                            ...mono,
-                            padding: "10px 14px",
-                            textAlign: "center",
-                            fontSize: 13,
-                            fontWeight: 700,
-                            color: "#0f172a",
-                            borderBottom: bd,
-                            opacity: dimmed ? 0.4 : 1
-                          }}
-                        >
-                          {displayTeam(g.pick_team)}
                         </td>
 
                         {/* BOOK LINE */}

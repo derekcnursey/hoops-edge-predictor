@@ -598,24 +598,16 @@ def daily_update(season: int, game_date: str | None, skip_etl: bool,
 
     # ── Steps 1-3: ETL ingest + silver + gold ──────────────────────
     if not skip_etl:
-        # Step 1a: Minimal ETL ingest (games, lines, ratings)
-        click.echo("\n[1/6] ETL ingest...")
-        click.echo("  Step 1a: games, games_teams, lines, ratings...")
+        # Single incremental ingest: season tables + PBP fanout (7-day window)
+        click.echo("\n[1/6] ETL incremental ingest...")
         _run(
             ["poetry", "run", "python", "-m", "cbbd_etl", "incremental",
-             "--only-endpoints", "games,games_teams,lines,ratings_adjusted"],
+             "--season-start", str(season), "--season-end", str(season),
+             "--only-endpoints",
+             "games,games_teams,lines,ratings_adjusted,"
+             "lineups_game,plays_game,substitutions_game"],
             cwd=etl_root,
             label="ETL incremental ingest",
-        )
-
-        # Step 1b: PBP fanout (plays + substitutions for new games)
-        # Without this, silver/gold transforms use stale PBP data.
-        click.echo("  Step 1b: PBP fanout (plays + substitutions)...")
-        _run(
-            ["poetry", "run", "python", "-m", "cbbd_etl", "fanout",
-             "--season-start", str(season), "--season-end", str(season)],
-            cwd=etl_root,
-            label="ETL PBP fanout",
         )
 
         # Step 2: Silver — fct_games/fct_lines/fct_ratings_adjusted built during ingest.

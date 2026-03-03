@@ -110,7 +110,7 @@ function pickSpread(row: PredictionRow): number | null {
 
 /* -- sort -- */
 
-type SortKey = "matchup" | "book" | "pick" | "model" | "sigma" | "diff" | "edge";
+type SortKey = "matchup" | "book" | "model" | "sigma" | "diff" | "edge";
 
 type SortState = { key: SortKey; dir: "asc" | "desc" };
 
@@ -120,8 +120,6 @@ function sortVal(row: PredictionRow, key: SortKey): string | number {
       return `${displayTeam(str(row.away_team))} @ ${displayTeam(str(row.home_team))}`;
     case "book":
       return bookSpread(row) ?? -Infinity;
-    case "pick":
-      return getPickTeam(row);
     case "model":
       return modelSpread(row) ?? -Infinity;
     case "sigma":
@@ -138,7 +136,6 @@ function sortVal(row: PredictionRow, key: SortKey): string | number {
 const columns: { key: SortKey; label: string; align: "left" | "center" }[] = [
   { key: "matchup", label: "MATCHUP", align: "left" },
   { key: "book", label: "HOME SPREAD", align: "center" },
-  { key: "pick", label: "PICK", align: "center" },
   { key: "model", label: "MODEL", align: "center" },
   { key: "sigma", label: "SIGMA", align: "center" },
   { key: "diff", label: "DIFF", align: "center" },
@@ -375,7 +372,7 @@ export default function Home({ date, rows }: HomeProps) {
                             animation: `fadeIn 0.3s ease ${i * 0.02}s both`
                           }}
                         >
-                          {/* MATCHUP */}
+                          {/* MATCHUP — picked side is bold */}
                           <td
                             style={{
                               padding: "10px 14px",
@@ -387,7 +384,13 @@ export default function Home({ date, rows }: HomeProps) {
                               borderBottom: "1px solid #f1f5f9"
                             }}
                           >
-                            {displayTeam(str(row.away_team))} @ {displayTeam(str(row.home_team))}
+                            <span style={{ fontWeight: str(row.pick_side).toUpperCase() === "AWAY" ? 700 : 400 }}>
+                              {displayTeam(str(row.away_team))}
+                            </span>
+                            {" @ "}
+                            <span style={{ fontWeight: str(row.pick_side).toUpperCase() === "HOME" ? 700 : 400 }}>
+                              {displayTeam(str(row.home_team))}
+                            </span>
                             {formatGameTime(row) && (
                               <span style={{ ...mono, marginLeft: 6, fontSize: 11, color: "#94a3b8" }}>
                                 {formatGameTime(row)}
@@ -407,21 +410,6 @@ export default function Home({ date, rows }: HomeProps) {
                             }}
                           >
                             {hb && bk !== null ? formatSpread(bk) : "\u2014"}
-                          </td>
-
-                          {/* PICK */}
-                          <td
-                            style={{
-                              ...mono,
-                              padding: "10px 14px",
-                              textAlign: "center",
-                              fontSize: 13,
-                              fontWeight: 700,
-                              color: "#0f172a",
-                              borderBottom: "1px solid #f1f5f9"
-                            }}
-                          >
-                            {getPickTeam(row)}
                           </td>
 
                           {/* MODEL */}
