@@ -3,22 +3,21 @@
   "games": [
     {
       "away_team": "Morgan State",
-      "edge_home_points": null,
+      "edge_home_points": NaN,
       "game_id": "2016_12_26_morgan_state_loyola_marymount",
       "home_team": "Loyola Marymount",
-      "market_spread_home": null,
-      "model_mu_home": 11.347715,
-      "neutral_site": null,
-      "pick_cover_prob": null,
-      "pick_ev_per_1": null,
-      "pick_fair_odds": null,
-      "pick_prob_edge": null,
+      "market_spread_home": NaN,
+      "model_mu_home": 13.098028182983398,
+      "pick_cover_prob": NaN,
+      "pick_ev_per_1": NaN,
+      "pick_fair_odds": NaN,
+      "pick_prob_edge": NaN,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.8072086,
-      "pred_sigma": 9.929942,
+      "pred_home_win_prob": 0.8573747873306274,
+      "pred_sigma": 10.92003059387207,
       "start_time": "2016-12-27T01:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T00:31:39.362427Z"
+  "generated_at": "2026-03-05T22:42:06.276650Z"
 }

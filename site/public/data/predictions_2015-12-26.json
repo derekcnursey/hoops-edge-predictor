@@ -3,22 +3,21 @@
   "games": [
     {
       "away_team": "Louisville",
-      "edge_home_points": -7.402278423309326,
+      "edge_home_points": -4.155825614929199,
       "game_id": "2015_12_26_louisville_kentucky",
       "home_team": "Kentucky",
-      "market_spread_home": -2.5,
-      "model_mu_home": -4.9022784,
-      "neutral_site": null,
-      "pick_cover_prob": 0.726698713886569,
-      "pick_ev_per_1": 0.38733390832890446,
-      "pick_fair_odds": -265.89655841756996,
-      "pick_prob_edge": 0.2028891900770452,
+      "market_spread_home": -1.5,
+      "model_mu_home": -2.655825614929199,
+      "pick_cover_prob": 0.6644220811087524,
+      "pick_ev_per_1": 0.26844215484398193,
+      "pick_fair_odds": -197.99338505465704,
+      "pick_prob_edge": 0.1406125572992286,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.0006118323,
-      "pred_sigma": 12.2786255,
+      "pred_home_win_prob": 0.48932135105133057,
+      "pred_sigma": 9.788496017456055,
       "start_time": "2015-12-26T17:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T00:30:45.863158Z"
+  "generated_at": "2026-03-05T22:42:04.794882Z"
 }

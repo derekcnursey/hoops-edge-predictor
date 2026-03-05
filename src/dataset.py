@@ -2,8 +2,6 @@
 
 from __future__ import annotations
 
-from pathlib import Path
-
 import numpy as np
 import pandas as pd
 import torch
@@ -50,8 +48,9 @@ class HoopsDataset(Dataset):
 
 def load_season_features(
     season: int,
-    no_garbage: bool = False,
+    no_garbage: bool = config.NO_GARBAGE,
     adj_suffix: str | None = None,
+    efficiency_source: str = "gold",
 ) -> pd.DataFrame:
     """Load pre-built features from local parquet file.
 
@@ -59,8 +58,11 @@ def load_season_features(
         season: Season year.
         no_garbage: Use no-garbage-time variant.
         adj_suffix: Optional adjustment suffix (e.g. "adj_a0.85_p10").
+        efficiency_source: "gold" or "torvik" — included in filename.
     """
     suffix = "_no_garbage" if no_garbage else ""
+    if efficiency_source == "torvik":
+        suffix += "_torvik"
     if adj_suffix:
         suffix += f"_{adj_suffix}"
     path = config.FEATURES_DIR / f"season_{season}{suffix}_features.parquet"
@@ -71,9 +73,10 @@ def load_season_features(
 
 def load_multi_season_features(
     seasons: list[int],
-    no_garbage: bool = False,
+    no_garbage: bool = config.NO_GARBAGE,
     adj_suffix: str | None = None,
     min_month_day: str | None = None,
+    efficiency_source: str = "gold",
 ) -> pd.DataFrame:
     """Load and concatenate features for multiple seasons.
 
@@ -84,12 +87,14 @@ def load_multi_season_features(
         min_month_day: If set (e.g. "12-20"), exclude games before this date
             within each season. For season S, the cutoff is (S-1)-MM-DD.
             This filters out early-season noise from training data.
+        efficiency_source: "gold" or "torvik" — included in filename.
     """
     dfs = []
     for s in seasons:
         try:
             dfs.append(load_season_features(s, no_garbage=no_garbage,
-                                            adj_suffix=adj_suffix))
+                                            adj_suffix=adj_suffix,
+                                            efficiency_source=efficiency_source))
         except FileNotFoundError:
             print(f"Warning: No features for season {s}, skipping.")
     if not dfs:

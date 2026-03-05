@@ -3,22 +3,21 @@
   "games": [
     {
       "away_team": "Villanova",
-      "edge_home_points": -3.3842068016529083,
+      "edge_home_points": -0.7294013500213623,
       "game_id": "2016_04_04_villanova_north_carolina",
       "home_team": "North Carolina",
-      "market_spread_home": -3.0,
-      "model_mu_home": -0.3842068,
-      "neutral_site": null,
-      "pick_cover_prob": 0.6292743474597002,
-      "pick_ev_per_1": 0.20134193605942774,
-      "pick_fair_odds": -169.74124750951646,
-      "pick_prob_edge": 0.1054648236501764,
+      "market_spread_home": -2.0,
+      "model_mu_home": 1.2705986499786377,
+      "pick_cover_prob": 0.5258100128831662,
+      "pick_ev_per_1": 0.003819115504226367,
+      "pick_fair_odds": -110.88593752900438,
+      "pick_prob_edge": 0.002000489073642364,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.4789714,
-      "pred_sigma": 10.257284,
+      "pred_home_win_prob": 0.5181277990341187,
+      "pred_sigma": 11.266398429870605,
       "start_time": "2016-04-05T01:19:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T01:09:33.924847Z"
+  "generated_at": "2026-03-05T22:42:05.260434Z"
 }

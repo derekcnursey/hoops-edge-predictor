@@ -3,22 +3,21 @@
   "games": [
     {
       "away_team": "Penn State",
-      "edge_home_points": 1.6020679473876953,
+      "edge_home_points": 2.2794034481048584,
       "game_id": "2018_03_29_penn_state_utah",
       "home_team": "Utah",
       "market_spread_home": 4.0,
-      "model_mu_home": -2.397932,
-      "neutral_site": null,
-      "pick_cover_prob": 0.5689573981212095,
-      "pick_ev_per_1": 0.08619139641321805,
-      "pick_fair_odds": -131.9956300470738,
-      "pick_prob_edge": 0.045147874311685654,
+      "model_mu_home": -1.7205965518951416,
+      "pick_cover_prob": 0.5799343670502242,
+      "pick_ev_per_1": 0.10714742800497334,
+      "pick_fair_odds": -138.05803702098208,
+      "pick_prob_edge": 0.05612484324070033,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.14938569,
-      "pred_sigma": 9.222106,
+      "pred_home_win_prob": 0.48631590604782104,
+      "pred_sigma": 11.29952621459961,
       "start_time": "2018-03-29T23:00:00.000Z"
     }
   ],
-  "generated_at": "2026-02-28T21:28:31.774739Z"
+  "generated_at": "2026-03-05T22:42:08.094936Z"
 }

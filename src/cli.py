@@ -7,7 +7,7 @@ import os
 import random
 import subprocess
 import sys
-from datetime import date, datetime, timedelta
+from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -49,11 +49,21 @@ def _parse_seasons(seasons_str: str) -> list[int]:
 @click.option("--no-garbage", is_flag=True, help="Use no-garbage-time efficiency ratings")
 @click.option("--adjusted/--no-adjusted", default=True,
               help="Use opponent-adjusted four-factors (default: True)")
-def build_features_cmd(season: int, upload_s3: bool, no_garbage: bool, adjusted: bool):
+@click.option("--adjust-ff-method", default=config.ADJUST_FF_METHOD,
+              type=click.Choice(["multiplicative", "iterative"]),
+              help="FF adjustment method (default: from config)")
+@click.option("--efficiency-source", default=config.EFFICIENCY_SOURCE,
+              type=click.Choice(["gold", "torvik"]),
+              help="Efficiency rating source (default: from config)")
+def build_features_cmd(season: int, upload_s3: bool, no_garbage: bool,
+                       adjusted: bool, adjust_ff_method: str,
+                       efficiency_source: str):
     """Build the 54-feature matrix for all games in a season."""
     variant = " (no-garbage)" if no_garbage else ""
+    if efficiency_source == "torvik":
+        variant += " (torvik)"
     if adjusted:
-        variant += f" (adj a={config.ADJUST_ALPHA} p={config.ADJUST_PRIOR})"
+        variant += f" ({adjust_ff_method} adj a={config.ADJUST_ALPHA} p={config.ADJUST_PRIOR})"
     click.echo(f"Building features{variant} for season {season}...")
 
     df = build_features(
@@ -63,6 +73,8 @@ def build_features_cmd(season: int, upload_s3: bool, no_garbage: bool, adjusted:
         adjust_ff=adjusted and config.ADJUST_FF,
         adjust_alpha=config.ADJUST_ALPHA,
         adjust_prior_weight=config.ADJUST_PRIOR,
+        adjust_ff_method=adjust_ff_method,
+        efficiency_source=efficiency_source,
     )
     if df.empty:
         click.echo("No games found. Check S3 data.")
@@ -89,8 +101,13 @@ def build_features_cmd(season: int, upload_s3: bool, no_garbage: bool, adjusted:
 
     # Save locally
     suffix = "_no_garbage" if no_garbage else ""
+    if efficiency_source == "torvik":
+        suffix += "_torvik"
     if adjusted:
-        suffix += f"_adj_a{config.ADJUST_ALPHA}_p{config.ADJUST_PRIOR}"
+        if adjust_ff_method == "iterative":
+            suffix += f"_adj_iter_p{config.ADJUST_PRIOR}"
+        else:
+            suffix += f"_adj_a{config.ADJUST_ALPHA}_p{config.ADJUST_PRIOR}"
     out_path = config.FEATURES_DIR / f"season_{season}{suffix}_features.parquet"
     out_path.parent.mkdir(parents=True, exist_ok=True)
     df.to_parquet(out_path, index=False)
@@ -99,7 +116,6 @@ def build_features_cmd(season: int, upload_s3: bool, no_garbage: bool, adjusted:
     if upload_s3:
         from . import s3_reader
         import pyarrow as pa
-        import pyarrow.parquet as pq
 
         key = f"{config.GOLD_PREFIX}/game_predictions_37feat/season={season}/features.parquet"
         tbl = pa.Table.from_pandas(df)
@@ -119,8 +135,11 @@ def build_features_cmd(season: int, upload_s3: bool, no_garbage: bool, adjusted:
               help="Adjustment suffix (e.g. 'adj_a0.85_p10')")
 @click.option("--min-date", default="12-01", type=str,
               help="Earliest MM-DD within each season to include (default: 12-01)")
+@click.option("--efficiency-source", default=config.EFFICIENCY_SOURCE,
+              type=click.Choice(["gold", "torvik"]),
+              help="Efficiency rating source (default: from config)")
 def train(seasons: str, reg_epochs: int, cls_epochs: int, no_garbage: bool,
-          adj_suffix: str | None, min_date: str | None):
+          adj_suffix: str | None, min_date: str | None, efficiency_source: str):
     """Train MLPRegressor + MLPClassifier on historical features."""
     from .dataset import load_multi_season_features
     from .trainer import (
@@ -133,6 +152,8 @@ def train(seasons: str, reg_epochs: int, cls_epochs: int, no_garbage: bool,
 
     season_list = _parse_seasons(seasons)
     variant = " (no-garbage)" if no_garbage else ""
+    if efficiency_source == "torvik":
+        variant += " (torvik)"
     if adj_suffix:
         variant += f" ({adj_suffix})"
     click.echo(f"Loading features{variant} for seasons: {season_list}")
@@ -141,7 +162,8 @@ def train(seasons: str, reg_epochs: int, cls_epochs: int, no_garbage: bool,
 
     df = load_multi_season_features(season_list, no_garbage=no_garbage,
                                     adj_suffix=adj_suffix,
-                                    min_month_day=min_date)
+                                    min_month_day=min_date,
+                                    efficiency_source=efficiency_source)
 
     # Drop games with missing scores (unplayed)
     df = df.dropna(subset=["homeScore", "awayScore"])
@@ -165,8 +187,9 @@ def train(seasons: str, reg_epochs: int, cls_epochs: int, no_garbage: bool,
     if n_nan > 0:
         click.echo(f"  Imputed {n_nan:,} NaN values with column means")
 
-    # Subdirectory for no-garbage variant
-    ckpt_subdir = "no_garbage" if no_garbage else None
+    # Scaler always saves to canonical path (artifacts/scaler.pkl) so infer.py
+    # can find it regardless of no_garbage setting.
+    ckpt_subdir = None
 
     # Fit scaler
     click.echo("Fitting StandardScaler...")
@@ -196,18 +219,34 @@ def train(seasons: str, reg_epochs: int, cls_epochs: int, no_garbage: bool,
 @click.option("--trials", default=50, type=int, help="Number of Optuna trials")
 @click.option("--min-date", default="12-01", type=str,
               help="Earliest MM-DD within each season to include (default: 12-01)")
-def tune(seasons: str, trials: int, min_date: str | None):
+@click.option("--no-garbage", is_flag=True, default=True,
+              help="Use no-garbage-time features (default: True)")
+@click.option("--adj-suffix", default="adj_a0.85_p10", type=str,
+              help="Adjustment suffix for feature files")
+@click.option("--efficiency-source", default=config.EFFICIENCY_SOURCE,
+              type=click.Choice(["gold", "torvik"]),
+              help="Efficiency rating source (default: from config)")
+def tune(seasons: str, trials: int, min_date: str | None,
+         no_garbage: bool, adj_suffix: str | None, efficiency_source: str):
     """Optuna hyperparameter search for both models."""
     from .dataset import load_multi_season_features
     from .trainer import fit_scaler, impute_column_means
     from .tuner import tune_classifier, tune_regressor
 
     season_list = _parse_seasons(seasons)
-    click.echo(f"Loading features for seasons: {season_list}")
+    variant = " (no-garbage)" if no_garbage else ""
+    if efficiency_source == "torvik":
+        variant += " (torvik)"
+    if adj_suffix:
+        variant += f" ({adj_suffix})"
+    click.echo(f"Loading features{variant} for seasons: {season_list}")
     if min_date:
         click.echo(f"  Tuning date filter: games on or after MM-DD={min_date}")
 
-    df = load_multi_season_features(season_list, min_month_day=min_date)
+    df = load_multi_season_features(season_list, no_garbage=no_garbage,
+                                    adj_suffix=adj_suffix,
+                                    min_month_day=min_date,
+                                    efficiency_source=efficiency_source)
     df = df.dropna(subset=["homeScore", "awayScore"])
     df = df[(df["homeScore"] != 0) | (df["awayScore"] != 0)]
     click.echo(f"  Tuning samples: {len(df)}")
@@ -251,10 +290,12 @@ def predict_today(season: int, game_date: str | None):
     df = build_features(
         season,
         game_date=game_date,
+        no_garbage=True,
         extra_features=config.EXTRA_FEATURES,
         adjust_ff=config.ADJUST_FF,
         adjust_alpha=config.ADJUST_ALPHA,
         adjust_prior_weight=config.ADJUST_PRIOR,
+        efficiency_source=config.EFFICIENCY_SOURCE,
     )
     if df.empty:
         click.echo(f"No games found for {game_date}.")
@@ -315,6 +356,7 @@ def predict_season(season: int):
         adjust_ff=config.ADJUST_FF,
         adjust_alpha=config.ADJUST_ALPHA,
         adjust_prior_weight=config.ADJUST_PRIOR,
+        efficiency_source=config.EFFICIENCY_SOURCE,
     )
     if df.empty:
         click.echo("No games found.")
@@ -346,6 +388,7 @@ def validate_features(season: int, n_samples: int):
         adjust_ff=config.ADJUST_FF,
         adjust_alpha=config.ADJUST_ALPHA,
         adjust_prior_weight=config.ADJUST_PRIOR,
+        efficiency_source=config.EFFICIENCY_SOURCE,
     )
     if df.empty:
         click.echo("No games found.")
@@ -411,7 +454,7 @@ def build_rankings(season: int):
     """Build power rankings JSON from S3 efficiency ratings."""
     script = config.PROJECT_ROOT / "scripts" / "build_rankings_json.py"
     subprocess.run(
-        [sys.executable, str(script)],
+        [sys.executable, str(script), "--season", str(season)],
         check=True,
         cwd=config.PROJECT_ROOT,
     )
@@ -442,7 +485,6 @@ def backfill_season(season: int, start_date: str, end_date: str | None,
 
     lines = load_lines(season)
     script_dir = config.PROJECT_ROOT / "scripts"
-    csv_to_json = script_dir / "csv_to_json.py"
 
     processed = 0
     current = start
@@ -452,10 +494,7 @@ def backfill_season(season: int, start_date: str, end_date: str | None,
 
         # Check if already exists
         if skip_existing:
-            existing_json = (
-                config.PROJECT_ROOT / "site" / "public" / "data"
-                / f"predictions_{game_date}.json"
-            )
+            existing_json = config.SITE_DATA_DIR / f"predictions_{game_date}.json"
             if existing_json.exists():
                 continue
 
@@ -467,26 +506,14 @@ def backfill_season(season: int, start_date: str, end_date: str | None,
             adjust_ff=config.ADJUST_FF,
             adjust_alpha=config.ADJUST_ALPHA,
             adjust_prior_weight=config.ADJUST_PRIOR,
+            efficiency_source=config.EFFICIENCY_SOURCE,
         )
         if df.empty:
             continue
 
-        # Predict
+        # Predict and save (includes site JSON)
         preds = predict(df, lines_df=lines)
-
-        # Save
-        json_path, csv_path = save_predictions(preds, game_date=game_date)
-
-        # Convert CSV to site JSON
-        if csv_to_json.exists():
-            csv_dir = config.PREDICTIONS_DIR / "csv"
-            latest_csv = sorted(csv_dir.glob("*.csv"), key=lambda p: p.stat().st_mtime)
-            csv_arg = str(latest_csv[-1]) if latest_csv else str(csv_path)
-            subprocess.run(
-                [sys.executable, str(csv_to_json), csv_arg, game_date],
-                check=True,
-                cwd=config.PROJECT_ROOT,
-            )
+        save_predictions(preds, game_date=game_date)
 
         processed += 1
         click.echo(f"  {game_date}: {len(preds)} games")
@@ -569,10 +596,19 @@ def _run(cmd: list[str], cwd: Path, label: str) -> None:
 
     Strips VIRTUAL_ENV from env when cwd is outside the project root so that
     sibling repos (e.g. the ETL repo) use their own poetry virtualenv.
+    Loads .env from the target cwd if present.
     """
     env = None
     if not str(cwd).startswith(str(config.PROJECT_ROOT)):
         env = {k: v for k, v in os.environ.items() if k != "VIRTUAL_ENV"}
+        # Load .env from the target repo (e.g. ETL's CBBD_API_KEY)
+        dotenv_path = cwd / ".env"
+        if dotenv_path.exists():
+            for line in dotenv_path.read_text().splitlines():
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    key, _, val = line.partition("=")
+                    env[key.strip()] = val.strip().strip("'\"")
     result = subprocess.run(cmd, cwd=cwd, env=env)
     if result.returncode != 0:
         click.echo(f"FAILED: {label} (exit {result.returncode})", err=True)
@@ -683,6 +719,7 @@ def daily_update(season: int, game_date: str | None, skip_etl: bool,
             adjust_ff=config.ADJUST_FF,
             adjust_alpha=config.ADJUST_ALPHA,
             adjust_prior_weight=config.ADJUST_PRIOR,
+            efficiency_source=config.EFFICIENCY_SOURCE,
         )
         if df.empty:
             click.echo(f"  No games found for {game_date}. Skipping predictions.")
@@ -694,18 +731,10 @@ def daily_update(season: int, game_date: str | None, skip_etl: bool,
             click.echo(f"  JSON: {json_path}")
             click.echo(f"  CSV:  {csv_path}")
 
-        # Step 5: Publish pipeline — csv_to_json → rankings → final scores
+        # Step 5: Publish pipeline — rankings → final scores
+        # (Site JSON is now written directly by save_predictions())
         click.echo(f"\n[5/6] Publish pipeline...")
         script_dir = config.PROJECT_ROOT / "scripts"
-
-        csv_to_json = script_dir / "csv_to_json.py"
-        if csv_to_json.exists():
-            csv_dir = config.PREDICTIONS_DIR / "csv"
-            latest_csv = sorted(csv_dir.glob("*.csv"), key=lambda p: p.stat().st_mtime)
-            csv_arg = str(latest_csv[-1]) if latest_csv else ""
-            if csv_arg:
-                _run([sys.executable, str(csv_to_json), csv_arg, game_date],
-                     cwd=config.PROJECT_ROOT, label="csv_to_json")
 
         rankings_script = script_dir / "build_rankings_json.py"
         if rankings_script.exists():

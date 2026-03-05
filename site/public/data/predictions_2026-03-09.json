@@ -1,0 +1,57 @@
+{
+  "date": "2026-03-09",
+  "games": [
+    {
+      "away_team": "Northern Colorado",
+      "edge_home_points": NaN,
+      "game_id": "2026_03_09_northern_colorado_montana",
+      "home_team": "Montana",
+      "market_spread_home": NaN,
+      "model_mu_home": -1.5154494047164917,
+      "pick_cover_prob": NaN,
+      "pick_ev_per_1": NaN,
+      "pick_fair_odds": NaN,
+      "pick_prob_edge": NaN,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.39412859082221985,
+      "pred_sigma": 8.735955238342285,
+      "start_time": "2026-03-09T23:30:00.000Z"
+    },
+    {
+      "away_team": "Detroit Mercy",
+      "edge_home_points": NaN,
+      "game_id": "2026_03_09_detroit_mercy_robert_morris",
+      "home_team": "Robert Morris",
+      "market_spread_home": NaN,
+      "model_mu_home": 4.244570732116699,
+      "pick_cover_prob": NaN,
+      "pick_ev_per_1": NaN,
+      "pick_fair_odds": NaN,
+      "pick_prob_edge": NaN,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.62421053647995,
+      "pred_sigma": 10.171072006225586,
+      "start_time": "2026-03-10T01:30:00.000Z"
+    },
+    {
+      "away_team": "Weber State",
+      "edge_home_points": NaN,
+      "game_id": "2026_03_09_weber_state_eastern_washington",
+      "home_team": "Eastern Washington",
+      "market_spread_home": NaN,
+      "model_mu_home": 1.5389338731765747,
+      "pick_cover_prob": NaN,
+      "pick_ev_per_1": NaN,
+      "pick_fair_odds": NaN,
+      "pick_prob_edge": NaN,
+      "pick_side": "AWAY",
+      "pick_spread_odds": -110,
+      "pred_home_win_prob": 0.47315818071365356,
+      "pred_sigma": 9.602799415588379,
+      "start_time": "2026-03-10T02:00:00.000Z"
+    }
+  ],
+  "generated_at": "2026-03-05T22:42:18.341414Z"
+}

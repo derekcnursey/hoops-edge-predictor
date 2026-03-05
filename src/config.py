@@ -10,6 +10,7 @@ ARTIFACTS_DIR = PROJECT_ROOT / "artifacts"
 CHECKPOINTS_DIR = PROJECT_ROOT / "checkpoints"
 FEATURES_DIR = PROJECT_ROOT / "features"
 PREDICTIONS_DIR = PROJECT_ROOT / "predictions"
+SITE_DATA_DIR = PROJECT_ROOT / "site" / "public" / "data"
 
 # S3 lakehouse
 S3_BUCKET = "hoops-edge"
@@ -27,10 +28,22 @@ TABLE_FCT_LINES = "fct_lines"
 ROLLING_WINDOW = 15  # number of games for exponential decay
 EWM_SPAN = 15  # span parameter for pandas ewm (matches ROLLING_WINDOW)
 
+# Production no-garbage-time flag — must be consistent across train/inference
+NO_GARBAGE = True
+
+# Efficiency source: "gold" (gold-layer adj efficiencies) or "torvik" (Torvik daily ratings)
+EFFICIENCY_SOURCE = "torvik"
+
+# Seasons to exclude from training and evaluation (e.g. COVID-shortened 2021)
+EXCLUDE_SEASONS: list[int] = [2021]
+
 # Production four-factor adjustment parameters (a0.85_p10 config)
 ADJUST_FF = True
 ADJUST_ALPHA = 0.85
 ADJUST_PRIOR = 10
+
+# Four-factor adjustment method: "none", "multiplicative", "iterative"
+ADJUST_FF_METHOD = "multiplicative"
 
 # Extra feature groups included in the 54-feature production model
 EXTRA_FEATURES = [

@@ -3,22 +3,21 @@
   "games": [
     {
       "away_team": "UAB",
-      "edge_home_points": 2.8952358663082123,
+      "edge_home_points": 4.165193557739258,
       "game_id": "2023_03_30_uab_north_texas",
       "home_team": "North Texas",
       "market_spread_home": 2.5,
-      "model_mu_home": 0.39523587,
-      "neutral_site": null,
-      "pick_cover_prob": 0.6173678985053056,
-      "pick_ev_per_1": 0.1786114426010379,
-      "pick_fair_odds": -161.34764858820034,
-      "pick_prob_edge": 0.09355837469578177,
+      "model_mu_home": 1.6651935577392578,
+      "pick_cover_prob": 0.6396718502685286,
+      "pick_ev_per_1": 0.22119171414900907,
+      "pick_fair_odds": -177.52480641471763,
+      "pick_prob_edge": 0.11586232645900474,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.9878582,
-      "pred_sigma": 9.69684,
+      "pred_home_win_prob": 0.5110427141189575,
+      "pred_sigma": 11.648225784301758,
       "start_time": "2023-03-31T01:42:00.000Z"
     }
   ],
-  "generated_at": "2026-02-28T21:25:16.675798Z"
+  "generated_at": "2026-03-05T22:42:13.703798Z"
 }

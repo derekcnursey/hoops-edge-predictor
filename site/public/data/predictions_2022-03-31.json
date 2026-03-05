@@ -3,22 +3,21 @@
   "games": [
     {
       "away_team": "Xavier",
-      "edge_home_points": -4.505827903747559,
+      "edge_home_points": -2.1396219730377197,
       "game_id": "2022_03_31_xavier_texas_a_m",
       "home_team": "Texas A&M",
       "market_spread_home": -4.0,
-      "model_mu_home": -0.5058279,
-      "neutral_site": null,
-      "pick_cover_prob": 0.6729851683044672,
-      "pick_ev_per_1": 0.2847898667630737,
-      "pick_fair_odds": -205.796527581064,
-      "pick_prob_edge": 0.14917564449494336,
+      "model_mu_home": 1.8603780269622803,
+      "pick_cover_prob": 0.5743237669222029,
+      "pick_ev_per_1": 0.09643628230602364,
+      "pick_fair_odds": -134.92032730360089,
+      "pick_prob_edge": 0.05051424311267905,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.052080713,
-      "pred_sigma": 10.05381,
+      "pred_home_win_prob": 0.41834303736686707,
+      "pred_sigma": 11.417829513549805,
       "start_time": "2022-03-31T23:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T01:27:07.234074Z"
+  "generated_at": "2026-03-05T22:42:12.277759Z"
 }

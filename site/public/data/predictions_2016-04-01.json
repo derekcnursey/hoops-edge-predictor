@@ -3,22 +3,21 @@
   "games": [
     {
       "away_team": "Morehead State",
-      "edge_home_points": -4.2563915848731995,
+      "edge_home_points": -1.5970652103424072,
       "game_id": "2016_04_01_morehead_state_nevada",
       "home_team": "Nevada",
-      "market_spread_home": -4.0,
-      "model_mu_home": -0.25639158,
-      "neutral_site": null,
-      "pick_cover_prob": 0.6765818268255106,
-      "pick_ev_per_1": 0.2916562148487021,
-      "pick_fair_odds": -209.1972198669503,
-      "pick_prob_edge": 0.15277230301598677,
+      "market_spread_home": -2.5,
+      "model_mu_home": 0.9029347896575928,
+      "pick_cover_prob": 0.5622148139287397,
+      "pick_ev_per_1": 0.07331919022759403,
+      "pick_fair_odds": -128.42253045931653,
+      "pick_prob_edge": 0.038405290119215896,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.5090618,
-      "pred_sigma": 9.2901535,
+      "pred_home_win_prob": 0.5699257850646973,
+      "pred_sigma": 10.19922161102295,
       "start_time": "2016-04-02T01:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T01:08:33.350105Z"
+  "generated_at": "2026-03-05T22:42:05.256499Z"
 }

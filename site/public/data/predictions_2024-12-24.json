@@ -3,22 +3,21 @@
   "games": [
     {
       "away_team": "Murray State",
-      "edge_home_points": 3.9936296939849854,
+      "edge_home_points": 4.295045495033264,
       "game_id": "2024_12_24_murray_state_charlotte",
       "home_team": "Charlotte",
       "market_spread_home": 5.5,
-      "model_mu_home": -1.5063703,
-      "neutral_site": null,
-      "pick_cover_prob": 0.6581341547424087,
-      "pick_ev_per_1": 0.25643793178096197,
-      "pick_fair_odds": -192.51240329273415,
-      "pick_prob_edge": 0.13432463093288483,
+      "model_mu_home": -1.2049545049667358,
+      "pick_cover_prob": 0.6781950747571008,
+      "pick_ev_per_1": 0.29473605180901064,
+      "pick_fair_odds": -210.7472638105826,
+      "pick_prob_edge": 0.154385550947577,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.90924126,
-      "pred_sigma": 9.803296,
+      "pred_home_win_prob": 0.5392852425575256,
+      "pred_sigma": 9.283422470092773,
       "start_time": "2024-12-24T06:00:00.000Z"
     }
   ],
-  "generated_at": "2026-02-28T23:02:10.759920Z"
+  "generated_at": "2026-03-05T22:42:15.934514Z"
 }

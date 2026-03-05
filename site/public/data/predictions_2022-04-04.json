@@ -3,22 +3,21 @@
   "games": [
     {
       "away_team": "North Carolina",
-      "edge_home_points": -2.0225565433502197,
+      "edge_home_points": -0.702843427658081,
       "game_id": "2022_04_04_north_carolina_kansas",
       "home_team": "Kansas",
       "market_spread_home": -4.0,
-      "model_mu_home": 1.9774435,
-      "neutral_site": null,
-      "pick_cover_prob": 0.5714331071041492,
-      "pick_ev_per_1": 0.09091774992610302,
-      "pick_fair_odds": -133.33580278283824,
-      "pick_prob_edge": 0.04762358329462535,
+      "model_mu_home": 3.297156572341919,
+      "pick_cover_prob": 0.5269499450815922,
+      "pick_ev_per_1": 0.005995349701221453,
+      "pick_fair_odds": -111.39411984054861,
+      "pick_prob_edge": 0.003140421272068372,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.9217167,
-      "pred_sigma": 11.234932,
+      "pred_home_win_prob": 0.6602049469947815,
+      "pred_sigma": 10.396329879760742,
       "start_time": "2022-04-05T01:20:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T01:28:29.422957Z"
+  "generated_at": "2026-03-05T22:42:12.281912Z"
 }

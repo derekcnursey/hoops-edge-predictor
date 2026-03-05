@@ -3,22 +3,21 @@
   "games": [
     {
       "away_team": "Norfolk State",
-      "edge_home_points": 2.4720983505249023,
+      "edge_home_points": -4.267722129821777,
       "game_id": "2017_03_13_norfolk_state_liberty",
       "home_team": "Liberty",
-      "market_spread_home": -7.5,
-      "model_mu_home": 9.972098,
-      "neutral_site": null,
-      "pick_cover_prob": 0.6003122368249494,
-      "pick_ev_per_1": 0.14605063393853968,
-      "pick_fair_odds": -150.19530046558657,
-      "pick_prob_edge": 0.07650271301542555,
-      "pick_side": "HOME",
+      "market_spread_home": -7.0,
+      "model_mu_home": 2.7322778701782227,
+      "pick_cover_prob": 0.6732064446305648,
+      "pick_ev_per_1": 0.28521230338562364,
+      "pick_fair_odds": -206.0035865363119,
+      "pick_prob_edge": 0.14939692082104095,
+      "pick_side": "AWAY",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.6595202,
-      "pred_sigma": 9.726721,
+      "pred_home_win_prob": 0.6437759399414062,
+      "pred_sigma": 9.509512901306152,
       "start_time": "2017-03-13T23:05:00.000Z"
     }
   ],
-  "generated_at": "2026-03-01T01:01:43.606368Z"
+  "generated_at": "2026-03-05T22:42:06.671691Z"
 }
