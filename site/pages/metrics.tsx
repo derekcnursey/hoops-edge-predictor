@@ -160,8 +160,9 @@ function weekLabel(dateStr: string): string {
 }
 
 function monthName(dateStr: string): string {
+  const yr = dateStr.slice(0, 4);
   const mo = Number(dateStr.slice(5, 7));
-  return [
+  const name = [
     "January",
     "February",
     "March",
@@ -175,6 +176,7 @@ function monthName(dateStr: string): string {
     "November",
     "December"
   ][mo - 1];
+  return `${name} ${yr}`;
 }
 
 function monthSortKey(dateStr: string): number {
@@ -185,6 +187,26 @@ function monthSortKey(dateStr: string): number {
 
 /* -- helpers -- */
 
+function getSeasonFromDate(dateStr: string): number {
+  const month = Number(dateStr.slice(5, 7));
+  const year = Number(dateStr.slice(0, 4));
+  return month >= 11 ? year + 1 : year;
+}
+
+/** Map calendar month to season-relative order: Nov=0, Dec=1, Jan=2, ..., Oct=11 */
+function seasonMonthOrd(mo: number): number {
+  return mo >= 11 ? mo - 11 : mo + 1;
+}
+
+const SEASON_MONTHS = [
+  { value: 11, label: "Nov" },
+  { value: 12, label: "Dec" },
+  { value: 1, label: "Jan" },
+  { value: 2, label: "Feb" },
+  { value: 3, label: "Mar" },
+  { value: 4, label: "Apr" },
+];
+
 const mono: CSSProperties = {
   fontFamily: "'IBM Plex Mono', monospace"
 };
@@ -193,26 +215,45 @@ const mono: CSSProperties = {
 
 export default function Performance({
   games,
-  seasonLabel
+  seasonLabel: _serverSeasonLabel
 }: PerformanceProps) {
   const [edgeMin, setEdgeMin] = useState(0);
-  const [startDate, setStartDate] = useState("");
+  const [edgeMax, setEdgeMax] = useState(50);
+  const [startMonth, setStartMonth] = useState<number | "">("");
+
+  const availableSeasons = useMemo(() => {
+    const set = new Set<number>();
+    for (const g of games) set.add(getSeasonFromDate(g.date));
+    return Array.from(set).sort((a, b) => b - a);
+  }, [games]);
+
+  const [seasonFilter, setSeasonFilter] = useState<number | "all">(() =>
+    availableSeasons.length > 0 ? availableSeasons[0] : "all"
+  );
+
+  const seasonLabel = useMemo(() => {
+    if (seasonFilter === "all") return "All Seasons";
+    return `${seasonFilter - 1}\u2013${String(seasonFilter).slice(2)} Season`;
+  }, [seasonFilter]);
+
+  const minEdge = useMemo(() => {
+    if (!games.length) return -10;
+    return Math.floor(Math.min(...games.map((g) => g.edge)));
+  }, [games]);
 
   const maxEdge = useMemo(() => {
     if (!games.length) return 30;
     return Math.ceil(Math.max(...games.map((g) => g.edge)));
   }, [games]);
 
-  const minDate = games.length ? games[0].date : "";
-  const maxDate = games.length ? games[games.length - 1].date : "";
-
   /* filtered games */
   const filtered = useMemo(
     () =>
       games
-        .filter((g) => !startDate || g.date >= startDate)
-        .filter((g) => g.edge >= edgeMin),
-    [games, startDate, edgeMin]
+        .filter((g) => seasonFilter === "all" || getSeasonFromDate(g.date) === seasonFilter)
+        .filter((g) => startMonth === "" || seasonMonthOrd(Number(g.date.slice(5, 7))) >= seasonMonthOrd(startMonth as number))
+        .filter((g) => g.edge >= edgeMin && g.edge <= edgeMax),
+    [games, seasonFilter, startMonth, edgeMin, edgeMax]
   );
 
   /* stats */
@@ -235,7 +276,9 @@ export default function Performance({
 
     return {
       record: bets > 0 ? `${wins}-${losses}` : "\u2014",
-      bets: String(bets || "\u2014"),
+      winPct:
+        bets > 0 ? `${((wins / bets) * 100).toFixed(1)}%` : "\u2014",
+      winPctNum: bets > 0 ? (wins / bets) * 100 : 50,
       units:
         bets > 0
           ? `${units >= 0 ? "+" : ""}${units.toFixed(1)}u`
@@ -255,7 +298,7 @@ export default function Performance({
   const chartData = useMemo(() => {
     const allWeeks: string[] = [];
     const seen = new Set<string>();
-    for (const g of games) {
+    for (const g of filtered) {
       if (!seen.has(g.week)) {
         seen.add(g.week);
         allWeeks.push(g.week);
@@ -271,7 +314,7 @@ export default function Performance({
       }
       return { week: w, units: Math.round(cum * 10) / 10 };
     });
-  }, [games, filtered]);
+  }, [filtered]);
 
   /* monthly breakdown */
   const months = useMemo(() => {
@@ -361,76 +404,144 @@ export default function Performance({
             >
               Performance
             </h1>
+            {availableSeasons.length > 1 && (
+              <select
+                value={seasonFilter}
+                onChange={(e) => {
+                  const v = e.target.value;
+                  setSeasonFilter(v === "all" ? "all" : Number(v));
+                }}
+                style={{
+                  ...mono,
+                  padding: "4px 8px",
+                  border: "1px solid #e2e8f0",
+                  borderRadius: 6,
+                  fontSize: 13,
+                  background: "#fff",
+                  color: "#334155",
+                }}
+              >
+                {availableSeasons.map((s) => (
+                  <option key={s} value={s}>
+                    {s - 1}&ndash;{String(s).slice(2)}
+                  </option>
+                ))}
+                <option value="all">All Seasons</option>
+              </select>
+            )}
             <span style={{ ...mono, fontSize: 13, color: "#64748b" }}>
               {seasonLabel}
             </span>
-            {minDate && (
-              <div
-                style={{ display: "flex", alignItems: "center", gap: 6 }}
+            <div
+              style={{ display: "flex", alignItems: "center", gap: 6 }}
+            >
+              <span
+                style={{
+                  ...mono,
+                  fontSize: 11,
+                  fontWeight: 600,
+                  color: "#64748b"
+                }}
               >
-                <span
-                  style={{
-                    ...mono,
-                    fontSize: 11,
-                    fontWeight: 600,
-                    color: "#64748b"
-                  }}
-                >
-                  FROM
-                </span>
-                <input
-                  type="date"
-                  min={minDate}
-                  max={maxDate}
-                  value={startDate}
-                  onChange={(e) => setStartDate(e.target.value)}
-                  style={{
-                    ...mono,
-                    fontSize: 13,
-                    padding: "2px 6px",
-                    border: "1px solid #cbd5e1",
-                    borderRadius: 4,
-                    color: "#0f172a",
-                    background: "#fff"
-                  }}
-                />
-              </div>
-            )}
+                FROM
+              </span>
+              <select
+                value={startMonth}
+                onChange={(e) => {
+                  const v = e.target.value;
+                  setStartMonth(v === "" ? "" : Number(v));
+                }}
+                style={{
+                  ...mono,
+                  padding: "4px 8px",
+                  border: "1px solid #e2e8f0",
+                  borderRadius: 6,
+                  fontSize: 13,
+                  background: "#fff",
+                  color: "#334155",
+                }}
+              >
+                <option value="">All</option>
+                {SEASON_MONTHS.map((m) => (
+                  <option key={m.value} value={m.value}>
+                    {m.label}
+                  </option>
+                ))}
+              </select>
+            </div>
           </div>
 
           <div
-            style={{ display: "flex", alignItems: "center", gap: 8 }}
+            style={{ display: "flex", alignItems: "center", gap: 12 }}
           >
-            <span
-              style={{
-                ...mono,
-                fontSize: 11,
-                fontWeight: 600,
-                color: "#64748b"
-              }}
-            >
-              EDGE
-            </span>
-            <input
-              type="range"
-              min={0}
-              max={maxEdge}
-              step={1}
-              value={edgeMin}
-              onChange={(e) => setEdgeMin(Number(e.target.value))}
-              style={{ width: 120, accentColor: "#0f172a" }}
-            />
-            <span
-              style={{
-                ...mono,
-                fontSize: 14,
-                fontWeight: 700,
-                color: "#0f172a",
-                minWidth: 30
-              }}
-            >
-              {edgeMin}%
-            </span>
+            <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+              <span
+                style={{
+                  ...mono,
+                  fontSize: 11,
+                  fontWeight: 600,
+                  color: "#64748b"
+                }}
+              >
+                EDGE
+              </span>
+              <span
+                style={{
+                  ...mono,
+                  fontSize: 13,
+                  fontWeight: 700,
+                  color: "#0f172a",
+                  minWidth: 28,
+                  textAlign: "right"
+                }}
+              >
+                {edgeMin}%
+              </span>
+              <input
+                type="range"
+                min={minEdge}
+                max={maxEdge}
+                step={1}
+                value={edgeMin}
+                onChange={(e) => {
+                  const v = Number(e.target.value);
+                  setEdgeMin(Math.min(v, edgeMax));
+                }}
+                style={{ width: 100, accentColor: "#0f172a" }}
+              />
+              <span
+                style={{
+                  ...mono,
+                  fontSize: 11,
+                  color: "#94a3b8"
+                }}
+              >
+                &ndash;
+              </span>
+              <input
+                type="range"
+                min={minEdge}
+                max={maxEdge}
+                step={1}
+                value={edgeMax}
+                onChange={(e) => {
+                  const v = Number(e.target.value);
+                  setEdgeMax(Math.max(v, edgeMin));
+                }}
+                style={{ width: 100, accentColor: "#0f172a" }}
+              />
+              <span
+                style={{
+                  ...mono,
+                  fontSize: 13,
+                  fontWeight: 700,
+                  color: "#0f172a",
+                  minWidth: 28
+                }}
+              >
+                {edgeMax}%
+              </span>
+            </div>
           </div>
         </div>
 
@@ -453,9 +564,9 @@ export default function Performance({
               color: "#0f172a"
             },
             {
-              label: "BETS",
-              value: stats.bets,
-              color: "#0f172a"
+              label: "WIN %",
+              value: stats.winPct,
+              color: stats.winPctNum >= 55 ? "#16a34a" : stats.winPctNum >= 50 ? "#0f172a" : "#dc2626"
             },
             {
               label: "UNITS",

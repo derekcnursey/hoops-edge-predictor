@@ -1,7 +1,9 @@
 import { GetServerSideProps } from "next";
+import { useRouter } from "next/router";
 import { CSSProperties, useMemo, useState } from "react";
 import Layout from "../components/Layout";
-import { readJsonFile } from "../lib/server-data";
+import { displayTeam } from "../lib/data";
+import { listRankingsSeasons, readJsonFile } from "../lib/server-data";
 
 /* -- types -- */
 
@@ -28,14 +30,29 @@ type RankingsData = {
 
 type Props = {
   data: RankingsData | null;
+  availableSeasons: number[];
+  currentSeason: number;
 };
 
 /* -- server-side -- */
 
-export const getServerSideProps: GetServerSideProps<Props> = async () => {
-  const raw = readJsonFile("rankings.json");
+export const getServerSideProps: GetServerSideProps<Props> = async (context) => {
+  const availableSeasons = listRankingsSeasons();
+  const latestSeason = availableSeasons.length > 0 ? availableSeasons[0] : 2026;
+
+  const qSeason = context.query.season;
+  const currentSeason =
+    typeof qSeason === "string" && /^\d{4}$/.test(qSeason)
+      ? Number(qSeason)
+      : latestSeason;
+
+  const filename = `rankings_${currentSeason}.json`;
+  let raw = readJsonFile(filename);
+  // Fall back to generic rankings.json if season-specific file doesn't exist
+  if (!raw) raw = readJsonFile("rankings.json");
   const data = raw as RankingsData | null;
-  return { props: { data } };
+
+  return { props: { data, availableSeasons, currentSeason } };
 };
 
 /* -- helpers -- */
@@ -128,7 +145,12 @@ const columns: {
 
 /* -- component -- */
 
-export default function Rankings({ data }: Props) {
+function seasonLabel(season: number): string {
+  return `${season - 1}\u2013${String(season).slice(2)} Season`;
+}
+
+export default function Rankings({ data, availableSeasons, currentSeason }: Props) {
+  const router = useRouter();
   const [search, setSearch] = useState("");
   const [confFilter, setConfFilter] = useState("all");
   const [sort, setSort] = useState<SortState>({ key: "rank", dir: "asc" });
@@ -212,7 +234,7 @@ export default function Rankings({ data }: Props) {
             Power Rankings
           </h1>
           <span style={{ ...mono, fontSize: 13, color: "#64748b" }}>
-            {data.as_of_date ? formatDateDisplay(data.as_of_date) : ""} ·{" "}
+            {seasonLabel(currentSeason)} · {data.as_of_date ? formatDateDisplay(data.as_of_date) : ""} ·{" "}
             {data.teams.length} teams
           </span>
         </div>
@@ -229,6 +251,27 @@ export default function Rankings({ data }: Props) {
           }}
         >
           <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
+            {availableSeasons.length > 1 && (
+              <select
+                value={currentSeason}
+                onChange={(e) => router.push(`/rankings?season=${e.target.value}`)}
+                style={{
+                  ...mono,
+                  padding: "6px 10px",
+                  border: "1px solid #e2e8f0",
+                  borderRadius: 6,
+                  fontSize: 13,
+                  background: "#fff",
+                  color: "#334155",
+                }}
+              >
+                {availableSeasons.map((s) => (
+                  <option key={s} value={s}>
+                    {s - 1}&ndash;{String(s).slice(2)}
+                  </option>
+                ))}
+              </select>
+            )}
             <select
               value={confFilter}
               onChange={(e) => setConfFilter(e.target.value)}
@@ -375,7 +418,7 @@ export default function Rankings({ data }: Props) {
                           borderBottom: "1px solid #f1f5f9",
                         }}
                       >
-                        {t.team}
+                        {displayTeam(t.team)}
                       </td>
 
                       {/* CONFERENCE */}

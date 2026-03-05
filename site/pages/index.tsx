@@ -1,153 +1,24 @@
 import { GetServerSideProps } from "next";
 import { CSSProperties, useMemo, useState } from "react";
 import Layout from "../components/Layout";
-import { PredictionRow, normalizeRows } from "../lib/data";
+import { PredictionRow, displayTeam } from "../lib/data";
 import {
   getLatestPredictionFile,
   getPredictionRowsByFilename,
-  listPredictionFiles,
-  listFinalScoreFiles,
-  readJsonFile,
-  todayET
 } from "../lib/server-data";
-
-type SeasonStats = {
-  wins: number;
-  losses: number;
-  pushes: number;
-  units: number;
-  roi: number;
-  last30Wins: number;
-  last30Losses: number;
-  streak: string;
-};
 
 type HomeProps = {
   date: string | null;
   rows: PredictionRow[];
-  stats: SeasonStats;
 };
-
-function pn(v: unknown): number | null {
-  if (typeof v === "number" && Number.isFinite(v)) return v;
-  if (typeof v === "string" && v.trim() !== "") {
-    const n = Number(v);
-    return Number.isNaN(n) ? null : n;
-  }
-  return null;
-}
-
-function computeSeasonStats(): SeasonStats {
-  const predFiles = listPredictionFiles();
-  const finalFiles = listFinalScoreFiles();
-  const finalByDate = new Map(finalFiles.map((f) => [f.date, f.filename]));
-
-  type Result = { date: string; outcome: "win" | "loss" | "push" };
-  const results: Result[] = [];
-
-  for (const pf of predFiles) {
-    const ff = finalByDate.get(pf.date);
-    if (!ff) continue;
-
-    const predRows = normalizeRows(readJsonFile(pf.filename));
-    const finalRows = normalizeRows(readJsonFile(ff));
-
-    const finalMap = new Map<string, PredictionRow>();
-    for (const fr of finalRows) {
-      const gid = typeof fr.game_id === "string" ? fr.game_id : "";
-      if (gid) finalMap.set(gid, fr);
-    }
-
-    for (const pred of predRows) {
-      const marketSpread = pn(pred.market_spread_home);
-      if (marketSpread === null) continue; // no book line = skip
-
-      const hasBk = pred.has_book;
-      if (hasBk === false || hasBk === "false" || hasBk === 0) continue;
-
-      const pickSide = String(pred.pick_side || "").toUpperCase();
-      if (!pickSide) continue;
-
-      const gid = typeof pred.game_id === "string" ? pred.game_id : "";
-      const fin = finalMap.get(gid);
-      if (!fin) continue;
-
-      const homeScore = pn(fin.home_score);
-      const awayScore = pn(fin.away_score);
-      if (homeScore === null || awayScore === null) continue;
-
-      const cover = homeScore - awayScore + marketSpread;
-      let outcome: "win" | "loss" | "push";
-      if (cover === 0) {
-        outcome = "push";
-      } else if (pickSide === "HOME") {
-        outcome = cover > 0 ? "win" : "loss";
-      } else {
-        outcome = cover < 0 ? "win" : "loss";
-      }
-
-      results.push({ date: pf.date, outcome });
-    }
-  }
-
-  // Sort by date for streak and last-30 calc
-  results.sort((a, b) => (a.date < b.date ? -1 : 1));
-
-  let wins = 0;
-  let losses = 0;
-  let pushes = 0;
-  let units = 0;
-  for (const r of results) {
-    if (r.outcome === "win") { wins++; units += 0.91; }
-    else if (r.outcome === "loss") { losses++; units -= 1.0; }
-    else { pushes++; }
-  }
-
-  const totalBets = wins + losses;
-  const roi = totalBets > 0 ? (units / totalBets) * 100 : 0;
-
-  // Last 30 days
-  const todayStr = todayET();
-  const todayDate = new Date(todayStr + "T12:00:00");
-  const thirtyDaysAgo = new Date(todayDate);
-  thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
-  const cutoff = thirtyDaysAgo.toISOString().slice(0, 10);
-
-  let last30Wins = 0;
-  let last30Losses = 0;
-  for (const r of results) {
-    if (r.date >= cutoff) {
-      if (r.outcome === "win") last30Wins++;
-      else if (r.outcome === "loss") last30Losses++;
-    }
-  }
-
-  // Streak (from most recent backwards)
-  let streak = "";
-  if (results.length > 0) {
-    const wlResults = results.filter((r) => r.outcome !== "push");
-    if (wlResults.length > 0) {
-      const lastOutcome = wlResults[wlResults.length - 1].outcome;
-      let count = 0;
-      for (let i = wlResults.length - 1; i >= 0; i--) {
-        if (wlResults[i].outcome === lastOutcome) count++;
-        else break;
-      }
-      streak = `${lastOutcome === "win" ? "W" : "L"}${count}`;
-    }
-  }
-
-  return { wins, losses, pushes, units, roi, last30Wins, last30Losses, streak };
-}
 
 export const getServerSideProps: GetServerSideProps<HomeProps> = async () => {
   const latest = getLatestPredictionFile();
-  const stats = computeSeasonStats();
   if (!latest) {
-    return { props: { date: null, rows: [], stats } };
+    return { props: { date: null, rows: [] } };
   }
   const rows = getPredictionRowsByFilename(latest.filename);
-  return { props: { date: latest.date, rows, stats } };
+  return { props: { date: latest.date, rows } };
 };
 
 /* -- helpers -- */
@@ -184,7 +55,23 @@ function num(v: unknown): number | null {
 
 function getPickTeam(row: PredictionRow): string {
   const side = str(row.pick_side).toUpperCase();
-  return side === "HOME" ? str(row.home_team) : str(row.away_team);
+  return displayTeam(side === "HOME" ? str(row.home_team) : str(row.away_team));
+}
+
+function formatGameTime(row: PredictionRow): string | null {
+  const raw = row.start_time ?? row.startDate;
+  if (!raw || typeof raw !== "string") return null;
+  try {
+    const d = new Date(raw);
+    if (isNaN(d.getTime())) return null;
+    return d.toLocaleTimeString("en-US", {
+      timeZone: "America/New_York",
+      hour: "numeric",
+      minute: "2-digit",
+    });
+  } catch {
+    return null;
+  }
 }
 
 function hasBook(row: PredictionRow): boolean {
@@ -223,18 +110,16 @@ function pickSpread(row: PredictionRow): number | null {
 
 /* -- sort -- */
 
-type SortKey = "matchup" | "book" | "pick" | "model" | "sigma" | "diff" | "edge";
+type SortKey = "matchup" | "book" | "model" | "sigma" | "diff" | "edge";
 
 type SortState = { key: SortKey; dir: "asc" | "desc" };
 
 function sortVal(row: PredictionRow, key: SortKey): string | number {
   switch (key) {
     case "matchup":
-      return `${str(row.away_team)} @ ${str(row.home_team)}`;
+      return `${displayTeam(str(row.away_team))} @ ${displayTeam(str(row.home_team))}`;
     case "book":
       return bookSpread(row) ?? -Infinity;
-    case "pick":
-      return getPickTeam(row);
     case "model":
       return modelSpread(row) ?? -Infinity;
     case "sigma":
@@ -251,7 +136,6 @@ function sortVal(row: PredictionRow, key: SortKey): string | number {
 const columns: { key: SortKey; label: string; align: "left" | "center" }[] = [
   { key: "matchup", label: "MATCHUP", align: "left" },
   { key: "book", label: "HOME SPREAD", align: "center" },
-  { key: "pick", label: "PICK", align: "center" },
   { key: "model", label: "MODEL", align: "center" },
   { key: "sigma", label: "SIGMA", align: "center" },
   { key: "diff", label: "DIFF", align: "center" },
@@ -260,16 +144,10 @@ const columns: { key: SortKey; label: string; align: "left" | "center" }[] = [
 
 /* -- component -- */
 
-export default function Home({ date, rows, stats }: HomeProps) {
+export default function Home({ date, rows }: HomeProps) {
   const [search, setSearch] = useState("");
-  const [filter, setFilter] = useState<"all" | "edge8">("all");
+  const [filter, setFilter] = useState<"all" | "edge10">("all");
   const [sort, setSort] = useState<SortState>({ key: "edge", dir: "desc" });
-
-  const featured = useMemo(() => {
-    return rows
-      .filter((r) => hasBook(r) && edge(r) >= 0.10)
-      .sort((a, b) => edge(b) - edge(a));
-  }, [rows]);
 
   const tableRows = useMemo(() => {
     let list = [...rows];
@@ -284,8 +162,8 @@ export default function Home({ date, rows, stats }: HomeProps) {
       });
     }
 
-    if (filter === "edge8") {
-      list = list.filter((r) => hasBook(r) && edge(r) >= 0.08);
+    if (filter === "edge10") {
+      list = list.filter((r) => hasBook(r) && edge(r) >= 0.10);
     }
 
     list.sort((a, b) => {
@@ -352,133 +230,6 @@ export default function Home({ date, rows, stats }: HomeProps) {
           </span>
         </div>
 
-        {/* -- Season Stats Strip -- */}
-        <div
-          style={{
-            display: "flex",
-            gap: 1,
-            borderRadius: 10,
-            overflow: "hidden",
-            background: "#e2e8f0",
-            marginBottom: 28
-          }}
-        >
-          {[
-            { label: "SEASON", value: `${stats.wins}-${stats.losses}`, color: "#0f172a" },
-            { label: "UNITS", value: `${stats.units >= 0 ? "+" : ""}${stats.units.toFixed(1)}u`, color: stats.units >= 0 ? "#16a34a" : "#dc2626" },
-            { label: "ROI", value: `${stats.roi >= 0 ? "+" : ""}${stats.roi.toFixed(1)}%`, color: stats.roi >= 0 ? "#16a34a" : "#dc2626" },
-            { label: "LAST 30D", value: `${stats.last30Wins}-${stats.last30Losses}`, color: "#0f172a" },
-            { label: "STREAK", value: stats.streak || "—", color: stats.streak.startsWith("W") ? "#16a34a" : "#dc2626" }
-          ].map((s) => (
-            <div
-              key={s.label}
-              style={{
-                flex: 1,
-                background: "#fff",
-                padding: "12px 8px",
-                textAlign: "center"
-              }}
-            >
-              <div
-                style={{
-                  ...mono,
-                  fontSize: 9,
-                  fontWeight: 500,
-                  letterSpacing: "0.1em",
-                  color: "#64748b",
-                  marginBottom: 4
-                }}
-              >
-                {s.label}
-              </div>
-              <div
-                style={{
-                  ...mono,
-                  fontSize: 16,
-                  fontWeight: 700,
-                  lineHeight: 1,
-                  color: s.color
-                }}
-              >
-                {s.value}
-              </div>
-            </div>
-          ))}
-        </div>
-
-        {/* -- Featured "BEST VALUE" Cards -- */}
-        {featured.length > 0 && (
-          <div style={{ marginBottom: 28 }}>
-            <div
-              style={{
-                ...mono,
-                fontSize: 11,
-                fontWeight: 500,
-                letterSpacing: "0.08em",
-                color: "#64748b",
-                marginBottom: 10
-              }}
-            >
-              BEST VALUE
-            </div>
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-                gap: 8
-              }}
-            >
-              {featured.map((game, i) => {
-                const pt = getPickTeam(game);
-                const ps = pickSpread(game);
-                const e = edge(game);
-                return (
-                  <div
-                    key={`${str(game.away_team)}-${str(game.home_team)}-${i}`}
-                    style={{
-                      background: "#fff",
-                      border: "1px solid #e2e8f0",
-                      borderRadius: 10,
-                      padding: "14px 20px",
-                      boxShadow: "0 1px 3px rgba(0,0,0,0.04)",
-                      animation: `slideUp 0.4s ease ${i * 0.05}s both`
-                    }}
-                  >
-                    <div
-                      style={{ fontSize: 12, color: "#64748b", marginBottom: 6 }}
-                    >
-                      {str(game.away_team)} @ {str(game.home_team)}
-                    </div>
-                    <div
-                      style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        alignItems: "center"
-                      }}
-                    >
-                      <span
-                        style={{ fontSize: 16, fontWeight: 700, color: "#0f172a" }}
-                      >
-                        {pt} {ps !== null ? formatSpread(ps) : ""}
-                      </span>
-                      <span
-                        style={{
-                          ...mono,
-                          fontSize: 18,
-                          fontWeight: 700,
-                          color: "#16a34a"
-                        }}
-                      >
-                        +{(e * 100).toFixed(1)}%
-                      </span>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        )}
-
         {/* -- All Games Table -- */}
         <div>
           {/* Controls row */}
@@ -513,7 +264,7 @@ export default function Home({ date, rows, stats }: HomeProps) {
             />
 
             <div style={{ display: "flex", gap: 6 }}>
-              {(["all", "edge8"] as const).map((f) => (
+              {(["all", "edge10"] as const).map((f) => (
                 <button
                   key={f}
                   type="button"
@@ -530,7 +281,7 @@ export default function Home({ date, rows, stats }: HomeProps) {
                     cursor: "pointer"
                   }}
                 >
-                  {f === "all" ? "All" : "Edge \u2265 8%"}
+                  {f === "all" ? "All" : "Edge \u2265 10%"}
                 </button>
               ))}
             </div>
@@ -621,7 +372,7 @@ export default function Home({ date, rows, stats }: HomeProps) {
                             animation: `fadeIn 0.3s ease ${i * 0.02}s both`
                           }}
                         >
-                          {/* MATCHUP */}
+                          {/* MATCHUP — picked side is bold */}
                           <td
                             style={{
                               padding: "10px 14px",
@@ -633,7 +384,18 @@ export default function Home({ date, rows, stats }: HomeProps) {
                               borderBottom: "1px solid #f1f5f9"
                             }}
                           >
-                            {str(row.away_team)} @ {str(row.home_team)}
+                            <span style={{ fontWeight: str(row.pick_side).toUpperCase() === "AWAY" ? 700 : 400 }}>
+                              {displayTeam(str(row.away_team))}
+                            </span>
+                            {" @ "}
+                            <span style={{ fontWeight: str(row.pick_side).toUpperCase() === "HOME" ? 700 : 400 }}>
+                              {displayTeam(str(row.home_team))}
+                            </span>
+                            {formatGameTime(row) && (
+                              <span style={{ ...mono, marginLeft: 6, fontSize: 11, color: "#94a3b8" }}>
+                                {formatGameTime(row)}
+                              </span>
+                            )}
                           </td>
 
                           {/* HOME SPREAD */}
@@ -648,21 +410,6 @@ export default function Home({ date, rows, stats }: HomeProps) {
                             }}
                           >
                             {hb && bk !== null ? formatSpread(bk) : "\u2014"}
-                          </td>
-
-                          {/* PICK */}
-                          <td
-                            style={{
-                              ...mono,
-                              padding: "10px 14px",
-                              textAlign: "center",
-                              fontSize: 13,
-                              fontWeight: 700,
-                              color: "#0f172a",
-                              borderBottom: "1px solid #f1f5f9"
-                            }}
-                          >
-                            {getPickTeam(row)}
                           </td>
 
                           {/* MODEL */}

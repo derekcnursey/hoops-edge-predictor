@@ -2,7 +2,7 @@ import { GetServerSideProps } from "next";
 import Link from "next/link";
 import { CSSProperties, useMemo, useState } from "react";
 import Layout from "../components/Layout";
-import { normalizeRows } from "../lib/data";
+import { normalizeRows, displayTeam } from "../lib/data";
 import { listFinalScoreFiles, readJsonFile, todayET } from "../lib/server-data";
 
 /* -- types -- */
@@ -31,7 +31,6 @@ type HistoryProps = {
 type SortKey =
   | "matchup"
   | "score"
-  | "pick"
   | "book"
   | "model"
   | "ats"
@@ -192,8 +191,6 @@ function sortVal(g: HistoryGame, key: SortKey): string | number {
       return g.home_score !== null && g.away_score !== null
         ? g.home_score - g.away_score
         : -Infinity;
-    case "pick":
-      return g.pick_team;
     case "book":
       return g.market_spread_home ?? -Infinity;
     case "model":
@@ -210,7 +207,6 @@ function sortVal(g: HistoryGame, key: SortKey): string | number {
 const columns: { key: SortKey; label: string; align: "left" | "center" }[] = [
   { key: "matchup", label: "MATCHUP", align: "left" },
   { key: "score", label: "SCORE", align: "center" },
-  { key: "pick", label: "PICK", align: "center" },
   { key: "book", label: "BOOK LINE", align: "center" },
   { key: "model", label: "MODEL", align: "center" },
   { key: "ats", label: "ATS", align: "center" },
@@ -234,6 +230,13 @@ export default function History({
     key: "edge",
     dir: "desc"
   });
+
+  const minEdge = useMemo(() => {
+    if (!games.length) return -10;
+    return Math.floor(
+      Math.min(...games.map((g) => g.pick_prob_edge * 100))
+    );
+  }, [games]);
 
   const maxEdge = useMemo(() => {
     if (!games.length) return 30;
@@ -565,7 +568,7 @@ export default function History({
             </span>
             <input
               type="range"
-              min={0}
+              min={minEdge}
               max={maxEdge}
               step={1}
               value={edgeMin}
@@ -695,7 +698,7 @@ export default function History({
                           animation: `fadeIn 0.3s ease ${i * 0.02}s both`
                         }}
                       >
-                        {/* MATCHUP */}
+                        {/* MATCHUP — picked side is bold */}
                         <td
                           style={{
                             padding: "10px 14px",
@@ -708,7 +711,13 @@ export default function History({
                             opacity: dimmed ? 0.4 : 1
                           }}
                         >
-                          {g.away_team} @ {g.home_team}
+                          <span style={{ fontWeight: g.pick_side === "AWAY" ? 700 : 400 }}>
+                            {displayTeam(g.away_team)}
+                          </span>
+                          {" @ "}
+                          <span style={{ fontWeight: g.pick_side === "HOME" ? 700 : 400 }}>
+                            {displayTeam(g.home_team)}
+                          </span>
                         </td>
 
                         {/* SCORE */}
@@ -726,22 +735,6 @@ export default function History({
                           {g.away_score !== null && g.home_score !== null
                             ? `${g.away_score}-${g.home_score}`
                             : "\u2014"}
-                        </td>
-
-                        {/* PICK */}
-                        <td
-                          style={{
-                            ...mono,
-                            padding: "10px 14px",
-                            textAlign: "center",
-                            fontSize: 13,
-                            fontWeight: 700,
-                            color: "#0f172a",
-                            borderBottom: bd,
-                            opacity: dimmed ? 0.4 : 1
-                          }}
-                        >
-                          {g.pick_team}
                         </td>
 
                         {/* BOOK LINE */}
