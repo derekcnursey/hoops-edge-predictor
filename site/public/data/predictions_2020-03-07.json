@@ -581,15 +581,15 @@
     },
     {
       "away_team": "Kansas City",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2020_03_07_kansas_city_seattle_u",
       "home_team": "Seattle U",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 0.10986480116844177,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.3826043903827667,
@@ -598,15 +598,15 @@
     },
     {
       "away_team": "Chicago State",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2020_03_07_chicago_state_utah_valley",
       "home_team": "Utah Valley",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 16.00625228881836,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.8732595443725586,
@@ -1600,5 +1600,5 @@
       "start_time": "2020-03-08T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:10.872275Z"
+  "generated_at": "2026-03-05T22:52:32.261864Z"
 }

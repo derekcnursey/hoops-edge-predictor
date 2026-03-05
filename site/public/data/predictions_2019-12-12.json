@@ -20,15 +20,15 @@
     },
     {
       "away_team": "Howard Payne",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2019_12_12_howard_payne_abilene_christian",
       "home_team": "Abilene Christian",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 54.260353088378906,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9983940720558167,
@@ -88,15 +88,15 @@
     },
     {
       "away_team": "Portland Bible",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2019_12_12_portland_bible_portland_state",
       "home_team": "Portland State",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 52.962615966796875,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9998539686203003,
@@ -104,5 +104,5 @@
       "start_time": "2019-12-13T03:05:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:10.453764Z"
+  "generated_at": "2026-03-05T22:52:31.873923Z"
 }

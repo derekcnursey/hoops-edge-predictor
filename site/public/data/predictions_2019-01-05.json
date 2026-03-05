@@ -1873,15 +1873,15 @@
     },
     {
       "away_team": "Holy Names University",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2019_01_05_holy_names_university_uc_davis",
       "home_team": "UC Davis",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 13.924966812133789,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.8502365350723267,
@@ -2230,15 +2230,15 @@
     },
     {
       "away_team": "Bethesda University",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2019_01_05_bethesda_university_long_beach_state",
       "home_team": "Long Beach State",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 45.132205963134766,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9655106067657471,
@@ -2399,5 +2399,5 @@
       "start_time": "2019-01-06T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:09.120964Z"
+  "generated_at": "2026-03-05T22:52:30.609102Z"
 }

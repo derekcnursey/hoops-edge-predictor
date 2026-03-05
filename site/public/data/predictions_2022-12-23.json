@@ -3,15 +3,15 @@
   "games": [
     {
       "away_team": "Kean",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2022_12_23_kean_princeton",
       "home_team": "Princeton",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 19.80794906616211,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.7930073738098145,
@@ -105,15 +105,15 @@
     },
     {
       "away_team": "Grambling",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2022_12_23_grambling_wisconsin",
       "home_team": "Wisconsin",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 12.159164428710938,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.6696381568908691,
@@ -155,5 +155,5 @@
       "start_time": "2022-12-24T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:13.259565Z"
+  "generated_at": "2026-03-05T22:52:35.710419Z"
 }

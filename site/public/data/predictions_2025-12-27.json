@@ -3,15 +3,15 @@
   "games": [
     {
       "away_team": "Columbia College (SC)",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2025_12_27_columbia_college_sc_unc_wilmington",
       "home_team": "UNC Wilmington",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 24.80367660522461,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9518954157829285,
@@ -20,15 +20,15 @@
     },
     {
       "away_team": "Cleary University",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2025_12_27_cleary_university_duquesne",
       "home_team": "Duquesne",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 42.671424865722656,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9982421398162842,
@@ -53,5 +53,5 @@
       "start_time": "2025-12-28T01:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:18.003947Z"
+  "generated_at": "2026-03-05T22:52:40.173119Z"
 }

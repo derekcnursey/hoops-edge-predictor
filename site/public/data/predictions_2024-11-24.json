@@ -241,15 +241,15 @@
     },
     {
       "away_team": "Rosemont",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2024_11_24_rosemont_lafayette",
       "home_team": "Lafayette",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 21.26927947998047,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.8615627884864807,
@@ -479,15 +479,15 @@
     },
     {
       "away_team": "Kansas City",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2024_11_24_kansas_city_puerto_rico_rio_piedras",
       "home_team": "Puerto Rico-Rio Piedras",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 0.4077935218811035,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.4148479402065277,
@@ -920,5 +920,5 @@
       "start_time": "2024-11-25T01:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:15.804376Z"
+  "generated_at": "2026-03-05T22:52:38.161099Z"
 }

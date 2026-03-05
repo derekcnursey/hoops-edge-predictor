@@ -3,15 +3,15 @@
   "games": [
     {
       "away_team": "Chestnut Hill College",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2019_12_16_chestnut_hill_college_morgan_state",
       "home_team": "Morgan State",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 28.118515014648438,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9322411417961121,
@@ -190,15 +190,15 @@
     },
     {
       "away_team": "Southeastern Baptist College",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2019_12_16_southeastern_baptist_college_jackson_state",
       "home_team": "Jackson State",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 23.96497344970703,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.8637681603431702,
@@ -342,5 +342,5 @@
       "start_time": "2019-12-17T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:10.470664Z"
+  "generated_at": "2026-03-05T22:52:31.889337Z"
 }

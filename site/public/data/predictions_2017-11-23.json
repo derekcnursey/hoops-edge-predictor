@@ -37,15 +37,15 @@
     },
     {
       "away_team": "Chicago State",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2017_11_23_chicago_state_umbc",
       "home_team": "UMBC",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 15.06318187713623,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.8225955963134766,
@@ -105,15 +105,15 @@
     },
     {
       "away_team": "Nicholls",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2017_11_23_nicholls_presbyterian",
       "home_team": "Presbyterian",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": -7.995702266693115,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.3228236734867096,
@@ -495,5 +495,5 @@
       "start_time": "2017-11-24T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:07.522273Z"
+  "generated_at": "2026-03-05T22:52:29.136437Z"
 }

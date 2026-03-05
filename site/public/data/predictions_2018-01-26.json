@@ -71,15 +71,15 @@
     },
     {
       "away_team": "Sacred Heart",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2018_01_26_sacred_heart_robert_morris",
       "home_team": "Robert Morris",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 7.493282794952393,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.7262571454048157,
@@ -172,5 +172,5 @@
       "start_time": "2018-01-27T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:07.829173Z"
+  "generated_at": "2026-03-05T22:52:29.412615Z"
 }

@@ -292,15 +292,15 @@
     },
     {
       "away_team": "Vermont State - Johnson",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2024_12_08_vermont_state_johnson_bryant",
       "home_team": "Bryant",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 44.66443634033203,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9998218417167664,
@@ -649,15 +649,15 @@
     },
     {
       "away_team": "Mary Baldwin",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2024_12_08_mary_baldwin_longwood",
       "home_team": "Longwood",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 45.10346984863281,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9952049255371094,
@@ -665,5 +665,5 @@
       "start_time": "2024-12-08T23:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:15.872346Z"
+  "generated_at": "2026-03-05T22:52:38.236700Z"
 }

@@ -20,15 +20,15 @@
     },
     {
       "away_team": "St. Francis (PA)",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2026_01_25_st_francis_pa_new_haven",
       "home_team": "New Haven",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 1.8619041442871094,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.5288043022155762,
@@ -37,15 +37,15 @@
     },
     {
       "away_team": "Purdue Fort Wayne",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2026_01_25_purdue_fort_wayne_iu_indianapolis",
       "home_team": "IU Indianapolis",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 2.6804542541503906,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.3271254599094391,
@@ -121,5 +121,5 @@
       "start_time": "2026-01-25T21:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:18.146152Z"
+  "generated_at": "2026-03-05T22:52:40.314167Z"
 }

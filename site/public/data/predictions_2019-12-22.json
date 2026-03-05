@@ -275,15 +275,15 @@
     },
     {
       "away_team": "Kean",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2019_12_22_kean_njit",
       "home_team": "NJIT",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 21.007450103759766,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.798758327960968,
@@ -581,15 +581,15 @@
     },
     {
       "away_team": "San Francisco State",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2019_12_22_san_francisco_state_cal_state_northridge",
       "home_team": "Cal State Northridge",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 25.420862197875977,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.92290860414505,
@@ -682,5 +682,5 @@
       "start_time": "2019-12-23T04:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:10.501013Z"
+  "generated_at": "2026-03-05T22:52:31.917607Z"
 }

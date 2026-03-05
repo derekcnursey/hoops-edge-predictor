@@ -122,15 +122,15 @@
     },
     {
       "away_team": "Crowley's Ridge",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2020_01_27_crowley_s_ridge_kansas_city",
       "home_team": "Kansas City",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 19.936325073242188,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.8524592518806458,
@@ -291,5 +291,5 @@
       "start_time": "2020-01-28T02:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:10.667060Z"
+  "generated_at": "2026-03-05T22:52:32.070006Z"
 }

@@ -870,15 +870,15 @@
     },
     {
       "away_team": "Mid-Atlantic Christian",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2025_02_08_mid_atlantic_christian_south_carolina_state",
       "home_team": "South Carolina State",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 40.25621032714844,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9964600205421448,
@@ -2128,15 +2128,15 @@
     },
     {
       "away_team": "UNC Asheville",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2025_02_08_unc_asheville_high_point",
       "home_team": "High Point",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 8.800615310668945,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.6586461067199707,
@@ -2637,5 +2637,5 @@
       "start_time": "2025-02-09T03:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:16.144508Z"
+  "generated_at": "2026-03-05T22:52:38.500396Z"
 }

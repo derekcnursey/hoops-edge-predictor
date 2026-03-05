@@ -3,15 +3,15 @@
   "games": [
     {
       "away_team": "Penn State Scranton",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2024_12_23_penn_state_scranton_wagner",
       "home_team": "Wagner",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 27.3703556060791,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.8934151530265808,
@@ -20,15 +20,15 @@
     },
     {
       "away_team": "Aquinas",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2024_12_23_aquinas_bowling_green",
       "home_team": "Bowling Green",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 24.643516540527344,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9342045783996582,
@@ -138,5 +138,5 @@
       "start_time": "2024-12-24T03:39:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:15.932873Z"
+  "generated_at": "2026-03-05T22:52:38.298265Z"
 }

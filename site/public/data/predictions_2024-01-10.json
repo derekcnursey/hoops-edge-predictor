@@ -190,15 +190,15 @@
     },
     {
       "away_team": "American University",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2024_01_10_american_university_boston_university",
       "home_team": "Boston University",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 1.6065475940704346,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.4922196567058563,
@@ -581,15 +581,15 @@
     },
     {
       "away_team": "UIC",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2024_01_10_uic_northern_iowa",
       "home_team": "Northern Iowa",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 9.834457397460938,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.8481860160827637,
@@ -835,5 +835,5 @@
       "start_time": "2024-01-11T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:14.656115Z"
+  "generated_at": "2026-03-05T22:52:37.059263Z"
 }

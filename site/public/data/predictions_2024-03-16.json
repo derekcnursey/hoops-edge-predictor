@@ -37,15 +37,15 @@
     },
     {
       "away_team": "Delaware State",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2024_03_16_delaware_state_howard",
       "home_team": "Howard",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": -0.11460041999816895,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.5527877807617188,
@@ -241,15 +241,15 @@
     },
     {
       "away_team": "Marquette",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2024_03_16_marquette_uconn",
       "home_team": "UConn",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 10.12293815612793,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.8025562167167664,
@@ -393,5 +393,5 @@
       "start_time": "2024-03-17T03:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:14.964155Z"
+  "generated_at": "2026-03-05T22:52:37.367662Z"
 }

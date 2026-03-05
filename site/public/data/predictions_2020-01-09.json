@@ -88,15 +88,15 @@
     },
     {
       "away_team": "NJIT",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2020_01_09_njit_jacksonville",
       "home_team": "Jacksonville",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 3.1551003456115723,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.563883364200592,
@@ -275,15 +275,15 @@
     },
     {
       "away_team": "Mount Saint Vincent",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2020_01_09_mount_saint_vincent_columbia",
       "home_team": "Columbia",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 16.59461212158203,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.80867600440979,
@@ -954,5 +954,5 @@
       "start_time": "2020-01-10T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:10.572716Z"
+  "generated_at": "2026-03-05T22:52:31.983289Z"
 }

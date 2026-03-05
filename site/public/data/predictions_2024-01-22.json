@@ -54,15 +54,15 @@
     },
     {
       "away_team": "Queens College NY",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2024_01_22_queens_college_ny_maryland_eastern_shore",
       "home_team": "Maryland Eastern Shore",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 28.701324462890625,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.978685736656189,
@@ -139,15 +139,15 @@
     },
     {
       "away_team": "Prairie View A&M",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2024_01_22_prairie_view_a_m_alcorn_state",
       "home_team": "Alcorn State",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 3.9801621437072754,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.7048294544219971,
@@ -274,5 +274,5 @@
       "start_time": "2024-01-23T02:10:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:14.714779Z"
+  "generated_at": "2026-03-05T22:52:37.114858Z"
 }

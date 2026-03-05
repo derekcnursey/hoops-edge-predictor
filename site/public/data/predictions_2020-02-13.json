@@ -887,15 +887,15 @@
     },
     {
       "away_team": "Westcliff",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2020_02_13_westcliff_california_baptist",
       "home_team": "California Baptist",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 35.85316467285156,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9720929265022278,
@@ -1073,5 +1073,5 @@
       "start_time": "2020-02-14T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:10.753270Z"
+  "generated_at": "2026-03-05T22:52:32.147456Z"
 }

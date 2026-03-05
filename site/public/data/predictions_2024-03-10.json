@@ -156,15 +156,15 @@
     },
     {
       "away_team": "Towson",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2024_03_10_towson_unc_wilmington",
       "home_team": "UNC Wilmington",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 1.44307279586792,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.5329256653785706,
@@ -275,15 +275,15 @@
     },
     {
       "away_team": "New Orleans",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2024_03_10_new_orleans_se_louisiana",
       "home_team": "SE Louisiana",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 2.1860997676849365,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.6479655504226685,
@@ -478,5 +478,5 @@
       "start_time": "2024-03-11T02:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:14.941994Z"
+  "generated_at": "2026-03-05T22:52:37.346744Z"
 }

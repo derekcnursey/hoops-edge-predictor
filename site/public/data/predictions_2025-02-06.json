@@ -802,15 +802,15 @@
     },
     {
       "away_team": "Gardner-Webb",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2025_02_06_gardner_webb_unc_asheville",
       "home_team": "UNC Asheville",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 8.380224227905273,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.8628935813903809,
@@ -1005,5 +1005,5 @@
       "start_time": "2025-02-07T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:16.132843Z"
+  "generated_at": "2026-03-05T22:52:38.488598Z"
 }

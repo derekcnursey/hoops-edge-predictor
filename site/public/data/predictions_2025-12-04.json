@@ -3,15 +3,15 @@
   "games": [
     {
       "away_team": "Manor College",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2025_12_04_manor_college_fairleigh_dickinson",
       "home_team": "Fairleigh Dickinson",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 38.03541564941406,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9828316569328308,
@@ -54,15 +54,15 @@
     },
     {
       "away_team": "Warren Wilson",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2025_12_04_warren_wilson_charleston_southern",
       "home_team": "Charleston Southern",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 19.752670288085938,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9317376017570496,
@@ -189,5 +189,5 @@
       "start_time": "2025-12-05T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:17.880192Z"
+  "generated_at": "2026-03-05T22:52:40.091480Z"
 }

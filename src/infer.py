@@ -79,9 +79,9 @@ def load_regressor(path: Path | None = None) -> tuple[MLPRegressor | MLPRegresso
     ModelClass = MLPRegressorSplit if arch_type == "split" else MLPRegressor
     model = ModelClass(
         input_dim=len(feature_order),
-        hidden1=hp.get("hidden1", 256),
-        hidden2=hp.get("hidden2", 128),
-        dropout=hp.get("dropout", 0.3),
+        hidden1=hp.get("hidden1", 384),
+        hidden2=hp.get("hidden2", 256),
+        dropout=hp.get("dropout", 0.2),
     )
     model.load_state_dict(ckpt["state_dict"])
     model.eval()
@@ -101,8 +101,8 @@ def load_classifier(path: Path | None = None) -> tuple[MLPClassifier, dict, list
     feature_order = ckpt.get("feature_order", config.FEATURE_ORDER)
     model = MLPClassifier(
         input_dim=len(feature_order),
-        hidden1=hp.get("hidden1", 256),
-        dropout=hp.get("dropout", 0.3),
+        hidden1=hp.get("hidden1", 384),
+        dropout=hp.get("dropout", 0.2),
     )
     model.load_state_dict(ckpt["state_dict"])
     model.eval()
@@ -117,7 +117,7 @@ def predict(
     """Generate predictions for a feature DataFrame.
 
     Args:
-        features_df: DataFrame with the 37 feature columns + metadata (gameId, etc.)
+        features_df: DataFrame with feature columns (per FEATURE_ORDER) + metadata.
         lines_df: Optional lines data to attach spread/moneyline info.
 
     Returns:
@@ -125,12 +125,23 @@ def predict(
     """
     scaler = load_scaler()
     regressor, _, reg_feature_order, sigma_param = load_regressor()
-    classifier, _, _ = load_classifier()
+    classifier, _, cls_feature_order = load_classifier()
+
+    # Validate classifier and regressor were trained on the same features
+    assert cls_feature_order == reg_feature_order, (
+        f"Feature order mismatch: regressor has {len(reg_feature_order)} features, "
+        f"classifier has {len(cls_feature_order)}. Models must be retrained together."
+    )
 
     # Use the feature order embedded in the checkpoint — ensures compatibility
     # even if config.FEATURE_ORDER has changed since the model was trained.
     feature_order = reg_feature_order
     X = features_df[feature_order].values.astype(np.float32)
+
+    # Validate feature count matches model input dimension
+    assert X.shape[1] == len(feature_order), (
+        f"Expected {len(feature_order)} features, got {X.shape[1]}"
+    )
 
     # Handle NaN: fill with column means (from scaler)
     nan_mask = np.isnan(X)
@@ -302,13 +313,51 @@ def predict(
     return out
 
 
+def _slugify(text: str) -> str:
+    """Lowercase and replace non-alphanum with underscores."""
+    import re
+    return re.sub(r"[^a-z0-9]+", "_", (text or "").lower()).strip("_")
+
+
+def _to_native(v):
+    """Convert numpy types to native Python for JSON serialization."""
+    if isinstance(v, (np.integer,)):
+        return int(v)
+    if isinstance(v, (np.floating, float)):
+        return float(v) if not np.isnan(v) else None
+    if isinstance(v, (np.bool_,)):
+        return bool(v)
+    return v
+
+
+# Column mapping from internal DataFrame names to site JSON field names
+_SITE_FIELD_MAP = {
+    "awayTeam": "away_team",
+    "homeTeam": "home_team",
+    "neutral_site": "neutral_site",
+    "book_spread": "market_spread_home",
+    "predicted_spread": "model_mu_home",
+    "spread_sigma": "pred_sigma",
+    "edge_home_points": "edge_home_points",
+    "home_win_prob": "pred_home_win_prob",
+    "pick_side": "pick_side",
+    "pick_cover_prob": "pick_cover_prob",
+    "pick_prob_edge": "pick_prob_edge",
+    "pick_ev_per_1": "pick_ev_per_1",
+    "pick_spread_odds": "pick_spread_odds",
+    "pick_fair_odds": "pick_fair_odds",
+    "startDate": "start_time",
+}
+
+
 def save_predictions(preds: pd.DataFrame, game_date: str | None = None) -> tuple[Path, Path]:
-    """Save predictions as JSON and CSV.
+    """Save predictions as JSON, CSV, and site-compatible JSON.
 
     Saves to:
-      - predictions/json/{game_date}.json
+      - predictions/json/{game_date}.json (raw records)
       - predictions/preds_today.csv
       - predictions/csv/preds_YYYY_M_D_edge.csv (dated, bball convention)
+      - site/public/data/predictions_{game_date}.json (site-compatible format)
 
     Returns:
         (json_path, csv_path)
@@ -336,22 +385,40 @@ def save_predictions(preds: pd.DataFrame, game_date: str | None = None) -> tuple
     except (ValueError, IndexError):
         dated_csv_path = csv_dir / f"preds_{game_date}_edge.csv"
 
-    # JSON output
+    # Raw JSON output
     records = preds.to_dict(orient="records")
-    # Convert numpy types to native Python for JSON serialization
     for rec in records:
-        for k, v in rec.items():
-            if isinstance(v, (np.integer,)):
-                rec[k] = int(v)
-            elif isinstance(v, (np.floating,)):
-                rec[k] = float(v) if not np.isnan(v) else None
-            elif isinstance(v, (np.bool_,)):
-                rec[k] = bool(v)
+        for k, v in list(rec.items()):
+            rec[k] = _to_native(v)
     with open(json_path, "w") as f:
         json.dump(records, f, indent=2, default=str)
 
     # CSV output
     preds.to_csv(csv_path, index=False)
     preds.to_csv(dated_csv_path, index=False)
+
+    # Site-compatible JSON (replaces csv_to_json.py pipeline)
+    config.SITE_DATA_DIR.mkdir(parents=True, exist_ok=True)
+    site_games = []
+    for rec in records:
+        game = {}
+        for src_col, dst_col in _SITE_FIELD_MAP.items():
+            if src_col in rec:
+                game[dst_col] = rec[src_col]
+        # Generate stable game_id from date + team names
+        away = str(game.get("away_team") or "")
+        home = str(game.get("home_team") or "")
+        game["game_id"] = _slugify(f"{game_date}_{away}_{home}")
+        site_games.append(game)
+
+    site_payload = {
+        "date": game_date,
+        "generated_at": datetime.now(ZoneInfo("UTC")).isoformat().replace("+00:00", "Z"),
+        "games": site_games,
+    }
+    site_json_path = config.SITE_DATA_DIR / f"predictions_{game_date}.json"
+    with open(site_json_path, "w") as f:
+        json.dump(site_payload, f, indent=2, sort_keys=True)
+        f.write("\n")
 
     return json_path, csv_path

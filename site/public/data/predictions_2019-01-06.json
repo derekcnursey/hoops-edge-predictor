@@ -105,15 +105,15 @@
     },
     {
       "away_team": "McGill",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2019_01_06_mcgill_harvard",
       "home_team": "Harvard",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 21.2320556640625,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.7920651435852051,
@@ -156,15 +156,15 @@
     },
     {
       "away_team": "Dickinson State (ND)",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2019_01_06_dickinson_state_nd_north_dakota_state",
       "home_team": "North Dakota State",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 26.961435317993164,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9401752948760986,
@@ -342,5 +342,5 @@
       "start_time": "2019-01-07T01:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:09.126385Z"
+  "generated_at": "2026-03-05T22:52:30.613549Z"
 }

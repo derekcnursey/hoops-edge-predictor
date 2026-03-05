@@ -343,15 +343,15 @@
     },
     {
       "away_team": "Trevecca Nazarene",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2017_02_21_trevecca_nazarene_belmont",
       "home_team": "Belmont",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 25.394763946533203,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9597969651222229,
@@ -512,5 +512,5 @@
       "start_time": "2017-02-22T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:06.581134Z"
+  "generated_at": "2026-03-05T22:52:28.241812Z"
 }

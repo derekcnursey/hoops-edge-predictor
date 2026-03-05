@@ -343,15 +343,15 @@
     },
     {
       "away_team": "Clayton State",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2022_01_23_clayton_state_georgia_tech",
       "home_team": "Georgia Tech",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 17.807222366333008,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.7586359977722168,
@@ -360,15 +360,15 @@
     },
     {
       "away_team": "Wichita State",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2022_01_23_wichita_state_smu",
       "home_team": "SMU",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 3.9468533992767334,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.6698868274688721,
@@ -410,5 +410,5 @@
       "start_time": "2022-01-24T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:12.008499Z"
+  "generated_at": "2026-03-05T22:52:34.537614Z"
 }

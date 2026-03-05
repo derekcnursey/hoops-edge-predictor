@@ -54,15 +54,15 @@
     },
     {
       "away_team": "Canisius",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2020_12_26_canisius_siena",
       "home_team": "Siena",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 3.4744210243225098,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.4227762818336487,
@@ -207,15 +207,15 @@
     },
     {
       "away_team": "UIC",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2020_12_26_uic_milwaukee",
       "home_team": "Milwaukee",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 1.6923046112060547,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.5650044083595276,
@@ -240,5 +240,5 @@
       "start_time": "2020-12-27T00:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:44.923492Z"
+  "generated_at": "2026-03-05T22:52:33.122926Z"
 }

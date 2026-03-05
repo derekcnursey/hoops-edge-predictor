@@ -241,15 +241,15 @@
     },
     {
       "away_team": "Tennessee State",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2024_02_13_tennessee_state_tennessee_tech",
       "home_team": "Tennessee Tech",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": -4.700501441955566,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.37598517537117004,
@@ -377,15 +377,15 @@
     },
     {
       "away_team": "Florida State",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2024_02_13_florida_state_virginia_tech",
       "home_team": "Virginia Tech",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 6.967134475708008,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.6349663138389587,
@@ -427,5 +427,5 @@
       "start_time": "2024-02-14T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:14.818088Z"
+  "generated_at": "2026-03-05T22:52:37.222092Z"
 }

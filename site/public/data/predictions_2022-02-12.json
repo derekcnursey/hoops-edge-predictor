@@ -2298,15 +2298,15 @@
     },
     {
       "away_team": "Ole Miss",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2022_02_12_ole_miss_missouri",
       "home_team": "Missouri",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": -0.8275307416915894,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.46807563304901123,
@@ -2536,15 +2536,15 @@
     },
     {
       "away_team": "UC Davis",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2022_02_12_uc_davis_uc_irvine",
       "home_team": "UC Irvine",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 6.054564952850342,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.5776531100273132,
@@ -2569,5 +2569,5 @@
       "start_time": "2022-02-13T04:59:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:12.113346Z"
+  "generated_at": "2026-03-05T22:52:34.636863Z"
 }

@@ -309,15 +309,15 @@
     },
     {
       "away_team": "Minnesota",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2023_02_15_minnesota_michigan_state",
       "home_team": "Michigan State",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 10.516355514526367,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.7595993876457214,
@@ -700,15 +700,15 @@
     },
     {
       "away_team": "Abilene Christian",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2023_02_15_abilene_christian_new_mexico_state",
       "home_team": "New Mexico State",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 7.007873058319092,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.6870548725128174,
@@ -954,5 +954,5 @@
       "start_time": "2023-02-16T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:13.510463Z"
+  "generated_at": "2026-03-05T22:52:35.969932Z"
 }

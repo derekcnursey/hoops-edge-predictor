@@ -224,15 +224,15 @@
     },
     {
       "away_team": "Allen University",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2017_02_07_allen_university_north_carolina_a_t",
       "home_team": "North Carolina A&T",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 22.069217681884766,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9259340763092041,
@@ -292,15 +292,15 @@
     },
     {
       "away_team": "Tusculum",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2017_02_07_tusculum_georgia_tech",
       "home_team": "Georgia Tech",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 15.473932266235352,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.7683538794517517,
@@ -512,5 +512,5 @@
       "start_time": "2017-02-08T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:06.496632Z"
+  "generated_at": "2026-03-05T22:52:28.179259Z"
 }

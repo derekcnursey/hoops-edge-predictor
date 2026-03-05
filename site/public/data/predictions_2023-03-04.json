@@ -1397,15 +1397,15 @@
     },
     {
       "away_team": "UC San Diego",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2023_03_04_uc_san_diego_cal_state_fullerton",
       "home_team": "Cal State Fullerton",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 6.216946601867676,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.7931321263313293,
@@ -1600,5 +1600,5 @@
       "start_time": "2023-03-05T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:13.594309Z"
+  "generated_at": "2026-03-05T22:52:36.056688Z"
 }

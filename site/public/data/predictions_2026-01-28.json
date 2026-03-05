@@ -904,15 +904,15 @@
     },
     {
       "away_team": "UT Martin",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2026_01_28_ut_martin_eastern_illinois",
       "home_team": "Eastern Illinois",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": -4.460768222808838,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.27434685826301575,
@@ -921,15 +921,15 @@
     },
     {
       "away_team": "Lindenwood",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2026_01_28_lindenwood_southern_indiana",
       "home_team": "Southern Indiana",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": -6.0255913734436035,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.22528423368930817,
@@ -937,5 +937,5 @@
       "start_time": "2026-01-28T05:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:18.156475Z"
+  "generated_at": "2026-03-05T22:52:40.324866Z"
 }

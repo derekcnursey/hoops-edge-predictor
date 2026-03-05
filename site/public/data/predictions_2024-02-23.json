@@ -241,15 +241,15 @@
     },
     {
       "away_team": "Fairfield",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2024_02_23_fairfield_quinnipiac",
       "home_team": "Quinnipiac",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 2.6516318321228027,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.5734660625457764,
@@ -274,5 +274,5 @@
       "start_time": "2024-02-24T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:14.864667Z"
+  "generated_at": "2026-03-05T22:52:37.269099Z"
 }

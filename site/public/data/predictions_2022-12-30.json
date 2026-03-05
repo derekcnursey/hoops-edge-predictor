@@ -122,15 +122,15 @@
     },
     {
       "away_team": "St. Andrews",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2022_12_30_st_andrews_south_carolina_state",
       "home_team": "South Carolina State",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 22.2468318939209,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.8474576473236084,
@@ -207,15 +207,15 @@
     },
     {
       "away_team": "Concord",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2022_12_30_concord_akron",
       "home_team": "Akron",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 33.496063232421875,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.952978789806366,
@@ -461,5 +461,5 @@
       "start_time": "2022-12-31T04:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:13.279237Z"
+  "generated_at": "2026-03-05T22:52:35.727802Z"
 }

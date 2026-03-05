@@ -190,15 +190,15 @@
     },
     {
       "away_team": "Jackson State",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2019_02_11_jackson_state_southern",
       "home_team": "Southern",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 2.2128725051879883,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.6626062393188477,
@@ -257,5 +257,5 @@
       "start_time": "2019-02-12T03:35:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:09.315767Z"
+  "generated_at": "2026-03-05T22:52:30.777093Z"
 }

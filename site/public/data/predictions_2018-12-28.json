@@ -54,15 +54,15 @@
     },
     {
       "away_team": "TCU",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2018_12_28_tcu_hawai_i_pacific",
       "home_team": "Hawai'i Pacific",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": -6.520557403564453,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.3604207932949066,
@@ -428,15 +428,15 @@
     },
     {
       "away_team": "Eastern Oregon",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2018_12_28_eastern_oregon_utah_state",
       "home_team": "Utah State",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 21.965255737304688,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9049067497253418,
@@ -461,5 +461,5 @@
       "start_time": "2018-12-29T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:09.080681Z"
+  "generated_at": "2026-03-05T22:52:30.569642Z"
 }

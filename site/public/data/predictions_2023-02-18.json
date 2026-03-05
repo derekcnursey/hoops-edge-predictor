@@ -581,15 +581,15 @@
     },
     {
       "away_team": "Florida Tech",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2023_02_18_florida_tech_georgia_tech",
       "home_team": "Georgia Tech",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 15.80717658996582,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.7497254610061646,
@@ -2281,15 +2281,15 @@
     },
     {
       "away_team": "UT Rio Grande Valley",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2023_02_18_ut_rio_grande_valley_new_mexico_state",
       "home_team": "New Mexico State",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 7.136180400848389,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.6913374066352844,
@@ -2433,5 +2433,5 @@
       "start_time": "2023-02-19T03:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:13.527593Z"
+  "generated_at": "2026-03-05T22:52:35.989267Z"
 }

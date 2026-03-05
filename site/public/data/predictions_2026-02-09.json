@@ -190,15 +190,15 @@
     },
     {
       "away_team": "Mid-Atlantic Christian",
-      "edge_home_points": NaN,
+      "edge_home_points": null,
       "game_id": "2026_02_09_mid_atlantic_christian_davidson",
       "home_team": "Davidson",
-      "market_spread_home": NaN,
+      "market_spread_home": null,
       "model_mu_home": 44.78181457519531,
-      "pick_cover_prob": NaN,
-      "pick_ev_per_1": NaN,
-      "pick_fair_odds": NaN,
-      "pick_prob_edge": NaN,
+      "pick_cover_prob": null,
+      "pick_ev_per_1": null,
+      "pick_fair_odds": null,
+      "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
       "pred_home_win_prob": 0.9985632300376892,
@@ -478,5 +478,5 @@
       "start_time": "2026-02-10T03:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:42:18.212712Z"
+  "generated_at": "2026-03-05T22:52:40.383728Z"
 }
