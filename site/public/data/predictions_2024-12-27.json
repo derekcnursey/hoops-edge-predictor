@@ -7,15 +7,15 @@
       "game_id": "2024_12_27_cleary_university_duquesne",
       "home_team": "Duquesne",
       "market_spread_home": null,
-      "model_mu_home": 47.3669548034668,
+      "model_mu_home": 41.52750778198242,
       "pick_cover_prob": null,
       "pick_ev_per_1": null,
       "pick_fair_odds": null,
       "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.9983073472976685,
-      "pred_sigma": 23.99514389038086,
+      "pred_home_win_prob": 0.9990200996398926,
+      "pred_sigma": 18.41889190673828,
       "start_time": "2024-12-28T00:00:00.000Z"
     },
     {
@@ -24,17 +24,17 @@
       "game_id": "2024_12_27_arlington_baptist_baylor",
       "home_team": "Baylor",
       "market_spread_home": null,
-      "model_mu_home": 51.848060607910156,
+      "model_mu_home": 49.352691650390625,
       "pick_cover_prob": null,
       "pick_ev_per_1": null,
       "pick_fair_odds": null,
       "pick_prob_edge": null,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.9995488524436951,
-      "pred_sigma": 15.521503448486328,
+      "pred_home_win_prob": 0.9983443021774292,
+      "pred_sigma": 17.828245162963867,
       "start_time": "2024-12-28T00:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:52:38.303058Z"
+  "generated_at": "2026-03-05T23:19:08.503567Z"
 }

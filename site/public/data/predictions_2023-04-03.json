@@ -3,21 +3,21 @@
   "games": [
     {
       "away_team": "San Diego State",
-      "edge_home_points": -0.030244827270507812,
+      "edge_home_points": -2.301736354827881,
       "game_id": "2023_04_03_san_diego_state_uconn",
       "home_team": "UConn",
       "market_spread_home": -7.5,
-      "model_mu_home": 7.469755172729492,
-      "pick_cover_prob": 0.5011025015060965,
-      "pick_ev_per_1": -0.04334976985199768,
-      "pick_fair_odds": -100.44197515899549,
-      "pick_prob_edge": -0.02270702230342736,
+      "model_mu_home": 5.198263645172119,
+      "pick_cover_prob": 0.5724603399377488,
+      "pick_ev_per_1": 0.09287883079024772,
+      "pick_fair_odds": -133.89642959775864,
+      "pick_prob_edge": 0.04865081612822497,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.8370788097381592,
-      "pred_sigma": 10.944134712219238,
+      "pred_home_win_prob": 0.7244672775268555,
+      "pred_sigma": 12.602482795715332,
       "start_time": "2023-04-04T01:20:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:52:36.115603Z"
+  "generated_at": "2026-03-05T23:13:41.454706Z"
 }

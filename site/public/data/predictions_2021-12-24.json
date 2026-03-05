@@ -3,21 +3,21 @@
   "games": [
     {
       "away_team": "South Florida",
-      "edge_home_points": 1.141946792602539,
+      "edge_home_points": 2.5849390029907227,
       "game_id": "2021_12_24_south_florida_hawai_i",
       "home_team": "Hawai'i",
       "market_spread_home": -3.5,
-      "model_mu_home": 4.641946792602539,
-      "pick_cover_prob": 0.5400492127505838,
-      "pick_ev_per_1": 0.03100304252384184,
-      "pick_fair_odds": -117.41456427983738,
-      "pick_prob_edge": 0.016239688941059982,
+      "model_mu_home": 6.084939002990723,
+      "pick_cover_prob": 0.6025883191369794,
+      "pick_ev_per_1": 0.15039588198877885,
+      "pick_fair_odds": -151.62823544300372,
+      "pick_prob_edge": 0.07877879532745558,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.6031572818756104,
-      "pred_sigma": 11.356134414672852,
+      "pred_home_win_prob": 0.557798445224762,
+      "pred_sigma": 9.940070152282715,
       "start_time": "2021-12-24T05:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:52:34.405011Z"
+  "generated_at": "2026-03-05T23:11:26.094905Z"
 }

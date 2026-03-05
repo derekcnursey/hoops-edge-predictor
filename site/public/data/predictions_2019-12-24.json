@@ -3,21 +3,21 @@
   "games": [
     {
       "away_team": "Ball State",
-      "edge_home_points": -1.9719457626342773,
+      "edge_home_points": -1.5315580368041992,
       "game_id": "2019_12_24_ball_state_utep",
       "home_team": "UTEP",
       "market_spread_home": 2.0,
-      "model_mu_home": -3.9719457626342773,
-      "pick_cover_prob": 0.5766121648236315,
-      "pick_ev_per_1": 0.1008050419360238,
-      "pick_fair_odds": -136.19006426659263,
-      "pick_prob_edge": 0.0528026410141077,
+      "model_mu_home": -3.531558036804199,
+      "pick_cover_prob": 0.5534449173296048,
+      "pick_ev_per_1": 0.056576660356518205,
+      "pick_fair_odds": -123.93653970301028,
+      "pick_prob_edge": 0.029635393520080933,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.23621119558811188,
-      "pred_sigma": 10.204959869384766,
+      "pred_home_win_prob": 0.3648596405982971,
+      "pred_sigma": 11.398082733154297,
       "start_time": "2019-12-24T06:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:52:31.921585Z"
+  "generated_at": "2026-03-05T23:09:31.039365Z"
 }

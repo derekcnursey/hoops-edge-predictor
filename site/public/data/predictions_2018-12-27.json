@@ -3,21 +3,21 @@
   "games": [
     {
       "away_team": "Kansas City",
-      "edge_home_points": 0.7824363708496094,
+      "edge_home_points": 1.7626018524169922,
       "game_id": "2018_12_27_kansas_city_creighton",
       "home_team": "Creighton",
       "market_spread_home": -18.5,
-      "model_mu_home": 19.28243637084961,
-      "pick_cover_prob": 0.5198374186406811,
-      "pick_ev_per_1": -0.007583109867790594,
-      "pick_fair_odds": -108.26279240024171,
-      "pick_prob_edge": -0.003972105168842721,
+      "model_mu_home": 20.262601852416992,
+      "pick_cover_prob": 0.5364449115521778,
+      "pick_ev_per_1": 0.024122103872339373,
+      "pick_fair_odds": -115.72409081915622,
+      "pick_prob_edge": 0.012635387742653936,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.7955503463745117,
-      "pred_sigma": 15.72877311706543,
+      "pred_home_win_prob": 0.9030702710151672,
+      "pred_sigma": 19.267349243164062,
       "start_time": "2018-12-28T01:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:52:30.566832Z"
+  "generated_at": "2026-03-05T23:07:54.547994Z"
 }

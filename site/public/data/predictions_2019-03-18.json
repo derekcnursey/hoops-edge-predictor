@@ -3,21 +3,21 @@
   "games": [
     {
       "away_team": "Quinnipiac",
-      "edge_home_points": -1.9386506080627441,
+      "edge_home_points": -2.181704521179199,
       "game_id": "2019_03_18_quinnipiac_njit",
       "home_team": "NJIT",
       "market_spread_home": -5.0,
-      "model_mu_home": 3.061349391937256,
-      "pick_cover_prob": 0.58206452002219,
-      "pick_ev_per_1": 0.11121408367872632,
-      "pick_fair_odds": -139.27138228443644,
-      "pick_prob_edge": 0.058254996212666166,
+      "model_mu_home": 2.818295478820801,
+      "pick_cover_prob": 0.5848980000356967,
+      "pick_ev_per_1": 0.1166234546136028,
+      "pick_fair_odds": -140.90464514408387,
+      "pick_prob_edge": 0.06108847622617286,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.5934643745422363,
-      "pred_sigma": 9.357421875,
+      "pred_home_win_prob": 0.6072672605514526,
+      "pred_sigma": 10.173965454101562,
       "start_time": "2019-03-18T23:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:52:30.924760Z"
+  "generated_at": "2026-03-05T23:07:54.934159Z"
 }

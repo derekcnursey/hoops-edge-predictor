@@ -3,21 +3,21 @@
   "games": [
     {
       "away_team": "Fresno State",
-      "edge_home_points": -1.5333833694458008,
+      "edge_home_points": 0.3154785633087158,
       "game_id": "2022_04_01_fresno_state_coastal_carolina",
       "home_team": "Coastal Carolina",
       "market_spread_home": 3.0,
-      "model_mu_home": -4.533383369445801,
-      "pick_cover_prob": 0.5551594474458099,
-      "pick_ev_per_1": 0.05984985421472799,
-      "pick_fair_odds": -124.7996488310676,
-      "pick_prob_edge": 0.03134992363628608,
-      "pick_side": "AWAY",
+      "model_mu_home": -2.684521436691284,
+      "pick_cover_prob": 0.511114347921066,
+      "pick_ev_per_1": -0.024236244877964885,
+      "pick_fair_odds": -104.54680879825516,
+      "pick_prob_edge": -0.01269517588845781,
+      "pick_side": "HOME",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.3817152976989746,
-      "pred_sigma": 11.054779052734375,
+      "pred_home_win_prob": 0.32112357020378113,
+      "pred_sigma": 11.322432518005371,
       "start_time": "2022-04-01T22:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:52:34.796852Z"
+  "generated_at": "2026-03-05T23:11:26.539882Z"
 }

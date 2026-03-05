@@ -3,21 +3,21 @@
   "games": [
     {
       "away_team": "Rhode Island",
-      "edge_home_points": 2.3890371322631836,
+      "edge_home_points": 1.7749137878417969,
       "game_id": "2018_12_24_rhode_island_charlotte",
       "home_team": "Charlotte",
       "market_spread_home": 14.5,
-      "model_mu_home": -12.110962867736816,
-      "pick_cover_prob": 0.5820850809976972,
-      "pick_ev_per_1": 0.11125333645014912,
-      "pick_fair_odds": -139.2831541853833,
-      "pick_prob_edge": 0.058275557188173344,
+      "model_mu_home": -12.725086212158203,
+      "pick_cover_prob": 0.559776610206552,
+      "pick_ev_per_1": 0.06866443766705377,
+      "pick_fair_odds": -127.15739853559307,
+      "pick_prob_edge": 0.03596708639702817,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.12341570854187012,
-      "pred_sigma": 11.528404235839844,
+      "pred_home_win_prob": 0.07817429304122925,
+      "pred_sigma": 11.801063537597656,
       "start_time": "2018-12-24T05:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:52:30.563637Z"
+  "generated_at": "2026-03-05T23:07:54.545012Z"
 }

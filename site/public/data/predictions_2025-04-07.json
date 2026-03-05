@@ -3,21 +3,21 @@
   "games": [
     {
       "away_team": "Florida",
-      "edge_home_points": 4.3053200244903564,
+      "edge_home_points": 7.047502517700195,
       "game_id": "2025_04_07_florida_houston",
       "home_team": "Houston",
-      "market_spread_home": 1.5,
-      "model_mu_home": 2.8053200244903564,
-      "pick_cover_prob": 0.6649708877777598,
-      "pick_ev_per_1": 0.2694898766666324,
-      "pick_fair_odds": -198.48152399862317,
-      "pick_prob_edge": 0.14116136396823598,
+      "market_spread_home": -1.5,
+      "model_mu_home": 8.547502517700195,
+      "pick_cover_prob": 0.7201746882178565,
+      "pick_ev_per_1": 0.37487895023408957,
+      "pick_fair_odds": -257.3658128463177,
+      "pick_prob_edge": 0.19636516440833263,
       "pick_side": "HOME",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.6144415736198425,
-      "pred_sigma": 10.104769706726074,
+      "pred_home_win_prob": 0.5538428425788879,
+      "pred_sigma": 12.080869674682617,
       "start_time": "2025-04-08T00:50:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:52:38.696292Z"
+  "generated_at": "2026-03-05T23:19:08.923293Z"
 }
