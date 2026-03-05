@@ -33,6 +33,7 @@ type SortKey =
   | "score"
   | "book"
   | "model"
+  | "diff"
   | "ats"
   | "edge";
 
@@ -195,6 +196,10 @@ function sortVal(g: HistoryGame, key: SortKey): string | number {
       return g.market_spread_home ?? -Infinity;
     case "model":
       return g.model_mu_home ?? -Infinity;
+    case "diff":
+      return g.model_mu_home !== null && g.market_spread_home !== null
+        ? Math.abs(g.model_mu_home - g.market_spread_home)
+        : -Infinity;
     case "ats":
       return atsOrd(g.ats_result);
     case "edge":
@@ -209,6 +214,7 @@ const columns: { key: SortKey; label: string; align: "left" | "center" }[] = [
   { key: "score", label: "SCORE", align: "center" },
   { key: "book", label: "BOOK LINE", align: "center" },
   { key: "model", label: "MODEL", align: "center" },
+  { key: "diff", label: "DIFF", align: "center" },
   { key: "ats", label: "ATS", align: "center" },
   { key: "edge", label: "EDGE", align: "center" }
 ];
@@ -769,6 +775,28 @@ export default function History({
                         >
                           {g.model_mu_home !== null
                             ? sp(g.model_mu_home)
+                            : "\u2014"}
+                        </td>
+
+                        {/* DIFF */}
+                        <td
+                          style={{
+                            ...mono,
+                            padding: "10px 14px",
+                            textAlign: "center",
+                            fontSize: 13,
+                            fontWeight: 600,
+                            color: "#334155",
+                            borderBottom: bd,
+                            opacity: dimmed ? 0.4 : 1
+                          }}
+                        >
+                          {g.has_book &&
+                          g.model_mu_home !== null &&
+                          g.market_spread_home !== null
+                            ? Math.abs(
+                                g.model_mu_home - g.market_spread_home
+                              ).toFixed(1)
                             : "\u2014"}
                         </td>
 

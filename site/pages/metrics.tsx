@@ -25,6 +25,7 @@ type GameResult = {
   result: "win" | "loss" | "push";
   model_error: number;
   sigma_z: number | null;
+  diff: number | null;
 };
 
 type PerformanceProps = {
@@ -92,6 +93,7 @@ export const getServerSideProps: GetServerSideProps<
       const model_error =
         mmh !== null ? Math.abs(actualMargin - mmh) : 0;
       const sigma_z = sig !== null && sig > 0 ? model_error / sig : null;
+      const diff = mmh !== null ? Math.abs(-mmh - msh) : null;
 
       games.push({
         date: pf.date,
@@ -101,7 +103,8 @@ export const getServerSideProps: GetServerSideProps<
         edge: ppe * 100,
         result,
         model_error,
-        sigma_z
+        sigma_z,
+        diff
       });
     }
   }
@@ -328,6 +331,7 @@ export default function Performance({
         pushes: number;
         errors: number[];
         sigmaZs: number[];
+        diffs: number[];
       }
     >();
 
@@ -341,7 +345,8 @@ export default function Performance({
           losses: 0,
           pushes: 0,
           errors: [],
-          sigmaZs: []
+          sigmaZs: [],
+          diffs: []
         };
         map.set(g.month, entry);
       }
@@ -350,6 +355,7 @@ export default function Performance({
       else entry.pushes++;
       entry.errors.push(g.model_error);
       if (g.sigma_z !== null) entry.sigmaZs.push(g.sigma_z);
+      if (g.diff !== null) entry.diffs.push(g.diff);
     }
 
     return Array.from(map.values()).sort((a, b) => a.sort - b.sort);
@@ -373,7 +379,19 @@ export default function Performance({
       szGames.length > 0
         ? szGames.reduce((s, g) => s + g.sigma_z!, 0) / szGames.length
         : null;
-    return { wins, losses, bets, units, roi, winPct, mae, sigmaCal };
+    const diffGames = filtered.filter((g) => g.diff !== null);
+    const meanDiff =
+      diffGames.length > 0
+        ? diffGames.reduce((s, g) => s + g.diff!, 0) / diffGames.length
+        : null;
+    const sdDiff =
+      diffGames.length > 1 && meanDiff !== null
+        ? Math.sqrt(
+            diffGames.reduce((s, g) => s + (g.diff! - meanDiff) ** 2, 0) /
+              diffGames.length
+          )
+        : null;
+    return { wins, losses, bets, units, roi, winPct, mae, sigmaCal, meanDiff, sdDiff };
   }, [filtered]);
 
   return (
@@ -708,6 +726,8 @@ export default function Performance({
                       { label: "WIN %", align: "center" as const },
                       { label: "UNITS", align: "center" as const },
                       { label: "ROI", align: "center" as const },
+                      { label: "DIFF", align: "center" as const },
+                      { label: "DIFF SD", align: "center" as const },
                       { label: "MAE", align: "center" as const },
                       { label: "\u03c3 CAL", align: "center" as const }
                     ].map((h) => (
@@ -735,7 +755,7 @@ export default function Performance({
                   {months.length === 0 ? (
                     <tr>
                       <td
-                        colSpan={8}
+                        colSpan={10}
                         style={{
                           padding: 24,
                           textAlign: "center",
@@ -755,6 +775,18 @@ export default function Performance({
                           bets > 0 ? (units / bets) * 100 : 0;
                         const winPct =
                           bets > 0 ? (m.wins / bets) * 100 : null;
+                        const meanDiff =
+                          m.diffs.length > 0
+                            ? m.diffs.reduce((s, e) => s + e, 0) /
+                              m.diffs.length
+                            : null;
+                        const sdDiff =
+                          m.diffs.length > 1 && meanDiff !== null
+                            ? Math.sqrt(
+                                m.diffs.reduce((s, e) => s + (e - meanDiff) ** 2, 0) /
+                                  m.diffs.length
+                              )
+                            : null;
                         const mae =
                           m.errors.length > 0
                             ? m.errors.reduce((s, e) => s + e, 0) /
@@ -854,6 +886,32 @@ export default function Performance({
                               {bets > 0
                                 ? `${roi >= 0 ? "+" : ""}${roi.toFixed(1)}%`
                                 : "\u2014"}
+                            </td>
+                            <td
+                              style={{
+                                ...mono,
+                                padding: "10px 14px",
+                                textAlign: "center",
+                                fontSize: 13,
+                                fontWeight: 600,
+                                color: "#334155",
+                                borderBottom: bd
+                              }}
+                            >
+                              {meanDiff !== null ? meanDiff.toFixed(1) : "\u2014"}
+                            </td>
+                            <td
+                              style={{
+                                ...mono,
+                                padding: "10px 14px",
+                                textAlign: "center",
+                                fontSize: 13,
+                                fontWeight: 600,
+                                color: "#64748b",
+                                borderBottom: bd
+                              }}
+                            >
+                              {sdDiff !== null ? sdDiff.toFixed(1) : "\u2014"}
                             </td>
                             <td
                               style={{
@@ -982,6 +1040,38 @@ export default function Performance({
                         >
                           {total.bets > 0
                             ? `${total.roi >= 0 ? "+" : ""}${total.roi.toFixed(1)}%`
+                            : "\u2014"}
+                        </td>
+                        <td
+                          style={{
+                            ...mono,
+                            padding: "10px 14px",
+                            textAlign: "center",
+                            fontSize: 13,
+                            fontWeight: 800,
+                            color: "#334155",
+                            borderTop: "2px solid #e2e8f0",
+                            background: "#fafbfc"
+                          }}
+                        >
+                          {total.meanDiff !== null
+                            ? total.meanDiff.toFixed(1)
+                            : "\u2014"}
+                        </td>
+                        <td
+                          style={{
+                            ...mono,
+                            padding: "10px 14px",
+                            textAlign: "center",
+                            fontSize: 13,
+                            fontWeight: 800,
+                            color: "#64748b",
+                            borderTop: "2px solid #e2e8f0",
+                            background: "#fafbfc"
+                          }}
+                        >
+                          {total.sdDiff !== null
+                            ? total.sdDiff.toFixed(1)
                             : "\u2014"}
                         </td>
                         <td
