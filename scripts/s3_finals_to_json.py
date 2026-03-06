@@ -34,6 +34,8 @@ from src.s3_reader import get_column, read_silver_table
 
 
 PREDICTIONS_RE = re.compile(r"^predictions_(\d{4}-\d{2}-\d{2})\.json$")
+# Also match raw prediction files without the "predictions_" prefix
+RAW_PRED_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})\.json$")
 
 
 def _to_eastern_date(raw_date: str) -> str | None:
@@ -66,12 +68,12 @@ def list_prediction_dates() -> list[str]:
     json_dir = config.PREDICTIONS_DIR / "json"
     if not json_dir.exists():
         return []
-    dates = []
+    dates = set()
     for fname in sorted(json_dir.iterdir()):
-        match = PREDICTIONS_RE.match(fname.name)
+        match = PREDICTIONS_RE.match(fname.name) or RAW_PRED_RE.match(fname.name)
         if match:
-            dates.append(match.group(1))
-    return dates
+            dates.add(match.group(1))
+    return sorted(dates)
 
 
 def load_prediction_games(pred_date: str) -> list[dict]:
