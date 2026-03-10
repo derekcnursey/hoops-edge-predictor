@@ -542,6 +542,9 @@ def build_bracket(n_teams: int):
 # ── Main ──────────────────────────────────────────────────────────
 
 def main():
+    # Import seedings from the bracket generator (single source of truth)
+    from scripts.generate_bracket_predictions import TOURNAMENT_SEEDINGS_2026
+
     print("Loading model and data...")
     scaler = load_scaler()
     regressor, _, feature_order, sigma_param = load_regressor()
@@ -551,26 +554,18 @@ def main():
         rankings = json.load(f)
 
     team_by_id: dict[int, dict] = {}
+    name_to_id: dict[str, int] = {}
     for t in rankings["teams"]:
         team_by_id[t["team_id"]] = t
+        name_to_id[t["team"]] = t["team_id"]
 
-    # Group by conference, sort by conf record → seeds
+    # Group by conference
     conf_teams: dict[str, list[dict]] = {}
     for t in rankings["teams"]:
         conf = t["conference"]
         if conf not in conf_teams:
             conf_teams[conf] = []
         conf_teams[conf].append(t)
-
-    for conf in conf_teams:
-        conf_teams[conf].sort(
-            key=lambda t: (
-                parse_record(t.get("conf_record", "0-0"))[0],
-                -parse_record(t.get("conf_record", "0-0"))[1],
-                t["adj_margin"],
-            ),
-            reverse=True,
-        )
 
     # Load feature parquet and extract team profiles
     feat_path = (
@@ -589,24 +584,48 @@ def main():
     sorted_confs = sorted(conf_teams.items(), key=lambda x: -len(x[1]))
 
     for conf_name, teams_list in sorted_confs:
-        # Look up real tournament format; fall back to generic bracket
-        fmt = CONFERENCE_FORMATS.get(conf_name)
-        if fmt is not None:
-            n_qualify, bracket = fmt
-            # Limit to qualifying teams (top N by conf record)
-            n_qualify = min(n_qualify, len(teams_list))
-            qualified = teams_list[:n_qualify]
-        else:
-            # Unknown conference — use all teams with generic bracket
-            qualified = teams_list
+        # Use official seedings if available
+        seedings = TOURNAMENT_SEEDINGS_2026.get(conf_name)
+        if seedings:
+            qualified = []
+            for tname in seedings:
+                tid = name_to_id.get(tname)
+                if tid is None:
+                    continue
+                tdict = next((t for t in teams_list if t["team_id"] == tid), None)
+                if tdict:
+                    qualified.append(tdict)
             n_qualify = len(qualified)
-            bracket = build_bracket(n_qualify)
+        else:
+            # Fallback: sort by conf record
+            teams_list.sort(
+                key=lambda t: (
+                    parse_record(t.get("conf_record", "0-0"))[0],
+                    -parse_record(t.get("conf_record", "0-0"))[1],
+                    t["adj_margin"],
+                ),
+                reverse=True,
+            )
+            fmt = CONFERENCE_FORMATS.get(conf_name)
+            if fmt is not None:
+                n_qualify = min(fmt[0], len(teams_list))
+            else:
+                n_qualify = len(teams_list)
+            qualified = teams_list[:n_qualify]
 
         if n_qualify < 2:
             continue
 
+        # Get bracket structure — use format only if team count matches
+        fmt = CONFERENCE_FORMATS.get(conf_name)
+        if fmt is not None and fmt[0] == n_qualify:
+            _, bracket = fmt
+        else:
+            bracket = build_bracket(n_qualify)
+
         seed_map = {i + 1: t["team_id"] for i, t in enumerate(qualified)}
-        excluded = teams_list[n_qualify:]
+        qualified_ids = {t["team_id"] for t in qualified}
+        excluded = [t for t in teams_list if t["team_id"] not in qualified_ids]
 
         wins: dict[int, int] = {t["team_id"]: 0 for t in qualified}
         for _ in range(NUM_SIMS):
