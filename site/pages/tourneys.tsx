@@ -336,7 +336,9 @@ export default function Tourneys({ data }: Props) {
 /* -- Conference Card -- */
 
 function ConferenceCard({ conf }: { conf: Conference }) {
-  const favorite = conf.teams[0];
+  const favorite = conf.teams.reduce((best, t) =>
+    (t.model_pct ?? 0) > (best.model_pct ?? 0) ? t : best
+  , conf.teams[0]);
   const hasHrb = conf.has_hrb_odds;
 
   return (
@@ -388,7 +390,7 @@ function ConferenceCard({ conf }: { conf: Conference }) {
           )}
           {favorite && (
             <span style={{ ...mono, fontSize: 13, fontWeight: 600, color: "#0f172a" }}>
-              Fav: (1) {favorite.team} {favorite.model_pct?.toFixed(1)}%
+              Fav: ({favorite.seed}) {favorite.team} {favorite.model_pct?.toFixed(1)}%
             </span>
           )}
         </div>
