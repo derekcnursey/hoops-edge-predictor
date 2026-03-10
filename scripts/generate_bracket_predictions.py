@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import json
 import sys
+from datetime import datetime
 from pathlib import Path
 from io import StringIO
 
@@ -33,6 +34,166 @@ from scripts.simulate_conference_tournaments import (
 )
 
 MAX_NAME = 14  # truncate team names for compact display
+
+# ---------------------------------------------------------------------------
+# Official 2025-26 tournament seedings (from conference announcements)
+# Team names must exactly match rankings_2026.json
+# ---------------------------------------------------------------------------
+TOURNAMENT_SEEDINGS_2026: dict[str, list[str]] = {
+    "ACC": [
+        "Duke", "Virginia", "Miami", "North Carolina", "Clemson",
+        "Louisville", "NC State", "Florida State", "California", "Stanford",
+        "SMU", "Virginia Tech", "Wake Forest", "Syracuse", "Pittsburgh",
+    ],
+    "Big Ten": [
+        "Michigan", "Nebraska", "Michigan State", "Illinois", "Wisconsin",
+        "UCLA", "Purdue", "Ohio State", "Iowa", "Indiana",
+        "Minnesota", "Washington", "USC", "Rutgers", "Northwestern",
+        "Oregon", "Maryland", "Penn State",
+    ],
+    "Big 12": [
+        "Arizona", "Houston", "Kansas", "Texas Tech", "Iowa State",
+        "TCU", "West Virginia", "UCF", "Cincinnati", "BYU",
+        "Colorado", "Arizona State", "Baylor", "Oklahoma State",
+        "Kansas State", "Utah",
+    ],
+    "SEC": [
+        "Florida", "Alabama", "Arkansas", "Vanderbilt", "Tennessee",
+        "Texas A&M", "Georgia", "Missouri", "Kentucky", "Texas",
+        "Oklahoma", "Auburn", "Mississippi State", "South Carolina",
+        "Ole Miss", "LSU",
+    ],
+    "Big East": [
+        "St. John's", "UConn", "Villanova", "Seton Hall", "Creighton",
+        "DePaul", "Marquette", "Butler", "Providence", "Xavier",
+        "Georgetown",
+    ],
+    "A-10": [
+        "Saint Louis", "VCU", "Saint Joseph's", "Dayton", "George Mason",
+        "Davidson", "Duquesne", "Fordham", "George Washington",
+        "Rhode Island", "Richmond", "La Salle", "St. Bonaventure",
+        "Loyola Chicago",
+    ],
+    "Mountain West": [
+        "Utah State", "San Diego State", "New Mexico", "Grand Canyon",
+        "Nevada", "Boise State", "Colorado State", "UNLV", "Wyoming",
+        "Fresno State", "San José State", "Air Force",
+    ],
+    "WCC": [
+        "Gonzaga", "Saint Mary's", "Santa Clara", "Oregon State",
+        "San Francisco", "Pacific", "Seattle U", "Washington State",
+        "Portland", "Loyola Marymount", "San Diego", "Pepperdine",
+    ],
+    "American": [
+        "South Florida", "Wichita State", "Tulsa", "UAB", "Charlotte",
+        "North Texas", "Florida Atlantic", "Memphis", "Tulane", "Temple",
+    ],
+    "MVC": [
+        "Belmont", "Bradley", "Illinois State", "Murray State", "UIC",
+        "Northern Iowa", "Valparaiso", "Southern Illinois", "Drake",
+        "Indiana State", "Evansville",
+    ],
+    "Sun Belt": [
+        "Troy", "Marshall", "Coastal Carolina", "App State", "Texas State",
+        "South Alabama", "Arkansas State", "Southern Miss", "James Madison",
+        "Georgia Southern", "Old Dominion", "Louisiana", "Georgia State",
+        "UL Monroe",
+    ],
+    "MAC": [
+        "Miami (OH)", "Akron", "Kent State", "Toledo", "Bowling Green",
+        "Ohio", "Buffalo", "Massachusetts",
+    ],
+    "CAA": [
+        "UNC Wilmington", "Charleston", "Hofstra", "Monmouth", "Drexel",
+        "William & Mary", "Towson", "Stony Brook", "Campbell", "Hampton",
+        "Elon", "North Carolina A&T", "Northeastern",
+    ],
+    "MAAC": [
+        "Merrimack", "Saint Peter's", "Siena", "Quinnipiac", "Marist",
+        "Mount St. Mary's", "Fairfield", "Iona", "Sacred Heart", "Manhattan",
+    ],
+    "Southland": [
+        "Stephen F. Austin", "McNeese", "UT Rio Grande Valley",
+        "Texas A&M-Corpus Christi", "New Orleans", "Nicholls",
+        "Northwestern State", "Houston Christian",
+    ],
+    "CUSA": [
+        "Liberty", "Sam Houston", "Western Kentucky", "Louisiana Tech",
+        "Middle Tennessee", "Kennesaw State", "Jacksonville State",
+        "Florida International", "Missouri State", "New Mexico State",
+    ],
+    "ASUN": [
+        "Central Arkansas", "Austin Peay", "Queens University", "Lipscomb",
+        "Florida Gulf Coast", "West Georgia", "Eastern Kentucky",
+        "Bellarmine", "Jacksonville", "Stetson", "North Florida",
+        "North Alabama",
+    ],
+    "SWAC": [
+        "Bethune-Cookman", "Florida A&M", "Southern", "Texas Southern",
+        "Alabama A&M", "Arkansas-Pine Bluff", "Jackson State",
+        "Prairie View A&M", "Grambling", "Alabama State", "Alcorn State",
+        "Mississippi Valley State",
+    ],
+    "Big West": [
+        "UC Irvine", "Hawai'i", "Cal State Fullerton", "Cal State Northridge",
+        "UC San Diego", "UC Davis", "UC Santa Barbara", "Cal Poly",
+    ],
+    "OVC": [
+        "Tennessee State", "Morehead State", "Southeast Missouri State",
+        "UT Martin", "SIU Edwardsville", "Lindenwood", "Little Rock",
+        "Eastern Illinois",
+    ],
+    "Horizon": [
+        "Wright State", "Robert Morris", "Detroit Mercy", "Oakland",
+        "Green Bay", "Purdue Fort Wayne", "Northern Kentucky", "Milwaukee",
+        "Youngstown State", "Cleveland State", "IU Indianapolis",
+    ],
+    "Big Sky": [
+        "Portland State", "Montana State", "Eastern Washington", "Montana",
+        "Northern Colorado", "Weber State", "Idaho", "Sacramento State",
+        "Idaho State", "Northern Arizona",
+    ],
+    "SoCon": [
+        "East Tennessee State", "Wofford", "Samford", "Mercer",
+        "Western Carolina", "Furman", "UNC Greensboro", "Chattanooga",
+        "The Citadel", "VMI",
+    ],
+    "Patriot": [
+        "Navy", "Lehigh", "Colgate", "Boston University",
+        "American University", "Loyola Maryland", "Lafayette", "Bucknell",
+        "Army", "Holy Cross",
+    ],
+    "NEC": [
+        "Long Island University", "Central Connecticut", "Mercyhurst",
+        "Le Moyne", "Stonehill", "Fairleigh Dickinson", "Wagner",
+        "Chicago State",
+    ],
+    "Big South": [
+        "High Point", "Winthrop", "Radford", "UNC Asheville", "Longwood",
+        "Presbyterian", "Charleston Southern", "South Carolina Upstate",
+        "Gardner-Webb",
+    ],
+    "Summit": [
+        "North Dakota State", "St. Thomas-Minnesota", "North Dakota",
+        "South Dakota", "Omaha", "Denver", "South Dakota State",
+        "Oral Roberts", "Kansas City",
+    ],
+    "Am. East": [
+        "UMBC", "Vermont", "NJIT", "UMass Lowell", "UAlbany", "Maine",
+        "Bryant", "New Hampshire",
+    ],
+    "Ivy": [
+        "Yale", "Harvard", "Pennsylvania", "Cornell",
+    ],
+    "MEAC": [
+        "Howard", "Morgan State", "North Carolina Central", "Norfolk State",
+        "South Carolina State", "Maryland Eastern Shore", "Delaware State",
+    ],
+    "WAC": [
+        "Utah Valley", "California Baptist", "Utah Tech", "UT Arlington",
+        "Southern Utah", "Abilene Christian", "Tarleton State",
+    ],
+}
 
 
 def get_bracket_winner(node, seed_map, pred):
@@ -71,7 +232,7 @@ def render_bracket(node, seed_map, pred, names):
     winner_tag = f"{w_name} {w_prob * 100:.0f}%"
 
     max_w = max(len(l) for l in l_lines + r_lines)
-    cc = max_w + 2  # connector column (where ┐│├┘ go)
+    cc = max_w + 2  # connector column (where ┐│├┘ do)
 
     out = []
 
@@ -110,21 +271,12 @@ def main():
         rankings = json.load(f)
 
     names = {t["team_id"]: t["team"] for t in rankings["teams"]}
+    name_to_id = {t["team"]: t["team_id"] for t in rankings["teams"]}
 
-    # Group by conference, sort by conf record
+    # Group by conference
     conf_teams: dict[str, list[dict]] = {}
     for t in rankings["teams"]:
         conf_teams.setdefault(t["conference"], []).append(t)
-
-    for conf in conf_teams:
-        conf_teams[conf].sort(
-            key=lambda t: (
-                parse_record(t.get("conf_record", "0-0"))[0],
-                -parse_record(t.get("conf_record", "0-0"))[1],
-                t["adj_margin"],
-            ),
-            reverse=True,
-        )
 
     # Load features and build predictor
     feat_path = (
@@ -138,7 +290,13 @@ def main():
 
     pred = TournamentPredictor(scaler, regressor, sigma_param, feature_order, profiles)
 
-    sorted_confs = sorted(conf_teams.items(), key=lambda x: -len(x[1]))
+    # Build ordered conference list (power 5 first, then by size)
+    power5 = ["ACC", "Big Ten", "Big 12", "SEC", "Big East"]
+    other_confs = sorted(
+        [c for c in conf_teams if c not in power5],
+        key=lambda c: -len(conf_teams[c]),
+    )
+    conf_order = power5 + other_confs
 
     out = StringIO()
     out.write("# Conference Tournament Bracket Predictions — 2026\n\n")
@@ -146,19 +304,52 @@ def main():
 
     json_confs = []
 
-    for conf_name, teams_list in sorted_confs:
-        fmt = CONFERENCE_FORMATS.get(conf_name)
-        if fmt is not None:
-            n_qualify, bracket = fmt
-            n_qualify = min(n_qualify, len(teams_list))
-            qualified = teams_list[:n_qualify]
-        else:
-            qualified = teams_list
+    for conf_name in conf_order:
+        teams_list = conf_teams.get(conf_name, [])
+        if not teams_list:
+            continue
+
+        # Use official seedings if available, else fall back to conf record sort
+        seedings = TOURNAMENT_SEEDINGS_2026.get(conf_name)
+        if seedings:
+            # Build qualified list from official seedings
+            qualified = []
+            for tname in seedings:
+                tid = name_to_id.get(tname)
+                if tid is None:
+                    print(f"  WARNING: {tname} not found in rankings for {conf_name}")
+                    continue
+                # Find the team dict
+                tdict = next((t for t in teams_list if t["team_id"] == tid), None)
+                if tdict:
+                    qualified.append(tdict)
             n_qualify = len(qualified)
-            bracket = build_bracket(n_qualify)
+        else:
+            # Fallback: sort by conf record
+            teams_list.sort(
+                key=lambda t: (
+                    parse_record(t.get("conf_record", "0-0"))[0],
+                    -parse_record(t.get("conf_record", "0-0"))[1],
+                    t["adj_margin"],
+                ),
+                reverse=True,
+            )
+            fmt = CONFERENCE_FORMATS.get(conf_name)
+            if fmt is not None:
+                n_qualify = min(fmt[0], len(teams_list))
+            else:
+                n_qualify = len(teams_list)
+            qualified = teams_list[:n_qualify]
 
         if n_qualify < 2:
             continue
+
+        # Get bracket structure — use format only if team count matches
+        fmt = CONFERENCE_FORMATS.get(conf_name)
+        if fmt is not None and fmt[0] == n_qualify:
+            _, bracket = fmt
+        else:
+            bracket = build_bracket(n_qualify)
 
         seed_map = {i + 1: t["team_id"] for i, t in enumerate(qualified)}
         champ_id, champ_seed = get_bracket_winner(bracket, seed_map, pred)
@@ -169,15 +360,15 @@ def main():
         # Mark champion on the outermost winner line
         for i, line in enumerate(lines):
             if "├── " in line and line.strip().startswith("├──"):
-                # Check if this is the outermost ├── (championship game)
-                # It's the one at the shallowest indentation with no ┐┘│ after it
                 if "┐" not in line[line.index("├──"):] and "┘" not in line[line.index("├──"):]:
                     lines[i] = line + "  ★ CHAMPION"
                     break
 
-        excluded = teams_list[n_qualify:]
+        # DNQ = teams in conf but not in qualified list
+        qualified_ids = {t["team_id"] for t in qualified}
+        excluded = [t for t in teams_list if t["team_id"] not in qualified_ids]
 
-        out.write(f"---\n\n")
+        out.write("---\n\n")
         out.write(f"### {conf_name} ({n_qualify} teams) — Champion: ({champ_seed}) {champ_name}\n\n")
         out.write("```\n")
         for line in lines:
@@ -203,9 +394,6 @@ def main():
     out_path = PROJECT_ROOT / "reports" / "conference_tournament_brackets.md"
     out_path.write_text(out.getvalue())
     print(f"\nBrackets written to {out_path}")
-
-    # Also write JSON for the website
-    from datetime import datetime
 
     json_data = {
         "generated_at": datetime.now().isoformat(),
