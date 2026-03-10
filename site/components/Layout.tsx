@@ -72,6 +72,12 @@ export default function Layout({ children }: { children: ReactNode }) {
             Brackets
           </Link>
           <Link
+            href="/tourneys"
+            className={router.pathname === "/tourneys" ? "active" : ""}
+          >
+            Tourneys
+          </Link>
+          <Link
             href="/metrics"
             className={router.pathname === "/metrics" ? "active" : ""}
           >

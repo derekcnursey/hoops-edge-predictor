@@ -1,0 +1,3698 @@
+{
+  "generated_at": "2026-03-10T16:15:20.626880",
+  "season": 2026,
+  "methodology": {
+    "simulations": 50000,
+    "odds_source": "Hard Rock Bet (Florida)",
+    "note": "Neutral-site symmetric averaging. Official conference tournament seedings."
+  },
+  "conferences": [
+    {
+      "name": "ACC",
+      "qualifier_text": "15 of 18 qualify",
+      "has_hrb_odds": true,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Duke",
+          "conf_record": "17-1",
+          "model_pct": 39.4,
+          "model_odds": "+154",
+          "hrb_odds": "-350",
+          "vegas_implied_pct": 77.8,
+          "edge": -38.4,
+          "flag": "FADE"
+        },
+        {
+          "seed": 2,
+          "team": "Virginia",
+          "conf_record": "15-3",
+          "model_pct": 15.0,
+          "model_odds": "+567",
+          "hrb_odds": "+700",
+          "vegas_implied_pct": 12.5,
+          "edge": 2.5,
+          "flag": null
+        },
+        {
+          "seed": 3,
+          "team": "Miami",
+          "conf_record": "13-5",
+          "model_pct": 10.6,
+          "model_odds": "+842",
+          "hrb_odds": "+2000",
+          "vegas_implied_pct": 4.8,
+          "edge": 5.8,
+          "flag": "STRONG VALUE"
+        },
+        {
+          "seed": 4,
+          "team": "North Carolina",
+          "conf_record": "12-6",
+          "model_pct": 10.9,
+          "model_odds": "+817",
+          "hrb_odds": "+2000",
+          "vegas_implied_pct": 4.8,
+          "edge": 6.1,
+          "flag": "STRONG VALUE"
+        },
+        {
+          "seed": 5,
+          "team": "Clemson",
+          "conf_record": "12-6",
+          "model_pct": 4.7,
+          "model_odds": "+2028",
+          "hrb_odds": "+3000",
+          "vegas_implied_pct": 3.2,
+          "edge": 1.5,
+          "flag": null
+        },
+        {
+          "seed": 6,
+          "team": "Louisville",
+          "conf_record": "11-7",
+          "model_pct": 8.1,
+          "model_odds": "+1142",
+          "hrb_odds": "+1000",
+          "vegas_implied_pct": 9.1,
+          "edge": -1.0,
+          "flag": null
+        },
+        {
+          "seed": 7,
+          "team": "NC State",
+          "conf_record": "10-8",
+          "model_pct": 4.0,
+          "model_odds": "+2421",
+          "hrb_odds": "+4000",
+          "vegas_implied_pct": 2.4,
+          "edge": 1.6,
+          "flag": null
+        },
+        {
+          "seed": 8,
+          "team": "Florida State",
+          "conf_record": "10-8",
+          "model_pct": 1.3,
+          "model_odds": "+7363",
+          "hrb_odds": "+10000",
+          "vegas_implied_pct": 1.0,
+          "edge": 0.3,
+          "flag": null
+        },
+        {
+          "seed": 9,
+          "team": "California",
+          "conf_record": "9-9",
+          "model_pct": 1.3,
+          "model_odds": "+7592",
+          "hrb_odds": "+15000",
+          "vegas_implied_pct": 0.7,
+          "edge": 0.6,
+          "flag": null
+        },
+        {
+          "seed": 10,
+          "team": "Stanford",
+          "conf_record": "9-9",
+          "model_pct": 1.1,
+          "model_odds": "+9246",
+          "hrb_odds": null,
+          "vegas_implied_pct": null,
+          "edge": null,
+          "flag": null
+        },
+        {
+          "seed": 11,
+          "team": "SMU",
+          "conf_record": "8-10",
+          "model_pct": 1.5,
+          "model_odds": "+6549",
+          "hrb_odds": "+10000",
+          "vegas_implied_pct": 1.0,
+          "edge": 0.5,
+          "flag": null
+        },
+        {
+          "seed": 12,
+          "team": "Virginia Tech",
+          "conf_record": "8-10",
+          "model_pct": 1.1,
+          "model_odds": "+9334",
+          "hrb_odds": "+15000",
+          "vegas_implied_pct": 0.7,
+          "edge": 0.4,
+          "flag": null
+        },
+        {
+          "seed": 13,
+          "team": "Wake Forest",
+          "conf_record": "7-11",
+          "model_pct": 0.4,
+          "model_odds": "+23823",
+          "hrb_odds": "+20000",
+          "vegas_implied_pct": 0.5,
+          "edge": -0.1,
+          "flag": null
+        },
+        {
+          "seed": 14,
+          "team": "Syracuse",
+          "conf_record": "6-12",
+          "model_pct": 0.4,
+          "model_odds": "+22322",
+          "hrb_odds": "+25000",
+          "vegas_implied_pct": 0.4,
+          "edge": 0.0,
+          "flag": null
+        },
+        {
+          "seed": 15,
+          "team": "Pittsburgh",
+          "conf_record": "5-13",
+          "model_pct": 0.2,
+          "model_odds": "+42273",
+          "hrb_odds": null,
+          "vegas_implied_pct": null,
+          "edge": null,
+          "flag": null
+        }
+      ],
+      "dnq": [
+        "Notre Dame",
+        "Georgia Tech",
+        "Boston College"
+      ]
+    },
+    {
+      "name": "Big Ten",
+      "qualifier_text": "18 teams",
+      "has_hrb_odds": true,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Michigan",
+          "conf_record": "19-1",
+          "model_pct": 29.0,
+          "model_odds": "+245",
+          "hrb_odds": "-125",
+          "vegas_implied_pct": 55.6,
+          "edge": -26.6,
+          "flag": "FADE"
+        },
+        {
+          "seed": 2,
+          "team": "Nebraska",
+          "conf_record": "15-5",
+          "model_pct": 8.3,
+          "model_odds": "+1112",
+          "hrb_odds": "+1000",
+          "vegas_implied_pct": 9.1,
+          "edge": -0.8,
+          "flag": null
+        },
+        {
+          "seed": 3,
+          "team": "Michigan State",
+          "conf_record": "15-5",
+          "model_pct": 18.5,
+          "model_odds": "+440",
+          "hrb_odds": "+650",
+          "vegas_implied_pct": 13.3,
+          "edge": 5.2,
+          "flag": "STRONG VALUE"
+        },
+        {
+          "seed": 4,
+          "team": "Illinois",
+          "conf_record": "15-5",
+          "model_pct": 18.6,
+          "model_odds": "+438",
+          "hrb_odds": "+450",
+          "vegas_implied_pct": 18.2,
+          "edge": 0.4,
+          "flag": null
+        },
+        {
+          "seed": 5,
+          "team": "Wisconsin",
+          "conf_record": "14-6",
+          "model_pct": 4.0,
+          "model_odds": "+2379",
+          "hrb_odds": "+3000",
+          "vegas_implied_pct": 3.2,
+          "edge": 0.8,
+          "flag": null
+        },
+        {
+          "seed": 6,
+          "team": "UCLA",
+          "conf_record": "13-7",
+          "model_pct": 3.0,
+          "model_odds": "+3213",
+          "hrb_odds": "+4000",
+          "vegas_implied_pct": 2.4,
+          "edge": 0.6,
+          "flag": null
+        },
+        {
+          "seed": 7,
+          "team": "Purdue",
+          "conf_record": "13-7",
+          "model_pct": 10.3,
+          "model_odds": "+873",
+          "hrb_odds": "+750",
+          "vegas_implied_pct": 11.8,
+          "edge": -1.5,
+          "flag": null
+        },
+        {
+          "seed": 8,
+          "team": "Ohio State",
+          "conf_record": "12-8",
+          "model_pct": 2.5,
+          "model_odds": "+3884",
+          "hrb_odds": "+7500",
+          "vegas_implied_pct": 1.3,
+          "edge": 1.2,
+          "flag": null
+        },
+        {
+          "seed": 9,
+          "team": "Iowa",
+          "conf_record": "10-10",
+          "model_pct": 2.3,
+          "model_odds": "+4259",
+          "hrb_odds": "+7500",
+          "vegas_implied_pct": 1.3,
+          "edge": 1.0,
+          "flag": null
+        },
+        {
+          "seed": 10,
+          "team": "Indiana",
+          "conf_record": "9-11",
+          "model_pct": 1.5,
+          "model_odds": "+6721",
+          "hrb_odds": "+15000",
+          "vegas_implied_pct": 0.7,
+          "edge": 0.8,
+          "flag": null
+        },
+        {
+          "seed": 11,
+          "team": "Minnesota",
+          "conf_record": "8-12",
+          "model_pct": 0.6,
+          "model_odds": "+15874",
+          "hrb_odds": "+25000",
+          "vegas_implied_pct": 0.4,
+          "edge": 0.2,
+          "flag": null
+        },
+        {
+          "seed": 12,
+          "team": "Washington",
+          "conf_record": "7-13",
+          "model_pct": 0.7,
+          "model_odds": "+13750",
+          "hrb_odds": "+20000",
+          "vegas_implied_pct": 0.5,
+          "edge": 0.2,
+          "flag": null
+        },
+        {
+          "seed": 13,
+          "team": "USC",
+          "conf_record": "7-13",
+          "model_pct": 0.4,
+          "model_odds": "+27678",
+          "hrb_odds": "+25000",
+          "vegas_implied_pct": 0.4,
+          "edge": 0.0,
+          "flag": null
+        },
+        {
+          "seed": 14,
+          "team": "Rutgers",
+          "conf_record": "6-14",
+          "model_pct": 0.1,
+          "model_odds": "+99999",
+          "hrb_odds": "+50000",
+          "vegas_implied_pct": 0.2,
+          "edge": -0.1,
+          "flag": null
+        },
+        {
+          "seed": 15,
+          "team": "Northwestern",
+          "conf_record": "5-15",
+          "model_pct": 0.2,
+          "model_odds": "+43760",
+          "hrb_odds": "+25000",
+          "vegas_implied_pct": 0.4,
+          "edge": -0.2,
+          "flag": null
+        },
+        {
+          "seed": 16,
+          "team": "Oregon",
+          "conf_record": "5-15",
+          "model_pct": 0.1,
+          "model_odds": "+99999",
+          "hrb_odds": "+25000",
+          "vegas_implied_pct": 0.4,
+          "edge": -0.3,
+          "flag": null
+        },
+        {
+          "seed": 17,
+          "team": "Maryland",
+          "conf_record": "4-16",
+          "model_pct": 0.0,
+          "model_odds": "+99999",
+          "hrb_odds": "+50000",
+          "vegas_implied_pct": 0.2,
+          "edge": -0.2,
+          "flag": null
+        },
+        {
+          "seed": 18,
+          "team": "Penn State",
+          "conf_record": "3-17",
+          "model_pct": 0.0,
+          "model_odds": "+99999",
+          "hrb_odds": "+50000",
+          "vegas_implied_pct": 0.2,
+          "edge": -0.2,
+          "flag": null
+        }
+      ],
+      "dnq": []
+    },
+    {
+      "name": "Big 12",
+      "qualifier_text": "16 teams",
+      "has_hrb_odds": true,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Arizona",
+          "conf_record": "16-2",
+          "model_pct": 32.2,
+          "model_odds": "+210",
+          "hrb_odds": "+105",
+          "vegas_implied_pct": 48.8,
+          "edge": -16.6,
+          "flag": "FADE"
+        },
+        {
+          "seed": 2,
+          "team": "Houston",
+          "conf_record": "14-4",
+          "model_pct": 22.4,
+          "model_odds": "+347",
+          "hrb_odds": "+185",
+          "vegas_implied_pct": 35.1,
+          "edge": -12.7,
+          "flag": "FADE"
+        },
+        {
+          "seed": 3,
+          "team": "Kansas",
+          "conf_record": "12-6",
+          "model_pct": 12.0,
+          "model_odds": "+734",
+          "hrb_odds": "+800",
+          "vegas_implied_pct": 11.1,
+          "edge": 0.9,
+          "flag": null
+        },
+        {
+          "seed": 4,
+          "team": "Texas Tech",
+          "conf_record": "12-6",
+          "model_pct": 12.7,
+          "model_odds": "+690",
+          "hrb_odds": "+1200",
+          "vegas_implied_pct": 7.7,
+          "edge": 5.0,
+          "flag": "STRONG VALUE"
+        },
+        {
+          "seed": 5,
+          "team": "Iowa State",
+          "conf_record": "12-6",
+          "model_pct": 7.1,
+          "model_odds": "+1312",
+          "hrb_odds": "+800",
+          "vegas_implied_pct": 11.1,
+          "edge": -4.0,
+          "flag": null
+        },
+        {
+          "seed": 6,
+          "team": "TCU",
+          "conf_record": "11-7",
+          "model_pct": 3.2,
+          "model_odds": "+3031",
+          "hrb_odds": "+6000",
+          "vegas_implied_pct": 1.6,
+          "edge": 1.6,
+          "flag": null
+        },
+        {
+          "seed": 7,
+          "team": "West Virginia",
+          "conf_record": "9-9",
+          "model_pct": 1.3,
+          "model_odds": "+7499",
+          "hrb_odds": "+10000",
+          "vegas_implied_pct": 1.0,
+          "edge": 0.3,
+          "flag": null
+        },
+        {
+          "seed": 8,
+          "team": "UCF",
+          "conf_record": "9-9",
+          "model_pct": 1.4,
+          "model_odds": "+7023",
+          "hrb_odds": "+15000",
+          "vegas_implied_pct": 0.7,
+          "edge": 0.7,
+          "flag": null
+        },
+        {
+          "seed": 9,
+          "team": "Cincinnati",
+          "conf_record": "9-9",
+          "model_pct": 2.1,
+          "model_odds": "+4708",
+          "hrb_odds": null,
+          "vegas_implied_pct": null,
+          "edge": null,
+          "flag": null
+        },
+        {
+          "seed": 10,
+          "team": "BYU",
+          "conf_record": "9-9",
+          "model_pct": 3.1,
+          "model_odds": "+3168",
+          "hrb_odds": "+4000",
+          "vegas_implied_pct": 2.4,
+          "edge": 0.7,
+          "flag": null
+        },
+        {
+          "seed": 11,
+          "team": "Colorado",
+          "conf_record": "7-11",
+          "model_pct": 0.4,
+          "model_odds": "+22322",
+          "hrb_odds": "+20000",
+          "vegas_implied_pct": 0.5,
+          "edge": -0.1,
+          "flag": null
+        },
+        {
+          "seed": 12,
+          "team": "Arizona State",
+          "conf_record": "7-11",
+          "model_pct": 0.6,
+          "model_odds": "+17821",
+          "hrb_odds": "+25000",
+          "vegas_implied_pct": 0.4,
+          "edge": 0.2,
+          "flag": null
+        },
+        {
+          "seed": 13,
+          "team": "Baylor",
+          "conf_record": "6-12",
+          "model_pct": 0.9,
+          "model_odds": "+10426",
+          "hrb_odds": null,
+          "vegas_implied_pct": null,
+          "edge": null,
+          "flag": null
+        },
+        {
+          "seed": 14,
+          "team": "Oklahoma State",
+          "conf_record": "6-12",
+          "model_pct": 0.4,
+          "model_odds": "+24290",
+          "hrb_odds": "+50000",
+          "vegas_implied_pct": 0.2,
+          "edge": 0.2,
+          "flag": null
+        },
+        {
+          "seed": 15,
+          "team": "Kansas State",
+          "conf_record": "3-15",
+          "model_pct": 0.1,
+          "model_odds": "+74527",
+          "hrb_odds": "+50000",
+          "vegas_implied_pct": 0.2,
+          "edge": -0.1,
+          "flag": null
+        },
+        {
+          "seed": 16,
+          "team": "Utah",
+          "conf_record": "2-16",
+          "model_pct": 0.1,
+          "model_odds": "+96054",
+          "hrb_odds": null,
+          "vegas_implied_pct": null,
+          "edge": null,
+          "flag": null
+        }
+      ],
+      "dnq": []
+    },
+    {
+      "name": "SEC",
+      "qualifier_text": "16 teams",
+      "has_hrb_odds": true,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Florida",
+          "conf_record": "16-2",
+          "model_pct": 31.0,
+          "model_odds": "+223",
+          "hrb_odds": "-170",
+          "vegas_implied_pct": 63.0,
+          "edge": -32.0,
+          "flag": "FADE"
+        },
+        {
+          "seed": 2,
+          "team": "Alabama",
+          "conf_record": "13-5",
+          "model_pct": 13.0,
+          "model_odds": "+666",
+          "hrb_odds": "+750",
+          "vegas_implied_pct": 11.8,
+          "edge": 1.2,
+          "flag": null
+        },
+        {
+          "seed": 3,
+          "team": "Arkansas",
+          "conf_record": "13-5",
+          "model_pct": 15.8,
+          "model_odds": "+532",
+          "hrb_odds": "+650",
+          "vegas_implied_pct": 13.3,
+          "edge": 2.5,
+          "flag": null
+        },
+        {
+          "seed": 4,
+          "team": "Vanderbilt",
+          "conf_record": "11-7",
+          "model_pct": 11.4,
+          "model_odds": "+776",
+          "hrb_odds": "+1000",
+          "vegas_implied_pct": 9.1,
+          "edge": 2.3,
+          "flag": null
+        },
+        {
+          "seed": 5,
+          "team": "Tennessee",
+          "conf_record": "11-7",
+          "model_pct": 9.8,
+          "model_odds": "+915",
+          "hrb_odds": "+800",
+          "vegas_implied_pct": 11.1,
+          "edge": -1.3,
+          "flag": null
+        },
+        {
+          "seed": 6,
+          "team": "Texas A&M",
+          "conf_record": "11-7",
+          "model_pct": 4.2,
+          "model_odds": "+2283",
+          "hrb_odds": "+3000",
+          "vegas_implied_pct": 3.2,
+          "edge": 1.0,
+          "flag": null
+        },
+        {
+          "seed": 7,
+          "team": "Georgia",
+          "conf_record": "10-8",
+          "model_pct": 2.9,
+          "model_odds": "+3318",
+          "hrb_odds": "+3000",
+          "vegas_implied_pct": 3.2,
+          "edge": -0.3,
+          "flag": null
+        },
+        {
+          "seed": 8,
+          "team": "Missouri",
+          "conf_record": "10-8",
+          "model_pct": 2.3,
+          "model_odds": "+4333",
+          "hrb_odds": "+10000",
+          "vegas_implied_pct": 1.0,
+          "edge": 1.3,
+          "flag": null
+        },
+        {
+          "seed": 9,
+          "team": "Kentucky",
+          "conf_record": "10-8",
+          "model_pct": 2.3,
+          "model_odds": "+4337",
+          "hrb_odds": "+3000",
+          "vegas_implied_pct": 3.2,
+          "edge": -0.9,
+          "flag": null
+        },
+        {
+          "seed": 10,
+          "team": "Texas",
+          "conf_record": "9-9",
+          "model_pct": 3.1,
+          "model_odds": "+3079",
+          "hrb_odds": "+5000",
+          "vegas_implied_pct": 2.0,
+          "edge": 1.1,
+          "flag": null
+        },
+        {
+          "seed": 11,
+          "team": "Oklahoma",
+          "conf_record": "7-11",
+          "model_pct": 1.1,
+          "model_odds": "+8718",
+          "hrb_odds": "+7500",
+          "vegas_implied_pct": 1.3,
+          "edge": -0.2,
+          "flag": null
+        },
+        {
+          "seed": 12,
+          "team": "Auburn",
+          "conf_record": "7-11",
+          "model_pct": 2.1,
+          "model_odds": "+4653",
+          "hrb_odds": "+15000",
+          "vegas_implied_pct": 0.7,
+          "edge": 1.4,
+          "flag": null
+        },
+        {
+          "seed": 13,
+          "team": "Mississippi State",
+          "conf_record": "5-13",
+          "model_pct": 0.1,
+          "model_odds": "+96054",
+          "hrb_odds": "+25000",
+          "vegas_implied_pct": 0.4,
+          "edge": -0.3,
+          "flag": null
+        },
+        {
+          "seed": 14,
+          "team": "South Carolina",
+          "conf_record": "4-14",
+          "model_pct": 0.1,
+          "model_odds": "+83233",
+          "hrb_odds": "+50000",
+          "vegas_implied_pct": 0.2,
+          "edge": -0.1,
+          "flag": null
+        },
+        {
+          "seed": 15,
+          "team": "Ole Miss",
+          "conf_record": "4-14",
+          "model_pct": 0.4,
+          "model_odds": "+24531",
+          "hrb_odds": "+25000",
+          "vegas_implied_pct": 0.4,
+          "edge": 0.0,
+          "flag": null
+        },
+        {
+          "seed": 16,
+          "team": "LSU",
+          "conf_record": "3-15",
+          "model_pct": 0.2,
+          "model_odds": "+45772",
+          "hrb_odds": "+25000",
+          "vegas_implied_pct": 0.4,
+          "edge": -0.2,
+          "flag": null
+        }
+      ],
+      "dnq": []
+    },
+    {
+      "name": "Big East",
+      "qualifier_text": "11 teams",
+      "has_hrb_odds": true,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "St. John's",
+          "conf_record": "18-2",
+          "model_pct": 28.1,
+          "model_odds": "+256",
+          "hrb_odds": "+125",
+          "vegas_implied_pct": 44.4,
+          "edge": -16.3,
+          "flag": "FADE"
+        },
+        {
+          "seed": 2,
+          "team": "UConn",
+          "conf_record": "17-3",
+          "model_pct": 32.6,
+          "model_odds": "+206",
+          "hrb_odds": "+100",
+          "vegas_implied_pct": 50.0,
+          "edge": -17.4,
+          "flag": "FADE"
+        },
+        {
+          "seed": 3,
+          "team": "Villanova",
+          "conf_record": "15-5",
+          "model_pct": 13.0,
+          "model_odds": "+667",
+          "hrb_odds": "+800",
+          "vegas_implied_pct": 11.1,
+          "edge": 1.9,
+          "flag": null
+        },
+        {
+          "seed": 4,
+          "team": "Seton Hall",
+          "conf_record": "10-10",
+          "model_pct": 9.0,
+          "model_odds": "+1012",
+          "hrb_odds": "+1750",
+          "vegas_implied_pct": 5.4,
+          "edge": 3.6,
+          "flag": "VALUE"
+        },
+        {
+          "seed": 5,
+          "team": "Creighton",
+          "conf_record": "9-11",
+          "model_pct": 4.2,
+          "model_odds": "+2285",
+          "hrb_odds": "+3000",
+          "vegas_implied_pct": 3.2,
+          "edge": 1.0,
+          "flag": null
+        },
+        {
+          "seed": 6,
+          "team": "DePaul",
+          "conf_record": "8-12",
+          "model_pct": 2.3,
+          "model_odds": "+4333",
+          "hrb_odds": "+10000",
+          "vegas_implied_pct": 1.0,
+          "edge": 1.3,
+          "flag": null
+        },
+        {
+          "seed": 7,
+          "team": "Marquette",
+          "conf_record": "7-13",
+          "model_pct": 2.3,
+          "model_odds": "+4225",
+          "hrb_odds": "+6000",
+          "vegas_implied_pct": 1.6,
+          "edge": 0.7,
+          "flag": null
+        },
+        {
+          "seed": 8,
+          "team": "Butler",
+          "conf_record": "7-13",
+          "model_pct": 2.8,
+          "model_odds": "+3489",
+          "hrb_odds": "+10000",
+          "vegas_implied_pct": 1.0,
+          "edge": 1.8,
+          "flag": null
+        },
+        {
+          "seed": 9,
+          "team": "Providence",
+          "conf_record": "7-13",
+          "model_pct": 1.9,
+          "model_odds": "+5065",
+          "hrb_odds": "+10000",
+          "vegas_implied_pct": 1.0,
+          "edge": 0.9,
+          "flag": null
+        },
+        {
+          "seed": 10,
+          "team": "Xavier",
+          "conf_record": "6-14",
+          "model_pct": 1.4,
+          "model_odds": "+6806",
+          "hrb_odds": "+10000",
+          "vegas_implied_pct": 1.0,
+          "edge": 0.4,
+          "flag": null
+        },
+        {
+          "seed": 11,
+          "team": "Georgetown",
+          "conf_record": "6-14",
+          "model_pct": 2.3,
+          "model_odds": "+4166",
+          "hrb_odds": "+10000",
+          "vegas_implied_pct": 1.0,
+          "edge": 1.3,
+          "flag": null
+        }
+      ],
+      "dnq": []
+    },
+    {
+      "name": "A-10",
+      "qualifier_text": "14 teams",
+      "has_hrb_odds": true,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Saint Louis",
+          "conf_record": "15-3",
+          "model_pct": 30.4,
+          "model_odds": "+229",
+          "hrb_odds": "+135",
+          "vegas_implied_pct": 42.6,
+          "edge": -12.2,
+          "flag": "FADE"
+        },
+        {
+          "seed": 2,
+          "team": "VCU",
+          "conf_record": "15-3",
+          "model_pct": 21.7,
+          "model_odds": "+360",
+          "hrb_odds": "+180",
+          "vegas_implied_pct": 35.7,
+          "edge": -14.0,
+          "flag": "FADE"
+        },
+        {
+          "seed": 3,
+          "team": "Saint Joseph's",
+          "conf_record": "13-5",
+          "model_pct": 9.0,
+          "model_odds": "+1012",
+          "hrb_odds": "+1200",
+          "vegas_implied_pct": 7.7,
+          "edge": 1.3,
+          "flag": null
+        },
+        {
+          "seed": 4,
+          "team": "Dayton",
+          "conf_record": "12-6",
+          "model_pct": 15.2,
+          "model_odds": "+556",
+          "hrb_odds": "+700",
+          "vegas_implied_pct": 12.5,
+          "edge": 2.7,
+          "flag": null
+        },
+        {
+          "seed": 5,
+          "team": "George Mason",
+          "conf_record": "11-7",
+          "model_pct": 2.4,
+          "model_odds": "+4008",
+          "hrb_odds": "+2000",
+          "vegas_implied_pct": 4.8,
+          "edge": -2.4,
+          "flag": null
+        },
+        {
+          "seed": 6,
+          "team": "Davidson",
+          "conf_record": "10-8",
+          "model_pct": 6.2,
+          "model_odds": "+1522",
+          "hrb_odds": "+1600",
+          "vegas_implied_pct": 5.9,
+          "edge": 0.3,
+          "flag": null
+        },
+        {
+          "seed": 7,
+          "team": "Duquesne",
+          "conf_record": "9-9",
+          "model_pct": 3.3,
+          "model_odds": "+2890",
+          "hrb_odds": "+3000",
+          "vegas_implied_pct": 3.2,
+          "edge": 0.1,
+          "flag": null
+        },
+        {
+          "seed": 8,
+          "team": "Fordham",
+          "conf_record": "8-10",
+          "model_pct": 0.9,
+          "model_odds": "+10607",
+          "hrb_odds": "+10000",
+          "vegas_implied_pct": 1.0,
+          "edge": -0.1,
+          "flag": null
+        },
+        {
+          "seed": 9,
+          "team": "George Washington",
+          "conf_record": "8-10",
+          "model_pct": 6.6,
+          "model_odds": "+1416",
+          "hrb_odds": "+1200",
+          "vegas_implied_pct": 7.7,
+          "edge": -1.1,
+          "flag": null
+        },
+        {
+          "seed": 10,
+          "team": "Rhode Island",
+          "conf_record": "7-11",
+          "model_pct": 2.1,
+          "model_odds": "+4759",
+          "hrb_odds": "+6000",
+          "vegas_implied_pct": 1.6,
+          "edge": 0.5,
+          "flag": null
+        },
+        {
+          "seed": 11,
+          "team": "Richmond",
+          "conf_record": "5-13",
+          "model_pct": 0.9,
+          "model_odds": "+10584",
+          "hrb_odds": "+10000",
+          "vegas_implied_pct": 1.0,
+          "edge": -0.1,
+          "flag": null
+        },
+        {
+          "seed": 12,
+          "team": "La Salle",
+          "conf_record": "5-13",
+          "model_pct": 0.5,
+          "model_odds": "+18282",
+          "hrb_odds": "+20000",
+          "vegas_implied_pct": 0.5,
+          "edge": 0.0,
+          "flag": null
+        },
+        {
+          "seed": 13,
+          "team": "St. Bonaventure",
+          "conf_record": "4-14",
+          "model_pct": 0.5,
+          "model_odds": "+19741",
+          "hrb_odds": "+10000",
+          "vegas_implied_pct": 1.0,
+          "edge": -0.5,
+          "flag": null
+        },
+        {
+          "seed": 14,
+          "team": "Loyola Chicago",
+          "conf_record": "4-14",
+          "model_pct": 0.1,
+          "model_odds": "+89186",
+          "hrb_odds": "+25000",
+          "vegas_implied_pct": 0.4,
+          "edge": -0.3,
+          "flag": null
+        }
+      ],
+      "dnq": []
+    },
+    {
+      "name": "Sun Belt",
+      "qualifier_text": "14 teams",
+      "has_hrb_odds": false,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Troy",
+          "conf_record": "14-6",
+          "model_pct": 31.9,
+          "model_odds": "+214"
+        },
+        {
+          "seed": 2,
+          "team": "Marshall",
+          "conf_record": "11-8",
+          "model_pct": 22.2,
+          "model_odds": "+350"
+        },
+        {
+          "seed": 3,
+          "team": "Coastal Carolina",
+          "conf_record": "11-8",
+          "model_pct": 8.5,
+          "model_odds": "+1070"
+        },
+        {
+          "seed": 4,
+          "team": "App State",
+          "conf_record": "11-8",
+          "model_pct": 12.9,
+          "model_odds": "+676"
+        },
+        {
+          "seed": 5,
+          "team": "Texas State",
+          "conf_record": "11-8",
+          "model_pct": 5.2,
+          "model_odds": "+1815"
+        },
+        {
+          "seed": 6,
+          "team": "South Alabama",
+          "conf_record": "11-8",
+          "model_pct": 4.2,
+          "model_odds": "+2262"
+        },
+        {
+          "seed": 7,
+          "team": "Arkansas State",
+          "conf_record": "11-8",
+          "model_pct": 9.2,
+          "model_odds": "+985"
+        },
+        {
+          "seed": 8,
+          "team": "Southern Miss",
+          "conf_record": "12-10",
+          "model_pct": 2.9,
+          "model_odds": "+3406"
+        },
+        {
+          "seed": 9,
+          "team": "James Madison",
+          "conf_record": "10-10",
+          "model_pct": 1.3,
+          "model_odds": "+7737"
+        },
+        {
+          "seed": 10,
+          "team": "Georgia Southern",
+          "conf_record": "13-11",
+          "model_pct": 0.7,
+          "model_odds": "+14693"
+        },
+        {
+          "seed": 11,
+          "team": "Old Dominion",
+          "conf_record": "8-12",
+          "model_pct": 0.7,
+          "model_odds": "+14145"
+        },
+        {
+          "seed": 12,
+          "team": "Louisiana",
+          "conf_record": "8-12",
+          "model_pct": 0.2,
+          "model_odds": "+64835"
+        },
+        {
+          "seed": 13,
+          "team": "Georgia State",
+          "conf_record": "7-12",
+          "model_pct": 0.1,
+          "model_odds": "+94240"
+        },
+        {
+          "seed": 14,
+          "team": "UL Monroe",
+          "conf_record": "1-18",
+          "model_pct": 0.0,
+          "model_odds": "+99999"
+        }
+      ],
+      "dnq": []
+    },
+    {
+      "name": "MAC",
+      "qualifier_text": "8 of 13 qualify",
+      "has_hrb_odds": true,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Miami (OH)",
+          "conf_record": "18-0",
+          "model_pct": 20.8,
+          "model_odds": "+381",
+          "hrb_odds": "+220",
+          "vegas_implied_pct": 31.2,
+          "edge": -10.4,
+          "flag": "FADE"
+        },
+        {
+          "seed": 2,
+          "team": "Akron",
+          "conf_record": "17-1",
+          "model_pct": 34.7,
+          "model_odds": "+188",
+          "hrb_odds": "-150",
+          "vegas_implied_pct": 60.0,
+          "edge": -25.3,
+          "flag": "FADE"
+        },
+        {
+          "seed": 3,
+          "team": "Kent State",
+          "conf_record": "14-4",
+          "model_pct": 10.5,
+          "model_odds": "+850",
+          "hrb_odds": "+1400",
+          "vegas_implied_pct": 6.7,
+          "edge": 3.8,
+          "flag": "VALUE"
+        },
+        {
+          "seed": 4,
+          "team": "Toledo",
+          "conf_record": "11-7",
+          "model_pct": 8.7,
+          "model_odds": "+1055",
+          "hrb_odds": "+1200",
+          "vegas_implied_pct": 7.7,
+          "edge": 1.0,
+          "flag": null
+        },
+        {
+          "seed": 5,
+          "team": "Bowling Green",
+          "conf_record": "9-9",
+          "model_pct": 10.5,
+          "model_odds": "+855",
+          "hrb_odds": "+1750",
+          "vegas_implied_pct": 5.4,
+          "edge": 5.1,
+          "flag": "STRONG VALUE"
+        },
+        {
+          "seed": 6,
+          "team": "Ohio",
+          "conf_record": "9-9",
+          "model_pct": 4.4,
+          "model_odds": "+2173",
+          "hrb_odds": "+3000",
+          "vegas_implied_pct": 3.2,
+          "edge": 1.2,
+          "flag": null
+        },
+        {
+          "seed": 7,
+          "team": "Buffalo",
+          "conf_record": "7-11",
+          "model_pct": 3.4,
+          "model_odds": "+2821",
+          "hrb_odds": "+4000",
+          "vegas_implied_pct": 2.4,
+          "edge": 1.0,
+          "flag": null
+        },
+        {
+          "seed": 8,
+          "team": "Massachusetts",
+          "conf_record": "7-11",
+          "model_pct": 7.0,
+          "model_odds": "+1327",
+          "hrb_odds": "+3000",
+          "vegas_implied_pct": 3.2,
+          "edge": 3.8,
+          "flag": "VALUE"
+        }
+      ],
+      "dnq": [
+        "Eastern Michigan",
+        "Western Michigan",
+        "Ball State",
+        "Central Michigan",
+        "Northern Illinois"
+      ]
+    },
+    {
+      "name": "American",
+      "qualifier_text": "10 of 13 qualify",
+      "has_hrb_odds": true,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "South Florida",
+          "conf_record": "15-3",
+          "model_pct": 43.3,
+          "model_odds": "+131",
+          "hrb_odds": "-110",
+          "vegas_implied_pct": 52.4,
+          "edge": -9.1,
+          "flag": "FADE"
+        },
+        {
+          "seed": 2,
+          "team": "Wichita State",
+          "conf_record": "13-5",
+          "model_pct": 24.3,
+          "model_odds": "+312",
+          "hrb_odds": "+350",
+          "vegas_implied_pct": 22.2,
+          "edge": 2.1,
+          "flag": null
+        },
+        {
+          "seed": 3,
+          "team": "Tulsa",
+          "conf_record": "13-5",
+          "model_pct": 16.1,
+          "model_odds": "+522",
+          "hrb_odds": "+275",
+          "vegas_implied_pct": 26.7,
+          "edge": -10.6,
+          "flag": "FADE"
+        },
+        {
+          "seed": 4,
+          "team": "UAB",
+          "conf_record": "11-7",
+          "model_pct": 6.8,
+          "model_odds": "+1381",
+          "hrb_odds": "+2000",
+          "vegas_implied_pct": 4.8,
+          "edge": 2.0,
+          "flag": null
+        },
+        {
+          "seed": 5,
+          "team": "Charlotte",
+          "conf_record": "9-9",
+          "model_pct": 1.0,
+          "model_odds": "+10338",
+          "hrb_odds": "+10000",
+          "vegas_implied_pct": 1.0,
+          "edge": 0.0,
+          "flag": null
+        },
+        {
+          "seed": 6,
+          "team": "North Texas",
+          "conf_record": "9-9",
+          "model_pct": 2.5,
+          "model_odds": "+3837",
+          "hrb_odds": "+5000",
+          "vegas_implied_pct": 2.0,
+          "edge": 0.5,
+          "flag": null
+        },
+        {
+          "seed": 7,
+          "team": "Florida Atlantic",
+          "conf_record": "9-9",
+          "model_pct": 2.3,
+          "model_odds": "+4329",
+          "hrb_odds": "+10000",
+          "vegas_implied_pct": 1.0,
+          "edge": 1.3,
+          "flag": null
+        },
+        {
+          "seed": 8,
+          "team": "Memphis",
+          "conf_record": "8-10",
+          "model_pct": 2.9,
+          "model_odds": "+3367",
+          "hrb_odds": "+5000",
+          "vegas_implied_pct": 2.0,
+          "edge": 0.9,
+          "flag": null
+        },
+        {
+          "seed": 9,
+          "team": "Tulane",
+          "conf_record": "8-10",
+          "model_pct": 0.4,
+          "model_odds": "+22941",
+          "hrb_odds": "+15000",
+          "vegas_implied_pct": 0.7,
+          "edge": -0.3,
+          "flag": null
+        },
+        {
+          "seed": 10,
+          "team": "Temple",
+          "conf_record": "8-10",
+          "model_pct": 0.5,
+          "model_odds": "+18984",
+          "hrb_odds": "+15000",
+          "vegas_implied_pct": 0.7,
+          "edge": -0.2,
+          "flag": null
+        }
+      ],
+      "dnq": [
+        "Rice",
+        "East Carolina",
+        "UTSA"
+      ]
+    },
+    {
+      "name": "CAA",
+      "qualifier_text": "13 teams",
+      "has_hrb_odds": false,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "UNC Wilmington",
+          "conf_record": "15-4",
+          "model_pct": 20.8,
+          "model_odds": "+381"
+        },
+        {
+          "seed": 2,
+          "team": "Charleston",
+          "conf_record": "14-5",
+          "model_pct": 13.8,
+          "model_odds": "+627"
+        },
+        {
+          "seed": 3,
+          "team": "Hofstra",
+          "conf_record": "14-6",
+          "model_pct": 22.3,
+          "model_odds": "+349"
+        },
+        {
+          "seed": 4,
+          "team": "Monmouth",
+          "conf_record": "13-7",
+          "model_pct": 13.7,
+          "model_odds": "+629"
+        },
+        {
+          "seed": 5,
+          "team": "Drexel",
+          "conf_record": "11-9",
+          "model_pct": 5.5,
+          "model_odds": "+1711"
+        },
+        {
+          "seed": 6,
+          "team": "William & Mary",
+          "conf_record": "11-9",
+          "model_pct": 7.2,
+          "model_odds": "+1287"
+        },
+        {
+          "seed": 7,
+          "team": "Towson",
+          "conf_record": "11-10",
+          "model_pct": 5.5,
+          "model_odds": "+1734"
+        },
+        {
+          "seed": 8,
+          "team": "Stony Brook",
+          "conf_record": "9-10",
+          "model_pct": 2.6,
+          "model_odds": "+3708"
+        },
+        {
+          "seed": 9,
+          "team": "Campbell",
+          "conf_record": "10-11",
+          "model_pct": 5.0,
+          "model_odds": "+1903"
+        },
+        {
+          "seed": 10,
+          "team": "Hampton",
+          "conf_record": "7-12",
+          "model_pct": 1.2,
+          "model_odds": "+8551"
+        },
+        {
+          "seed": 11,
+          "team": "Elon",
+          "conf_record": "6-13",
+          "model_pct": 1.4,
+          "model_odds": "+7221"
+        },
+        {
+          "seed": 12,
+          "team": "North Carolina A&T",
+          "conf_record": "4-15",
+          "model_pct": 0.5,
+          "model_odds": "+18419"
+        },
+        {
+          "seed": 13,
+          "team": "Northeastern",
+          "conf_record": "3-17",
+          "model_pct": 0.6,
+          "model_odds": "+16402"
+        }
+      ],
+      "dnq": []
+    },
+    {
+      "name": "MAAC",
+      "qualifier_text": "10 of 13 qualify",
+      "has_hrb_odds": false,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Merrimack",
+          "conf_record": "19-3",
+          "model_pct": 17.3,
+          "model_odds": "+477"
+        },
+        {
+          "seed": 2,
+          "team": "Saint Peter's",
+          "conf_record": "14-7",
+          "model_pct": 15.0,
+          "model_odds": "+565"
+        },
+        {
+          "seed": 3,
+          "team": "Siena",
+          "conf_record": "15-7",
+          "model_pct": 14.7,
+          "model_odds": "+581"
+        },
+        {
+          "seed": 4,
+          "team": "Quinnipiac",
+          "conf_record": "12-9",
+          "model_pct": 13.4,
+          "model_odds": "+647"
+        },
+        {
+          "seed": 5,
+          "team": "Marist",
+          "conf_record": "13-9",
+          "model_pct": 14.7,
+          "model_odds": "+580"
+        },
+        {
+          "seed": 6,
+          "team": "Mount St. Mary's",
+          "conf_record": "11-10",
+          "model_pct": 9.8,
+          "model_odds": "+922"
+        },
+        {
+          "seed": 7,
+          "team": "Fairfield",
+          "conf_record": "13-10",
+          "model_pct": 5.8,
+          "model_odds": "+1611"
+        },
+        {
+          "seed": 8,
+          "team": "Iona",
+          "conf_record": "10-11",
+          "model_pct": 5.7,
+          "model_odds": "+1654"
+        },
+        {
+          "seed": 9,
+          "team": "Sacred Heart",
+          "conf_record": "10-12",
+          "model_pct": 2.2,
+          "model_odds": "+4356"
+        },
+        {
+          "seed": 10,
+          "team": "Manhattan",
+          "conf_record": "8-13",
+          "model_pct": 1.3,
+          "model_odds": "+7799"
+        }
+      ],
+      "dnq": [
+        "Canisius",
+        "Niagara",
+        "Rider"
+      ]
+    },
+    {
+      "name": "WCC",
+      "qualifier_text": "12 teams",
+      "has_hrb_odds": false,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Gonzaga",
+          "conf_record": "17-2",
+          "model_pct": 49.7,
+          "model_odds": "+101"
+        },
+        {
+          "seed": 2,
+          "team": "Saint Mary's",
+          "conf_record": "16-3",
+          "model_pct": 29.1,
+          "model_odds": "+243"
+        },
+        {
+          "seed": 3,
+          "team": "Santa Clara",
+          "conf_record": "17-3",
+          "model_pct": 14.5,
+          "model_odds": "+591"
+        },
+        {
+          "seed": 4,
+          "team": "Oregon State",
+          "conf_record": "10-10",
+          "model_pct": 1.5,
+          "model_odds": "+6531"
+        },
+        {
+          "seed": 5,
+          "team": "San Francisco",
+          "conf_record": "9-11",
+          "model_pct": 1.6,
+          "model_odds": "+6174"
+        },
+        {
+          "seed": 6,
+          "team": "Pacific",
+          "conf_record": "9-11",
+          "model_pct": 1.2,
+          "model_odds": "+8581"
+        },
+        {
+          "seed": 7,
+          "team": "Seattle U",
+          "conf_record": "9-11",
+          "model_pct": 1.1,
+          "model_odds": "+9370"
+        },
+        {
+          "seed": 8,
+          "team": "Washington State",
+          "conf_record": "7-12",
+          "model_pct": 1.1,
+          "model_odds": "+9246"
+        },
+        {
+          "seed": 9,
+          "team": "Portland",
+          "conf_record": "8-13",
+          "model_pct": 0.1,
+          "model_odds": "+90809"
+        },
+        {
+          "seed": 10,
+          "team": "Loyola Marymount",
+          "conf_record": "6-13",
+          "model_pct": 0.1,
+          "model_odds": "+73429"
+        },
+        {
+          "seed": 11,
+          "team": "San Diego",
+          "conf_record": "6-14",
+          "model_pct": 0.0,
+          "model_odds": "+99999"
+        },
+        {
+          "seed": 12,
+          "team": "Pepperdine",
+          "conf_record": "4-15",
+          "model_pct": 0.1,
+          "model_odds": "+99999"
+        }
+      ],
+      "dnq": []
+    },
+    {
+      "name": "Mountain West",
+      "qualifier_text": "12 teams",
+      "has_hrb_odds": true,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Utah State",
+          "conf_record": "15-5",
+          "model_pct": 22.1,
+          "model_odds": "+352",
+          "hrb_odds": "+225",
+          "vegas_implied_pct": 30.8,
+          "edge": -8.7,
+          "flag": "FADE"
+        },
+        {
+          "seed": 2,
+          "team": "San Diego State",
+          "conf_record": "14-6",
+          "model_pct": 21.2,
+          "model_odds": "+371",
+          "hrb_odds": "+300",
+          "vegas_implied_pct": 25.0,
+          "edge": -3.8,
+          "flag": null
+        },
+        {
+          "seed": 3,
+          "team": "New Mexico",
+          "conf_record": "13-7",
+          "model_pct": 14.3,
+          "model_odds": "+598",
+          "hrb_odds": "+500",
+          "vegas_implied_pct": 16.7,
+          "edge": -2.4,
+          "flag": null
+        },
+        {
+          "seed": 4,
+          "team": "Grand Canyon",
+          "conf_record": "13-7",
+          "model_pct": 15.9,
+          "model_odds": "+529",
+          "hrb_odds": "+500",
+          "vegas_implied_pct": 16.7,
+          "edge": -0.8,
+          "flag": null
+        },
+        {
+          "seed": 5,
+          "team": "Nevada",
+          "conf_record": "12-8",
+          "model_pct": 7.2,
+          "model_odds": "+1289",
+          "hrb_odds": "+1750",
+          "vegas_implied_pct": 5.4,
+          "edge": 1.8,
+          "flag": null
+        },
+        {
+          "seed": 6,
+          "team": "Boise State",
+          "conf_record": "12-8",
+          "model_pct": 9.7,
+          "model_odds": "+932",
+          "hrb_odds": "+650",
+          "vegas_implied_pct": 13.3,
+          "edge": -3.6,
+          "flag": null
+        },
+        {
+          "seed": 7,
+          "team": "Colorado State",
+          "conf_record": "11-9",
+          "model_pct": 2.9,
+          "model_odds": "+3297",
+          "hrb_odds": "+2500",
+          "vegas_implied_pct": 3.8,
+          "edge": -0.9,
+          "flag": null
+        },
+        {
+          "seed": 8,
+          "team": "UNLV",
+          "conf_record": "11-9",
+          "model_pct": 2.6,
+          "model_odds": "+3767",
+          "hrb_odds": "+2500",
+          "vegas_implied_pct": 3.8,
+          "edge": -1.2,
+          "flag": null
+        },
+        {
+          "seed": 9,
+          "team": "Wyoming",
+          "conf_record": "9-11",
+          "model_pct": 2.3,
+          "model_odds": "+4301",
+          "hrb_odds": "+5000",
+          "vegas_implied_pct": 2.0,
+          "edge": 0.3,
+          "flag": null
+        },
+        {
+          "seed": 10,
+          "team": "Fresno State",
+          "conf_record": "7-13",
+          "model_pct": 1.4,
+          "model_odds": "+7023",
+          "hrb_odds": "+10000",
+          "vegas_implied_pct": 1.0,
+          "edge": 0.4,
+          "flag": null
+        },
+        {
+          "seed": 11,
+          "team": "San Jos\u00e9 State",
+          "conf_record": "3-17",
+          "model_pct": 0.3,
+          "model_odds": "+38962",
+          "hrb_odds": "+20000",
+          "vegas_implied_pct": 0.5,
+          "edge": -0.2,
+          "flag": null
+        },
+        {
+          "seed": 12,
+          "team": "Air Force",
+          "conf_record": "0-20",
+          "model_pct": 0.1,
+          "model_odds": "+99999",
+          "hrb_odds": "+20000",
+          "vegas_implied_pct": 0.5,
+          "edge": -0.4,
+          "flag": null
+        }
+      ],
+      "dnq": []
+    },
+    {
+      "name": "Southland",
+      "qualifier_text": "8 of 12 qualify",
+      "has_hrb_odds": true,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Stephen F. Austin",
+          "conf_record": "20-2",
+          "model_pct": 35.8,
+          "model_odds": "+179",
+          "hrb_odds": "+135",
+          "vegas_implied_pct": 42.6,
+          "edge": -6.8,
+          "flag": "FADE"
+        },
+        {
+          "seed": 2,
+          "team": "McNeese",
+          "conf_record": "19-3",
+          "model_pct": 40.2,
+          "model_odds": "+149",
+          "hrb_odds": "-145",
+          "vegas_implied_pct": 59.2,
+          "edge": -19.0,
+          "flag": "FADE"
+        },
+        {
+          "seed": 3,
+          "team": "UT Rio Grande Valley",
+          "conf_record": "15-8",
+          "model_pct": 10.8,
+          "model_odds": "+827",
+          "hrb_odds": "+500",
+          "vegas_implied_pct": 16.7,
+          "edge": -5.9,
+          "flag": "FADE"
+        },
+        {
+          "seed": 4,
+          "team": "Texas A&M-Corpus Christi",
+          "conf_record": "14-9",
+          "model_pct": 7.5,
+          "model_odds": "+1234",
+          "hrb_odds": "+800",
+          "vegas_implied_pct": 11.1,
+          "edge": -3.6,
+          "flag": null
+        },
+        {
+          "seed": 5,
+          "team": "New Orleans",
+          "conf_record": "13-11",
+          "model_pct": 3.3,
+          "model_odds": "+2932",
+          "hrb_odds": null,
+          "vegas_implied_pct": null,
+          "edge": null,
+          "flag": null
+        },
+        {
+          "seed": 6,
+          "team": "Nicholls",
+          "conf_record": "13-11",
+          "model_pct": 1.4,
+          "model_odds": "+6972",
+          "hrb_odds": null,
+          "vegas_implied_pct": null,
+          "edge": null,
+          "flag": null
+        },
+        {
+          "seed": 7,
+          "team": "Northwestern State",
+          "conf_record": "8-15",
+          "model_pct": 0.5,
+          "model_odds": "+19900",
+          "hrb_odds": null,
+          "vegas_implied_pct": null,
+          "edge": null,
+          "flag": null
+        },
+        {
+          "seed": 8,
+          "team": "Houston Christian",
+          "conf_record": "8-15",
+          "model_pct": 0.5,
+          "model_odds": "+20143",
+          "hrb_odds": null,
+          "vegas_implied_pct": null,
+          "edge": null,
+          "flag": null
+        }
+      ],
+      "dnq": [
+        "Lamar",
+        "Incarnate Word",
+        "East Texas A&M",
+        "SE Louisiana"
+      ]
+    },
+    {
+      "name": "CUSA",
+      "qualifier_text": "10 of 12 qualify",
+      "has_hrb_odds": true,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Liberty",
+          "conf_record": "17-3",
+          "model_pct": 11.9,
+          "model_odds": "+737",
+          "hrb_odds": "+300",
+          "vegas_implied_pct": 25.0,
+          "edge": -13.1,
+          "flag": "FADE"
+        },
+        {
+          "seed": 2,
+          "team": "Sam Houston",
+          "conf_record": "13-7",
+          "model_pct": 28.5,
+          "model_odds": "+251",
+          "hrb_odds": "+200",
+          "vegas_implied_pct": 33.3,
+          "edge": -4.8,
+          "flag": null
+        },
+        {
+          "seed": 3,
+          "team": "Western Kentucky",
+          "conf_record": "11-9",
+          "model_pct": 13.2,
+          "model_odds": "+656",
+          "hrb_odds": "+700",
+          "vegas_implied_pct": 12.5,
+          "edge": 0.7,
+          "flag": null
+        },
+        {
+          "seed": 4,
+          "team": "Louisiana Tech",
+          "conf_record": "11-9",
+          "model_pct": 5.8,
+          "model_odds": "+1630",
+          "hrb_odds": "+1200",
+          "vegas_implied_pct": 7.7,
+          "edge": -1.9,
+          "flag": null
+        },
+        {
+          "seed": 5,
+          "team": "Middle Tennessee",
+          "conf_record": "11-9",
+          "model_pct": 13.8,
+          "model_odds": "+624",
+          "hrb_odds": "+700",
+          "vegas_implied_pct": 12.5,
+          "edge": 1.3,
+          "flag": null
+        },
+        {
+          "seed": 6,
+          "team": "Kennesaw State",
+          "conf_record": "10-10",
+          "model_pct": 11.2,
+          "model_odds": "+790",
+          "hrb_odds": "+800",
+          "vegas_implied_pct": 11.1,
+          "edge": 0.1,
+          "flag": null
+        },
+        {
+          "seed": 7,
+          "team": "Jacksonville State",
+          "conf_record": "10-10",
+          "model_pct": 2.8,
+          "model_odds": "+3424",
+          "hrb_odds": "+3000",
+          "vegas_implied_pct": 3.2,
+          "edge": -0.4,
+          "flag": null
+        },
+        {
+          "seed": 8,
+          "team": "Florida International",
+          "conf_record": "8-12",
+          "model_pct": 5.1,
+          "model_odds": "+1879",
+          "hrb_odds": "+2000",
+          "vegas_implied_pct": 4.8,
+          "edge": 0.3,
+          "flag": null
+        },
+        {
+          "seed": 9,
+          "team": "Missouri State",
+          "conf_record": "8-12",
+          "model_pct": 4.6,
+          "model_odds": "+2082",
+          "hrb_odds": "+2500",
+          "vegas_implied_pct": 3.8,
+          "edge": 0.8,
+          "flag": null
+        },
+        {
+          "seed": 10,
+          "team": "New Mexico State",
+          "conf_record": "8-12",
+          "model_pct": 3.0,
+          "model_odds": "+3222",
+          "hrb_odds": "+3000",
+          "vegas_implied_pct": 3.2,
+          "edge": -0.2,
+          "flag": null
+        }
+      ],
+      "dnq": [
+        "UTEP",
+        "Delaware"
+      ]
+    },
+    {
+      "name": "ASUN",
+      "qualifier_text": "12 teams",
+      "has_hrb_odds": false,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Central Arkansas",
+          "conf_record": "17-4",
+          "model_pct": 21.2,
+          "model_odds": "+371"
+        },
+        {
+          "seed": 2,
+          "team": "Austin Peay",
+          "conf_record": "16-4",
+          "model_pct": 30.8,
+          "model_odds": "+224"
+        },
+        {
+          "seed": 3,
+          "team": "Queens University",
+          "conf_record": "16-5",
+          "model_pct": 13.8,
+          "model_odds": "+625"
+        },
+        {
+          "seed": 4,
+          "team": "Lipscomb",
+          "conf_record": "12-7",
+          "model_pct": 12.7,
+          "model_odds": "+686"
+        },
+        {
+          "seed": 5,
+          "team": "Florida Gulf Coast",
+          "conf_record": "10-11",
+          "model_pct": 6.1,
+          "model_odds": "+1539"
+        },
+        {
+          "seed": 6,
+          "team": "West Georgia",
+          "conf_record": "9-11",
+          "model_pct": 3.9,
+          "model_odds": "+2493"
+        },
+        {
+          "seed": 7,
+          "team": "Eastern Kentucky",
+          "conf_record": "7-12",
+          "model_pct": 2.5,
+          "model_odds": "+3849"
+        },
+        {
+          "seed": 8,
+          "team": "Bellarmine",
+          "conf_record": "8-12",
+          "model_pct": 1.5,
+          "model_odds": "+6703"
+        },
+        {
+          "seed": 9,
+          "team": "Jacksonville",
+          "conf_record": "7-12",
+          "model_pct": 3.5,
+          "model_odds": "+2752"
+        },
+        {
+          "seed": 10,
+          "team": "Stetson",
+          "conf_record": "8-12",
+          "model_pct": 1.9,
+          "model_odds": "+5282"
+        },
+        {
+          "seed": 11,
+          "team": "North Florida",
+          "conf_record": "5-14",
+          "model_pct": 1.1,
+          "model_odds": "+8813"
+        },
+        {
+          "seed": 12,
+          "team": "North Alabama",
+          "conf_record": "4-15",
+          "model_pct": 1.0,
+          "model_odds": "+10188"
+        }
+      ],
+      "dnq": []
+    },
+    {
+      "name": "SWAC",
+      "qualifier_text": "12 teams",
+      "has_hrb_odds": false,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Bethune-Cookman",
+          "conf_record": "14-4",
+          "model_pct": 26.6,
+          "model_odds": "+276"
+        },
+        {
+          "seed": 2,
+          "team": "Florida A&M",
+          "conf_record": "11-7",
+          "model_pct": 12.7,
+          "model_odds": "+685"
+        },
+        {
+          "seed": 3,
+          "team": "Southern",
+          "conf_record": "11-7",
+          "model_pct": 19.3,
+          "model_odds": "+418"
+        },
+        {
+          "seed": 4,
+          "team": "Texas Southern",
+          "conf_record": "10-8",
+          "model_pct": 11.3,
+          "model_odds": "+783"
+        },
+        {
+          "seed": 5,
+          "team": "Alabama A&M",
+          "conf_record": "10-8",
+          "model_pct": 5.1,
+          "model_odds": "+1876"
+        },
+        {
+          "seed": 6,
+          "team": "Arkansas-Pine Bluff",
+          "conf_record": "10-8",
+          "model_pct": 5.3,
+          "model_odds": "+1794"
+        },
+        {
+          "seed": 7,
+          "team": "Jackson State",
+          "conf_record": "10-8",
+          "model_pct": 2.3,
+          "model_odds": "+4252"
+        },
+        {
+          "seed": 8,
+          "team": "Prairie View A&M",
+          "conf_record": "9-9",
+          "model_pct": 3.7,
+          "model_odds": "+2625"
+        },
+        {
+          "seed": 9,
+          "team": "Grambling",
+          "conf_record": "8-11",
+          "model_pct": 5.6,
+          "model_odds": "+1701"
+        },
+        {
+          "seed": 10,
+          "team": "Alabama State",
+          "conf_record": "7-12",
+          "model_pct": 5.8,
+          "model_odds": "+1630"
+        },
+        {
+          "seed": 11,
+          "team": "Alcorn State",
+          "conf_record": "8-11",
+          "model_pct": 1.8,
+          "model_odds": "+5341"
+        },
+        {
+          "seed": 12,
+          "team": "Mississippi Valley State",
+          "conf_record": "2-17",
+          "model_pct": 0.6,
+          "model_odds": "+17383"
+        }
+      ],
+      "dnq": []
+    },
+    {
+      "name": "MVC",
+      "qualifier_text": "11 teams",
+      "has_hrb_odds": false,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Belmont",
+          "conf_record": "16-5",
+          "model_pct": 19.8,
+          "model_odds": "+405"
+        },
+        {
+          "seed": 2,
+          "team": "Bradley",
+          "conf_record": "14-8",
+          "model_pct": 11.1,
+          "model_odds": "+799"
+        },
+        {
+          "seed": 3,
+          "team": "Illinois State",
+          "conf_record": "12-9",
+          "model_pct": 17.7,
+          "model_odds": "+465"
+        },
+        {
+          "seed": 4,
+          "team": "Murray State",
+          "conf_record": "12-9",
+          "model_pct": 9.4,
+          "model_odds": "+959"
+        },
+        {
+          "seed": 5,
+          "team": "UIC",
+          "conf_record": "14-9",
+          "model_pct": 14.3,
+          "model_odds": "+599"
+        },
+        {
+          "seed": 6,
+          "team": "Northern Iowa",
+          "conf_record": "15-9",
+          "model_pct": 10.6,
+          "model_odds": "+840"
+        },
+        {
+          "seed": 7,
+          "team": "Valparaiso",
+          "conf_record": "12-10",
+          "model_pct": 5.5,
+          "model_odds": "+1715"
+        },
+        {
+          "seed": 8,
+          "team": "Southern Illinois",
+          "conf_record": "10-11",
+          "model_pct": 7.9,
+          "model_odds": "+1160"
+        },
+        {
+          "seed": 9,
+          "team": "Drake",
+          "conf_record": "8-15",
+          "model_pct": 1.2,
+          "model_odds": "+8261"
+        },
+        {
+          "seed": 10,
+          "team": "Indiana State",
+          "conf_record": "4-17",
+          "model_pct": 2.0,
+          "model_odds": "+5018"
+        },
+        {
+          "seed": 11,
+          "team": "Evansville",
+          "conf_record": "3-18",
+          "model_pct": 0.4,
+          "model_odds": "+24531"
+        }
+      ],
+      "dnq": []
+    },
+    {
+      "name": "Big West",
+      "qualifier_text": "8 of 11 qualify",
+      "has_hrb_odds": true,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "UC Irvine",
+          "conf_record": "15-5",
+          "model_pct": 30.6,
+          "model_odds": "+227",
+          "hrb_odds": "+150",
+          "vegas_implied_pct": 40.0,
+          "edge": -9.4,
+          "flag": "FADE"
+        },
+        {
+          "seed": 2,
+          "team": "Hawai'i",
+          "conf_record": "14-6",
+          "model_pct": 33.8,
+          "model_odds": "+196",
+          "hrb_odds": "+200",
+          "vegas_implied_pct": 33.3,
+          "edge": 0.5,
+          "flag": null
+        },
+        {
+          "seed": 3,
+          "team": "Cal State Fullerton",
+          "conf_record": "12-8",
+          "model_pct": 4.7,
+          "model_odds": "+2048",
+          "hrb_odds": "+1600",
+          "vegas_implied_pct": 5.9,
+          "edge": -1.2,
+          "flag": null
+        },
+        {
+          "seed": 4,
+          "team": "Cal State Northridge",
+          "conf_record": "12-8",
+          "model_pct": 9.9,
+          "model_odds": "+909",
+          "hrb_odds": "+1200",
+          "vegas_implied_pct": 7.7,
+          "edge": 2.2,
+          "flag": null
+        },
+        {
+          "seed": 5,
+          "team": "UC San Diego",
+          "conf_record": "12-8",
+          "model_pct": 7.9,
+          "model_odds": "+1158",
+          "hrb_odds": "+700",
+          "vegas_implied_pct": 12.5,
+          "edge": -4.6,
+          "flag": null
+        },
+        {
+          "seed": 6,
+          "team": "UC Davis",
+          "conf_record": "11-9",
+          "model_pct": 4.1,
+          "model_odds": "+2359",
+          "hrb_odds": "+2000",
+          "vegas_implied_pct": 4.8,
+          "edge": -0.7,
+          "flag": null
+        },
+        {
+          "seed": 7,
+          "team": "UC Santa Barbara",
+          "conf_record": "11-9",
+          "model_pct": 7.8,
+          "model_odds": "+1187",
+          "hrb_odds": "+700",
+          "vegas_implied_pct": 12.5,
+          "edge": -4.7,
+          "flag": null
+        },
+        {
+          "seed": 8,
+          "team": "Cal Poly",
+          "conf_record": "10-10",
+          "model_pct": 1.3,
+          "model_odds": "+7374",
+          "hrb_odds": "+5000",
+          "vegas_implied_pct": 2.0,
+          "edge": -0.7,
+          "flag": null
+        }
+      ],
+      "dnq": [
+        "Long Beach State",
+        "UC Riverside",
+        "Cal State Bakersfield"
+      ]
+    },
+    {
+      "name": "OVC",
+      "qualifier_text": "8 of 11 qualify",
+      "has_hrb_odds": false,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Tennessee State",
+          "conf_record": "17-5",
+          "model_pct": 28.6,
+          "model_odds": "+250"
+        },
+        {
+          "seed": 2,
+          "team": "Morehead State",
+          "conf_record": "16-6",
+          "model_pct": 17.6,
+          "model_odds": "+467"
+        },
+        {
+          "seed": 3,
+          "team": "Southeast Missouri State",
+          "conf_record": "15-7",
+          "model_pct": 19.4,
+          "model_odds": "+415"
+        },
+        {
+          "seed": 4,
+          "team": "UT Martin",
+          "conf_record": "14-8",
+          "model_pct": 13.9,
+          "model_odds": "+617"
+        },
+        {
+          "seed": 5,
+          "team": "SIU Edwardsville",
+          "conf_record": "12-9",
+          "model_pct": 7.2,
+          "model_odds": "+1287"
+        },
+        {
+          "seed": 6,
+          "team": "Lindenwood",
+          "conf_record": "12-10",
+          "model_pct": 9.3,
+          "model_odds": "+981"
+        },
+        {
+          "seed": 7,
+          "team": "Little Rock",
+          "conf_record": "9-12",
+          "model_pct": 1.9,
+          "model_odds": "+5213"
+        },
+        {
+          "seed": 8,
+          "team": "Eastern Illinois",
+          "conf_record": "9-13",
+          "model_pct": 2.1,
+          "model_odds": "+4750"
+        }
+      ],
+      "dnq": [
+        "Tennessee Tech",
+        "Southern Indiana",
+        "Western Illinois"
+      ]
+    },
+    {
+      "name": "Horizon",
+      "qualifier_text": "11 teams",
+      "has_hrb_odds": false,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Wright State",
+          "conf_record": "17-5",
+          "model_pct": 24.9,
+          "model_odds": "+302"
+        },
+        {
+          "seed": 2,
+          "team": "Robert Morris",
+          "conf_record": "14-8",
+          "model_pct": 19.0,
+          "model_odds": "+426"
+        },
+        {
+          "seed": 3,
+          "team": "Detroit Mercy",
+          "conf_record": "14-8",
+          "model_pct": 13.0,
+          "model_odds": "+669"
+        },
+        {
+          "seed": 4,
+          "team": "Oakland",
+          "conf_record": "12-9",
+          "model_pct": 11.6,
+          "model_odds": "+761"
+        },
+        {
+          "seed": 5,
+          "team": "Green Bay",
+          "conf_record": "13-9",
+          "model_pct": 9.3,
+          "model_odds": "+976"
+        },
+        {
+          "seed": 6,
+          "team": "Purdue Fort Wayne",
+          "conf_record": "11-10",
+          "model_pct": 4.8,
+          "model_odds": "+1993"
+        },
+        {
+          "seed": 7,
+          "team": "Northern Kentucky",
+          "conf_record": "12-11",
+          "model_pct": 8.2,
+          "model_odds": "+1112"
+        },
+        {
+          "seed": 8,
+          "team": "Milwaukee",
+          "conf_record": "8-13",
+          "model_pct": 1.9,
+          "model_odds": "+5049"
+        },
+        {
+          "seed": 9,
+          "team": "Youngstown State",
+          "conf_record": "8-13",
+          "model_pct": 5.9,
+          "model_odds": "+1583"
+        },
+        {
+          "seed": 10,
+          "team": "Cleveland State",
+          "conf_record": "7-15",
+          "model_pct": 0.4,
+          "model_odds": "+26496"
+        },
+        {
+          "seed": 11,
+          "team": "IU Indianapolis",
+          "conf_record": "3-18",
+          "model_pct": 0.9,
+          "model_odds": "+11161"
+        }
+      ],
+      "dnq": []
+    },
+    {
+      "name": "Big Sky",
+      "qualifier_text": "10 teams",
+      "has_hrb_odds": true,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Portland State",
+          "conf_record": "14-5",
+          "model_pct": 18.7,
+          "model_odds": "+436",
+          "hrb_odds": "+225",
+          "vegas_implied_pct": 30.8,
+          "edge": -12.1,
+          "flag": "FADE"
+        },
+        {
+          "seed": 2,
+          "team": "Montana State",
+          "conf_record": "12-7",
+          "model_pct": 15.6,
+          "model_odds": "+539",
+          "hrb_odds": null,
+          "vegas_implied_pct": null,
+          "edge": null,
+          "flag": null
+        },
+        {
+          "seed": 3,
+          "team": "Eastern Washington",
+          "conf_record": "12-7",
+          "model_pct": 15.6,
+          "model_odds": "+540",
+          "hrb_odds": "+225",
+          "vegas_implied_pct": 30.8,
+          "edge": -15.2,
+          "flag": "FADE"
+        },
+        {
+          "seed": 4,
+          "team": "Montana",
+          "conf_record": "11-8",
+          "model_pct": 10.1,
+          "model_odds": "+895",
+          "hrb_odds": "+400",
+          "vegas_implied_pct": 20.0,
+          "edge": -9.9,
+          "flag": "FADE"
+        },
+        {
+          "seed": 5,
+          "team": "Northern Colorado",
+          "conf_record": "10-9",
+          "model_pct": 17.5,
+          "model_odds": "+471",
+          "hrb_odds": null,
+          "vegas_implied_pct": null,
+          "edge": null,
+          "flag": null
+        },
+        {
+          "seed": 6,
+          "team": "Weber State",
+          "conf_record": "10-9",
+          "model_pct": 8.4,
+          "model_odds": "+1084",
+          "hrb_odds": null,
+          "vegas_implied_pct": null,
+          "edge": null,
+          "flag": null
+        },
+        {
+          "seed": 7,
+          "team": "Idaho",
+          "conf_record": "11-9",
+          "model_pct": 9.3,
+          "model_odds": "+972",
+          "hrb_odds": "+275",
+          "vegas_implied_pct": 26.7,
+          "edge": -17.4,
+          "flag": "FADE"
+        },
+        {
+          "seed": 8,
+          "team": "Sacramento State",
+          "conf_record": "6-13",
+          "model_pct": 2.1,
+          "model_odds": "+4745",
+          "hrb_odds": null,
+          "vegas_implied_pct": null,
+          "edge": null,
+          "flag": null
+        },
+        {
+          "seed": 9,
+          "team": "Idaho State",
+          "conf_record": "6-14",
+          "model_pct": 1.9,
+          "model_odds": "+5248",
+          "hrb_odds": null,
+          "vegas_implied_pct": null,
+          "edge": null,
+          "flag": null
+        },
+        {
+          "seed": 10,
+          "team": "Northern Arizona",
+          "conf_record": "4-15",
+          "model_pct": 0.8,
+          "model_odds": "+13128",
+          "hrb_odds": null,
+          "vegas_implied_pct": null,
+          "edge": null,
+          "flag": null
+        }
+      ],
+      "dnq": []
+    },
+    {
+      "name": "SoCon",
+      "qualifier_text": "10 teams",
+      "has_hrb_odds": false,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "East Tennessee State",
+          "conf_record": "15-6",
+          "model_pct": 23.3,
+          "model_odds": "+329"
+        },
+        {
+          "seed": 2,
+          "team": "Wofford",
+          "conf_record": "11-8",
+          "model_pct": 13.2,
+          "model_odds": "+659"
+        },
+        {
+          "seed": 3,
+          "team": "Samford",
+          "conf_record": "11-8",
+          "model_pct": 9.7,
+          "model_odds": "+929"
+        },
+        {
+          "seed": 4,
+          "team": "Mercer",
+          "conf_record": "11-8",
+          "model_pct": 15.9,
+          "model_odds": "+529"
+        },
+        {
+          "seed": 5,
+          "team": "Western Carolina",
+          "conf_record": "11-9",
+          "model_pct": 12.6,
+          "model_odds": "+697"
+        },
+        {
+          "seed": 6,
+          "team": "Furman",
+          "conf_record": "13-8",
+          "model_pct": 17.4,
+          "model_odds": "+473"
+        },
+        {
+          "seed": 7,
+          "team": "UNC Greensboro",
+          "conf_record": "11-10",
+          "model_pct": 3.7,
+          "model_odds": "+2568"
+        },
+        {
+          "seed": 8,
+          "team": "Chattanooga",
+          "conf_record": "7-12",
+          "model_pct": 2.5,
+          "model_odds": "+3942"
+        },
+        {
+          "seed": 9,
+          "team": "The Citadel",
+          "conf_record": "8-12",
+          "model_pct": 0.9,
+          "model_odds": "+11501"
+        },
+        {
+          "seed": 10,
+          "team": "VMI",
+          "conf_record": "1-18",
+          "model_pct": 0.8,
+          "model_odds": "+12095"
+        }
+      ],
+      "dnq": []
+    },
+    {
+      "name": "Patriot",
+      "qualifier_text": "10 teams",
+      "has_hrb_odds": false,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Navy",
+          "conf_record": "18-2",
+          "model_pct": 34.2,
+          "model_odds": "+192"
+        },
+        {
+          "seed": 2,
+          "team": "Lehigh",
+          "conf_record": "13-7",
+          "model_pct": 10.3,
+          "model_odds": "+871"
+        },
+        {
+          "seed": 3,
+          "team": "Colgate",
+          "conf_record": "12-8",
+          "model_pct": 15.3,
+          "model_odds": "+553"
+        },
+        {
+          "seed": 4,
+          "team": "Boston University",
+          "conf_record": "12-8",
+          "model_pct": 9.1,
+          "model_odds": "+999"
+        },
+        {
+          "seed": 5,
+          "team": "American University",
+          "conf_record": "9-10",
+          "model_pct": 13.4,
+          "model_odds": "+645"
+        },
+        {
+          "seed": 6,
+          "team": "Loyola Maryland",
+          "conf_record": "8-11",
+          "model_pct": 6.5,
+          "model_odds": "+1429"
+        },
+        {
+          "seed": 7,
+          "team": "Lafayette",
+          "conf_record": "8-11",
+          "model_pct": 4.0,
+          "model_odds": "+2423"
+        },
+        {
+          "seed": 8,
+          "team": "Bucknell",
+          "conf_record": "7-13",
+          "model_pct": 2.7,
+          "model_odds": "+3547"
+        },
+        {
+          "seed": 9,
+          "team": "Army",
+          "conf_record": "5-14",
+          "model_pct": 2.1,
+          "model_odds": "+4703"
+        },
+        {
+          "seed": 10,
+          "team": "Holy Cross",
+          "conf_record": "6-14",
+          "model_pct": 2.3,
+          "model_odds": "+4166"
+        }
+      ],
+      "dnq": []
+    },
+    {
+      "name": "NEC",
+      "qualifier_text": "8 of 10 qualify",
+      "has_hrb_odds": false,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Long Island University",
+          "conf_record": "17-3",
+          "model_pct": 27.2,
+          "model_odds": "+267"
+        },
+        {
+          "seed": 2,
+          "team": "Central Connecticut",
+          "conf_record": "12-7",
+          "model_pct": 10.5,
+          "model_odds": "+851"
+        },
+        {
+          "seed": 3,
+          "team": "Mercyhurst",
+          "conf_record": "12-8",
+          "model_pct": 14.7,
+          "model_odds": "+580"
+        },
+        {
+          "seed": 4,
+          "team": "Le Moyne",
+          "conf_record": "10-9",
+          "model_pct": 13.6,
+          "model_odds": "+637"
+        },
+        {
+          "seed": 5,
+          "team": "Stonehill",
+          "conf_record": "9-11",
+          "model_pct": 7.9,
+          "model_odds": "+1173"
+        },
+        {
+          "seed": 6,
+          "team": "Fairleigh Dickinson",
+          "conf_record": "8-11",
+          "model_pct": 7.7,
+          "model_odds": "+1191"
+        },
+        {
+          "seed": 7,
+          "team": "Wagner",
+          "conf_record": "9-11",
+          "model_pct": 12.4,
+          "model_odds": "+707"
+        },
+        {
+          "seed": 8,
+          "team": "Chicago State",
+          "conf_record": "5-14",
+          "model_pct": 6.0,
+          "model_odds": "+1573"
+        }
+      ],
+      "dnq": [
+        "New Haven",
+        "St. Francis (PA)"
+      ]
+    },
+    {
+      "name": "Big South",
+      "qualifier_text": "9 teams",
+      "has_hrb_odds": false,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "High Point",
+          "conf_record": "18-1",
+          "model_pct": 37.5,
+          "model_odds": "+167"
+        },
+        {
+          "seed": 2,
+          "team": "Winthrop",
+          "conf_record": "15-4",
+          "model_pct": 19.8,
+          "model_odds": "+405"
+        },
+        {
+          "seed": 3,
+          "team": "Radford",
+          "conf_record": "9-8",
+          "model_pct": 9.9,
+          "model_odds": "+907"
+        },
+        {
+          "seed": 4,
+          "team": "UNC Asheville",
+          "conf_record": "9-9",
+          "model_pct": 7.5,
+          "model_odds": "+1238"
+        },
+        {
+          "seed": 5,
+          "team": "Longwood",
+          "conf_record": "8-9",
+          "model_pct": 8.6,
+          "model_odds": "+1066"
+        },
+        {
+          "seed": 6,
+          "team": "Presbyterian",
+          "conf_record": "8-10",
+          "model_pct": 5.8,
+          "model_odds": "+1616"
+        },
+        {
+          "seed": 7,
+          "team": "Charleston Southern",
+          "conf_record": "6-11",
+          "model_pct": 7.6,
+          "model_odds": "+1223"
+        },
+        {
+          "seed": 8,
+          "team": "South Carolina Upstate",
+          "conf_record": "5-12",
+          "model_pct": 3.0,
+          "model_odds": "+3269"
+        },
+        {
+          "seed": 9,
+          "team": "Gardner-Webb",
+          "conf_record": "2-16",
+          "model_pct": 0.4,
+          "model_odds": "+25673"
+        }
+      ],
+      "dnq": []
+    },
+    {
+      "name": "Summit",
+      "qualifier_text": "9 teams",
+      "has_hrb_odds": false,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "North Dakota State",
+          "conf_record": "17-2",
+          "model_pct": 27.2,
+          "model_odds": "+268"
+        },
+        {
+          "seed": 2,
+          "team": "St. Thomas-Minnesota",
+          "conf_record": "13-5",
+          "model_pct": 27.0,
+          "model_odds": "+271"
+        },
+        {
+          "seed": 3,
+          "team": "North Dakota",
+          "conf_record": "12-7",
+          "model_pct": 6.8,
+          "model_odds": "+1368"
+        },
+        {
+          "seed": 4,
+          "team": "South Dakota",
+          "conf_record": "8-9",
+          "model_pct": 7.1,
+          "model_odds": "+1309"
+        },
+        {
+          "seed": 5,
+          "team": "Omaha",
+          "conf_record": "9-9",
+          "model_pct": 10.4,
+          "model_odds": "+863"
+        },
+        {
+          "seed": 6,
+          "team": "Denver",
+          "conf_record": "8-9",
+          "model_pct": 8.6,
+          "model_odds": "+1063"
+        },
+        {
+          "seed": 7,
+          "team": "South Dakota State",
+          "conf_record": "7-10",
+          "model_pct": 9.2,
+          "model_odds": "+987"
+        },
+        {
+          "seed": 8,
+          "team": "Oral Roberts",
+          "conf_record": "5-13",
+          "model_pct": 3.2,
+          "model_odds": "+3015"
+        },
+        {
+          "seed": 9,
+          "team": "Kansas City",
+          "conf_record": "1-16",
+          "model_pct": 0.6,
+          "model_odds": "+17322"
+        }
+      ],
+      "dnq": []
+    },
+    {
+      "name": "Am. East",
+      "qualifier_text": "8 of 9 qualify",
+      "has_hrb_odds": true,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "UMBC",
+          "conf_record": "15-2",
+          "model_pct": 25.8,
+          "model_odds": "+288",
+          "hrb_odds": "-220",
+          "vegas_implied_pct": 68.8,
+          "edge": -43.0,
+          "flag": "FADE"
+        },
+        {
+          "seed": 2,
+          "team": "Vermont",
+          "conf_record": "13-4",
+          "model_pct": 19.6,
+          "model_odds": "+411",
+          "hrb_odds": "+200",
+          "vegas_implied_pct": 33.3,
+          "edge": -13.7,
+          "flag": "FADE"
+        },
+        {
+          "seed": 3,
+          "team": "NJIT",
+          "conf_record": "11-6",
+          "model_pct": 14.6,
+          "model_odds": "+587",
+          "hrb_odds": "+1400",
+          "vegas_implied_pct": 6.7,
+          "edge": 7.9,
+          "flag": "STRONG VALUE"
+        },
+        {
+          "seed": 4,
+          "team": "UMass Lowell",
+          "conf_record": "10-7",
+          "model_pct": 12.0,
+          "model_odds": "+730",
+          "hrb_odds": "+2000",
+          "vegas_implied_pct": 4.8,
+          "edge": 7.2,
+          "flag": "STRONG VALUE"
+        },
+        {
+          "seed": 5,
+          "team": "UAlbany",
+          "conf_record": "7-10",
+          "model_pct": 10.2,
+          "model_odds": "+878",
+          "hrb_odds": null,
+          "vegas_implied_pct": null,
+          "edge": null,
+          "flag": null
+        },
+        {
+          "seed": 6,
+          "team": "Maine",
+          "conf_record": "6-11",
+          "model_pct": 5.9,
+          "model_odds": "+1598",
+          "hrb_odds": null,
+          "vegas_implied_pct": null,
+          "edge": null,
+          "flag": null
+        },
+        {
+          "seed": 7,
+          "team": "Bryant",
+          "conf_record": "5-12",
+          "model_pct": 5.6,
+          "model_odds": "+1701",
+          "hrb_odds": null,
+          "vegas_implied_pct": null,
+          "edge": null,
+          "flag": null
+        },
+        {
+          "seed": 8,
+          "team": "New Hampshire",
+          "conf_record": "5-12",
+          "model_pct": 6.4,
+          "model_odds": "+1472",
+          "hrb_odds": null,
+          "vegas_implied_pct": null,
+          "edge": null,
+          "flag": null
+        }
+      ],
+      "dnq": [
+        "Binghamton"
+      ]
+    },
+    {
+      "name": "Ivy",
+      "qualifier_text": "4 of 8 qualify",
+      "has_hrb_odds": true,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Yale",
+          "conf_record": "11-3",
+          "model_pct": 38.3,
+          "model_odds": "+161",
+          "hrb_odds": "-110",
+          "vegas_implied_pct": 52.4,
+          "edge": -14.1,
+          "flag": "FADE"
+        },
+        {
+          "seed": 2,
+          "team": "Harvard",
+          "conf_record": "10-4",
+          "model_pct": 20.6,
+          "model_odds": "+385",
+          "hrb_odds": "+500",
+          "vegas_implied_pct": 16.7,
+          "edge": 3.9,
+          "flag": "VALUE"
+        },
+        {
+          "seed": 3,
+          "team": "Pennsylvania",
+          "conf_record": "9-5",
+          "model_pct": 23.8,
+          "model_odds": "+321",
+          "hrb_odds": "+400",
+          "vegas_implied_pct": 20.0,
+          "edge": 3.8,
+          "flag": "VALUE"
+        },
+        {
+          "seed": 4,
+          "team": "Cornell",
+          "conf_record": "8-6",
+          "model_pct": 17.3,
+          "model_odds": "+479",
+          "hrb_odds": "+400",
+          "vegas_implied_pct": 20.0,
+          "edge": -2.7,
+          "flag": null
+        }
+      ],
+      "dnq": [
+        "Columbia",
+        "Princeton",
+        "Dartmouth",
+        "Brown"
+      ]
+    },
+    {
+      "name": "MEAC",
+      "qualifier_text": "7 of 8 qualify",
+      "has_hrb_odds": true,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Howard",
+          "conf_record": "11-3",
+          "model_pct": 64.8,
+          "model_odds": "-184",
+          "hrb_odds": "-350",
+          "vegas_implied_pct": 77.8,
+          "edge": -13.0,
+          "flag": "FADE"
+        },
+        {
+          "seed": 2,
+          "team": "Morgan State",
+          "conf_record": "10-4",
+          "model_pct": 6.5,
+          "model_odds": "+1448",
+          "hrb_odds": "+1200",
+          "vegas_implied_pct": 7.7,
+          "edge": -1.2,
+          "flag": null
+        },
+        {
+          "seed": 3,
+          "team": "North Carolina Central",
+          "conf_record": "8-6",
+          "model_pct": 5.8,
+          "model_odds": "+1615",
+          "hrb_odds": "+1600",
+          "vegas_implied_pct": 5.9,
+          "edge": -0.1,
+          "flag": null
+        },
+        {
+          "seed": 4,
+          "team": "Norfolk State",
+          "conf_record": "8-6",
+          "model_pct": 7.5,
+          "model_odds": "+1235",
+          "hrb_odds": "+650",
+          "vegas_implied_pct": 13.3,
+          "edge": -5.8,
+          "flag": "FADE"
+        },
+        {
+          "seed": 5,
+          "team": "South Carolina State",
+          "conf_record": "7-7",
+          "model_pct": 4.2,
+          "model_odds": "+2260",
+          "hrb_odds": "+4000",
+          "vegas_implied_pct": 2.4,
+          "edge": 1.8,
+          "flag": null
+        },
+        {
+          "seed": 6,
+          "team": "Maryland Eastern Shore",
+          "conf_record": "5-9",
+          "model_pct": 6.9,
+          "model_odds": "+1355",
+          "hrb_odds": "+2000",
+          "vegas_implied_pct": 4.8,
+          "edge": 2.1,
+          "flag": null
+        },
+        {
+          "seed": 7,
+          "team": "Delaware State",
+          "conf_record": "2-12",
+          "model_pct": 4.3,
+          "model_odds": "+2225",
+          "hrb_odds": "+5000",
+          "vegas_implied_pct": 2.0,
+          "edge": 2.3,
+          "flag": null
+        }
+      ],
+      "dnq": [
+        "Coppin State"
+      ]
+    },
+    {
+      "name": "WAC",
+      "qualifier_text": "7 teams",
+      "has_hrb_odds": true,
+      "teams": [
+        {
+          "seed": 1,
+          "team": "Utah Valley",
+          "conf_record": "14-4",
+          "model_pct": 48.6,
+          "model_odds": "+106",
+          "hrb_odds": "-110",
+          "vegas_implied_pct": 52.4,
+          "edge": -3.8,
+          "flag": null
+        },
+        {
+          "seed": 2,
+          "team": "California Baptist",
+          "conf_record": "13-5",
+          "model_pct": 20.7,
+          "model_odds": "+384",
+          "hrb_odds": "+150",
+          "vegas_implied_pct": 40.0,
+          "edge": -19.3,
+          "flag": "FADE"
+        },
+        {
+          "seed": 3,
+          "team": "Utah Tech",
+          "conf_record": "11-7",
+          "model_pct": 6.8,
+          "model_odds": "+1361",
+          "hrb_odds": "+1200",
+          "vegas_implied_pct": 7.7,
+          "edge": -0.9,
+          "flag": null
+        },
+        {
+          "seed": 4,
+          "team": "UT Arlington",
+          "conf_record": "9-9",
+          "model_pct": 9.1,
+          "model_odds": "+997",
+          "hrb_odds": "+1200",
+          "vegas_implied_pct": 7.7,
+          "edge": 1.4,
+          "flag": null
+        },
+        {
+          "seed": 5,
+          "team": "Southern Utah",
+          "conf_record": "6-12",
+          "model_pct": 3.2,
+          "model_odds": "+3061",
+          "hrb_odds": "+5000",
+          "vegas_implied_pct": 2.0,
+          "edge": 1.2,
+          "flag": null
+        },
+        {
+          "seed": 6,
+          "team": "Abilene Christian",
+          "conf_record": "5-13",
+          "model_pct": 5.7,
+          "model_odds": "+1647",
+          "hrb_odds": "+10000",
+          "vegas_implied_pct": 1.0,
+          "edge": 4.7,
+          "flag": "VALUE"
+        },
+        {
+          "seed": 7,
+          "team": "Tarleton State",
+          "conf_record": "5-13",
+          "model_pct": 5.9,
+          "model_odds": "+1599",
+          "hrb_odds": "+4000",
+          "vegas_implied_pct": 2.4,
+          "edge": 3.5,
+          "flag": "VALUE"
+        }
+      ],
+      "dnq": []
+    }
+  ],
+  "value_bets": [
+    {
+      "conf": "Am. East",
+      "team": "NJIT",
+      "model_pct": 14.6,
+      "hrb_odds": "+1400",
+      "edge": 7.9,
+      "flag": "STRONG VALUE"
+    },
+    {
+      "conf": "Am. East",
+      "team": "UMass Lowell",
+      "model_pct": 12.0,
+      "hrb_odds": "+2000",
+      "edge": 7.2,
+      "flag": "STRONG VALUE"
+    },
+    {
+      "conf": "ACC",
+      "team": "North Carolina",
+      "model_pct": 10.9,
+      "hrb_odds": "+2000",
+      "edge": 6.1,
+      "flag": "STRONG VALUE"
+    },
+    {
+      "conf": "ACC",
+      "team": "Miami",
+      "model_pct": 10.6,
+      "hrb_odds": "+2000",
+      "edge": 5.8,
+      "flag": "STRONG VALUE"
+    },
+    {
+      "conf": "Big Ten",
+      "team": "Michigan State",
+      "model_pct": 18.5,
+      "hrb_odds": "+650",
+      "edge": 5.2,
+      "flag": "STRONG VALUE"
+    },
+    {
+      "conf": "MAC",
+      "team": "Bowling Green",
+      "model_pct": 10.5,
+      "hrb_odds": "+1750",
+      "edge": 5.1,
+      "flag": "STRONG VALUE"
+    },
+    {
+      "conf": "Big 12",
+      "team": "Texas Tech",
+      "model_pct": 12.7,
+      "hrb_odds": "+1200",
+      "edge": 5.0,
+      "flag": "STRONG VALUE"
+    },
+    {
+      "conf": "WAC",
+      "team": "Abilene Christian",
+      "model_pct": 5.7,
+      "hrb_odds": "+10000",
+      "edge": 4.7,
+      "flag": "VALUE"
+    },
+    {
+      "conf": "Ivy",
+      "team": "Harvard",
+      "model_pct": 20.6,
+      "hrb_odds": "+500",
+      "edge": 3.9,
+      "flag": "VALUE"
+    },
+    {
+      "conf": "MAC",
+      "team": "Kent State",
+      "model_pct": 10.5,
+      "hrb_odds": "+1400",
+      "edge": 3.8,
+      "flag": "VALUE"
+    },
+    {
+      "conf": "Ivy",
+      "team": "Pennsylvania",
+      "model_pct": 23.8,
+      "hrb_odds": "+400",
+      "edge": 3.8,
+      "flag": "VALUE"
+    },
+    {
+      "conf": "MAC",
+      "team": "Massachusetts",
+      "model_pct": 7.0,
+      "hrb_odds": "+3000",
+      "edge": 3.8,
+      "flag": "VALUE"
+    },
+    {
+      "conf": "Big East",
+      "team": "Seton Hall",
+      "model_pct": 9.0,
+      "hrb_odds": "+1750",
+      "edge": 3.6,
+      "flag": "VALUE"
+    },
+    {
+      "conf": "WAC",
+      "team": "Tarleton State",
+      "model_pct": 5.9,
+      "hrb_odds": "+4000",
+      "edge": 3.5,
+      "flag": "VALUE"
+    }
+  ],
+  "fades": [
+    {
+      "conf": "Am. East",
+      "team": "UMBC",
+      "model_pct": 25.8,
+      "hrb_odds": "-220",
+      "edge": -43.0,
+      "flag": "FADE"
+    },
+    {
+      "conf": "ACC",
+      "team": "Duke",
+      "model_pct": 39.4,
+      "hrb_odds": "-350",
+      "edge": -38.4,
+      "flag": "FADE"
+    },
+    {
+      "conf": "SEC",
+      "team": "Florida",
+      "model_pct": 31.0,
+      "hrb_odds": "-170",
+      "edge": -32.0,
+      "flag": "FADE"
+    },
+    {
+      "conf": "Big Ten",
+      "team": "Michigan",
+      "model_pct": 29.0,
+      "hrb_odds": "-125",
+      "edge": -26.6,
+      "flag": "FADE"
+    },
+    {
+      "conf": "MAC",
+      "team": "Akron",
+      "model_pct": 34.7,
+      "hrb_odds": "-150",
+      "edge": -25.3,
+      "flag": "FADE"
+    },
+    {
+      "conf": "WAC",
+      "team": "California Baptist",
+      "model_pct": 20.7,
+      "hrb_odds": "+150",
+      "edge": -19.3,
+      "flag": "FADE"
+    },
+    {
+      "conf": "Southland",
+      "team": "McNeese",
+      "model_pct": 40.2,
+      "hrb_odds": "-145",
+      "edge": -19.0,
+      "flag": "FADE"
+    },
+    {
+      "conf": "Big East",
+      "team": "UConn",
+      "model_pct": 32.6,
+      "hrb_odds": "+100",
+      "edge": -17.4,
+      "flag": "FADE"
+    },
+    {
+      "conf": "Big Sky",
+      "team": "Idaho",
+      "model_pct": 9.3,
+      "hrb_odds": "+275",
+      "edge": -17.4,
+      "flag": "FADE"
+    },
+    {
+      "conf": "Big 12",
+      "team": "Arizona",
+      "model_pct": 32.2,
+      "hrb_odds": "+105",
+      "edge": -16.6,
+      "flag": "FADE"
+    },
+    {
+      "conf": "Big East",
+      "team": "St. John's",
+      "model_pct": 28.1,
+      "hrb_odds": "+125",
+      "edge": -16.3,
+      "flag": "FADE"
+    },
+    {
+      "conf": "Big Sky",
+      "team": "Eastern Washington",
+      "model_pct": 15.6,
+      "hrb_odds": "+225",
+      "edge": -15.2,
+      "flag": "FADE"
+    },
+    {
+      "conf": "Ivy",
+      "team": "Yale",
+      "model_pct": 38.3,
+      "hrb_odds": "-110",
+      "edge": -14.1,
+      "flag": "FADE"
+    },
+    {
+      "conf": "A-10",
+      "team": "VCU",
+      "model_pct": 21.7,
+      "hrb_odds": "+180",
+      "edge": -14.0,
+      "flag": "FADE"
+    },
+    {
+      "conf": "Am. East",
+      "team": "Vermont",
+      "model_pct": 19.6,
+      "hrb_odds": "+200",
+      "edge": -13.7,
+      "flag": "FADE"
+    },
+    {
+      "conf": "CUSA",
+      "team": "Liberty",
+      "model_pct": 11.9,
+      "hrb_odds": "+300",
+      "edge": -13.1,
+      "flag": "FADE"
+    },
+    {
+      "conf": "MEAC",
+      "team": "Howard",
+      "model_pct": 64.8,
+      "hrb_odds": "-350",
+      "edge": -13.0,
+      "flag": "FADE"
+    },
+    {
+      "conf": "Big 12",
+      "team": "Houston",
+      "model_pct": 22.4,
+      "hrb_odds": "+185",
+      "edge": -12.7,
+      "flag": "FADE"
+    },
+    {
+      "conf": "A-10",
+      "team": "Saint Louis",
+      "model_pct": 30.4,
+      "hrb_odds": "+135",
+      "edge": -12.2,
+      "flag": "FADE"
+    },
+    {
+      "conf": "Big Sky",
+      "team": "Portland State",
+      "model_pct": 18.7,
+      "hrb_odds": "+225",
+      "edge": -12.1,
+      "flag": "FADE"
+    },
+    {
+      "conf": "American",
+      "team": "Tulsa",
+      "model_pct": 16.1,
+      "hrb_odds": "+275",
+      "edge": -10.6,
+      "flag": "FADE"
+    },
+    {
+      "conf": "MAC",
+      "team": "Miami (OH)",
+      "model_pct": 20.8,
+      "hrb_odds": "+220",
+      "edge": -10.4,
+      "flag": "FADE"
+    },
+    {
+      "conf": "Big Sky",
+      "team": "Montana",
+      "model_pct": 10.1,
+      "hrb_odds": "+400",
+      "edge": -9.9,
+      "flag": "FADE"
+    },
+    {
+      "conf": "Big West",
+      "team": "UC Irvine",
+      "model_pct": 30.6,
+      "hrb_odds": "+150",
+      "edge": -9.4,
+      "flag": "FADE"
+    },
+    {
+      "conf": "American",
+      "team": "South Florida",
+      "model_pct": 43.3,
+      "hrb_odds": "-110",
+      "edge": -9.1,
+      "flag": "FADE"
+    },
+    {
+      "conf": "Mountain West",
+      "team": "Utah State",
+      "model_pct": 22.1,
+      "hrb_odds": "+225",
+      "edge": -8.7,
+      "flag": "FADE"
+    },
+    {
+      "conf": "Southland",
+      "team": "Stephen F. Austin",
+      "model_pct": 35.8,
+      "hrb_odds": "+135",
+      "edge": -6.8,
+      "flag": "FADE"
+    },
+    {
+      "conf": "Southland",
+      "team": "UT Rio Grande Valley",
+      "model_pct": 10.8,
+      "hrb_odds": "+500",
+      "edge": -5.9,
+      "flag": "FADE"
+    },
+    {
+      "conf": "MEAC",
+      "team": "Norfolk State",
+      "model_pct": 7.5,
+      "hrb_odds": "+650",
+      "edge": -5.8,
+      "flag": "FADE"
+    }
+  ]
+}
