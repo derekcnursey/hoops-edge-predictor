@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T14:26:31.092027Z",
-  "as_of_date": "2026-03-09",
+  "generated_at": "2026-03-11T14:02:43.009425Z",
+  "as_of_date": "2026-03-10",
   "season": 2026,
   "teams": [
     {
@@ -13,7 +13,7 @@
       "adj_oe": 131.5,
       "adj_de": 86.9,
       "adj_margin": 44.6,
-      "adj_tempo": 119.7,
+      "adj_tempo": 119.8,
       "edge_index": 0.9915
     },
     {
@@ -26,8 +26,8 @@
       "adj_oe": 129.8,
       "adj_de": 88.8,
       "adj_margin": 41.1,
-      "adj_tempo": 131.9,
-      "edge_index": 0.9876
+      "adj_tempo": 132.1,
+      "edge_index": 0.9875
     },
     {
       "rank": 3,
@@ -38,9 +38,9 @@
       "conf_record": "15-5",
       "adj_oe": 131.1,
       "adj_de": 95.9,
-      "adj_margin": 35.1,
-      "adj_tempo": 122.9,
-      "edge_index": 0.9731
+      "adj_margin": 35.2,
+      "adj_tempo": 123.3,
+      "edge_index": 0.9733
     },
     {
       "rank": 4,
@@ -50,10 +50,10 @@
       "record": "29-2",
       "conf_record": "16-2",
       "adj_oe": 123.6,
-      "adj_de": 89.7,
-      "adj_margin": 34.0,
-      "adj_tempo": 125.7,
-      "edge_index": 0.9758
+      "adj_de": 89.6,
+      "adj_margin": 33.9,
+      "adj_tempo": 126.0,
+      "edge_index": 0.9757
     },
     {
       "rank": 5,
@@ -63,10 +63,10 @@
       "record": "27-4",
       "conf_record": "15-3",
       "adj_oe": 127.3,
-      "adj_de": 95.9,
+      "adj_de": 95.8,
       "adj_margin": 31.4,
-      "adj_tempo": 119.4,
-      "edge_index": 0.963
+      "adj_tempo": 119.8,
+      "edge_index": 0.9631
     },
     {
       "rank": 6,
@@ -78,8 +78,8 @@
       "adj_oe": 124.7,
       "adj_de": 93.6,
       "adj_margin": 31.2,
-      "adj_tempo": 126.4,
-      "edge_index": 0.9647
+      "adj_tempo": 126.1,
+      "edge_index": 0.9646
     },
     {
       "rank": 7,
@@ -91,34 +91,34 @@
       "adj_oe": 131.2,
       "adj_de": 100.2,
       "adj_margin": 31.0,
-      "adj_tempo": 121.1,
+      "adj_tempo": 121.0,
       "edge_index": 0.9568
     },
     {
       "rank": 8,
-      "team": "Gonzaga",
-      "team_id": 102,
-      "conference": "WCC",
-      "record": "29-3",
-      "conf_record": "17-2",
-      "adj_oe": 120.0,
-      "adj_de": 89.0,
-      "adj_margin": 31.0,
-      "adj_tempo": 122.3,
-      "edge_index": 0.9687
-    },
-    {
-      "rank": 9,
       "team": "Michigan State",
       "team_id": 169,
       "conference": "Big Ten",
       "record": "25-6",
       "conf_record": "15-5",
-      "adj_oe": 120.8,
+      "adj_oe": 120.9,
       "adj_de": 89.9,
       "adj_margin": 31.0,
-      "adj_tempo": 124.9,
-      "edge_index": 0.9678
+      "adj_tempo": 125.2,
+      "edge_index": 0.9679
+    },
+    {
+      "rank": 9,
+      "team": "Gonzaga",
+      "team_id": 102,
+      "conference": "WCC",
+      "record": "30-3",
+      "conf_record": "18-2",
+      "adj_oe": 119.3,
+      "adj_de": 89.0,
+      "adj_margin": 30.3,
+      "adj_tempo": 120.3,
+      "edge_index": 0.9667
     },
     {
       "rank": 10,
@@ -128,10 +128,10 @@
       "record": "26-5",
       "conf_record": "14-4",
       "adj_oe": 121.4,
-      "adj_de": 92.3,
-      "adj_margin": 29.1,
-      "adj_tempo": 120.4,
-      "edge_index": 0.9588
+      "adj_de": 92.4,
+      "adj_margin": 29.0,
+      "adj_tempo": 120.7,
+      "edge_index": 0.9586
     },
     {
       "rank": 11,
@@ -141,9 +141,9 @@
       "record": "25-6",
       "conf_record": "12-6",
       "adj_oe": 120.8,
-      "adj_de": 92.0,
+      "adj_de": 92.1,
       "adj_margin": 28.7,
-      "adj_tempo": 117.5,
+      "adj_tempo": 118.0,
       "edge_index": 0.9579
     },
     {
@@ -156,8 +156,8 @@
       "adj_oe": 118.5,
       "adj_de": 91.3,
       "adj_margin": 27.2,
-      "adj_tempo": 125.3,
-      "edge_index": 0.9527
+      "adj_tempo": 125.5,
+      "edge_index": 0.9525
     },
     {
       "rank": 13,
@@ -168,9 +168,9 @@
       "conf_record": "10-10",
       "adj_oe": 121.8,
       "adj_de": 94.8,
-      "adj_margin": 27.0,
-      "adj_tempo": 120.7,
-      "edge_index": 0.9467
+      "adj_margin": 26.9,
+      "adj_tempo": 120.8,
+      "edge_index": 0.9465
     },
     {
       "rank": 14,
@@ -179,11 +179,11 @@
       "conference": "Big East",
       "record": "27-4",
       "conf_record": "17-3",
-      "adj_oe": 118.4,
+      "adj_oe": 118.3,
       "adj_de": 92.0,
-      "adj_margin": 26.4,
-      "adj_tempo": 124.0,
-      "edge_index": 0.9477
+      "adj_margin": 26.3,
+      "adj_tempo": 123.9,
+      "edge_index": 0.9476
     },
     {
       "rank": 15,
@@ -195,7 +195,7 @@
       "adj_oe": 129.2,
       "adj_de": 103.1,
       "adj_margin": 26.1,
-      "adj_tempo": 135.8,
+      "adj_tempo": 135.7,
       "edge_index": 0.9306
     },
     {
@@ -208,8 +208,8 @@
       "adj_oe": 122.6,
       "adj_de": 96.6,
       "adj_margin": 26.0,
-      "adj_tempo": 127.6,
-      "edge_index": 0.9393
+      "adj_tempo": 128.0,
+      "edge_index": 0.9392
     },
     {
       "rank": 17,
@@ -221,8 +221,8 @@
       "adj_oe": 120.7,
       "adj_de": 94.8,
       "adj_margin": 25.9,
-      "adj_tempo": 122.9,
-      "edge_index": 0.9417
+      "adj_tempo": 122.7,
+      "edge_index": 0.9416
     },
     {
       "rank": 18,
@@ -234,7 +234,7 @@
       "adj_oe": 126.8,
       "adj_de": 101.2,
       "adj_margin": 25.7,
-      "adj_tempo": 132.9,
+      "adj_tempo": 132.6,
       "edge_index": 0.9308
     },
     {
@@ -247,8 +247,8 @@
       "adj_oe": 125.5,
       "adj_de": 99.9,
       "adj_margin": 25.6,
-      "adj_tempo": 128.0,
-      "edge_index": 0.932
+      "adj_tempo": 127.9,
+      "edge_index": 0.9321
     },
     {
       "rank": 20,
@@ -258,10 +258,10 @@
       "record": "27-5",
       "conf_record": "16-3",
       "adj_oe": 121.8,
-      "adj_de": 96.4,
-      "adj_margin": 25.4,
-      "adj_tempo": 120.2,
-      "edge_index": 0.9366
+      "adj_de": 97.0,
+      "adj_margin": 24.8,
+      "adj_tempo": 118.2,
+      "edge_index": 0.9318
     },
     {
       "rank": 21,
@@ -272,9 +272,9 @@
       "conf_record": "12-6",
       "adj_oe": 118.1,
       "adj_de": 94.3,
-      "adj_margin": 23.8,
-      "adj_tempo": 127.9,
-      "edge_index": 0.9301
+      "adj_margin": 23.7,
+      "adj_tempo": 128.3,
+      "edge_index": 0.9297
     },
     {
       "rank": 22,
@@ -286,7 +286,7 @@
       "adj_oe": 124.1,
       "adj_de": 100.4,
       "adj_margin": 23.7,
-      "adj_tempo": 126.9,
+      "adj_tempo": 127.2,
       "edge_index": 0.9196
     },
     {
@@ -299,7 +299,7 @@
       "adj_oe": 122.4,
       "adj_de": 98.9,
       "adj_margin": 23.5,
-      "adj_tempo": 123.1,
+      "adj_tempo": 123.0,
       "edge_index": 0.9208
     },
     {
@@ -309,27 +309,14 @@
       "conference": "Big 12",
       "record": "22-9",
       "conf_record": "12-6",
-      "adj_oe": 125.7,
-      "adj_de": 103.3,
+      "adj_oe": 125.6,
+      "adj_de": 103.2,
       "adj_margin": 22.4,
-      "adj_tempo": 123.5,
-      "edge_index": 0.9056
+      "adj_tempo": 123.8,
+      "edge_index": 0.9055
     },
     {
       "rank": 25,
-      "team": "St. John's",
-      "team_id": 279,
-      "conference": "Big East",
-      "record": "25-6",
-      "conf_record": "18-2",
-      "adj_oe": 117.0,
-      "adj_de": 94.6,
-      "adj_margin": 22.4,
-      "adj_tempo": 127.7,
-      "edge_index": 0.92
-    },
-    {
-      "rank": 26,
       "team": "Georgia",
       "team_id": 98,
       "conference": "SEC",
@@ -338,8 +325,21 @@
       "adj_oe": 123.0,
       "adj_de": 100.6,
       "adj_margin": 22.4,
-      "adj_tempo": 137.5,
+      "adj_tempo": 137.3,
       "edge_index": 0.9096
+    },
+    {
+      "rank": 26,
+      "team": "St. John's",
+      "team_id": 279,
+      "conference": "Big East",
+      "record": "25-6",
+      "conf_record": "18-2",
+      "adj_oe": 117.0,
+      "adj_de": 94.6,
+      "adj_margin": 22.4,
+      "adj_tempo": 127.4,
+      "edge_index": 0.9199
     },
     {
       "rank": 27,
@@ -351,8 +351,8 @@
       "adj_oe": 122.7,
       "adj_de": 100.4,
       "adj_margin": 22.3,
-      "adj_tempo": 124.4,
-      "edge_index": 0.9098
+      "adj_tempo": 124.5,
+      "edge_index": 0.9097
     },
     {
       "rank": 28,
@@ -361,27 +361,14 @@
       "conference": "ACC",
       "record": "24-7",
       "conf_record": "12-6",
-      "adj_oe": 120.7,
+      "adj_oe": 120.6,
       "adj_de": 98.6,
       "adj_margin": 22.1,
-      "adj_tempo": 124.8,
-      "edge_index": 0.911
+      "adj_tempo": 125.0,
+      "edge_index": 0.9107
     },
     {
       "rank": 29,
-      "team": "Kentucky",
-      "team_id": 135,
-      "conference": "SEC",
-      "record": "19-12",
-      "conf_record": "10-8",
-      "adj_oe": 117.4,
-      "adj_de": 97.3,
-      "adj_margin": 20.1,
-      "adj_tempo": 129.5,
-      "edge_index": 0.8965
-    },
-    {
-      "rank": 30,
       "team": "Utah State",
       "team_id": 329,
       "conference": "Mountain West",
@@ -390,34 +377,47 @@
       "adj_oe": 119.6,
       "adj_de": 99.5,
       "adj_margin": 20.1,
-      "adj_tempo": 123.9,
-      "edge_index": 0.8923
+      "adj_tempo": 123.7,
+      "edge_index": 0.8921
+    },
+    {
+      "rank": 30,
+      "team": "Kentucky",
+      "team_id": 135,
+      "conference": "SEC",
+      "record": "19-12",
+      "conf_record": "10-8",
+      "adj_oe": 117.3,
+      "adj_de": 97.3,
+      "adj_margin": 20.0,
+      "adj_tempo": 129.4,
+      "edge_index": 0.8959
     },
     {
       "rank": 31,
-      "team": "Miami",
-      "team_id": 168,
-      "conference": "ACC",
-      "record": "24-7",
-      "conf_record": "13-5",
-      "adj_oe": 119.2,
-      "adj_de": 99.2,
-      "adj_margin": 20.0,
-      "adj_tempo": 127.8,
-      "edge_index": 0.8918
-    },
-    {
-      "rank": 32,
       "team": "Indiana",
       "team_id": 121,
       "conference": "Big Ten",
       "record": "18-13",
       "conf_record": "9-11",
-      "adj_oe": 122.4,
+      "adj_oe": 122.3,
       "adj_de": 102.4,
       "adj_margin": 20.0,
-      "adj_tempo": 119.9,
-      "edge_index": 0.8857
+      "adj_tempo": 120.0,
+      "edge_index": 0.8858
+    },
+    {
+      "rank": 32,
+      "team": "Miami",
+      "team_id": 168,
+      "conference": "ACC",
+      "record": "24-7",
+      "conf_record": "13-5",
+      "adj_oe": 119.1,
+      "adj_de": 99.1,
+      "adj_margin": 19.9,
+      "adj_tempo": 128.1,
+      "edge_index": 0.8916
     },
     {
       "rank": 33,
@@ -429,11 +429,24 @@
       "adj_oe": 123.6,
       "adj_de": 104.0,
       "adj_margin": 19.6,
-      "adj_tempo": 131.0,
-      "edge_index": 0.8792
+      "adj_tempo": 130.8,
+      "edge_index": 0.8788
     },
     {
       "rank": 34,
+      "team": "BYU",
+      "team_id": 18,
+      "conference": "Big 12",
+      "record": "22-10",
+      "conf_record": "10-9",
+      "adj_oe": 121.3,
+      "adj_de": 101.9,
+      "adj_margin": 19.5,
+      "adj_tempo": 127.8,
+      "edge_index": 0.882
+    },
+    {
+      "rank": 35,
       "team": "Akron",
       "team_id": 3,
       "conference": "MAC",
@@ -442,21 +455,8 @@
       "adj_oe": 123.0,
       "adj_de": 103.8,
       "adj_margin": 19.2,
-      "adj_tempo": 122.3,
-      "edge_index": 0.8757
-    },
-    {
-      "rank": 35,
-      "team": "BYU",
-      "team_id": 18,
-      "conference": "Big 12",
-      "record": "21-10",
-      "conf_record": "9-9",
-      "adj_oe": 120.5,
-      "adj_de": 101.4,
-      "adj_margin": 19.2,
-      "adj_tempo": 130.1,
-      "edge_index": 0.88
+      "adj_tempo": 122.0,
+      "edge_index": 0.8756
     },
     {
       "rank": 36,
@@ -469,7 +469,7 @@
       "adj_de": 102.6,
       "adj_margin": 18.7,
       "adj_tempo": 127.8,
-      "edge_index": 0.8726
+      "edge_index": 0.8725
     },
     {
       "rank": 37,
@@ -481,8 +481,8 @@
       "adj_oe": 121.8,
       "adj_de": 103.2,
       "adj_margin": 18.6,
-      "adj_tempo": 125.3,
-      "edge_index": 0.8701
+      "adj_tempo": 125.6,
+      "edge_index": 0.87
     },
     {
       "rank": 38,
@@ -493,12 +493,25 @@
       "conf_record": "11-3",
       "adj_oe": 122.8,
       "adj_de": 104.9,
-      "adj_margin": 17.9,
-      "adj_tempo": 122.0,
-      "edge_index": 0.8592
+      "adj_margin": 17.8,
+      "adj_tempo": 121.9,
+      "edge_index": 0.8588
     },
     {
       "rank": 39,
+      "team": "Santa Clara",
+      "team_id": 261,
+      "conference": "WCC",
+      "record": "26-8",
+      "conf_record": "17-4",
+      "adj_oe": 118.0,
+      "adj_de": 100.7,
+      "adj_margin": 17.3,
+      "adj_tempo": 123.4,
+      "edge_index": 0.861
+    },
+    {
+      "rank": 40,
       "team": "South Florida",
       "team_id": 271,
       "conference": "American",
@@ -506,22 +519,9 @@
       "conf_record": "15-3",
       "adj_oe": 117.9,
       "adj_de": 100.6,
-      "adj_margin": 17.2,
-      "adj_tempo": 141.6,
-      "edge_index": 0.8604
-    },
-    {
-      "rank": 40,
-      "team": "Santa Clara",
-      "team_id": 261,
-      "conference": "WCC",
-      "record": "26-7",
-      "conf_record": "17-3",
-      "adj_oe": 117.4,
-      "adj_de": 100.5,
-      "adj_margin": 16.9,
-      "adj_tempo": 125.2,
-      "edge_index": 0.8567
+      "adj_margin": 17.3,
+      "adj_tempo": 141.4,
+      "edge_index": 0.8607
     },
     {
       "rank": 41,
@@ -531,10 +531,10 @@
       "record": "21-10",
       "conf_record": "11-7",
       "adj_oe": 118.2,
-      "adj_de": 101.4,
+      "adj_de": 101.5,
       "adj_margin": 16.7,
-      "adj_tempo": 135.7,
-      "edge_index": 0.8527
+      "adj_tempo": 135.8,
+      "edge_index": 0.8525
     },
     {
       "rank": 42,
@@ -546,8 +546,8 @@
       "adj_oe": 114.5,
       "adj_de": 97.8,
       "adj_margin": 16.7,
-      "adj_tempo": 126.4,
-      "edge_index": 0.86
+      "adj_tempo": 126.6,
+      "edge_index": 0.8601
     },
     {
       "rank": 43,
@@ -559,8 +559,8 @@
       "adj_oe": 118.8,
       "adj_de": 102.1,
       "adj_margin": 16.7,
-      "adj_tempo": 124.2,
-      "edge_index": 0.8507
+      "adj_tempo": 124.1,
+      "edge_index": 0.8509
     },
     {
       "rank": 44,
@@ -570,10 +570,10 @@
       "record": "21-10",
       "conf_record": "11-7",
       "adj_oe": 112.8,
-      "adj_de": 96.3,
-      "adj_margin": 16.6,
-      "adj_tempo": 133.7,
-      "edge_index": 0.8614
+      "adj_de": 96.2,
+      "adj_margin": 16.5,
+      "adj_tempo": 134.1,
+      "edge_index": 0.8609
     },
     {
       "rank": 45,
@@ -585,34 +585,34 @@
       "adj_oe": 124.4,
       "adj_de": 108.1,
       "adj_margin": 16.3,
-      "adj_tempo": 121.8,
-      "edge_index": 0.8341
+      "adj_tempo": 121.7,
+      "edge_index": 0.8339
     },
     {
       "rank": 46,
-      "team": "McNeese",
-      "team_id": 162,
-      "conference": "Southland",
-      "record": "26-5",
-      "conf_record": "19-3",
-      "adj_oe": 115.4,
-      "adj_de": 99.4,
-      "adj_margin": 16.0,
-      "adj_tempo": 125.0,
-      "edge_index": 0.8484
-    },
-    {
-      "rank": 47,
       "team": "SMU",
       "team_id": 248,
       "conference": "ACC",
-      "record": "19-12",
-      "conf_record": "8-10",
-      "adj_oe": 121.2,
+      "record": "20-12",
+      "conf_record": "9-10",
+      "adj_oe": 121.6,
       "adj_de": 105.3,
-      "adj_margin": 15.9,
-      "adj_tempo": 132.7,
-      "edge_index": 0.8343
+      "adj_margin": 16.2,
+      "adj_tempo": 130.2,
+      "edge_index": 0.8388
+    },
+    {
+      "rank": 47,
+      "team": "McNeese",
+      "team_id": 162,
+      "conference": "Southland",
+      "record": "27-5",
+      "conf_record": "20-3",
+      "adj_oe": 115.4,
+      "adj_de": 99.3,
+      "adj_margin": 16.1,
+      "adj_tempo": 125.6,
+      "edge_index": 0.8489
     },
     {
       "rank": 48,
@@ -621,11 +621,11 @@
       "conference": "Big 12",
       "record": "20-10",
       "conf_record": "9-9",
-      "adj_oe": 119.3,
+      "adj_oe": 119.2,
       "adj_de": 104.1,
-      "adj_margin": 15.2,
-      "adj_tempo": 133.0,
-      "edge_index": 0.8273
+      "adj_margin": 15.1,
+      "adj_tempo": 133.6,
+      "edge_index": 0.8264
     },
     {
       "rank": 49,
@@ -637,8 +637,8 @@
       "adj_oe": 118.6,
       "adj_de": 103.5,
       "adj_margin": 15.1,
-      "adj_tempo": 131.1,
-      "edge_index": 0.8269
+      "adj_tempo": 130.9,
+      "edge_index": 0.8272
     },
     {
       "rank": 50,
@@ -649,9 +649,9 @@
       "conf_record": "9-9",
       "adj_oe": 121.0,
       "adj_de": 106.0,
-      "adj_margin": 15.0,
-      "adj_tempo": 125.5,
-      "edge_index": 0.8216
+      "adj_margin": 15.1,
+      "adj_tempo": 125.3,
+      "edge_index": 0.8217
     },
     {
       "rank": 51,
@@ -661,26 +661,13 @@
       "record": "22-9",
       "conf_record": "13-7",
       "adj_oe": 113.8,
-      "adj_de": 98.8,
+      "adj_de": 98.7,
       "adj_margin": 15.0,
-      "adj_tempo": 134.3,
-      "edge_index": 0.8362
+      "adj_tempo": 134.0,
+      "edge_index": 0.8363
     },
     {
       "rank": 52,
-      "team": "Virginia Tech",
-      "team_id": 340,
-      "conference": "ACC",
-      "record": "19-12",
-      "conf_record": "8-10",
-      "adj_oe": 116.4,
-      "adj_de": 101.9,
-      "adj_margin": 14.5,
-      "adj_tempo": 134.7,
-      "edge_index": 0.8214
-    },
-    {
-      "rank": 53,
       "team": "Belmont",
       "team_id": 22,
       "conference": "MVC",
@@ -689,37 +676,37 @@
       "adj_oe": 118.9,
       "adj_de": 104.5,
       "adj_margin": 14.4,
-      "adj_tempo": 132.3,
-      "edge_index": 0.815
+      "adj_tempo": 132.0,
+      "edge_index": 0.8148
     },
     {
-      "rank": 54,
+      "rank": 53,
       "team": "Cincinnati",
       "team_id": 51,
       "conference": "Big 12",
-      "record": "17-14",
-      "conf_record": "9-9",
+      "record": "18-14",
+      "conf_record": "10-9",
       "adj_oe": 109.6,
       "adj_de": 95.3,
       "adj_margin": 14.2,
-      "adj_tempo": 129.4,
-      "edge_index": 0.832
+      "adj_tempo": 126.8,
+      "edge_index": 0.8323
     },
     {
-      "rank": 55,
+      "rank": 54,
       "team": "Butler",
       "team_id": 34,
       "conference": "Big East",
       "record": "16-15",
       "conf_record": "7-13",
-      "adj_oe": 117.3,
-      "adj_de": 103.1,
+      "adj_oe": 117.4,
+      "adj_de": 103.2,
       "adj_margin": 14.2,
-      "adj_tempo": 133.7,
-      "edge_index": 0.8148
+      "adj_tempo": 133.8,
+      "edge_index": 0.8156
     },
     {
-      "rank": 56,
+      "rank": 55,
       "team": "VCU",
       "team_id": 333,
       "conference": "A-10",
@@ -727,12 +714,12 @@
       "conf_record": "15-3",
       "adj_oe": 118.6,
       "adj_de": 104.6,
-      "adj_margin": 14.1,
-      "adj_tempo": 130.9,
-      "edge_index": 0.8101
+      "adj_margin": 14.0,
+      "adj_tempo": 130.7,
+      "edge_index": 0.8098
     },
     {
-      "rank": 57,
+      "rank": 56,
       "team": "Missouri",
       "team_id": 177,
       "conference": "SEC",
@@ -741,8 +728,21 @@
       "adj_oe": 116.5,
       "adj_de": 102.5,
       "adj_margin": 14.0,
-      "adj_tempo": 126.2,
-      "edge_index": 0.8138
+      "adj_tempo": 126.0,
+      "edge_index": 0.814
+    },
+    {
+      "rank": 57,
+      "team": "Virginia Tech",
+      "team_id": 340,
+      "conference": "ACC",
+      "record": "19-13",
+      "conf_record": "8-11",
+      "adj_oe": 116.6,
+      "adj_de": 102.6,
+      "adj_margin": 14.0,
+      "adj_tempo": 132.5,
+      "edge_index": 0.8135
     },
     {
       "rank": 58,
@@ -751,14 +751,27 @@
       "conference": "A-10",
       "record": "21-10",
       "conf_record": "12-6",
-      "adj_oe": 110.6,
+      "adj_oe": 110.5,
       "adj_de": 96.9,
       "adj_margin": 13.6,
       "adj_tempo": 131.4,
-      "edge_index": 0.8192
+      "edge_index": 0.8198
     },
     {
       "rank": 59,
+      "team": "Northwestern",
+      "team_id": 212,
+      "conference": "Big Ten",
+      "record": "14-18",
+      "conf_record": "6-15",
+      "adj_oe": 117.4,
+      "adj_de": 104.0,
+      "adj_margin": 13.4,
+      "adj_tempo": 126.1,
+      "edge_index": 0.8014
+    },
+    {
+      "rank": 60,
       "team": "Illinois State",
       "team_id": 119,
       "conference": "MVC",
@@ -767,21 +780,8 @@
       "adj_oe": 113.4,
       "adj_de": 100.2,
       "adj_margin": 13.2,
-      "adj_tempo": 124.3,
-      "edge_index": 0.8058
-    },
-    {
-      "rank": 60,
-      "team": "Oklahoma",
-      "team_id": 217,
-      "conference": "SEC",
-      "record": "17-14",
-      "conf_record": "7-11",
-      "adj_oe": 120.5,
-      "adj_de": 107.4,
-      "adj_margin": 13.1,
-      "adj_tempo": 125.5,
-      "edge_index": 0.7894
+      "adj_tempo": 124.0,
+      "edge_index": 0.8055
     },
     {
       "rank": 61,
@@ -793,21 +793,21 @@
       "adj_oe": 118.1,
       "adj_de": 105.0,
       "adj_margin": 13.0,
-      "adj_tempo": 134.7,
+      "adj_tempo": 134.6,
       "edge_index": 0.7935
     },
     {
       "rank": 62,
-      "team": "Northwestern",
-      "team_id": 212,
-      "conference": "Big Ten",
-      "record": "13-18",
-      "conf_record": "5-15",
-      "adj_oe": 117.2,
-      "adj_de": 104.1,
+      "team": "Oklahoma",
+      "team_id": 217,
+      "conference": "SEC",
+      "record": "17-14",
+      "conf_record": "7-11",
+      "adj_oe": 120.5,
+      "adj_de": 107.4,
       "adj_margin": 13.0,
-      "adj_tempo": 128.5,
-      "edge_index": 0.795
+      "adj_tempo": 125.7,
+      "edge_index": 0.7887
     },
     {
       "rank": 63,
@@ -816,11 +816,11 @@
       "conference": "Big East",
       "record": "15-16",
       "conf_record": "9-11",
-      "adj_oe": 116.5,
+      "adj_oe": 116.4,
       "adj_de": 103.7,
-      "adj_margin": 12.8,
-      "adj_tempo": 124.2,
-      "edge_index": 0.7922
+      "adj_margin": 12.7,
+      "adj_tempo": 124.4,
+      "edge_index": 0.7903
     },
     {
       "rank": 64,
@@ -832,21 +832,21 @@
       "adj_oe": 114.3,
       "adj_de": 101.8,
       "adj_margin": 12.5,
-      "adj_tempo": 131.7,
-      "edge_index": 0.7917
+      "adj_tempo": 131.5,
+      "edge_index": 0.7906
     },
     {
       "rank": 65,
       "team": "Baylor",
       "team_id": 20,
       "conference": "Big 12",
-      "record": "16-15",
-      "conf_record": "6-12",
-      "adj_oe": 121.3,
-      "adj_de": 108.8,
-      "adj_margin": 12.5,
-      "adj_tempo": 125.1,
-      "edge_index": 0.7774
+      "record": "16-16",
+      "conf_record": "6-13",
+      "adj_oe": 121.0,
+      "adj_de": 108.9,
+      "adj_margin": 12.0,
+      "adj_tempo": 123.1,
+      "edge_index": 0.769
     },
     {
       "rank": 66,
@@ -858,8 +858,8 @@
       "adj_oe": 111.1,
       "adj_de": 99.1,
       "adj_margin": 12.0,
-      "adj_tempo": 126.6,
-      "edge_index": 0.7877
+      "adj_tempo": 126.4,
+      "edge_index": 0.7874
     },
     {
       "rank": 67,
@@ -871,8 +871,8 @@
       "adj_oe": 116.4,
       "adj_de": 104.5,
       "adj_margin": 11.9,
-      "adj_tempo": 130.3,
-      "edge_index": 0.7753
+      "adj_tempo": 130.1,
+      "edge_index": 0.7756
     },
     {
       "rank": 68,
@@ -884,8 +884,8 @@
       "adj_oe": 111.9,
       "adj_de": 100.2,
       "adj_margin": 11.7,
-      "adj_tempo": 127.2,
-      "edge_index": 0.7806
+      "adj_tempo": 127.1,
+      "edge_index": 0.7807
     },
     {
       "rank": 69,
@@ -897,8 +897,8 @@
       "adj_oe": 107.2,
       "adj_de": 95.8,
       "adj_margin": 11.4,
-      "adj_tempo": 128.1,
-      "edge_index": 0.785
+      "adj_tempo": 128.0,
+      "edge_index": 0.7848
     },
     {
       "rank": 70,
@@ -909,9 +909,9 @@
       "conf_record": "15-9",
       "adj_oe": 107.7,
       "adj_de": 96.3,
-      "adj_margin": 11.4,
-      "adj_tempo": 120.9,
-      "edge_index": 0.7828
+      "adj_margin": 11.3,
+      "adj_tempo": 120.7,
+      "edge_index": 0.7821
     },
     {
       "rank": 71,
@@ -922,64 +922,51 @@
       "conf_record": "13-5",
       "adj_oe": 115.6,
       "adj_de": 104.4,
-      "adj_margin": 11.3,
-      "adj_tempo": 126.4,
-      "edge_index": 0.7653
+      "adj_margin": 11.2,
+      "adj_tempo": 126.3,
+      "edge_index": 0.7642
     },
     {
       "rank": 72,
-      "team": "Hofstra",
-      "team_id": 110,
-      "conference": "CAA",
-      "record": "23-10",
-      "conf_record": "14-6",
-      "adj_oe": 116.7,
-      "adj_de": 105.4,
-      "adj_margin": 11.3,
-      "adj_tempo": 122.3,
-      "edge_index": 0.7631
-    },
-    {
-      "rank": 73,
       "team": "George Mason",
       "team_id": 95,
       "conference": "A-10",
       "record": "23-8",
       "conf_record": "11-7",
-      "adj_oe": 116.0,
+      "adj_oe": 115.9,
       "adj_de": 104.8,
-      "adj_margin": 11.2,
-      "adj_tempo": 121.2,
-      "edge_index": 0.7622
+      "adj_margin": 11.1,
+      "adj_tempo": 121.0,
+      "edge_index": 0.7618
     },
     {
-      "rank": 74,
+      "rank": 73,
       "team": "Utah Valley",
       "team_id": 332,
       "conference": "WAC",
       "record": "24-7",
       "conf_record": "14-4",
-      "adj_oe": 111.5,
+      "adj_oe": 111.4,
       "adj_de": 100.4,
       "adj_margin": 11.1,
-      "adj_tempo": 130.4,
-      "edge_index": 0.7698
+      "adj_tempo": 130.2,
+      "edge_index": 0.7695
+    },
+    {
+      "rank": 74,
+      "team": "Wake Forest",
+      "team_id": 342,
+      "conference": "ACC",
+      "record": "17-15",
+      "conf_record": "8-11",
+      "adj_oe": 115.2,
+      "adj_de": 104.1,
+      "adj_margin": 11.1,
+      "adj_tempo": 135.0,
+      "edge_index": 0.7618
     },
     {
       "rank": 75,
-      "team": "Washington",
-      "team_id": 343,
-      "conference": "Big Ten",
-      "record": "15-16",
-      "conf_record": "7-13",
-      "adj_oe": 113.1,
-      "adj_de": 102.0,
-      "adj_margin": 11.0,
-      "adj_tempo": 133.2,
-      "edge_index": 0.7649
-    },
-    {
-      "rank": 76,
       "team": "Minnesota",
       "team_id": 173,
       "conference": "Big Ten",
@@ -988,8 +975,21 @@
       "adj_oe": 111.6,
       "adj_de": 100.6,
       "adj_margin": 11.0,
-      "adj_tempo": 121.1,
-      "edge_index": 0.7668
+      "adj_tempo": 121.4,
+      "edge_index": 0.7672
+    },
+    {
+      "rank": 76,
+      "team": "Washington",
+      "team_id": 343,
+      "conference": "Big Ten",
+      "record": "15-16",
+      "conf_record": "7-13",
+      "adj_oe": 113.0,
+      "adj_de": 102.1,
+      "adj_margin": 11.0,
+      "adj_tempo": 133.4,
+      "edge_index": 0.764
     },
     {
       "rank": 77,
@@ -999,23 +999,23 @@
       "record": "20-11",
       "conf_record": "12-8",
       "adj_oe": 114.5,
-      "adj_de": 103.6,
+      "adj_de": 103.5,
       "adj_margin": 10.9,
-      "adj_tempo": 130.2,
+      "adj_tempo": 130.0,
       "edge_index": 0.7598
     },
     {
       "rank": 78,
-      "team": "Wake Forest",
-      "team_id": 342,
-      "conference": "ACC",
-      "record": "16-15",
-      "conf_record": "7-11",
-      "adj_oe": 114.7,
-      "adj_de": 103.9,
-      "adj_margin": 10.8,
-      "adj_tempo": 137.1,
-      "edge_index": 0.7574
+      "team": "Hofstra",
+      "team_id": 110,
+      "conference": "CAA",
+      "record": "24-10",
+      "conf_record": "15-6",
+      "adj_oe": 116.5,
+      "adj_de": 105.6,
+      "adj_margin": 10.9,
+      "adj_tempo": 118.3,
+      "edge_index": 0.7555
     },
     {
       "rank": 79,
@@ -1027,8 +1027,8 @@
       "adj_oe": 109.5,
       "adj_de": 98.8,
       "adj_margin": 10.7,
-      "adj_tempo": 122.2,
-      "edge_index": 0.7652
+      "adj_tempo": 122.7,
+      "edge_index": 0.7647
     },
     {
       "rank": 80,
@@ -1040,24 +1040,11 @@
       "adj_oe": 111.9,
       "adj_de": 101.3,
       "adj_margin": 10.6,
-      "adj_tempo": 124.0,
-      "edge_index": 0.7585
+      "adj_tempo": 123.8,
+      "edge_index": 0.7582
     },
     {
       "rank": 81,
-      "team": "Stephen F. Austin",
-      "team_id": 282,
-      "conference": "Southland",
-      "record": "27-4",
-      "conf_record": "20-2",
-      "adj_oe": 113.0,
-      "adj_de": 102.6,
-      "adj_margin": 10.3,
-      "adj_tempo": 129.8,
-      "edge_index": 0.7507
-    },
-    {
-      "rank": 82,
       "team": "California",
       "team_id": 40,
       "conference": "ACC",
@@ -1066,11 +1053,11 @@
       "adj_oe": 109.4,
       "adj_de": 99.2,
       "adj_margin": 10.2,
-      "adj_tempo": 127.9,
-      "edge_index": 0.7559
+      "adj_tempo": 128.5,
+      "edge_index": 0.7551
     },
     {
-      "rank": 83,
+      "rank": 82,
       "team": "UC San Diego",
       "team_id": 310,
       "conference": "Big West",
@@ -1079,21 +1066,34 @@
       "adj_oe": 112.3,
       "adj_de": 102.1,
       "adj_margin": 10.2,
-      "adj_tempo": 126.3,
-      "edge_index": 0.7487
+      "adj_tempo": 126.0,
+      "edge_index": 0.7485
+    },
+    {
+      "rank": 83,
+      "team": "Stephen F. Austin",
+      "team_id": 282,
+      "conference": "Southland",
+      "record": "28-4",
+      "conf_record": "21-2",
+      "adj_oe": 112.5,
+      "adj_de": 102.5,
+      "adj_margin": 10.0,
+      "adj_tempo": 127.7,
+      "edge_index": 0.7437
     },
     {
       "rank": 84,
       "team": "Stanford",
       "team_id": 281,
       "conference": "ACC",
-      "record": "20-11",
-      "conf_record": "9-9",
-      "adj_oe": 114.3,
-      "adj_de": 104.5,
-      "adj_margin": 9.8,
-      "adj_tempo": 130.8,
-      "edge_index": 0.737
+      "record": "20-12",
+      "conf_record": "9-10",
+      "adj_oe": 114.2,
+      "adj_de": 104.6,
+      "adj_margin": 9.6,
+      "adj_tempo": 128.3,
+      "edge_index": 0.7333
     },
     {
       "rank": 85,
@@ -1104,9 +1104,9 @@
       "conf_record": "4-14",
       "adj_oe": 112.9,
       "adj_de": 103.4,
-      "adj_margin": 9.6,
-      "adj_tempo": 123.9,
-      "edge_index": 0.7342
+      "adj_margin": 9.5,
+      "adj_tempo": 123.7,
+      "edge_index": 0.7341
     },
     {
       "rank": 86,
@@ -1118,7 +1118,7 @@
       "adj_oe": 117.8,
       "adj_de": 108.3,
       "adj_margin": 9.5,
-      "adj_tempo": 128.9,
+      "adj_tempo": 129.0,
       "edge_index": 0.7248
     },
     {
@@ -1131,8 +1131,8 @@
       "adj_oe": 119.2,
       "adj_de": 109.8,
       "adj_margin": 9.4,
-      "adj_tempo": 119.9,
-      "edge_index": 0.7196
+      "adj_tempo": 119.7,
+      "edge_index": 0.719
     },
     {
       "rank": 88,
@@ -1141,24 +1141,24 @@
       "conference": "American",
       "record": "21-10",
       "conf_record": "13-5",
-      "adj_oe": 113.3,
+      "adj_oe": 113.4,
       "adj_de": 104.4,
       "adj_margin": 8.9,
-      "adj_tempo": 132.3,
-      "edge_index": 0.7201
+      "adj_tempo": 132.1,
+      "edge_index": 0.7202
     },
     {
       "rank": 89,
       "team": "Colorado",
       "team_id": 56,
       "conference": "Big 12",
-      "record": "17-14",
-      "conf_record": "7-11",
+      "record": "17-15",
+      "conf_record": "7-12",
       "adj_oe": 117.3,
-      "adj_de": 108.5,
+      "adj_de": 108.6,
       "adj_margin": 8.8,
-      "adj_tempo": 135.4,
-      "edge_index": 0.7101
+      "adj_tempo": 135.8,
+      "edge_index": 0.7098
     },
     {
       "rank": 90,
@@ -1168,39 +1168,52 @@
       "record": "17-16",
       "conf_record": "9-11",
       "adj_oe": 113.6,
-      "adj_de": 104.8,
+      "adj_de": 104.9,
       "adj_margin": 8.7,
-      "adj_tempo": 125.3,
-      "edge_index": 0.7152
+      "adj_tempo": 125.5,
+      "edge_index": 0.7144
     },
     {
       "rank": 91,
+      "team": "Arizona State",
+      "team_id": 10,
+      "conference": "Big 12",
+      "record": "17-15",
+      "conf_record": "8-11",
+      "adj_oe": 113.1,
+      "adj_de": 104.4,
+      "adj_margin": 8.7,
+      "adj_tempo": 134.5,
+      "edge_index": 0.715
+    },
+    {
+      "rank": 92,
       "team": "Murray State",
       "team_id": 184,
       "conference": "MVC",
       "record": "20-12",
       "conf_record": "12-9",
-      "adj_oe": 116.3,
+      "adj_oe": 116.2,
       "adj_de": 107.8,
-      "adj_margin": 8.5,
+      "adj_margin": 8.4,
       "adj_tempo": 134.4,
-      "edge_index": 0.7057
-    },
-    {
-      "rank": 92,
-      "team": "Oklahoma State",
-      "team_id": 218,
-      "conference": "Big 12",
-      "record": "18-13",
-      "conf_record": "6-12",
-      "adj_oe": 115.5,
-      "adj_de": 107.1,
-      "adj_margin": 8.5,
-      "adj_tempo": 138.7,
-      "edge_index": 0.7056
+      "edge_index": 0.7043
     },
     {
       "rank": 93,
+      "team": "Oklahoma State",
+      "team_id": 218,
+      "conference": "Big 12",
+      "record": "19-13",
+      "conf_record": "7-12",
+      "adj_oe": 115.5,
+      "adj_de": 107.1,
+      "adj_margin": 8.4,
+      "adj_tempo": 139.2,
+      "edge_index": 0.7047
+    },
+    {
+      "rank": 94,
       "team": "Florida Atlantic",
       "team_id": 86,
       "conference": "American",
@@ -1209,21 +1222,8 @@
       "adj_oe": 111.6,
       "adj_de": 103.2,
       "adj_margin": 8.4,
-      "adj_tempo": 131.3,
-      "edge_index": 0.7107
-    },
-    {
-      "rank": 94,
-      "team": "Arizona State",
-      "team_id": 10,
-      "conference": "Big 12",
-      "record": "16-15",
-      "conf_record": "7-11",
-      "adj_oe": 113.0,
-      "adj_de": 104.6,
-      "adj_margin": 8.4,
-      "adj_tempo": 136.3,
-      "edge_index": 0.7083
+      "adj_tempo": 131.1,
+      "edge_index": 0.7099
     },
     {
       "rank": 95,
@@ -1234,9 +1234,9 @@
       "conf_record": "10-8",
       "adj_oe": 113.3,
       "adj_de": 105.0,
-      "adj_margin": 8.3,
-      "adj_tempo": 128.6,
-      "edge_index": 0.7047
+      "adj_margin": 8.2,
+      "adj_tempo": 128.9,
+      "edge_index": 0.7045
     },
     {
       "rank": 96,
@@ -1248,8 +1248,8 @@
       "adj_oe": 110.4,
       "adj_de": 102.2,
       "adj_margin": 8.2,
-      "adj_tempo": 137.6,
-      "edge_index": 0.7093
+      "adj_tempo": 137.4,
+      "edge_index": 0.7088
     },
     {
       "rank": 97,
@@ -1259,26 +1259,13 @@
       "record": "12-19",
       "conf_record": "4-14",
       "adj_oe": 111.4,
-      "adj_de": 103.7,
+      "adj_de": 103.8,
       "adj_margin": 7.7,
-      "adj_tempo": 129.9,
-      "edge_index": 0.6945
+      "adj_tempo": 129.7,
+      "edge_index": 0.6943
     },
     {
       "rank": 98,
-      "team": "Syracuse",
-      "team_id": 286,
-      "conference": "ACC",
-      "record": "15-16",
-      "conf_record": "6-12",
-      "adj_oe": 109.6,
-      "adj_de": 102.0,
-      "adj_margin": 7.6,
-      "adj_tempo": 130.7,
-      "edge_index": 0.6964
-    },
-    {
-      "rank": 99,
       "team": "Sam Houston",
       "team_id": 255,
       "conference": "CUSA",
@@ -1287,11 +1274,11 @@
       "adj_oe": 113.2,
       "adj_de": 105.7,
       "adj_margin": 7.5,
-      "adj_tempo": 136.1,
-      "edge_index": 0.6882
+      "adj_tempo": 136.4,
+      "edge_index": 0.6883
     },
     {
-      "rank": 100,
+      "rank": 99,
       "team": "Providence",
       "team_id": 235,
       "conference": "Big East",
@@ -1299,9 +1286,22 @@
       "conf_record": "7-13",
       "adj_oe": 118.0,
       "adj_de": 110.7,
-      "adj_margin": 7.3,
-      "adj_tempo": 142.0,
-      "edge_index": 0.675
+      "adj_margin": 7.2,
+      "adj_tempo": 141.9,
+      "edge_index": 0.6744
+    },
+    {
+      "rank": 100,
+      "team": "Syracuse",
+      "team_id": 286,
+      "conference": "ACC",
+      "record": "15-17",
+      "conf_record": "6-13",
+      "adj_oe": 109.5,
+      "adj_de": 102.4,
+      "adj_margin": 7.1,
+      "adj_tempo": 128.4,
+      "edge_index": 0.6847
     },
     {
       "rank": 101,
@@ -1310,11 +1310,11 @@
       "conference": "Big East",
       "record": "16-15",
       "conf_record": "8-12",
-      "adj_oe": 105.4,
+      "adj_oe": 105.5,
       "adj_de": 98.5,
-      "adj_margin": 7.0,
+      "adj_margin": 7.1,
       "adj_tempo": 128.6,
-      "edge_index": 0.6876
+      "edge_index": 0.6891
     },
     {
       "rank": 102,
@@ -1326,8 +1326,8 @@
       "adj_oe": 110.8,
       "adj_de": 104.0,
       "adj_margin": 6.9,
-      "adj_tempo": 129.0,
-      "edge_index": 0.6761
+      "adj_tempo": 128.7,
+      "edge_index": 0.6759
     },
     {
       "rank": 103,
@@ -1339,8 +1339,8 @@
       "adj_oe": 113.1,
       "adj_de": 106.3,
       "adj_margin": 6.8,
-      "adj_tempo": 127.2,
-      "edge_index": 0.6712
+      "adj_tempo": 126.8,
+      "edge_index": 0.6709
     },
     {
       "rank": 104,
@@ -1353,7 +1353,7 @@
       "adj_de": 99.0,
       "adj_margin": 6.8,
       "adj_tempo": 126.5,
-      "edge_index": 0.6822
+      "edge_index": 0.6812
     },
     {
       "rank": 105,
@@ -1365,8 +1365,8 @@
       "adj_oe": 113.5,
       "adj_de": 107.1,
       "adj_margin": 6.4,
-      "adj_tempo": 130.2,
-      "edge_index": 0.6608
+      "adj_tempo": 129.9,
+      "edge_index": 0.6607
     },
     {
       "rank": 106,
@@ -1375,11 +1375,11 @@
       "conference": "WAC",
       "record": "23-8",
       "conf_record": "13-5",
-      "adj_oe": 107.9,
-      "adj_de": 101.7,
+      "adj_oe": 108.0,
+      "adj_de": 101.6,
       "adj_margin": 6.3,
-      "adj_tempo": 126.0,
-      "edge_index": 0.6656
+      "adj_tempo": 126.2,
+      "edge_index": 0.6674
     },
     {
       "rank": 107,
@@ -1391,37 +1391,24 @@
       "adj_oe": 103.1,
       "adj_de": 96.9,
       "adj_margin": 6.2,
-      "adj_tempo": 132.2,
-      "edge_index": 0.672
+      "adj_tempo": 132.0,
+      "edge_index": 0.6715
     },
     {
       "rank": 108,
-      "team": "Kansas State",
-      "team_id": 132,
-      "conference": "Big 12",
-      "record": "12-19",
-      "conf_record": "3-15",
-      "adj_oe": 110.3,
-      "adj_de": 104.0,
-      "adj_margin": 6.2,
-      "adj_tempo": 138.9,
-      "edge_index": 0.6609
-    },
-    {
-      "rank": 109,
       "team": "Pacific",
       "team_id": 225,
       "conference": "WCC",
       "record": "18-15",
       "conf_record": "9-11",
       "adj_oe": 110.6,
-      "adj_de": 104.6,
+      "adj_de": 104.5,
       "adj_margin": 6.1,
-      "adj_tempo": 122.2,
-      "edge_index": 0.6574
+      "adj_tempo": 122.5,
+      "edge_index": 0.6572
     },
     {
-      "rank": 110,
+      "rank": 109,
       "team": "Xavier",
       "team_id": 359,
       "conference": "Big East",
@@ -1430,8 +1417,21 @@
       "adj_oe": 112.3,
       "adj_de": 106.4,
       "adj_margin": 5.9,
-      "adj_tempo": 132.0,
-      "edge_index": 0.6496
+      "adj_tempo": 132.1,
+      "edge_index": 0.6504
+    },
+    {
+      "rank": 110,
+      "team": "Kansas State",
+      "team_id": 132,
+      "conference": "Big 12",
+      "record": "12-20",
+      "conf_record": "3-16",
+      "adj_oe": 110.7,
+      "adj_de": 104.8,
+      "adj_margin": 5.9,
+      "adj_tempo": 136.5,
+      "edge_index": 0.652
     },
     {
       "rank": 111,
@@ -1440,11 +1440,11 @@
       "conference": "MVC",
       "record": "19-15",
       "conf_record": "14-9",
-      "adj_oe": 110.2,
+      "adj_oe": 110.3,
       "adj_de": 104.5,
       "adj_margin": 5.7,
-      "adj_tempo": 128.9,
-      "edge_index": 0.6487
+      "adj_tempo": 129.0,
+      "edge_index": 0.6486
     },
     {
       "rank": 112,
@@ -1456,21 +1456,21 @@
       "adj_oe": 110.3,
       "adj_de": 104.7,
       "adj_margin": 5.6,
-      "adj_tempo": 133.4,
-      "edge_index": 0.6462
+      "adj_tempo": 133.6,
+      "edge_index": 0.6459
     },
     {
       "rank": 113,
       "team": "Pittsburgh",
       "team_id": 229,
       "conference": "ACC",
-      "record": "12-19",
-      "conf_record": "5-13",
-      "adj_oe": 111.1,
-      "adj_de": 105.7,
+      "record": "13-19",
+      "conf_record": "6-13",
+      "adj_oe": 111.0,
+      "adj_de": 105.6,
       "adj_margin": 5.4,
-      "adj_tempo": 124.2,
-      "edge_index": 0.6392
+      "adj_tempo": 122.1,
+      "edge_index": 0.6393
     },
     {
       "rank": 114,
@@ -1482,8 +1482,8 @@
       "adj_oe": 109.8,
       "adj_de": 104.5,
       "adj_margin": 5.3,
-      "adj_tempo": 133.1,
-      "edge_index": 0.6382
+      "adj_tempo": 132.8,
+      "edge_index": 0.6381
     },
     {
       "rank": 115,
@@ -1495,34 +1495,34 @@
       "adj_oe": 105.6,
       "adj_de": 100.4,
       "adj_margin": 5.3,
-      "adj_tempo": 135.2,
-      "edge_index": 0.643
+      "adj_tempo": 134.8,
+      "edge_index": 0.6426
     },
     {
       "rank": 116,
       "team": "Portland State",
       "team_id": 231,
       "conference": "Big Sky",
-      "record": "20-10",
-      "conf_record": "14-5",
+      "record": "20-11",
+      "conf_record": "14-6",
       "adj_oe": 104.8,
       "adj_de": 99.6,
       "adj_margin": 5.2,
-      "adj_tempo": 134.6,
-      "edge_index": 0.6429
+      "adj_tempo": 134.9,
+      "edge_index": 0.6422
     },
     {
       "rank": 117,
-      "team": "Wright State",
-      "team_id": 357,
-      "conference": "Horizon",
-      "record": "22-11",
-      "conf_record": "17-5",
-      "adj_oe": 112.0,
-      "adj_de": 107.0,
+      "team": "Central Arkansas",
+      "team_id": 43,
+      "conference": "ASUN",
+      "record": "22-12",
+      "conf_record": "17-4",
+      "adj_oe": 109.8,
+      "adj_de": 104.8,
       "adj_margin": 5.0,
-      "adj_tempo": 131.3,
-      "edge_index": 0.629
+      "adj_tempo": 125.8,
+      "edge_index": 0.6315
     },
     {
       "rank": 118,
@@ -1534,24 +1534,11 @@
       "adj_oe": 112.1,
       "adj_de": 107.1,
       "adj_margin": 5.0,
-      "adj_tempo": 128.0,
-      "edge_index": 0.6285
+      "adj_tempo": 128.2,
+      "edge_index": 0.6279
     },
     {
       "rank": 119,
-      "team": "Central Arkansas",
-      "team_id": 43,
-      "conference": "ASUN",
-      "record": "22-12",
-      "conf_record": "17-4",
-      "adj_oe": 109.8,
-      "adj_de": 104.8,
-      "adj_margin": 5.0,
-      "adj_tempo": 125.9,
-      "edge_index": 0.6311
-    },
-    {
-      "rank": 120,
       "team": "Winthrop",
       "team_id": 354,
       "conference": "Big South",
@@ -1560,8 +1547,21 @@
       "adj_oe": 112.9,
       "adj_de": 107.9,
       "adj_margin": 5.0,
-      "adj_tempo": 132.3,
+      "adj_tempo": 132.1,
       "edge_index": 0.6265
+    },
+    {
+      "rank": 120,
+      "team": "Wright State",
+      "team_id": 357,
+      "conference": "Horizon",
+      "record": "23-11",
+      "conf_record": "18-5",
+      "adj_oe": 111.4,
+      "adj_de": 106.4,
+      "adj_margin": 4.9,
+      "adj_tempo": 129.0,
+      "edge_index": 0.6273
     },
     {
       "rank": 121,
@@ -1570,11 +1570,11 @@
       "conference": "MAC",
       "record": "18-13",
       "conf_record": "9-9",
-      "adj_oe": 108.3,
-      "adj_de": 103.5,
+      "adj_oe": 108.2,
+      "adj_de": 103.4,
       "adj_margin": 4.8,
-      "adj_tempo": 129.3,
-      "edge_index": 0.6278
+      "adj_tempo": 129.1,
+      "edge_index": 0.6272
     },
     {
       "rank": 122,
@@ -1585,9 +1585,9 @@
       "conf_record": "9-11",
       "adj_oe": 102.6,
       "adj_de": 97.8,
-      "adj_margin": 4.8,
-      "adj_tempo": 135.0,
-      "edge_index": 0.6345
+      "adj_margin": 4.7,
+      "adj_tempo": 135.5,
+      "edge_index": 0.6325
     },
     {
       "rank": 123,
@@ -1599,8 +1599,8 @@
       "adj_oe": 116.7,
       "adj_de": 112.0,
       "adj_margin": 4.7,
-      "adj_tempo": 122.2,
-      "edge_index": 0.6159
+      "adj_tempo": 122.3,
+      "edge_index": 0.6152
     },
     {
       "rank": 124,
@@ -1612,21 +1612,21 @@
       "adj_oe": 110.8,
       "adj_de": 106.2,
       "adj_margin": 4.6,
-      "adj_tempo": 127.7,
-      "edge_index": 0.6195
+      "adj_tempo": 128.1,
+      "edge_index": 0.6197
     },
     {
       "rank": 125,
       "team": "Siena",
       "team_id": 264,
       "conference": "MAAC",
-      "record": "22-11",
-      "conf_record": "15-7",
+      "record": "23-11",
+      "conf_record": "16-7",
       "adj_oe": 108.4,
-      "adj_de": 103.9,
+      "adj_de": 104.0,
       "adj_margin": 4.5,
-      "adj_tempo": 121.8,
-      "edge_index": 0.619
+      "adj_tempo": 121.6,
+      "edge_index": 0.6185
     },
     {
       "rank": 126,
@@ -1638,8 +1638,8 @@
       "adj_oe": 111.8,
       "adj_de": 107.6,
       "adj_margin": 4.3,
-      "adj_tempo": 137.9,
-      "edge_index": 0.6102
+      "adj_tempo": 137.8,
+      "edge_index": 0.6103
     },
     {
       "rank": 127,
@@ -1651,8 +1651,8 @@
       "adj_oe": 110.8,
       "adj_de": 106.6,
       "adj_margin": 4.2,
-      "adj_tempo": 130.2,
-      "edge_index": 0.609
+      "adj_tempo": 129.9,
+      "edge_index": 0.6088
     },
     {
       "rank": 128,
@@ -1663,9 +1663,9 @@
       "conf_record": "6-14",
       "adj_oe": 111.6,
       "adj_de": 107.5,
-      "adj_margin": 4.1,
-      "adj_tempo": 130.7,
-      "edge_index": 0.6063
+      "adj_margin": 4.2,
+      "adj_tempo": 130.6,
+      "edge_index": 0.6077
     },
     {
       "rank": 129,
@@ -1677,34 +1677,34 @@
       "adj_oe": 109.4,
       "adj_de": 105.3,
       "adj_margin": 4.1,
-      "adj_tempo": 118.1,
-      "edge_index": 0.6077
+      "adj_tempo": 117.8,
+      "edge_index": 0.6074
     },
     {
       "rank": 130,
-      "team": "Oregon",
-      "team_id": 223,
-      "conference": "Big Ten",
-      "record": "12-19",
-      "conf_record": "5-15",
-      "adj_oe": 108.5,
-      "adj_de": 104.4,
-      "adj_margin": 4.0,
-      "adj_tempo": 130.4,
-      "edge_index": 0.6075
-    },
-    {
-      "rank": 131,
       "team": "Bradley",
       "team_id": 29,
       "conference": "MVC",
       "record": "21-12",
       "conf_record": "14-8",
-      "adj_oe": 110.3,
+      "adj_oe": 110.2,
       "adj_de": 106.3,
-      "adj_margin": 4.0,
-      "adj_tempo": 134.5,
-      "edge_index": 0.6035
+      "adj_margin": 3.9,
+      "adj_tempo": 134.3,
+      "edge_index": 0.6024
+    },
+    {
+      "rank": 131,
+      "team": "UT Rio Grande Valley",
+      "team_id": 326,
+      "conference": "Southland",
+      "record": "19-14",
+      "conf_record": "15-9",
+      "adj_oe": 108.7,
+      "adj_de": 104.8,
+      "adj_margin": 3.9,
+      "adj_tempo": 130.5,
+      "edge_index": 0.6031
     },
     {
       "rank": 132,
@@ -1716,37 +1716,11 @@
       "adj_oe": 100.7,
       "adj_de": 97.0,
       "adj_margin": 3.7,
-      "adj_tempo": 129.4,
-      "edge_index": 0.6055
+      "adj_tempo": 129.7,
+      "edge_index": 0.6057
     },
     {
       "rank": 133,
-      "team": "Idaho",
-      "team_id": 117,
-      "conference": "Big Sky",
-      "record": "19-14",
-      "conf_record": "11-9",
-      "adj_oe": 109.9,
-      "adj_de": 106.4,
-      "adj_margin": 3.5,
-      "adj_tempo": 126.5,
-      "edge_index": 0.5924
-    },
-    {
-      "rank": 134,
-      "team": "William & Mary",
-      "team_id": 353,
-      "conference": "CAA",
-      "record": "20-12",
-      "conf_record": "11-9",
-      "adj_oe": 108.9,
-      "adj_de": 105.4,
-      "adj_margin": 3.5,
-      "adj_tempo": 143.8,
-      "edge_index": 0.5932
-    },
-    {
-      "rank": 135,
       "team": "Middle Tennessee",
       "team_id": 171,
       "conference": "CUSA",
@@ -1756,23 +1730,36 @@
       "adj_de": 105.6,
       "adj_margin": 3.5,
       "adj_tempo": 128.8,
-      "edge_index": 0.5929
+      "edge_index": 0.5933
+    },
+    {
+      "rank": 134,
+      "team": "Idaho",
+      "team_id": 117,
+      "conference": "Big Sky",
+      "record": "20-14",
+      "conf_record": "12-9",
+      "adj_oe": 109.9,
+      "adj_de": 106.4,
+      "adj_margin": 3.5,
+      "adj_tempo": 126.5,
+      "edge_index": 0.5925
+    },
+    {
+      "rank": 135,
+      "team": "William & Mary",
+      "team_id": 353,
+      "conference": "CAA",
+      "record": "20-12",
+      "conf_record": "11-9",
+      "adj_oe": 108.9,
+      "adj_de": 105.4,
+      "adj_margin": 3.5,
+      "adj_tempo": 144.1,
+      "edge_index": 0.5923
     },
     {
       "rank": 136,
-      "team": "Pennsylvania",
-      "team_id": 227,
-      "conference": "Ivy",
-      "record": "16-11",
-      "conf_record": "9-5",
-      "adj_oe": 109.1,
-      "adj_de": 105.8,
-      "adj_margin": 3.4,
-      "adj_tempo": 134.3,
-      "edge_index": 0.5895
-    },
-    {
-      "rank": 137,
       "team": "Marquette",
       "team_id": 157,
       "conference": "Big East",
@@ -1781,8 +1768,21 @@
       "adj_oe": 105.7,
       "adj_de": 102.3,
       "adj_margin": 3.4,
-      "adj_tempo": 131.7,
-      "edge_index": 0.592
+      "adj_tempo": 131.5,
+      "edge_index": 0.5928
+    },
+    {
+      "rank": 137,
+      "team": "Pennsylvania",
+      "team_id": 227,
+      "conference": "Ivy",
+      "record": "16-11",
+      "conf_record": "9-5",
+      "adj_oe": 109.2,
+      "adj_de": 105.8,
+      "adj_margin": 3.4,
+      "adj_tempo": 134.3,
+      "edge_index": 0.5892
     },
     {
       "rank": 138,
@@ -1791,11 +1791,11 @@
       "conference": "Ivy",
       "record": "16-12",
       "conf_record": "5-9",
-      "adj_oe": 108.3,
+      "adj_oe": 108.2,
       "adj_de": 105.0,
       "adj_margin": 3.3,
-      "adj_tempo": 127.4,
-      "edge_index": 0.5888
+      "adj_tempo": 127.5,
+      "edge_index": 0.5873
     },
     {
       "rank": 139,
@@ -1807,11 +1807,24 @@
       "adj_oe": 100.4,
       "adj_de": 97.1,
       "adj_margin": 3.3,
-      "adj_tempo": 126.4,
-      "edge_index": 0.594
+      "adj_tempo": 126.1,
+      "edge_index": 0.5937
     },
     {
       "rank": 140,
+      "team": "Oregon",
+      "team_id": 223,
+      "conference": "Big Ten",
+      "record": "12-20",
+      "conf_record": "5-16",
+      "adj_oe": 108.1,
+      "adj_de": 104.8,
+      "adj_margin": 3.2,
+      "adj_tempo": 128.0,
+      "edge_index": 0.5866
+    },
+    {
+      "rank": 141,
       "team": "UC Santa Barbara",
       "team_id": 311,
       "conference": "Big West",
@@ -1819,12 +1832,12 @@
       "conf_record": "11-9",
       "adj_oe": 113.3,
       "adj_de": 110.5,
-      "adj_margin": 2.9,
-      "adj_tempo": 126.3,
-      "edge_index": 0.5731
+      "adj_margin": 2.8,
+      "adj_tempo": 126.0,
+      "edge_index": 0.5725
     },
     {
-      "rank": 141,
+      "rank": 142,
       "team": "Arkansas State",
       "team_id": 13,
       "conference": "Sun Belt",
@@ -1832,22 +1845,9 @@
       "conf_record": "11-8",
       "adj_oe": 110.6,
       "adj_de": 107.8,
-      "adj_margin": 2.8,
-      "adj_tempo": 140.3,
-      "edge_index": 0.572
-    },
-    {
-      "rank": 142,
-      "team": "UT Rio Grande Valley",
-      "team_id": 326,
-      "conference": "Southland",
-      "record": "19-13",
-      "conf_record": "15-8",
-      "adj_oe": 107.6,
-      "adj_de": 104.9,
       "adj_margin": 2.7,
-      "adj_tempo": 133.4,
-      "edge_index": 0.5733
+      "adj_tempo": 140.4,
+      "edge_index": 0.5715
     },
     {
       "rank": 143,
@@ -1859,11 +1859,24 @@
       "adj_oe": 106.3,
       "adj_de": 103.7,
       "adj_margin": 2.6,
-      "adj_tempo": 121.5,
-      "edge_index": 0.5719
+      "adj_tempo": 121.4,
+      "edge_index": 0.5708
     },
     {
       "rank": 144,
+      "team": "Towson",
+      "team_id": 301,
+      "conference": "CAA",
+      "record": "19-15",
+      "conf_record": "11-10",
+      "adj_oe": 105.1,
+      "adj_de": 102.5,
+      "adj_margin": 2.6,
+      "adj_tempo": 119.3,
+      "edge_index": 0.5704
+    },
+    {
+      "rank": 145,
       "team": "Loyola Marymount",
       "team_id": 153,
       "conference": "WCC",
@@ -1872,21 +1885,8 @@
       "adj_oe": 102.9,
       "adj_de": 100.3,
       "adj_margin": 2.5,
-      "adj_tempo": 134.7,
-      "edge_index": 0.5716
-    },
-    {
-      "rank": 145,
-      "team": "Towson",
-      "team_id": 301,
-      "conference": "CAA",
-      "record": "19-15",
-      "conf_record": "11-10",
-      "adj_oe": 105.0,
-      "adj_de": 102.5,
-      "adj_margin": 2.5,
-      "adj_tempo": 121.0,
-      "edge_index": 0.5685
+      "adj_tempo": 134.8,
+      "edge_index": 0.5709
     },
     {
       "rank": 146,
@@ -1897,22 +1897,22 @@
       "conf_record": "4-14",
       "adj_oe": 111.9,
       "adj_de": 109.5,
-      "adj_margin": 2.5,
-      "adj_tempo": 141.9,
-      "edge_index": 0.564
+      "adj_margin": 2.4,
+      "adj_tempo": 141.7,
+      "edge_index": 0.5631
     },
     {
       "rank": 147,
-      "team": "Temple",
-      "team_id": 289,
-      "conference": "American",
-      "record": "16-15",
-      "conf_record": "8-10",
-      "adj_oe": 111.7,
-      "adj_de": 109.4,
+      "team": "Oakland",
+      "team_id": 214,
+      "conference": "Horizon",
+      "record": "16-16",
+      "conf_record": "12-9",
+      "adj_oe": 116.2,
+      "adj_de": 113.9,
       "adj_margin": 2.3,
-      "adj_tempo": 125.2,
-      "edge_index": 0.56
+      "adj_tempo": 132.9,
+      "edge_index": 0.558
     },
     {
       "rank": 148,
@@ -1924,21 +1924,21 @@
       "adj_oe": 115.5,
       "adj_de": 113.2,
       "adj_margin": 2.3,
-      "adj_tempo": 138.5,
-      "edge_index": 0.5577
+      "adj_tempo": 138.1,
+      "edge_index": 0.5573
     },
     {
       "rank": 149,
-      "team": "Oakland",
-      "team_id": 214,
-      "conference": "Horizon",
-      "record": "16-16",
-      "conf_record": "12-9",
-      "adj_oe": 116.1,
-      "adj_de": 113.8,
+      "team": "Temple",
+      "team_id": 289,
+      "conference": "American",
+      "record": "16-15",
+      "conf_record": "8-10",
+      "adj_oe": 111.7,
+      "adj_de": 109.4,
       "adj_margin": 2.3,
-      "adj_tempo": 132.5,
-      "edge_index": 0.5572
+      "adj_tempo": 125.1,
+      "edge_index": 0.5592
     },
     {
       "rank": 150,
@@ -1948,10 +1948,10 @@
       "record": "16-15",
       "conf_record": "7-11",
       "adj_oe": 102.8,
-      "adj_de": 100.5,
+      "adj_de": 100.6,
       "adj_margin": 2.3,
-      "adj_tempo": 127.5,
-      "edge_index": 0.5641
+      "adj_tempo": 127.4,
+      "edge_index": 0.5635
     },
     {
       "rank": 151,
@@ -1963,8 +1963,8 @@
       "adj_oe": 118.7,
       "adj_de": 116.7,
       "adj_margin": 2.1,
-      "adj_tempo": 136.6,
-      "edge_index": 0.5509
+      "adj_tempo": 136.4,
+      "edge_index": 0.5506
     },
     {
       "rank": 152,
@@ -1975,25 +1975,12 @@
       "conf_record": "13-5",
       "adj_oe": 105.2,
       "adj_de": 103.7,
-      "adj_margin": 1.6,
-      "adj_tempo": 132.5,
-      "edge_index": 0.5428
+      "adj_margin": 1.5,
+      "adj_tempo": 132.4,
+      "edge_index": 0.5418
     },
     {
       "rank": 153,
-      "team": "Robert Morris",
-      "team_id": 244,
-      "conference": "Horizon",
-      "record": "22-11",
-      "conf_record": "14-8",
-      "adj_oe": 110.3,
-      "adj_de": 108.8,
-      "adj_margin": 1.5,
-      "adj_tempo": 128.6,
-      "edge_index": 0.5405
-    },
-    {
-      "rank": 154,
       "team": "Northern Colorado",
       "team_id": 207,
       "conference": "Big Sky",
@@ -2002,11 +1989,11 @@
       "adj_oe": 111.8,
       "adj_de": 110.3,
       "adj_margin": 1.5,
-      "adj_tempo": 135.4,
-      "edge_index": 0.5397
+      "adj_tempo": 135.3,
+      "edge_index": 0.5392
     },
     {
-      "rank": 155,
+      "rank": 154,
       "team": "Marshall",
       "team_id": 158,
       "conference": "Sun Belt",
@@ -2015,11 +2002,11 @@
       "adj_oe": 112.7,
       "adj_de": 111.2,
       "adj_margin": 1.5,
-      "adj_tempo": 129.1,
-      "edge_index": 0.5382
+      "adj_tempo": 129.0,
+      "edge_index": 0.538
     },
     {
-      "rank": 156,
+      "rank": 155,
       "team": "Georgia Tech",
       "team_id": 101,
       "conference": "ACC",
@@ -2029,23 +2016,23 @@
       "adj_de": 104.0,
       "adj_margin": 1.3,
       "adj_tempo": 138.4,
-      "edge_index": 0.5352
+      "edge_index": 0.5347
     },
     {
-      "rank": 157,
+      "rank": 156,
       "team": "Navy",
       "team_id": 187,
       "conference": "Patriot",
       "record": "26-7",
       "conf_record": "18-2",
       "adj_oe": 105.7,
-      "adj_de": 104.4,
-      "adj_margin": 1.2,
-      "adj_tempo": 120.0,
-      "edge_index": 0.5341
+      "adj_de": 104.5,
+      "adj_margin": 1.3,
+      "adj_tempo": 119.9,
+      "edge_index": 0.5344
     },
     {
-      "rank": 158,
+      "rank": 157,
       "team": "Harvard",
       "team_id": 107,
       "conference": "Ivy",
@@ -2054,11 +2041,11 @@
       "adj_oe": 108.0,
       "adj_de": 106.8,
       "adj_margin": 1.2,
-      "adj_tempo": 123.6,
-      "edge_index": 0.5322
+      "adj_tempo": 123.4,
+      "edge_index": 0.5313
     },
     {
-      "rank": 159,
+      "rank": 158,
       "team": "Cal State Fullerton",
       "team_id": 37,
       "conference": "Big West",
@@ -2067,11 +2054,11 @@
       "adj_oe": 110.2,
       "adj_de": 109.1,
       "adj_margin": 1.1,
-      "adj_tempo": 137.4,
-      "edge_index": 0.5281
+      "adj_tempo": 137.1,
+      "edge_index": 0.5278
     },
     {
-      "rank": 160,
+      "rank": 159,
       "team": "Washington State",
       "team_id": 344,
       "conference": "WCC",
@@ -2079,12 +2066,12 @@
       "conf_record": "7-12",
       "adj_oe": 112.6,
       "adj_de": 111.6,
-      "adj_margin": 1.1,
-      "adj_tempo": 130.1,
-      "edge_index": 0.5275
+      "adj_margin": 1.0,
+      "adj_tempo": 130.3,
+      "edge_index": 0.5259
     },
     {
-      "rank": 161,
+      "rank": 160,
       "team": "Lipscomb",
       "team_id": 143,
       "conference": "ASUN",
@@ -2093,8 +2080,21 @@
       "adj_oe": 105.6,
       "adj_de": 104.6,
       "adj_margin": 1.0,
-      "adj_tempo": 129.1,
-      "edge_index": 0.5273
+      "adj_tempo": 128.9,
+      "edge_index": 0.5271
+    },
+    {
+      "rank": 161,
+      "team": "Toledo",
+      "team_id": 300,
+      "conference": "MAC",
+      "record": "17-14",
+      "conf_record": "11-7",
+      "adj_oe": 113.1,
+      "adj_de": 112.2,
+      "adj_margin": 0.9,
+      "adj_tempo": 130.6,
+      "edge_index": 0.5231
     },
     {
       "rank": 162,
@@ -2106,8 +2106,8 @@
       "adj_oe": 107.9,
       "adj_de": 107.0,
       "adj_margin": 0.9,
-      "adj_tempo": 131.5,
-      "edge_index": 0.525
+      "adj_tempo": 131.3,
+      "edge_index": 0.5239
     },
     {
       "rank": 163,
@@ -2116,131 +2116,118 @@
       "conference": "Horizon",
       "record": "20-14",
       "conf_record": "12-11",
-      "adj_oe": 109.9,
-      "adj_de": 109.0,
+      "adj_oe": 110.0,
+      "adj_de": 109.1,
       "adj_margin": 0.9,
-      "adj_tempo": 132.4,
-      "edge_index": 0.524
+      "adj_tempo": 132.8,
+      "edge_index": 0.5232
     },
     {
       "rank": 164,
-      "team": "Toledo",
-      "team_id": 300,
-      "conference": "MAC",
-      "record": "17-14",
-      "conf_record": "11-7",
-      "adj_oe": 113.1,
-      "adj_de": 112.2,
-      "adj_margin": 0.9,
-      "adj_tempo": 130.5,
-      "edge_index": 0.5229
-    },
-    {
-      "rank": 165,
       "team": "Monmouth",
       "team_id": 178,
       "conference": "CAA",
-      "record": "19-14",
-      "conf_record": "13-7",
-      "adj_oe": 104.6,
-      "adj_de": 103.8,
+      "record": "19-15",
+      "conf_record": "13-8",
+      "adj_oe": 104.7,
+      "adj_de": 103.9,
       "adj_margin": 0.8,
-      "adj_tempo": 129.9,
-      "edge_index": 0.5226
+      "adj_tempo": 128.1,
+      "edge_index": 0.523
+    },
+    {
+      "rank": 165,
+      "team": "Robert Morris",
+      "team_id": 244,
+      "conference": "Horizon",
+      "record": "22-11",
+      "conf_record": "14-8",
+      "adj_oe": 109.8,
+      "adj_de": 109.1,
+      "adj_margin": 0.8,
+      "adj_tempo": 126.4,
+      "edge_index": 0.5201
     },
     {
       "rank": 166,
-      "team": "Weber State",
-      "team_id": 345,
-      "conference": "Big Sky",
-      "record": "16-16",
-      "conf_record": "10-9",
-      "adj_oe": 110.4,
-      "adj_de": 109.7,
-      "adj_margin": 0.7,
-      "adj_tempo": 133.2,
-      "edge_index": 0.5193
-    },
-    {
-      "rank": 167,
       "team": "Utah",
       "team_id": 331,
       "conference": "Big 12",
-      "record": "10-21",
-      "conf_record": "2-16",
-      "adj_oe": 113.9,
-      "adj_de": 113.1,
-      "adj_margin": 0.7,
-      "adj_tempo": 132.5,
-      "edge_index": 0.5186
+      "record": "10-22",
+      "conf_record": "2-17",
+      "adj_oe": 113.7,
+      "adj_de": 113.0,
+      "adj_margin": 0.6,
+      "adj_tempo": 130.4,
+      "edge_index": 0.516
     },
     {
-      "rank": 168,
+      "rank": 167,
       "team": "Fresno State",
       "team_id": 92,
       "conference": "Mountain West",
       "record": "13-18",
       "conf_record": "7-13",
       "adj_oe": 104.0,
-      "adj_de": 103.3,
-      "adj_margin": 0.7,
-      "adj_tempo": 129.1,
-      "edge_index": 0.5181
+      "adj_de": 103.4,
+      "adj_margin": 0.6,
+      "adj_tempo": 128.9,
+      "edge_index": 0.5173
     },
     {
-      "rank": 169,
+      "rank": 168,
       "team": "Charlotte",
       "team_id": 48,
       "conference": "American",
       "record": "15-16",
       "conf_record": "9-9",
-      "adj_oe": 111.7,
+      "adj_oe": 111.6,
       "adj_de": 111.1,
-      "adj_margin": 0.6,
-      "adj_tempo": 123.3,
-      "edge_index": 0.515
+      "adj_margin": 0.5,
+      "adj_tempo": 123.1,
+      "edge_index": 0.5142
+    },
+    {
+      "rank": 169,
+      "team": "Maryland",
+      "team_id": 160,
+      "conference": "Big Ten",
+      "record": "12-20",
+      "conf_record": "5-16",
+      "adj_oe": 108.0,
+      "adj_de": 107.6,
+      "adj_margin": 0.5,
+      "adj_tempo": 123.8,
+      "edge_index": 0.512
     },
     {
       "rank": 170,
-      "team": "South Dakota State",
-      "team_id": 270,
-      "conference": "Summit",
-      "record": "14-18",
-      "conf_record": "7-10",
-      "adj_oe": 109.0,
-      "adj_de": 108.5,
-      "adj_margin": 0.4,
-      "adj_tempo": 130.8,
-      "edge_index": 0.5119
-    },
-    {
-      "rank": 171,
       "team": "Duquesne",
       "team_id": 73,
       "conference": "A-10",
       "record": "17-14",
       "conf_record": "9-9",
       "adj_oe": 107.8,
-      "adj_de": 107.3,
+      "adj_de": 107.4,
       "adj_margin": 0.4,
-      "adj_tempo": 139.7,
-      "edge_index": 0.5115
+      "adj_tempo": 139.4,
+      "edge_index": 0.5113
+    },
+    {
+      "rank": 171,
+      "team": "South Dakota State",
+      "team_id": 270,
+      "conference": "Summit",
+      "record": "14-18",
+      "conf_record": "7-10",
+      "adj_oe": 108.9,
+      "adj_de": 108.5,
+      "adj_margin": 0.4,
+      "adj_tempo": 130.6,
+      "edge_index": 0.5106
     },
     {
       "rank": 172,
-      "team": "Penn State",
-      "team_id": 226,
-      "conference": "Big Ten",
-      "record": "12-19",
-      "conf_record": "3-17",
-      "adj_oe": 109.5,
-      "adj_de": 109.2,
-      "adj_margin": 0.3,
-      "adj_tempo": 129.6,
-      "edge_index": 0.5087
-    },
-    {
-      "rank": 173,
       "team": "Kennesaw State",
       "team_id": 133,
       "conference": "CUSA",
@@ -2249,11 +2236,11 @@
       "adj_oe": 109.4,
       "adj_de": 109.1,
       "adj_margin": 0.3,
-      "adj_tempo": 139.2,
-      "edge_index": 0.5085
+      "adj_tempo": 139.3,
+      "edge_index": 0.509
     },
     {
-      "rank": 174,
+      "rank": 173,
       "team": "Austin Peay",
       "team_id": 17,
       "conference": "ASUN",
@@ -2262,24 +2249,50 @@
       "adj_oe": 105.2,
       "adj_de": 104.9,
       "adj_margin": 0.3,
-      "adj_tempo": 144.9,
-      "edge_index": 0.5084
+      "adj_tempo": 144.8,
+      "edge_index": 0.5091
+    },
+    {
+      "rank": 174,
+      "team": "Weber State",
+      "team_id": 345,
+      "conference": "Big Sky",
+      "record": "16-16",
+      "conf_record": "10-9",
+      "adj_oe": 110.4,
+      "adj_de": 110.1,
+      "adj_margin": 0.3,
+      "adj_tempo": 130.4,
+      "edge_index": 0.5085
     },
     {
       "rank": 175,
+      "team": "Texas A&M-Corpus Christi",
+      "team_id": 294,
+      "conference": "Southland",
+      "record": "18-15",
+      "conf_record": "14-10",
+      "adj_oe": 101.9,
+      "adj_de": 101.7,
+      "adj_margin": 0.2,
+      "adj_tempo": 121.8,
+      "edge_index": 0.5049
+    },
+    {
+      "rank": 176,
       "team": "Valparaiso",
       "team_id": 335,
       "conference": "MVC",
       "record": "18-15",
       "conf_record": "12-10",
-      "adj_oe": 105.2,
+      "adj_oe": 105.1,
       "adj_de": 105.0,
       "adj_margin": 0.2,
-      "adj_tempo": 130.2,
-      "edge_index": 0.5052
+      "adj_tempo": 130.1,
+      "edge_index": 0.5043
     },
     {
-      "rank": 176,
+      "rank": 177,
       "team": "Kent State",
       "team_id": 134,
       "conference": "MAC",
@@ -2288,11 +2301,11 @@
       "adj_oe": 112.0,
       "adj_de": 112.0,
       "adj_margin": 0.1,
-      "adj_tempo": 141.4,
-      "edge_index": 0.5014
+      "adj_tempo": 141.2,
+      "edge_index": 0.5013
     },
     {
-      "rank": 177,
+      "rank": 178,
       "team": "Rutgers",
       "team_id": 245,
       "conference": "Big Ten",
@@ -2301,11 +2314,11 @@
       "adj_oe": 108.6,
       "adj_de": 108.5,
       "adj_margin": 0.0,
-      "adj_tempo": 130.6,
-      "edge_index": 0.5013
+      "adj_tempo": 130.8,
+      "edge_index": 0.5008
     },
     {
-      "rank": 178,
+      "rank": 179,
       "team": "Campbell",
       "team_id": 41,
       "conference": "CAA",
@@ -2314,24 +2327,24 @@
       "adj_oe": 111.5,
       "adj_de": 111.6,
       "adj_margin": -0.1,
-      "adj_tempo": 133.4,
-      "edge_index": 0.4987
-    },
-    {
-      "rank": 179,
-      "team": "Texas A&M-Corpus Christi",
-      "team_id": 294,
-      "conference": "Southland",
-      "record": "18-14",
-      "conf_record": "14-9",
-      "adj_oe": 102.0,
-      "adj_de": 102.1,
-      "adj_margin": -0.1,
-      "adj_tempo": 123.9,
-      "edge_index": 0.4971
+      "adj_tempo": 133.9,
+      "edge_index": 0.4974
     },
     {
       "rank": 180,
+      "team": "Penn State",
+      "team_id": 226,
+      "conference": "Big Ten",
+      "record": "12-20",
+      "conf_record": "3-18",
+      "adj_oe": 109.3,
+      "adj_de": 109.4,
+      "adj_margin": -0.1,
+      "adj_tempo": 127.2,
+      "edge_index": 0.4973
+    },
+    {
+      "rank": 181,
       "team": "Idaho State",
       "team_id": 116,
       "conference": "Big Sky",
@@ -2341,23 +2354,23 @@
       "adj_de": 110.2,
       "adj_margin": -0.1,
       "adj_tempo": 124.4,
-      "edge_index": 0.4963
-    },
-    {
-      "rank": 181,
-      "team": "Montana",
-      "team_id": 179,
-      "conference": "Big Sky",
-      "record": "17-15",
-      "conf_record": "11-8",
-      "adj_oe": 107.0,
-      "adj_de": 107.2,
-      "adj_margin": -0.3,
-      "adj_tempo": 128.6,
-      "edge_index": 0.493
+      "edge_index": 0.4962
     },
     {
       "rank": 182,
+      "team": "Montana",
+      "team_id": 179,
+      "conference": "Big Sky",
+      "record": "18-15",
+      "conf_record": "12-8",
+      "adj_oe": 106.9,
+      "adj_de": 107.2,
+      "adj_margin": -0.3,
+      "adj_tempo": 128.7,
+      "edge_index": 0.4922
+    },
+    {
+      "rank": 183,
       "team": "Memphis",
       "team_id": 163,
       "conference": "American",
@@ -2366,21 +2379,8 @@
       "adj_oe": 104.6,
       "adj_de": 104.9,
       "adj_margin": -0.3,
-      "adj_tempo": 139.5,
-      "edge_index": 0.4924
-    },
-    {
-      "rank": 183,
-      "team": "Maryland",
-      "team_id": 160,
-      "conference": "Big Ten",
-      "record": "11-20",
-      "conf_record": "4-16",
-      "adj_oe": 107.6,
-      "adj_de": 107.9,
-      "adj_margin": -0.3,
-      "adj_tempo": 126.2,
-      "edge_index": 0.4919
+      "adj_tempo": 139.3,
+      "edge_index": 0.492
     },
     {
       "rank": 184,
@@ -2393,7 +2393,7 @@
       "adj_de": 108.1,
       "adj_margin": -0.3,
       "adj_tempo": 132.7,
-      "edge_index": 0.4914
+      "edge_index": 0.492
     },
     {
       "rank": 185,
@@ -2405,8 +2405,8 @@
       "adj_oe": 106.9,
       "adj_de": 107.3,
       "adj_margin": -0.4,
-      "adj_tempo": 135.8,
-      "edge_index": 0.4896
+      "adj_tempo": 135.9,
+      "edge_index": 0.4887
     },
     {
       "rank": 186,
@@ -2418,24 +2418,11 @@
       "adj_oe": 108.0,
       "adj_de": 108.5,
       "adj_margin": -0.4,
-      "adj_tempo": 125.4,
-      "edge_index": 0.489
-    },
-    {
-      "rank": 187,
-      "team": "Florida International",
-      "team_id": 89,
-      "conference": "CUSA",
-      "record": "15-16",
-      "conf_record": "8-12",
-      "adj_oe": 108.1,
-      "adj_de": 108.5,
-      "adj_margin": -0.4,
-      "adj_tempo": 135.3,
+      "adj_tempo": 125.1,
       "edge_index": 0.4886
     },
     {
-      "rank": 188,
+      "rank": 187,
       "team": "Boston College",
       "team_id": 26,
       "conference": "ACC",
@@ -2443,12 +2430,12 @@
       "conf_record": "4-14",
       "adj_oe": 101.9,
       "adj_de": 102.3,
-      "adj_margin": -0.4,
-      "adj_tempo": 128.0,
-      "edge_index": 0.4876
+      "adj_margin": -0.5,
+      "adj_tempo": 128.2,
+      "edge_index": 0.4869
     },
     {
-      "rank": 189,
+      "rank": 188,
       "team": "Utah Tech",
       "team_id": 330,
       "conference": "WAC",
@@ -2457,8 +2444,21 @@
       "adj_oe": 110.0,
       "adj_de": 110.6,
       "adj_margin": -0.6,
-      "adj_tempo": 132.2,
-      "edge_index": 0.4856
+      "adj_tempo": 132.3,
+      "edge_index": 0.485
+    },
+    {
+      "rank": 189,
+      "team": "Florida International",
+      "team_id": 89,
+      "conference": "CUSA",
+      "record": "15-17",
+      "conf_record": "8-13",
+      "adj_oe": 108.1,
+      "adj_de": 108.8,
+      "adj_margin": -0.7,
+      "adj_tempo": 132.6,
+      "edge_index": 0.4814
     },
     {
       "rank": 190,
@@ -2468,26 +2468,39 @@
       "record": "21-13",
       "conf_record": "16-5",
       "adj_oe": 114.4,
-      "adj_de": 115.2,
+      "adj_de": 115.1,
       "adj_margin": -0.7,
-      "adj_tempo": 129.0,
-      "edge_index": 0.4816
+      "adj_tempo": 128.7,
+      "edge_index": 0.4818
     },
     {
       "rank": 191,
+      "team": "Missouri State",
+      "team_id": 176,
+      "conference": "CUSA",
+      "record": "15-17",
+      "conf_record": "9-12",
+      "adj_oe": 109.0,
+      "adj_de": 109.8,
+      "adj_margin": -0.8,
+      "adj_tempo": 123.9,
+      "edge_index": 0.4783
+    },
+    {
+      "rank": 192,
       "team": "South Alabama",
       "team_id": 265,
       "conference": "Sun Belt",
       "record": "21-11",
       "conf_record": "11-8",
-      "adj_oe": 107.1,
+      "adj_oe": 107.2,
       "adj_de": 108.0,
       "adj_margin": -0.9,
-      "adj_tempo": 128.5,
-      "edge_index": 0.477
+      "adj_tempo": 128.3,
+      "edge_index": 0.4769
     },
     {
-      "rank": 192,
+      "rank": 193,
       "team": "Drexel",
       "team_id": 71,
       "conference": "CAA",
@@ -2496,11 +2509,11 @@
       "adj_oe": 102.4,
       "adj_de": 103.3,
       "adj_margin": -0.9,
-      "adj_tempo": 127.3,
-      "edge_index": 0.475
+      "adj_tempo": 127.8,
+      "edge_index": 0.4744
     },
     {
-      "rank": 193,
+      "rank": 194,
       "team": "James Madison",
       "team_id": 129,
       "conference": "Sun Belt",
@@ -2513,46 +2526,46 @@
       "edge_index": 0.475
     },
     {
-      "rank": 194,
+      "rank": 195,
       "team": "UC Davis",
       "team_id": 307,
       "conference": "Big West",
       "record": "18-13",
       "conf_record": "11-9",
-      "adj_oe": 108.5,
+      "adj_oe": 108.4,
       "adj_de": 109.5,
-      "adj_margin": -1.0,
-      "adj_tempo": 136.7,
-      "edge_index": 0.4724
-    },
-    {
-      "rank": 195,
-      "team": "Missouri State",
-      "team_id": 176,
-      "conference": "CUSA",
-      "record": "14-17",
-      "conf_record": "8-12",
-      "adj_oe": 108.7,
-      "adj_de": 109.9,
-      "adj_margin": -1.2,
-      "adj_tempo": 126.4,
-      "edge_index": 0.4691
+      "adj_margin": -1.1,
+      "adj_tempo": 136.4,
+      "edge_index": 0.4712
     },
     {
       "rank": 196,
+      "team": "UMBC",
+      "team_id": 317,
+      "conference": "Am. East",
+      "record": "23-8",
+      "conf_record": "16-2",
+      "adj_oe": 108.3,
+      "adj_de": 109.4,
+      "adj_margin": -1.1,
+      "adj_tempo": 121.9,
+      "edge_index": 0.4703
+    },
+    {
+      "rank": 197,
       "team": "Mississippi State",
       "team_id": 174,
       "conference": "SEC",
       "record": "13-18",
       "conf_record": "5-13",
-      "adj_oe": 108.9,
-      "adj_de": 110.1,
+      "adj_oe": 108.8,
+      "adj_de": 110.0,
       "adj_margin": -1.2,
       "adj_tempo": 132.6,
       "edge_index": 0.4684
     },
     {
-      "rank": 197,
+      "rank": 198,
       "team": "Indiana State",
       "team_id": 122,
       "conference": "MVC",
@@ -2561,11 +2574,24 @@
       "adj_oe": 104.3,
       "adj_de": 105.8,
       "adj_margin": -1.5,
-      "adj_tempo": 132.6,
-      "edge_index": 0.4591
+      "adj_tempo": 132.3,
+      "edge_index": 0.4587
     },
     {
-      "rank": 198,
+      "rank": 199,
+      "team": "New Mexico State",
+      "team_id": 192,
+      "conference": "CUSA",
+      "record": "16-15",
+      "conf_record": "9-12",
+      "adj_oe": 109.1,
+      "adj_de": 110.6,
+      "adj_margin": -1.5,
+      "adj_tempo": 125.5,
+      "edge_index": 0.46
+    },
+    {
+      "rank": 200,
       "team": "Tarleton State",
       "team_id": 288,
       "conference": "WAC",
@@ -2574,24 +2600,24 @@
       "adj_oe": 107.7,
       "adj_de": 109.2,
       "adj_margin": -1.5,
-      "adj_tempo": 136.1,
-      "edge_index": 0.4593
+      "adj_tempo": 136.3,
+      "edge_index": 0.4591
     },
     {
-      "rank": 199,
-      "team": "New Mexico State",
-      "team_id": 192,
-      "conference": "CUSA",
-      "record": "15-15",
-      "conf_record": "8-12",
-      "adj_oe": 109.1,
-      "adj_de": 110.7,
-      "adj_margin": -1.5,
-      "adj_tempo": 125.2,
-      "edge_index": 0.4596
+      "rank": 201,
+      "team": "Long Island University",
+      "team_id": 146,
+      "conference": "NEC",
+      "record": "24-10",
+      "conf_record": "18-3",
+      "adj_oe": 108.0,
+      "adj_de": 109.8,
+      "adj_margin": -1.8,
+      "adj_tempo": 135.3,
+      "edge_index": 0.4526
     },
     {
-      "rank": 200,
+      "rank": 202,
       "team": "Buffalo",
       "team_id": 33,
       "conference": "MAC",
@@ -2600,11 +2626,11 @@
       "adj_oe": 112.6,
       "adj_de": 114.5,
       "adj_margin": -1.8,
-      "adj_tempo": 130.4,
-      "edge_index": 0.4533
+      "adj_tempo": 130.3,
+      "edge_index": 0.4537
     },
     {
-      "rank": 201,
+      "rank": 203,
       "team": "Elon",
       "team_id": 81,
       "conference": "CAA",
@@ -2612,35 +2638,9 @@
       "conf_record": "6-13",
       "adj_oe": 113.0,
       "adj_de": 114.9,
-      "adj_margin": -1.9,
-      "adj_tempo": 129.9,
-      "edge_index": 0.452
-    },
-    {
-      "rank": 202,
-      "team": "Long Island University",
-      "team_id": 146,
-      "conference": "NEC",
-      "record": "23-10",
-      "conf_record": "17-3",
-      "adj_oe": 107.7,
-      "adj_de": 109.6,
-      "adj_margin": -1.9,
-      "adj_tempo": 137.7,
-      "edge_index": 0.4491
-    },
-    {
-      "rank": 203,
-      "team": "UMBC",
-      "team_id": 317,
-      "conference": "Am. East",
-      "record": "22-8",
-      "conf_record": "15-2",
-      "adj_oe": 107.3,
-      "adj_de": 109.2,
       "adj_margin": -2.0,
-      "adj_tempo": 124.5,
-      "edge_index": 0.4482
+      "adj_tempo": 130.1,
+      "edge_index": 0.4509
     },
     {
       "rank": 204,
@@ -2653,7 +2653,7 @@
       "adj_de": 107.4,
       "adj_margin": -2.0,
       "adj_tempo": 133.0,
-      "edge_index": 0.4449
+      "edge_index": 0.4466
     },
     {
       "rank": 205,
@@ -2665,47 +2665,47 @@
       "adj_oe": 110.7,
       "adj_de": 112.8,
       "adj_margin": -2.1,
-      "adj_tempo": 132.7,
+      "adj_tempo": 132.3,
       "edge_index": 0.4474
     },
     {
       "rank": 206,
-      "team": "Vermont",
-      "team_id": 337,
-      "conference": "Am. East",
-      "record": "21-11",
-      "conf_record": "13-4",
-      "adj_oe": 109.3,
-      "adj_de": 111.4,
+      "team": "Eastern Washington",
+      "team_id": 80,
+      "conference": "Big Sky",
+      "record": "14-19",
+      "conf_record": "12-8",
+      "adj_oe": 110.7,
+      "adj_de": 112.8,
       "adj_margin": -2.1,
-      "adj_tempo": 130.5,
-      "edge_index": 0.4448
+      "adj_tempo": 127.4,
+      "edge_index": 0.4458
     },
     {
       "rank": 207,
-      "team": "Merrimack",
-      "team_id": 166,
-      "conference": "MAAC",
-      "record": "23-10",
-      "conf_record": "19-3",
-      "adj_oe": 106.0,
-      "adj_de": 108.2,
-      "adj_margin": -2.2,
-      "adj_tempo": 126.3,
-      "edge_index": 0.4405
-    },
-    {
-      "rank": 208,
       "team": "Eastern Michigan",
       "team_id": 79,
       "conference": "MAC",
       "record": "10-21",
       "conf_record": "4-14",
       "adj_oe": 101.6,
-      "adj_de": 103.8,
+      "adj_de": 103.9,
+      "adj_margin": -2.2,
+      "adj_tempo": 125.5,
+      "edge_index": 0.4385
+    },
+    {
+      "rank": 208,
+      "team": "Merrimack",
+      "team_id": 166,
+      "conference": "MAAC",
+      "record": "23-11",
+      "conf_record": "19-4",
+      "adj_oe": 105.9,
+      "adj_de": 108.2,
       "adj_margin": -2.3,
-      "adj_tempo": 125.2,
-      "edge_index": 0.4369
+      "adj_tempo": 126.2,
+      "edge_index": 0.4396
     },
     {
       "rank": 209,
@@ -2717,8 +2717,8 @@
       "adj_oe": 100.1,
       "adj_de": 102.4,
       "adj_margin": -2.3,
-      "adj_tempo": 128.2,
-      "edge_index": 0.4343
+      "adj_tempo": 128.4,
+      "edge_index": 0.4347
     },
     {
       "rank": 210,
@@ -2730,8 +2730,8 @@
       "adj_oe": 111.5,
       "adj_de": 113.9,
       "adj_margin": -2.5,
-      "adj_tempo": 131.7,
-      "edge_index": 0.4378
+      "adj_tempo": 131.3,
+      "edge_index": 0.4377
     },
     {
       "rank": 211,
@@ -2743,8 +2743,8 @@
       "adj_oe": 108.0,
       "adj_de": 110.4,
       "adj_margin": -2.5,
-      "adj_tempo": 135.9,
-      "edge_index": 0.4353
+      "adj_tempo": 135.8,
+      "edge_index": 0.4351
     },
     {
       "rank": 212,
@@ -2756,8 +2756,8 @@
       "adj_oe": 105.5,
       "adj_de": 108.0,
       "adj_margin": -2.5,
-      "adj_tempo": 139.5,
-      "edge_index": 0.4338
+      "adj_tempo": 139.3,
+      "edge_index": 0.4335
     },
     {
       "rank": 213,
@@ -2769,21 +2769,21 @@
       "adj_oe": 105.5,
       "adj_de": 108.0,
       "adj_margin": -2.5,
-      "adj_tempo": 129.2,
-      "edge_index": 0.4333
+      "adj_tempo": 129.6,
+      "edge_index": 0.4325
     },
     {
       "rank": 214,
-      "team": "Eastern Washington",
-      "team_id": 80,
-      "conference": "Big Sky",
-      "record": "14-18",
-      "conf_record": "12-7",
-      "adj_oe": 110.3,
-      "adj_de": 112.8,
+      "team": "Vermont",
+      "team_id": 337,
+      "conference": "Am. East",
+      "record": "22-11",
+      "conf_record": "14-4",
+      "adj_oe": 108.5,
+      "adj_de": 111.0,
       "adj_margin": -2.5,
-      "adj_tempo": 129.9,
-      "edge_index": 0.4361
+      "adj_tempo": 128.2,
+      "edge_index": 0.4338
     },
     {
       "rank": 215,
@@ -2795,8 +2795,8 @@
       "adj_oe": 102.1,
       "adj_de": 105.0,
       "adj_margin": -2.9,
-      "adj_tempo": 123.6,
-      "edge_index": 0.4206
+      "adj_tempo": 123.5,
+      "edge_index": 0.4208
     },
     {
       "rank": 216,
@@ -2808,7 +2808,7 @@
       "adj_oe": 105.3,
       "adj_de": 108.3,
       "adj_margin": -3.0,
-      "adj_tempo": 119.9,
+      "adj_tempo": 119.6,
       "edge_index": 0.4204
     },
     {
@@ -2821,8 +2821,8 @@
       "adj_oe": 104.9,
       "adj_de": 107.9,
       "adj_margin": -3.1,
-      "adj_tempo": 141.6,
-      "edge_index": 0.4182
+      "adj_tempo": 141.4,
+      "edge_index": 0.4177
     },
     {
       "rank": 218,
@@ -2831,11 +2831,11 @@
       "conference": "MEAC",
       "record": "21-10",
       "conf_record": "11-3",
-      "adj_oe": 102.0,
+      "adj_oe": 102.1,
       "adj_de": 105.1,
       "adj_margin": -3.1,
       "adj_tempo": 131.6,
-      "edge_index": 0.4135
+      "edge_index": 0.4154
     },
     {
       "rank": 219,
@@ -2847,8 +2847,8 @@
       "adj_oe": 104.4,
       "adj_de": 107.8,
       "adj_margin": -3.3,
-      "adj_tempo": 141.3,
-      "edge_index": 0.4111
+      "adj_tempo": 141.2,
+      "edge_index": 0.4108
     },
     {
       "rank": 220,
@@ -2860,7 +2860,7 @@
       "adj_oe": 102.0,
       "adj_de": 105.4,
       "adj_margin": -3.4,
-      "adj_tempo": 131.7,
+      "adj_tempo": 131.3,
       "edge_index": 0.407
     },
     {
@@ -2873,21 +2873,21 @@
       "adj_oe": 102.6,
       "adj_de": 106.7,
       "adj_margin": -4.1,
-      "adj_tempo": 134.5,
-      "edge_index": 0.3897
+      "adj_tempo": 134.2,
+      "edge_index": 0.3895
     },
     {
       "rank": 222,
       "team": "Jacksonville State",
       "team_id": 128,
       "conference": "CUSA",
-      "record": "15-16",
-      "conf_record": "10-10",
-      "adj_oe": 104.9,
+      "record": "15-17",
+      "conf_record": "10-11",
+      "adj_oe": 104.8,
       "adj_de": 108.9,
       "adj_margin": -4.1,
-      "adj_tempo": 130.3,
-      "edge_index": 0.3919
+      "adj_tempo": 130.1,
+      "edge_index": 0.3917
     },
     {
       "rank": 223,
@@ -2897,10 +2897,10 @@
       "record": "18-15",
       "conf_record": "13-9",
       "adj_oe": 110.4,
-      "adj_de": 114.5,
-      "adj_margin": -4.1,
-      "adj_tempo": 118.6,
-      "edge_index": 0.3959
+      "adj_de": 114.6,
+      "adj_margin": -4.2,
+      "adj_tempo": 118.7,
+      "edge_index": 0.3951
     },
     {
       "rank": 224,
@@ -2912,8 +2912,8 @@
       "adj_oe": 104.1,
       "adj_de": 108.3,
       "adj_margin": -4.2,
-      "adj_tempo": 127.4,
-      "edge_index": 0.388
+      "adj_tempo": 127.2,
+      "edge_index": 0.3882
     },
     {
       "rank": 225,
@@ -2925,8 +2925,8 @@
       "adj_oe": 107.3,
       "adj_de": 111.5,
       "adj_margin": -4.2,
-      "adj_tempo": 130.3,
-      "edge_index": 0.3912
+      "adj_tempo": 130.1,
+      "edge_index": 0.3908
     },
     {
       "rank": 226,
@@ -2939,7 +2939,7 @@
       "adj_de": 105.8,
       "adj_margin": -4.3,
       "adj_tempo": 137.3,
-      "edge_index": 0.3825
+      "edge_index": 0.382
     },
     {
       "rank": 227,
@@ -2948,11 +2948,11 @@
       "conference": "Horizon",
       "record": "12-20",
       "conf_record": "8-13",
-      "adj_oe": 106.7,
-      "adj_de": 111.0,
+      "adj_oe": 106.8,
+      "adj_de": 111.1,
       "adj_margin": -4.3,
-      "adj_tempo": 128.0,
-      "edge_index": 0.3873
+      "adj_tempo": 128.4,
+      "edge_index": 0.3875
     },
     {
       "rank": 228,
@@ -2962,10 +2962,10 @@
       "record": "9-20",
       "conf_record": "5-9",
       "adj_oe": 104.0,
-      "adj_de": 108.4,
-      "adj_margin": -4.4,
+      "adj_de": 108.5,
+      "adj_margin": -4.5,
       "adj_tempo": 125.0,
-      "edge_index": 0.3826
+      "edge_index": 0.3813
     },
     {
       "rank": 229,
@@ -2974,11 +2974,11 @@
       "conference": "A-10",
       "record": "9-22",
       "conf_record": "5-13",
-      "adj_oe": 104.7,
+      "adj_oe": 104.6,
       "adj_de": 109.2,
       "adj_margin": -4.5,
-      "adj_tempo": 125.1,
-      "edge_index": 0.3807
+      "adj_tempo": 125.2,
+      "edge_index": 0.38
     },
     {
       "rank": 230,
@@ -2987,11 +2987,11 @@
       "conference": "Southland",
       "record": "16-18",
       "conf_record": "13-11",
-      "adj_oe": 108.1,
-      "adj_de": 112.8,
+      "adj_oe": 108.0,
+      "adj_de": 112.9,
       "adj_margin": -4.8,
-      "adj_tempo": 131.4,
-      "edge_index": 0.3781
+      "adj_tempo": 131.8,
+      "edge_index": 0.377
     },
     {
       "rank": 231,
@@ -3003,24 +3003,37 @@
       "adj_oe": 104.3,
       "adj_de": 109.1,
       "adj_margin": -4.8,
-      "adj_tempo": 133.5,
-      "edge_index": 0.3732
+      "adj_tempo": 133.1,
+      "edge_index": 0.3728
     },
     {
       "rank": 232,
+      "team": "Oregon State",
+      "team_id": 224,
+      "conference": "WCC",
+      "record": "17-16",
+      "conf_record": "10-10",
+      "adj_oe": 106.2,
+      "adj_de": 111.2,
+      "adj_margin": -5.0,
+      "adj_tempo": 125.1,
+      "edge_index": 0.3706
+    },
+    {
+      "rank": 233,
       "team": "Fairfield",
       "team_id": 83,
       "conference": "MAAC",
       "record": "21-13",
       "conf_record": "13-10",
       "adj_oe": 105.9,
-      "adj_de": 111.0,
+      "adj_de": 111.1,
       "adj_margin": -5.2,
-      "adj_tempo": 126.3,
+      "adj_tempo": 126.2,
       "edge_index": 0.3665
     },
     {
-      "rank": 233,
+      "rank": 234,
       "team": "UNC Asheville",
       "team_id": 319,
       "conference": "Big South",
@@ -3029,37 +3042,11 @@
       "adj_oe": 103.9,
       "adj_de": 109.2,
       "adj_margin": -5.2,
-      "adj_tempo": 131.4,
-      "edge_index": 0.3624
-    },
-    {
-      "rank": 234,
-      "team": "Oregon State",
-      "team_id": 224,
-      "conference": "WCC",
-      "record": "17-16",
-      "conf_record": "10-10",
-      "adj_oe": 106.3,
-      "adj_de": 111.7,
-      "adj_margin": -5.4,
-      "adj_tempo": 126.8,
-      "edge_index": 0.3611
+      "adj_tempo": 131.1,
+      "edge_index": 0.3623
     },
     {
       "rank": 235,
-      "team": "Lindenwood",
-      "team_id": 366,
-      "conference": "OVC",
-      "record": "18-15",
-      "conf_record": "12-10",
-      "adj_oe": 100.3,
-      "adj_de": 105.7,
-      "adj_margin": -5.4,
-      "adj_tempo": 136.9,
-      "edge_index": 0.3529
-    },
-    {
-      "rank": 236,
       "team": "San Diego",
       "team_id": 258,
       "conference": "WCC",
@@ -3068,8 +3055,21 @@
       "adj_oe": 106.4,
       "adj_de": 111.8,
       "adj_margin": -5.4,
-      "adj_tempo": 133.1,
-      "edge_index": 0.3607
+      "adj_tempo": 133.3,
+      "edge_index": 0.3616
+    },
+    {
+      "rank": 236,
+      "team": "Lindenwood",
+      "team_id": 366,
+      "conference": "OVC",
+      "record": "18-15",
+      "conf_record": "12-10",
+      "adj_oe": 100.3,
+      "adj_de": 105.7,
+      "adj_margin": -5.4,
+      "adj_tempo": 136.7,
+      "edge_index": 0.3531
     },
     {
       "rank": 237,
@@ -3080,25 +3080,12 @@
       "conf_record": "10-10",
       "adj_oe": 106.7,
       "adj_de": 112.3,
-      "adj_margin": -5.5,
-      "adj_tempo": 140.5,
-      "edge_index": 0.3583
+      "adj_margin": -5.6,
+      "adj_tempo": 140.3,
+      "edge_index": 0.3578
     },
     {
       "rank": 238,
-      "team": "Chattanooga",
-      "team_id": 49,
-      "conference": "SoCon",
-      "record": "13-19",
-      "conf_record": "7-12",
-      "adj_oe": 109.0,
-      "adj_de": 114.9,
-      "adj_margin": -5.9,
-      "adj_tempo": 134.4,
-      "edge_index": 0.354
-    },
-    {
-      "rank": 239,
       "team": "Louisiana Tech",
       "team_id": 149,
       "conference": "CUSA",
@@ -3107,8 +3094,21 @@
       "adj_oe": 99.6,
       "adj_de": 105.5,
       "adj_margin": -5.9,
-      "adj_tempo": 123.4,
-      "edge_index": 0.3411
+      "adj_tempo": 123.5,
+      "edge_index": 0.3413
+    },
+    {
+      "rank": 239,
+      "team": "Chattanooga",
+      "team_id": 49,
+      "conference": "SoCon",
+      "record": "13-19",
+      "conf_record": "7-12",
+      "adj_oe": 109.0,
+      "adj_de": 114.9,
+      "adj_margin": -5.9,
+      "adj_tempo": 134.2,
+      "edge_index": 0.3531
     },
     {
       "rank": 240,
@@ -3120,8 +3120,8 @@
       "adj_oe": 100.9,
       "adj_de": 106.8,
       "adj_margin": -5.9,
-      "adj_tempo": 131.3,
-      "edge_index": 0.3429
+      "adj_tempo": 131.1,
+      "edge_index": 0.3423
     },
     {
       "rank": 241,
@@ -3133,21 +3133,21 @@
       "adj_oe": 101.9,
       "adj_de": 107.9,
       "adj_margin": -6.0,
-      "adj_tempo": 132.0,
+      "adj_tempo": 132.4,
       "edge_index": 0.3413
     },
     {
       "rank": 242,
-      "team": "Mercyhurst",
-      "team_id": 165,
-      "conference": "NEC",
-      "record": "17-16",
-      "conf_record": "12-8",
-      "adj_oe": 100.4,
-      "adj_de": 106.4,
+      "team": "Detroit Mercy",
+      "team_id": 69,
+      "conference": "Horizon",
+      "record": "17-15",
+      "conf_record": "14-9",
+      "adj_oe": 105.8,
+      "adj_de": 111.8,
       "adj_margin": -6.0,
-      "adj_tempo": 128.6,
-      "edge_index": 0.339
+      "adj_tempo": 124.7,
+      "edge_index": 0.3454
     },
     {
       "rank": 243,
@@ -3159,24 +3159,37 @@
       "adj_oe": 105.7,
       "adj_de": 111.8,
       "adj_margin": -6.1,
-      "adj_tempo": 135.3,
-      "edge_index": 0.3446
+      "adj_tempo": 135.1,
+      "edge_index": 0.3451
     },
     {
       "rank": 244,
+      "team": "Mercyhurst",
+      "team_id": 165,
+      "conference": "NEC",
+      "record": "17-17",
+      "conf_record": "12-9",
+      "adj_oe": 100.6,
+      "adj_de": 106.7,
+      "adj_margin": -6.1,
+      "adj_tempo": 126.1,
+      "edge_index": 0.337
+    },
+    {
+      "rank": 245,
       "team": "Purdue Fort Wayne",
       "team_id": 237,
       "conference": "Horizon",
       "record": "17-15",
       "conf_record": "11-10",
-      "adj_oe": 105.1,
-      "adj_de": 111.4,
-      "adj_margin": -6.3,
-      "adj_tempo": 131.9,
-      "edge_index": 0.3396
+      "adj_oe": 105.2,
+      "adj_de": 111.5,
+      "adj_margin": -6.2,
+      "adj_tempo": 132.4,
+      "edge_index": 0.3406
     },
     {
-      "rank": 245,
+      "rank": 246,
       "team": "Tulane",
       "team_id": 303,
       "conference": "American",
@@ -3186,10 +3199,10 @@
       "adj_de": 111.3,
       "adj_margin": -6.3,
       "adj_tempo": 127.4,
-      "edge_index": 0.3393
+      "edge_index": 0.3391
     },
     {
-      "rank": 246,
+      "rank": 247,
       "team": "Western Carolina",
       "team_id": 348,
       "conference": "SoCon",
@@ -3198,11 +3211,11 @@
       "adj_oe": 105.7,
       "adj_de": 112.0,
       "adj_margin": -6.3,
-      "adj_tempo": 126.6,
-      "edge_index": 0.3398
+      "adj_tempo": 126.5,
+      "edge_index": 0.3391
     },
     {
-      "rank": 247,
+      "rank": 248,
       "team": "Dartmouth",
       "team_id": 62,
       "conference": "Ivy",
@@ -3211,11 +3224,11 @@
       "adj_oe": 104.9,
       "adj_de": 111.2,
       "adj_margin": -6.3,
-      "adj_tempo": 131.2,
-      "edge_index": 0.3381
+      "adj_tempo": 130.9,
+      "edge_index": 0.3378
     },
     {
-      "rank": 248,
+      "rank": 249,
       "team": "Jacksonville",
       "team_id": 127,
       "conference": "ASUN",
@@ -3224,47 +3237,34 @@
       "adj_oe": 103.2,
       "adj_de": 109.6,
       "adj_margin": -6.4,
-      "adj_tempo": 122.7,
-      "edge_index": 0.3332
+      "adj_tempo": 122.5,
+      "edge_index": 0.333
     },
     {
-      "rank": 249,
+      "rank": 250,
       "team": "Le Moyne",
       "team_id": 140,
       "conference": "NEC",
       "record": "15-17",
       "conf_record": "10-9",
-      "adj_oe": 105.8,
+      "adj_oe": 105.7,
       "adj_de": 112.3,
       "adj_margin": -6.5,
-      "adj_tempo": 134.7,
+      "adj_tempo": 134.6,
       "edge_index": 0.3346
     },
     {
-      "rank": 250,
+      "rank": 251,
       "team": "Boston University",
       "team_id": 27,
       "conference": "Patriot",
       "record": "17-16",
       "conf_record": "12-8",
-      "adj_oe": 111.8,
+      "adj_oe": 111.7,
       "adj_de": 118.3,
-      "adj_margin": -6.5,
-      "adj_tempo": 128.4,
-      "edge_index": 0.3422
-    },
-    {
-      "rank": 251,
-      "team": "Northeastern",
-      "team_id": 205,
-      "conference": "CAA",
-      "record": "7-24",
-      "conf_record": "3-17",
-      "adj_oe": 108.3,
-      "adj_de": 114.9,
       "adj_margin": -6.6,
-      "adj_tempo": 139.3,
-      "edge_index": 0.3368
+      "adj_tempo": 128.3,
+      "edge_index": 0.3414
     },
     {
       "rank": 252,
@@ -3276,11 +3276,24 @@
       "adj_oe": 106.5,
       "adj_de": 113.1,
       "adj_margin": -6.6,
-      "adj_tempo": 141.1,
-      "edge_index": 0.3338
+      "adj_tempo": 140.9,
+      "edge_index": 0.3339
     },
     {
       "rank": 253,
+      "team": "Northeastern",
+      "team_id": 205,
+      "conference": "CAA",
+      "record": "7-24",
+      "conf_record": "3-17",
+      "adj_oe": 108.3,
+      "adj_de": 114.9,
+      "adj_margin": -6.6,
+      "adj_tempo": 139.7,
+      "edge_index": 0.3356
+    },
+    {
+      "rank": 254,
       "team": "SIU Edwardsville",
       "team_id": 247,
       "conference": "OVC",
@@ -3289,21 +3302,8 @@
       "adj_oe": 99.5,
       "adj_de": 106.2,
       "adj_margin": -6.8,
-      "adj_tempo": 125.9,
-      "edge_index": 0.3196
-    },
-    {
-      "rank": 254,
-      "team": "Portland",
-      "team_id": 230,
-      "conference": "WCC",
-      "record": "15-19",
-      "conf_record": "8-13",
-      "adj_oe": 103.0,
-      "adj_de": 109.9,
-      "adj_margin": -6.8,
-      "adj_tempo": 131.5,
-      "edge_index": 0.3237
+      "adj_tempo": 125.6,
+      "edge_index": 0.3194
     },
     {
       "rank": 255,
@@ -3315,34 +3315,34 @@
       "adj_oe": 99.0,
       "adj_de": 105.9,
       "adj_margin": -6.9,
-      "adj_tempo": 134.7,
-      "edge_index": 0.3156
+      "adj_tempo": 134.6,
+      "edge_index": 0.3162
     },
     {
       "rank": 256,
+      "team": "Portland",
+      "team_id": 230,
+      "conference": "WCC",
+      "record": "15-19",
+      "conf_record": "8-13",
+      "adj_oe": 103.0,
+      "adj_de": 109.9,
+      "adj_margin": -6.9,
+      "adj_tempo": 131.8,
+      "edge_index": 0.3216
+    },
+    {
+      "rank": 257,
       "team": "Samford",
       "team_id": 256,
       "conference": "SoCon",
       "record": "18-14",
       "conf_record": "11-8",
       "adj_oe": 107.4,
-      "adj_de": 114.4,
+      "adj_de": 114.5,
       "adj_margin": -7.0,
-      "adj_tempo": 139.1,
-      "edge_index": 0.3257
-    },
-    {
-      "rank": 257,
-      "team": "Detroit Mercy",
-      "team_id": 69,
-      "conference": "Horizon",
-      "record": "17-14",
-      "conf_record": "14-8",
-      "adj_oe": 106.1,
-      "adj_de": 113.1,
-      "adj_margin": -7.1,
-      "adj_tempo": 129.9,
-      "edge_index": 0.3228
+      "adj_tempo": 138.8,
+      "edge_index": 0.3255
     },
     {
       "rank": 258,
@@ -3352,10 +3352,10 @@
       "record": "13-18",
       "conf_record": "7-11",
       "adj_oe": 106.0,
-      "adj_de": 113.0,
+      "adj_de": 113.1,
       "adj_margin": -7.1,
       "adj_tempo": 127.8,
-      "edge_index": 0.3226
+      "edge_index": 0.3214
     },
     {
       "rank": 259,
@@ -3367,8 +3367,8 @@
       "adj_oe": 96.6,
       "adj_de": 103.7,
       "adj_margin": -7.2,
-      "adj_tempo": 124.2,
-      "edge_index": 0.3054
+      "adj_tempo": 124.0,
+      "edge_index": 0.3055
     },
     {
       "rank": 260,
@@ -3377,27 +3377,14 @@
       "conference": "NEC",
       "record": "14-17",
       "conf_record": "9-11",
-      "adj_oe": 106.4,
-      "adj_de": 113.6,
-      "adj_margin": -7.3,
-      "adj_tempo": 133.6,
-      "edge_index": 0.3189
+      "adj_oe": 106.3,
+      "adj_de": 113.5,
+      "adj_margin": -7.2,
+      "adj_tempo": 134.0,
+      "edge_index": 0.3201
     },
     {
       "rank": 261,
-      "team": "Nicholls",
-      "team_id": 195,
-      "conference": "Southland",
-      "record": "14-19",
-      "conf_record": "13-11",
-      "adj_oe": 102.2,
-      "adj_de": 109.6,
-      "adj_margin": -7.3,
-      "adj_tempo": 128.3,
-      "edge_index": 0.3108
-    },
-    {
-      "rank": 262,
       "team": "Long Beach State",
       "team_id": 145,
       "conference": "Big West",
@@ -3406,11 +3393,11 @@
       "adj_oe": 103.5,
       "adj_de": 110.9,
       "adj_margin": -7.4,
-      "adj_tempo": 131.8,
-      "edge_index": 0.3113
+      "adj_tempo": 131.5,
+      "edge_index": 0.3109
     },
     {
-      "rank": 263,
+      "rank": 262,
       "team": "Stony Brook",
       "team_id": 285,
       "conference": "CAA",
@@ -3419,11 +3406,11 @@
       "adj_oe": 103.9,
       "adj_de": 111.4,
       "adj_margin": -7.5,
-      "adj_tempo": 130.1,
-      "edge_index": 0.3102
+      "adj_tempo": 130.3,
+      "edge_index": 0.3095
     },
     {
-      "rank": 264,
+      "rank": 263,
       "team": "Wofford",
       "team_id": 356,
       "conference": "SoCon",
@@ -3432,11 +3419,11 @@
       "adj_oe": 106.7,
       "adj_de": 114.4,
       "adj_margin": -7.7,
-      "adj_tempo": 131.0,
-      "edge_index": 0.3092
+      "adj_tempo": 130.7,
+      "edge_index": 0.3089
     },
     {
-      "rank": 265,
+      "rank": 264,
       "team": "UC Riverside",
       "team_id": 309,
       "conference": "Big West",
@@ -3445,11 +3432,11 @@
       "adj_oe": 103.5,
       "adj_de": 111.5,
       "adj_margin": -8.0,
-      "adj_tempo": 126.5,
-      "edge_index": 0.2979
+      "adj_tempo": 126.4,
+      "edge_index": 0.2988
     },
     {
-      "rank": 266,
+      "rank": 265,
       "team": "Morehead State",
       "team_id": 181,
       "conference": "OVC",
@@ -3458,11 +3445,11 @@
       "adj_oe": 107.0,
       "adj_de": 115.1,
       "adj_margin": -8.1,
-      "adj_tempo": 127.0,
-      "edge_index": 0.3024
+      "adj_tempo": 126.7,
+      "edge_index": 0.3023
     },
     {
-      "rank": 267,
+      "rank": 266,
       "team": "Presbyterian",
       "team_id": 233,
       "conference": "Big South",
@@ -3471,24 +3458,24 @@
       "adj_oe": 101.6,
       "adj_de": 109.7,
       "adj_margin": -8.1,
-      "adj_tempo": 126.9,
-      "edge_index": 0.2929
+      "adj_tempo": 126.6,
+      "edge_index": 0.2928
     },
     {
-      "rank": 268,
+      "rank": 267,
       "team": "Ohio",
       "team_id": 215,
       "conference": "MAC",
       "record": "15-16",
       "conf_record": "9-9",
-      "adj_oe": 106.4,
+      "adj_oe": 106.3,
       "adj_de": 114.5,
-      "adj_margin": -8.1,
-      "adj_tempo": 134.5,
-      "edge_index": 0.3
+      "adj_margin": -8.2,
+      "adj_tempo": 134.3,
+      "edge_index": 0.2994
     },
     {
-      "rank": 269,
+      "rank": 268,
       "team": "Southern",
       "team_id": 274,
       "conference": "SWAC",
@@ -3496,9 +3483,22 @@
       "conf_record": "11-7",
       "adj_oe": 101.3,
       "adj_de": 109.6,
-      "adj_margin": -8.3,
-      "adj_tempo": 136.1,
-      "edge_index": 0.2873
+      "adj_margin": -8.2,
+      "adj_tempo": 136.4,
+      "edge_index": 0.2893
+    },
+    {
+      "rank": 269,
+      "team": "Bethune-Cookman",
+      "team_id": 23,
+      "conference": "SWAC",
+      "record": "17-14",
+      "conf_record": "14-4",
+      "adj_oe": 104.4,
+      "adj_de": 112.8,
+      "adj_margin": -8.4,
+      "adj_tempo": 135.4,
+      "edge_index": 0.292
     },
     {
       "rank": 270,
@@ -3509,22 +3509,22 @@
       "conf_record": "3-17",
       "adj_oe": 108.8,
       "adj_de": 117.1,
-      "adj_margin": -8.3,
-      "adj_tempo": 125.4,
-      "edge_index": 0.2995
+      "adj_margin": -8.4,
+      "adj_tempo": 125.3,
+      "edge_index": 0.2991
     },
     {
       "rank": 271,
-      "team": "Bethune-Cookman",
-      "team_id": 23,
-      "conference": "SWAC",
-      "record": "17-14",
-      "conf_record": "14-4",
-      "adj_oe": 104.3,
-      "adj_de": 112.7,
+      "team": "Nicholls",
+      "team_id": 195,
+      "conference": "Southland",
+      "record": "14-19",
+      "conf_record": "13-11",
+      "adj_oe": 102.2,
+      "adj_de": 110.6,
       "adj_margin": -8.4,
-      "adj_tempo": 135.2,
-      "edge_index": 0.2906
+      "adj_tempo": 125.5,
+      "edge_index": 0.2874
     },
     {
       "rank": 272,
@@ -3536,8 +3536,8 @@
       "adj_oe": 104.3,
       "adj_de": 112.7,
       "adj_margin": -8.5,
-      "adj_tempo": 126.9,
-      "edge_index": 0.2896
+      "adj_tempo": 127.2,
+      "edge_index": 0.2893
     },
     {
       "rank": 273,
@@ -3549,8 +3549,8 @@
       "adj_oe": 101.6,
       "adj_de": 110.3,
       "adj_margin": -8.7,
-      "adj_tempo": 130.6,
-      "edge_index": 0.2799
+      "adj_tempo": 130.3,
+      "edge_index": 0.2798
     },
     {
       "rank": 274,
@@ -3560,39 +3560,52 @@
       "record": "12-19",
       "conf_record": "7-15",
       "adj_oe": 104.8,
-      "adj_de": 113.7,
+      "adj_de": 113.8,
       "adj_margin": -8.9,
-      "adj_tempo": 130.0,
-      "edge_index": 0.2812
+      "adj_tempo": 130.3,
+      "edge_index": 0.2811
     },
     {
       "rank": 275,
+      "team": "Grambling",
+      "team_id": 103,
+      "conference": "SWAC",
+      "record": "14-19",
+      "conf_record": "8-12",
+      "adj_oe": 96.3,
+      "adj_de": 105.4,
+      "adj_margin": -9.1,
+      "adj_tempo": 127.8,
+      "edge_index": 0.2617
+    },
+    {
+      "rank": 276,
       "team": "Abilene Christian",
       "team_id": 1,
       "conference": "WAC",
       "record": "13-18",
       "conf_record": "5-13",
-      "adj_oe": 99.4,
+      "adj_oe": 99.3,
       "adj_de": 108.5,
-      "adj_margin": -9.1,
-      "adj_tempo": 125.6,
-      "edge_index": 0.2665
+      "adj_margin": -9.2,
+      "adj_tempo": 125.5,
+      "edge_index": 0.2662
     },
     {
-      "rank": 276,
+      "rank": 277,
       "team": "Omaha",
       "team_id": 221,
       "conference": "Summit",
       "record": "16-17",
       "conf_record": "9-9",
       "adj_oe": 103.2,
-      "adj_de": 112.3,
+      "adj_de": 112.4,
       "adj_margin": -9.2,
       "adj_tempo": 128.9,
-      "edge_index": 0.2734
+      "edge_index": 0.2723
     },
     {
-      "rank": 277,
+      "rank": 278,
       "team": "UTEP",
       "team_id": 327,
       "conference": "CUSA",
@@ -3601,11 +3614,11 @@
       "adj_oe": 100.3,
       "adj_de": 109.6,
       "adj_margin": -9.3,
-      "adj_tempo": 127.8,
+      "adj_tempo": 128.0,
       "edge_index": 0.2661
     },
     {
-      "rank": 278,
+      "rank": 279,
       "team": "Radford",
       "team_id": 239,
       "conference": "Big South",
@@ -3614,11 +3627,11 @@
       "adj_oe": 104.5,
       "adj_de": 113.8,
       "adj_margin": -9.3,
-      "adj_tempo": 136.0,
-      "edge_index": 0.2736
+      "adj_tempo": 135.9,
+      "edge_index": 0.2737
     },
     {
-      "rank": 279,
+      "rank": 280,
       "team": "Georgia State",
       "team_id": 100,
       "conference": "Sun Belt",
@@ -3627,11 +3640,11 @@
       "adj_oe": 98.8,
       "adj_de": 108.2,
       "adj_margin": -9.5,
-      "adj_tempo": 128.8,
-      "edge_index": 0.2588
+      "adj_tempo": 128.7,
+      "edge_index": 0.259
     },
     {
-      "rank": 280,
+      "rank": 281,
       "team": "Hampton",
       "team_id": 106,
       "conference": "CAA",
@@ -3640,37 +3653,37 @@
       "adj_oe": 102.7,
       "adj_de": 112.2,
       "adj_margin": -9.5,
-      "adj_tempo": 123.9,
-      "edge_index": 0.2647
+      "adj_tempo": 124.1,
+      "edge_index": 0.2654
     },
     {
-      "rank": 281,
+      "rank": 282,
       "team": "East Texas A&M",
       "team_id": 76,
       "conference": "Southland",
       "record": "11-21",
       "conf_record": "6-16",
       "adj_oe": 100.0,
-      "adj_de": 109.6,
-      "adj_margin": -9.6,
-      "adj_tempo": 125.2,
-      "edge_index": 0.259
+      "adj_de": 109.5,
+      "adj_margin": -9.5,
+      "adj_tempo": 125.6,
+      "edge_index": 0.2601
     },
     {
-      "rank": 282,
+      "rank": 283,
       "team": "Bellarmine",
       "team_id": 21,
       "conference": "ASUN",
       "record": "13-19",
       "conf_record": "8-12",
-      "adj_oe": 115.6,
+      "adj_oe": 115.5,
       "adj_de": 125.5,
       "adj_margin": -10.0,
-      "adj_tempo": 128.3,
-      "edge_index": 0.2783
+      "adj_tempo": 128.1,
+      "edge_index": 0.2778
     },
     {
-      "rank": 283,
+      "rank": 284,
       "team": "Southern Utah",
       "team_id": 276,
       "conference": "WAC",
@@ -3679,24 +3692,24 @@
       "adj_oe": 104.6,
       "adj_de": 114.6,
       "adj_margin": -10.0,
-      "adj_tempo": 133.1,
-      "edge_index": 0.2586
+      "adj_tempo": 133.4,
+      "edge_index": 0.2589
     },
     {
-      "rank": 284,
+      "rank": 285,
       "team": "North Carolina A&T",
       "team_id": 198,
       "conference": "CAA",
       "record": "11-19",
       "conf_record": "4-15",
-      "adj_oe": 104.4,
-      "adj_de": 114.4,
+      "adj_oe": 104.3,
+      "adj_de": 114.5,
       "adj_margin": -10.1,
       "adj_tempo": 132.7,
-      "edge_index": 0.257
+      "edge_index": 0.2565
     },
     {
-      "rank": 285,
+      "rank": 286,
       "team": "Western Michigan",
       "team_id": 351,
       "conference": "MAC",
@@ -3705,11 +3718,11 @@
       "adj_oe": 103.7,
       "adj_de": 113.8,
       "adj_margin": -10.1,
-      "adj_tempo": 132.6,
-      "edge_index": 0.2549
+      "adj_tempo": 132.3,
+      "edge_index": 0.2548
     },
     {
-      "rank": 286,
+      "rank": 287,
       "team": "Lehigh",
       "team_id": 141,
       "conference": "Patriot",
@@ -3718,11 +3731,11 @@
       "adj_oe": 100.5,
       "adj_de": 110.7,
       "adj_margin": -10.2,
-      "adj_tempo": 134.0,
+      "adj_tempo": 133.8,
       "edge_index": 0.2484
     },
     {
-      "rank": 287,
+      "rank": 288,
       "team": "South Carolina Upstate",
       "team_id": 268,
       "conference": "Big South",
@@ -3731,21 +3744,8 @@
       "adj_oe": 100.4,
       "adj_de": 110.6,
       "adj_margin": -10.2,
-      "adj_tempo": 134.5,
-      "edge_index": 0.2481
-    },
-    {
-      "rank": 288,
-      "team": "Grambling",
-      "team_id": 103,
-      "conference": "SWAC",
-      "record": "14-18",
-      "conf_record": "8-11",
-      "adj_oe": 96.1,
-      "adj_de": 106.3,
-      "adj_margin": -10.2,
-      "adj_tempo": 130.9,
-      "edge_index": 0.2394
+      "adj_tempo": 134.2,
+      "edge_index": 0.248
     },
     {
       "rank": 289,
@@ -3757,8 +3757,8 @@
       "adj_oe": 114.4,
       "adj_de": 124.6,
       "adj_margin": -10.2,
-      "adj_tempo": 131.2,
-      "edge_index": 0.2726
+      "adj_tempo": 130.9,
+      "edge_index": 0.2725
     },
     {
       "rank": 290,
@@ -3767,11 +3767,11 @@
       "conference": "Southland",
       "record": "10-22",
       "conf_record": "8-15",
-      "adj_oe": 104.9,
-      "adj_de": 115.3,
+      "adj_oe": 104.8,
+      "adj_de": 115.2,
       "adj_margin": -10.4,
-      "adj_tempo": 125.3,
-      "edge_index": 0.2519
+      "adj_tempo": 126.0,
+      "edge_index": 0.2521
     },
     {
       "rank": 291,
@@ -3783,7 +3783,7 @@
       "adj_oe": 98.8,
       "adj_de": 109.3,
       "adj_margin": -10.5,
-      "adj_tempo": 124.4,
+      "adj_tempo": 124.1,
       "edge_index": 0.2385
     },
     {
@@ -3796,8 +3796,8 @@
       "adj_oe": 97.9,
       "adj_de": 108.9,
       "adj_margin": -11.0,
-      "adj_tempo": 132.6,
-      "edge_index": 0.2271
+      "adj_tempo": 133.1,
+      "edge_index": 0.2277
     },
     {
       "rank": 293,
@@ -3808,9 +3808,9 @@
       "conf_record": "9-11",
       "adj_oe": 101.2,
       "adj_de": 112.2,
-      "adj_margin": -11.0,
-      "adj_tempo": 132.2,
-      "edge_index": 0.2329
+      "adj_margin": -11.1,
+      "adj_tempo": 131.9,
+      "edge_index": 0.2328
     },
     {
       "rank": 294,
@@ -3820,10 +3820,10 @@
       "record": "9-18",
       "conf_record": "3-11",
       "adj_oe": 95.8,
-      "adj_de": 106.8,
+      "adj_de": 106.9,
       "adj_margin": -11.1,
-      "adj_tempo": 133.3,
-      "edge_index": 0.2215
+      "adj_tempo": 133.1,
+      "edge_index": 0.221
     },
     {
       "rank": 295,
@@ -3835,8 +3835,8 @@
       "adj_oe": 101.7,
       "adj_de": 113.1,
       "adj_margin": -11.5,
-      "adj_tempo": 132.4,
-      "edge_index": 0.2267
+      "adj_tempo": 132.6,
+      "edge_index": 0.2264
     },
     {
       "rank": 296,
@@ -3845,11 +3845,11 @@
       "conference": "NEC",
       "record": "12-21",
       "conf_record": "9-11",
-      "adj_oe": 94.8,
-      "adj_de": 106.3,
+      "adj_oe": 94.7,
+      "adj_de": 106.2,
       "adj_margin": -11.5,
-      "adj_tempo": 137.7,
-      "edge_index": 0.212
+      "adj_tempo": 138.0,
+      "edge_index": 0.2113
     },
     {
       "rank": 297,
@@ -3860,9 +3860,9 @@
       "conf_record": "10-8",
       "adj_oe": 103.0,
       "adj_de": 114.6,
-      "adj_margin": -11.7,
-      "adj_tempo": 126.2,
-      "edge_index": 0.2255
+      "adj_margin": -11.6,
+      "adj_tempo": 126.4,
+      "edge_index": 0.2265
     },
     {
       "rank": 298,
@@ -3874,8 +3874,8 @@
       "adj_oe": 105.9,
       "adj_de": 117.7,
       "adj_margin": -11.7,
-      "adj_tempo": 132.7,
-      "edge_index": 0.23
+      "adj_tempo": 132.8,
+      "edge_index": 0.2298
     },
     {
       "rank": 299,
@@ -3887,8 +3887,8 @@
       "adj_oe": 98.7,
       "adj_de": 110.6,
       "adj_margin": -11.8,
-      "adj_tempo": 127.1,
-      "edge_index": 0.2138
+      "adj_tempo": 126.8,
+      "edge_index": 0.2137
     },
     {
       "rank": 300,
@@ -3898,9 +3898,9 @@
       "record": "8-23",
       "conf_record": "4-14",
       "adj_oe": 103.0,
-      "adj_de": 114.9,
+      "adj_de": 114.8,
       "adj_margin": -11.9,
-      "adj_tempo": 127.4,
+      "adj_tempo": 127.2,
       "edge_index": 0.222
     },
     {
@@ -3913,8 +3913,8 @@
       "adj_oe": 106.6,
       "adj_de": 118.5,
       "adj_margin": -11.9,
-      "adj_tempo": 131.1,
-      "edge_index": 0.2288
+      "adj_tempo": 130.9,
+      "edge_index": 0.2284
     },
     {
       "rank": 302,
@@ -3924,10 +3924,10 @@
       "record": "13-15",
       "conf_record": "11-7",
       "adj_oe": 96.3,
-      "adj_de": 108.2,
-      "adj_margin": -12.0,
-      "adj_tempo": 126.3,
-      "edge_index": 0.2065
+      "adj_de": 108.3,
+      "adj_margin": -11.9,
+      "adj_tempo": 126.5,
+      "edge_index": 0.2073
     },
     {
       "rank": 303,
@@ -3939,8 +3939,8 @@
       "adj_oe": 107.9,
       "adj_de": 119.9,
       "adj_margin": -12.0,
-      "adj_tempo": 129.7,
-      "edge_index": 0.2287
+      "adj_tempo": 129.4,
+      "edge_index": 0.2286
     },
     {
       "rank": 304,
@@ -3952,8 +3952,8 @@
       "adj_oe": 100.0,
       "adj_de": 112.3,
       "adj_margin": -12.3,
-      "adj_tempo": 126.9,
-      "edge_index": 0.2087
+      "adj_tempo": 126.8,
+      "edge_index": 0.2083
     },
     {
       "rank": 305,
@@ -3965,8 +3965,8 @@
       "adj_oe": 97.6,
       "adj_de": 110.1,
       "adj_margin": -12.4,
-      "adj_tempo": 133.0,
-      "edge_index": 0.2012
+      "adj_tempo": 132.7,
+      "edge_index": 0.2011
     },
     {
       "rank": 306,
@@ -3978,8 +3978,8 @@
       "adj_oe": 98.4,
       "adj_de": 110.9,
       "adj_margin": -12.5,
-      "adj_tempo": 130.1,
-      "edge_index": 0.2014
+      "adj_tempo": 129.7,
+      "edge_index": 0.2012
     },
     {
       "rank": 307,
@@ -3991,8 +3991,8 @@
       "adj_oe": 104.6,
       "adj_de": 117.3,
       "adj_margin": -12.7,
-      "adj_tempo": 131.3,
-      "edge_index": 0.2117
+      "adj_tempo": 131.2,
+      "edge_index": 0.2114
     },
     {
       "rank": 308,
@@ -4001,11 +4001,11 @@
       "conference": "Horizon",
       "record": "7-25",
       "conf_record": "3-18",
-      "adj_oe": 105.7,
-      "adj_de": 118.7,
+      "adj_oe": 105.8,
+      "adj_de": 118.8,
       "adj_margin": -13.0,
-      "adj_tempo": 150.2,
-      "edge_index": 0.2084
+      "adj_tempo": 150.9,
+      "edge_index": 0.2092
     },
     {
       "rank": 309,
@@ -4014,11 +4014,11 @@
       "conference": "SWAC",
       "record": "10-22",
       "conf_record": "7-12",
-      "adj_oe": 102.6,
-      "adj_de": 115.7,
+      "adj_oe": 102.7,
+      "adj_de": 115.8,
       "adj_margin": -13.1,
-      "adj_tempo": 126.6,
-      "edge_index": 0.2009
+      "adj_tempo": 126.9,
+      "edge_index": 0.2012
     },
     {
       "rank": 310,
@@ -4030,24 +4030,11 @@
       "adj_oe": 100.7,
       "adj_de": 113.8,
       "adj_margin": -13.1,
-      "adj_tempo": 125.9,
+      "adj_tempo": 125.6,
       "edge_index": 0.1968
     },
     {
       "rank": 311,
-      "team": "UMass Lowell",
-      "team_id": 318,
-      "conference": "Am. East",
-      "record": "15-17",
-      "conf_record": "10-7",
-      "adj_oe": 100.9,
-      "adj_de": 114.2,
-      "adj_margin": -13.2,
-      "adj_tempo": 129.7,
-      "edge_index": 0.1954
-    },
-    {
-      "rank": 312,
       "team": "Fairleigh Dickinson",
       "team_id": 84,
       "conference": "NEC",
@@ -4056,11 +4043,11 @@
       "adj_oe": 100.8,
       "adj_de": 114.2,
       "adj_margin": -13.4,
-      "adj_tempo": 134.2,
-      "edge_index": 0.1925
+      "adj_tempo": 134.4,
+      "edge_index": 0.1929
     },
     {
-      "rank": 313,
+      "rank": 312,
       "team": "Lafayette",
       "team_id": 138,
       "conference": "Patriot",
@@ -4069,11 +4056,11 @@
       "adj_oe": 102.3,
       "adj_de": 115.7,
       "adj_margin": -13.4,
-      "adj_tempo": 127.7,
-      "edge_index": 0.1955
+      "adj_tempo": 127.5,
+      "edge_index": 0.1954
     },
     {
-      "rank": 314,
+      "rank": 313,
       "team": "Little Rock",
       "team_id": 144,
       "conference": "OVC",
@@ -4082,11 +4069,11 @@
       "adj_oe": 102.8,
       "adj_de": 116.2,
       "adj_margin": -13.4,
-      "adj_tempo": 124.9,
-      "edge_index": 0.1965
+      "adj_tempo": 124.6,
+      "edge_index": 0.1964
     },
     {
-      "rank": 315,
+      "rank": 314,
       "team": "Central Connecticut",
       "team_id": 44,
       "conference": "NEC",
@@ -4096,20 +4083,33 @@
       "adj_de": 116.3,
       "adj_margin": -13.6,
       "adj_tempo": 129.3,
-      "edge_index": 0.1938
+      "edge_index": 0.1937
     },
     {
-      "rank": 316,
+      "rank": 315,
       "team": "Arkansas-Pine Bluff",
       "team_id": 14,
       "conference": "SWAC",
       "record": "13-18",
       "conf_record": "10-8",
-      "adj_oe": 100.6,
-      "adj_de": 114.3,
+      "adj_oe": 100.7,
+      "adj_de": 114.4,
       "adj_margin": -13.7,
-      "adj_tempo": 129.6,
-      "edge_index": 0.1873
+      "adj_tempo": 129.8,
+      "edge_index": 0.1876
+    },
+    {
+      "rank": 316,
+      "team": "UMass Lowell",
+      "team_id": 318,
+      "conference": "Am. East",
+      "record": "15-18",
+      "conf_record": "10-8",
+      "adj_oe": 101.2,
+      "adj_de": 115.1,
+      "adj_margin": -13.9,
+      "adj_tempo": 127.4,
+      "edge_index": 0.1849
     },
     {
       "rank": 317,
@@ -4118,27 +4118,14 @@
       "conference": "Southland",
       "record": "12-20",
       "conf_record": "8-15",
-      "adj_oe": 100.4,
+      "adj_oe": 100.3,
       "adj_de": 114.3,
-      "adj_margin": -13.9,
-      "adj_tempo": 122.7,
-      "edge_index": 0.183
+      "adj_margin": -14.0,
+      "adj_tempo": 123.1,
+      "edge_index": 0.1822
     },
     {
       "rank": 318,
-      "team": "New Haven",
-      "team_id": 1507,
-      "conference": "NEC",
-      "record": "14-17",
-      "conf_record": "9-9",
-      "adj_oe": 96.2,
-      "adj_de": 110.4,
-      "adj_margin": -14.2,
-      "adj_tempo": 122.6,
-      "edge_index": 0.1703
-    },
-    {
-      "rank": 319,
       "team": "Evansville",
       "team_id": 82,
       "conference": "MVC",
@@ -4147,8 +4134,21 @@
       "adj_oe": 97.4,
       "adj_de": 111.6,
       "adj_margin": -14.2,
-      "adj_tempo": 127.3,
+      "adj_tempo": 127.1,
       "edge_index": 0.1729
+    },
+    {
+      "rank": 319,
+      "team": "New Haven",
+      "team_id": 1507,
+      "conference": "NEC",
+      "record": "14-17",
+      "conf_record": "9-9",
+      "adj_oe": 96.2,
+      "adj_de": 110.4,
+      "adj_margin": -14.2,
+      "adj_tempo": 122.7,
+      "edge_index": 0.17
     },
     {
       "rank": 320,
@@ -4159,9 +4159,9 @@
       "conf_record": "8-12",
       "adj_oe": 102.8,
       "adj_de": 117.0,
-      "adj_margin": -14.2,
-      "adj_tempo": 123.9,
-      "edge_index": 0.1835
+      "adj_margin": -14.3,
+      "adj_tempo": 123.8,
+      "edge_index": 0.183
     },
     {
       "rank": 321,
@@ -4173,8 +4173,8 @@
       "adj_oe": 103.3,
       "adj_de": 117.6,
       "adj_margin": -14.3,
-      "adj_tempo": 135.2,
-      "edge_index": 0.183
+      "adj_tempo": 135.0,
+      "edge_index": 0.1834
     },
     {
       "rank": 322,
@@ -4186,8 +4186,8 @@
       "adj_oe": 92.3,
       "adj_de": 106.7,
       "adj_margin": -14.4,
-      "adj_tempo": 123.5,
-      "edge_index": 0.1583
+      "adj_tempo": 123.7,
+      "edge_index": 0.1588
     },
     {
       "rank": 323,
@@ -4200,7 +4200,7 @@
       "adj_de": 115.6,
       "adj_margin": -14.5,
       "adj_tempo": 129.7,
-      "edge_index": 0.1762
+      "edge_index": 0.1767
     },
     {
       "rank": 324,
@@ -4210,13 +4210,26 @@
       "record": "9-23",
       "conf_record": "4-15",
       "adj_oe": 99.0,
-      "adj_de": 113.5,
-      "adj_margin": -14.5,
-      "adj_tempo": 126.8,
-      "edge_index": 0.1715
+      "adj_de": 113.6,
+      "adj_margin": -14.6,
+      "adj_tempo": 127.2,
+      "edge_index": 0.1702
     },
     {
       "rank": 325,
+      "team": "Prairie View A&M",
+      "team_id": 232,
+      "conference": "SWAC",
+      "record": "15-17",
+      "conf_record": "10-9",
+      "adj_oe": 98.8,
+      "adj_de": 113.5,
+      "adj_margin": -14.7,
+      "adj_tempo": 131.1,
+      "edge_index": 0.1692
+    },
+    {
+      "rank": 326,
       "team": "Holy Cross",
       "team_id": 111,
       "conference": "Patriot",
@@ -4225,11 +4238,11 @@
       "adj_oe": 101.0,
       "adj_de": 115.9,
       "adj_margin": -14.9,
-      "adj_tempo": 125.9,
-      "edge_index": 0.1709
+      "adj_tempo": 125.8,
+      "edge_index": 0.171
     },
     {
-      "rank": 326,
+      "rank": 327,
       "team": "Eastern Illinois",
       "team_id": 77,
       "conference": "OVC",
@@ -4238,21 +4251,8 @@
       "adj_oe": 95.4,
       "adj_de": 110.4,
       "adj_margin": -15.0,
-      "adj_tempo": 127.9,
-      "edge_index": 0.1578
-    },
-    {
-      "rank": 327,
-      "team": "Prairie View A&M",
-      "team_id": 232,
-      "conference": "SWAC",
-      "record": "14-17",
-      "conf_record": "9-9",
-      "adj_oe": 99.1,
-      "adj_de": 114.1,
-      "adj_margin": -15.0,
-      "adj_tempo": 133.1,
-      "edge_index": 0.1656
+      "adj_tempo": 127.7,
+      "edge_index": 0.1572
     },
     {
       "rank": 328,
@@ -4277,8 +4277,8 @@
       "adj_oe": 94.8,
       "adj_de": 110.3,
       "adj_margin": -15.5,
-      "adj_tempo": 119.1,
-      "edge_index": 0.1487
+      "adj_tempo": 118.9,
+      "edge_index": 0.1488
     },
     {
       "rank": 330,
@@ -4287,11 +4287,11 @@
       "conference": "Horizon",
       "record": "11-22",
       "conf_record": "7-15",
-      "adj_oe": 106.1,
+      "adj_oe": 106.2,
       "adj_de": 122.4,
       "adj_margin": -16.2,
-      "adj_tempo": 126.1,
-      "edge_index": 0.163
+      "adj_tempo": 126.6,
+      "edge_index": 0.1637
     },
     {
       "rank": 331,
@@ -4302,9 +4302,9 @@
       "conf_record": "4-15",
       "adj_oe": 99.6,
       "adj_de": 115.9,
-      "adj_margin": -16.2,
-      "adj_tempo": 125.6,
-      "edge_index": 0.1496
+      "adj_margin": -16.3,
+      "adj_tempo": 125.3,
+      "edge_index": 0.1495
     },
     {
       "rank": 332,
@@ -4314,10 +4314,10 @@
       "record": "10-23",
       "conf_record": "7-13",
       "adj_oe": 96.7,
-      "adj_de": 113.1,
-      "adj_margin": -16.4,
+      "adj_de": 113.0,
+      "adj_margin": -16.3,
       "adj_tempo": 127.9,
-      "edge_index": 0.1422
+      "edge_index": 0.1424
     },
     {
       "rank": 333,
@@ -4329,8 +4329,8 @@
       "adj_oe": 100.5,
       "adj_de": 117.1,
       "adj_margin": -16.6,
-      "adj_tempo": 121.0,
-      "edge_index": 0.147
+      "adj_tempo": 120.9,
+      "edge_index": 0.1472
     },
     {
       "rank": 334,
@@ -4339,11 +4339,11 @@
       "conference": "Patriot",
       "record": "12-20",
       "conf_record": "8-11",
-      "adj_oe": 103.2,
+      "adj_oe": 103.3,
       "adj_de": 120.1,
       "adj_margin": -16.8,
-      "adj_tempo": 132.7,
-      "edge_index": 0.1497
+      "adj_tempo": 132.6,
+      "edge_index": 0.15
     },
     {
       "rank": 335,
@@ -4352,11 +4352,11 @@
       "conference": "Big West",
       "record": "8-24",
       "conf_record": "2-18",
-      "adj_oe": 98.3,
+      "adj_oe": 98.2,
       "adj_de": 115.2,
-      "adj_margin": -16.9,
-      "adj_tempo": 127.8,
-      "edge_index": 0.1386
+      "adj_margin": -17.0,
+      "adj_tempo": 127.6,
+      "edge_index": 0.1381
     },
     {
       "rank": 336,
@@ -4368,8 +4368,8 @@
       "adj_oe": 94.9,
       "adj_de": 112.1,
       "adj_margin": -17.2,
-      "adj_tempo": 117.8,
-      "edge_index": 0.1284
+      "adj_tempo": 117.6,
+      "edge_index": 0.1283
     },
     {
       "rank": 337,
@@ -4378,11 +4378,11 @@
       "conference": "SWAC",
       "record": "12-17",
       "conf_record": "10-8",
-      "adj_oe": 98.9,
-      "adj_de": 116.2,
+      "adj_oe": 99.0,
+      "adj_de": 116.3,
       "adj_margin": -17.3,
-      "adj_tempo": 129.8,
-      "edge_index": 0.136
+      "adj_tempo": 130.3,
+      "edge_index": 0.1359
     },
     {
       "rank": 338,
@@ -4391,11 +4391,11 @@
       "conference": "MAAC",
       "record": "12-20",
       "conf_record": "8-13",
-      "adj_oe": 102.0,
+      "adj_oe": 101.9,
       "adj_de": 120.1,
       "adj_margin": -18.2,
-      "adj_tempo": 133.4,
-      "edge_index": 0.1317
+      "adj_tempo": 133.2,
+      "edge_index": 0.1313
     },
     {
       "rank": 339,
@@ -4405,10 +4405,10 @@
       "record": "9-21",
       "conf_record": "5-12",
       "adj_oe": 95.3,
-      "adj_de": 113.9,
-      "adj_margin": -18.6,
-      "adj_tempo": 130.3,
-      "edge_index": 0.1141
+      "adj_de": 113.8,
+      "adj_margin": -18.5,
+      "adj_tempo": 130.6,
+      "edge_index": 0.1145
     },
     {
       "rank": 340,
@@ -4420,8 +4420,8 @@
       "adj_oe": 91.6,
       "adj_de": 110.4,
       "adj_margin": -18.9,
-      "adj_tempo": 125.2,
-      "edge_index": 0.1041
+      "adj_tempo": 125.0,
+      "edge_index": 0.104
     },
     {
       "rank": 341,
@@ -4433,8 +4433,8 @@
       "adj_oe": 97.4,
       "adj_de": 116.9,
       "adj_margin": -19.5,
-      "adj_tempo": 121.6,
-      "edge_index": 0.1091
+      "adj_tempo": 121.7,
+      "edge_index": 0.1093
     },
     {
       "rank": 342,
@@ -4446,34 +4446,34 @@
       "adj_oe": 94.6,
       "adj_de": 114.3,
       "adj_margin": -19.7,
-      "adj_tempo": 124.6,
-      "edge_index": 0.1022
+      "adj_tempo": 125.1,
+      "edge_index": 0.1024
     },
     {
       "rank": 343,
+      "team": "NJIT",
+      "team_id": 186,
+      "conference": "Am. East",
+      "record": "16-17",
+      "conf_record": "11-7",
+      "adj_oe": 92.4,
+      "adj_de": 112.8,
+      "adj_margin": -20.4,
+      "adj_tempo": 128.5,
+      "edge_index": 0.0912
+    },
+    {
+      "rank": 344,
       "team": "St. Francis (PA)",
       "team_id": 278,
       "conference": "NEC",
       "record": "7-24",
       "conf_record": "5-13",
       "adj_oe": 97.0,
-      "adj_de": 117.4,
+      "adj_de": 117.5,
       "adj_margin": -20.5,
       "adj_tempo": 128.8,
-      "edge_index": 0.0995
-    },
-    {
-      "rank": 344,
-      "team": "North Florida",
-      "team_id": 203,
-      "conference": "ASUN",
-      "record": "7-25",
-      "conf_record": "5-14",
-      "adj_oe": 104.6,
-      "adj_de": 125.1,
-      "adj_margin": -20.5,
-      "adj_tempo": 137.8,
-      "edge_index": 0.1134
+      "edge_index": 0.0993
     },
     {
       "rank": 345,
@@ -4482,14 +4482,27 @@
       "conference": "MAAC",
       "record": "8-22",
       "conf_record": "5-15",
-      "adj_oe": 96.4,
+      "adj_oe": 96.5,
       "adj_de": 117.0,
       "adj_margin": -20.5,
       "adj_tempo": 121.6,
-      "edge_index": 0.098
+      "edge_index": 0.0983
     },
     {
       "rank": 346,
+      "team": "North Florida",
+      "team_id": 203,
+      "conference": "ASUN",
+      "record": "7-25",
+      "conf_record": "5-14",
+      "adj_oe": 104.7,
+      "adj_de": 125.2,
+      "adj_margin": -20.5,
+      "adj_tempo": 137.7,
+      "edge_index": 0.1132
+    },
+    {
+      "rank": 347,
       "team": "Northern Illinois",
       "team_id": 208,
       "conference": "MAC",
@@ -4498,21 +4511,8 @@
       "adj_oe": 94.0,
       "adj_de": 115.0,
       "adj_margin": -21.0,
-      "adj_tempo": 121.4,
-      "edge_index": 0.0896
-    },
-    {
-      "rank": 347,
-      "team": "NJIT",
-      "team_id": 186,
-      "conference": "Am. East",
-      "record": "16-16",
-      "conf_record": "11-6",
-      "adj_oe": 92.5,
-      "adj_de": 113.6,
-      "adj_margin": -21.1,
-      "adj_tempo": 130.8,
-      "edge_index": 0.0862
+      "adj_tempo": 121.1,
+      "edge_index": 0.0895
     },
     {
       "rank": 348,
@@ -4523,9 +4523,9 @@
       "conf_record": "8-12",
       "adj_oe": 101.0,
       "adj_de": 123.1,
-      "adj_margin": -22.1,
-      "adj_tempo": 128.1,
-      "edge_index": 0.0928
+      "adj_margin": -22.2,
+      "adj_tempo": 127.8,
+      "edge_index": 0.0927
     },
     {
       "rank": 349,
@@ -4536,9 +4536,9 @@
       "conf_record": "1-18",
       "adj_oe": 99.0,
       "adj_de": 121.4,
-      "adj_margin": -22.4,
-      "adj_tempo": 120.4,
-      "edge_index": 0.087
+      "adj_margin": -22.5,
+      "adj_tempo": 120.1,
+      "edge_index": 0.0869
     },
     {
       "rank": 350,
@@ -4550,7 +4550,7 @@
       "adj_oe": 91.5,
       "adj_de": 114.2,
       "adj_margin": -22.7,
-      "adj_tempo": 117.2,
+      "adj_tempo": 117.0,
       "edge_index": 0.0723
     },
     {
@@ -4563,8 +4563,8 @@
       "adj_oe": 93.4,
       "adj_de": 116.9,
       "adj_margin": -23.5,
-      "adj_tempo": 129.2,
-      "edge_index": 0.0705
+      "adj_tempo": 128.9,
+      "edge_index": 0.0704
     },
     {
       "rank": 352,
@@ -4575,25 +4575,38 @@
       "conf_record": "1-18",
       "adj_oe": 98.0,
       "adj_de": 122.1,
-      "adj_margin": -24.1,
+      "adj_margin": -24.2,
       "adj_tempo": 130.5,
-      "edge_index": 0.0738
+      "edge_index": 0.0734
     },
     {
       "rank": 353,
       "team": "Jackson State",
       "team_id": 126,
       "conference": "SWAC",
-      "record": "11-20",
-      "conf_record": "10-8",
-      "adj_oe": 95.0,
-      "adj_de": 119.6,
+      "record": "12-20",
+      "conf_record": "11-8",
+      "adj_oe": 95.1,
+      "adj_de": 119.7,
       "adj_margin": -24.6,
-      "adj_tempo": 129.7,
-      "edge_index": 0.066
+      "adj_tempo": 130.0,
+      "edge_index": 0.0661
     },
     {
       "rank": 354,
+      "team": "Alcorn State",
+      "team_id": 7,
+      "conference": "SWAC",
+      "record": "9-23",
+      "conf_record": "8-12",
+      "adj_oe": 92.7,
+      "adj_de": 117.5,
+      "adj_margin": -24.8,
+      "adj_tempo": 123.7,
+      "edge_index": 0.0618
+    },
+    {
+      "rank": 355,
       "team": "Rider",
       "team_id": 243,
       "conference": "MAAC",
@@ -4602,21 +4615,8 @@
       "adj_oe": 92.2,
       "adj_de": 117.0,
       "adj_margin": -24.8,
-      "adj_tempo": 123.7,
+      "adj_tempo": 123.4,
       "edge_index": 0.0607
-    },
-    {
-      "rank": 355,
-      "team": "Alcorn State",
-      "team_id": 7,
-      "conference": "SWAC",
-      "record": "9-22",
-      "conf_record": "8-11",
-      "adj_oe": 93.1,
-      "adj_de": 118.1,
-      "adj_margin": -24.9,
-      "adj_tempo": 126.0,
-      "edge_index": 0.0615
     },
     {
       "rank": 356,
@@ -4626,10 +4626,10 @@
       "record": "14-15",
       "conf_record": "10-4",
       "adj_oe": 96.8,
-      "adj_de": 122.4,
+      "adj_de": 122.3,
       "adj_margin": -25.5,
-      "adj_tempo": 132.5,
-      "edge_index": 0.0636
+      "adj_tempo": 132.4,
+      "edge_index": 0.0638
     },
     {
       "rank": 357,
@@ -4640,9 +4640,9 @@
       "conf_record": "1-16",
       "adj_oe": 92.2,
       "adj_de": 117.8,
-      "adj_margin": -25.5,
+      "adj_margin": -25.6,
       "adj_tempo": 123.3,
-      "edge_index": 0.0567
+      "edge_index": 0.0565
     },
     {
       "rank": 358,
@@ -4654,8 +4654,8 @@
       "adj_oe": 96.4,
       "adj_de": 122.6,
       "adj_margin": -26.2,
-      "adj_tempo": 128.9,
-      "edge_index": 0.0592
+      "adj_tempo": 129.5,
+      "edge_index": 0.0591
     },
     {
       "rank": 359,
@@ -4667,7 +4667,7 @@
       "adj_oe": 95.8,
       "adj_de": 122.0,
       "adj_margin": -26.2,
-      "adj_tempo": 123.0,
+      "adj_tempo": 122.8,
       "edge_index": 0.0583
     },
     {
@@ -4680,8 +4680,8 @@
       "adj_oe": 93.2,
       "adj_de": 119.6,
       "adj_margin": -26.4,
-      "adj_tempo": 121.0,
-      "edge_index": 0.0537
+      "adj_tempo": 120.7,
+      "edge_index": 0.0536
     },
     {
       "rank": 361,
@@ -4692,8 +4692,8 @@
       "conf_record": "7-7",
       "adj_oe": 91.0,
       "adj_de": 119.2,
-      "adj_margin": -28.3,
-      "adj_tempo": 124.6,
+      "adj_margin": -28.2,
+      "adj_tempo": 124.3,
       "edge_index": 0.0427
     },
     {
@@ -4706,7 +4706,7 @@
       "adj_oe": 91.5,
       "adj_de": 120.5,
       "adj_margin": -29.1,
-      "adj_tempo": 124.1,
+      "adj_tempo": 123.8,
       "edge_index": 0.0402
     },
     {
@@ -4731,9 +4731,9 @@
       "conf_record": "5-9",
       "adj_oe": 90.0,
       "adj_de": 121.9,
-      "adj_margin": -31.9,
-      "adj_tempo": 123.0,
-      "edge_index": 0.0296
+      "adj_margin": -31.8,
+      "adj_tempo": 122.8,
+      "edge_index": 0.0298
     },
     {
       "rank": 365,
@@ -4742,11 +4742,11 @@
       "conference": "SWAC",
       "record": "3-30",
       "conf_record": "2-17",
-      "adj_oe": 85.3,
+      "adj_oe": 84.8,
       "adj_de": 120.0,
-      "adj_margin": -34.7,
-      "adj_tempo": 121.7,
-      "edge_index": 0.0194
+      "adj_margin": -35.2,
+      "adj_tempo": 119.3,
+      "edge_index": 0.0182
     }
   ]
 }
