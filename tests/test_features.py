@@ -5,9 +5,11 @@ from unittest.mock import patch
 import numpy as np
 import pandas as pd
 import pytest
+from sklearn.preprocessing import StandardScaler
 
 from src import config
 from src.features import _compute_barthag, build_features, get_feature_matrix
+from src.trainer import impute_column_means
 
 
 class TestBarthag:
@@ -119,15 +121,13 @@ class TestFeatureAssembly:
 
         df = build_features(2025)
         assert df.iloc[0]["neutral_site"] == 1
-        assert df.iloc[0]["home_team_home"] == 0
-        assert df.iloc[0]["away_team_home"] == 0
         assert df.iloc[0]["home_team_hca"] == 0.0
 
     @patch("src.features.load_lines")
     @patch("src.features.load_boxscores")
     @patch("src.features.load_efficiency_ratings")
     @patch("src.features.load_games")
-    def test_home_team_home_when_not_neutral(self, mock_games, mock_ratings, mock_box, mock_lines):
+    def test_non_neutral_site_features(self, mock_games, mock_ratings, mock_box, mock_lines):
         mock_games.return_value = pd.DataFrame([{
             "gameId": 1,
             "homeTeamId": 100,
@@ -145,9 +145,61 @@ class TestFeatureAssembly:
 
         df = build_features(2025)
         assert df.iloc[0]["neutral_site"] == 0
-        assert df.iloc[0]["home_team_home"] == 1
-        assert df.iloc[0]["away_team_home"] == 0
         # home_team_hca should exist (may be None for single-game mock data)
         assert "home_team_hca" in df.columns
         assert "home_team_efg_home_split" in df.columns
         assert "away_team_efg_away_split" in df.columns
+
+
+class TestImputationConsistency:
+    """Verify train and inference NaN imputation produce identical results."""
+
+    def test_impute_column_means_matches_scaler_mean(self):
+        """impute_column_means() and scaler.mean_ must produce the same fill values."""
+        rng = np.random.RandomState(42)
+        X = rng.randn(100, 5).astype(np.float32)
+        # Features with realistic ranges: adj_oe~100, adj_de~100, adj_tempo~65
+        X[:, 0] += 100.0  # adj_oe-like
+        X[:, 1] += 100.0  # adj_de-like
+        X[:, 2] += 65.0   # adj_tempo-like
+
+        # Sprinkle NaN at known positions
+        nan_mask = rng.random((100, 5)) < 0.1
+        X_with_nan = X.copy()
+        X_with_nan[nan_mask] = np.nan
+
+        # Path 1: impute_column_means (train_production.py and cli.py)
+        X_imputed = impute_column_means(X_with_nan)
+
+        # Path 2: scaler.mean_ (infer.py)
+        # Fit scaler on the imputed data (this is what train_production does)
+        scaler = StandardScaler()
+        scaler.fit(X_imputed)
+        X_infer = X_with_nan.copy()
+        for j in range(X_infer.shape[1]):
+            col_nans = np.isnan(X_infer[:, j])
+            X_infer[col_nans, j] = scaler.mean_[j]
+
+        # Both paths should produce identical results
+        np.testing.assert_allclose(X_imputed, X_infer, rtol=1e-5,
+                                   err_msg="Train and inference imputation diverged")
+
+    def test_impute_column_means_not_zero(self):
+        """impute_column_means must NOT fill with 0 for features with non-zero means."""
+        X = np.array([[100.0, 65.0], [110.0, 70.0], [np.nan, np.nan]])
+        result = impute_column_means(X)
+        # NaN should become column mean, not 0
+        assert result[2, 0] == pytest.approx(105.0), "Should be column mean, not 0"
+        assert result[2, 1] == pytest.approx(67.5), "Should be column mean, not 0"
+
+    def test_no_garbage_default_consistency(self):
+        """All modules should default no_garbage to config.NO_GARBAGE."""
+        from src.dataset import load_season_features, load_multi_season_features
+        from src.features import build_features
+        import inspect
+
+        for fn in [build_features, load_season_features, load_multi_season_features]:
+            sig = inspect.signature(fn)
+            default = sig.parameters["no_garbage"].default
+            assert default is config.NO_GARBAGE, \
+                f"{fn.__qualname__} no_garbage default is {default!r}, expected config.NO_GARBAGE={config.NO_GARBAGE}"

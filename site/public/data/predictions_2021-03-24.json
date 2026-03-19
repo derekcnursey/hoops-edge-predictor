@@ -3,21 +3,21 @@
   "games": [
     {
       "away_team": "Coastal Carolina",
-      "edge_home_points": 0.6392068862915039,
+      "edge_home_points": -4.2640953958034515,
       "game_id": "2021_03_24_coastal_carolina_pepperdine",
       "home_team": "Pepperdine",
       "market_spread_home": -4.5,
-      "model_mu_home": 5.139206886291504,
-      "pick_cover_prob": 0.5217528840294391,
-      "pick_ev_per_1": -0.003926312307434454,
-      "pick_fair_odds": -109.09692219901568,
-      "pick_prob_edge": -0.002056639780084746,
-      "pick_side": "HOME",
+      "model_mu_home": 0.23590460419654846,
+      "pick_cover_prob": 0.6225987430716865,
+      "pick_ev_per_1": 0.1885976004095833,
+      "pick_fair_odds": -164.96997072533537,
+      "pick_prob_edge": 0.09878921926216266,
+      "pick_side": "AWAY",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.6816094517707825,
-      "pred_sigma": 11.717077255249023,
+      "pred_home_win_prob": 0.5280385613441467,
+      "pred_sigma": 13.653266906738281,
       "start_time": "2021-03-25T00:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:52:33.481261Z"
+  "generated_at": "2026-03-14T17:32:00.171050Z"
 }

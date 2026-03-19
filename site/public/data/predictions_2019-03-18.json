@@ -1,23 +1,31 @@
 {
+  "benchmark_dir": "/Users/dereknursey/Desktop/ml_projects/codex_review/hoops-edge-predictor_codex/artifacts/benchmarks/canonical_walkforward_lgb_l2_blend_repaired_lines_neutralfix",
   "date": "2019-03-18",
+  "extra_benchmark_dirs": [],
   "games": [
     {
       "away_team": "Quinnipiac",
-      "edge_home_points": -2.181704521179199,
+      "edge_home_points": -0.2234816551208496,
       "game_id": "2019_03_18_quinnipiac_njit",
       "home_team": "NJIT",
-      "market_spread_home": -5.0,
-      "model_mu_home": 2.818295478820801,
-      "pick_cover_prob": 0.5848980000356967,
-      "pick_ev_per_1": 0.1166234546136028,
-      "pick_fair_odds": -140.90464514408387,
-      "pick_prob_edge": 0.06108847622617286,
+      "market_spread_home": -5.5,
+      "model_mu_home": 5.27651834487915,
+      "pick_cover_prob": 0.5089795869290838,
+      "pick_ev_per_1": -0.028311697680839965,
+      "pick_fair_odds": -103.65752082400167,
+      "pick_prob_edge": -0.014829936880439987,
       "pick_side": "AWAY",
-      "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.6072672605514526,
-      "pred_sigma": 10.173965454101562,
+      "pick_spread_odds": -110.0,
+      "pred_home_win_prob": 0.7024575866931876,
+      "pred_sigma": 9.927934646606445,
       "start_time": "2019-03-18T23:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T23:07:54.934159Z"
+  "generated_at": "2026-03-14T17:53:07.925024Z",
+  "mu_model": "LightGBMRegressionL2Blend",
+  "sigma_mode": "raw",
+  "sigma_model": "CurrentMLP",
+  "source": "true_walkforward_historical",
+  "torvik_benchmark_dir": null,
+  "torvik_extra_benchmark_dirs": []
 }

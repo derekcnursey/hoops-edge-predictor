@@ -1,0 +1,18 @@
+{
+  "mean_parquet": "/Users/dereknursey/Desktop/ml_projects/codex_review/hoops-edge-predictor_codex/artifacts/research/objective_tail_compression_experiment_v1/LightGBMRegressionL2Blend_predictions.parquet",
+  "mu_model_name": "LightGBMRegressionL2Blend",
+  "sigma_model_name": "CurrentMLP",
+  "sigma_sources": [
+    "/Users/dereknursey/Desktop/ml_projects/codex_review/hoops-edge-predictor_codex/artifacts/benchmarks/canonical_walkforward_priorreg_k5_repaired_lines_neutralfix",
+    "/Users/dereknursey/Desktop/ml_projects/codex_review/hoops-edge-predictor_codex/artifacts/benchmarks/canonical_walkforward_priorreg_k5_repaired_lines_2026_neutralfix"
+  ],
+  "holdout_seasons": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ]
+}

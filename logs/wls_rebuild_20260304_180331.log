@@ -1,0 +1,83 @@
+[18:03:31] WLS Full Pipeline Rebuild started
+[18:03:31] Seasons: 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+[18:03:31] === FEATURE REBUILD ===
+[18:03:31] Features: season 2015...
+    away_margin_std: 844
+    home_team_hca: 2017
+    home_team_efg_home_split: 626
+    away_team_efg_away_split: 748
+  Saved to: /Users/dereknursey/Desktop/ml_projects/hoops-edge-predictor/features/season_2015_no_garbage_adj_a0.85_p10_features.parquet
+[18:04:13] Features: season 2016...
+    away_margin_std: 844
+    home_team_hca: 2079
+    home_team_efg_home_split: 619
+    away_team_efg_away_split: 723
+  Saved to: /Users/dereknursey/Desktop/ml_projects/hoops-edge-predictor/features/season_2016_no_garbage_adj_a0.85_p10_features.parquet
+[18:04:53] Features: season 2017...
+    away_margin_std: 855
+    home_team_hca: 2101
+    home_team_efg_home_split: 611
+    away_team_efg_away_split: 748
+  Saved to: /Users/dereknursey/Desktop/ml_projects/hoops-edge-predictor/features/season_2017_no_garbage_adj_a0.85_p10_features.parquet
+[18:05:32] Features: season 2018...
+    away_margin_std: 878
+    home_team_hca: 2086
+    home_team_efg_home_split: 552
+    away_team_efg_away_split: 715
+  Saved to: /Users/dereknursey/Desktop/ml_projects/hoops-edge-predictor/features/season_2018_no_garbage_adj_a0.85_p10_features.parquet
+[18:06:11] Features: season 2019...
+    away_margin_std: 858
+    home_team_hca: 2145
+    home_team_efg_home_split: 699
+    away_team_efg_away_split: 813
+  Saved to: /Users/dereknursey/Desktop/ml_projects/hoops-edge-predictor/features/season_2019_no_garbage_adj_a0.85_p10_features.parquet
+[18:06:51] Features: season 2020...
+    away_margin_std: 863
+    home_team_hca: 2046
+    home_team_efg_home_split: 510
+    away_team_efg_away_split: 769
+  Saved to: /Users/dereknursey/Desktop/ml_projects/hoops-edge-predictor/features/season_2020_no_garbage_adj_a0.85_p10_features.parquet
+[18:07:27] Features: season 2021...
+    away_margin_std: 759
+    home_team_hca: 2222
+    home_team_efg_home_split: 784
+    away_team_efg_away_split: 911
+  Saved to: /Users/dereknursey/Desktop/ml_projects/hoops-edge-predictor/features/season_2021_no_garbage_adj_a0.85_p10_features.parquet
+[18:08:03] Features: season 2022...
+    away_margin_std: 924
+    home_team_hca: 2113
+    home_team_efg_home_split: 424
+    away_team_efg_away_split: 751
+  Saved to: /Users/dereknursey/Desktop/ml_projects/hoops-edge-predictor/features/season_2022_no_garbage_adj_a0.85_p10_features.parquet
+[18:08:42] Features: season 2023...
+    away_margin_std: 929
+    home_team_hca: 2058
+    home_team_efg_home_split: 398
+    away_team_efg_away_split: 739
+  Saved to: /Users/dereknursey/Desktop/ml_projects/hoops-edge-predictor/features/season_2023_no_garbage_adj_a0.85_p10_features.parquet
+[18:09:24] Features: season 2024...
+    away_margin_std: 928
+    home_team_hca: 2026
+    home_team_efg_home_split: 398
+    away_team_efg_away_split: 750
+  Saved to: /Users/dereknursey/Desktop/ml_projects/hoops-edge-predictor/features/season_2024_no_garbage_adj_a0.85_p10_features.parquet
+[18:10:09] Features: season 2025...
+    away_margin_std: 921
+    home_team_hca: 2139
+    home_team_efg_home_split: 458
+    away_team_efg_away_split: 776
+  Saved to: /Users/dereknursey/Desktop/ml_projects/hoops-edge-predictor/features/season_2025_no_garbage_adj_a0.85_p10_features.parquet
+[18:10:52] Features: season 2026...
+    away_margin_std: 942
+    home_team_hca: 2206
+    home_team_efg_home_split: 381
+    away_team_efg_away_split: 751
+  Saved to: /Users/dereknursey/Desktop/ml_projects/hoops-edge-predictor/features/season_2026_no_garbage_adj_a0.85_p10_features.parquet
+[18:11:27] Feature rebuild complete.
+[18:11:27] --- Feature spot-check ---
+Season 2020: 5856 games, 63 columns
+  WARNING: >10% NaN in: {'away_team_adj_oe': 687, 'away_team_BARTHAG': 687, 'away_team_adj_de': 687, 'away_team_adj_pace': 687, 'home_team_hca': 2046, 'away_team_efg_away_split': 769, 'away_sos_oe': 687, 'away_sos_de': 687, 'away_tov_rate': 892, 'away_def_tov_rate': 892, 'home_tov_rate': 656, 'home_def_tov_rate': 656, 'home_margin_std': 625, 'away_margin_std': 863}
+Season 2025: 6299 games, 63 columns
+  WARNING: >10% NaN in: {'away_team_adj_oe': 750, 'away_team_BARTHAG': 750, 'away_team_adj_de': 750, 'away_team_adj_pace': 750, 'home_team_hca': 2139, 'away_team_efg_away_split': 776, 'away_sos_oe': 750, 'away_sos_de': 750, 'home_margin_std': 665, 'away_margin_std': 921}
+[18:11:28] === ALL DONE ===
+[18:11:28] Log saved to: /Users/dereknursey/Desktop/ml_projects/hoops-edge-predictor/logs/wls_rebuild_20260304_180331.log

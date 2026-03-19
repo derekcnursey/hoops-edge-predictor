@@ -1,0 +1,104 @@
+[15:24:54] WLS Full Pipeline Rebuild started
+[15:24:54] Seasons: 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+[15:24:54] === SILVER LAYER REBUILD ===
+[15:24:54] Silver: season 2015 (regular)...
+[pbp] 100/142 reading silver/fct_pbp_plays_enriched/season=2015/date=2015-02-22/part-503b64ce.parquet
+[pbp] 125/142 reading silver/fct_pbp_plays_enriched/season=2015/date=2015-03-19/part-503b64ce.parquet
+[pbp] 142/142 reading silver/fct_pbp_plays_enriched/season=2015/date=2015-04-07/part-503b64ce.parquet
+[15:30:17] Silver: season 2015 (no-garbage)...
+[pbp] 100/142 reading silver/fct_pbp_plays_enriched/season=2015/date=2015-02-22/part-503b64ce.parquet
+[pbp] 125/142 reading silver/fct_pbp_plays_enriched/season=2015/date=2015-03-19/part-503b64ce.parquet
+[pbp] 142/142 reading silver/fct_pbp_plays_enriched/season=2015/date=2015-04-07/part-503b64ce.parquet
+[15:35:50] Silver: season 2016 (regular)...
+[pbp] 100/143 reading silver/fct_pbp_plays_enriched/season=2016/date=2016-02-20/part-3e1b8b46.parquet
+[pbp] 125/143 reading silver/fct_pbp_plays_enriched/season=2016/date=2016-03-16/part-3e1b8b46.parquet
+[pbp] 143/143 reading silver/fct_pbp_plays_enriched/season=2016/date=2016-04-05/part-3e1b8b46.parquet
+[15:41:45] Silver: season 2016 (no-garbage)...
+[pbp] 100/143 reading silver/fct_pbp_plays_enriched/season=2016/date=2016-02-20/part-3e1b8b46.parquet
+[pbp] 125/143 reading silver/fct_pbp_plays_enriched/season=2016/date=2016-03-16/part-3e1b8b46.parquet
+[pbp] 143/143 reading silver/fct_pbp_plays_enriched/season=2016/date=2016-04-05/part-3e1b8b46.parquet
+[15:47:43] Silver: season 2017 (regular)...
+[pbp] 100/142 reading silver/fct_pbp_plays_enriched/season=2017/date=2017-02-19/part-4fe39f19.parquet
+[pbp] 125/142 reading silver/fct_pbp_plays_enriched/season=2017/date=2017-03-17/part-4fe39f19.parquet
+[pbp] 142/142 reading silver/fct_pbp_plays_enriched/season=2017/date=2017-04-04/part-4fe39f19.parquet
+[15:53:48] Silver: season 2017 (no-garbage)...
+[pbp] 100/142 reading silver/fct_pbp_plays_enriched/season=2017/date=2017-02-19/part-4fe39f19.parquet
+[pbp] 125/142 reading silver/fct_pbp_plays_enriched/season=2017/date=2017-03-17/part-4fe39f19.parquet
+[pbp] 142/142 reading silver/fct_pbp_plays_enriched/season=2017/date=2017-04-04/part-4fe39f19.parquet
+[15:59:30] Silver: season 2018 (regular)...
+[pbp] 100/142 reading silver/fct_pbp_plays_enriched/season=2018/date=2018-02-18/part-cb8597bd.parquet
+[pbp] 125/142 reading silver/fct_pbp_plays_enriched/season=2018/date=2018-03-15/part-cb8597bd.parquet
+[pbp] 142/142 reading silver/fct_pbp_plays_enriched/season=2018/date=2018-04-03/part-cb8597bd.parquet
+[16:05:12] Silver: season 2018 (no-garbage)...
+[pbp] 100/142 reading silver/fct_pbp_plays_enriched/season=2018/date=2018-02-18/part-cb8597bd.parquet
+[pbp] 125/142 reading silver/fct_pbp_plays_enriched/season=2018/date=2018-03-15/part-cb8597bd.parquet
+[pbp] 142/142 reading silver/fct_pbp_plays_enriched/season=2018/date=2018-04-03/part-cb8597bd.parquet
+[16:10:57] Silver: season 2019 (regular)...
+[pbp] 125/152 reading silver/fct_pbp_plays_enriched/season=2019/date=2019-03-12/part-f4315d6c.parquet
+[pbp] 150/152 reading silver/fct_pbp_plays_enriched/season=2019/date=2019-04-06/part-f4315d6c.parquet
+[pbp] 152/152 reading silver/fct_pbp_plays_enriched/season=2019/date=2019-04-09/part-f4315d6c.parquet
+[16:17:15] Silver: season 2019 (no-garbage)...
+[pbp] 125/152 reading silver/fct_pbp_plays_enriched/season=2019/date=2019-03-12/part-f4315d6c.parquet
+[pbp] 150/152 reading silver/fct_pbp_plays_enriched/season=2019/date=2019-04-06/part-f4315d6c.parquet
+[pbp] 152/152 reading silver/fct_pbp_plays_enriched/season=2019/date=2019-04-09/part-f4315d6c.parquet
+[16:23:40] Silver: season 2020 (regular)...
+[pbp] 75/125 reading silver/fct_pbp_plays_enriched/season=2020/date=2020-01-19/part-179fc073.parquet
+[pbp] 100/125 reading silver/fct_pbp_plays_enriched/season=2020/date=2020-02-15/part-179fc073.parquet
+[pbp] 125/125 reading silver/fct_pbp_plays_enriched/season=2020/date=2020-03-12/part-179fc073.parquet
+[16:29:58] Silver: season 2020 (no-garbage)...
+[pbp] 75/125 reading silver/fct_pbp_plays_enriched/season=2020/date=2020-01-19/part-179fc073.parquet
+[pbp] 100/125 reading silver/fct_pbp_plays_enriched/season=2020/date=2020-02-15/part-179fc073.parquet
+[pbp] 125/125 reading silver/fct_pbp_plays_enriched/season=2020/date=2020-03-12/part-179fc073.parquet
+[16:36:20] Silver: season 2021 (regular)...
+[pbp] 100/128 reading silver/fct_pbp_plays_enriched/season=2021/date=2021-03-04/part-51fc7269.parquet
+[pbp] 125/128 reading silver/fct_pbp_plays_enriched/season=2021/date=2021-03-31/part-51fc7269.parquet
+[pbp] 128/128 reading silver/fct_pbp_plays_enriched/season=2021/date=2021-04-06/part-51fc7269.parquet
+[16:40:09] Silver: season 2021 (no-garbage)...
+[pbp] 100/128 reading silver/fct_pbp_plays_enriched/season=2021/date=2021-03-04/part-51fc7269.parquet
+[pbp] 125/128 reading silver/fct_pbp_plays_enriched/season=2021/date=2021-03-31/part-51fc7269.parquet
+[pbp] 128/128 reading silver/fct_pbp_plays_enriched/season=2021/date=2021-04-06/part-51fc7269.parquet
+[16:44:02] Silver: season 2022 (regular)...
+[pbp] 100/144 reading silver/fct_pbp_plays_enriched/season=2022/date=2022-02-17/part-b8a06b63.parquet
+[pbp] 125/144 reading silver/fct_pbp_plays_enriched/season=2022/date=2022-03-15/part-b8a06b63.parquet
+[pbp] 144/144 reading silver/fct_pbp_plays_enriched/season=2022/date=2022-04-05/part-b8a06b63.parquet
+[16:51:21] Silver: season 2022 (no-garbage)...
+[pbp] 100/144 reading silver/fct_pbp_plays_enriched/season=2022/date=2022-02-17/part-b8a06b63.parquet
+[pbp] 125/144 reading silver/fct_pbp_plays_enriched/season=2022/date=2022-03-15/part-b8a06b63.parquet
+[pbp] 144/144 reading silver/fct_pbp_plays_enriched/season=2022/date=2022-04-05/part-b8a06b63.parquet
+[16:58:49] Silver: season 2023 (regular)...
+[pbp] 100/141 reading silver/fct_pbp_plays_enriched/season=2023/date=2023-02-18/part-e6b7a3f1.parquet
+[pbp] 125/141 reading silver/fct_pbp_plays_enriched/season=2023/date=2023-03-16/part-e6b7a3f1.parquet
+[pbp] 141/141 reading silver/fct_pbp_plays_enriched/season=2023/date=2023-04-04/part-e6b7a3f1.parquet
+[17:06:25] Silver: season 2023 (no-garbage)...
+[pbp] 100/141 reading silver/fct_pbp_plays_enriched/season=2023/date=2023-02-18/part-e6b7a3f1.parquet
+[pbp] 125/141 reading silver/fct_pbp_plays_enriched/season=2023/date=2023-03-16/part-e6b7a3f1.parquet
+[pbp] 141/141 reading silver/fct_pbp_plays_enriched/season=2023/date=2023-04-04/part-e6b7a3f1.parquet
+[17:14:06] Silver: season 2024 (regular)...
+[pbp] 125/151 reading silver/fct_pbp_plays_enriched/season=2024/date=2024-03-10/part-7f251950.parquet
+[pbp] 150/151 reading silver/fct_pbp_plays_enriched/season=2024/date=2024-04-07/part-7f251950.parquet
+[pbp] 151/151 reading silver/fct_pbp_plays_enriched/season=2024/date=2024-04-09/part-7f251950.parquet
+[17:21:54] Silver: season 2024 (no-garbage)...
+[pbp] 125/151 reading silver/fct_pbp_plays_enriched/season=2024/date=2024-03-10/part-7f251950.parquet
+[pbp] 150/151 reading silver/fct_pbp_plays_enriched/season=2024/date=2024-04-07/part-7f251950.parquet
+[pbp] 151/151 reading silver/fct_pbp_plays_enriched/season=2024/date=2024-04-09/part-7f251950.parquet
+[17:29:52] Silver: season 2025 (regular)...
+[pbp] 125/153 reading silver/fct_pbp_plays_enriched/season=2025/date=2025-03-09/part-c0c9bfd1.parquet
+[pbp] 150/153 reading silver/fct_pbp_plays_enriched/season=2025/date=2025-04-04/part-c0c9bfd1.parquet
+[pbp] 153/153 reading silver/fct_pbp_plays_enriched/season=2025/date=2025-04-08/part-c0c9bfd1.parquet
+[17:37:56] Silver: season 2025 (no-garbage)...
+[pbp] 125/153 reading silver/fct_pbp_plays_enriched/season=2025/date=2025-03-09/part-c0c9bfd1.parquet
+[pbp] 150/153 reading silver/fct_pbp_plays_enriched/season=2025/date=2025-04-04/part-c0c9bfd1.parquet
+[pbp] 153/153 reading silver/fct_pbp_plays_enriched/season=2025/date=2025-04-08/part-c0c9bfd1.parquet
+[17:46:03] Silver: season 2026 (regular)...
+[pbp] 50/100 reading silver/fct_pbp_plays_enriched/season=2026/date=2025-12-22/part-cb4a6ebf.parquet
+[pbp] 75/100 reading silver/fct_pbp_plays_enriched/season=2026/date=2026-01-18/part-cb4a6ebf.parquet
+[pbp] 100/100 reading silver/fct_pbp_plays_enriched/season=2026/date=2026-03-04/part-cb4a6ebf.parquet
+[17:51:18] Silver: season 2026 (no-garbage)...
+[pbp] 50/100 reading silver/fct_pbp_plays_enriched/season=2026/date=2025-12-22/part-cb4a6ebf.parquet
+[pbp] 75/100 reading silver/fct_pbp_plays_enriched/season=2026/date=2026-01-18/part-cb4a6ebf.parquet
+[pbp] 100/100 reading silver/fct_pbp_plays_enriched/season=2026/date=2026-03-04/part-cb4a6ebf.parquet
+[17:56:35] Silver rebuild complete.
+[17:56:35] --- Silver spot-check: verifying 0.475 possession formula ---
+Traceback (most recent call last):
+  File "<string>", line 6, in <module>
+TypeError: 'Config' object is not subscriptable

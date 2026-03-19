@@ -1,0 +1,57 @@
+{
+  "benchmark": "efficiency_source_benchmark_v1",
+  "holdout_seasons": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "excluded_seasons": [
+    2021
+  ],
+  "fixed_stack": {
+    "model": "HistGradientBoosting",
+    "feature_order": "production_53",
+    "repaired_lines": true,
+    "no_garbage": true,
+    "adjust_ff": true,
+    "adjust_alpha": 0.85,
+    "adjust_prior": 10,
+    "adjust_ff_method": "multiplicative"
+  },
+  "sources": [
+    {
+      "label": "torvik",
+      "efficiency_source": "torvik",
+      "gold_table_name": null
+    },
+    {
+      "label": "gold_current",
+      "efficiency_source": "gold",
+      "gold_table_name": null
+    },
+    {
+      "label": "gold_priorreg_k5_v1",
+      "efficiency_source": "gold",
+      "gold_table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_v1"
+    },
+    {
+      "label": "gold_priorreg_k5_hl60_v1",
+      "efficiency_source": "gold",
+      "gold_table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1"
+    },
+    {
+      "label": "gold_priorreg_k5_hl45_v1",
+      "efficiency_source": "gold",
+      "gold_table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1"
+    },
+    {
+      "label": "gold_priorreg_k5_hl30_v1",
+      "efficiency_source": "gold",
+      "gold_table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1"
+    }
+  ],
+  "best_priorreg_source": "gold_priorreg_k5_v1"
+}

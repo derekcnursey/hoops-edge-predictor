@@ -1,0 +1,15 @@
+{
+  "season": 2023,
+  "option": "logistic_best_posthoc_z",
+  "base_score": "z_best",
+  "train_seasons": [
+    2019,
+    2020,
+    2022
+  ],
+  "calibration": {
+    "method": "logistic",
+    "intercept": -0.019772241652146826,
+    "coef": 0.4854379573820073
+  }
+}

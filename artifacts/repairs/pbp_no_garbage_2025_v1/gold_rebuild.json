@@ -1,0 +1,6 @@
+{
+  "current_gold_key": "gold/team_adjusted_efficiencies_no_garbage/season=2025/asof=2026-03-11/part-repaired-v1.parquet",
+  "priorreg_gold_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_v1/season=2025/asof=2026-03-11/part-repaired-v1.parquet",
+  "current_rows": 54436,
+  "priorreg_rows": 54436
+}

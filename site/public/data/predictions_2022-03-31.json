@@ -1,23 +1,31 @@
 {
+  "benchmark_dir": "/Users/dereknursey/Desktop/ml_projects/codex_review/hoops-edge-predictor_codex/artifacts/benchmarks/canonical_walkforward_lgb_l2_blend_repaired_lines_neutralfix",
   "date": "2022-03-31",
+  "extra_benchmark_dirs": [],
   "games": [
     {
       "away_team": "Xavier",
-      "edge_home_points": -1.67366361618042,
+      "edge_home_points": -4.3618190586566925,
       "game_id": "2022_03_31_xavier_texas_a_m",
       "home_team": "Texas A&M",
-      "market_spread_home": -4.0,
-      "model_mu_home": 2.32633638381958,
-      "pick_cover_prob": 0.5637299524600567,
-      "pick_ev_per_1": 0.07621172742374471,
-      "pick_fair_odds": -129.21582759092433,
-      "pick_prob_edge": 0.03992042865053291,
+      "market_spread_home": -4.5,
+      "model_mu_home": 0.1381809413433075,
+      "pick_cover_prob": 0.6374464040189327,
+      "pick_ev_per_1": 0.2169431349452352,
+      "pick_fair_odds": -175.82128851708327,
+      "pick_prob_edge": 0.11363688020940887,
       "pick_side": "AWAY",
-      "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.499428927898407,
-      "pred_sigma": 10.432173728942871,
+      "pick_spread_odds": -110.0,
+      "pred_home_win_prob": 0.5044440774558951,
+      "pred_sigma": 12.404167175292969,
       "start_time": "2022-03-31T23:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T23:11:26.538484Z"
+  "generated_at": "2026-03-14T17:53:08.827424Z",
+  "mu_model": "LightGBMRegressionL2Blend",
+  "sigma_mode": "raw",
+  "sigma_model": "CurrentMLP",
+  "source": "true_walkforward_historical",
+  "torvik_benchmark_dir": null,
+  "torvik_extra_benchmark_dirs": []
 }

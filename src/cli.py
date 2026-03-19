@@ -16,9 +16,252 @@ import numpy as np
 import pandas as pd
 
 from . import config
-from .features import build_features, get_feature_matrix, get_targets, load_lines
+from .efficiency_blend import blend_enabled
+from .features import (
+    build_features,
+    get_feature_matrix,
+    get_targets,
+    load_boxscores,
+    load_efficiency_ratings,
+    load_games,
+    load_lines,
+)
+from .live_audits import audit_hrb_lines, audit_live_feature_drift, audit_ratings_asof
+from .line_selection import select_preferred_lines
+from .tournament_adjustments import needs_secondary_mu_features
+from .trainer import load_scaler
 
 _ET = ZoneInfo("America/New_York")
+_CRITICAL_FEATURE_COLS = [
+    "home_team_adj_oe",
+    "away_team_adj_oe",
+    "home_team_adj_de",
+    "away_team_adj_de",
+    "home_tov_rate",
+    "away_tov_rate",
+    "home_def_tov_rate",
+    "away_def_tov_rate",
+]
+
+
+def _format_matchup(row: pd.Series) -> str:
+    away = row.get("awayTeam") or row.get("awayTeamId") or "?"
+    home = row.get("homeTeam") or row.get("homeTeamId") or "?"
+    return f"{away} @ {home}"
+
+
+def _normalize_raw_games_for_preflight(df: pd.DataFrame) -> pd.DataFrame:
+    """Project raw game rows down to prediction-relevant fields for conflict checks."""
+    if df.empty:
+        return df
+    out = df.copy()
+    rename = {}
+    for target, candidates in [
+        ("gameId", ["gameId", "gameid"]),
+        ("homeTeamId", ["homeTeamId", "hometeamid"]),
+        ("awayTeamId", ["awayTeamId", "awayteamid"]),
+        ("homeScore", ["homeScore", "homePoints", "homescore"]),
+        ("awayScore", ["awayScore", "awayPoints", "awayscore"]),
+        ("neutralSite", ["neutralSite", "neutralsite"]),
+        ("startDate", ["startDate", "startTime", "date", "startdate"]),
+    ]:
+        for cand in candidates:
+            if cand in out.columns:
+                rename[cand] = target
+                break
+    out = out.rename(columns=rename)
+    keep_cols = [c for c in ["gameId", "homeTeamId", "awayTeamId", "homeScore", "awayScore", "neutralSite", "startDate"] if c in out.columns]
+    return out[keep_cols].copy()
+
+
+def _run_prediction_preflight(season: int, game_date: str) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Run small integrity checks before generating a live slate."""
+    from . import s3_reader
+
+    click.echo("\nPreflight integrity check...")
+
+    # Raw schedule duplicate audit
+    games_raw_tbl = s3_reader.read_silver_table(config.TABLE_FCT_GAMES, season=season)
+    games_raw = games_raw_tbl.to_pandas() if games_raw_tbl.num_rows else pd.DataFrame()
+    games_raw_norm = _normalize_raw_games_for_preflight(games_raw)
+    if not games_raw_norm.empty and "startDate" in games_raw_norm.columns:
+        raw_start = pd.to_datetime(games_raw_norm["startDate"], utc=True, errors="coerce")
+        slate_date = pd.Timestamp(game_date).tz_localize(_ET)
+        raw_slate_mask = raw_start.dt.tz_convert(_ET).dt.normalize() == slate_date.normalize()
+        games_raw_norm = games_raw_norm.loc[raw_slate_mask].copy()
+    raw_game_dup_rows = 0
+    raw_game_dup_keys = 0
+    raw_game_conflicting_keys = 0
+    if not games_raw_norm.empty and "gameId" in games_raw_norm.columns:
+        raw_game_dup_mask = games_raw_norm.duplicated(subset=["gameId"], keep=False)
+        raw_game_dup_rows = int(raw_game_dup_mask.sum())
+        raw_game_dup_keys = int(games_raw_norm.loc[raw_game_dup_mask, "gameId"].nunique())
+        if raw_game_dup_keys:
+            compare_cols = [c for c in games_raw_norm.columns if c != "gameId"]
+            raw_game_conflicting_keys = int(
+                games_raw_norm.loc[raw_game_dup_mask, ["gameId", *compare_cols]]
+                .fillna("__NA__")
+                .groupby("gameId", sort=False)[compare_cols]
+                .apply(lambda g: len(g.drop_duplicates()) > 1)
+                .sum()
+            )
+
+    games = load_games(season)
+    slate_games = games.copy()
+    if not slate_games.empty and "startDate" in slate_games.columns:
+        slate_start = pd.to_datetime(slate_games["startDate"], utc=True, errors="coerce")
+        slate_date = pd.Timestamp(game_date)
+        slate_mask = slate_start.dt.tz_convert(_ET).dt.normalize() == slate_date.tz_localize(_ET)
+        slate_games = slate_games.loc[slate_mask].copy()
+
+    click.echo(
+        "  Games table: "
+        f"{len(games_raw_norm)} raw slate rows, {raw_game_dup_keys} duplicate gameId key(s), "
+        f"{raw_game_conflicting_keys} conflicting duplicate key(s)"
+    )
+
+    # Boxscore duplicate audit after loader dedupe.
+    boxscores = load_boxscores(season)
+    boxscore_dup_keys = 0
+    if not boxscores.empty and {"gameid", "teamid"}.issubset(boxscores.columns):
+        boxscore_dup_keys = int(
+            boxscores.duplicated(subset=["gameid", "teamid"], keep=False).sum()
+        )
+    click.echo(
+        f"  Team-game boxscores: {len(boxscores)} rows after load, {boxscore_dup_keys} duplicate key row(s)"
+    )
+
+    # Efficiency duplicate audit, raw vs protected load.
+    ratings_raw_tbl = s3_reader.read_gold_table(config.PRODUCTION_GOLD_RATINGS_TABLE, season=season)
+    ratings_raw = ratings_raw_tbl.to_pandas() if ratings_raw_tbl.num_rows else pd.DataFrame()
+    raw_rating_dup_rows = 0
+    raw_rating_dup_keys = 0
+    if not ratings_raw.empty and {"teamId", "rating_date"}.issubset(ratings_raw.columns):
+        ratings_raw["rating_date"] = pd.to_datetime(ratings_raw["rating_date"], errors="coerce")
+        raw_rating_dup_mask = ratings_raw.duplicated(subset=["teamId", "rating_date"], keep=False)
+        raw_rating_dup_rows = int(raw_rating_dup_mask.sum())
+        raw_rating_dup_keys = int(
+            ratings_raw.loc[raw_rating_dup_mask, ["teamId", "rating_date"]]
+            .drop_duplicates()
+            .shape[0]
+        )
+    ratings = load_efficiency_ratings(season, no_garbage=True)
+    rating_dup_rows_after = 0
+    if not ratings.empty and {"teamId", "rating_date"}.issubset(ratings.columns):
+        rating_dup_rows_after = int(
+            ratings.duplicated(subset=["teamId", "rating_date"], keep=False).sum()
+        )
+    click.echo(
+        "  Efficiency ratings: "
+        f"{len(ratings_raw)} raw rows, {raw_rating_dup_keys} duplicate team/date key(s), "
+        f"{rating_dup_rows_after} duplicate row(s) after load"
+    )
+
+    # Build the actual live feature rows once and reuse them for prediction.
+    features_df = build_features(
+        season,
+        game_date=game_date,
+        extra_features=config.EXTRA_FEATURES,
+        adjust_ff=config.ADJUST_FF,
+        adjust_alpha=config.ADJUST_ALPHA,
+        adjust_prior_weight=config.ADJUST_PRIOR,
+        efficiency_source=config.EFFICIENCY_SOURCE,
+    )
+    click.echo(f"  Feature rows for {game_date}: {len(features_df)}")
+
+    lines = load_lines(season)
+    preferred_lines = select_preferred_lines(lines)
+    missing_line_games = pd.DataFrame()
+    if not slate_games.empty:
+        merged_lines = slate_games.merge(
+            preferred_lines[["gameId", "book_spread"]] if not preferred_lines.empty else pd.DataFrame(columns=["gameId", "book_spread"]),
+            on="gameId",
+            how="left",
+        )
+        missing_line_games = merged_lines[merged_lines["book_spread"].isna()].copy()
+        click.echo(
+            "  Preferred lines for today's slate: "
+            f"{len(slate_games) - len(missing_line_games)}/{len(slate_games)} with spreads"
+        )
+        if not missing_line_games.empty:
+            click.echo("  Missing preferred line rows:")
+            for _, row in missing_line_games.sort_values("startDate").iterrows():
+                click.echo(f"    - {_format_matchup(row)}")
+
+    feature_missing = {}
+    if not features_df.empty:
+        for col in _CRITICAL_FEATURE_COLS:
+            feature_missing[col] = int(features_df[col].isna().sum()) if col in features_df.columns else len(features_df)
+    if feature_missing:
+        click.echo("  Critical feature missingness:")
+        for col in _CRITICAL_FEATURE_COLS:
+            click.echo(f"    {col}: {feature_missing.get(col, len(features_df))}")
+
+    audit_reports = []
+    try:
+        scaler = load_scaler()
+    except Exception as exc:
+        click.echo(f"  Live feature drift audit skipped: {exc}")
+    else:
+        audit_reports.append(
+            audit_live_feature_drift(
+                features_df,
+                scaler,
+                config.FEATURE_ORDER,
+                _CRITICAL_FEATURE_COLS,
+            )
+        )
+    audit_reports.append(audit_ratings_asof(slate_games, ratings))
+    audit_reports.append(audit_hrb_lines(slate_games, lines, preferred_lines))
+
+    for report in audit_reports:
+        click.echo(f"  {report.label}:")
+        for line in report.info:
+            click.echo(f"    {line}")
+
+    errors: list[str] = []
+    warnings: list[str] = []
+
+    if raw_game_conflicting_keys > 0:
+        errors.append(f"fct_games has {raw_game_conflicting_keys} conflicting duplicate gameId key(s)")
+    elif raw_game_dup_keys > 0:
+        warnings.append(
+            f"fct_games has {raw_game_dup_keys} duplicate gameId key(s), but the prediction-relevant fields are identical"
+        )
+    if boxscore_dup_keys > 0:
+        errors.append(f"load_boxscores returned {boxscore_dup_keys} duplicate (gameid, teamid) row(s)")
+    if rating_dup_rows_after > 0:
+        errors.append(f"load_efficiency_ratings returned {rating_dup_rows_after} duplicate team/date row(s)")
+    if not features_df.empty:
+        for col in _CRITICAL_FEATURE_COLS[:4]:
+            if feature_missing.get(col, 0) > 0:
+                errors.append(f"critical efficiency feature {col} missing for {feature_missing[col]} row(s)")
+        for col in _CRITICAL_FEATURE_COLS[4:]:
+            if feature_missing.get(col, 0) > 0:
+                warnings.append(f"turnover feature {col} missing for {feature_missing[col]} row(s)")
+    if raw_rating_dup_keys > 0:
+        warnings.append(
+            f"raw gold ratings table still contains {raw_rating_dup_keys} duplicate team/date key(s); loader dedupe protected this run"
+        )
+    if not missing_line_games.empty:
+        warnings.append(f"{len(missing_line_games)} scheduled game(s) have no preferred line")
+    for report in audit_reports:
+        errors.extend(report.errors)
+        warnings.extend(report.warnings)
+
+    if errors:
+        click.echo("  Preflight errors:", err=True)
+        for msg in errors:
+            click.echo(f"    - {msg}", err=True)
+        raise click.ClickException("preflight checks failed")
+
+    if warnings:
+        click.echo("  Preflight warnings:")
+        for msg in warnings:
+            click.echo(f"    - {msg}")
+
+    click.echo("  Preflight passed.")
+    return features_df, lines
 
 
 def _today_et() -> str:
@@ -38,6 +281,50 @@ def _parse_seasons(seasons_str: str) -> list[int]:
         start, end = seasons_str.split("-")
         return list(range(int(start), int(end) + 1))
     return [int(s.strip()) for s in seasons_str.split(",")]
+
+
+def _exclude_training_seasons(seasons: list[int]) -> list[int]:
+    """Remove globally excluded seasons from training/tuning inputs."""
+    return [season for season in seasons if season not in config.EXCLUDE_SEASONS]
+
+
+def _production_regressor_hparams(
+    efficiency_source: str,
+    reg_epochs: int,
+) -> dict[str, int | float]:
+    """Keep the gold-backed sigma fit on a stable learning-rate/batch-size regime."""
+    hp: dict[str, int | float] = {"epochs": reg_epochs}
+    if efficiency_source == "gold":
+        hp["lr"] = 1e-3
+        hp["batch_size"] = 1024
+    return hp
+
+
+def _build_secondary_mu_features_if_needed(
+    season: int,
+    primary_df: pd.DataFrame,
+    game_date: str | None = None,
+) -> pd.DataFrame | None:
+    """Build Torvik-side features only when the blend schedule needs them."""
+    if config.EFFICIENCY_SOURCE != "gold":
+        return None
+    if not blend_enabled() or primary_df.empty:
+        return None
+    if not needs_secondary_mu_features(primary_df):
+        return None
+    secondary_df = build_features(
+        season,
+        game_date=game_date,
+        no_garbage=True,
+        extra_features=config.EXTRA_FEATURES,
+        adjust_ff=config.ADJUST_FF,
+        adjust_alpha=config.ADJUST_ALPHA,
+        adjust_prior_weight=config.ADJUST_PRIOR,
+        efficiency_source="torvik",
+    )
+    if secondary_df.empty:
+        return None
+    return secondary_df
 
 
 # ── 1. build-features ──────────────────────────────────────────────
@@ -146,17 +433,23 @@ def train(seasons: str, reg_epochs: int, cls_epochs: int, no_garbage: bool,
         fit_scaler,
         impute_column_means,
         save_checkpoint,
+        save_tree_regressor,
+        train_lightgbm_regressor,
         train_classifier,
         train_regressor,
     )
 
-    season_list = _parse_seasons(seasons)
+    requested_seasons = _parse_seasons(seasons)
+    season_list = _exclude_training_seasons(requested_seasons)
+    excluded = sorted(set(requested_seasons) - set(season_list))
     variant = " (no-garbage)" if no_garbage else ""
     if efficiency_source == "torvik":
         variant += " (torvik)"
     if adj_suffix:
         variant += f" ({adj_suffix})"
     click.echo(f"Loading features{variant} for seasons: {season_list}")
+    if excluded:
+        click.echo(f"  Excluding seasons per config: {excluded}")
     if min_date:
         click.echo(f"  Training date filter: games on or after MM-DD={min_date}")
 
@@ -198,9 +491,37 @@ def train(seasons: str, reg_epochs: int, cls_epochs: int, no_garbage: bool,
 
     # Train regressor
     click.echo("Training MLPRegressor (Gaussian NLL)...")
-    reg_hp = {"epochs": reg_epochs}
+    reg_hp = _production_regressor_hparams(efficiency_source, reg_epochs)
     regressor = train_regressor(X_scaled, y_spread, hparams=reg_hp)
     save_checkpoint(regressor, "regressor", hparams=reg_hp, subdir=ckpt_subdir)
+
+    # Train production mu regressor on raw imputed features.
+    click.echo("Training LightGBMRegressor (mu)...")
+    tree_regressor = train_lightgbm_regressor(X, y_spread)
+    tree_path = save_tree_regressor(tree_regressor, feature_order=config.FEATURE_ORDER)
+    click.echo(f"  Tree regressor: {tree_path}")
+
+    if blend_enabled() and efficiency_source == "gold":
+        click.echo("Training Torvik LightGBMRegressor (mu blend side)...")
+        torvik_df = load_multi_season_features(
+            season_list,
+            no_garbage=no_garbage,
+            adj_suffix=adj_suffix,
+            min_month_day=min_date,
+            efficiency_source="torvik",
+        )
+        torvik_df = torvik_df.dropna(subset=["homeScore", "awayScore"])
+        torvik_df = torvik_df[(torvik_df["homeScore"] != 0) | (torvik_df["awayScore"] != 0)]
+        X_t = get_feature_matrix(torvik_df).values.astype(np.float32)
+        y_t = get_targets(torvik_df)["spread_home"].values.astype(np.float32)
+        X_t = impute_column_means(X_t)
+        torvik_tree = train_lightgbm_regressor(X_t, y_t)
+        torvik_tree_path = save_tree_regressor(
+            torvik_tree,
+            path=config.TORVIK_TREE_REGRESSOR_PATH,
+            feature_order=config.FEATURE_ORDER,
+        )
+        click.echo(f"  Torvik tree regressor: {torvik_tree_path}")
 
     # Train classifier
     click.echo("Training MLPClassifier (BCE)...")
@@ -233,13 +554,17 @@ def tune(seasons: str, trials: int, min_date: str | None,
     from .trainer import fit_scaler, impute_column_means
     from .tuner import tune_classifier, tune_regressor
 
-    season_list = _parse_seasons(seasons)
+    requested_seasons = _parse_seasons(seasons)
+    season_list = _exclude_training_seasons(requested_seasons)
+    excluded = sorted(set(requested_seasons) - set(season_list))
     variant = " (no-garbage)" if no_garbage else ""
     if efficiency_source == "torvik":
         variant += " (torvik)"
     if adj_suffix:
         variant += f" ({adj_suffix})"
     click.echo(f"Loading features{variant} for seasons: {season_list}")
+    if excluded:
+        click.echo(f"  Excluding seasons per config: {excluded}")
     if min_date:
         click.echo(f"  Tuning date filter: games on or after MM-DD={min_date}")
 
@@ -287,24 +612,14 @@ def predict_today(season: int, game_date: str | None):
         game_date = _today_et()
 
     click.echo(f"Building features for {game_date}...")
-    df = build_features(
-        season,
-        game_date=game_date,
-        no_garbage=True,
-        extra_features=config.EXTRA_FEATURES,
-        adjust_ff=config.ADJUST_FF,
-        adjust_alpha=config.ADJUST_ALPHA,
-        adjust_prior_weight=config.ADJUST_PRIOR,
-        efficiency_source=config.EFFICIENCY_SOURCE,
-    )
+    df, lines = _run_prediction_preflight(season, game_date)
     if df.empty:
         click.echo(f"No games found for {game_date}.")
         return
 
     click.echo(f"  Games: {len(df)}")
-
-    lines = load_lines(season)
-    preds = predict(df, lines_df=lines)
+    secondary_df = _build_secondary_mu_features_if_needed(season, df, game_date=game_date)
+    preds = predict(df, lines_df=lines, secondary_mu_features_df=secondary_df)
 
     json_path, csv_path = save_predictions(preds, game_date=game_date)
     click.echo(f"  JSON: {json_path}")
@@ -365,7 +680,8 @@ def predict_season(season: int):
     click.echo(f"  Games: {len(df)}")
 
     lines = load_lines(season)
-    preds = predict(df, lines_df=lines)
+    secondary_df = _build_secondary_mu_features_if_needed(season, df)
+    preds = predict(df, lines_df=lines, secondary_mu_features_df=secondary_df)
 
     json_path, csv_path = save_predictions(preds, game_date=f"season_{season}")
     click.echo(f"  JSON: {json_path}")
@@ -618,11 +934,15 @@ def _run(cmd: list[str], cwd: Path, label: str) -> None:
 @cli.command("daily-update")
 @click.option("--season", required=True, type=int, help="Season year (e.g. 2026)")
 @click.option("--date", "game_date", default=None, help="Date override (YYYY-MM-DD)")
-@click.option("--skip-etl", is_flag=True, help="Skip ETL ingest + transforms (steps 1-3)")
+@click.option("--skip-etl", is_flag=True, help="Skip ETL ingest (step 1)")
+@click.option("--skip-transforms", is_flag=True, help="Skip silver/gold transforms (steps 2-3)")
 @click.option("--skip-predict", is_flag=True, help="Skip predictions + publish (steps 4-5)")
 @click.option("--skip-deploy", is_flag=True, help="Skip git commit/push (step 6)")
+@click.option("--no-lineups", is_flag=True,
+              help="Exclude lineups + substitutions from ETL ingest")
 def daily_update(season: int, game_date: str | None, skip_etl: bool,
-                 skip_predict: bool, skip_deploy: bool):
+                 skip_transforms: bool, skip_predict: bool, skip_deploy: bool,
+                 no_lineups: bool):
     """Full end-to-end daily pipeline: ETL → silver → gold → predict → publish → deploy."""
     from .infer import predict, save_predictions
 
@@ -632,39 +952,43 @@ def daily_update(season: int, game_date: str | None, skip_etl: bool,
     etl_root = _get_etl_root()
     click.echo(f"=== Daily update for {game_date} (season {season}) ===")
 
-    # ── Steps 1-3: ETL ingest + silver + gold ──────────────────────
+    # ── Step 1: ETL ingest ─────────────────────────────────────────
     if not skip_etl:
-        # Single incremental ingest: season tables + PBP fanout (7-day window)
-        click.echo("\n[1/6] ETL incremental ingest...")
+        endpoints = "games,games_teams,lines,ratings_adjusted,plays_game"
+        if not no_lineups:
+            endpoints += ",lineups_game,substitutions_game"
+        click.echo(f"\n[1/6] ETL incremental ingest...")
+        if no_lineups:
+            click.echo("  (skipping lineups + substitutions)")
         _run(
             ["poetry", "run", "python", "-m", "cbbd_etl", "incremental",
              "--season-start", str(season), "--season-end", str(season),
-             "--only-endpoints",
-             "games,games_teams,lines,ratings_adjusted,"
-             "lineups_game,plays_game,substitutions_game"],
+             "--only-endpoints", endpoints],
             cwd=etl_root,
             label="ETL incremental ingest",
         )
 
-        # Step 2: Silver — fct_games/fct_lines/fct_ratings_adjusted built during ingest.
-        # PBP pipeline: fct_plays → enriched → flat (both variants).
+    # ── Steps 2-3: Silver + Gold transforms ────────────────────────
+    if not skip_transforms:
+        # Step 2: Silver — PBP pipeline: enriched → flat (both variants).
+        # Incremental: only processes new dates (no --purge).
         click.echo("\n[2/6] Silver transforms (PBP enriched + flat tables)...")
         _run(
             ["poetry", "run", "python", "scripts/build_pbp_plays_enriched.py",
-             "--season", str(season), "--purge"],
+             "--season", str(season)],
             cwd=etl_root,
             label="build_pbp_plays_enriched",
         )
         _run(
             ["poetry", "run", "python", "scripts/build_pbp_game_teams_flat.py",
-             "--season", str(season), "--purge"],
+             "--season", str(season)],
             cwd=etl_root,
             label="build_pbp_game_teams_flat",
         )
         _run(
             ["poetry", "run", "python", "scripts/build_pbp_game_teams_flat.py",
              "--season", str(season), "--exclude-garbage-time",
-             "--output-table", "fct_pbp_game_teams_flat_garbage_removed", "--purge"],
+             "--output-table", "fct_pbp_game_teams_flat_garbage_removed"],
             cwd=etl_root,
             label="build_pbp_game_teams_flat (no garbage)",
         )
@@ -679,13 +1003,36 @@ def daily_update(season: int, game_date: str | None, skip_etl: bool,
             label="gold team_adjusted_efficiencies_no_garbage",
         )
 
+        # Keep the preferred in-house ratings source current for rankings.
+        repair_script = config.PROJECT_ROOT / "scripts" / f"repair_pbp_garbage_removed_{season}.py"
+        promoted_gold_script = config.PROJECT_ROOT / "scripts" / "build_gold_softgarbage_priorreg_v1.py"
+        if repair_script.exists():
+            click.echo(f"  Refreshing repaired no-garbage gold tables for season {season}...")
+            _run(
+                [sys.executable, str(repair_script), "--season", str(season)],
+                cwd=config.PROJECT_ROOT,
+                label=f"repair_pbp_garbage_removed_{season}",
+            )
+        elif promoted_gold_script.exists():
+            click.echo(f"  Refreshing {config.PRODUCTION_GOLD_RATINGS_TABLE}...")
+            _run(
+                [
+                    sys.executable,
+                    str(promoted_gold_script),
+                    "--season-start",
+                    str(season),
+                    "--season-end",
+                    str(season),
+                ],
+                cwd=config.PROJECT_ROOT,
+                label="build_gold_softkeep25_priorreg_k5_v1",
+            )
+
     # ── Freshness check: ensure gold data is current ────────────────
     click.echo("\nChecking gold data freshness...")
     try:
         from . import s3_reader
-        gold_tbl = s3_reader.read_gold_table(
-            "team_adjusted_efficiencies_no_garbage", season=season
-        )
+        gold_tbl = s3_reader.read_gold_table(config.PRODUCTION_GOLD_RATINGS_TABLE, season=season)
         gold_df = gold_tbl.to_pandas()
         import pandas as _pd
         gold_df["rating_date"] = _pd.to_datetime(gold_df["rating_date"], errors="coerce")
@@ -694,7 +1041,10 @@ def daily_update(season: int, game_date: str | None, skip_etl: bool,
             max_date_str = max_date.strftime("%Y-%m-%d")
             game_dt = _pd.Timestamp(game_date)
             days_stale = (game_dt - max_date).days
-            click.echo(f"  Gold ratings through: {max_date_str} ({days_stale} day(s) before {game_date})")
+            click.echo(
+                f"  Gold ratings through: {max_date_str} "
+                f"({days_stale} day(s) before {game_date}) from {config.PRODUCTION_GOLD_RATINGS_TABLE}"
+            )
             if days_stale > 2:
                 click.echo(
                     f"  WARNING: Gold data is {days_stale} days stale! "
@@ -712,21 +1062,13 @@ def daily_update(season: int, game_date: str | None, skip_etl: bool,
     if not skip_predict:
         # Step 4: Predict today's games
         click.echo(f"\n[4/6] Predictions for {game_date}...")
-        df = build_features(
-            season,
-            game_date=game_date,
-            extra_features=config.EXTRA_FEATURES,
-            adjust_ff=config.ADJUST_FF,
-            adjust_alpha=config.ADJUST_ALPHA,
-            adjust_prior_weight=config.ADJUST_PRIOR,
-            efficiency_source=config.EFFICIENCY_SOURCE,
-        )
+        df, lines = _run_prediction_preflight(season, game_date)
         if df.empty:
             click.echo(f"  No games found for {game_date}. Skipping predictions.")
         else:
             click.echo(f"  Games: {len(df)}")
-            lines = load_lines(season)
-            preds = predict(df, lines_df=lines)
+            secondary_df = _build_secondary_mu_features_if_needed(season, df, game_date=game_date)
+            preds = predict(df, lines_df=lines, secondary_mu_features_df=secondary_df)
             json_path, csv_path = save_predictions(preds, game_date=game_date)
             click.echo(f"  JSON: {json_path}")
             click.echo(f"  CSV:  {csv_path}")
@@ -745,6 +1087,47 @@ def daily_update(season: int, game_date: str | None, skip_etl: bool,
         if finals_script.exists():
             _run([sys.executable, str(finals_script), "--date", game_date],
                  cwd=config.PROJECT_ROOT, label="s3_finals_to_json")
+
+        internal_bet_script = script_dir / "build_daily_internal_bet_filter_report.py"
+        if internal_bet_script.exists():
+            _run(
+                [
+                    sys.executable,
+                    str(internal_bet_script),
+                    "--season",
+                    str(season),
+                    "--date",
+                    game_date,
+                ],
+                cwd=config.PROJECT_ROOT,
+                label="build_daily_internal_bet_filter_report",
+            )
+
+        internal_tracking_script = script_dir / "build_internal_bet_filter_tracking_report.py"
+        if internal_tracking_script.exists():
+            _run(
+                [
+                    sys.executable,
+                    str(internal_tracking_script),
+                    "--season",
+                    str(season),
+                ],
+                cwd=config.PROJECT_ROOT,
+                label="build_internal_bet_filter_tracking_report",
+            )
+
+        internal_maintenance_script = script_dir / "build_internal_bet_filter_maintenance_report.py"
+        if internal_maintenance_script.exists():
+            _run(
+                [
+                    sys.executable,
+                    str(internal_maintenance_script),
+                    "--season",
+                    str(season),
+                ],
+                cwd=config.PROJECT_ROOT,
+                label="build_internal_bet_filter_maintenance_report",
+            )
         click.echo("  Publish pipeline complete.")
 
     # ── Step 6: Deploy ────────────────────────────────────────────

@@ -2,20 +2,36 @@ import { GetServerSideProps } from "next";
 import Link from "next/link";
 import { CSSProperties, useMemo, useState } from "react";
 import Layout from "../components/Layout";
-import { normalizeRows, displayTeam } from "../lib/data";
-import { listFinalScoreFiles, readJsonFile, todayET } from "../lib/server-data";
+import {
+  getSiteHomeWinProbFromValues,
+  displayTeam,
+  formatAmericanOddsFromProb,
+  normalizeRows,
+} from "../lib/data";
+import {
+  listFinalScoreFiles,
+  listPerformancePredictionFiles,
+  readJsonFile,
+  todayET,
+} from "../lib/server-data";
+import { getTeamRank, getTeamRankMapForDate } from "../lib/team-rankings";
 
 /* -- types -- */
 
 type HistoryGame = {
   away_team: string;
+  away_team_rank: number | null;
   home_team: string;
+  home_team_rank: number | null;
+  start_time: string | null;
   away_score: number | null;
   home_score: number | null;
   pick_side: string;
   pick_team: string;
   market_spread_home: number | null;
   model_mu_home: number | null;
+  model_mu_home_raw: number | null;
+  pred_sigma: number | null;
   pick_prob_edge: number;
   ats_result: "win" | "loss" | "push" | null;
   has_book: boolean;
@@ -30,6 +46,7 @@ type HistoryProps = {
 
 type SortKey =
   | "matchup"
+  | "time"
   | "score"
   | "book"
   | "model"
@@ -48,8 +65,12 @@ export const getServerSideProps: GetServerSideProps<HistoryProps> = async (
     typeof context.query.date === "string" ? context.query.date : null;
 
   const finalFiles = listFinalScoreFiles();
+  const predDates = new Set(listPerformancePredictionFiles().map((f) => f.date));
   const today = todayET();
-  const availableDates = finalFiles.map((f) => f.date).filter((d) => d < today).sort();
+  const availableDates = finalFiles
+    .map((f) => f.date)
+    .filter((d) => d < today && predDates.has(d))
+    .sort();
 
   if (!availableDates.length) {
     return {
@@ -73,6 +94,7 @@ export const getServerSideProps: GetServerSideProps<HistoryProps> = async (
   const finalRows = normalizeRows(
     readJsonFile(`final_scores_${date}.json`)
   );
+  const teamRanks = getTeamRankMapForDate(date);
 
   const finalLookup = new Map<string, Record<string, unknown>>();
   for (const r of finalRows) {
@@ -86,12 +108,18 @@ export const getServerSideProps: GetServerSideProps<HistoryProps> = async (
 
     const away_team = s(pred.away_team);
     const home_team = s(pred.home_team);
+    const start_time = typeof pred.start_time === "string"
+      ? pred.start_time
+      : typeof pred.startDate === "string"
+        ? pred.startDate
+        : null;
     const pick_side = s(pred.pick_side).toUpperCase();
     const pick_team = pick_side === "HOME" ? home_team : away_team;
 
     const market_spread_home = pn(pred.market_spread_home);
     const rawMu = pn(pred.model_mu_home);
     const model_mu_home = rawMu !== null ? -rawMu : null; // Negate to book convention for display
+    const pred_sigma = pn(pred.pred_sigma);
     const pick_prob_edge = pn(pred.pick_prob_edge) ?? 0;
     const has_book = market_spread_home !== null;
 
@@ -117,13 +145,18 @@ export const getServerSideProps: GetServerSideProps<HistoryProps> = async (
 
     return {
       away_team,
+      away_team_rank: getTeamRank(away_team, teamRanks),
       home_team,
+      home_team_rank: getTeamRank(home_team, teamRanks),
+      start_time,
       away_score,
       home_score,
       pick_side,
       pick_team,
       market_spread_home,
       model_mu_home,
+      model_mu_home_raw: rawMu,
+      pred_sigma,
       pick_prob_edge,
       ats_result,
       has_book
@@ -175,6 +208,52 @@ function fmtDate(d: string): string {
   return `${months[Number(mo) - 1]} ${Number(dy)}, ${yr}`;
 }
 
+function fmtTime(raw: string | null): string | null {
+  if (!raw) return null;
+  const dt = new Date(raw);
+  if (Number.isNaN(dt.getTime())) return null;
+  return dt.toLocaleTimeString("en-US", {
+    timeZone: "America/New_York",
+    hour: "numeric",
+    minute: "2-digit"
+  });
+}
+
+function renderRankedTeam(teamName: string, rank: number | null) {
+  return (
+    <>
+      {rank !== null && (
+        <span
+          style={{
+            ...mono,
+            fontSize: 11,
+            color: "#64748b",
+            marginRight: 2,
+          }}
+        >
+          {rank}
+        </span>
+      )}
+      {displayTeam(teamName)}
+    </>
+  );
+}
+
+function renderMatchupSeparator() {
+  return (
+    <span
+      style={{
+        fontSize: 11,
+        color: "#64748b",
+        margin: "0 4px",
+        textTransform: "lowercase",
+      }}
+    >
+      at
+    </span>
+  );
+}
+
 /* sort helpers */
 
 function atsOrd(r: "win" | "loss" | "push" | null): number {
@@ -184,10 +263,26 @@ function atsOrd(r: "win" | "loss" | "push" | null): number {
   return -1;
 }
 
+function homeWinProb(g: HistoryGame): number | null {
+  return getSiteHomeWinProbFromValues(g.model_mu_home_raw, g.pred_sigma, g.start_time);
+}
+
+function homeMlFair(g: HistoryGame): string | null {
+  const homeProb = homeWinProb(g);
+  if (homeProb === null) return null;
+  const homeOdds = formatAmericanOddsFromProb(homeProb);
+  return homeOdds || null;
+}
+
 function sortVal(g: HistoryGame, key: SortKey): string | number {
   switch (key) {
     case "matchup":
       return `${g.away_team} @ ${g.home_team}`;
+    case "time": {
+      if (!g.start_time) return Number.POSITIVE_INFINITY;
+      const ms = new Date(g.start_time).getTime();
+      return Number.isNaN(ms) ? Number.POSITIVE_INFINITY : ms;
+    }
     case "score":
       return g.home_score !== null && g.away_score !== null
         ? g.home_score - g.away_score
@@ -211,6 +306,7 @@ function sortVal(g: HistoryGame, key: SortKey): string | number {
 
 const columns: { key: SortKey; label: string; align: "left" | "center" }[] = [
   { key: "matchup", label: "MATCHUP", align: "left" },
+  { key: "time", label: "TIME", align: "center" },
   { key: "score", label: "SCORE", align: "center" },
   { key: "book", label: "BOOK LINE", align: "center" },
   { key: "model", label: "MODEL", align: "center" },
@@ -389,7 +485,7 @@ export default function History({
                   textDecoration: "none"
                 }}
               >
-                \u2190
+                {"\u2190"}
               </Link>
             ) : (
               <span
@@ -406,7 +502,7 @@ export default function History({
                   fontSize: 16
                 }}
               >
-                \u2190
+                {"\u2190"}
               </span>
             )}
 
@@ -442,7 +538,7 @@ export default function History({
                   textDecoration: "none"
                 }}
               >
-                \u2192
+                {"\u2192"}
               </Link>
             ) : (
               <span
@@ -459,7 +555,7 @@ export default function History({
                   fontSize: 16
                 }}
               >
-                \u2192
+                {"\u2192"}
               </span>
             )}
           </div>
@@ -742,12 +838,40 @@ export default function History({
                           }}
                         >
                           <span style={{ fontWeight: g.pick_side === "AWAY" ? 700 : 400 }}>
-                            {displayTeam(g.away_team)}
+                            {renderRankedTeam(g.away_team, g.away_team_rank)}
                           </span>
-                          {" @ "}
+                          {renderMatchupSeparator()}
                           <span style={{ fontWeight: g.pick_side === "HOME" ? 700 : 400 }}>
-                            {displayTeam(g.home_team)}
+                            {renderRankedTeam(g.home_team, g.home_team_rank)}
+                            {homeMlFair(g) ? (
+                              <span
+                                style={{
+                                  ...mono,
+                                  marginLeft: 6,
+                                  fontSize: 11,
+                                  fontWeight: 500,
+                                  color: "#64748b"
+                                }}
+                              >
+                                ({homeMlFair(g)})
+                              </span>
+                            ) : null}
                           </span>
+                        </td>
+
+                        <td
+                          style={{
+                            ...mono,
+                            padding: "10px 14px",
+                            textAlign: "center",
+                            fontSize: 12,
+                            color: "#64748b",
+                            borderBottom: bd,
+                            whiteSpace: "nowrap",
+                            opacity: dimmed ? 0.4 : 1
+                          }}
+                        >
+                          {fmtTime(g.start_time) ?? "—"}
                         </td>
 
                         {/* SCORE */}
@@ -894,6 +1018,7 @@ export default function History({
             </table>
           </div>
         </div>
+
       </div>
     </Layout>
   );

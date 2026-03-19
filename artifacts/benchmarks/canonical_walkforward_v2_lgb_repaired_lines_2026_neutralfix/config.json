@@ -1,0 +1,102 @@
+{
+  "benchmark": "canonical_walkforward_v1",
+  "seed": 42,
+  "train_start": 2015,
+  "exclude_seasons": [
+    2021
+  ],
+  "holdout_seasons": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "feature_config": {
+    "no_garbage": true,
+    "efficiency_source": "torvik",
+    "adj_suffix": "adj_a0.85_p10",
+    "feature_order_size": 53
+  },
+  "inner_validation": {
+    "type": "temporal_tail",
+    "val_frac": 0.15,
+    "sort": [
+      "startDate",
+      "gameId"
+    ]
+  },
+  "external_book_benchmark": {
+    "benchmark_label": "PreferredBookSpread",
+    "provider_preference_order": [
+      "Draft Kings",
+      "ESPN BET",
+      "Bovada"
+    ],
+    "uses_true_closing_timestamps": false,
+    "selection_rule": "Select one spread per game by taking the first non-null spread after sorting by preferred providers (Draft Kings, ESPN BET, Bovada), then by provider name."
+  },
+  "models": {
+    "HomeMarginMean": {},
+    "Ridge": {
+      "alpha": 10.0
+    },
+    "HistGradientBoosting": {
+      "loss": "absolute_error",
+      "learning_rate": 0.05,
+      "max_depth": 6,
+      "max_iter": 300,
+      "min_samples_leaf": 20,
+      "l2_regularization": 1.0,
+      "random_state": 42
+    },
+    "LightGBM": {
+      "objective": "regression_l1",
+      "learning_rate": 0.02019353198222356,
+      "num_leaves": 110,
+      "max_depth": 9,
+      "min_child_samples": 60,
+      "subsample": 0.6469253206264255,
+      "colsample_bytree": 0.4684413154048659,
+      "reg_alpha": 1.561017503434852,
+      "reg_lambda": 0.004257796528177626,
+      "n_estimators": 5000,
+      "random_state": 42,
+      "n_jobs": -1,
+      "verbosity": -1,
+      "deterministic": true,
+      "force_col_wise": true
+    },
+    "CurrentMLP": {
+      "hidden1": 384,
+      "hidden2": 256,
+      "dropout": 0.2,
+      "batch_size": 4096,
+      "lr": 0.003,
+      "weight_decay": 0.0001,
+      "epochs": 150,
+      "sigma_param": "exp"
+    },
+    "PreferredBookSpread": {
+      "external_benchmark": true
+    }
+  },
+  "folds": [
+    {
+      "holdout_season": 2026,
+      "train_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    }
+  ]
+}

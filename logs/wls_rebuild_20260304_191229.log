@@ -1,0 +1,80 @@
+[19:12:29] WLS Full Pipeline Rebuild started
+[19:12:29] Seasons: 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+[19:12:29] === GOLD LAYER REBUILD ===
+[19:12:29] Gold: season 2015 (team_adjusted_efficiencies_no_garbage)...
+{"level": "INFO", "logger": "cbbd_etl.gold.adjusted_efficiencies", "message": "ratings_solver=iterative dates=142 max_iters=54 avg_iters=15.0"}
+{"level": "INFO", "logger": "root", "message": "gold_build_done", "table": "team_adjusted_efficiencies_no_garbage", "season": 2015, "rows": 48963}
+{"level": "INFO", "logger": "root", "message": "gold_s3_write", "table": "team_adjusted_efficiencies_no_garbage", "key": "gold/team_adjusted_efficiencies_no_garbage/season=2015/asof=2026-03-05/part-c03c83ad.parquet", "rows": 48963}
+{"level": "INFO", "logger": "root", "message": "gold_glue_registered", "database": "cbbd_gold", "table": "team_adjusted_efficiencies_no_garbage"}
+{"level": "INFO", "logger": "root", "message": "gold_run_done", "season": 2015, "tables_built": 1}
+[19:12:55] Gold: season 2016 (team_adjusted_efficiencies_no_garbage)...
+{"level": "INFO", "logger": "cbbd_etl.gold.adjusted_efficiencies", "message": "ratings_solver=iterative dates=143 max_iters=53 avg_iters=14.5"}
+{"level": "INFO", "logger": "root", "message": "gold_build_done", "table": "team_adjusted_efficiencies_no_garbage", "season": 2016, "rows": 48981}
+{"level": "INFO", "logger": "root", "message": "gold_s3_write", "table": "team_adjusted_efficiencies_no_garbage", "key": "gold/team_adjusted_efficiencies_no_garbage/season=2016/asof=2026-03-05/part-aa6bc8cb.parquet", "rows": 48981}
+{"level": "INFO", "logger": "root", "message": "gold_glue_registered", "database": "cbbd_gold", "table": "team_adjusted_efficiencies_no_garbage"}
+{"level": "INFO", "logger": "root", "message": "gold_run_done", "season": 2016, "tables_built": 1}
+[19:13:20] Gold: season 2017 (team_adjusted_efficiencies_no_garbage)...
+{"level": "INFO", "logger": "cbbd_etl.gold.adjusted_efficiencies", "message": "ratings_solver=iterative dates=142 max_iters=53 avg_iters=14.0"}
+{"level": "INFO", "logger": "root", "message": "gold_build_done", "table": "team_adjusted_efficiencies_no_garbage", "season": 2017, "rows": 48510}
+{"level": "INFO", "logger": "root", "message": "gold_s3_write", "table": "team_adjusted_efficiencies_no_garbage", "key": "gold/team_adjusted_efficiencies_no_garbage/season=2017/asof=2026-03-05/part-b63a8b49.parquet", "rows": 48510}
+{"level": "INFO", "logger": "root", "message": "gold_glue_registered", "database": "cbbd_gold", "table": "team_adjusted_efficiencies_no_garbage"}
+{"level": "INFO", "logger": "root", "message": "gold_run_done", "season": 2017, "tables_built": 1}
+[19:13:46] Gold: season 2018 (team_adjusted_efficiencies_no_garbage)...
+{"level": "INFO", "logger": "cbbd_etl.gold.adjusted_efficiencies", "message": "ratings_solver=iterative dates=142 max_iters=54 avg_iters=15.2"}
+{"level": "INFO", "logger": "root", "message": "gold_build_done", "table": "team_adjusted_efficiencies_no_garbage", "season": 2018, "rows": 48725}
+{"level": "INFO", "logger": "root", "message": "gold_s3_write", "table": "team_adjusted_efficiencies_no_garbage", "key": "gold/team_adjusted_efficiencies_no_garbage/season=2018/asof=2026-03-05/part-7509c0fa.parquet", "rows": 48725}
+{"level": "INFO", "logger": "root", "message": "gold_glue_registered", "database": "cbbd_gold", "table": "team_adjusted_efficiencies_no_garbage"}
+{"level": "INFO", "logger": "root", "message": "gold_run_done", "season": 2018, "tables_built": 1}
+[19:14:14] Gold: season 2019 (team_adjusted_efficiencies_no_garbage)...
+{"level": "INFO", "logger": "cbbd_etl.gold.adjusted_efficiencies", "message": "ratings_solver=iterative dates=152 max_iters=54 avg_iters=14.8"}
+{"level": "INFO", "logger": "root", "message": "gold_build_done", "table": "team_adjusted_efficiencies_no_garbage", "season": 2019, "rows": 52147}
+{"level": "INFO", "logger": "root", "message": "gold_s3_write", "table": "team_adjusted_efficiencies_no_garbage", "key": "gold/team_adjusted_efficiencies_no_garbage/season=2019/asof=2026-03-05/part-94ae0897.parquet", "rows": 52147}
+{"level": "INFO", "logger": "root", "message": "gold_glue_registered", "database": "cbbd_gold", "table": "team_adjusted_efficiencies_no_garbage"}
+{"level": "INFO", "logger": "root", "message": "gold_run_done", "season": 2019, "tables_built": 1}
+[19:14:40] Gold: season 2020 (team_adjusted_efficiencies_no_garbage)...
+{"level": "INFO", "logger": "cbbd_etl.gold.adjusted_efficiencies", "message": "ratings_solver=iterative dates=125 max_iters=53 avg_iters=16.9"}
+{"level": "INFO", "logger": "root", "message": "gold_build_done", "table": "team_adjusted_efficiencies_no_garbage", "season": 2020, "rows": 43001}
+{"level": "INFO", "logger": "root", "message": "gold_s3_write", "table": "team_adjusted_efficiencies_no_garbage", "key": "gold/team_adjusted_efficiencies_no_garbage/season=2020/asof=2026-03-05/part-f815dedd.parquet", "rows": 43001}
+{"level": "INFO", "logger": "root", "message": "gold_glue_registered", "database": "cbbd_gold", "table": "team_adjusted_efficiencies_no_garbage"}
+{"level": "INFO", "logger": "root", "message": "gold_run_done", "season": 2020, "tables_built": 1}
+[19:15:03] Gold: season 2021 (team_adjusted_efficiencies_no_garbage)...
+{"level": "INFO", "logger": "cbbd_etl.gold.adjusted_efficiencies", "message": "ratings_solver=iterative dates=128 max_iters=54 avg_iters=21.4"}
+{"level": "INFO", "logger": "root", "message": "gold_build_done", "table": "team_adjusted_efficiencies_no_garbage", "season": 2021, "rows": 41948}
+{"level": "INFO", "logger": "root", "message": "gold_s3_write", "table": "team_adjusted_efficiencies_no_garbage", "key": "gold/team_adjusted_efficiencies_no_garbage/season=2021/asof=2026-03-05/part-f3ffe536.parquet", "rows": 41948}
+{"level": "INFO", "logger": "root", "message": "gold_glue_registered", "database": "cbbd_gold", "table": "team_adjusted_efficiencies_no_garbage"}
+{"level": "INFO", "logger": "root", "message": "gold_run_done", "season": 2021, "tables_built": 1}
+[19:15:29] Gold: season 2022 (team_adjusted_efficiencies_no_garbage)...
+{"level": "INFO", "logger": "cbbd_etl.gold.adjusted_efficiencies", "message": "ratings_solver=iterative dates=144 max_iters=54 avg_iters=14.8"}
+{"level": "INFO", "logger": "root", "message": "gold_build_done", "table": "team_adjusted_efficiencies_no_garbage", "season": 2022, "rows": 50730}
+{"level": "INFO", "logger": "root", "message": "gold_s3_write", "table": "team_adjusted_efficiencies_no_garbage", "key": "gold/team_adjusted_efficiencies_no_garbage/season=2022/asof=2026-03-05/part-7af17191.parquet", "rows": 50730}
+{"level": "INFO", "logger": "root", "message": "gold_glue_registered", "database": "cbbd_gold", "table": "team_adjusted_efficiencies_no_garbage"}
+{"level": "INFO", "logger": "root", "message": "gold_run_done", "season": 2022, "tables_built": 1}
+[19:15:58] Gold: season 2023 (team_adjusted_efficiencies_no_garbage)...
+{"level": "INFO", "logger": "cbbd_etl.gold.adjusted_efficiencies", "message": "ratings_solver=iterative dates=141 max_iters=55 avg_iters=15.1"}
+{"level": "INFO", "logger": "root", "message": "gold_build_done", "table": "team_adjusted_efficiencies_no_garbage", "season": 2023, "rows": 50174}
+{"level": "INFO", "logger": "root", "message": "gold_s3_write", "table": "team_adjusted_efficiencies_no_garbage", "key": "gold/team_adjusted_efficiencies_no_garbage/season=2023/asof=2026-03-05/part-ffb5ed4e.parquet", "rows": 50174}
+{"level": "INFO", "logger": "root", "message": "gold_glue_registered", "database": "cbbd_gold", "table": "team_adjusted_efficiencies_no_garbage"}
+{"level": "INFO", "logger": "root", "message": "gold_run_done", "season": 2023, "tables_built": 1}
+[19:16:26] Gold: season 2024 (team_adjusted_efficiencies_no_garbage)...
+{"level": "INFO", "logger": "cbbd_etl.gold.adjusted_efficiencies", "message": "ratings_solver=iterative dates=150 max_iters=54 avg_iters=14.6"}
+{"level": "INFO", "logger": "root", "message": "gold_build_done", "table": "team_adjusted_efficiencies_no_garbage", "season": 2024, "rows": 53508}
+{"level": "INFO", "logger": "root", "message": "gold_s3_write", "table": "team_adjusted_efficiencies_no_garbage", "key": "gold/team_adjusted_efficiencies_no_garbage/season=2024/asof=2026-03-05/part-5cd5aa98.parquet", "rows": 53508}
+{"level": "INFO", "logger": "root", "message": "gold_glue_registered", "database": "cbbd_gold", "table": "team_adjusted_efficiencies_no_garbage"}
+{"level": "INFO", "logger": "root", "message": "gold_run_done", "season": 2024, "tables_built": 1}
+[19:16:56] Gold: season 2025 (team_adjusted_efficiencies_no_garbage)...
+{"level": "INFO", "logger": "cbbd_etl.gold.adjusted_efficiencies", "message": "ratings_solver=iterative dates=153 max_iters=53 avg_iters=14.8"}
+{"level": "INFO", "logger": "root", "message": "gold_build_done", "table": "team_adjusted_efficiencies_no_garbage", "season": 2025, "rows": 54560}
+{"level": "INFO", "logger": "root", "message": "gold_s3_write", "table": "team_adjusted_efficiencies_no_garbage", "key": "gold/team_adjusted_efficiencies_no_garbage/season=2025/asof=2026-03-05/part-1b0c4f06.parquet", "rows": 54560}
+{"level": "INFO", "logger": "root", "message": "gold_glue_registered", "database": "cbbd_gold", "table": "team_adjusted_efficiencies_no_garbage"}
+{"level": "INFO", "logger": "root", "message": "gold_run_done", "season": 2025, "tables_built": 1}
+[19:17:25] Gold: season 2026 (team_adjusted_efficiencies_no_garbage)...
+{"level": "INFO", "logger": "cbbd_etl.gold.adjusted_efficiencies", "message": "ratings_solver=iterative dates=99 max_iters=54 avg_iters=18.0"}
+{"level": "INFO", "logger": "root", "message": "gold_build_done", "table": "team_adjusted_efficiencies_no_garbage", "season": 2026, "rows": 35304}
+{"level": "INFO", "logger": "root", "message": "gold_s3_write", "table": "team_adjusted_efficiencies_no_garbage", "key": "gold/team_adjusted_efficiencies_no_garbage/season=2026/asof=2026-03-05/part-7ccfa3af.parquet", "rows": 35304}
+{"level": "INFO", "logger": "root", "message": "gold_glue_registered", "database": "cbbd_gold", "table": "team_adjusted_efficiencies_no_garbage"}
+{"level": "INFO", "logger": "root", "message": "gold_run_done", "season": 2026, "tables_built": 1}
+[19:17:44] Gold rebuild complete.
+[19:17:44] --- Gold spot-check: 2025 top-10, adj_pace, HCA ---
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+TypeError: 'Config' object is not subscriptable

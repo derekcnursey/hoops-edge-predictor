@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import { CSSProperties, useMemo, useState } from "react";
 import Layout from "../components/Layout";
 import { displayTeam } from "../lib/data";
+import { normalizeRankingsTeams } from "../lib/rankings";
 import { listRankingsSeasons, readJsonFile } from "../lib/server-data";
 
 /* -- types -- */
@@ -18,13 +19,19 @@ type RankedTeam = {
   adj_de: number;
   adj_margin: number;
   adj_tempo: number;
-  edge_index: number | null;
+  model_index: number | null;
 };
 
 type RankingsData = {
   generated_at: string;
   as_of_date: string;
   season: number;
+  source_label?: string;
+  source_table?: string;
+  source_description?: string;
+  source_note?: string;
+  model_index_label?: string;
+  model_index_description?: string;
   teams: RankedTeam[];
 };
 
@@ -52,6 +59,10 @@ export const getServerSideProps: GetServerSideProps<Props> = async (context) => 
   if (!raw) raw = readJsonFile("rankings.json");
   const data = raw as RankingsData | null;
 
+  if (data && Array.isArray(data.teams)) {
+    data.teams = normalizeRankingsTeams(data.teams);
+  }
+
   return { props: { data, availableSeasons, currentSeason } };
 };
 
@@ -70,7 +81,7 @@ type SortKey =
   | "adj_de"
   | "adj_margin"
   | "adj_tempo"
-  | "edge_index";
+  | "model_index";
 
 type SortState = { key: SortKey; dir: "asc" | "desc" };
 
@@ -94,8 +105,8 @@ function sortVal(t: RankedTeam, key: SortKey): string | number {
       return t.adj_margin;
     case "adj_tempo":
       return t.adj_tempo;
-    case "edge_index":
-      return t.edge_index ?? 0;
+    case "model_index":
+      return t.model_index ?? Number.NEGATIVE_INFINITY;
   }
 }
 
@@ -126,22 +137,19 @@ function netTextColor(val: number): string {
 
 /* -- column defs -- */
 
-const columns: {
-  key: SortKey;
-  label: string;
-  align: "left" | "center";
-  defaultDir: "asc" | "desc";
-}[] = [
-  { key: "rank", label: "#", align: "center", defaultDir: "asc" },
-  { key: "team", label: "TEAM", align: "left", defaultDir: "asc" },
-  { key: "conference", label: "CONF", align: "center", defaultDir: "asc" },
-  { key: "record", label: "RECORD", align: "center", defaultDir: "desc" },
-  { key: "adj_oe", label: "ADJ O", align: "center", defaultDir: "desc" },
-  { key: "adj_de", label: "ADJ D", align: "center", defaultDir: "asc" },
-  { key: "adj_margin", label: "NET RATING", align: "center", defaultDir: "desc" },
-  { key: "adj_tempo", label: "TEMPO", align: "center", defaultDir: "desc" },
-  { key: "edge_index", label: "EDGE INDEX", align: "center", defaultDir: "desc" },
-];
+function getColumns(modelIndexLabel: string) {
+  return [
+    { key: "rank", label: "#", align: "center", defaultDir: "asc" },
+    { key: "team", label: "TEAM", align: "left", defaultDir: "asc" },
+    { key: "conference", label: "CONF", align: "center", defaultDir: "asc" },
+    { key: "record", label: "RECORD", align: "center", defaultDir: "desc" },
+    { key: "model_index", label: modelIndexLabel.toUpperCase(), align: "center", defaultDir: "desc" },
+    { key: "adj_oe", label: "ADJ O", align: "center", defaultDir: "desc" },
+    { key: "adj_de", label: "ADJ D", align: "center", defaultDir: "asc" },
+    { key: "adj_margin", label: "NET RATING", align: "center", defaultDir: "desc" },
+    { key: "adj_tempo", label: "TEMPO", align: "center", defaultDir: "desc" },
+  ] as const;
+}
 
 /* -- component -- */
 
@@ -153,7 +161,9 @@ export default function Rankings({ data, availableSeasons, currentSeason }: Prop
   const router = useRouter();
   const [search, setSearch] = useState("");
   const [confFilter, setConfFilter] = useState("all");
-  const [sort, setSort] = useState<SortState>({ key: "rank", dir: "asc" });
+  const [sort, setSort] = useState<SortState>({ key: "adj_margin", dir: "desc" });
+  const modelIndexLabel = "BALLIN'";
+  const columns = getColumns(modelIndexLabel);
 
   const conferences = useMemo(() => {
     if (!data) return [];
@@ -460,6 +470,24 @@ export default function Rankings({ data, availableSeasons, currentSeason }: Prop
                         )}
                       </td>
 
+                      {/* EDGE INDEX */}
+                      <td
+                        style={{
+                          ...mono,
+                          padding: "10px 14px",
+                          textAlign: "center",
+                          fontSize: 13,
+                          fontWeight: 700,
+                          color: netTextColor(t.model_index ?? 0),
+                          background: netColor(t.model_index ?? 0),
+                          borderBottom: "1px solid #f1f5f9",
+                        }}
+                        >
+                        {t.model_index !== null
+                          ? `${t.model_index > 0 ? "+" : ""}${t.model_index.toFixed(2)}`
+                          : "\u2014"}
+                      </td>
+
                       {/* ADJ O */}
                       <td
                         style={{
@@ -495,9 +523,7 @@ export default function Rankings({ data, availableSeasons, currentSeason }: Prop
                           padding: "10px 14px",
                           textAlign: "center",
                           fontSize: 13,
-                          fontWeight: 700,
-                          color: netTextColor(t.adj_margin),
-                          background: netColor(t.adj_margin),
+                          color: "#334155",
                           borderBottom: "1px solid #f1f5f9",
                         }}
                       >
@@ -517,23 +543,6 @@ export default function Rankings({ data, availableSeasons, currentSeason }: Prop
                         }}
                       >
                         {t.adj_tempo.toFixed(1)}
-                      </td>
-
-                      {/* EDGE INDEX */}
-                      <td
-                        style={{
-                          ...mono,
-                          padding: "10px 14px",
-                          textAlign: "center",
-                          fontSize: 13,
-                          fontWeight: 600,
-                          color: "#0f172a",
-                          borderBottom: "1px solid #f1f5f9",
-                        }}
-                      >
-                        {t.edge_index !== null
-                          ? `${(t.edge_index * 100).toFixed(1)}%`
-                          : "\u2014"}
                       </td>
                     </tr>
                   ))

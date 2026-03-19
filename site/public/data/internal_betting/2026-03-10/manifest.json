@@ -1,0 +1,23 @@
+{
+  "season": 2026,
+  "date": "2026-03-10",
+  "training_seasons": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "slate_games": 24,
+  "filter_threshold": 0.58,
+  "raw_edge_threshold": 0.08,
+  "filter_pass_games": 5,
+  "non_ncaa_shortlist_games": 5,
+  "ncaa_caution_games": 0,
+  "raw_watchlist_games": 2,
+  "flagged_mainly_by_disagreement": 4,
+  "slice_mix": {
+    "conference_tournaments": 24
+  }
+}

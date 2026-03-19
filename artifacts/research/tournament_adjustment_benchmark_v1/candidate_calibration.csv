@@ -1,0 +1,6 @@
+holdout_season,market_weight_loo,primary_weight_loo,prior_games
+2019,0.0,1.0,0
+2022,0.55,0.35,67
+2023,0.75,0.35,134
+2024,0.8,0.35,201
+2025,0.8,0.35,268

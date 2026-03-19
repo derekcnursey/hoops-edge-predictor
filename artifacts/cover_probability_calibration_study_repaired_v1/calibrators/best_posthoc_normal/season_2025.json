@@ -1,0 +1,15 @@
+{
+  "season": 2025,
+  "option": "best_posthoc_normal",
+  "base_score": "z_best",
+  "train_seasons": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2024
+  ],
+  "calibration": {
+    "method": "normal"
+  }
+}

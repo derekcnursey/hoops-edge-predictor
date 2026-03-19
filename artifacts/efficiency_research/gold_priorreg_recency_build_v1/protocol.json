@@ -1,0 +1,22 @@
+{
+  "season_start": 2015,
+  "season_end": 2025,
+  "k_values": [
+    5
+  ],
+  "half_lives": [
+    "none",
+    "60",
+    "45",
+    "30"
+  ],
+  "prior_regression": 0.3,
+  "fixed_params": {
+    "solver": "iterative",
+    "sos_exponent": 0.85,
+    "half_life": null,
+    "shrinkage": 0.0,
+    "no_garbage": true
+  },
+  "asof": "2026-03-11"
+}

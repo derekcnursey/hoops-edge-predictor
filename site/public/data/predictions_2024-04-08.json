@@ -1,23 +1,31 @@
 {
+  "benchmark_dir": "/Users/dereknursey/Desktop/ml_projects/codex_review/hoops-edge-predictor_codex/artifacts/benchmarks/canonical_walkforward_lgb_l2_blend_repaired_lines_neutralfix",
   "date": "2024-04-08",
+  "extra_benchmark_dirs": [],
   "games": [
     {
       "away_team": "Purdue",
-      "edge_home_points": -0.9365234375,
+      "edge_home_points": -5.062216758728027,
       "game_id": "2024_04_08_purdue_uconn",
       "home_team": "UConn",
       "market_spread_home": -6.5,
-      "model_mu_home": 5.5634765625,
-      "pick_cover_prob": 0.5320864182614274,
-      "pick_ev_per_1": 0.015801343953634195,
-      "pick_fair_odds": -113.71467703168933,
-      "pick_prob_edge": 0.008276894451903605,
+      "model_mu_home": 1.4377832412719727,
+      "pick_cover_prob": 0.6610513201159338,
+      "pick_ev_per_1": 0.2620070656758736,
+      "pick_fair_odds": -195.02991436403866,
+      "pick_prob_edge": 0.13724179630640998,
       "pick_side": "AWAY",
-      "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.869666576385498,
-      "pred_sigma": 11.631572723388672,
+      "pick_spread_odds": -110.0,
+      "pred_home_win_prob": 0.5469519897451033,
+      "pred_sigma": 12.188301086425781,
       "start_time": "2024-04-09T01:20:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T23:16:15.349822Z"
+  "generated_at": "2026-03-14T17:53:09.773328Z",
+  "mu_model": "LightGBMRegressionL2Blend",
+  "sigma_mode": "raw",
+  "sigma_model": "CurrentMLP",
+  "source": "true_walkforward_historical",
+  "torvik_benchmark_dir": null,
+  "torvik_extra_benchmark_dirs": []
 }

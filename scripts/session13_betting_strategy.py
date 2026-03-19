@@ -27,7 +27,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from src import config
 from src.architecture import MLPRegressor
 from src.dataset import load_multi_season_features
-from src.features import get_feature_matrix, get_targets, load_lines
+from src.features import get_feature_matrix, get_targets, load_research_lines
 from src.trainer import impute_column_means
 from sklearn.preprocessing import StandardScaler
 import pickle
@@ -74,7 +74,7 @@ def load_model_and_data():
 
     # Merge book spreads
     try:
-        lines_df = load_lines(2026)
+        lines_df = load_research_lines(2026)
         if not lines_df.empty:
             lines_dedup = lines_df.sort_values("provider").drop_duplicates(
                 subset=["gameId"], keep="first"

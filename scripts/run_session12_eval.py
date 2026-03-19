@@ -208,8 +208,8 @@ def load_book_spreads() -> pd.DataFrame | None:
 
     # Try S3
     try:
-        from src.features import load_lines
-        lines = load_lines(HOLDOUT_SEASON)
+        from src.features import load_research_lines
+        lines = load_research_lines(HOLDOUT_SEASON)
         if lines is not None and not lines.empty:
             # Cache for future use
             lines.to_parquet(cache_path)

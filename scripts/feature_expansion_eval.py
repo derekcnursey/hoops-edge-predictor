@@ -30,7 +30,7 @@ from src.features import (
     build_features,
     get_feature_matrix,
     get_targets,
-    load_lines,
+    load_research_lines,
 )
 from src.trainer import train_regressor, train_classifier, save_checkpoint
 
@@ -192,7 +192,7 @@ def train_and_evaluate(feature_cols, train_df, holdout_df, label=""):
 
     # Attach book spreads
     try:
-        lines = load_lines(HOLDOUT_SEASON)
+        lines = load_research_lines(HOLDOUT_SEASON)
         if lines is not None and not lines.empty:
             lines_dedup = lines.sort_values("provider").drop_duplicates(
                 subset=["gameId"], keep="first")

@@ -1,0 +1,38 @@
+{
+  "benchmark_dir": "artifacts/benchmarks/canonical_walkforward_v2_lgb",
+  "sigma_study_dir": "artifacts/sigma_calibration_study_v1",
+  "eval_seasons": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "all_seasons": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "detection_logic": {
+    "high": [
+      "duplicate_provider_conflict",
+      "majority_sign_conflict",
+      "strong_moneyline_conflict"
+    ],
+    "medium": [
+      "moneyline_conflict"
+    ],
+    "low": [
+      "extreme_rating_context_conflict"
+    ]
+  }
+}

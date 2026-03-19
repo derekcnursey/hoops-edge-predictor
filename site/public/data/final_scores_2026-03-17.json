@@ -1,0 +1,69 @@
+{
+  "date": "2026-03-17",
+  "games": [
+    {
+      "away_score": 77,
+      "away_team": "Liberty",
+      "game_id": "2026_03_17_liberty_george_mason",
+      "home_score": 71,
+      "home_team": "George Mason"
+    },
+    {
+      "away_score": 83,
+      "away_team": "Howard",
+      "game_id": "2026_03_17_howard_umbc",
+      "home_score": 86,
+      "home_team": "UMBC"
+    },
+    {
+      "away_score": 70,
+      "away_team": "Wyoming",
+      "game_id": "2026_03_17_wyoming_wichita_state",
+      "home_score": 74,
+      "home_team": "Wichita State"
+    },
+    {
+      "away_score": 68,
+      "away_team": "UNC Wilmington",
+      "game_id": "2026_03_17_unc_wilmington_yale",
+      "home_score": 67,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Davidson",
+      "game_id": "2026_03_17_davidson_oklahoma_state",
+      "home_score": 84,
+      "home_team": "Oklahoma State"
+    },
+    {
+      "away_score": 84,
+      "away_team": "Stephen F. Austin",
+      "game_id": "2026_03_17_stephen_f_austin_tulsa",
+      "home_score": 89,
+      "home_team": "Tulsa"
+    },
+    {
+      "away_score": 67,
+      "away_team": "South Alabama",
+      "game_id": "2026_03_17_south_alabama_auburn",
+      "home_score": 78,
+      "home_team": "Auburn"
+    },
+    {
+      "away_score": 52,
+      "away_team": "St. Thomas-Minnesota",
+      "game_id": "2026_03_17_st_thomas_minnesota_seattle_u",
+      "home_score": 67,
+      "home_team": "Seattle U"
+    },
+    {
+      "away_score": 75,
+      "away_team": "UNLV",
+      "game_id": "2026_03_17_unlv_uc_irvine",
+      "home_score": 72,
+      "home_team": "UC Irvine"
+    }
+  ],
+  "generated_at": "2026-03-18T14:57:05.652104Z"
+}

@@ -1,0 +1,72 @@
+{
+  "search": {
+    "seed": 42,
+    "efficiency_source": "gold",
+    "adj_suffix": "adj_a0.85_p10",
+    "train_seasons": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "validation_seasons": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "mu_trials": 20,
+    "sigma_trials": 5,
+    "classifier_trials": 5
+  },
+  "mu_regressor": {
+    "params": {
+      "learning_rate": 0.011236213390203352,
+      "num_leaves": 155,
+      "max_depth": 11,
+      "min_child_samples": 101,
+      "subsample": 0.6718455076693483,
+      "colsample_bytree": 0.44883605700319196,
+      "reg_alpha": 0.5456725485601477,
+      "reg_lambda": 0.015876781526923997,
+      "objective": "regression",
+      "n_estimators": 5000,
+      "random_state": 42,
+      "n_jobs": -1,
+      "verbosity": -1,
+      "deterministic": true,
+      "force_col_wise": true
+    },
+    "cv_mae": 9.766019157815057
+  },
+  "regressor": {
+    "params": {
+      "hidden1": 256,
+      "hidden2": 384,
+      "dropout": 0.20798625466052895,
+      "lr": 0.0004259893897554594,
+      "weight_decay": 6.847920095574779e-05,
+      "batch_size": 2048,
+      "loss": "gaussian",
+      "arch_type": "shared",
+      "sigma_param": "exp"
+    },
+    "cv_nll": 3.9930432438850403
+  },
+  "classifier": {
+    "params": {
+      "hidden1": 384,
+      "dropout": 0.24966462104925913,
+      "lr": 0.0001700037298921101,
+      "weight_decay": 2.9375384576328313e-06,
+      "batch_size": 1024
+    },
+    "cv_logloss": 0.5361894276371069
+  }
+}

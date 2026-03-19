@@ -19,7 +19,7 @@ print = functools.partial(print, flush=True)
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from src import config
-from src.features import build_features, load_lines
+from src.features import build_features, load_research_lines
 
 SEASONS = list(range(2015, 2026))
 EXTRA_GROUPS = ["rest_days", "sos", "conf_strength", "form_delta", "tov_rate", "margin_std"]
@@ -60,7 +60,7 @@ def cache_lines():
 
     print("  Loading lines for 2025...")
     try:
-        lines = load_lines(2025)
+        lines = load_research_lines(2025)
         if lines is not None and not lines.empty:
             lines.to_parquet(out_path)
             print(f"    Saved: {out_path.name} ({len(lines)} lines)")

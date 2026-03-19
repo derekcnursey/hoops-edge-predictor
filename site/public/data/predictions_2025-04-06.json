@@ -1,23 +1,31 @@
 {
+  "benchmark_dir": "/Users/dereknursey/Desktop/ml_projects/codex_review/hoops-edge-predictor_codex/artifacts/benchmarks/canonical_walkforward_lgb_l2_blend_repaired_lines_neutralfix",
   "date": "2025-04-06",
+  "extra_benchmark_dirs": [],
   "games": [
     {
       "away_team": "Nebraska",
-      "edge_home_points": 5.6404924392700195,
+      "edge_home_points": 1.2790687084197998,
       "game_id": "2025_04_06_nebraska_ucf",
       "home_team": "UCF",
       "market_spread_home": 3.5,
-      "model_mu_home": 2.1404924392700195,
-      "pick_cover_prob": 0.6583312211546681,
-      "pick_ev_per_1": 0.2568141494770937,
-      "pick_fair_odds": -192.68111747859888,
-      "pick_prob_edge": 0.1345216973451443,
+      "model_mu_home": -2.2209312915802,
+      "pick_cover_prob": 0.54193763082493,
+      "pick_ev_per_1": 0.03460820430213901,
+      "pick_fair_odds": -118.31088238069236,
+      "pick_prob_edge": 0.018128107015406125,
       "pick_side": "HOME",
-      "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.4733174443244934,
-      "pred_sigma": 13.827685356140137,
+      "pick_spread_odds": -110.0,
+      "pred_home_win_prob": 0.4274508620198588,
+      "pred_sigma": 12.145008087158203,
       "start_time": "2025-04-06T21:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T23:19:08.921883Z"
+  "generated_at": "2026-03-14T17:53:10.278736Z",
+  "mu_model": "LightGBMRegressionL2Blend",
+  "sigma_mode": "raw",
+  "sigma_model": "CurrentMLP",
+  "source": "true_walkforward_historical",
+  "torvik_benchmark_dir": null,
+  "torvik_extra_benchmark_dirs": []
 }

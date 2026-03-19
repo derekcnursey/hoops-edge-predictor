@@ -1,0 +1,31 @@
+{
+  "benchmark_dir": "artifacts/benchmarks/canonical_walkforward_v2_lgb",
+  "sigma_study_dir": "artifacts/sigma_calibration_study_v1",
+  "rows_lined": 32851,
+  "rows_nonpush": 32438,
+  "evaluation_seasons": [
+    2020,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "base_scores": {
+    "z_raw": "edge_home_points / raw_mlp_sigma",
+    "z_best": "edge_home_points / best current sigma-study heuristic",
+    "z_const14": "edge_home_points / 14.0"
+  },
+  "options": [
+    "raw_mlp_normal",
+    "best_posthoc_normal",
+    "constant14_normal",
+    "logistic_raw_z",
+    "isotonic_raw_z",
+    "logistic_best_posthoc_z",
+    "isotonic_best_posthoc_z"
+  ],
+  "metrics_note": {
+    "cover_logloss_and_brier": "non-push lined games only",
+    "roi_metrics": "pushes count as 0 profit"
+  }
+}

@@ -3,21 +3,21 @@
   "games": [
     {
       "away_team": "Baylor",
-      "edge_home_points": -1.2742688655853271,
+      "edge_home_points": -7.475476264953613,
       "game_id": "2021_04_05_baylor_gonzaga",
       "home_team": "Gonzaga",
-      "market_spread_home": -4.0,
-      "model_mu_home": 2.725731134414673,
-      "pick_cover_prob": 0.5484155747615567,
-      "pick_ev_per_1": 0.04697518818115365,
-      "pick_fair_odds": -121.44253524066625,
-      "pick_prob_edge": 0.024606050952032832,
+      "market_spread_home": -4.5,
+      "model_mu_home": -2.9754762649536133,
+      "pick_cover_prob": 0.7549589525374943,
+      "pick_ev_per_1": 0.4412852730261255,
+      "pick_fair_odds": -308.0948928170953,
+      "pick_prob_edge": 0.2311494287279705,
       "pick_side": "AWAY",
       "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.5607627630233765,
-      "pred_sigma": 10.474077224731445,
+      "pred_home_win_prob": 0.5460282564163208,
+      "pred_sigma": 10.831225395202637,
       "start_time": "2021-04-06T01:20:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T22:52:33.492504Z"
+  "generated_at": "2026-03-14T17:32:00.183203Z"
 }

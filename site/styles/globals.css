@@ -47,6 +47,10 @@ a {
   flex-direction: column;
 }
 
+.page-wide {
+  --max: 1900px;
+}
+
 .site-header {
   max-width: var(--max);
   width: 100%;
@@ -104,6 +108,10 @@ a {
   flex-direction: column;
   gap: 32px;
   padding: 24px 0 40px;
+}
+
+.content-wide {
+  max-width: min(var(--max), calc(100vw - 40px));
 }
 
 .site-footer {

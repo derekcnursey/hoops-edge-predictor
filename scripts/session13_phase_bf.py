@@ -102,7 +102,7 @@ PRIOR_SWEEP = {
 # ══════════════════════════════════════════════════════════════════════
 
 def preflight_checks():
-    from src.features import load_lines
+    from src.features import load_research_lines
 
     print("=" * 70)
     print("  PRE-FLIGHT CHECKS")
@@ -118,7 +118,7 @@ def preflight_checks():
     targets = get_targets(df)
 
     try:
-        lines_df = load_lines(2026)
+        lines_df = load_research_lines(2026)
         if not lines_df.empty:
             ld = lines_df.sort_values("provider").drop_duplicates(
                 subset=["gameId"], keep="first"
@@ -182,7 +182,7 @@ def preflight_checks():
 # ══════════════════════════════════════════════════════════════════════
 
 def load_data():
-    from src.features import load_lines
+    from src.features import load_research_lines
 
     print("=" * 70)
     print("  LOADING DATA")
@@ -205,7 +205,7 @@ def load_data():
     print(f"  Val: {n_before_v} → {len(df_val)} (removed {n_before_v - len(df_val)} 0-0)")
 
     try:
-        lines_df = load_lines(2026)
+        lines_df = load_research_lines(2026)
         if not lines_df.empty:
             lines_dedup = lines_df.sort_values("provider").drop_duplicates(
                 subset=["gameId"], keep="first"
@@ -755,7 +755,7 @@ def run_validation_suite(model, X_val, y_spread_val, df_val, scaler, metrics,
 
 
 def _run_holdout(cfg, variant):
-    from src.features import load_lines
+    from src.features import load_research_lines
 
     print("  Training hold-out model (2015-2024 → 2025)...")
     ho_train = list(range(2015, 2025))
@@ -768,7 +768,7 @@ def _run_holdout(cfg, variant):
     df_hv = df_hv[(df_hv["homeScore"] != 0) | (df_hv["awayScore"] != 0)]
 
     try:
-        lines_df = load_lines(2025)
+        lines_df = load_research_lines(2025)
         if not lines_df.empty:
             ld = lines_df.sort_values("provider").drop_duplicates(subset=["gameId"], keep="first")
             if "spread" in ld.columns:

@@ -2,10 +2,12 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { ReactNode } from "react";
 
-export default function Layout({ children }: { children: ReactNode }) {
+export default function Layout({ children, wide = false }: { children: ReactNode; wide?: boolean }) {
   const router = useRouter();
+  const bettingActive = router.pathname === "/betting" || router.pathname.startsWith("/betting/");
+  const marchActive = router.pathname === "/march" || router.pathname === "/brackets";
   return (
-    <div className="page">
+    <div className={`page${wide ? " page-wide" : ""}`}>
       <header className="site-header">
         <div className="brand">
           <svg width={28} height={28} viewBox="0 0 40 40" fill="none">
@@ -66,10 +68,10 @@ export default function Layout({ children }: { children: ReactNode }) {
             Rankings
           </Link>
           <Link
-            href="/brackets"
-            className={router.pathname === "/brackets" ? "active" : ""}
+            href="/march"
+            className={marchActive ? "active" : ""}
           >
-            Brackets
+            March
           </Link>
           <Link
             href="/tourneys"
@@ -83,9 +85,15 @@ export default function Layout({ children }: { children: ReactNode }) {
           >
             Performance
           </Link>
+          <Link
+            href="/betting"
+            className={bettingActive ? "active" : ""}
+          >
+            Betting
+          </Link>
         </nav>
       </header>
-      <main className="content">{children}</main>
+      <main className={`content${wide ? " content-wide" : ""}`}>{children}</main>
       <footer className="site-footer">
         <span>Model predictions · Not financial advice</span>
         <span>HoopsEdge © 2026</span>

@@ -2,7 +2,8 @@
 """Re-merge betting lines into existing prediction CSVs using current provider logic.
 
 Reads each predictions/csv/preds_*_edge.csv, drops old line/edge columns,
-re-merges lines from S3 with the current provider preference (DK > ESPN BET > Bovada),
+re-merges lines from S3 with the current provider preference
+(consensus > DK > ESPN BET > other books > Bovada),
 recalculates edge metrics, and overwrites the CSV + site JSON.
 
 Usage:
@@ -20,13 +21,14 @@ import numpy as np
 import pandas as pd
 
 from src import config
-from src.features import load_lines
+from src.features import load_research_lines
 from src.infer import (
     american_profit_per_1,
     american_to_breakeven,
     normal_cdf,
     prob_to_american,
 )
+from src.line_selection import select_preferred_lines
 
 # Columns that come from lines / edge calculation (will be dropped and rebuilt)
 LINE_COLS = [
@@ -35,9 +37,6 @@ LINE_COLS = [
     "pick_side", "pick_cover_prob", "pick_spread_odds",
     "pick_prob_edge", "pick_ev_per_1", "pick_fair_odds",
 ]
-
-# Provider preference: Draft Kings > ESPN BET > Bovada
-PROVIDER_RANK = {"Draft Kings": 0, "ESPN BET": 1, "Bovada": 2}
 
 CSV_RE = re.compile(r"^preds_(\d{4})_(\d{1,2})_(\d{1,2})_edge\.csv$")
 
@@ -48,66 +47,8 @@ def get_season(year: int, month: int) -> int:
 
 
 def dedup_lines(lines_df: pd.DataFrame) -> pd.DataFrame:
-    """Deduplicate lines: prefer complete data, then DK > ESPN BET > Bovada."""
-    lines_df = lines_df.copy()
-    lines_df["spread"] = pd.to_numeric(lines_df["spread"], errors="coerce")
-    lines_df["homeMoneyline"] = pd.to_numeric(lines_df["homeMoneyline"], errors="coerce")
-
-    # Spread sign fix: majority vote across providers
-    has_spread = lines_df["spread"].notna() & (lines_df["spread"] != 0)
-    spread_sign = np.sign(lines_df.loc[has_spread, "spread"])
-    majority_sign = (
-        spread_sign.groupby(lines_df.loc[has_spread, "gameId"])
-        .sum()
-        .rename("_majority_sign")
-    )
-
-    dedup = (
-        lines_df
-        .assign(
-            _has_spread=lines_df["spread"].notna().astype(int),
-            _has_total=lines_df["overUnder"].notna().astype(int),
-            _prov_rank=lines_df["provider"].map(PROVIDER_RANK).fillna(99),
-        )
-        .sort_values(
-            ["_has_spread", "_has_total", "_prov_rank"],
-            ascending=[False, False, True],
-        )
-        .drop_duplicates(subset=["gameId"], keep="first")
-        .drop(columns=["_has_spread", "_has_total", "_prov_rank"])
-        .copy()
-    )
-
-    # Apply majority sign flip
-    dedup = dedup.merge(majority_sign, on="gameId", how="left")
-    _sp = dedup["spread"]
-    _maj = dedup["_majority_sign"]
-    mask = (
-        _sp.notna() & _maj.notna() & (_maj != 0)
-        & (abs(_sp) >= 3)
-        & (np.sign(_sp) != np.sign(_maj))
-    )
-    dedup.loc[mask, "spread"] = -_sp[mask]
-
-    # Moneyline cross-check for single-provider games
-    _sp2 = dedup["spread"]
-    _ml = dedup["homeMoneyline"]
-    mask_ml = (
-        _sp2.notna() & _ml.notna()
-        & (~mask)
-        & dedup["_majority_sign"].isna()
-        & (((_sp2 > 3) & (_ml < -150)) | ((_sp2 < -3) & (_ml > 150)))
-    )
-    dedup.loc[mask_ml, "spread"] = -_sp2[mask_ml]
-    dedup = dedup.drop(columns=["_majority_sign"])
-
-    dedup = dedup.rename(columns={
-        "spread": "book_spread",
-        "overUnder": "book_total",
-        "homeMoneyline": "home_moneyline",
-        "awayMoneyline": "away_moneyline",
-    })
-    return dedup
+    """Deduplicate lines using the same selection logic as live inference."""
+    return select_preferred_lines(lines_df)
 
 
 def recalc_edges(df: pd.DataFrame) -> pd.DataFrame:
@@ -175,7 +116,7 @@ def main() -> int:
     changed = 0
     for season in sorted(files_by_season):
         print(f"\n  Season {season}: loading lines from S3...")
-        raw_lines = load_lines(season)
+        raw_lines = load_research_lines(season)
         if raw_lines.empty:
             print(f"  Season {season}: no lines in S3, skipping")
             continue

@@ -1,0 +1,11 @@
+{
+  "season": 2020,
+  "option": "best_posthoc_normal",
+  "base_score": "z_best",
+  "train_seasons": [
+    2019
+  ],
+  "calibration": {
+    "method": "normal"
+  }
+}

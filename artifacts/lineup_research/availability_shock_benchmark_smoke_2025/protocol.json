@@ -1,0 +1,38 @@
+{
+  "holdout_seasons": [
+    2025
+  ],
+  "cutoff_mm_dd": "12-15",
+  "variants": [
+    {
+      "label": "torvik",
+      "efficiency_source": "torvik",
+      "gold_table_name": null,
+      "variant_label": "torvik",
+      "add_availability_shock": false
+    },
+    {
+      "label": "torvik",
+      "efficiency_source": "torvik",
+      "gold_table_name": null,
+      "variant_label": "torvik_availability_shock_v1",
+      "add_availability_shock": true
+    },
+    {
+      "label": "gold_priorreg_k5_v1",
+      "efficiency_source": "gold",
+      "gold_table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_v1",
+      "variant_label": "gold_priorreg_k5_v1",
+      "add_availability_shock": false
+    },
+    {
+      "label": "gold_priorreg_k5_v1",
+      "efficiency_source": "gold",
+      "gold_table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_v1",
+      "variant_label": "gold_priorreg_k5_v1_availability_shock_v1",
+      "add_availability_shock": true
+    }
+  ],
+  "spine_usable": true,
+  "spine_reason": "usable"
+}

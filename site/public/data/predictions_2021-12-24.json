@@ -1,23 +1,31 @@
 {
+  "benchmark_dir": "/Users/dereknursey/Desktop/ml_projects/codex_review/hoops-edge-predictor_codex/artifacts/benchmarks/canonical_walkforward_lgb_l2_blend_repaired_lines_neutralfix",
   "date": "2021-12-24",
+  "extra_benchmark_dirs": [],
   "games": [
     {
       "away_team": "South Florida",
-      "edge_home_points": 2.5849390029907227,
+      "edge_home_points": 2.70353983502676,
       "game_id": "2021_12_24_south_florida_hawai_i",
       "home_team": "Hawai'i",
       "market_spread_home": -3.5,
-      "model_mu_home": 6.084939002990723,
-      "pick_cover_prob": 0.6025883191369794,
-      "pick_ev_per_1": 0.15039588198877885,
-      "pick_fair_odds": -151.62823544300372,
-      "pick_prob_edge": 0.07877879532745558,
+      "model_mu_home": 6.20353983502676,
+      "pick_cover_prob": 0.6105918179550762,
+      "pick_ev_per_1": 0.16567528882332727,
+      "pick_fair_odds": -156.79994568902916,
+      "pick_prob_edge": 0.08678229414555239,
       "pick_side": "HOME",
-      "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.557798445224762,
-      "pred_sigma": 9.940070152282715,
+      "pick_spread_odds": -110.0,
+      "pred_home_win_prob": 0.7403631301348655,
+      "pred_sigma": 9.625870704650879,
       "start_time": "2021-12-24T05:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T23:11:26.094905Z"
+  "generated_at": "2026-03-14T17:53:08.534058Z",
+  "mu_model": "LightGBMRegressionL2Blend",
+  "sigma_mode": "raw",
+  "sigma_model": "CurrentMLP",
+  "source": "true_walkforward_historical",
+  "torvik_benchmark_dir": null,
+  "torvik_extra_benchmark_dirs": []
 }

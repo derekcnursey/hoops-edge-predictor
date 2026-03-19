@@ -1,0 +1,91 @@
+{
+  "benchmark_dir": "artifacts/benchmarks/canonical_walkforward_v2_lgb",
+  "rows_lined": 32851,
+  "seasons": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "protocol": {
+    "selection": "rolling prior-season fit on lined holdout seasons only",
+    "evaluation_seasons": [
+      2020,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "season_protocol": [
+      {
+        "eval_season": 2019,
+        "train_seasons": [],
+        "used_for_parameter_fit": false
+      },
+      {
+        "eval_season": 2020,
+        "train_seasons": [
+          2019
+        ],
+        "used_for_parameter_fit": true
+      },
+      {
+        "eval_season": 2022,
+        "train_seasons": [
+          2019,
+          2020
+        ],
+        "used_for_parameter_fit": true
+      },
+      {
+        "eval_season": 2023,
+        "train_seasons": [
+          2019,
+          2020,
+          2022
+        ],
+        "used_for_parameter_fit": true
+      },
+      {
+        "eval_season": 2024,
+        "train_seasons": [
+          2019,
+          2020,
+          2022,
+          2023
+        ],
+        "used_for_parameter_fit": true
+      },
+      {
+        "eval_season": 2025,
+        "train_seasons": [
+          2019,
+          2020,
+          2022,
+          2023,
+          2024
+        ],
+        "used_for_parameter_fit": true
+      }
+    ],
+    "top_ns": [
+      100,
+      200,
+      500
+    ]
+  },
+  "winner_family": "shrink",
+  "winner_spec": {
+    "family": "shrink",
+    "selected_label": "shrink_alpha0.25_to_14.00",
+    "sigma_const": NaN,
+    "cap_max": NaN,
+    "scale": NaN,
+    "affine_a": NaN,
+    "affine_b": NaN,
+    "shrink_alpha": 0.25,
+    "shrink_target": 14.0
+  }
+}

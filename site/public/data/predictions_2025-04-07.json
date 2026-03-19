@@ -1,23 +1,31 @@
 {
+  "benchmark_dir": "/Users/dereknursey/Desktop/ml_projects/codex_review/hoops-edge-predictor_codex/artifacts/benchmarks/canonical_walkforward_lgb_l2_blend_repaired_lines_neutralfix",
   "date": "2025-04-07",
+  "extra_benchmark_dirs": [],
   "games": [
     {
       "away_team": "Florida",
-      "edge_home_points": 7.047502517700195,
+      "edge_home_points": 2.178155779838562,
       "game_id": "2025_04_07_florida_houston",
       "home_team": "Houston",
-      "market_spread_home": -1.5,
-      "model_mu_home": 8.547502517700195,
-      "pick_cover_prob": 0.7201746882178565,
-      "pick_ev_per_1": 0.37487895023408957,
-      "pick_fair_odds": -257.3658128463177,
-      "pick_prob_edge": 0.19636516440833263,
+      "market_spread_home": 1.5,
+      "model_mu_home": 0.678155779838562,
+      "pick_cover_prob": 0.5735428236199265,
+      "pick_ev_per_1": 0.09494539054713236,
+      "pick_fair_odds": -134.49013298084708,
+      "pick_prob_edge": 0.04973329981040264,
       "pick_side": "HOME",
-      "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.5538428425788879,
-      "pred_sigma": 12.080869674682617,
+      "pick_spread_odds": -110.0,
+      "pred_home_win_prob": 0.5230155869705676,
+      "pred_sigma": 11.748335838317871,
       "start_time": "2025-04-08T00:50:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T23:19:08.923293Z"
+  "generated_at": "2026-03-14T17:53:10.280848Z",
+  "mu_model": "LightGBMRegressionL2Blend",
+  "sigma_mode": "raw",
+  "sigma_model": "CurrentMLP",
+  "source": "true_walkforward_historical",
+  "torvik_benchmark_dir": null,
+  "torvik_extra_benchmark_dirs": []
 }

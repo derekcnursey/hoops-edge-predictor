@@ -23,10 +23,10 @@ class MLPRegressor(nn.Module):
 
     def __init__(
         self,
-        input_dim: int = 50,
-        hidden1: int = 256,
-        hidden2: int = 128,
-        dropout: float = 0.3,
+        input_dim: int = 53,
+        hidden1: int = 384,
+        hidden2: int = 256,
+        dropout: float = 0.2,
     ):
         super().__init__()
         self.net = nn.Sequential(
@@ -66,10 +66,10 @@ class MLPRegressorSplit(nn.Module):
 
     def __init__(
         self,
-        input_dim: int = 50,
-        hidden1: int = 256,
-        hidden2: int = 128,
-        dropout: float = 0.3,
+        input_dim: int = 53,
+        hidden1: int = 384,
+        hidden2: int = 256,
+        dropout: float = 0.2,
     ):
         super().__init__()
         self.shared = nn.Sequential(
@@ -112,9 +112,9 @@ class MLPClassifier(nn.Module):
 
     def __init__(
         self,
-        input_dim: int = 50,
-        hidden1: int = 256,
-        dropout: float = 0.3,
+        input_dim: int = 53,
+        hidden1: int = 384,
+        dropout: float = 0.2,
     ):
         super().__init__()
         hidden2 = hidden1 // 2

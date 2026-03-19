@@ -213,8 +213,8 @@ def attach_book_spreads(preds):
         lines = pd.read_parquet(cache_path)
     else:
         try:
-            from src.features import load_lines
-            lines = load_lines(HOLDOUT_SEASON)
+            from src.features import load_research_lines
+            lines = load_research_lines(HOLDOUT_SEASON)
         except Exception:
             pass
 

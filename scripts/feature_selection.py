@@ -31,7 +31,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from src import config
 from src.architecture import MLPClassifier, MLPRegressor, gaussian_nll_loss
-from src.features import get_targets, load_lines
+from src.features import get_targets, load_research_lines
 from src.trainer import train_regressor, train_classifier, save_checkpoint
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -136,7 +136,7 @@ def train_and_predict(feature_cols, train_df, holdout_df, hparams=None):
 def attach_book_spreads(preds):
     """Attach book spreads to predictions DataFrame."""
     try:
-        lines = load_lines(HOLDOUT_SEASON)
+        lines = load_research_lines(HOLDOUT_SEASON)
         if lines is not None and not lines.empty:
             lines_dedup = lines.sort_values("provider").drop_duplicates(
                 subset=["gameId"], keep="first")

@@ -1,0 +1,7 @@
+family,selected_label,sigma_const,cap_max,scale,affine_a,affine_b,shrink_alpha,shrink_target
+raw,raw,,,,,,,
+const,const_14.00,14.0,,,,,,
+cap,cap_17.00,,17.0,,,,,
+scale,scale_1.000,,,1.0,,,,
+affine,affine_a3.00_b1.000,,,,3.0,1.0000000000000002,,
+shrink,shrink_alpha0.25_to_14.00,,,,,,0.25,14.0

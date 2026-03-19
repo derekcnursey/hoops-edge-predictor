@@ -1,0 +1,13 @@
+{
+  "scored_bets_path": "/Users/dereknursey/Desktop/ml_projects/codex_review/hoops-edge-predictor_codex/artifacts/market_bet_filter_v1/historical_scored_bets.parquet",
+  "promoted_threshold": 0.58,
+  "raw_edge_threshold": 0.08,
+  "groups": [
+    "promoted_internal_filter",
+    "raw_edge_baseline",
+    "overlap",
+    "filter_only",
+    "raw_only",
+    "ncaa_caution"
+  ]
+}

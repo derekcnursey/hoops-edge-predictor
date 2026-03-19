@@ -1,0 +1,11 @@
+strategy,slice,live_bets,live_ats_hit_rate,live_roi_per_1_at_minus_110,benchmark_bets,benchmark_ats_hit_rate,benchmark_roi_per_1_at_minus_110,roi_delta_vs_benchmark,ats_delta_vs_benchmark
+internal_filter,full_live,122,0.541,0.0328,2884,0.5933,0.1326,-0.0998,-0.0523
+internal_filter,feb15_plus,122,0.541,0.0328,421,0.5534,0.0566,-0.0238,-0.0125
+internal_filter,march,55,0.5455,0.0413,242,0.5579,0.065,-0.0237,-0.0124
+internal_filter,conference_tournaments,53,0.566,0.0806,105,0.619,0.1818,-0.1012,-0.053
+internal_filter,ncaa_tournament,0,,,86,0.4884,-0.0677,,
+raw_edge_baseline,full_live,193,0.5751,0.098,7639,0.5261,0.0044,0.0936,0.049
+raw_edge_baseline,feb15_plus,193,0.5751,0.098,1540,0.489,-0.0665,0.1645,0.0862
+raw_edge_baseline,march,55,0.6,0.1455,721,0.484,-0.0759,0.2214,0.116
+raw_edge_baseline,conference_tournaments,54,0.5926,0.1313,296,0.5135,-0.0197,0.151,0.0791
+raw_edge_baseline,ncaa_tournament,0,,,91,0.4176,-0.2028,,

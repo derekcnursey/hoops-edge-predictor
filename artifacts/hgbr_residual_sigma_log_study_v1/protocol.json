@@ -1,0 +1,64 @@
+{
+  "benchmark_dir": "artifacts/benchmarks/canonical_walkforward_v2_lgb",
+  "dataset_rows_lined": 32851,
+  "holdout_seasons": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "excluded_seasons": [
+    2021
+  ],
+  "eval_seasons": [
+    2020,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "log_target": {
+    "definition": "log(abs_residual + eps)",
+    "eps": 0.25
+  },
+  "residual_model": {
+    "family": "HistGradientBoostingRegressor",
+    "params": {
+      "loss": "absolute_error",
+      "learning_rate": 0.05,
+      "max_depth": 6,
+      "max_iter": 300,
+      "min_samples_leaf": 20,
+      "l2_regularization": 1.0,
+      "random_state": 42
+    }
+  },
+  "calibration": {
+    "scalar_grid": {
+      "c_min": 0.5,
+      "c_max": 2.5,
+      "c_step": 0.02
+    },
+    "affine_grid": {
+      "a_min": 0.0,
+      "a_max": 6.0,
+      "a_step": 0.25,
+      "b_min": 0.5,
+      "b_max": 2.0,
+      "b_step": 0.05
+    },
+    "objective": "cover_event_logloss",
+    "protocol": "fit on prior seasons only; season-OOF on prior seasons when possible"
+  },
+  "baselines": {
+    "raw_mlp_sigma": "raw sigma from CurrentMLP holdout predictions",
+    "best_posthoc_sigma": {
+      "mode": "shrink",
+      "shrink_alpha": 0.25,
+      "shrink_target": 14.0
+    },
+    "constant_14_sigma": 14.0
+  }
+}

@@ -1,0 +1,2282 @@
+{
+  "372366": {
+    "game_id": 372366,
+    "matchup": "Iowa State @ Texas Tech",
+    "line_provider": "Draft Kings",
+    "neutral_site": false,
+    "grouped_contribs": {
+      "rest_hca_context": 2.5537165105342865,
+      "offense_terms": 2.108218366280198,
+      "defensive_shot_quality": 1.6008291998878121,
+      "turnover_features": -1.5416646599769592,
+      "BARTHAG": -1.2094321250915527,
+      "core_efficiency": -0.9942589364945889,
+      "sos_conf": 0.9066025801002979,
+      "tempo_pace": -0.4536912441253662,
+      "rolling_form_split": -0.21919853799045086,
+      "defense_core_terms": 0.1297360360622406
+    },
+    "key_features": [
+      {
+        "feature": "neutral_site",
+        "value": 1.0,
+        "mean_filled": false,
+        "baseline_mean": 0.11111657326385475
+      },
+      {
+        "feature": "home_team_adj_oe",
+        "value": 124.9739,
+        "mean_filled": false,
+        "baseline_mean": 103.7462973782975
+      },
+      {
+        "feature": "away_team_adj_oe",
+        "value": 120.6786,
+        "mean_filled": false,
+        "baseline_mean": 102.59246452040749
+      },
+      {
+        "feature": "home_team_adj_de",
+        "value": 103.2418,
+        "mean_filled": false,
+        "baseline_mean": 101.96147415525688
+      },
+      {
+        "feature": "away_team_adj_de",
+        "value": 92.4277,
+        "mean_filled": false,
+        "baseline_mean": 103.1505150624176
+      },
+      {
+        "feature": "home_team_BARTHAG",
+        "value": 0.899966,
+        "mean_filled": false,
+        "baseline_mean": 0.5321009872690899
+      },
+      {
+        "feature": "away_team_BARTHAG",
+        "value": 0.955515,
+        "mean_filled": false,
+        "baseline_mean": 0.48098134366490564
+      },
+      {
+        "feature": "home_team_adj_pace",
+        "value": 61.715,
+        "mean_filled": false,
+        "baseline_mean": 68.99840492702603
+      },
+      {
+        "feature": "away_team_adj_pace",
+        "value": 58.509,
+        "mean_filled": false,
+        "baseline_mean": 68.95368747344251
+      },
+      {
+        "feature": "home_rest_days",
+        "value": 4.541666666666667,
+        "mean_filled": false,
+        "baseline_mean": 3.9604371274182233
+      },
+      {
+        "feature": "away_rest_days",
+        "value": 1.0,
+        "mean_filled": false,
+        "baseline_mean": 4.183697636689898
+      },
+      {
+        "feature": "rest_advantage",
+        "value": 3.541666666666667,
+        "mean_filled": false,
+        "baseline_mean": -0.22326050923570026
+      },
+      {
+        "feature": "home_sos_oe",
+        "value": 102.8751,
+        "mean_filled": false,
+        "baseline_mean": 102.20825301065865
+      },
+      {
+        "feature": "away_sos_oe",
+        "value": 104.0085,
+        "mean_filled": false,
+        "baseline_mean": 102.33303529699812
+      },
+      {
+        "feature": "home_sos_de",
+        "value": 116.8244,
+        "mean_filled": false,
+        "baseline_mean": 101.87175913906901
+      },
+      {
+        "feature": "away_sos_de",
+        "value": 111.9483,
+        "mean_filled": false,
+        "baseline_mean": 101.78111456943324
+      },
+      {
+        "feature": "home_conf_strength",
+        "value": 15.174387500000002,
+        "mean_filled": false,
+        "baseline_mean": 1.3893020082170402
+      },
+      {
+        "feature": "away_conf_strength",
+        "value": 15.174387500000002,
+        "mean_filled": false,
+        "baseline_mean": -0.5535672545192362
+      },
+      {
+        "feature": "home_form_delta",
+        "value": 0.001530545471398611,
+        "mean_filled": false,
+        "baseline_mean": 0.0009991773152256995
+      },
+      {
+        "feature": "away_form_delta",
+        "value": 0.007886293965533272,
+        "mean_filled": false,
+        "baseline_mean": 0.001134687109538168
+      },
+      {
+        "feature": "home_tov_rate",
+        "value": 0.1914774361841184,
+        "mean_filled": false,
+        "baseline_mean": 0.19616158826661118
+      },
+      {
+        "feature": "away_tov_rate",
+        "value": 0.15026555097871913,
+        "mean_filled": false,
+        "baseline_mean": 0.19892857882508874
+      },
+      {
+        "feature": "home_def_tov_rate",
+        "value": 0.1372909804808264,
+        "mean_filled": false,
+        "baseline_mean": 0.20292339607112642
+      },
+      {
+        "feature": "away_def_tov_rate",
+        "value": 0.24416402276562163,
+        "mean_filled": false,
+        "baseline_mean": 0.20136529106337098
+      },
+      {
+        "feature": "home_def_eff_fg_pct",
+        "value": 0.4856219526864744,
+        "mean_filled": false,
+        "baseline_mean": 0.49213359784692007
+      },
+      {
+        "feature": "away_def_eff_fg_pct",
+        "value": 0.5165415264583282,
+        "mean_filled": false,
+        "baseline_mean": 0.49878543256888974
+      },
+      {
+        "feature": "home_team_efg_home_split",
+        "value": 0.601851214063705,
+        "mean_filled": false,
+        "baseline_mean": 0.5319934493476567
+      },
+      {
+        "feature": "away_team_efg_away_split",
+        "value": 0.5367720978930635,
+        "mean_filled": false,
+        "baseline_mean": 0.4872831821849915
+      }
+    ],
+    "important_mean_fills": [],
+    "triage_label": "unclear / needs deeper audit"
+  },
+  "372375": {
+    "game_id": 372375,
+    "matchup": "Northwestern @ Purdue",
+    "line_provider": "consensus",
+    "neutral_site": false,
+    "grouped_contribs": {
+      "BARTHAG": 3.2719578742980957,
+      "core_efficiency": 1.647693395614624,
+      "defensive_shot_quality": -1.3408400639891624,
+      "rest_hca_context": 0.83924300968647,
+      "rolling_form_split": -0.7212722338736057,
+      "turnover_features": -0.5335497856140137,
+      "defense_core_terms": 0.3967903107404709,
+      "offense_terms": 0.3761594295501709,
+      "sos_conf": 0.21758273988962173,
+      "tempo_pace": -0.11165801435709
+    },
+    "key_features": [
+      {
+        "feature": "neutral_site",
+        "value": 1.0,
+        "mean_filled": false,
+        "baseline_mean": 0.11111657326385475
+      },
+      {
+        "feature": "home_team_adj_oe",
+        "value": 129.6805,
+        "mean_filled": false,
+        "baseline_mean": 103.7462973782975
+      },
+      {
+        "feature": "away_team_adj_oe",
+        "value": 117.1873,
+        "mean_filled": false,
+        "baseline_mean": 102.59246452040749
+      },
+      {
+        "feature": "home_team_adj_de",
+        "value": 100.9875,
+        "mean_filled": false,
+        "baseline_mean": 101.96147415525688
+      },
+      {
+        "feature": "away_team_adj_de",
+        "value": 103.7385,
+        "mean_filled": false,
+        "baseline_mean": 103.1505150624176
+      },
+      {
+        "feature": "home_team_BARTHAG",
+        "value": 0.946642,
+        "mean_filled": false,
+        "baseline_mean": 0.5321009872690899
+      },
+      {
+        "feature": "away_team_BARTHAG",
+        "value": 0.802478,
+        "mean_filled": false,
+        "baseline_mean": 0.48098134366490564
+      },
+      {
+        "feature": "home_team_adj_pace",
+        "value": 60.5951,
+        "mean_filled": false,
+        "baseline_mean": 68.99840492702603
+      },
+      {
+        "feature": "away_team_adj_pace",
+        "value": 64.3091,
+        "mean_filled": false,
+        "baseline_mean": 68.95368747344251
+      },
+      {
+        "feature": "home_rest_days",
+        "value": 5.0625,
+        "mean_filled": false,
+        "baseline_mean": 3.9604371274182233
+      },
+      {
+        "feature": "away_rest_days",
+        "value": 1.0,
+        "mean_filled": false,
+        "baseline_mean": 4.183697636689898
+      },
+      {
+        "feature": "rest_advantage",
+        "value": 4.0625,
+        "mean_filled": false,
+        "baseline_mean": -0.22326050923570026
+      },
+      {
+        "feature": "home_sos_oe",
+        "value": 102.5632,
+        "mean_filled": false,
+        "baseline_mean": 102.20825301065865
+      },
+      {
+        "feature": "away_sos_oe",
+        "value": 104.0419,
+        "mean_filled": false,
+        "baseline_mean": 102.33303529699812
+      },
+      {
+        "feature": "home_sos_de",
+        "value": 116.9006,
+        "mean_filled": false,
+        "baseline_mean": 101.87175913906901
+      },
+      {
+        "feature": "away_sos_de",
+        "value": 114.0684,
+        "mean_filled": false,
+        "baseline_mean": 101.78111456943324
+      },
+      {
+        "feature": "home_conf_strength",
+        "value": 16.64765,
+        "mean_filled": false,
+        "baseline_mean": 1.3893020082170402
+      },
+      {
+        "feature": "away_conf_strength",
+        "value": 16.64765,
+        "mean_filled": false,
+        "baseline_mean": -0.5535672545192362
+      },
+      {
+        "feature": "home_form_delta",
+        "value": 0.009328657714675918,
+        "mean_filled": false,
+        "baseline_mean": 0.0009991773152256995
+      },
+      {
+        "feature": "away_form_delta",
+        "value": 0.0030032652881426367,
+        "mean_filled": false,
+        "baseline_mean": 0.001134687109538168
+      },
+      {
+        "feature": "home_tov_rate",
+        "value": 0.14385293288807072,
+        "mean_filled": false,
+        "baseline_mean": 0.19616158826661118
+      },
+      {
+        "feature": "away_tov_rate",
+        "value": 0.14133559350292704,
+        "mean_filled": false,
+        "baseline_mean": 0.19892857882508874
+      },
+      {
+        "feature": "home_def_tov_rate",
+        "value": 0.16230886763814245,
+        "mean_filled": false,
+        "baseline_mean": 0.20292339607112642
+      },
+      {
+        "feature": "away_def_tov_rate",
+        "value": 0.2114253858864007,
+        "mean_filled": false,
+        "baseline_mean": 0.20136529106337098
+      },
+      {
+        "feature": "home_def_eff_fg_pct",
+        "value": 0.5512911550419297,
+        "mean_filled": false,
+        "baseline_mean": 0.49213359784692007
+      },
+      {
+        "feature": "away_def_eff_fg_pct",
+        "value": 0.5287364789548386,
+        "mean_filled": false,
+        "baseline_mean": 0.49878543256888974
+      },
+      {
+        "feature": "home_team_efg_home_split",
+        "value": 0.6305658049359057,
+        "mean_filled": false,
+        "baseline_mean": 0.5319934493476567
+      },
+      {
+        "feature": "away_team_efg_away_split",
+        "value": 0.4967048587555644,
+        "mean_filled": false,
+        "baseline_mean": 0.4872831821849915
+      }
+    ],
+    "important_mean_fills": [],
+    "triage_label": "unclear / needs deeper audit"
+  },
+  "372260": {
+    "game_id": 372260,
+    "matchup": "South Carolina State @ Norfolk State",
+    "line_provider": "consensus",
+    "neutral_site": false,
+    "grouped_contribs": {
+      "BARTHAG": 2.9839447736740112,
+      "defensive_shot_quality": -1.1719146193936467,
+      "offense_terms": 0.9748503267765045,
+      "core_efficiency": 0.8066221475601196,
+      "rolling_form_split": -0.7039906345307827,
+      "sos_conf": -0.5211898535490036,
+      "defense_core_terms": -0.23373323678970337,
+      "tempo_pace": -0.20813675224781036,
+      "rest_hca_context": -0.11789961904287338,
+      "turnover_features": 0.033826619386672974
+    },
+    "key_features": [
+      {
+        "feature": "neutral_site",
+        "value": 1.0,
+        "mean_filled": false,
+        "baseline_mean": 0.11111657326385475
+      },
+      {
+        "feature": "home_team_adj_oe",
+        "value": 102.7014,
+        "mean_filled": false,
+        "baseline_mean": 103.7462973782975
+      },
+      {
+        "feature": "away_team_adj_oe",
+        "value": 93.9335,
+        "mean_filled": false,
+        "baseline_mean": 102.59246452040749
+      },
+      {
+        "feature": "home_team_adj_de",
+        "value": 114.9447,
+        "mean_filled": false,
+        "baseline_mean": 101.96147415525688
+      },
+      {
+        "feature": "away_team_adj_de",
+        "value": 117.5568,
+        "mean_filled": false,
+        "baseline_mean": 103.1505150624176
+      },
+      {
+        "feature": "home_team_BARTHAG",
+        "value": 0.214976,
+        "mean_filled": false,
+        "baseline_mean": 0.5321009872690899
+      },
+      {
+        "feature": "away_team_BARTHAG",
+        "value": 0.070447,
+        "mean_filled": false,
+        "baseline_mean": 0.48098134366490564
+      },
+      {
+        "feature": "home_team_adj_pace",
+        "value": 64.8604,
+        "mean_filled": false,
+        "baseline_mean": 68.99840492702603
+      },
+      {
+        "feature": "away_team_adj_pace",
+        "value": 62.3483,
+        "mean_filled": false,
+        "baseline_mean": 68.95368747344251
+      },
+      {
+        "feature": "home_rest_days",
+        "value": 7.708333333333333,
+        "mean_filled": false,
+        "baseline_mean": 3.9604371274182233
+      },
+      {
+        "feature": "away_rest_days",
+        "value": 6.895833333333333,
+        "mean_filled": false,
+        "baseline_mean": 4.183697636689898
+      },
+      {
+        "feature": "rest_advantage",
+        "value": 0.8125,
+        "mean_filled": false,
+        "baseline_mean": -0.22326050923570026
+      },
+      {
+        "feature": "home_sos_oe",
+        "value": 111.6011,
+        "mean_filled": false,
+        "baseline_mean": 102.20825301065865
+      },
+      {
+        "feature": "away_sos_oe",
+        "value": 112.5763,
+        "mean_filled": false,
+        "baseline_mean": 102.33303529699812
+      },
+      {
+        "feature": "home_sos_de",
+        "value": 100.0318,
+        "mean_filled": false,
+        "baseline_mean": 101.87175913906901
+      },
+      {
+        "feature": "away_sos_de",
+        "value": 102.6951,
+        "mean_filled": false,
+        "baseline_mean": 101.78111456943324
+      },
+      {
+        "feature": "home_conf_strength",
+        "value": -20.0825125,
+        "mean_filled": false,
+        "baseline_mean": 1.3893020082170402
+      },
+      {
+        "feature": "away_conf_strength",
+        "value": -20.0825125,
+        "mean_filled": false,
+        "baseline_mean": -0.5535672545192362
+      },
+      {
+        "feature": "home_form_delta",
+        "value": 0.0014269767258018318,
+        "mean_filled": false,
+        "baseline_mean": 0.0009991773152256995
+      },
+      {
+        "feature": "away_form_delta",
+        "value": 0.0024142191188658312,
+        "mean_filled": false,
+        "baseline_mean": 0.001134687109538168
+      },
+      {
+        "feature": "home_tov_rate",
+        "value": 0.17526631635039816,
+        "mean_filled": false,
+        "baseline_mean": 0.19616158826661118
+      },
+      {
+        "feature": "away_tov_rate",
+        "value": 0.23117366820271085,
+        "mean_filled": false,
+        "baseline_mean": 0.19892857882508874
+      },
+      {
+        "feature": "home_def_tov_rate",
+        "value": 0.2101844928359199,
+        "mean_filled": false,
+        "baseline_mean": 0.20292339607112642
+      },
+      {
+        "feature": "away_def_tov_rate",
+        "value": 0.21567182539889762,
+        "mean_filled": false,
+        "baseline_mean": 0.20136529106337098
+      },
+      {
+        "feature": "home_def_eff_fg_pct",
+        "value": 0.5328871563402102,
+        "mean_filled": false,
+        "baseline_mean": 0.49213359784692007
+      },
+      {
+        "feature": "away_def_eff_fg_pct",
+        "value": 0.5391270911766345,
+        "mean_filled": false,
+        "baseline_mean": 0.49878543256888974
+      },
+      {
+        "feature": "home_team_efg_home_split",
+        "value": 0.578438457328733,
+        "mean_filled": false,
+        "baseline_mean": 0.5319934493476567
+      },
+      {
+        "feature": "away_team_efg_away_split",
+        "value": 0.4536532274496073,
+        "mean_filled": false,
+        "baseline_mean": 0.4872831821849915
+      }
+    ],
+    "important_mean_fills": [],
+    "triage_label": "unclear / needs deeper audit"
+  },
+  "372312": {
+    "game_id": 372312,
+    "matchup": "Creighton @ Seton Hall",
+    "line_provider": "consensus",
+    "neutral_site": false,
+    "grouped_contribs": {
+      "defensive_shot_quality": -0.9823823720216751,
+      "defense_core_terms": -0.7850591689348221,
+      "sos_conf": -0.7522209137678146,
+      "core_efficiency": -0.6604946404695511,
+      "offense_terms": 0.6142254918813705,
+      "rest_hca_context": -0.31303367391228676,
+      "turnover_features": -0.15488781034946442,
+      "BARTHAG": -0.0857400894165039,
+      "rolling_form_split": -0.07177331857383251,
+      "tempo_pace": 0.03934406489133835
+    },
+    "key_features": [
+      {
+        "feature": "neutral_site",
+        "value": 1.0,
+        "mean_filled": false,
+        "baseline_mean": 0.11111657326385475
+      },
+      {
+        "feature": "home_team_adj_oe",
+        "value": 106.1842,
+        "mean_filled": false,
+        "baseline_mean": 103.7462973782975
+      },
+      {
+        "feature": "away_team_adj_oe",
+        "value": 116.3455,
+        "mean_filled": false,
+        "baseline_mean": 102.59246452040749
+      },
+      {
+        "feature": "home_team_adj_de",
+        "value": 97.8597,
+        "mean_filled": false,
+        "baseline_mean": 101.96147415525688
+      },
+      {
+        "feature": "away_team_adj_de",
+        "value": 103.5941,
+        "mean_filled": false,
+        "baseline_mean": 103.1505150624176
+      },
+      {
+        "feature": "home_team_BARTHAG",
+        "value": 0.71887,
+        "mean_filled": false,
+        "baseline_mean": 0.5321009872690899
+      },
+      {
+        "feature": "away_team_BARTHAG",
+        "value": 0.791661,
+        "mean_filled": false,
+        "baseline_mean": 0.48098134366490564
+      },
+      {
+        "feature": "home_team_adj_pace",
+        "value": 64.0099,
+        "mean_filled": false,
+        "baseline_mean": 68.99840492702603
+      },
+      {
+        "feature": "away_team_adj_pace",
+        "value": 62.0846,
+        "mean_filled": false,
+        "baseline_mean": 68.95368747344251
+      },
+      {
+        "feature": "home_rest_days",
+        "value": 5.6875,
+        "mean_filled": false,
+        "baseline_mean": 3.9604371274182233
+      },
+      {
+        "feature": "away_rest_days",
+        "value": 7.8125,
+        "mean_filled": false,
+        "baseline_mean": 4.183697636689898
+      },
+      {
+        "feature": "rest_advantage",
+        "value": -2.125,
+        "mean_filled": false,
+        "baseline_mean": -0.22326050923570026
+      },
+      {
+        "feature": "home_sos_oe",
+        "value": 104.0217,
+        "mean_filled": false,
+        "baseline_mean": 102.20825301065865
+      },
+      {
+        "feature": "away_sos_oe",
+        "value": 103.139,
+        "mean_filled": false,
+        "baseline_mean": 102.33303529699812
+      },
+      {
+        "feature": "home_sos_de",
+        "value": 111.1885,
+        "mean_filled": false,
+        "baseline_mean": 101.87175913906901
+      },
+      {
+        "feature": "away_sos_de",
+        "value": 112.3605,
+        "mean_filled": false,
+        "baseline_mean": 101.78111456943324
+      },
+      {
+        "feature": "home_conf_strength",
+        "value": 11.30039090909091,
+        "mean_filled": false,
+        "baseline_mean": 1.3893020082170402
+      },
+      {
+        "feature": "away_conf_strength",
+        "value": 11.30039090909091,
+        "mean_filled": false,
+        "baseline_mean": -0.5535672545192362
+      },
+      {
+        "feature": "home_form_delta",
+        "value": 0.005840828359525481,
+        "mean_filled": false,
+        "baseline_mean": 0.0009991773152256995
+      },
+      {
+        "feature": "away_form_delta",
+        "value": -0.0006045467564714289,
+        "mean_filled": false,
+        "baseline_mean": 0.001134687109538168
+      },
+      {
+        "feature": "home_tov_rate",
+        "value": 0.19993383701710327,
+        "mean_filled": false,
+        "baseline_mean": 0.19616158826661118
+      },
+      {
+        "feature": "away_tov_rate",
+        "value": 0.16419779712277985,
+        "mean_filled": false,
+        "baseline_mean": 0.19892857882508874
+      },
+      {
+        "feature": "home_def_tov_rate",
+        "value": 0.21163102820611782,
+        "mean_filled": false,
+        "baseline_mean": 0.20292339607112642
+      },
+      {
+        "feature": "away_def_tov_rate",
+        "value": 0.14071183541586746,
+        "mean_filled": false,
+        "baseline_mean": 0.20136529106337098
+      },
+      {
+        "feature": "home_def_eff_fg_pct",
+        "value": 0.45588698796670307,
+        "mean_filled": false,
+        "baseline_mean": 0.49213359784692007
+      },
+      {
+        "feature": "away_def_eff_fg_pct",
+        "value": 0.5266815904134513,
+        "mean_filled": false,
+        "baseline_mean": 0.49878543256888974
+      },
+      {
+        "feature": "home_team_efg_home_split",
+        "value": 0.4427901589016648,
+        "mean_filled": false,
+        "baseline_mean": 0.5319934493476567
+      },
+      {
+        "feature": "away_team_efg_away_split",
+        "value": 0.5111843379000123,
+        "mean_filled": false,
+        "baseline_mean": 0.4872831821849915
+      }
+    ],
+    "important_mean_fills": [],
+    "triage_label": "unclear / needs deeper audit"
+  },
+  "372261": {
+    "game_id": 372261,
+    "matchup": "Maryland Eastern Shore @ North Carolina Central",
+    "line_provider": "Draft Kings",
+    "neutral_site": false,
+    "grouped_contribs": {
+      "defensive_shot_quality": -2.098236821591854,
+      "turnover_features": 1.1860893368721008,
+      "offense_terms": -0.7283426076173782,
+      "core_efficiency": -0.7082054615020752,
+      "BARTHAG": -0.5927066802978516,
+      "defense_core_terms": -0.5914263129234314,
+      "rolling_form_split": -0.5535934418439865,
+      "rest_hca_context": -0.10189773887395859,
+      "tempo_pace": -0.07022511586546898,
+      "sos_conf": -0.019114911556243896
+    },
+    "key_features": [
+      {
+        "feature": "neutral_site",
+        "value": 1.0,
+        "mean_filled": false,
+        "baseline_mean": 0.11111657326385475
+      },
+      {
+        "feature": "home_team_adj_oe",
+        "value": 98.1604,
+        "mean_filled": false,
+        "baseline_mean": 103.7462973782975
+      },
+      {
+        "feature": "away_team_adj_oe",
+        "value": 92.9055,
+        "mean_filled": false,
+        "baseline_mean": 102.59246452040749
+      },
+      {
+        "feature": "home_team_adj_de",
+        "value": 120.8645,
+        "mean_filled": false,
+        "baseline_mean": 101.96147415525688
+      },
+      {
+        "feature": "away_team_adj_de",
+        "value": 112.1074,
+        "mean_filled": false,
+        "baseline_mean": 103.1505150624176
+      },
+      {
+        "feature": "home_team_BARTHAG",
+        "value": 0.083725,
+        "mean_filled": false,
+        "baseline_mean": 0.5321009872690899
+      },
+      {
+        "feature": "away_team_BARTHAG",
+        "value": 0.103349,
+        "mean_filled": false,
+        "baseline_mean": 0.48098134366490564
+      },
+      {
+        "feature": "home_team_adj_pace",
+        "value": 61.5349,
+        "mean_filled": false,
+        "baseline_mean": 68.99840492702603
+      },
+      {
+        "feature": "away_team_adj_pace",
+        "value": 62.6293,
+        "mean_filled": false,
+        "baseline_mean": 68.95368747344251
+      },
+      {
+        "feature": "home_rest_days",
+        "value": 6.979166666666667,
+        "mean_filled": false,
+        "baseline_mean": 3.9604371274182233
+      },
+      {
+        "feature": "away_rest_days",
+        "value": 7.0,
+        "mean_filled": false,
+        "baseline_mean": 4.183697636689898
+      },
+      {
+        "feature": "rest_advantage",
+        "value": -0.020833333333333037,
+        "mean_filled": false,
+        "baseline_mean": -0.22326050923570026
+      },
+      {
+        "feature": "home_sos_oe",
+        "value": 110.2207,
+        "mean_filled": false,
+        "baseline_mean": 102.20825301065865
+      },
+      {
+        "feature": "away_sos_oe",
+        "value": 111.1397,
+        "mean_filled": false,
+        "baseline_mean": 102.33303529699812
+      },
+      {
+        "feature": "home_sos_de",
+        "value": 103.8526,
+        "mean_filled": false,
+        "baseline_mean": 101.87175913906901
+      },
+      {
+        "feature": "away_sos_de",
+        "value": 103.8094,
+        "mean_filled": false,
+        "baseline_mean": 101.78111456943324
+      },
+      {
+        "feature": "home_conf_strength",
+        "value": -20.0825125,
+        "mean_filled": false,
+        "baseline_mean": 1.3893020082170402
+      },
+      {
+        "feature": "away_conf_strength",
+        "value": -20.0825125,
+        "mean_filled": false,
+        "baseline_mean": -0.5535672545192362
+      },
+      {
+        "feature": "home_form_delta",
+        "value": 0.002386272694471708,
+        "mean_filled": false,
+        "baseline_mean": 0.0009991773152256995
+      },
+      {
+        "feature": "away_form_delta",
+        "value": 0.00437148377595417,
+        "mean_filled": false,
+        "baseline_mean": 0.001134687109538168
+      },
+      {
+        "feature": "home_tov_rate",
+        "value": 0.1913217928165294,
+        "mean_filled": false,
+        "baseline_mean": 0.19616158826661118
+      },
+      {
+        "feature": "away_tov_rate",
+        "value": 0.25992257252091144,
+        "mean_filled": false,
+        "baseline_mean": 0.19892857882508874
+      },
+      {
+        "feature": "home_def_tov_rate",
+        "value": 0.23916133271978024,
+        "mean_filled": false,
+        "baseline_mean": 0.20292339607112642
+      },
+      {
+        "feature": "away_def_tov_rate",
+        "value": 0.21921193493909213,
+        "mean_filled": false,
+        "baseline_mean": 0.20136529106337098
+      },
+      {
+        "feature": "home_def_eff_fg_pct",
+        "value": 0.5627094916481837,
+        "mean_filled": false,
+        "baseline_mean": 0.49213359784692007
+      },
+      {
+        "feature": "away_def_eff_fg_pct",
+        "value": 0.509353486240009,
+        "mean_filled": false,
+        "baseline_mean": 0.49878543256888974
+      },
+      {
+        "feature": "home_team_efg_home_split",
+        "value": 0.5039248246836683,
+        "mean_filled": false,
+        "baseline_mean": 0.5319934493476567
+      },
+      {
+        "feature": "away_team_efg_away_split",
+        "value": 0.4985861230216504,
+        "mean_filled": false,
+        "baseline_mean": 0.4872831821849915
+      }
+    ],
+    "important_mean_fills": [],
+    "triage_label": "unclear / needs deeper audit"
+  },
+  "372392": {
+    "game_id": 372392,
+    "matchup": "UC Davis @ Cal State Fullerton",
+    "line_provider": "Draft Kings",
+    "neutral_site": false,
+    "grouped_contribs": {
+      "rest_hca_context": 2.2450298070907593,
+      "offense_terms": 1.2048106691800058,
+      "turnover_features": 0.5189275741577148,
+      "defensive_shot_quality": -0.32086820527911186,
+      "BARTHAG": 0.20550769567489624,
+      "rolling_form_split": 0.11594395339488983,
+      "defense_core_terms": -0.11529743671417236,
+      "tempo_pace": -0.10954484343528748,
+      "core_efficiency": 0.06304234266281128,
+      "sos_conf": 0.019837617874145508
+    },
+    "key_features": [
+      {
+        "feature": "neutral_site",
+        "value": 1.0,
+        "mean_filled": false,
+        "baseline_mean": 0.11111657326385475
+      },
+      {
+        "feature": "home_team_adj_oe",
+        "value": 107.981,
+        "mean_filled": false,
+        "baseline_mean": 103.7462973782975
+      },
+      {
+        "feature": "away_team_adj_oe",
+        "value": 107.7028,
+        "mean_filled": false,
+        "baseline_mean": 102.59246452040749
+      },
+      {
+        "feature": "home_team_adj_de",
+        "value": 109.9063,
+        "mean_filled": false,
+        "baseline_mean": 101.96147415525688
+      },
+      {
+        "feature": "away_team_adj_de",
+        "value": 109.1839,
+        "mean_filled": false,
+        "baseline_mean": 103.1505150624176
+      },
+      {
+        "feature": "home_team_BARTHAG",
+        "value": 0.449366,
+        "mean_filled": false,
+        "baseline_mean": 0.5321009872690899
+      },
+      {
+        "feature": "away_team_BARTHAG",
+        "value": 0.460816,
+        "mean_filled": false,
+        "baseline_mean": 0.48098134366490564
+      },
+      {
+        "feature": "home_team_adj_pace",
+        "value": 68.6951,
+        "mean_filled": false,
+        "baseline_mean": 68.99840492702603
+      },
+      {
+        "feature": "away_team_adj_pace",
+        "value": 68.4188,
+        "mean_filled": false,
+        "baseline_mean": 68.95368747344251
+      },
+      {
+        "feature": "home_rest_days",
+        "value": 5.104166666666667,
+        "mean_filled": false,
+        "baseline_mean": 3.9604371274182233
+      },
+      {
+        "feature": "away_rest_days",
+        "value": 1.0,
+        "mean_filled": false,
+        "baseline_mean": 4.183697636689898
+      },
+      {
+        "feature": "rest_advantage",
+        "value": 4.104166666666667,
+        "mean_filled": false,
+        "baseline_mean": -0.22326050923570026
+      },
+      {
+        "feature": "home_sos_oe",
+        "value": 107.7238,
+        "mean_filled": false,
+        "baseline_mean": 102.20825301065865
+      },
+      {
+        "feature": "away_sos_oe",
+        "value": 106.5448,
+        "mean_filled": false,
+        "baseline_mean": 102.33303529699812
+      },
+      {
+        "feature": "home_sos_de",
+        "value": 108.4994,
+        "mean_filled": false,
+        "baseline_mean": 101.87175913906901
+      },
+      {
+        "feature": "away_sos_de",
+        "value": 106.4172,
+        "mean_filled": false,
+        "baseline_mean": 101.78111456943324
+      },
+      {
+        "feature": "home_conf_strength",
+        "value": -1.2462727272727276,
+        "mean_filled": false,
+        "baseline_mean": 1.3893020082170402
+      },
+      {
+        "feature": "away_conf_strength",
+        "value": -1.2462727272727276,
+        "mean_filled": false,
+        "baseline_mean": -0.5535672545192362
+      },
+      {
+        "feature": "home_form_delta",
+        "value": -0.004494473305315176,
+        "mean_filled": false,
+        "baseline_mean": 0.0009991773152256995
+      },
+      {
+        "feature": "away_form_delta",
+        "value": -0.006491464342629474,
+        "mean_filled": false,
+        "baseline_mean": 0.001134687109538168
+      },
+      {
+        "feature": "home_tov_rate",
+        "value": 0.15828734824944166,
+        "mean_filled": false,
+        "baseline_mean": 0.19616158826661118
+      },
+      {
+        "feature": "away_tov_rate",
+        "value": 0.1874482189403217,
+        "mean_filled": false,
+        "baseline_mean": 0.19892857882508874
+      },
+      {
+        "feature": "home_def_tov_rate",
+        "value": 0.213330597764692,
+        "mean_filled": false,
+        "baseline_mean": 0.20292339607112642
+      },
+      {
+        "feature": "away_def_tov_rate",
+        "value": 0.21321050735346064,
+        "mean_filled": false,
+        "baseline_mean": 0.20136529106337098
+      },
+      {
+        "feature": "home_def_eff_fg_pct",
+        "value": 0.5434839813337333,
+        "mean_filled": false,
+        "baseline_mean": 0.49213359784692007
+      },
+      {
+        "feature": "away_def_eff_fg_pct",
+        "value": 0.525544586446516,
+        "mean_filled": false,
+        "baseline_mean": 0.49878543256888974
+      },
+      {
+        "feature": "home_team_efg_home_split",
+        "value": 0.5774576079713232,
+        "mean_filled": false,
+        "baseline_mean": 0.5319934493476567
+      },
+      {
+        "feature": "away_team_efg_away_split",
+        "value": 0.5093879371456903,
+        "mean_filled": false,
+        "baseline_mean": 0.4872831821849915
+      }
+    ],
+    "important_mean_fills": [],
+    "triage_label": "unclear / needs deeper audit"
+  },
+  "372380": {
+    "game_id": 372380,
+    "matchup": "Tulane @ Charlotte",
+    "line_provider": "consensus",
+    "neutral_site": false,
+    "grouped_contribs": {
+      "rest_hca_context": 2.4626099169254303,
+      "offense_terms": 1.594164289534092,
+      "BARTHAG": 1.2740927636623383,
+      "core_efficiency": 0.5726534426212311,
+      "defensive_shot_quality": -0.5655783377587795,
+      "defense_core_terms": 0.4670538157224655,
+      "turnover_features": -0.3797602653503418,
+      "rolling_form_split": 0.29672565683722496,
+      "tempo_pace": -0.1868007369339466,
+      "sos_conf": 0.170158252120018
+    },
+    "key_features": [
+      {
+        "feature": "neutral_site",
+        "value": 1.0,
+        "mean_filled": false,
+        "baseline_mean": 0.11111657326385475
+      },
+      {
+        "feature": "home_team_adj_oe",
+        "value": 111.025,
+        "mean_filled": false,
+        "baseline_mean": 103.7462973782975
+      },
+      {
+        "feature": "away_team_adj_oe",
+        "value": 106.241,
+        "mean_filled": false,
+        "baseline_mean": 102.59246452040749
+      },
+      {
+        "feature": "home_team_adj_de",
+        "value": 111.8071,
+        "mean_filled": false,
+        "baseline_mean": 101.96147415525688
+      },
+      {
+        "feature": "away_team_adj_de",
+        "value": 110.5411,
+        "mean_filled": false,
+        "baseline_mean": 103.1505150624176
+      },
+      {
+        "feature": "home_team_BARTHAG",
+        "value": 0.479829,
+        "mean_filled": false,
+        "baseline_mean": 0.5321009872690899
+      },
+      {
+        "feature": "away_team_BARTHAG",
+        "value": 0.387868,
+        "mean_filled": false,
+        "baseline_mean": 0.48098134366490564
+      },
+      {
+        "feature": "home_team_adj_pace",
+        "value": 61.739,
+        "mean_filled": false,
+        "baseline_mean": 68.99840492702603
+      },
+      {
+        "feature": "away_team_adj_pace",
+        "value": 63.6196,
+        "mean_filled": false,
+        "baseline_mean": 68.95368747344251
+      },
+      {
+        "feature": "home_rest_days",
+        "value": 4.208333333333333,
+        "mean_filled": false,
+        "baseline_mean": 3.9604371274182233
+      },
+      {
+        "feature": "away_rest_days",
+        "value": 1.0,
+        "mean_filled": false,
+        "baseline_mean": 4.183697636689898
+      },
+      {
+        "feature": "rest_advantage",
+        "value": 3.208333333333333,
+        "mean_filled": false,
+        "baseline_mean": -0.22326050923570026
+      },
+      {
+        "feature": "home_sos_oe",
+        "value": 107.383,
+        "mean_filled": false,
+        "baseline_mean": 102.20825301065865
+      },
+      {
+        "feature": "away_sos_oe",
+        "value": 106.5955,
+        "mean_filled": false,
+        "baseline_mean": 102.33303529699812
+      },
+      {
+        "feature": "home_sos_de",
+        "value": 108.581,
+        "mean_filled": false,
+        "baseline_mean": 101.87175913906901
+      },
+      {
+        "feature": "away_sos_de",
+        "value": 106.7894,
+        "mean_filled": false,
+        "baseline_mean": 101.78111456943324
+      },
+      {
+        "feature": "home_conf_strength",
+        "value": 0.6607461538461533,
+        "mean_filled": false,
+        "baseline_mean": 1.3893020082170402
+      },
+      {
+        "feature": "away_conf_strength",
+        "value": 0.6607461538461533,
+        "mean_filled": false,
+        "baseline_mean": -0.5535672545192362
+      },
+      {
+        "feature": "home_form_delta",
+        "value": -0.005785326424835407,
+        "mean_filled": false,
+        "baseline_mean": 0.0009991773152256995
+      },
+      {
+        "feature": "away_form_delta",
+        "value": 0.0032024383446072804,
+        "mean_filled": false,
+        "baseline_mean": 0.001134687109538168
+      },
+      {
+        "feature": "home_tov_rate",
+        "value": 0.1855683018373242,
+        "mean_filled": false,
+        "baseline_mean": 0.19616158826661118
+      },
+      {
+        "feature": "away_tov_rate",
+        "value": 0.16962909194362039,
+        "mean_filled": false,
+        "baseline_mean": 0.19892857882508874
+      },
+      {
+        "feature": "home_def_tov_rate",
+        "value": 0.14171569345121174,
+        "mean_filled": false,
+        "baseline_mean": 0.20292339607112642
+      },
+      {
+        "feature": "away_def_tov_rate",
+        "value": 0.18381253952785037,
+        "mean_filled": false,
+        "baseline_mean": 0.20136529106337098
+      },
+      {
+        "feature": "home_def_eff_fg_pct",
+        "value": 0.5030734226395961,
+        "mean_filled": false,
+        "baseline_mean": 0.49213359784692007
+      },
+      {
+        "feature": "away_def_eff_fg_pct",
+        "value": 0.5379844146773418,
+        "mean_filled": false,
+        "baseline_mean": 0.49878543256888974
+      },
+      {
+        "feature": "home_team_efg_home_split",
+        "value": 0.5619378811612293,
+        "mean_filled": false,
+        "baseline_mean": 0.5319934493476567
+      },
+      {
+        "feature": "away_team_efg_away_split",
+        "value": 0.5070929841706071,
+        "mean_filled": false,
+        "baseline_mean": 0.4872831821849915
+      }
+    ],
+    "important_mean_fills": [],
+    "triage_label": "unclear / needs deeper audit"
+  },
+  "372313": {
+    "game_id": 372313,
+    "matchup": "Buffalo @ Akron",
+    "line_provider": "consensus",
+    "neutral_site": false,
+    "grouped_contribs": {
+      "BARTHAG": 4.050382554531097,
+      "offense_terms": 3.089556287974119,
+      "core_efficiency": 2.655689835548401,
+      "defensive_shot_quality": 0.8778143674135208,
+      "turnover_features": -0.7362829148769379,
+      "rolling_form_split": -0.4981781244277954,
+      "defense_core_terms": 0.40802572667598724,
+      "sos_conf": 0.22803201526403427,
+      "rest_hca_context": -0.1531618982553482,
+      "tempo_pace": -0.11605658382177353
+    },
+    "key_features": [
+      {
+        "feature": "neutral_site",
+        "value": 1.0,
+        "mean_filled": false,
+        "baseline_mean": 0.11111657326385475
+      },
+      {
+        "feature": "home_team_adj_oe",
+        "value": 121.7467,
+        "mean_filled": false,
+        "baseline_mean": 103.7462973782975
+      },
+      {
+        "feature": "away_team_adj_oe",
+        "value": 110.6444,
+        "mean_filled": false,
+        "baseline_mean": 102.59246452040749
+      },
+      {
+        "feature": "home_team_adj_de",
+        "value": 104.6311,
+        "mean_filled": false,
+        "baseline_mean": 101.96147415525688
+      },
+      {
+        "feature": "away_team_adj_de",
+        "value": 114.5508,
+        "mean_filled": false,
+        "baseline_mean": 103.1505150624176
+      },
+      {
+        "feature": "home_team_BARTHAG",
+        "value": 0.850976,
+        "mean_filled": false,
+        "baseline_mean": 0.5321009872690899
+      },
+      {
+        "feature": "away_team_BARTHAG",
+        "value": 0.401549,
+        "mean_filled": false,
+        "baseline_mean": 0.48098134366490564
+      },
+      {
+        "feature": "home_team_adj_pace",
+        "value": 61.2565,
+        "mean_filled": false,
+        "baseline_mean": 68.99840492702603
+      },
+      {
+        "feature": "away_team_adj_pace",
+        "value": 65.3326,
+        "mean_filled": false,
+        "baseline_mean": 68.95368747344251
+      },
+      {
+        "feature": "home_rest_days",
+        "value": 5.833333333333333,
+        "mean_filled": false,
+        "baseline_mean": 3.9604371274182233
+      },
+      {
+        "feature": "away_rest_days",
+        "value": 5.833333333333333,
+        "mean_filled": false,
+        "baseline_mean": 4.183697636689898
+      },
+      {
+        "feature": "rest_advantage",
+        "value": 0.0,
+        "mean_filled": false,
+        "baseline_mean": -0.22326050923570026
+      },
+      {
+        "feature": "home_sos_oe",
+        "value": 110.1307,
+        "mean_filled": false,
+        "baseline_mean": 102.20825301065865
+      },
+      {
+        "feature": "away_sos_oe",
+        "value": 110.2376,
+        "mean_filled": false,
+        "baseline_mean": 102.33303529699812
+      },
+      {
+        "feature": "home_sos_de",
+        "value": 106.8882,
+        "mean_filled": false,
+        "baseline_mean": 101.87175913906901
+      },
+      {
+        "feature": "away_sos_de",
+        "value": 105.7204,
+        "mean_filled": false,
+        "baseline_mean": 101.78111456943324
+      },
+      {
+        "feature": "home_conf_strength",
+        "value": -2.6703769230769208,
+        "mean_filled": false,
+        "baseline_mean": 1.3893020082170402
+      },
+      {
+        "feature": "away_conf_strength",
+        "value": -2.6703769230769208,
+        "mean_filled": false,
+        "baseline_mean": -0.5535672545192362
+      },
+      {
+        "feature": "home_form_delta",
+        "value": -0.003732833295532931,
+        "mean_filled": false,
+        "baseline_mean": 0.0009991773152256995
+      },
+      {
+        "feature": "away_form_delta",
+        "value": -0.005103539256695154,
+        "mean_filled": false,
+        "baseline_mean": 0.001134687109538168
+      },
+      {
+        "feature": "home_tov_rate",
+        "value": 0.1741553512614867,
+        "mean_filled": false,
+        "baseline_mean": 0.19616158826661118
+      },
+      {
+        "feature": "away_tov_rate",
+        "value": 0.16321897344939593,
+        "mean_filled": false,
+        "baseline_mean": 0.19892857882508874
+      },
+      {
+        "feature": "home_def_tov_rate",
+        "value": 0.19843267166056172,
+        "mean_filled": false,
+        "baseline_mean": 0.20292339607112642
+      },
+      {
+        "feature": "away_def_tov_rate",
+        "value": 0.20656760571800048,
+        "mean_filled": false,
+        "baseline_mean": 0.20136529106337098
+      },
+      {
+        "feature": "home_def_eff_fg_pct",
+        "value": 0.4929169534868727,
+        "mean_filled": false,
+        "baseline_mean": 0.49213359784692007
+      },
+      {
+        "feature": "away_def_eff_fg_pct",
+        "value": 0.5450300103730914,
+        "mean_filled": false,
+        "baseline_mean": 0.49878543256888974
+      },
+      {
+        "feature": "home_team_efg_home_split",
+        "value": 0.6323525760952873,
+        "mean_filled": false,
+        "baseline_mean": 0.5319934493476567
+      },
+      {
+        "feature": "away_team_efg_away_split",
+        "value": 0.5423344958754338,
+        "mean_filled": false,
+        "baseline_mean": 0.4872831821849915
+      }
+    ],
+    "important_mean_fills": [],
+    "triage_label": "unclear / needs deeper audit"
+  },
+  "372363": {
+    "game_id": 372363,
+    "matchup": "NC State @ Virginia",
+    "line_provider": "consensus",
+    "neutral_site": false,
+    "grouped_contribs": {
+      "BARTHAG": 2.521693229675293,
+      "offense_terms": 2.4163867458701134,
+      "rest_hca_context": 2.0499641820788383,
+      "core_efficiency": 1.6584933400154114,
+      "turnover_features": -1.253927230834961,
+      "defensive_shot_quality": 1.2004251405596733,
+      "defense_core_terms": 0.4220643937587738,
+      "sos_conf": 0.39931419491767883,
+      "tempo_pace": -0.22682471573352814,
+      "rolling_form_split": 0.01564866304397583
+    },
+    "key_features": [
+      {
+        "feature": "neutral_site",
+        "value": 1.0,
+        "mean_filled": false,
+        "baseline_mean": 0.11111657326385475
+      },
+      {
+        "feature": "home_team_adj_oe",
+        "value": 124.2945,
+        "mean_filled": false,
+        "baseline_mean": 103.7462973782975
+      },
+      {
+        "feature": "away_team_adj_oe",
+        "value": 120.3251,
+        "mean_filled": false,
+        "baseline_mean": 102.59246452040749
+      },
+      {
+        "feature": "home_team_adj_de",
+        "value": 98.0879,
+        "mean_filled": false,
+        "baseline_mean": 101.96147415525688
+      },
+      {
+        "feature": "away_team_adj_de",
+        "value": 104.5362,
+        "mean_filled": false,
+        "baseline_mean": 103.1505150624176
+      },
+      {
+        "feature": "home_team_BARTHAG",
+        "value": 0.938375,
+        "mean_filled": false,
+        "baseline_mean": 0.5321009872690899
+      },
+      {
+        "feature": "away_team_BARTHAG",
+        "value": 0.834469,
+        "mean_filled": false,
+        "baseline_mean": 0.48098134366490564
+      },
+      {
+        "feature": "home_team_adj_pace",
+        "value": 59.7302,
+        "mean_filled": false,
+        "baseline_mean": 68.99840492702603
+      },
+      {
+        "feature": "away_team_adj_pace",
+        "value": 64.1627,
+        "mean_filled": false,
+        "baseline_mean": 68.95368747344251
+      },
+      {
+        "feature": "home_rest_days",
+        "value": 4.9375,
+        "mean_filled": false,
+        "baseline_mean": 3.9604371274182233
+      },
+      {
+        "feature": "away_rest_days",
+        "value": 1.0,
+        "mean_filled": false,
+        "baseline_mean": 4.183697636689898
+      },
+      {
+        "feature": "rest_advantage",
+        "value": 3.9375,
+        "mean_filled": false,
+        "baseline_mean": -0.22326050923570026
+      },
+      {
+        "feature": "home_sos_oe",
+        "value": 105.0305,
+        "mean_filled": false,
+        "baseline_mean": 102.20825301065865
+      },
+      {
+        "feature": "away_sos_oe",
+        "value": 104.0216,
+        "mean_filled": false,
+        "baseline_mean": 102.33303529699812
+      },
+      {
+        "feature": "home_sos_de",
+        "value": 112.9088,
+        "mean_filled": false,
+        "baseline_mean": 101.87175913906901
+      },
+      {
+        "feature": "away_sos_de",
+        "value": 113.4902,
+        "mean_filled": false,
+        "baseline_mean": 101.78111456943324
+      },
+      {
+        "feature": "home_conf_strength",
+        "value": 13.2263,
+        "mean_filled": false,
+        "baseline_mean": 1.3893020082170402
+      },
+      {
+        "feature": "away_conf_strength",
+        "value": 13.2263,
+        "mean_filled": false,
+        "baseline_mean": -0.5535672545192362
+      },
+      {
+        "feature": "home_form_delta",
+        "value": 0.0009030044216219232,
+        "mean_filled": false,
+        "baseline_mean": 0.0009991773152256995
+      },
+      {
+        "feature": "away_form_delta",
+        "value": -0.0030689751905177164,
+        "mean_filled": false,
+        "baseline_mean": 0.001134687109538168
+      },
+      {
+        "feature": "home_tov_rate",
+        "value": 0.16954271233106982,
+        "mean_filled": false,
+        "baseline_mean": 0.19616158826661118
+      },
+      {
+        "feature": "away_tov_rate",
+        "value": 0.12972917195801412,
+        "mean_filled": false,
+        "baseline_mean": 0.19892857882508874
+      },
+      {
+        "feature": "home_def_tov_rate",
+        "value": 0.15759476338614617,
+        "mean_filled": false,
+        "baseline_mean": 0.20292339607112642
+      },
+      {
+        "feature": "away_def_tov_rate",
+        "value": 0.18693040224074758,
+        "mean_filled": false,
+        "baseline_mean": 0.20136529106337098
+      },
+      {
+        "feature": "home_def_eff_fg_pct",
+        "value": 0.44712834595960577,
+        "mean_filled": false,
+        "baseline_mean": 0.49213359784692007
+      },
+      {
+        "feature": "away_def_eff_fg_pct",
+        "value": 0.534845629127443,
+        "mean_filled": false,
+        "baseline_mean": 0.49878543256888974
+      },
+      {
+        "feature": "home_team_efg_home_split",
+        "value": 0.589318205579964,
+        "mean_filled": false,
+        "baseline_mean": 0.5319934493476567
+      },
+      {
+        "feature": "away_team_efg_away_split",
+        "value": 0.5411799942685139,
+        "mean_filled": false,
+        "baseline_mean": 0.4872831821849915
+      }
+    ],
+    "important_mean_fills": [],
+    "triage_label": "unclear / needs deeper audit"
+  },
+  "372258": {
+    "game_id": 372258,
+    "matchup": "Massachusetts @ Miami (OH)",
+    "line_provider": "consensus",
+    "neutral_site": false,
+    "grouped_contribs": {
+      "BARTHAG": 3.5428115129470825,
+      "core_efficiency": 2.0820136666297913,
+      "turnover_features": 1.3343222737312317,
+      "rolling_form_split": -0.9267549328505993,
+      "tempo_pace": -0.6359205991029739,
+      "offense_terms": 0.4809422828257084,
+      "sos_conf": 0.2955159991979599,
+      "rest_hca_context": 0.10273025184869766,
+      "defensive_shot_quality": 0.03554009273648262,
+      "defense_core_terms": 0.008823126554489136
+    },
+    "key_features": [
+      {
+        "feature": "neutral_site",
+        "value": 1.0,
+        "mean_filled": false,
+        "baseline_mean": 0.11111657326385475
+      },
+      {
+        "feature": "home_team_adj_oe",
+        "value": 116.5956,
+        "mean_filled": false,
+        "baseline_mean": 103.7462973782975
+      },
+      {
+        "feature": "away_team_adj_oe",
+        "value": 104.7873,
+        "mean_filled": false,
+        "baseline_mean": 102.59246452040749
+      },
+      {
+        "feature": "home_team_adj_de",
+        "value": 105.6791,
+        "mean_filled": false,
+        "baseline_mean": 101.96147415525688
+      },
+      {
+        "feature": "away_team_adj_de",
+        "value": 108.2734,
+        "mean_filled": false,
+        "baseline_mean": 103.1505150624176
+      },
+      {
+        "feature": "home_team_BARTHAG",
+        "value": 0.755932,
+        "mean_filled": false,
+        "baseline_mean": 0.5321009872690899
+      },
+      {
+        "feature": "away_team_BARTHAG",
+        "value": 0.407006,
+        "mean_filled": false,
+        "baseline_mean": 0.48098134366490564
+      },
+      {
+        "feature": "home_team_adj_pace",
+        "value": 67.3961,
+        "mean_filled": false,
+        "baseline_mean": 68.99840492702603
+      },
+      {
+        "feature": "away_team_adj_pace",
+        "value": 70.6832,
+        "mean_filled": false,
+        "baseline_mean": 68.95368747344251
+      },
+      {
+        "feature": "home_rest_days",
+        "value": 5.625,
+        "mean_filled": false,
+        "baseline_mean": 3.9604371274182233
+      },
+      {
+        "feature": "away_rest_days",
+        "value": 8.625,
+        "mean_filled": false,
+        "baseline_mean": 4.183697636689898
+      },
+      {
+        "feature": "rest_advantage",
+        "value": -3.0,
+        "mean_filled": false,
+        "baseline_mean": -0.22326050923570026
+      },
+      {
+        "feature": "home_sos_oe",
+        "value": 110.3623,
+        "mean_filled": false,
+        "baseline_mean": 102.20825301065865
+      },
+      {
+        "feature": "away_sos_oe",
+        "value": 110.5684,
+        "mean_filled": false,
+        "baseline_mean": 102.33303529699812
+      },
+      {
+        "feature": "home_sos_de",
+        "value": 105.5458,
+        "mean_filled": false,
+        "baseline_mean": 101.87175913906901
+      },
+      {
+        "feature": "away_sos_de",
+        "value": 106.7931,
+        "mean_filled": false,
+        "baseline_mean": 101.78111456943324
+      },
+      {
+        "feature": "home_conf_strength",
+        "value": -2.6703769230769208,
+        "mean_filled": false,
+        "baseline_mean": 1.3893020082170402
+      },
+      {
+        "feature": "away_conf_strength",
+        "value": -2.6703769230769208,
+        "mean_filled": false,
+        "baseline_mean": -0.5535672545192362
+      },
+      {
+        "feature": "home_form_delta",
+        "value": -0.016608204690263525,
+        "mean_filled": false,
+        "baseline_mean": 0.0009991773152256995
+      },
+      {
+        "feature": "away_form_delta",
+        "value": -0.007988926024066124,
+        "mean_filled": false,
+        "baseline_mean": 0.001134687109538168
+      },
+      {
+        "feature": "home_tov_rate",
+        "value": 0.1452521503340473,
+        "mean_filled": false,
+        "baseline_mean": 0.19616158826661118
+      },
+      {
+        "feature": "away_tov_rate",
+        "value": 0.1997495808159717,
+        "mean_filled": false,
+        "baseline_mean": 0.19892857882508874
+      },
+      {
+        "feature": "home_def_tov_rate",
+        "value": 0.18424947544639408,
+        "mean_filled": false,
+        "baseline_mean": 0.20292339607112642
+      },
+      {
+        "feature": "away_def_tov_rate",
+        "value": 0.16281974028680385,
+        "mean_filled": false,
+        "baseline_mean": 0.20136529106337098
+      },
+      {
+        "feature": "home_def_eff_fg_pct",
+        "value": 0.49437292914858355,
+        "mean_filled": false,
+        "baseline_mean": 0.49213359784692007
+      },
+      {
+        "feature": "away_def_eff_fg_pct",
+        "value": 0.5150948621661398,
+        "mean_filled": false,
+        "baseline_mean": 0.49878543256888974
+      },
+      {
+        "feature": "home_team_efg_home_split",
+        "value": 0.6328746521880988,
+        "mean_filled": false,
+        "baseline_mean": 0.5319934493476567
+      },
+      {
+        "feature": "away_team_efg_away_split",
+        "value": 0.4972994478978517,
+        "mean_filled": false,
+        "baseline_mean": 0.4872831821849915
+      }
+    ],
+    "important_mean_fills": [],
+    "triage_label": "unclear / needs deeper audit"
+  },
+  "372374": {
+    "game_id": 372374,
+    "matchup": "Nevada @ Grand Canyon",
+    "line_provider": "consensus",
+    "neutral_site": false,
+    "grouped_contribs": {
+      "rest_hca_context": 3.1081656962633133,
+      "offense_terms": 1.222475554794073,
+      "defensive_shot_quality": 1.086419596336782,
+      "turnover_features": -0.5371336080133915,
+      "defense_core_terms": -0.48433127999305725,
+      "core_efficiency": 0.39511799812316895,
+      "rolling_form_split": -0.20207786932587624,
+      "sos_conf": 0.16896501928567886,
+      "tempo_pace": 0.014006391167640686,
+      "BARTHAG": -0.003195047378540039
+    },
+    "key_features": [
+      {
+        "feature": "neutral_site",
+        "value": 1.0,
+        "mean_filled": false,
+        "baseline_mean": 0.11111657326385475
+      },
+      {
+        "feature": "home_team_adj_oe",
+        "value": 110.9562,
+        "mean_filled": false,
+        "baseline_mean": 103.7462973782975
+      },
+      {
+        "feature": "away_team_adj_oe",
+        "value": 114.4741,
+        "mean_filled": false,
+        "baseline_mean": 102.59246452040749
+      },
+      {
+        "feature": "home_team_adj_de",
+        "value": 99.8209,
+        "mean_filled": false,
+        "baseline_mean": 101.96147415525688
+      },
+      {
+        "feature": "away_team_adj_de",
+        "value": 102.6845,
+        "mean_filled": false,
+        "baseline_mean": 103.1505150624176
+      },
+      {
+        "feature": "home_team_BARTHAG",
+        "value": 0.771397,
+        "mean_filled": false,
+        "baseline_mean": 0.5321009872690899
+      },
+      {
+        "feature": "away_team_BARTHAG",
+        "value": 0.777285,
+        "mean_filled": false,
+        "baseline_mean": 0.48098134366490564
+      },
+      {
+        "feature": "home_team_adj_pace",
+        "value": 63.3718,
+        "mean_filled": false,
+        "baseline_mean": 68.99840492702603
+      },
+      {
+        "feature": "away_team_adj_pace",
+        "value": 64.7998,
+        "mean_filled": false,
+        "baseline_mean": 68.95368747344251
+      },
+      {
+        "feature": "home_rest_days",
+        "value": 4.854166666666667,
+        "mean_filled": false,
+        "baseline_mean": 3.9604371274182233
+      },
+      {
+        "feature": "away_rest_days",
+        "value": 1.0,
+        "mean_filled": false,
+        "baseline_mean": 4.183697636689898
+      },
+      {
+        "feature": "rest_advantage",
+        "value": 3.854166666666667,
+        "mean_filled": false,
+        "baseline_mean": -0.22326050923570026
+      },
+      {
+        "feature": "home_sos_oe",
+        "value": 107.519,
+        "mean_filled": false,
+        "baseline_mean": 102.20825301065865
+      },
+      {
+        "feature": "away_sos_oe",
+        "value": 106.3226,
+        "mean_filled": false,
+        "baseline_mean": 102.33303529699812
+      },
+      {
+        "feature": "home_sos_de",
+        "value": 109.5774,
+        "mean_filled": false,
+        "baseline_mean": 101.87175913906901
+      },
+      {
+        "feature": "away_sos_de",
+        "value": 109.3992,
+        "mean_filled": false,
+        "baseline_mean": 101.78111456943324
+      },
+      {
+        "feature": "home_conf_strength",
+        "value": 5.714041666666669,
+        "mean_filled": false,
+        "baseline_mean": 1.3893020082170402
+      },
+      {
+        "feature": "away_conf_strength",
+        "value": 5.714041666666669,
+        "mean_filled": false,
+        "baseline_mean": -0.5535672545192362
+      },
+      {
+        "feature": "home_form_delta",
+        "value": 0.005374809495395995,
+        "mean_filled": false,
+        "baseline_mean": 0.0009991773152256995
+      },
+      {
+        "feature": "away_form_delta",
+        "value": -0.011696333758866646,
+        "mean_filled": false,
+        "baseline_mean": 0.001134687109538168
+      },
+      {
+        "feature": "home_tov_rate",
+        "value": 0.19911143615994983,
+        "mean_filled": false,
+        "baseline_mean": 0.19616158826661118
+      },
+      {
+        "feature": "away_tov_rate",
+        "value": 0.16864517164221626,
+        "mean_filled": false,
+        "baseline_mean": 0.19892857882508874
+      },
+      {
+        "feature": "home_def_tov_rate",
+        "value": 0.16548010613599728,
+        "mean_filled": false,
+        "baseline_mean": 0.20292339607112642
+      },
+      {
+        "feature": "away_def_tov_rate",
+        "value": 0.18585405969355853,
+        "mean_filled": false,
+        "baseline_mean": 0.20136529106337098
+      },
+      {
+        "feature": "home_def_eff_fg_pct",
+        "value": 0.4671304340834635,
+        "mean_filled": false,
+        "baseline_mean": 0.49213359784692007
+      },
+      {
+        "feature": "away_def_eff_fg_pct",
+        "value": 0.5305483510502941,
+        "mean_filled": false,
+        "baseline_mean": 0.49878543256888974
+      },
+      {
+        "feature": "home_team_efg_home_split",
+        "value": 0.5539236775204776,
+        "mean_filled": false,
+        "baseline_mean": 0.5319934493476567
+      },
+      {
+        "feature": "away_team_efg_away_split",
+        "value": 0.4792313108133067,
+        "mean_filled": false,
+        "baseline_mean": 0.4872831821849915
+      }
+    ],
+    "important_mean_fills": [],
+    "triage_label": "unclear / needs deeper audit"
+  },
+  "372371": {
+    "game_id": 372371,
+    "matchup": "UCF @ Arizona",
+    "line_provider": "NA",
+    "neutral_site": false,
+    "grouped_contribs": {
+      "BARTHAG": 4.147074937820435,
+      "core_efficiency": 2.645846948027611,
+      "rest_hca_context": 2.4284853488206863,
+      "offense_terms": 2.079840425401926,
+      "turnover_features": 1.1371673345565796,
+      "defensive_shot_quality": 0.9835914708673954,
+      "tempo_pace": 0.6794326901435852,
+      "sos_conf": -0.22536513954401016,
+      "defense_core_terms": -0.043598342686891556,
+      "rolling_form_split": 0.0072519853711128235
+    },
+    "key_features": [
+      {
+        "feature": "neutral_site",
+        "value": 1.0,
+        "mean_filled": false,
+        "baseline_mean": 0.11111657326385475
+      },
+      {
+        "feature": "home_team_adj_oe",
+        "value": 123.384,
+        "mean_filled": false,
+        "baseline_mean": 103.7462973782975
+      },
+      {
+        "feature": "away_team_adj_oe",
+        "value": 117.6983,
+        "mean_filled": false,
+        "baseline_mean": 102.59246452040749
+      },
+      {
+        "feature": "home_team_adj_de",
+        "value": 91.947,
+        "mean_filled": false,
+        "baseline_mean": 101.96147415525688
+      },
+      {
+        "feature": "away_team_adj_de",
+        "value": 104.2656,
+        "mean_filled": false,
+        "baseline_mean": 103.1505150624176
+      },
+      {
+        "feature": "home_team_BARTHAG",
+        "value": 0.967138,
+        "mean_filled": false,
+        "baseline_mean": 0.5321009872690899
+      },
+      {
+        "feature": "away_team_BARTHAG",
+        "value": 0.801167,
+        "mean_filled": false,
+        "baseline_mean": 0.48098134366490564
+      },
+      {
+        "feature": "home_team_adj_pace",
+        "value": 62.9592,
+        "mean_filled": false,
+        "baseline_mean": 68.99840492702603
+      },
+      {
+        "feature": "away_team_adj_pace",
+        "value": 66.9453,
+        "mean_filled": false,
+        "baseline_mean": 68.95368747344251
+      },
+      {
+        "feature": "home_rest_days",
+        "value": 4.625,
+        "mean_filled": false,
+        "baseline_mean": 3.9604371274182233
+      },
+      {
+        "feature": "away_rest_days",
+        "value": 0.9895833333333334,
+        "mean_filled": false,
+        "baseline_mean": 4.183697636689898
+      },
+      {
+        "feature": "rest_advantage",
+        "value": 3.6354166666666665,
+        "mean_filled": false,
+        "baseline_mean": -0.22326050923570026
+      },
+      {
+        "feature": "home_sos_oe",
+        "value": 104.0602,
+        "mean_filled": false,
+        "baseline_mean": 102.20825301065865
+      },
+      {
+        "feature": "away_sos_oe",
+        "value": 104.1141,
+        "mean_filled": false,
+        "baseline_mean": 102.33303529699812
+      },
+      {
+        "feature": "home_sos_de",
+        "value": 114.6479,
+        "mean_filled": false,
+        "baseline_mean": 101.87175913906901
+      },
+      {
+        "feature": "away_sos_de",
+        "value": 113.355,
+        "mean_filled": false,
+        "baseline_mean": 101.78111456943324
+      },
+      {
+        "feature": "home_conf_strength",
+        "value": 15.174387500000002,
+        "mean_filled": false,
+        "baseline_mean": 1.3893020082170402
+      },
+      {
+        "feature": "away_conf_strength",
+        "value": 15.174387500000002,
+        "mean_filled": false,
+        "baseline_mean": -0.5535672545192362
+      },
+      {
+        "feature": "home_form_delta",
+        "value": 0.005929284169478257,
+        "mean_filled": false,
+        "baseline_mean": 0.0009991773152256995
+      },
+      {
+        "feature": "away_form_delta",
+        "value": -0.0021679544141401086,
+        "mean_filled": false,
+        "baseline_mean": 0.001134687109538168
+      },
+      {
+        "feature": "home_tov_rate",
+        "value": 0.15122590621290488,
+        "mean_filled": false,
+        "baseline_mean": 0.19616158826661118
+      },
+      {
+        "feature": "away_tov_rate",
+        "value": 0.17026169335525476,
+        "mean_filled": false,
+        "baseline_mean": 0.19892857882508874
+      },
+      {
+        "feature": "home_def_tov_rate",
+        "value": 0.17722142326467125,
+        "mean_filled": false,
+        "baseline_mean": 0.20292339607112642
+      },
+      {
+        "feature": "away_def_tov_rate",
+        "value": 0.14727391901755876,
+        "mean_filled": false,
+        "baseline_mean": 0.20136529106337098
+      },
+      {
+        "feature": "home_def_eff_fg_pct",
+        "value": 0.42524770975668613,
+        "mean_filled": false,
+        "baseline_mean": 0.49213359784692007
+      },
+      {
+        "feature": "away_def_eff_fg_pct",
+        "value": 0.5129580382616827,
+        "mean_filled": false,
+        "baseline_mean": 0.49878543256888974
+      },
+      {
+        "feature": "home_team_efg_home_split",
+        "value": 0.5698997269875254,
+        "mean_filled": false,
+        "baseline_mean": 0.5319934493476567
+      },
+      {
+        "feature": "away_team_efg_away_split",
+        "value": 0.6021778170471108,
+        "mean_filled": false,
+        "baseline_mean": 0.4872831821849915
+      }
+    ],
+    "important_mean_fills": [],
+    "triage_label": "likely data/input bug"
+  }
+}

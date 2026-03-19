@@ -1,0 +1,23 @@
+{
+  "season": 2026,
+  "date": "2026-02-25",
+  "training_seasons": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "slate_games": 53,
+  "filter_threshold": 0.58,
+  "raw_edge_threshold": 0.08,
+  "filter_pass_games": 10,
+  "non_ncaa_shortlist_games": 10,
+  "ncaa_caution_games": 0,
+  "raw_watchlist_games": 15,
+  "flagged_mainly_by_disagreement": 8,
+  "slice_mix": {
+    "feb15_plus": 53
+  }
+}

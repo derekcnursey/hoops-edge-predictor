@@ -1,0 +1,14 @@
+{
+  "baseline_variant": "HistGradientBoostingAbsoluteBlend",
+  "candidate_variant": "LightGBMRegressionL2Blend",
+  "sigma_spec": {
+    "family": "cap",
+    "cap_max": 17.0
+  },
+  "sigma_source": "CurrentMLP repaired-line benchmark predictions",
+  "benchmark_dirs": [
+    "/Users/dereknursey/Desktop/ml_projects/codex_review/hoops-edge-predictor_codex/artifacts/benchmarks/canonical_walkforward_v2_lgb_repaired_lines_neutralfix",
+    "/Users/dereknursey/Desktop/ml_projects/codex_review/hoops-edge-predictor_codex/artifacts/benchmarks/canonical_walkforward_v2_lgb_repaired_lines_2026_neutralfix"
+  ],
+  "objective_experiment_dir": "/Users/dereknursey/Desktop/ml_projects/codex_review/hoops-edge-predictor_codex/artifacts/research/objective_tail_compression_experiment_v1"
+}

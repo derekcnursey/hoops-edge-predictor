@@ -1,0 +1,11 @@
+{
+  "season": 2020,
+  "option": "raw_mlp_normal",
+  "base_score": "z_raw",
+  "train_seasons": [
+    2019
+  ],
+  "calibration": {
+    "method": "normal"
+  }
+}

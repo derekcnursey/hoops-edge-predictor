@@ -1,0 +1,41 @@
+{
+  "date": "2026-03-15",
+  "games": [
+    {
+      "away_score": 88,
+      "away_team": "Pennsylvania",
+      "game_id": "2026_03_15_pennsylvania_yale",
+      "home_score": 84,
+      "home_team": "Yale"
+    },
+    {
+      "away_score": 62,
+      "away_team": "Dayton",
+      "game_id": "2026_03_15_dayton_vcu",
+      "home_score": 70,
+      "home_team": "VCU"
+    },
+    {
+      "away_score": 75,
+      "away_team": "Vanderbilt",
+      "game_id": "2026_03_15_vanderbilt_arkansas",
+      "home_score": 86,
+      "home_team": "Arkansas"
+    },
+    {
+      "away_score": 55,
+      "away_team": "Wichita State",
+      "game_id": "2026_03_15_wichita_state_south_florida",
+      "home_score": 70,
+      "home_team": "South Florida"
+    },
+    {
+      "away_score": 80,
+      "away_team": "Purdue",
+      "game_id": "2026_03_15_purdue_michigan",
+      "home_score": 72,
+      "home_team": "Michigan"
+    }
+  ],
+  "generated_at": "2026-03-16T14:13:04.876420Z"
+}

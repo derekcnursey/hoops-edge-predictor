@@ -34,7 +34,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from src import config
 from src.architecture import MLPRegressor, gaussian_nll_loss
 from src.dataset import HoopsDataset, load_multi_season_features
-from src.features import get_feature_matrix, get_targets, load_lines
+from src.features import get_feature_matrix, get_targets, load_research_lines
 from src.trainer import impute_column_means
 
 # ── Config ────────────────────────────────────────────────────────────
@@ -291,7 +291,7 @@ def run_walkforward(feature_order, label="", no_garbage=False):
 
         # Merge book spreads
         try:
-            lines_df = load_lines(holdout)
+            lines_df = load_research_lines(holdout)
             if not lines_df.empty:
                 ld = lines_df.sort_values("provider").drop_duplicates(
                     subset=["gameId"], keep="first")

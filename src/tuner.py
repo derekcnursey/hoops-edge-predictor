@@ -5,7 +5,7 @@ from __future__ import annotations
 import numpy as np
 import optuna
 import torch
-from sklearn.model_selection import KFold
+from sklearn.model_selection import TimeSeriesSplit
 from torch.utils.data import DataLoader
 
 from .architecture import MLPClassifier, MLPRegressor, gaussian_nll_loss
@@ -46,7 +46,8 @@ def _evaluate_regressor(
             x, spread, _ = [b.to(device) for b in batch]
             optimizer.zero_grad()
             mu, raw_sigma = model(x)
-            loss = gaussian_nll_loss(mu, raw_sigma, spread)
+            nll, _sigma = gaussian_nll_loss(mu, raw_sigma, spread)
+            loss = nll.mean()
             loss.backward()
             optimizer.step()
 
@@ -56,7 +57,8 @@ def _evaluate_regressor(
         x_val = torch.tensor(X_val, dtype=torch.float32).to(device)
         y_val_t = torch.tensor(y_val, dtype=torch.float32).to(device)
         mu, raw_sigma = model(x_val)
-        val_loss = gaussian_nll_loss(mu, raw_sigma, y_val_t).item()
+        nll, _sigma = gaussian_nll_loss(mu, raw_sigma, y_val_t)
+        val_loss = nll.mean().item()
     return val_loss
 
 
@@ -117,7 +119,7 @@ def tune_regressor(
             "epochs": 50,  # fewer epochs for tuning
             "batch_size": trial.suggest_categorical("batch_size", [128, 256, 512]),
         }
-        kf = KFold(n_splits=n_folds, shuffle=True, random_state=42)
+        kf = TimeSeriesSplit(n_splits=n_folds)
         val_losses = []
         for train_idx, val_idx in kf.split(X):
             loss = _evaluate_regressor(
@@ -152,7 +154,7 @@ def tune_classifier(
             "epochs": 50,
             "batch_size": trial.suggest_categorical("batch_size", [128, 256, 512]),
         }
-        kf = KFold(n_splits=n_folds, shuffle=True, random_state=42)
+        kf = TimeSeriesSplit(n_splits=n_folds)
         val_losses = []
         for train_idx, val_idx in kf.split(X):
             loss = _evaluate_classifier(

@@ -1,0 +1,7 @@
+{
+  "season": 2026,
+  "source_table": "fct_pbp_game_teams_flat_garbage_removed",
+  "repaired_table": "fct_pbp_game_teams_flat_garbage_removed_repaired_v1",
+  "selection_rule": "choose per-date parquet part with smallest median team_possessions_formula",
+  "generated_at": "2026-03-15"
+}

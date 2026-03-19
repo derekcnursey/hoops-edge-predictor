@@ -56,7 +56,7 @@ REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 
 def load_data():
     """Load train/val data with all quality fixes applied."""
-    from src.features import load_lines
+    from src.features import load_research_lines
 
     print("=" * 70)
     print("LOADING DATA")
@@ -85,7 +85,7 @@ def load_data():
     # Load lines for val season and merge book spread
     print("\n  Loading lines for validation season 2026...")
     try:
-        lines_df = load_lines(2026)
+        lines_df = load_research_lines(2026)
         if not lines_df.empty:
             # Deduplicate: take first provider per game
             lines_dedup = lines_df.sort_values("provider").drop_duplicates(
@@ -786,7 +786,7 @@ def run_validation_tests(model, X_val_scaled, y_spread_val, df_val, scaler, metr
 
 def run_holdout_test(cfg, scaler_full=None):
     """Train on 2015-2024, predict ALL of 2025. Print MAE, sigma stats, calibration."""
-    from src.features import load_lines
+    from src.features import load_research_lines
 
     print("  Training holdout model on 2015-2024...")
 
@@ -807,7 +807,7 @@ def run_holdout_test(cfg, scaler_full=None):
 
     # Merge lines for holdout val
     try:
-        lines_df = load_lines(2025)
+        lines_df = load_research_lines(2025)
         if not lines_df.empty:
             lines_dedup = lines_df.sort_values("provider").drop_duplicates(
                 subset=["gameId"], keep="first"

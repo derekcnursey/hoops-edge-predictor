@@ -263,14 +263,14 @@ def sanity_check(alpha: float = 1.0, prior_weight: float = 5.0):
 
 def cache_lines():
     """Cache book spread lines to parquet so GPU box doesn't need S3 access."""
-    from src.features import load_lines
+    from src.features import load_research_lines
     for season in ALL_SEASONS:
         out_path = config.FEATURES_DIR / f"lines_{season}.parquet"
         if out_path.exists():
             print(f"  Lines cache exists for {season}, skipping")
             continue
         try:
-            lines = load_lines(season)
+            lines = load_research_lines(season)
             if lines is not None and not lines.empty:
                 lines.to_parquet(out_path, index=False)
                 print(f"  Cached {len(lines)} lines for {season}")

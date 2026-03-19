@@ -1,7 +1,8 @@
 """Build power rankings JSON from S3 efficiency ratings and game results.
 
 Reads:
-  - gold/team_adjusted_efficiencies_no_garbage → latest ratings per team
+  - preferred: gold/<config.PRODUCTION_GOLD_RATINGS_TABLE>
+  - fallback:  gold/team_adjusted_efficiencies_no_garbage
   - silver/fct_games (season 2026) → win-loss records
   - silver/fct_games team names → display names + conference fallback
 
@@ -18,6 +19,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 
 # Allow running as standalone script
@@ -25,18 +27,74 @@ import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from src import config, s3_reader
+from src.adjusted_four_factors import adjust_four_factors
+from src.features import _dedupe_boxscores, _dedupe_efficiency_ratings
+from src.four_factors import compute_game_four_factors
+from src.trainer import load_scaler, load_tree_regressor
 
 
 CURRENT_SEASON = 2026
+PRIMARY_RATINGS_TABLE = config.PRODUCTION_GOLD_RATINGS_TABLE
+FALLBACK_RATINGS_TABLE = "team_adjusted_efficiencies_no_garbage"
+PRIMARY_SOURCE_LABEL = "Hoops Edge Ratings"
+PRIMARY_SOURCE_DESCRIPTION = (
+    "Best internal efficiency model. Strongest in post-Dec-15 validation."
+)
+PRIMARY_SOURCE_NOTE = (
+    "Internal ratings source only. Torvik remains stronger on full-season pooled validation."
+)
+MODEL_INDEX_LABEL = "DCN INDEX"
+MODEL_INDEX_DESCRIPTION = (
+    "Projected neutral-court spread vs an average D-I team from the current LightGBM mean model."
+)
+
+RANK_COLUMNS: tuple[tuple[str, bool], ...] = (
+    ("adj_oe", False),
+    ("adj_de", True),
+    ("adj_margin", False),
+    ("adj_tempo", False),
+    ("three_p_pct", False),
+    ("def_3p_pct", True),
+    ("ft_pct", False),
+    ("model_index", False),
+)
 
 
-def _load_latest_ratings(season: int) -> pd.DataFrame:
+def _normalize_public_tempo(adj_tempo: float) -> float:
+    """Map obviously inflated pace values back into a public-facing D-I range."""
+    tempo = float(adj_tempo)
+    while tempo > 85:
+        tempo /= 2.0
+    return min(max(tempo, 45.0), 85.0)
+
+
+def _add_metric_ranks(df: pd.DataFrame) -> pd.DataFrame:
+    """Add public-facing category ranks for the exported team metrics."""
+    ranked = df.copy()
+    for column, ascending in RANK_COLUMNS:
+        if column not in ranked.columns:
+            ranked[f"{column}_rank"] = pd.NA
+            continue
+        values = pd.to_numeric(ranked[column], errors="coerce")
+        ranked[f"{column}_rank"] = (
+            values.rank(method="min", ascending=ascending, na_option="bottom").astype("Int64")
+        )
+    return ranked
+
+
+def _load_latest_ratings(season: int) -> tuple[pd.DataFrame, str]:
     """Load the most recent efficiency rating for each team."""
-    tbl = s3_reader.read_gold_table(
-        "team_adjusted_efficiencies_no_garbage", season=season
-    )
+    table_name = PRIMARY_RATINGS_TABLE
+    tbl = s3_reader.read_gold_table(table_name, season=season)
     if tbl.num_rows == 0:
-        return pd.DataFrame()
+        print(
+            f"WARNING: rankings season {season} missing preferred ratings table "
+            f"{PRIMARY_RATINGS_TABLE}; falling back to {FALLBACK_RATINGS_TABLE}"
+        )
+        table_name = FALLBACK_RATINGS_TABLE
+        tbl = s3_reader.read_gold_table(table_name, season=season)
+    if tbl.num_rows == 0:
+        return pd.DataFrame(), table_name
     df = tbl.to_pandas()
 
     needed = ["teamId", "rating_date", "adj_oe", "adj_de", "adj_tempo", "barthag"]
@@ -45,10 +103,127 @@ def _load_latest_ratings(season: int) -> pd.DataFrame:
         raise ValueError(f"Missing columns in efficiency ratings: {missing}")
 
     df["rating_date"] = pd.to_datetime(df["rating_date"], errors="coerce")
+    df = _dedupe_efficiency_ratings(df)
     # Keep only the latest rating_date row per team
     idx = df.groupby("teamId")["rating_date"].idxmax()
     latest = df.loc[idx].copy()
-    return latest
+    return latest, table_name
+
+
+def _compute_model_index(ratings: pd.DataFrame) -> pd.DataFrame:
+    """Score each team as a neutral-court matchup vs an average D-I team.
+
+    Uses the current production tree mean model with a symmetric home/away
+    construction to reduce slot bias:
+      1. team as home vs average away on a neutral floor
+      2. average home vs team as away on a neutral floor
+      index = (pred_home_team - pred_home_average) / 2
+    """
+    if ratings.empty:
+        return pd.DataFrame(columns=["teamId", "model_index"])
+
+    try:
+        model, feature_order, _ = load_tree_regressor()
+        scaler = load_scaler()
+    except Exception as exc:
+        print(f"WARNING: rankings model index unavailable; tree-model artifacts missing ({exc})")
+        return pd.DataFrame(columns=["teamId", "model_index"])
+
+    if len(feature_order) != len(scaler.mean_):
+        print("WARNING: rankings model index unavailable; feature contract mismatch")
+        return pd.DataFrame(columns=["teamId", "model_index"])
+
+    base = {name: float(scaler.mean_[i]) for i, name in enumerate(feature_order)}
+    avg_rest = float(
+        np.mean([base.get("home_rest_days", 5.0), base.get("away_rest_days", 5.0)])
+    )
+    base["neutral_site"] = 1.0
+    base["home_team_hca"] = 0.0
+    base["home_rest_days"] = avg_rest
+    base["away_rest_days"] = avg_rest
+    base["rest_advantage"] = 0.0
+
+    avg_eff = {
+        "adj_oe": float(ratings["adj_oe"].mean()),
+        "adj_de": float(ratings["adj_de"].mean()),
+        "adj_tempo": float(ratings["adj_tempo"].mean()),
+        "barthag": float(ratings["barthag"].mean()),
+    }
+    if "sos_oe" in ratings.columns:
+        avg_eff["sos_oe"] = float(ratings["sos_oe"].mean())
+    if "sos_de" in ratings.columns:
+        avg_eff["sos_de"] = float(ratings["sos_de"].mean())
+
+    def apply_home(vec: dict[str, float], row: pd.Series) -> None:
+        vec["home_team_adj_oe"] = float(row["adj_oe"])
+        vec["home_team_adj_de"] = float(row["adj_de"])
+        vec["home_team_adj_pace"] = float(row["adj_tempo"])
+        vec["home_team_BARTHAG"] = float(row["barthag"])
+        if "home_sos_oe" in vec and "sos_oe" in row.index and pd.notna(row["sos_oe"]):
+            vec["home_sos_oe"] = float(row["sos_oe"])
+        if "home_sos_de" in vec and "sos_de" in row.index and pd.notna(row["sos_de"]):
+            vec["home_sos_de"] = float(row["sos_de"])
+
+    def apply_away(vec: dict[str, float], row: pd.Series) -> None:
+        vec["away_team_adj_oe"] = float(row["adj_oe"])
+        vec["away_team_adj_de"] = float(row["adj_de"])
+        vec["away_team_adj_pace"] = float(row["adj_tempo"])
+        vec["away_team_BARTHAG"] = float(row["barthag"])
+        if "away_sos_oe" in vec and "sos_oe" in row.index and pd.notna(row["sos_oe"]):
+            vec["away_sos_oe"] = float(row["sos_oe"])
+        if "away_sos_de" in vec and "sos_de" in row.index and pd.notna(row["sos_de"]):
+            vec["away_sos_de"] = float(row["sos_de"])
+
+    def apply_avg_home(vec: dict[str, float]) -> None:
+        vec["home_team_adj_oe"] = avg_eff["adj_oe"]
+        vec["home_team_adj_de"] = avg_eff["adj_de"]
+        vec["home_team_adj_pace"] = avg_eff["adj_tempo"]
+        vec["home_team_BARTHAG"] = avg_eff["barthag"]
+        if "home_sos_oe" in vec and "sos_oe" in avg_eff:
+            vec["home_sos_oe"] = avg_eff["sos_oe"]
+        if "home_sos_de" in vec and "sos_de" in avg_eff:
+            vec["home_sos_de"] = avg_eff["sos_de"]
+
+    def apply_avg_away(vec: dict[str, float]) -> None:
+        vec["away_team_adj_oe"] = avg_eff["adj_oe"]
+        vec["away_team_adj_de"] = avg_eff["adj_de"]
+        vec["away_team_adj_pace"] = avg_eff["adj_tempo"]
+        vec["away_team_BARTHAG"] = avg_eff["barthag"]
+        if "away_sos_oe" in vec and "sos_oe" in avg_eff:
+            vec["away_sos_oe"] = avg_eff["sos_oe"]
+        if "away_sos_de" in vec and "sos_de" in avg_eff:
+            vec["away_sos_de"] = avg_eff["sos_de"]
+
+    def neutralize_context_terms(vec: dict[str, float]) -> None:
+        """Keep DCN focused on neutral team strength, not schedule context."""
+        for name in (
+            "home_sos_oe",
+            "away_sos_oe",
+            "home_sos_de",
+            "away_sos_de",
+            "home_conf_strength",
+            "away_conf_strength",
+        ):
+            if name in vec and name in base:
+                vec[name] = float(base[name])
+
+    rows: list[dict[str, float]] = []
+    for _, row in ratings.iterrows():
+        home_vec = dict(base)
+        away_vec = dict(base)
+        apply_home(home_vec, row)
+        apply_avg_away(home_vec)
+        apply_avg_home(away_vec)
+        apply_away(away_vec, row)
+        neutralize_context_terms(home_vec)
+        neutralize_context_terms(away_vec)
+
+        X = pd.DataFrame([home_vec, away_vec], columns=feature_order)
+        preds = model.predict(X.values.astype(np.float32))
+        model_index = float((preds[0] - preds[1]) / 2.0)
+        rows.append({"teamId": int(row["teamId"]), "model_index": model_index})
+
+    return pd.DataFrame(rows)
 
 
 def _load_records(season: int) -> pd.DataFrame:
@@ -167,14 +342,108 @@ def _load_team_info(season: int) -> pd.DataFrame:
     return info_df
 
 
+def _compute_team_shooting_snapshot(season: int) -> pd.DataFrame:
+    """Compute current FT%, adjusted 3PT%, and adjusted defensive 3PT% snapshots per team.
+
+    FT% is intentionally opponent-independent in this codebase and is carried
+    through from the raw four-factor computation. 3PT% is opponent-adjusted
+    using the production four-factor settings, then summarized with the same
+    EWM span used elsewhere in the feature pipeline.
+    """
+    box_cols = [
+        "gameid",
+        "teamid",
+        "opponentid",
+        "ishometeam",
+        "startdate",
+        "team_fg_made",
+        "team_fg_att",
+        "team_3fg_made",
+        "team_3fg_att",
+        "team_ft_made",
+        "team_ft_att",
+        "team_reb_off",
+        "team_reb_def",
+        "opp_fg_made",
+        "opp_fg_att",
+        "opp_3fg_made",
+        "opp_3fg_att",
+        "opp_ft_made",
+        "opp_ft_att",
+        "opp_reb_off",
+        "opp_reb_def",
+    ]
+    base = f"{config.SILVER_PREFIX}/{config.TABLE_FCT_GAME_TEAMS}/season={season}/"
+    keys = s3_reader.list_parquet_keys(base)
+    if not keys:
+        return pd.DataFrame(columns=["teamId", "ft_pct", "three_p_pct", "def_3p_pct"])
+    box_tbl = s3_reader.read_parquet_table(keys, columns=box_cols)
+    box = _dedupe_boxscores(box_tbl.to_pandas())
+    if box.empty:
+        return pd.DataFrame(columns=["teamId", "ft_pct", "three_p_pct", "def_3p_pct"])
+
+    ff = compute_game_four_factors(box)
+    if ff.empty:
+        return pd.DataFrame(columns=["teamId", "ft_pct", "three_p_pct", "def_3p_pct"])
+
+    adjusted = (
+        adjust_four_factors(
+            ff,
+            prior_weight=config.ADJUST_PRIOR,
+            alpha=config.ADJUST_ALPHA,
+        )
+        if config.ADJUST_FF
+        else ff.copy()
+    )
+    adjusted["_date"] = pd.to_datetime(adjusted["startdate"], errors="coerce")
+    adjusted = adjusted.sort_values(["teamid", "_date", "gameid"]).reset_index(drop=True)
+
+    rows: list[dict[str, float | int | None]] = []
+    for team_id, group in adjusted.groupby("teamid", sort=False):
+        ft_series = pd.to_numeric(group["ft_pct"], errors="coerce").dropna()
+        three_series = pd.to_numeric(group["three_p_pct"], errors="coerce").dropna()
+        def_three_series = pd.to_numeric(group["def_3p_pct"], errors="coerce").dropna()
+
+        ft_pct = (
+            float(ft_series.ewm(span=config.EWM_SPAN, min_periods=1).mean().iloc[-1])
+            if not ft_series.empty
+            else None
+        )
+        three_p_pct = (
+            float(three_series.ewm(span=config.EWM_SPAN, min_periods=1).mean().iloc[-1])
+            if not three_series.empty
+            else None
+        )
+        def_3p_pct = (
+            float(def_three_series.ewm(span=config.EWM_SPAN, min_periods=1).mean().iloc[-1])
+            if not def_three_series.empty
+            else None
+        )
+        rows.append(
+            {
+                "teamId": int(team_id),
+                "ft_pct": ft_pct,
+                "three_p_pct": three_p_pct,
+                "def_3p_pct": def_3p_pct,
+            }
+        )
+
+    return pd.DataFrame(rows)
+
+
 def build_rankings(season: int = CURRENT_SEASON) -> dict:
     """Build the full rankings payload."""
     print(f"Loading efficiency ratings for season {season}...")
-    ratings = _load_latest_ratings(season)
+    ratings, table_name = _load_latest_ratings(season)
     if ratings.empty:
         raise RuntimeError("No efficiency ratings found.")
 
     print(f"  {len(ratings)} teams with ratings")
+
+    print("Computing model index...")
+    model_index = _compute_model_index(ratings)
+    if not model_index.empty:
+        print(f"  {len(model_index)} teams scored with the promoted tree mean model")
 
     print("Loading game records...")
     records = _load_records(season)
@@ -184,9 +453,21 @@ def build_rankings(season: int = CURRENT_SEASON) -> dict:
     team_info = _load_team_info(season)
     print(f"  {len(team_info)} teams with info")
 
+    print("Computing shooting snapshots...")
+    shooting = _compute_team_shooting_snapshot(season)
+    print(f"  {len(shooting)} teams with FT% / adjusted 3PT% / adjusted def 3PT% snapshots")
+
     # Merge ratings + records + team info
-    df = ratings[["teamId", "rating_date", "adj_oe", "adj_de", "adj_tempo", "barthag"]].copy()
+    rating_cols = ["teamId", "rating_date", "adj_oe", "adj_de", "adj_tempo", "barthag"]
+    for optional_col in ["ft_pct", "three_p_pct", "def_3p_pct"]:
+        if optional_col in ratings.columns:
+            rating_cols.append(optional_col)
+    df = ratings[rating_cols].copy()
     df["adj_margin"] = df["adj_oe"] - df["adj_de"]
+    if not model_index.empty:
+        df = df.merge(model_index, on="teamId", how="left")
+    else:
+        df["model_index"] = pd.NA
 
     if not records.empty:
         df = df.merge(records, on="teamId", how="left")
@@ -202,14 +483,34 @@ def build_rankings(season: int = CURRENT_SEASON) -> dict:
         df["team"] = df["teamId"].astype(str)
         df["conference"] = ""
 
+    if not shooting.empty:
+        df = df.merge(
+            shooting,
+            on="teamId",
+            how="left",
+            suffixes=("", "_snapshot"),
+        )
+        for col in ["ft_pct", "three_p_pct", "def_3p_pct"]:
+            snapshot_col = f"{col}_snapshot"
+            if snapshot_col in df.columns:
+                if col in df.columns:
+                    df[col] = df[col].where(df[col].notna(), df[snapshot_col])
+                    df = df.drop(columns=[snapshot_col])
+                else:
+                    df = df.rename(columns={snapshot_col: col})
+
     # Fill NaN records
     for col in ["W", "L", "conf_W", "conf_L"]:
         df[col] = df[col].fillna(0).astype(int)
     df["team"] = df["team"].fillna(df["teamId"].astype(str))
     df["conference"] = df["conference"].fillna("")
 
-    # Sort by adj_margin descending
-    df = df.sort_values("adj_margin", ascending=False).reset_index(drop=True)
+    # Sort by model-driven neutral spread vs average team when available.
+    if "barthag" in df.columns:
+        df = df.sort_values(["adj_margin", "barthag"], ascending=[False, False]).reset_index(drop=True)
+    else:
+        df = df.sort_values("adj_margin", ascending=False).reset_index(drop=True)
+    df = _add_metric_ranks(df)
 
     # Determine as_of_date from the latest rating_date
     as_of = df["rating_date"].max()
@@ -221,8 +522,35 @@ def build_rankings(season: int = CURRENT_SEASON) -> dict:
         adj_oe = round(float(row["adj_oe"]), 1)
         adj_de = round(float(row["adj_de"]), 1)
         adj_margin = round(float(row["adj_margin"]), 1)
-        adj_tempo = round(float(row["adj_tempo"]), 1)
-        edge_index = round(float(row["barthag"]), 4) if pd.notna(row["barthag"]) else None
+        adj_tempo = round(_normalize_public_tempo(float(row["adj_tempo"])), 1)
+        model_index_value = (
+            round(float(row["model_index"]), 2)
+            if pd.notna(row["model_index"])
+            else None
+        )
+        ft_pct_value = (
+            round(float(row["ft_pct"]), 3)
+            if "ft_pct" in row.index and pd.notna(row["ft_pct"])
+            else None
+        )
+        three_p_pct_value = (
+            round(float(row["three_p_pct"]), 3)
+            if "three_p_pct" in row.index and pd.notna(row["three_p_pct"])
+            else None
+        )
+        def_3p_pct_value = (
+            round(float(row["def_3p_pct"]), 3)
+            if "def_3p_pct" in row.index and pd.notna(row["def_3p_pct"])
+            else None
+        )
+        adj_oe_rank = int(row["adj_oe_rank"]) if pd.notna(row.get("adj_oe_rank")) else None
+        adj_de_rank = int(row["adj_de_rank"]) if pd.notna(row.get("adj_de_rank")) else None
+        adj_margin_rank = int(row["adj_margin_rank"]) if pd.notna(row.get("adj_margin_rank")) else None
+        adj_tempo_rank = int(row["adj_tempo_rank"]) if pd.notna(row.get("adj_tempo_rank")) else None
+        three_p_pct_rank = int(row["three_p_pct_rank"]) if pd.notna(row.get("three_p_pct_rank")) else None
+        def_3p_pct_rank = int(row["def_3p_pct_rank"]) if pd.notna(row.get("def_3p_pct_rank")) else None
+        ft_pct_rank = int(row["ft_pct_rank"]) if pd.notna(row.get("ft_pct_rank")) else None
+        model_index_rank = int(row["model_index_rank"]) if pd.notna(row.get("model_index_rank")) else None
 
         record = f"{row['W']}-{row['L']}"
         conf_record = f"{row['conf_W']}-{row['conf_L']}"
@@ -238,13 +566,31 @@ def build_rankings(season: int = CURRENT_SEASON) -> dict:
             "adj_de": adj_de,
             "adj_margin": adj_margin,
             "adj_tempo": adj_tempo,
-            "edge_index": edge_index,
+            "model_index": model_index_value,
+            "ft_pct": ft_pct_value,
+            "three_p_pct": three_p_pct_value,
+            "def_3p_pct": def_3p_pct_value,
+            "adj_oe_rank": adj_oe_rank,
+            "adj_de_rank": adj_de_rank,
+            "adj_margin_rank": adj_margin_rank,
+            "adj_tempo_rank": adj_tempo_rank,
+            "three_p_pct_rank": three_p_pct_rank,
+            "def_3p_pct_rank": def_3p_pct_rank,
+            "ft_pct_rank": ft_pct_rank,
+            "model_index_rank": model_index_rank,
         })
 
     payload = {
         "generated_at": datetime.utcnow().isoformat() + "Z",
         "as_of_date": as_of_str,
         "season": season,
+        "source_id": PRIMARY_SOURCE_LABEL.lower().replace(" ", "_"),
+        "source_label": PRIMARY_SOURCE_LABEL,
+        "source_table": table_name,
+        "source_description": PRIMARY_SOURCE_DESCRIPTION,
+        "source_note": PRIMARY_SOURCE_NOTE,
+        "model_index_label": MODEL_INDEX_LABEL,
+        "model_index_description": MODEL_INDEX_DESCRIPTION,
         "teams": teams,
     }
     return payload
@@ -303,9 +649,10 @@ def main():
         print(
             f"  {t['rank']:>3}. {t['team']:<22} "
             f"{t['record']:>6}  "
+            f"Model: {t['model_index']:+.2f}  "
             f"Net: {t['adj_margin']:+.1f}  "
             f"O: {t['adj_oe']:.1f}  D: {t['adj_de']:.1f}  "
-            f"Edge: {t['edge_index']:.3f}"
+            f"Tempo: {t['adj_tempo']:.1f}"
         )
 
 

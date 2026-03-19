@@ -1,0 +1,19 @@
+{
+  "holdout_seasons": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "efficiency_source": "torvik",
+  "no_garbage": true,
+  "feature_contracts": {
+    "baseline_current_contract": "current",
+    "swap_safe_v2_contract": "swap_safe_v2"
+  },
+  "middec_cutoff": "12-15",
+  "repaired_lines": true,
+  "model": "HistGradientBoosting"
+}

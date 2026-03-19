@@ -46,7 +46,7 @@ REPORTS_DIR = config.PROJECT_ROOT / "reports"
 # ── Data loading ─────────────────────────────────────────────────────
 
 def load_data():
-    from src.features import load_lines
+    from src.features import load_research_lines
 
     print("=" * 70)
     print("LOADING DATA")
@@ -70,7 +70,7 @@ def load_data():
 
     # Load lines for val season
     try:
-        lines_df = load_lines(2026)
+        lines_df = load_research_lines(2026)
         if not lines_df.empty:
             lines_dedup = lines_df.sort_values("provider").drop_duplicates(
                 subset=["gameId"], keep="first"
@@ -879,7 +879,7 @@ def run_validation_suite(model, X_val, y_spread_val, df_val, scaler, winner_metr
 
 
 def _run_holdout(cfg):
-    from src.features import load_lines
+    from src.features import load_research_lines
 
     ho_train = list(range(2015, 2025))
     df_ht = load_multi_season_features(ho_train, adj_suffix=ADJ_SUFFIX, min_month_day="12-01")
@@ -891,7 +891,7 @@ def _run_holdout(cfg):
     df_hv = df_hv[(df_hv["homeScore"] != 0) | (df_hv["awayScore"] != 0)]
 
     try:
-        lines_df = load_lines(2025)
+        lines_df = load_research_lines(2025)
         if not lines_df.empty:
             ld = lines_df.sort_values("provider").drop_duplicates(subset=["gameId"], keep="first")
             if "spread" in ld.columns:

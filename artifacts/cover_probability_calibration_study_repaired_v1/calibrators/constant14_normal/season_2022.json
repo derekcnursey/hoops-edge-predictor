@@ -1,0 +1,12 @@
+{
+  "season": 2022,
+  "option": "constant14_normal",
+  "base_score": "z_const14",
+  "train_seasons": [
+    2019,
+    2020
+  ],
+  "calibration": {
+    "method": "normal"
+  }
+}

@@ -1,15 +1,26 @@
 import { GetServerSideProps } from "next";
 import { CSSProperties, useMemo, useState } from "react";
 import Layout from "../components/Layout";
-import { PredictionRow, displayTeam } from "../lib/data";
+import {
+  PredictionRow,
+  displayTeam,
+  formatAmericanOddsFromProb,
+  getSiteHomeWinProb,
+} from "../lib/data";
 import {
   getLatestPredictionFile,
   getPredictionRowsByFilename,
 } from "../lib/server-data";
+import { getTeamRank, getTeamRankMapForDate } from "../lib/team-rankings";
+
+type RankedPredictionRow = PredictionRow & {
+  away_team_rank: number | null;
+  home_team_rank: number | null;
+};
 
 type HomeProps = {
   date: string | null;
-  rows: PredictionRow[];
+  rows: RankedPredictionRow[];
 };
 
 export const getServerSideProps: GetServerSideProps<HomeProps> = async () => {
@@ -17,7 +28,12 @@ export const getServerSideProps: GetServerSideProps<HomeProps> = async () => {
   if (!latest) {
     return { props: { date: null, rows: [] } };
   }
-  const rows = getPredictionRowsByFilename(latest.filename);
+  const teamRanks = getTeamRankMapForDate(latest.date);
+  const rows = getPredictionRowsByFilename(latest.filename).map((row) => ({
+    ...row,
+    away_team_rank: getTeamRank(str(row.away_team), teamRanks),
+    home_team_rank: getTeamRank(str(row.home_team), teamRanks),
+  }));
   return { props: { date: latest.date, rows } };
 };
 
@@ -58,6 +74,41 @@ function getPickTeam(row: PredictionRow): string {
   return displayTeam(side === "HOME" ? str(row.home_team) : str(row.away_team));
 }
 
+function renderRankedTeam(teamName: string, rank: number | null) {
+  return (
+    <>
+      {rank !== null && (
+        <span
+          style={{
+            ...mono,
+            fontSize: 11,
+            color: "#64748b",
+            marginRight: 2,
+          }}
+        >
+          {rank}
+        </span>
+      )}
+      {displayTeam(teamName)}
+    </>
+  );
+}
+
+function renderMatchupSeparator() {
+  return (
+    <span
+      style={{
+        fontSize: 11,
+        color: "#64748b",
+        margin: "0 4px",
+        textTransform: "lowercase",
+      }}
+    >
+      at
+    </span>
+  );
+}
+
 function formatGameTime(row: PredictionRow): string | null {
   const raw = row.start_time ?? row.startDate;
   if (!raw || typeof raw !== "string") return null;
@@ -95,6 +146,12 @@ function edge(row: PredictionRow): number {
   return num(row.pick_prob_edge) ?? 0;
 }
 
+function homeMlFair(row: PredictionRow): string | null {
+  const homeProb = getSiteHomeWinProb(row);
+  if (homeProb === null) return null;
+  return formatAmericanOddsFromProb(homeProb);
+}
+
 function diff(row: PredictionRow): number | null {
   const m = modelSpread(row);
   const b = bookSpread(row);
@@ -114,23 +171,16 @@ type SortKey = "matchup" | "time" | "book" | "model" | "sigma" | "diff" | "edge"
 
 type SortState = { key: SortKey; dir: "asc" | "desc" };
 
-function gameTimeSort(row: PredictionRow): number {
-  const raw = row.start_time ?? row.startDate;
-  if (!raw || typeof raw !== "string") return Infinity;
-  try {
-    const d = new Date(raw);
-    return isNaN(d.getTime()) ? Infinity : d.getTime();
-  } catch {
-    return Infinity;
-  }
-}
-
 function sortVal(row: PredictionRow, key: SortKey): string | number {
   switch (key) {
     case "matchup":
       return `${displayTeam(str(row.away_team))} @ ${displayTeam(str(row.home_team))}`;
-    case "time":
-      return gameTimeSort(row);
+    case "time": {
+      const raw = row.start_time ?? row.startDate;
+      if (typeof raw !== "string" || !raw) return Number.POSITIVE_INFINITY;
+      const ms = new Date(raw).getTime();
+      return Number.isNaN(ms) ? Number.POSITIVE_INFINITY : ms;
+    }
     case "book":
       return bookSpread(row) ?? -Infinity;
     case "model":
@@ -419,15 +469,27 @@ export default function Home({ date, rows }: HomeProps) {
                             }}
                           >
                             <span style={{ fontWeight: str(row.pick_side).toUpperCase() === "AWAY" ? 700 : 400 }}>
-                              {displayTeam(str(row.away_team))}
+                              {renderRankedTeam(str(row.away_team), row.away_team_rank)}
                             </span>
-                            {" @ "}
+                            {renderMatchupSeparator()}
                             <span style={{ fontWeight: str(row.pick_side).toUpperCase() === "HOME" ? 700 : 400 }}>
-                              {displayTeam(str(row.home_team))}
+                              {renderRankedTeam(str(row.home_team), row.home_team_rank)}
+                              {homeMlFair(row) ? (
+                                <span
+                                  style={{
+                                    ...mono,
+                                    marginLeft: 6,
+                                    fontSize: 11,
+                                    fontWeight: 500,
+                                    color: "#64748b"
+                                  }}
+                                >
+                                  ({homeMlFair(row)})
+                                </span>
+                              ) : null}
                             </span>
                           </td>
 
-                          {/* TIME */}
                           <td
                             style={{
                               ...mono,
@@ -435,11 +497,11 @@ export default function Home({ date, rows }: HomeProps) {
                               textAlign: "center",
                               fontSize: 12,
                               color: "#64748b",
-                              whiteSpace: "nowrap",
-                              borderBottom: "1px solid #f1f5f9"
+                              borderBottom: "1px solid #f1f5f9",
+                              whiteSpace: "nowrap"
                             }}
                           >
-                            {formatGameTime(row) ?? "\u2014"}
+                            {formatGameTime(row) ?? "—"}
                           </td>
 
                           {/* HOME SPREAD */}
@@ -529,6 +591,7 @@ export default function Home({ date, rows }: HomeProps) {
             </div>
           </div>
         </div>
+
       </div>
     </Layout>
   );

@@ -1,0 +1,137 @@
+{
+  "experiment": "hgbr_swapped_slot_experiment_v1",
+  "efficiency_source": "torvik",
+  "adj_suffix": "adj_a0.85_p10",
+  "no_garbage": true,
+  "holdout_seasons": [
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "exclude_seasons": [
+    2021
+  ],
+  "augmentation": {
+    "mode": "neutral_training_rows_only",
+    "reason_non_neutral_not_augmented": "home_team_hca has no mirrored away-team counterpart in the saved feature contract",
+    "explicit_pairs": [
+      [
+        "home_opp_ft_rate",
+        "away_def_ft_rate"
+      ],
+      [
+        "home_team_efg_home_split",
+        "away_team_efg_away_split"
+      ]
+    ],
+    "generic_pairs": [
+      [
+        "home_team_adj_oe",
+        "away_team_adj_oe"
+      ],
+      [
+        "home_team_adj_de",
+        "away_team_adj_de"
+      ],
+      [
+        "home_team_adj_pace",
+        "away_team_adj_pace"
+      ],
+      [
+        "home_team_BARTHAG",
+        "away_team_BARTHAG"
+      ],
+      [
+        "home_eff_fg_pct",
+        "away_eff_fg_pct"
+      ],
+      [
+        "home_ft_pct",
+        "away_ft_pct"
+      ],
+      [
+        "home_ft_rate",
+        "away_ft_rate"
+      ],
+      [
+        "home_3pt_rate",
+        "away_3pt_rate"
+      ],
+      [
+        "home_3p_pct",
+        "away_3p_pct"
+      ],
+      [
+        "home_off_rebound_pct",
+        "away_off_rebound_pct"
+      ],
+      [
+        "home_def_rebound_pct",
+        "away_def_rebound_pct"
+      ],
+      [
+        "home_def_eff_fg_pct",
+        "away_def_eff_fg_pct"
+      ],
+      [
+        "home_def_3pt_rate",
+        "away_def_3pt_rate"
+      ],
+      [
+        "home_def_3p_pct",
+        "away_def_3p_pct"
+      ],
+      [
+        "home_def_off_rebound_pct",
+        "away_def_off_rebound_pct"
+      ],
+      [
+        "home_rest_days",
+        "away_rest_days"
+      ],
+      [
+        "home_sos_oe",
+        "away_sos_oe"
+      ],
+      [
+        "home_sos_de",
+        "away_sos_de"
+      ],
+      [
+        "home_conf_strength",
+        "away_conf_strength"
+      ],
+      [
+        "home_form_delta",
+        "away_form_delta"
+      ],
+      [
+        "home_tov_rate",
+        "away_tov_rate"
+      ],
+      [
+        "home_def_tov_rate",
+        "away_def_tov_rate"
+      ],
+      [
+        "home_margin_std",
+        "away_margin_std"
+      ]
+    ],
+    "negated": [
+      "rest_advantage"
+    ],
+    "globals": [
+      "neutral_site"
+    ],
+    "unswappable": [
+      "home_team_hca"
+    ],
+    "unclassified": []
+  },
+  "middec_cutoff": "12-15",
+  "lines_table": "fct_lines_repaired_v1"
+}

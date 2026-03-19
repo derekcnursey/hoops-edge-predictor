@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "season": 2026,
+  "games": {
+    "ff1": {
+      "winner_team_id": 167,
+      "loser_team_id": 248,
+      "status": "final"
+    },
+    "ff2": {
+      "winner_team_id": 295,
+      "loser_team_id": 185,
+      "status": "final"
+    }
+  }
+}

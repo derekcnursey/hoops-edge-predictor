@@ -14,9 +14,10 @@ from typing import Optional
 import numpy as np
 import pandas as pd
 
-from . import config, s3_reader
+from . import config, s3_reader, torvik_loader
 from .adjusted_four_factors import adjust_four_factors
 from .four_factors import compute_game_four_factors
+from .iterative_four_factors import solve_four_factors
 from .rolling_averages import (
     AWAY_ROLLING_MAP,
     AWAY_TOV_MAP,
@@ -39,6 +40,14 @@ EXTRA_FEATURE_GROUPS = {
 }
 
 
+def _feature_order_for_contract(feature_contract: str) -> list[str]:
+    if feature_contract == "current":
+        return config.FEATURE_ORDER
+    if feature_contract == "swap_safe_v2":
+        return config.FEATURE_ORDER_SWAP_SAFE_V2
+    raise ValueError(f"Unknown feature_contract: {feature_contract}")
+
+
 def load_games(season: int) -> pd.DataFrame:
     """Load fct_games for a season, return DataFrame with key columns."""
     tbl = s3_reader.read_silver_table(config.TABLE_FCT_GAMES, season=season)
@@ -57,6 +66,9 @@ def load_games(season: int) -> pd.DataFrame:
         ("awayScore", ["awayScore", "awayPoints"]),
         ("neutralSite", ["neutralSite", "neutralsite"]),
         ("startDate", ["startDate", "startTime", "date"]),
+        ("gameType", ["gameType"]),
+        ("tournament", ["tournament"]),
+        ("conferenceGame", ["conferenceGame"]),
     ]:
         for cand in candidates:
             if cand in df.columns:
@@ -68,7 +80,11 @@ def load_games(season: int) -> pd.DataFrame:
     return df
 
 
-def load_efficiency_ratings(season: int, no_garbage: bool = True) -> pd.DataFrame:
+def load_efficiency_ratings(
+    season: int,
+    no_garbage: bool = True,
+    table_name: str | None = None,
+) -> pd.DataFrame:
     """Load team_adjusted_efficiencies from the gold layer for a season.
 
     Args:
@@ -78,7 +94,12 @@ def load_efficiency_ratings(season: int, no_garbage: bool = True) -> pd.DataFram
     Returns a DataFrame with columns: teamId, rating_date, adj_oe, adj_de,
     adj_tempo, barthag, sorted by (teamId, rating_date) for as-of lookups.
     """
-    table_name = "team_adjusted_efficiencies_no_garbage" if no_garbage else "team_adjusted_efficiencies"
+    if table_name is None:
+        table_name = (
+            config.PRODUCTION_GOLD_RATINGS_TABLE
+            if no_garbage
+            else "team_adjusted_efficiencies"
+        )
     tbl = s3_reader.read_gold_table(table_name, season=season)
     if tbl.num_rows == 0:
         return pd.DataFrame()
@@ -92,8 +113,46 @@ def load_efficiency_ratings(season: int, no_garbage: bool = True) -> pd.DataFram
             f"Available: {list(df.columns)}"
         )
     df["rating_date"] = pd.to_datetime(df["rating_date"], errors="coerce")
+    df = _dedupe_efficiency_ratings(df)
     df = df.sort_values(["teamId", "rating_date"]).reset_index(drop=True)
     return df
+
+
+def _dedupe_efficiency_ratings(df: pd.DataFrame) -> pd.DataFrame:
+    """Collapse same-day duplicate team ratings by choosing the sane tempo row.
+
+    Some repaired 2026 gold tables contain duplicate `(teamId, rating_date)` rows
+    where one row has a plausible college-basketball tempo (roughly 45-85) and
+    another is an inflated multiple (for example 58 vs 117).  For feature builds
+    we only want one deterministic row per team/date.  Prefer a plausible tempo,
+    then the tempo closest to a normal D-I center, then the smaller tempo.
+    """
+    if df.empty or "adj_tempo" not in df.columns:
+        return df
+
+    dup_mask = df.duplicated(subset=["teamId", "rating_date"], keep=False)
+    if not dup_mask.any():
+        return df
+
+    out = df.copy()
+    tempo = pd.to_numeric(out["adj_tempo"], errors="coerce")
+    plausible = tempo.between(45.0, 85.0, inclusive="both")
+    out["_tempo_plausible"] = (~plausible).astype(int)
+    out["_tempo_distance"] = (tempo - 65.0).abs()
+    out["_tempo_numeric"] = tempo
+
+    out = out.sort_values(
+        [
+            "teamId",
+            "rating_date",
+            "_tempo_plausible",
+            "_tempo_distance",
+            "_tempo_numeric",
+        ],
+        kind="stable",
+    )
+    out = out.drop_duplicates(subset=["teamId", "rating_date"], keep="first")
+    return out.drop(columns=["_tempo_plausible", "_tempo_distance", "_tempo_numeric"])
 
 
 def load_boxscores(season: int) -> pd.DataFrame:
@@ -101,15 +160,99 @@ def load_boxscores(season: int) -> pd.DataFrame:
     tbl = s3_reader.read_silver_table(config.TABLE_FCT_GAME_TEAMS, season=season)
     if tbl.num_rows == 0:
         return pd.DataFrame()
-    return tbl.to_pandas()
+    df = tbl.to_pandas()
+    return _dedupe_boxscores(df)
 
 
-def load_lines(season: int) -> pd.DataFrame:
-    """Load fct_lines for a season."""
-    tbl = s3_reader.read_silver_table(config.TABLE_FCT_LINES, season=season)
-    if tbl.num_rows == 0:
-        return pd.DataFrame()
-    return tbl.to_pandas()
+def _dedupe_boxscores(df: pd.DataFrame) -> pd.DataFrame:
+    """Collapse duplicate team-game boxscore rows deterministically.
+
+    In 2026 the boxscore spine contains repeated `(gameid, teamid)` rows where the
+    same per-game ratios are preserved but counting stats are scaled by x2/x3/x4/x5.
+    Those duplicates contaminate rolling secondary features because the same game is
+    effectively counted multiple times.  Keep the smallest-volume row for each
+    `(gameid, teamid)`, which corresponds to the sane single-game boxscore.
+    """
+    if df.empty or "gameid" not in df.columns or "teamid" not in df.columns:
+        return df
+
+    dup_mask = df.duplicated(subset=["gameid", "teamid"], keep=False)
+    if not dup_mask.any():
+        return df
+
+    out = df.copy()
+    count_cols = [
+        c
+        for c in [
+            "team_fg_made",
+            "team_fg_att",
+            "team_3fg_made",
+            "team_3fg_att",
+            "team_ft_made",
+            "team_ft_att",
+            "team_reb_off",
+            "team_reb_def",
+            "opp_fg_made",
+            "opp_fg_att",
+            "opp_3fg_made",
+            "opp_3fg_att",
+            "opp_ft_made",
+            "opp_ft_att",
+            "opp_reb_off",
+            "opp_reb_def",
+            "team_poss",
+            "opp_poss",
+        ]
+        if c in out.columns
+    ]
+    if not count_cols:
+        return out.drop_duplicates(subset=["gameid", "teamid"], keep="first")
+
+    volume = pd.DataFrame({c: pd.to_numeric(out[c], errors="coerce") for c in count_cols})
+    out["_volume_score"] = volume.fillna(0.0).sum(axis=1)
+
+    sort_cols = ["gameid", "teamid", "_volume_score"]
+    if "startdate" in out.columns:
+        sort_cols.append("startdate")
+    out = out.sort_values(sort_cols, kind="stable")
+    out = out.drop_duplicates(subset=["gameid", "teamid"], keep="first")
+    return out.drop(columns=["_volume_score"])
+
+
+def load_lines(season: int, table_name: str | None = None) -> pd.DataFrame:
+    """Load a lines table for a season.
+
+    Defaults to the legacy production source ``fct_lines``.
+    """
+    requested_table = table_name or config.TABLE_FCT_LINES
+    tbl = s3_reader.read_silver_table(requested_table, season=season)
+    lines = tbl.to_pandas() if tbl.num_rows else pd.DataFrame()
+
+    if requested_table != config.TABLE_FCT_LINES:
+        return lines
+
+    from . import hrb_odds
+
+    if not hrb_odds.live_overlay_enabled_for_season(season):
+        return lines
+
+    games = load_games(season)
+    if games.empty:
+        return lines
+
+    try:
+        hrb_lines = hrb_odds.fetch_hrb_lines_for_games(games)
+    except Exception:
+        return lines
+
+    if hrb_lines.empty:
+        return lines
+    return pd.concat([lines, hrb_lines], ignore_index=True, sort=False)
+
+
+def load_research_lines(season: int, table_name: str | None = None) -> pd.DataFrame:
+    """Load the repaired lines table for research/evaluation by default."""
+    return load_lines(season, table_name=table_name or config.RESEARCH_LINES_TABLE)
 
 
 def _compute_barthag(adj_oe: float, adj_de: float) -> Optional[float]:
@@ -211,8 +354,7 @@ def _get_asof_rolling(
         dates = dates.dt.tz_localize(None)
     eligible = team_df[dates < cutoff]
     if eligible.empty:
-        # Fall back to the very first entry if no prior data
-        eligible = team_df
+        return {}  # No prior data — features will be NaN, handled by imputation
     row = eligible.iloc[-1]
     return {col: row[col] for col in value_cols if col in row.index and pd.notna(row[col])}
 
@@ -229,7 +371,7 @@ def _compute_rest_days(games: pd.DataFrame) -> dict[tuple[int, int], float]:
         Dict mapping (gameId, teamId) -> rest_days (float).
         First game of season -> NaN -> filled with 5.0 (typical preseason rest).
     """
-    dates = pd.to_datetime(games["startDate"], errors="coerce")
+    dates = pd.to_datetime(games["startDate"], errors="coerce", utc=True)
 
     # Expand to per-team view
     rows = []
@@ -316,7 +458,7 @@ def _compute_scoring_variance(
     Returns:
         Dict mapping (gameId, teamId) -> margin_std (float).
     """
-    dates = pd.to_datetime(games["startDate"], errors="coerce")
+    dates = pd.to_datetime(games["startDate"], errors="coerce", utc=True)
 
     # Expand to per-team view with margin
     rows = []
@@ -390,7 +532,7 @@ def _compute_team_hca(
     Returns:
         Dict mapping (gameId, teamId) -> team_hca (float).
     """
-    dates = pd.to_datetime(games["startDate"], errors="coerce")
+    dates = pd.to_datetime(games["startDate"], errors="coerce", utc=True)
 
     # Expand to per-team view with residual and venue flag
     rows = []
@@ -475,14 +617,47 @@ def _compute_team_hca(
     }
 
 
+def _build_torvik_teamid_lookup(
+    season: int,
+    torvik_lookup: dict[str, pd.DataFrame],
+) -> dict[int, pd.DataFrame]:
+    """Convert Torvik team_name-keyed lookup to teamId-keyed lookup.
+
+    This makes the Torvik data compatible with _get_asof_rating() and
+    _compute_team_hca() which expect teamId keys.
+    """
+    torvik_loader._load_teamid_mapping(season)
+    torvik_loader._load_mapping()
+
+    lookup: dict[int, pd.DataFrame] = {}
+    teamid_to_name = torvik_loader._teamid_to_name_by_season.get(season, {})
+    for tid, gold_name in teamid_to_name.items():
+        torvik_name = torvik_loader._gold_name_to_torvik(gold_name)
+        tdf = torvik_lookup.get(torvik_name)
+        if tdf is None or tdf.empty:
+            continue
+        # Rename columns to match gold-layer format expected by _get_asof_rating
+        renamed = tdf.rename(columns={
+            "date": "rating_date",
+            "adj_pace": "adj_tempo",
+            "BARTHAG": "barthag",
+        })
+        lookup[tid] = renamed
+    return lookup
+
+
 def build_features(
     season: int,
     game_date: Optional[str] = None,
-    no_garbage: bool = True,
+    no_garbage: bool = config.NO_GARBAGE,
     extra_features: list[str] | None = None,
     adjust_ff: bool = False,
     adjust_prior_weight: float = 5.0,
     adjust_alpha: float = 1.0,
+    adjust_ff_method: str = "multiplicative",
+    efficiency_source: str = "gold",
+    gold_table_name: str | None = None,
+    feature_contract: str = "current",
 ) -> pd.DataFrame:
     """Build the feature matrix for games in a season.
 
@@ -497,6 +672,16 @@ def build_features(
             averages. Default False for backward compatibility.
         adjust_prior_weight: Bayesian prior weight for adjustment shrinkage.
         adjust_alpha: SOS exponent for adjustment factor.
+        adjust_ff_method: Method for FF adjustment when adjust_ff=True.
+            "multiplicative" (default) or "iterative".
+        efficiency_source: "gold" (default) uses gold-layer ratings, "torvik"
+            uses Torvik daily ratings from S3. PBP features are unchanged.
+        gold_table_name: Optional explicit gold table name when
+            ``efficiency_source="gold"``. Defaults to the current production
+            gold table selection based on ``no_garbage``.
+        feature_contract: "current" (default) preserves the existing
+            production contract. "swap_safe_v2" emits a research-only
+            contract with swap-safe naming and a signed venue field.
 
     Returns:
         DataFrame with columns: gameId, homeTeamId, awayTeamId, startDate,
@@ -507,13 +692,23 @@ def build_features(
     if unknown:
         raise ValueError(f"Unknown extra feature groups: {unknown}")
 
+    use_torvik = efficiency_source == "torvik"
+
     # Load raw data
     games = load_games(season)
     if games.empty:
         return pd.DataFrame()
 
     need_sos = "sos" in extra
-    eff_ratings = load_efficiency_ratings(season, no_garbage=no_garbage)
+    if use_torvik:
+        eff_ratings = pd.DataFrame()  # Not used when Torvik is the source
+        torvik_eff_lookup = torvik_loader.build_torvik_efficiency_lookup(season)
+    else:
+        eff_ratings = load_efficiency_ratings(
+            season,
+            no_garbage=no_garbage,
+            table_name=gold_table_name,
+        )
     boxscores = load_boxscores(season)
 
     if game_date is not None and "startDate" in games.columns:
@@ -533,11 +728,18 @@ def build_features(
     if not boxscores.empty:
         ff = compute_game_four_factors(boxscores)
         if adjust_ff:
-            ff = adjust_four_factors(
-                ff,
-                prior_weight=adjust_prior_weight,
-                alpha=adjust_alpha,
-            )
+            if adjust_ff_method == "iterative":
+                ff = solve_four_factors(
+                    ff,
+                    n_iterations=25,
+                    prior_weight=adjust_prior_weight,
+                )
+            else:
+                ff = adjust_four_factors(
+                    ff,
+                    prior_weight=adjust_prior_weight,
+                    alpha=adjust_alpha,
+                )
         rolling_df = compute_rolling_averages(ff)
 
     # Build rolling lookups:
@@ -546,7 +748,7 @@ def build_features(
     rolling_lookup: dict[tuple[int, int], dict[str, float]] = {}
     rolling_team_lookup: dict[int, pd.DataFrame] = {}
     if not rolling_df.empty:
-        rolling_df["_date"] = pd.to_datetime(rolling_df["startdate"], errors="coerce")
+        rolling_df["_date"] = pd.to_datetime(rolling_df["startdate"], errors="coerce", utc=True)
         for _, row in rolling_df.iterrows():
             key = (int(row["gameid"]), int(row["teamid"]))
             rolling_lookup[key] = row.to_dict()
@@ -555,12 +757,21 @@ def build_features(
             rolling_team_lookup[int(tid)] = group.sort_values("_date").copy()
 
     # Build date-aware efficiency lookup: teamId -> DataFrame of dated ratings
-    eff_lookup = _build_efficiency_lookup(eff_ratings, include_sos=need_sos)
+    if use_torvik:
+        eff_lookup: dict[int, pd.DataFrame] = {}  # Not used for Torvik path
+    else:
+        eff_lookup = _build_efficiency_lookup(eff_ratings, include_sos=need_sos)
 
-    # Parse game dates once
-    games["_game_dt"] = pd.to_datetime(games["startDate"], errors="coerce")
+    # Parse game dates once — use utc=True for consistent timezone handling
+    games["_game_dt"] = pd.to_datetime(games["startDate"], errors="coerce", utc=True)
 
     # ── Extra feature pre-computations ─────────────────────────────
+    # Pre-compute Torvik SOS if needed
+    torvik_sos_lookup: dict[tuple[int, str], dict[str, float]] = {}
+    if use_torvik and need_sos:
+        all_games_for_sos = load_games(season) if game_date is not None else games
+        torvik_sos_lookup = torvik_loader.build_torvik_sos_lookup(season, all_games_for_sos)
+
     rest_lookup: dict[tuple[int, int], float] = {}
     if "rest_days" in extra:
         # Use ALL season games for rest computation (not just date-filtered)
@@ -573,7 +784,7 @@ def build_features(
     if "tov_rate" in extra and not boxscores.empty:
         tov_df = compute_rolling_turnovers(boxscores)
         if not tov_df.empty:
-            tov_df["_date"] = pd.to_datetime(tov_df["startdate"] if "startdate" in tov_df.columns else tov_df.get("_date"), errors="coerce")
+            tov_df["_date"] = pd.to_datetime(tov_df["startdate"] if "startdate" in tov_df.columns else tov_df.get("_date"), errors="coerce", utc=True)
             for _, row in tov_df.iterrows():
                 key = (int(row["gameid"]), int(row["teamid"]))
                 tov_lookup[key] = row.to_dict()
@@ -588,7 +799,7 @@ def build_features(
             # form_df has gameid, teamid, form_delta — need dates from ff
             ff_dates = ff[["gameid", "teamid", "startdate"]].drop_duplicates(["gameid", "teamid"])
             form_df = form_df.merge(ff_dates, on=["gameid", "teamid"], how="left")
-            form_df["_date"] = pd.to_datetime(form_df["startdate"], errors="coerce")
+            form_df["_date"] = pd.to_datetime(form_df["startdate"], errors="coerce", utc=True)
             for _, row in form_df.iterrows():
                 form_lookup[(int(row["gameid"]), int(row["teamid"]))] = float(row["form_delta"])
             for tid, group in form_df.groupby("teamid"):
@@ -597,13 +808,23 @@ def build_features(
     conf_lookup: dict[tuple[str, str], float] = {}
     team_conf: dict[int, str] = {}
     if "conf_strength" in extra:
-        # Build conference mapping from gold layer ratings (has conference col)
-        if "conference" in eff_ratings.columns:
-            for tid, conf in zip(eff_ratings["teamId"], eff_ratings["conference"]):
-                if pd.notna(conf):
-                    team_conf[int(tid)] = str(conf)
         unique_dates = games["_game_dt"].dropna().unique()
-        conf_lookup = _build_conf_strength_lookup(eff_ratings, list(unique_dates))
+        if use_torvik:
+            # Build conference mapping from Torvik data
+            all_team_ids = set(games["homeTeamId"].dropna().astype(int)) | set(games["awayTeamId"].dropna().astype(int))
+            for tid in all_team_ids:
+                conf = torvik_loader.get_torvik_team_conference(tid, season)
+                if conf:
+                    team_conf[tid] = conf
+            conf_lookup = torvik_loader.build_torvik_conf_strength_lookup(
+                season, list(unique_dates))
+        else:
+            # Build conference mapping from gold layer ratings (has conference col)
+            if "conference" in eff_ratings.columns:
+                for tid, conf in zip(eff_ratings["teamId"], eff_ratings["conference"]):
+                    if pd.notna(conf):
+                        team_conf[int(tid)] = str(conf)
+            conf_lookup = _build_conf_strength_lookup(eff_ratings, list(unique_dates))
 
     margin_std_lookup: dict[tuple[int, int], float] = {}
     margin_std_team_lookup: dict[int, pd.DataFrame] = {}
@@ -619,7 +840,7 @@ def build_features(
             _ms_df = pd.DataFrame(_ms_rows)
             # Get dates from all_games_for_margin
             _dates_df = all_games_for_margin[["gameId", "startDate"]].copy()
-            _dates_df["_date"] = pd.to_datetime(_dates_df["startDate"], errors="coerce")
+            _dates_df["_date"] = pd.to_datetime(_dates_df["startDate"], errors="coerce", utc=True)
             _ms_df = _ms_df.merge(
                 _dates_df.rename(columns={"gameId": "gameid"}),
                 on="gameid", how="left",
@@ -629,8 +850,13 @@ def build_features(
 
     # ── HCA and venue-split pre-computations ─────────────────────
     # Always computed (base features, not extras)
+    # For Torvik path, build a teamId-keyed lookup compatible with _compute_team_hca
+    if use_torvik:
+        hca_eff_lookup = _build_torvik_teamid_lookup(season, torvik_eff_lookup)
+    else:
+        hca_eff_lookup = eff_lookup
     all_games_for_hca = load_games(season) if game_date is not None else games
-    hca_lookup = _compute_team_hca(all_games_for_hca, eff_lookup)
+    hca_lookup = _compute_team_hca(all_games_for_hca, hca_eff_lookup)
     hca_team_lookup: dict[int, pd.DataFrame] = {}
     if hca_lookup:
         _hca_rows = []
@@ -638,7 +864,7 @@ def build_features(
             _hca_rows.append({"gameid": gid_key, "teamid": tid_key, "team_hca": val})
         _hca_df = pd.DataFrame(_hca_rows)
         _dates_df = all_games_for_hca[["gameId", "startDate"]].copy()
-        _dates_df["_date"] = pd.to_datetime(_dates_df["startDate"], errors="coerce")
+        _dates_df["_date"] = pd.to_datetime(_dates_df["startDate"], errors="coerce", utc=True)
         _hca_df = _hca_df.merge(
             _dates_df.rename(columns={"gameId": "gameid"}),
             on="gameid", how="left",
@@ -651,7 +877,7 @@ def build_features(
     if not ff.empty:
         venue_split_df = compute_venue_split_rolling(ff)
         if not venue_split_df.empty:
-            venue_split_df["_date"] = pd.to_datetime(venue_split_df["startdate"], errors="coerce")
+            venue_split_df["_date"] = pd.to_datetime(venue_split_df["startdate"], errors="coerce", utc=True)
             for _, row in venue_split_df.iterrows():
                 key = (int(row["gameid"]), int(row["teamid"]))
                 venue_split_lookup[key] = row.to_dict()
@@ -666,12 +892,17 @@ def build_features(
         away_tid = int(game["awayTeamId"])
         game_dt = game["_game_dt"]
 
-        neutral = bool(game.get("neutralSite", False))
+        neutral = game.get("neutralSite", False) in (True, 1)
 
         # Look up efficiency ratings as of the day before the game
         if pd.isna(game_dt):
             home_eff = {}
             away_eff = {}
+        elif use_torvik:
+            home_eff = torvik_loader.get_torvik_asof_rating(
+                torvik_eff_lookup, home_tid, game_dt, season)
+            away_eff = torvik_loader.get_torvik_asof_rating(
+                torvik_eff_lookup, away_tid, game_dt, season)
         else:
             home_eff = _get_asof_rating(eff_lookup, home_tid, game_dt, include_sos=need_sos)
             away_eff = _get_asof_rating(eff_lookup, away_tid, game_dt, include_sos=need_sos)
@@ -687,8 +918,6 @@ def build_features(
             "home_team_adj_de": home_eff.get("adj_de"),
             "home_team_adj_pace": home_eff.get("adj_tempo"),
             "home_team_BARTHAG": home_eff.get("barthag"),
-            "home_team_home": int(not neutral),
-            "away_team_home": 0,  # always False
         }
 
         # Group 2: Rolling four-factor averages (away team)
@@ -746,10 +975,22 @@ def build_features(
             feat["rest_advantage"] = h_rest - a_rest
 
         if "sos" in extra:
-            feat["home_sos_oe"] = home_eff.get("sos_oe")
-            feat["home_sos_de"] = home_eff.get("sos_de")
-            feat["away_sos_oe"] = away_eff.get("sos_oe")
-            feat["away_sos_de"] = away_eff.get("sos_de")
+            if use_torvik and not pd.isna(game_dt):
+                dt_naive = game_dt
+                if hasattr(dt_naive, 'tz') and dt_naive.tz is not None:
+                    dt_naive = dt_naive.tz_localize(None)
+                date_key = (dt_naive.normalize() - timedelta(days=1)).strftime("%Y-%m-%d")
+                h_sos = torvik_sos_lookup.get((home_tid, date_key), {})
+                a_sos = torvik_sos_lookup.get((away_tid, date_key), {})
+                feat["home_sos_oe"] = h_sos.get("sos_oe")
+                feat["home_sos_de"] = h_sos.get("sos_de")
+                feat["away_sos_oe"] = a_sos.get("sos_oe")
+                feat["away_sos_de"] = a_sos.get("sos_de")
+            else:
+                feat["home_sos_oe"] = home_eff.get("sos_oe")
+                feat["home_sos_de"] = home_eff.get("sos_de")
+                feat["away_sos_oe"] = away_eff.get("sos_oe")
+                feat["away_sos_de"] = away_eff.get("sos_de")
 
         if "conf_strength" in extra:
             if not pd.isna(game_dt):
@@ -816,6 +1057,10 @@ def build_features(
         feat["startDate"] = game.get("startDate")
         feat["homeScore"] = game.get("homeScore")
         feat["awayScore"] = game.get("awayScore")
+        feat["neutralSite"] = game.get("neutralSite")
+        feat["gameType"] = game.get("gameType")
+        feat["tournament"] = game.get("tournament")
+        feat["conferenceGame"] = game.get("conferenceGame")
 
         records.append(feat)
 
@@ -823,8 +1068,19 @@ def build_features(
     if result.empty:
         return result
 
-    # Verify we have all features in FEATURE_ORDER
-    missing = [f for f in config.FEATURE_ORDER if f not in result.columns]
+    feature_order = _feature_order_for_contract(feature_contract)
+    if feature_contract == "swap_safe_v2":
+        result = result.rename(
+            columns={
+                "home_opp_ft_rate": "home_def_ft_rate",
+                "home_team_hca": "venue_edge",
+                "home_team_efg_home_split": "home_team_efg_slot_split",
+                "away_team_efg_away_split": "away_team_efg_slot_split",
+            }
+        )
+
+    # Verify we have all features in the selected feature order
+    missing = [f for f in feature_order if f not in result.columns]
     if missing:
         for col in missing:
             result[col] = None
@@ -846,9 +1102,13 @@ def get_feature_matrix(
         DataFrame with only the feature columns in the specified order.
     """
     order = feature_order or config.FEATURE_ORDER
-    # Only include columns that exist in df
-    available = [c for c in order if c in df.columns]
-    return df[available].copy()
+    missing = [c for c in order if c not in df.columns]
+    if missing:
+        raise KeyError(
+            f"Feature matrix missing {len(missing)} features: {missing[:5]}"
+            + (f" ... and {len(missing)-5} more" if len(missing) > 5 else "")
+        )
+    return df[order].copy()
 
 
 def get_targets(df: pd.DataFrame) -> pd.DataFrame:

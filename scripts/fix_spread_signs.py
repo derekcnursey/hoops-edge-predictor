@@ -21,7 +21,7 @@ import pandas as pd
 # Allow importing project modules
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from src.features import load_lines  # noqa: E402
+from src.features import load_research_lines  # noqa: E402
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CSV_DIR = PROJECT_ROOT / "predictions" / "csv"
@@ -56,7 +56,7 @@ def build_correct_spreads() -> dict[int, float]:
     correct: dict[int, float] = {}
 
     for season in range(2016, 2027):
-        lines_df = load_lines(season)
+        lines_df = load_research_lines(season)
         if lines_df.empty:
             continue
 

@@ -1,0 +1,11 @@
+{
+  "source_table": "fct_pbp_game_teams_flat_garbage_removed",
+  "repaired_table": "fct_pbp_game_teams_flat_garbage_removed_repaired_v1",
+  "season": 2025,
+  "rows_in": 12269,
+  "rows_out": 11741,
+  "games_repaired": 1141,
+  "games_dropped": 264,
+  "point_diff_threshold": 20.0,
+  "generated_at": "2026-03-11T23:47:50.257953+00:00"
+}

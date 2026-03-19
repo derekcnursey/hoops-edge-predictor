@@ -25,7 +25,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 from src import config
 from src.dataset import load_season_features
-from src.features import get_feature_matrix, get_targets, load_lines
+from src.features import get_feature_matrix, get_targets, load_research_lines
 from src.infer import (
     normal_cdf, american_to_breakeven, american_profit_per_1,
     prob_to_american, save_predictions,
@@ -87,7 +87,7 @@ def generate_predictions(
     out["away_win_prob"] = 1.0 - home_win_prob
 
     # Attach lines
-    lines = load_lines(holdout_season)
+    lines = load_research_lines(holdout_season)
     if not lines.empty:
         lines_fixed = lines.copy()
         lines_fixed["spread"] = pd.to_numeric(lines_fixed["spread"], errors="coerce")
@@ -143,18 +143,6 @@ def generate_predictions(
                       "home_moneyline", "away_moneyline"]
         available = [c for c in merge_cols if c in lines_dedup.columns]
         out = out.merge(lines_dedup[available], on="gameId", how="left")
-
-        # Phantom edge fix
-        if "book_spread" in out.columns:
-            _bs = out["book_spread"]
-            _ps = out["predicted_spread"]
-            _phantom = _bs + _ps
-            mask_phantom = (
-                _bs.notna() & _ps.notna()
-                & (((_bs > 0) & (_ps > 0) & (_phantom >= 9))
-                   | ((_bs < 0) & (_ps < 0) & (_phantom <= -9)))
-            )
-            out.loc[mask_phantom, "book_spread"] = -_bs[mask_phantom]
 
         # Edge metrics
         if "book_spread" in out.columns:
@@ -222,7 +210,7 @@ def main():
         if holdout_year == 2026:
             print("  Using production model (trained on 2015-2025)")
             from src.infer import predict
-            lines = load_lines(holdout_year)
+            lines = load_research_lines(holdout_year)
             preds = predict(holdout_df, lines_df=lines)
         else:
             # Build training set from all prior seasons

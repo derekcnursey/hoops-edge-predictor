@@ -1,0 +1,14 @@
+{
+  "season": 2022,
+  "option": "logistic_raw_z",
+  "base_score": "z_raw",
+  "train_seasons": [
+    2019,
+    2020
+  ],
+  "calibration": {
+    "method": "logistic",
+    "intercept": 0.008382561081829151,
+    "coef": 0.37835509153657715
+  }
+}

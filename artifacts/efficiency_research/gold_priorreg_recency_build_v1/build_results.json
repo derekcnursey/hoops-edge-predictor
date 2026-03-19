@@ -1,0 +1,354 @@
+[
+  {
+    "season": 2015,
+    "k": 5,
+    "half_life": null,
+    "rows": 48963,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_v1/season=2015/asof=2026-03-11/part-priorreg-k5.parquet"
+  },
+  {
+    "season": 2015,
+    "k": 5,
+    "half_life": 60.0,
+    "rows": 48963,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1/season=2015/asof=2026-03-11/part-priorreg-k5-hl60.parquet"
+  },
+  {
+    "season": 2015,
+    "k": 5,
+    "half_life": 45.0,
+    "rows": 48963,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1/season=2015/asof=2026-03-11/part-priorreg-k5-hl45.parquet"
+  },
+  {
+    "season": 2015,
+    "k": 5,
+    "half_life": 30.0,
+    "rows": 48963,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1/season=2015/asof=2026-03-11/part-priorreg-k5-hl30.parquet"
+  },
+  {
+    "season": 2016,
+    "k": 5,
+    "half_life": null,
+    "rows": 48981,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_v1/season=2016/asof=2026-03-11/part-priorreg-k5.parquet"
+  },
+  {
+    "season": 2016,
+    "k": 5,
+    "half_life": 60.0,
+    "rows": 48981,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1/season=2016/asof=2026-03-11/part-priorreg-k5-hl60.parquet"
+  },
+  {
+    "season": 2016,
+    "k": 5,
+    "half_life": 45.0,
+    "rows": 48981,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1/season=2016/asof=2026-03-11/part-priorreg-k5-hl45.parquet"
+  },
+  {
+    "season": 2016,
+    "k": 5,
+    "half_life": 30.0,
+    "rows": 48981,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1/season=2016/asof=2026-03-11/part-priorreg-k5-hl30.parquet"
+  },
+  {
+    "season": 2017,
+    "k": 5,
+    "half_life": null,
+    "rows": 48510,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_v1/season=2017/asof=2026-03-11/part-priorreg-k5.parquet"
+  },
+  {
+    "season": 2017,
+    "k": 5,
+    "half_life": 60.0,
+    "rows": 48510,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1/season=2017/asof=2026-03-11/part-priorreg-k5-hl60.parquet"
+  },
+  {
+    "season": 2017,
+    "k": 5,
+    "half_life": 45.0,
+    "rows": 48510,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1/season=2017/asof=2026-03-11/part-priorreg-k5-hl45.parquet"
+  },
+  {
+    "season": 2017,
+    "k": 5,
+    "half_life": 30.0,
+    "rows": 48510,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1/season=2017/asof=2026-03-11/part-priorreg-k5-hl30.parquet"
+  },
+  {
+    "season": 2018,
+    "k": 5,
+    "half_life": null,
+    "rows": 48725,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_v1/season=2018/asof=2026-03-11/part-priorreg-k5.parquet"
+  },
+  {
+    "season": 2018,
+    "k": 5,
+    "half_life": 60.0,
+    "rows": 48725,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1/season=2018/asof=2026-03-11/part-priorreg-k5-hl60.parquet"
+  },
+  {
+    "season": 2018,
+    "k": 5,
+    "half_life": 45.0,
+    "rows": 48725,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1/season=2018/asof=2026-03-11/part-priorreg-k5-hl45.parquet"
+  },
+  {
+    "season": 2018,
+    "k": 5,
+    "half_life": 30.0,
+    "rows": 48725,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1/season=2018/asof=2026-03-11/part-priorreg-k5-hl30.parquet"
+  },
+  {
+    "season": 2019,
+    "k": 5,
+    "half_life": null,
+    "rows": 52147,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_v1/season=2019/asof=2026-03-11/part-priorreg-k5.parquet"
+  },
+  {
+    "season": 2019,
+    "k": 5,
+    "half_life": 60.0,
+    "rows": 52147,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1/season=2019/asof=2026-03-11/part-priorreg-k5-hl60.parquet"
+  },
+  {
+    "season": 2019,
+    "k": 5,
+    "half_life": 45.0,
+    "rows": 52147,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1/season=2019/asof=2026-03-11/part-priorreg-k5-hl45.parquet"
+  },
+  {
+    "season": 2019,
+    "k": 5,
+    "half_life": 30.0,
+    "rows": 52147,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1/season=2019/asof=2026-03-11/part-priorreg-k5-hl30.parquet"
+  },
+  {
+    "season": 2020,
+    "k": 5,
+    "half_life": null,
+    "rows": 43001,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_v1/season=2020/asof=2026-03-11/part-priorreg-k5.parquet"
+  },
+  {
+    "season": 2020,
+    "k": 5,
+    "half_life": 60.0,
+    "rows": 43001,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1/season=2020/asof=2026-03-11/part-priorreg-k5-hl60.parquet"
+  },
+  {
+    "season": 2020,
+    "k": 5,
+    "half_life": 45.0,
+    "rows": 43001,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1/season=2020/asof=2026-03-11/part-priorreg-k5-hl45.parquet"
+  },
+  {
+    "season": 2020,
+    "k": 5,
+    "half_life": 30.0,
+    "rows": 43001,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1/season=2020/asof=2026-03-11/part-priorreg-k5-hl30.parquet"
+  },
+  {
+    "season": 2021,
+    "k": 5,
+    "half_life": null,
+    "rows": 41948,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_v1/season=2021/asof=2026-03-11/part-priorreg-k5.parquet"
+  },
+  {
+    "season": 2021,
+    "k": 5,
+    "half_life": 60.0,
+    "rows": 41948,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1/season=2021/asof=2026-03-11/part-priorreg-k5-hl60.parquet"
+  },
+  {
+    "season": 2021,
+    "k": 5,
+    "half_life": 45.0,
+    "rows": 41948,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1/season=2021/asof=2026-03-11/part-priorreg-k5-hl45.parquet"
+  },
+  {
+    "season": 2021,
+    "k": 5,
+    "half_life": 30.0,
+    "rows": 41948,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1/season=2021/asof=2026-03-11/part-priorreg-k5-hl30.parquet"
+  },
+  {
+    "season": 2022,
+    "k": 5,
+    "half_life": null,
+    "rows": 50730,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_v1/season=2022/asof=2026-03-11/part-priorreg-k5.parquet"
+  },
+  {
+    "season": 2022,
+    "k": 5,
+    "half_life": 60.0,
+    "rows": 50730,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1/season=2022/asof=2026-03-11/part-priorreg-k5-hl60.parquet"
+  },
+  {
+    "season": 2022,
+    "k": 5,
+    "half_life": 45.0,
+    "rows": 50730,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1/season=2022/asof=2026-03-11/part-priorreg-k5-hl45.parquet"
+  },
+  {
+    "season": 2022,
+    "k": 5,
+    "half_life": 30.0,
+    "rows": 50730,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1/season=2022/asof=2026-03-11/part-priorreg-k5-hl30.parquet"
+  },
+  {
+    "season": 2023,
+    "k": 5,
+    "half_life": null,
+    "rows": 50174,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_v1/season=2023/asof=2026-03-11/part-priorreg-k5.parquet"
+  },
+  {
+    "season": 2023,
+    "k": 5,
+    "half_life": 60.0,
+    "rows": 50174,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1/season=2023/asof=2026-03-11/part-priorreg-k5-hl60.parquet"
+  },
+  {
+    "season": 2023,
+    "k": 5,
+    "half_life": 45.0,
+    "rows": 50174,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1/season=2023/asof=2026-03-11/part-priorreg-k5-hl45.parquet"
+  },
+  {
+    "season": 2023,
+    "k": 5,
+    "half_life": 30.0,
+    "rows": 50174,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1/season=2023/asof=2026-03-11/part-priorreg-k5-hl30.parquet"
+  },
+  {
+    "season": 2024,
+    "k": 5,
+    "half_life": null,
+    "rows": 53508,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_v1/season=2024/asof=2026-03-11/part-priorreg-k5.parquet"
+  },
+  {
+    "season": 2024,
+    "k": 5,
+    "half_life": 60.0,
+    "rows": 53508,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1/season=2024/asof=2026-03-11/part-priorreg-k5-hl60.parquet"
+  },
+  {
+    "season": 2024,
+    "k": 5,
+    "half_life": 45.0,
+    "rows": 53508,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1/season=2024/asof=2026-03-11/part-priorreg-k5-hl45.parquet"
+  },
+  {
+    "season": 2024,
+    "k": 5,
+    "half_life": 30.0,
+    "rows": 53508,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1/season=2024/asof=2026-03-11/part-priorreg-k5-hl30.parquet"
+  },
+  {
+    "season": 2025,
+    "k": 5,
+    "half_life": null,
+    "rows": 54560,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_v1/season=2025/asof=2026-03-11/part-priorreg-k5.parquet"
+  },
+  {
+    "season": 2025,
+    "k": 5,
+    "half_life": 60.0,
+    "rows": 54560,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl60_v1/season=2025/asof=2026-03-11/part-priorreg-k5-hl60.parquet"
+  },
+  {
+    "season": 2025,
+    "k": 5,
+    "half_life": 45.0,
+    "rows": 54560,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl45_v1/season=2025/asof=2026-03-11/part-priorreg-k5-hl45.parquet"
+  },
+  {
+    "season": 2025,
+    "k": 5,
+    "half_life": 30.0,
+    "rows": 54560,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_hl30_v1/season=2025/asof=2026-03-11/part-priorreg-k5-hl30.parquet"
+  }
+]

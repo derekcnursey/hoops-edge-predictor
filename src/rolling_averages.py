@@ -196,12 +196,13 @@ def compute_rolling_turnovers(box: pd.DataFrame) -> pd.DataFrame:
             gameid, teamid, startdate, team_tov_ratio, opp_tov_ratio.
 
     Returns:
-        DataFrame with gameid, teamid, rolling_tov_rate, rolling_def_tov_rate.
+        DataFrame with gameid, teamid, startdate, rolling_tov_rate,
+        rolling_def_tov_rate.
     """
     needed = ["gameid", "teamid", "startdate", "team_tov_ratio", "opp_tov_ratio"]
     missing = [c for c in needed if c not in box.columns]
     if missing:
-        return pd.DataFrame(columns=["gameid", "teamid", "rolling_tov_rate", "rolling_def_tov_rate"])
+        return pd.DataFrame(columns=["gameid", "teamid", "startdate", "rolling_tov_rate", "rolling_def_tov_rate"])
 
     df = box[needed].copy()
     df["_date"] = pd.to_datetime(df["startdate"], errors="coerce")
@@ -222,7 +223,7 @@ def compute_rolling_turnovers(box: pd.DataFrame) -> pd.DataFrame:
             .mean()
             .shift(1)
         )
-        results.append(g[["gameid", "teamid", "rolling_tov_rate", "rolling_def_tov_rate"]])
+        results.append(g[["gameid", "teamid", "startdate", "rolling_tov_rate", "rolling_def_tov_rate"]])
 
     return pd.concat(results, ignore_index=True)
 

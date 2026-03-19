@@ -1,23 +1,31 @@
 {
+  "benchmark_dir": "/Users/dereknursey/Desktop/ml_projects/codex_review/hoops-edge-predictor_codex/artifacts/benchmarks/canonical_walkforward_lgb_l2_blend_repaired_lines_neutralfix",
   "date": "2022-04-01",
+  "extra_benchmark_dirs": [],
   "games": [
     {
       "away_team": "Fresno State",
-      "edge_home_points": 0.3154785633087158,
+      "edge_home_points": 2.813360020518303,
       "game_id": "2022_04_01_fresno_state_coastal_carolina",
       "home_team": "Coastal Carolina",
       "market_spread_home": 3.0,
-      "model_mu_home": -2.684521436691284,
-      "pick_cover_prob": 0.511114347921066,
-      "pick_ev_per_1": -0.024236244877964885,
-      "pick_fair_odds": -104.54680879825516,
-      "pick_prob_edge": -0.01269517588845781,
+      "model_mu_home": -0.18663997948169708,
+      "pick_cover_prob": 0.5810766134485991,
+      "pick_ev_per_1": 0.10932808022005269,
+      "pick_fair_odds": -138.7071316863095,
+      "pick_prob_edge": 0.05726708963907523,
       "pick_side": "HOME",
-      "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.32112357020378113,
-      "pred_sigma": 11.322432518005371,
+      "pick_spread_odds": -110.0,
+      "pred_home_win_prob": 0.4945839256164035,
+      "pred_sigma": 13.74728012084961,
       "start_time": "2022-04-01T22:00:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T23:11:26.539882Z"
+  "generated_at": "2026-03-14T17:53:08.829505Z",
+  "mu_model": "LightGBMRegressionL2Blend",
+  "sigma_mode": "raw",
+  "sigma_model": "CurrentMLP",
+  "source": "true_walkforward_historical",
+  "torvik_benchmark_dir": null,
+  "torvik_extra_benchmark_dirs": []
 }

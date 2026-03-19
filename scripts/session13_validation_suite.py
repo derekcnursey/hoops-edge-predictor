@@ -32,7 +32,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from src import config
 from src.architecture import MLPRegressor, gaussian_nll_loss
 from src.dataset import HoopsDataset, load_multi_season_features
-from src.features import get_feature_matrix, get_targets, load_lines
+from src.features import get_feature_matrix, get_targets, load_research_lines
 from src.trainer import impute_column_means
 
 ADJ_SUFFIX = f"adj_a{config.ADJUST_ALPHA}_p{config.ADJUST_PRIOR}"
@@ -77,7 +77,7 @@ def load_season_data(train_seasons, val_seasons):
     # Merge book spreads for val
     for vs in val_seasons:
         try:
-            lines_df = load_lines(vs)
+            lines_df = load_research_lines(vs)
             if not lines_df.empty:
                 ld = lines_df.sort_values("provider").drop_duplicates(
                     subset=["gameId"], keep="first")
@@ -348,7 +348,7 @@ def load_val_data():
     df_val = df_val.dropna(subset=["homeScore", "awayScore"])
     df_val = df_val[(df_val["homeScore"] != 0) | (df_val["awayScore"] != 0)]
     try:
-        lines_df = load_lines(2026)
+        lines_df = load_research_lines(2026)
         if not lines_df.empty:
             ld = lines_df.sort_values("provider").drop_duplicates(
                 subset=["gameId"], keep="first")
@@ -1314,7 +1314,7 @@ def test_11_line_staleness(df_val):
 
     # Check what columns exist in lines data
     try:
-        lines_df = load_lines(2026)
+        lines_df = load_research_lines(2026)
         print(f"\n  Lines table columns: {list(lines_df.columns)}")
         print(f"  Total rows: {len(lines_df)}")
 

@@ -79,7 +79,7 @@ def predict_variant(features_path: Path, subdir: str | None = None) -> pd.DataFr
 def attach_lines(preds: pd.DataFrame) -> pd.DataFrame:
     """Merge book spreads from S3 fct_lines."""
     from src import s3_reader
-    lines_tbl = s3_reader.read_silver_table("fct_lines", season=SEASON)
+    lines_tbl = s3_reader.read_silver_table(config.RESEARCH_LINES_TABLE, season=SEASON)
     if lines_tbl.num_rows == 0:
         preds["book_spread"] = np.nan
         return preds

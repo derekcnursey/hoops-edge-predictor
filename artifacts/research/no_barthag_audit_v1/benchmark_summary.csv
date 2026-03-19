@@ -1,0 +1,3 @@
+variant,pooled_mae_all,pooled_mae_lined,dec15_mae_all,dec15_mae_lined
+with_barthag,9.5613,9.0545,9.0518,8.8663
+no_barthag,9.595256044042912,9.146200801923822,9.123486643442606,8.9681121905447

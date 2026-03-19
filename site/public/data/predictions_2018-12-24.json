@@ -1,23 +1,31 @@
 {
+  "benchmark_dir": "/Users/dereknursey/Desktop/ml_projects/codex_review/hoops-edge-predictor_codex/artifacts/benchmarks/canonical_walkforward_lgb_l2_blend_repaired_lines_neutralfix",
   "date": "2018-12-24",
+  "extra_benchmark_dirs": [],
   "games": [
     {
       "away_team": "Rhode Island",
-      "edge_home_points": 1.7749137878417969,
+      "edge_home_points": 5.024975680485511,
       "game_id": "2018_12_24_rhode_island_charlotte",
       "home_team": "Charlotte",
       "market_spread_home": 14.5,
-      "model_mu_home": -12.725086212158203,
-      "pick_cover_prob": 0.559776610206552,
-      "pick_ev_per_1": 0.06866443766705377,
-      "pick_fair_odds": -127.15739853559307,
-      "pick_prob_edge": 0.03596708639702817,
+      "model_mu_home": -9.475024319514489,
+      "pick_cover_prob": 0.699841866321157,
+      "pick_ev_per_1": 0.336061744794936,
+      "pick_fair_odds": -233.15772181271598,
+      "pick_prob_edge": 0.17603234251163313,
       "pick_side": "HOME",
-      "pick_spread_odds": -110,
-      "pred_home_win_prob": 0.07817429304122925,
-      "pred_sigma": 11.801063537597656,
+      "pick_spread_odds": -110.0,
+      "pred_home_win_prob": 0.16158983147913153,
+      "pred_sigma": 9.590641021728516,
       "start_time": "2018-12-24T05:30:00.000Z"
     }
   ],
-  "generated_at": "2026-03-05T23:07:54.545012Z"
+  "generated_at": "2026-03-14T17:53:07.656733Z",
+  "mu_model": "LightGBMRegressionL2Blend",
+  "sigma_mode": "raw",
+  "sigma_model": "CurrentMLP",
+  "source": "true_walkforward_historical",
+  "torvik_benchmark_dir": null,
+  "torvik_extra_benchmark_dirs": []
 }

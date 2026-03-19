@@ -20,7 +20,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from src import config
 from src.dataset import load_multi_season_features, load_season_features
-from src.features import get_feature_matrix, get_targets, load_lines
+from src.features import get_feature_matrix, get_targets, load_research_lines
 from src.trainer import fit_scaler, train_regressor, train_classifier
 from src.architecture import MLPRegressor, MLPClassifier
 
@@ -224,7 +224,7 @@ def main():
 
     # Attach book spreads
     try:
-        lines = load_lines(HOLDOUT_SEASON)
+        lines = load_research_lines(HOLDOUT_SEASON)
         if lines is not None and not lines.empty:
             lines_dedup = lines.sort_values("provider").drop_duplicates(
                 subset=["gameId"], keep="first")

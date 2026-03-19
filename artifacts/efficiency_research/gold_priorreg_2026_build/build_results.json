@@ -1,0 +1,10 @@
+[
+  {
+    "season": 2026,
+    "k": 5,
+    "half_life": null,
+    "rows": 37494,
+    "table_name": "team_adjusted_efficiencies_no_garbage_priorreg_k5_v1",
+    "s3_key": "gold/team_adjusted_efficiencies_no_garbage_priorreg_k5_v1/season=2026/asof=2026-03-11/part-priorreg-k5.parquet"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "bronze_prefix": "bronze/lines",
+  "staged_table": "fct_lines_repaired_v1",
+  "audit_prefix": "ref/fct_lines_repaired_v1_audit",
+  "seasons": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "repair_logic": {
+    "flip_sign": [
+      "strong_moneyline_conflict + majority_sign_conflict",
+      "strong_moneyline_conflict + corroborating_non_consensus_opposite_sign for consensus rows",
+      "strong_moneyline_conflict + unanimous_opposite_peer_signals for non-consensus rows"
+    ],
+    "exclude": [
+      "strong_moneyline_conflict without corroborated repair",
+      "moneyline_conflict",
+      "consensus majority_sign_conflict without strong corroboration"
+    ],
+    "keep": [
+      "all other latest provider rows"
+    ]
+  }
+}
